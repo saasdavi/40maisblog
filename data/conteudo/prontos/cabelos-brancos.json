@@ -67,7 +67,22 @@
   }
  ],
  "scores": {
-  "auditoria": 87
+  "auditoria": 87,
+  "total": 92,
+  "decisao": "PUBLICAR",
+  "partes": {
+   "qualidade": 87,
+   "demanda": 100,
+   "fontes": 80,
+   "originalidade": 100,
+   "formato": 100,
+   "seguranca": 100
+  },
+  "atencao": [
+   "só 1 fonte(s) oficial(is) de 4 (ideal 2+)",
+   "ajuste: title 75 chars com sufixo (máx 60)",
+   "ajuste: 5 parágrafos > 50 palavras"
+  ]
  },
  "validador": "APROVADO",
  "validacao": {

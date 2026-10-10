@@ -75,7 +75,23 @@
   }
  ],
  "scores": {
-  "auditoria": 84
+  "auditoria": 84,
+  "total": 90,
+  "decisao": "PUBLICAR",
+  "partes": {
+   "qualidade": 84,
+   "demanda": 100,
+   "fontes": 80,
+   "originalidade": 100,
+   "formato": 90,
+   "seguranca": 100
+  },
+  "atencao": [
+   "só 1 fonte(s) oficial(is) de 6 (ideal 2+)",
+   "ajuste: 1º parágrafo com 60 palavras (máx 50)",
+   "ajuste: 1 parágrafos > 50 palavras",
+   "ajuste: densidade da keyword 3.4% (máx 3%): varie com sinônimos e pronomes"
+  ]
  },
  "validador": "APROVADO",
  "validacao": {
