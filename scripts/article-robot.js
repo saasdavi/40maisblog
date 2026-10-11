@@ -46,7 +46,9 @@ const PAUTAS_FALHAS = process.env.PAUTAS_FALHAS || path.join(__dirname, '../data
 const LLM_ESTADO = process.env.LLM_ESTADO || path.join(__dirname, '../data/llm-estado.json');
 const WRITER_MODEL = process.env.ROBOT_MODEL || 'claude-haiku-4-5-20251001';
 const VALIDATOR_MODEL = process.env.VALIDATOR_MODEL || 'claude-haiku-4-5-20251001';
-const MIN_SCORE = 80;
+// Nota mínima do artigo novo escrito por API (regra do dono: só entrega nota 9,0 ou mais). A nota do auditor em código é a que decide; o validador também dá nota de 0 a 10.
+const MIN_SCORE = Number(process.env.MIN_SCORE || 90);
+const NOTA_MIN_VALIDADOR = Number(process.env.NOTA_MIN_VALIDADOR || 9);
 const SITE_SUFFIX = ' | Saúde 40+';
 const MAX_VOLTAS = 3;
 // US$ por milhão de tokens [entrada, saída]
@@ -88,6 +90,8 @@ const CLAIMS = [
   /\b100\s*%\s*(seguro|natural|eficaz)/i,
 ];
 const NEGA = /\b(n[aã]o|nem|nunca|jamais|sem\s+garantia|nenhum\w*|mito|promessas?\s+de|falsas?)\b/i;
+const AVISA_ANTES = /\b(evit(e|ar|ando|em)|cuidado|desconfie|prometem|prometer|prometendo|alegam|anunciad\w+|vendid\w+|n[aã]o\s+(use|usar|consuma|compre|inicie)|sem\s+(comprova\w+|respaldo|suporte|evid[eê]ncia\w*))\b/i;
+const AVISA_DEPOIS = /^[^.!?]{0,70}\b(n[aã]o\s+(t[eê]m|tem|funciona\w*|existe\w*|h[aá]|possu\w+)|sem\s+(efic[aá]cia|comprova\w+|respaldo|evid[eê]ncia\w*)|n[aã]o\s+s[aã]o\s+(seguros|eficazes))/i;
 // Devolve os trechos que prometem; ignora o que vem negado logo antes ou em forma de pergunta logo depois.
 export function achaPromessas(texto) {
   const achados = [];
@@ -96,7 +100,10 @@ export function achaPromessas(texto) {
     for (const m of texto.matchAll(g)) {
       const antes = texto.slice(Math.max(0, m.index - 40), m.index);
       const depois = texto.slice(m.index + m[0].length, m.index + m[0].length + 3);
-      if (NEGA.test(antes) || /^\s*\?/.test(depois)) continue;
+      const antesLongo = texto.slice(Math.max(0, m.index - 120), m.index);
+      const depoisLongo = texto.slice(m.index + m[0].length, m.index + m[0].length + 90);
+      // quem ALERTA contra a promessa ("suplementos \"milagrosos\" não têm eficácia", "evite fórmulas milagrosas") não está prometendo
+      if (NEGA.test(antes) || /^\s*\?/.test(depois) || AVISA_ANTES.test(antesLongo) || AVISA_DEPOIS.test(depoisLongo)) continue;
       achados.push(texto.slice(Math.max(0, m.index - 25), m.index + m[0].length + 25).replace(/\s+/g, ' ').trim());
     }
   }
@@ -137,8 +144,6 @@ class ArticleRobot {
     const livres = this.kw.filter(k => {
       if ((falhas[k.keyword]?.tentativas || 0) >= 2) return false; // reprovou 2 vezes: pula
       if (k.serp?.facil !== true || !k.fontes?.length) return false;
-      // tema sensível (remédio, urgência, sexualidade...) só publica depois de revisão humana: tire `sensivel`/`revisar` da pauta
-      if (k.sensivel === true && k.revisar === true) return false;
       if (ESTOQUE && k.substitui) return false; // reescrita de artigo no ar não passa pelo estoque
       if (k.substitui) return !!porSlug.get(k.substitui) && porSlug.get(k.substitui).validador !== 'APROVADO';
       return !usadas.has(k.keyword.toLowerCase()) && !usadas.has(slugify(k.keyword));
@@ -179,9 +184,10 @@ class ArticleRobot {
 
   // ---------- estoque de artigos prontos ----------
   // Só publica do estoque o que foi aprovado pelo robô ou importado (ChatGPT etc.) E tem auditoria acima de 85; abaixo disso fica retido para correção.
-  // Artigo do estoque que o dono precisa revisar antes de ir ao ar: nota final abaixo de 90 ou tema sensível sem REVISADO: sim.
-  precisaRevisao(a) { return (a.scores?.total ?? 100) < 90 || (a.scores?.atencao || []).some(m => m.includes('tema sensível')); }
-  prontosNoEstoque() { return this.db.articles.filter(a => a.status === 'draft' && a.estoque === true && (a.validador === 'APROVADO' || a.origem === 'importado') && (a.scores?.auditoria ?? 100) > 85 && !this.precisaRevisao(a)); }
+  // Regra do dono (DECISOES-DO-DONO.md): a ÚNICA trava é nota baixa (pontuação final < 90, salvo artigo do chat com NOTA_CHAT ≥ 9).
+  // Tema sensível e promessa não seguram artigo. `segurar: true`, posto à mão pelo dono, também segura.
+  precisaRevisao(a) { return ((a.scores?.total ?? 100) < 90 && !((a.scores?.notaChat ?? 0) >= 9)) || a.segurar === true; }
+  prontosNoEstoque() { return this.db.articles.filter(a => a.status === 'draft' && a.estoque === true && (a.validador === 'APROVADO' || a.origem === 'importado') && ((a.scores?.auditoria ?? 100) > 85 || (a.scores?.notaChat ?? 0) >= 9) && !this.precisaRevisao(a)); }
 
   // Publica do estoque (no máximo `quantos`, respeitando o teto do dia). Devolve quantos publicou.
   // Artigo guardado sem foto (fotoPendente) busca a foto AGORA, na hora de publicar; se as APIs de foto
@@ -414,6 +420,7 @@ REGRAS (padrão Mente Curiosa):
 ${lista}
 8. NUNCA invente números, estudos, nomes, depoimentos, antes/depois ou resultados. Na dúvida, corte. Sem PROMESSA de cura, de emagrecimento garantido ou de "sem efeitos colaterais" (as palavras podem aparecer quando negam ou explicam, ex.: "não tem cura"). Sem diagnóstico, sem dose de medicamento ou suplemento.
 9. "Depois dos 40" é só o público do blog: NÃO afirme nada específico de idade, menopausa, hormônios ou "após os 40" que não esteja escrito nos trechos das fontes. Se as fontes não falam de 40+, escreva de forma geral e use "você".
+9a. Estilo neuro-humano (prompt do dono): frases na voz ativa ("o fígado metaboliza a gordura", não "a gordura é metabolizada pelo fígado"); alterne frase curta de impacto com frase média explicativa; não abra parágrafo com conectivo mecânico ("Além disso,", "Por outro lado,", "Ademais,", "Com isso,"); ao introduzir um mecanismo biológico, use na hora uma analogia do dia a dia, só se ela estiver nos trechos das fontes; nada de fecho de parágrafo do tipo "X é importante, mas o equilíbrio é fundamental" nem adjetivo vazio (essencial, crucial, indispensável). Se o tema envolve remédio, suplemento, hormônio ou exame, liste contraindicações por grupo de risco (gestantes, lactantes, hipertensos, renais, hepáticos, diabéticos, quem usa remédio contínuo) e interações, SÓ se estiverem nos trechos das fontes.
 9b. Tom humano: "você", exemplos do dia a dia. PROIBIDO: ${PROIBIDAS.map(x => `"${x}"`).join(', ')}.
 10. Não mencione marcas de suplemento nem venda produtos.
 ${devolucao ? `\nA VERSÃO ANTERIOR FOI DEVOLVIDA. Reescreva o artigo COMPLETO corrigindo SOMENTE estes pontos, sem encurtar (mantenha 1.300+ palavras e todas as seções, incluindo "Quando procurar um médico" e "Resumindo"). Remova ou reformule qualquer frase apontada como sem apoio nas fontes:\n- ${devolucao.join('\n- ')}\n\nVERSÃO ANTERIOR (HTML) PARA VOCÊ CORRIGIR:\n${anterior || ''}\n` : ''}
@@ -553,6 +560,8 @@ IMPORTANTE: links internos do site (href="/slug/") apontam para outros artigos d
 
 Checklist: V1 fatos batem com as fontes citadas (qualquer número, estudo, nome ou estatística sem apoio reprova) · V2 fontes são pertinentes ao assunto · V3 o 1º parágrafo responde a pergunta · V4 cada seção ensina algo (sem enchimento) · V5 tom humano (apenas sugestão, NÃO reprove por tom ou estilo) · V6 é seguro (sem diagnóstico, dose, promessa de cura/emagrecimento, nem orientação perigosa) · V7 nada de marca ou venda.
 
+Além da decisão, dê uma NOTA de 0 a 10 como auditor externo e cético (em caso de dúvida, desconte): fontes oficiais com link e contexto (2,0) · segurança e contraindicações, sem dose, marca ou promessa (2,0) · precisão dos fatos (1,5) · responde a intenção de busca com profundidade (1,5) · SEO natural: palavra-chave no título, descrição, 1º parágrafo e H2 (1,0) · estrutura e leitura, parágrafos curtos, seções "Quando procurar um médico" e "Resumindo" (1,0) · naturalidade, sem clichê de IA (1,0). Tetos: sem fonte oficial com link, no máximo 5,0; promessa de cura/garantia ou dose, no máximo 6,0; tema com risco clínico sem contraindicações, no máximo 6,0; clichês de IA, no máximo 7,0; menos de 1.300 palavras, no máximo 7,0.
+
 TRECHOS DAS FONTES (única base factual permitida; V1 reprova qualquer fato, número ou afirmação específica que não esteja aqui):\n${fontesLidas.map((f, i) => `[FONTE ${i + 1}] ${f.nome} (${f.url})\n${f.texto}`).join('\n\n---\n\n')}\n\nFontes citadas: ${a.sources.map(s => s.title).join('; ')}
 Palavra-chave: ${a.primaryKeyword}
 
@@ -560,7 +569,7 @@ TÍTULO: ${a.title}
 CORPO:
 ${a.content}
 
-Responda SOMENTE com um objeto JSON válido (sem texto antes ou depois, sem cercas de código), no formato: {"decisao":"APROVADO"|"DEVOLVER","motivos":["V1: ...","V4: ..."]}`;
+Responda SOMENTE com um objeto JSON válido (sem texto antes ou depois, sem cercas de código), no formato: {"decisao":"APROVADO"|"DEVOLVER","nota":8.7,"motivos":["V1: ...","V4: ..."]}`;
     for (let tentativa = 1; tentativa <= 3; tentativa++) {
       let raw;
       try { raw = await this.claude(prompt, 12000, VALIDATOR_MODEL, 'validador'); } catch (e) { if (e.message === 'TRUNCADO') { console.log('  ↻ validador truncado'); continue; } throw e; }
@@ -583,9 +592,11 @@ Responda SOMENTE com um objeto JSON válido (sem texto antes ou depois, sem cerc
       aud.alertas.forEach(x => console.log(`     · ${x}`));
       if (aud.bloqueios.length || aud.nota < MIN_SCORE) { devolucao = [...aud.bloqueios, ...aud.alertas]; ultimo = { art, motivos: devolucao }; this.geminiFalhou(); continue; }
       const v = await this.validar(art, fontesLidas);
-      console.log(`  validador: ${v.decisao}${v.motivos?.length ? ' — ' + v.motivos.join(' | ') : ''}`);
-      if (v.decisao === 'APROVADO') { art.scores = { auditoria: aud.nota }; art.validador = 'APROVADO'; delete art.bodyOriginal; return art; }
-      devolucao = v.motivos || ['validador devolveu'];
+      const notaV = Number(String(v.nota ?? '').replace(',', '.'));
+      const abaixo = v.decisao === 'APROVADO' && Number.isFinite(notaV) && v.nota !== undefined && v.nota !== null && notaV < NOTA_MIN_VALIDADOR;
+      console.log(`  validador: ${v.decisao}${Number.isFinite(notaV) && v.nota != null ? ` | nota ${notaV}/10` : ''}${abaixo ? ` (mínimo ${NOTA_MIN_VALIDADOR}, devolvido)` : ''}${v.motivos?.length ? ' — ' + v.motivos.join(' | ') : ''}`);
+      if (v.decisao === 'APROVADO' && !abaixo) { art.scores = { auditoria: aud.nota, ...(Number.isFinite(notaV) && v.nota != null ? { validador: notaV } : {}) }; art.validador = 'APROVADO'; delete art.bodyOriginal; return art; }
+      devolucao = v.motivos?.length ? v.motivos : [abaixo ? `nota do validador ${notaV}/10, mínimo ${NOTA_MIN_VALIDADOR}` : 'validador devolveu'];
       ultimo = { art, motivos: devolucao };
       this.geminiFalhou();
     }

@@ -54,8 +54,8 @@ L.push('# Calendário de artigos', '', `Gerado por \`scripts/calendario-artigos.
   ...publicados.map((a) => `| ${br(dia(new Date(a.publishedAt)))} | ${esc(a.title)} (\`/${a.slug}/\`) | ${a.scores?.total ?? a.scores?.auditoria ?? '—'} |`), '',
   `## 1b. Artigo novo (IA) dos próximos dias`, '', '| Data | Palavra-chave | Situação |', '|---|---|---|',
   ...novos.map((x) => `| ${br(x.data)} | ${esc(x.palavra)} | ${esc(x.situacao)} |`), '',
-  `## 2. Prontos para publicação futura (${prontos.length})`, '', '| Nº | Data prevista | Artigo | Palavra-chave | Nota |', '|---|---|---|---|---|',
-  ...prontos.map((x) => `| ${x.n} | ${br(x.dia)} | ${esc(x.a.title)} (\`/${x.a.slug}/\`) | ${esc(x.a.primaryKeyword)} | ${x.a.scores.total} |`), '',
+  `## 2. Prontos para publicação futura (${prontos.length})`, '', '| Nº | Data prevista | Artigo | Palavra-chave | Nota | Origem |', '|---|---|---|---|---|---|',
+  ...prontos.map((x) => `| ${x.n} | ${br(x.dia)} | ${esc(x.a.title)} (\`/${x.a.slug}/\`) | ${esc(x.a.primaryKeyword)} | ${x.a.scores.notaChat >= 9 ? `${String(x.a.scores.notaChat).replace('.', ',')}/10 (chat)` : x.a.scores.total} | ${x.a.redator === 'chat' ? 'chat' : x.a.origem === 'importado' ? 'importado' : x.a.escritoPor || 'robô'} |`), '',
   `## 3. Precisam de revisão (${revisar.length + foraFila.length})`, '', '| Nº | Data prevista se ninguém revisar | Artigo | Palavra-chave | Nota | Motivo |', '|---|---|---|---|---|---|',
   ...revisar.map((x) => `| ${x.n} | ${br(x.dia)} | ${esc(x.a.title)} (\`/${x.a.slug}/\`) | ${esc(x.a.primaryKeyword)} | ${x.a.scores.total} | ${motivo(x.a)} |`),
   ...foraFila.map((a) => `| — | em revisão | ${esc(a.title)} (\`/${a.slug}/\`) | ${esc(a.primaryKeyword)} | ${a.scores?.total ?? a.scores?.auditoria ?? '—'} | ${motivo(a) || 'auditoria ' + a.scores?.auditoria + ' (precisa passar de 85)'} |`), '');
