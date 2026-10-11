@@ -25,7 +25,7 @@ const toks = (f) => norm(f).split(' ').filter((t) => t && !SUF.has(t));
 const chave = (f) => { const t = toks(f); return (t.length <= 2 ? t : t.slice(0, 2)).join(' '); };
 const FERRAMENTA = /\b(calcular|calculadora|calculo|simulador|online gratis|download|baixar (pdf|planilha|app|aplicativo|ebook))\b/;
 // fora do nicho (café, lanches, carnes, locais): o filtro SAUDE sozinho deixava de fora temas de saúde reais (hipoglicemia, proteção solar), então o corte é pela lista de ruído
-const RUIDO = /\b(cafe|cafes|cafeteiras?|dolce gusto|nespresso|nescafe|3 coracoes|tres coracoes|capsulas? de cafe|lanches?|lanchonetes?|sanduiches?|distribuidoras?|bebidas|cervejas?|churrasco|acougue|picanha|alcatra|wagyu|bife|carnes?|aquario|aposentadoria|perto de mim|proximo|mercado|supermercado|restaurantes?|coca cola|refrigerantes?|isosource|barra de cereal|sorvetes?|bolos?|tortas?|pizzas?|hamburguer|marmita|delivery|casamento|sexo|escort|porn)\b/;
+const RUIDO = /\b(cafe|cafes|cafeteiras?|dolce gusto|nespresso|nescafe|3 coracoes|tres coracoes|capsulas? de cafe|lanches?|lanchonetes?|sanduiches?|distribuidoras?|bebidas|cervejas?|churrasco|acougue|picanha|alcatra|wagyu|bife|carnes?|aquario|aposentadoria|perto de mim|proximo|mercado|supermercado|restaurantes?|coca cola|refrigerantes?|isosource|barra de cereal|sorvetes?|bolos?|tortas?|pizzas?|hamburguer|marmita|delivery|casamento|escort)\b/;
 const COMERCIAL = /\b(comprar|preco|onde comprar|promocao|cupom|farmacia|desconto|barato|loja)\b/;
 
 const robot = new ArticleRobot();

@@ -1,5 +1,4 @@
 ﻿frase;buscas_mes;tema;origem;motivo
-"sexo";"1000000";"relacionamento-sexualidade";"plano-editorial.json";"ruído / fora do nicho (café, lanches, carnes, locais)"
 "café";"673000";"saude-geral";"pautas-mestre.csv + demanda-validada.json";"ruído / fora do nicho (café, lanches, carnes, locais)"
 "lanches";"450000";"Alimentação e peso";"pautas-mestre.csv + demanda-validada.json";"ruído / fora do nicho (café, lanches, carnes, locais)"
 "cafeteira";"301000";"saude-geral";"demanda-validada.json";"ruído / fora do nicho (café, lanches, carnes, locais)"
@@ -592,6 +591,7 @@
 "insea 2";"1600";"Saúde geral";"pautas-mestre.csv + demanda-validada.json";"fila de espera: depois dos 12 meses"
 "isofort plant";"1600";"Saúde geral";"pautas-mestre.csv + demanda-validada.json";"fila de espera: depois dos 12 meses"
 "alimentação cetogênica";"1600";"Saúde geral";"pautas-mestre.csv + demanda-validada.json";"fila de espera: depois dos 12 meses"
+"vichy antiqueda";"1600";"Cabelo";"pautas-mestre.csv + demanda-validada.json";"fila de espera: depois dos 12 meses"
 "trichosol";"1600";"Saúde geral";"pautas-mestre.csv + demanda-validada.json";"fila de espera: depois dos 12 meses"
 "minoxidil cresce cabelo";"1600";"Cabelo";"pautas-mestre.csv + demanda-validada.json";"fila de espera: depois dos 12 meses"
 "tricofort antiqueda";"1600";"Cabelo";"pautas-mestre.csv + demanda-validada.json";"fila de espera: depois dos 12 meses"
