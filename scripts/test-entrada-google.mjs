@@ -18,7 +18,7 @@ assert.match(cab, /^CAPA_PEXELS_ID: 2280571$/m);
 assert.match(cab, /^FOTO2_PEXELS_ID: 7524949$/m);
 assert.ok(!/CAPA_URL|CAPA_CREDITO|DOWNLOAD/.test(cab), 'campos do PC ficam de fora');
 assert.strictEqual((cab.match(/^FONTE:/gm) || []).length, 3);
-assert.match(cab, /^REVISADO: sim$/m, 'tema sensível em revisão herda REVISADO');
+assert.ok(!/^REVISADO:/m.test(cab), 'sem trava de revisão: não precisa de REVISADO');
 assert.match(corpo, /<h2>Quando procurar um médico<\/h2>/);
 assert.match(corpo, /<h2>Resumindo<\/h2>/);
 assert.match(corpo, /<ul><li>Seu exame de rotina/);
@@ -47,16 +47,24 @@ console.log('ok: entrada-google');
   const n = normalizarEntradaGoogle(comNota, opts);
   assert.match(n.texto.split('\n---\n')[0], /^NOTA_CHAT: 9,2$/m, 'NOTA_CHAT preservada');
 }
-// Artigo com NOTA_CHAT ≥ 9 não fica parado por pontuação baixa e conta como pronto no estoque
+// Nenhuma regra automática segura artigo: só `segurar: true` (decisão do dono)
 {
-  const base = { status: 'draft', estoque: true, origem: 'importado', scores: { auditoria: 80, total: 78, atencao: [] } };
-  assert.strictEqual(r.precisaRevisao(base), true, 'sem nota do chat: total 78 pede revisão');
-  const chat = { ...base, scores: { ...base.scores, notaChat: 9.2 } };
-  assert.strictEqual(r.precisaRevisao(chat), false, 'nota do chat 9,2: não pede revisão');
-  const sensivel = { ...chat, scores: { ...chat.scores, atencao: ['tema sensível sem REVISADO: sim'] } };
-  assert.strictEqual(r.precisaRevisao(sensivel), true, 'tema sensível continua pedindo revisão');
-  const guardado = r.db.articles; r.db.articles = [chat, base];
-  assert.strictEqual(r.prontosNoEstoque().length, 1, 'só o artigo com nota do chat entra nos prontos');
+  const base = { status: 'draft', estoque: true, origem: 'importado', scores: { auditoria: 80, total: 78, atencao: ['tema sensível sem REVISADO: sim'] } };
+  assert.strictEqual(r.precisaRevisao(base), false, 'nota baixa ou tema sensível não seguram mais');
+  assert.strictEqual(r.precisaRevisao({ ...base, segurar: true }), true, 'segurar: true segura');
+  const guardado = r.db.articles; r.db.articles = [base, { ...base, scores: { ...base.scores, notaChat: 9.2 } }, { ...base, segurar: true }];
+  assert.strictEqual(r.prontosNoEstoque().length, 1, 'o artigo com nota do chat entra; o de auditoria 80 não; o segurado não');
   r.db.articles = guardado;
 }
-console.log('ok: nota do chat (NOTA_CHAT)');
+console.log('ok: nota do chat (NOTA_CHAT) e sem trava de revisão');
+
+// Promessa: quem ALERTA contra o "milagroso" não é bloqueado; quem promete é achado
+{
+  const { achaPromessas } = await import('./article-robot.js');
+  assert.deepStrictEqual(achaPromessas('Suplementos "milagrosos" Produtos vendidos como "colesterol bom em cápsula" não têm eficácia comprovada.'), []);
+  assert.deepStrictEqual(achaPromessas('Não consuma fórmulas fitoterápicas comerciais milagrosas que prometem a limpeza de metais.'), []);
+  assert.deepStrictEqual(achaPromessas('Evite fórmulas milagrosas vendidas na internet.'), []);
+  assert.ok(achaPromessas('Nossa fórmula milagrosa trata o problema em uma semana.').length >= 1, 'promessa de verdade é achada');
+  assert.ok(achaPromessas('Resultado garantido em 30 dias, cura definitiva.').length >= 1);
+}
+console.log('ok: promessa só quando promete');

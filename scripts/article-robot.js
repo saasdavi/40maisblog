@@ -88,6 +88,8 @@ const CLAIMS = [
   /\b100\s*%\s*(seguro|natural|eficaz)/i,
 ];
 const NEGA = /\b(n[aã]o|nem|nunca|jamais|sem\s+garantia|nenhum\w*|mito|promessas?\s+de|falsas?)\b/i;
+const AVISA_ANTES = /\b(evite|evitar|cuidado|desconfie|prometem|prometer|prometendo|alegam|anunciad\w+|vendid\w+|n[aã]o\s+(use|usar|consuma|compre|inicie)|sem\s+(comprova\w+|respaldo|suporte|evid[eê]ncia\w*))\b/i;
+const AVISA_DEPOIS = /^[^.!?]{0,70}\b(n[aã]o\s+(t[eê]m|tem|funciona\w*|existe\w*|h[aá]|possu\w+)|sem\s+(efic[aá]cia|comprova\w+|respaldo|evid[eê]ncia\w*)|n[aã]o\s+s[aã]o\s+(seguros|eficazes))/i;
 // Devolve os trechos que prometem; ignora o que vem negado logo antes ou em forma de pergunta logo depois.
 export function achaPromessas(texto) {
   const achados = [];
@@ -96,7 +98,10 @@ export function achaPromessas(texto) {
     for (const m of texto.matchAll(g)) {
       const antes = texto.slice(Math.max(0, m.index - 40), m.index);
       const depois = texto.slice(m.index + m[0].length, m.index + m[0].length + 3);
-      if (NEGA.test(antes) || /^\s*\?/.test(depois)) continue;
+      const antesLongo = texto.slice(Math.max(0, m.index - 120), m.index);
+      const depoisLongo = texto.slice(m.index + m[0].length, m.index + m[0].length + 90);
+      // quem ALERTA contra a promessa ("suplementos \"milagrosos\" não têm eficácia", "evite fórmulas milagrosas") não está prometendo
+      if (NEGA.test(antes) || /^\s*\?/.test(depois) || AVISA_ANTES.test(antesLongo) || AVISA_DEPOIS.test(depoisLongo)) continue;
       achados.push(texto.slice(Math.max(0, m.index - 25), m.index + m[0].length + 25).replace(/\s+/g, ' ').trim());
     }
   }
@@ -137,8 +142,6 @@ class ArticleRobot {
     const livres = this.kw.filter(k => {
       if ((falhas[k.keyword]?.tentativas || 0) >= 2) return false; // reprovou 2 vezes: pula
       if (k.serp?.facil !== true || !k.fontes?.length) return false;
-      // tema sensível (remédio, urgência, sexualidade...) só publica depois de revisão humana: tire `sensivel`/`revisar` da pauta
-      if (k.sensivel === true && k.revisar === true) return false;
       if (ESTOQUE && k.substitui) return false; // reescrita de artigo no ar não passa pelo estoque
       if (k.substitui) return !!porSlug.get(k.substitui) && porSlug.get(k.substitui).validador !== 'APROVADO';
       return !usadas.has(k.keyword.toLowerCase()) && !usadas.has(slugify(k.keyword));
@@ -179,8 +182,8 @@ class ArticleRobot {
 
   // ---------- estoque de artigos prontos ----------
   // Só publica do estoque o que foi aprovado pelo robô ou importado (ChatGPT etc.) E tem auditoria acima de 85; abaixo disso fica retido para correção.
-  // Artigo do estoque que o dono precisa revisar antes de ir ao ar: nota final abaixo de 90 ou tema sensível sem REVISADO: sim.
-  precisaRevisao(a) { return ((a.scores?.total ?? 100) < 90 && !((a.scores?.notaChat ?? 0) >= 9)) || (a.scores?.atencao || []).some(m => m.includes('tema sensível')); }
+  // Nenhuma regra automática segura artigo no estoque: quem decide o que bloquear no blog é o dono. Para segurar um artigo, ponha `segurar: true` nele em data/articles.json.
+  precisaRevisao(a) { return a.segurar === true; }
   prontosNoEstoque() { return this.db.articles.filter(a => a.status === 'draft' && a.estoque === true && (a.validador === 'APROVADO' || a.origem === 'importado') && ((a.scores?.auditoria ?? 100) > 85 || (a.scores?.notaChat ?? 0) >= 9) && !this.precisaRevisao(a)); }
 
   // Publica do estoque (no máximo `quantos`, respeitando o teto do dia). Devolve quantos publicou.
