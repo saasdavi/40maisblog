@@ -41,6 +41,8 @@ const NOVO_COM_IA = process.env.NOVO_COM_IA === '1';
 const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-3.8-flash';
 const MAX_GEMINI_CHAMADAS_DIA = Number(process.env.MAX_GEMINI_CALLS_PER_DAY || 50);
 // Estado do dia do redator: depois que o Gemini falha (cota, erro, reprovação), o resto do dia segue no Claude.
+// Pautas que reprovaram: depois de 2 tentativas a pauta é pulada (não gasta Gemini/Claude de novo). Para tentar outra vez, apague a entrada.
+const PAUTAS_FALHAS = process.env.PAUTAS_FALHAS || path.join(__dirname, '../data/pesquisa/pautas-falhas.json');
 const LLM_ESTADO = process.env.LLM_ESTADO || path.join(__dirname, '../data/llm-estado.json');
 const WRITER_MODEL = process.env.ROBOT_MODEL || 'claude-haiku-4-5-20251001';
 const VALIDATOR_MODEL = process.env.VALIDATOR_MODEL || 'claude-haiku-4-5-20251001';
@@ -131,7 +133,9 @@ class ArticleRobot {
       usadas.add(a.slug);
     }
     const porSlug = new Map(this.db.articles.map(a => [a.slug, a]));
+    const falhas = this.lerFalhasPauta();
     const livres = this.kw.filter(k => {
+      if ((falhas[k.keyword]?.tentativas || 0) >= 2) return false; // reprovou 2 vezes: pula
       if (k.serp?.facil !== true || !k.fontes?.length) return false;
       // tema sensível (remédio, urgência, sexualidade...) só publica depois de revisão humana: tire `sensivel`/`revisar` da pauta
       if (k.sensivel === true && k.revisar === true) return false;
@@ -147,6 +151,16 @@ class ArticleRobot {
     livres.sort((a, b) => espera(a) - espera(b) || (a.cluster === ultima ? 1 : 0) - (b.cluster === ultima ? 1 : 0) || b.volume - a.volume);
     // o teto diário (DAILY_LIMIT) limita só a PUBLICAÇÃO; escrever para o estoque usa o lote inteiro
     return livres.slice(0, ESTOQUE ? BATCH_SIZE : Math.min(BATCH_SIZE, this.restanteHoje()));
+  }
+
+  lerFalhasPauta() { try { return JSON.parse(fs.readFileSync(PAUTAS_FALHAS, 'utf8')); } catch { return {}; } }
+  registrarFalhaPauta(keyword, motivo) {
+    const f = this.lerFalhasPauta();
+    const e = f[keyword] || { tentativas: 0 };
+    e.tentativas++; e.ultima = new Date().toISOString().slice(0, 10); e.motivo = String(motivo).slice(0, 300);
+    f[keyword] = e;
+    fs.mkdirSync(path.dirname(PAUTAS_FALHAS), { recursive: true });
+    fs.writeFileSync(PAUTAS_FALHAS, JSON.stringify(f, null, 1));
   }
 
   // Já saiu hoje (dia de Brasília) o artigo novo escrito por IA? Então as outras execuções só publicam do estoque.
@@ -713,7 +727,7 @@ Responda SOMENTE com um objeto JSON válido (sem texto antes ou depois, sem cerc
       } else {
         const n = await this.publicarDoEstoque(BATCH_SIZE);
         if (n > 0) { this.gravar(); console.log(`\n📦 ${n} artigo(s) publicado(s) do estoque (${this.prontosNoEstoque().length} ainda guardados).`); return this.stats; }
-        if (SEM_API) {
+        if (SEM_API || this.prontosNoEstoque().length > 0) { // com estoque (aguardando foto) não escreve nada novo; sem estoque e com API, escreve
           const aguardando = this.prontosNoEstoque().length;
           console.log(aguardando ? `📷 ${aguardando} artigo(s) no estoque aguardam foto (limite das APIs de imagem): nada publicado agora, tenta de novo na próxima execução.` : '📦 Estoque vazio e SEM_API=1: nada a publicar (sem gasto de API). Importe mais artigos em data/entrada/.');
           this.gravar();
@@ -735,10 +749,10 @@ Responda SOMENTE com um objeto JSON válido (sem texto antes ou depois, sem cerc
       const registrar = (resultado) => { (this.stats.porArtigo ||= []).push({ palavra: p.keyword, tentativas: this.stats.generated - geradosAntes, resultado }); };
       try {
         const art = await this.produzir(p);
-        if (!art) { this.stats.failed++; registrar('reprovado'); console.log('  ⛔ reprovado após 2 voltas, não publicado'); continue; }
+        if (!art) { this.stats.failed++; registrar('reprovado'); if (!ESTOQUE) this.registrarFalhaPauta(p.keyword, (this.reprovado?.issues || []).join('; ') || 'reprovado'); console.log('  ⛔ reprovado após 2 voltas, não publicado'); continue; }
         this.stats.approved++;
         if (!(await this.imagem(art))) {
-          if (NOVO_COM_IA) { // sem foto agora (limite das APIs de imagem): guarda no estoque; a foto é buscada na hora de publicar
+          if (!ESTOQUE) { // sem foto agora (limite das APIs de imagem): guarda no estoque; a foto é buscada na hora de publicar
             for (const k of ['featuredImage', 'imageAlt', 'imageCredit', 'images', 'imageIds']) delete art[k];
             Object.assign(art, { fotoPendente: true, status: 'draft', estoque: true, estocadoEm: new Date().toISOString(), escritoPor: this.provedorUsado || 'claude' });
             delete art._substitui;
@@ -753,7 +767,7 @@ Responda SOMENTE com um objeto JSON válido (sem texto antes ou depois, sem cerc
         registrar('aprovado');
         const agora = new Date().toISOString();
         art.status = ESTOQUE ? 'draft' : 'published';
-        if (NOVO_COM_IA) art.escritoPor = this.provedorUsado || 'claude';
+        if (!ESTOQUE) art.escritoPor = this.provedorUsado || 'claude';
         if (ESTOQUE) {
           art.estoque = true; art.estocadoEm = agora;
           // ficha de validação: por que esta pauta foi aprovada e o que o topo do Google mostra (copiada do briefing e da pauta)
@@ -778,12 +792,13 @@ Responda SOMENTE com um objeto JSON válido (sem texto antes ou depois, sem cerc
         this.stats.failed++;
         registrar('erro');
         console.error(`  ❌ ${e.message}`);
+        if (!ESTOQUE && /^só \d+ fonte/.test(e.message)) this.registrarFalhaPauta(p.keyword, e.message); // fontes legíveis insuficientes: a pauta não presta agora
       }
     }
     this.gravar();
     this.relatorioCusto();
     console.log(`\n📊 gerados ${this.stats.generated} | aprovados ${this.stats.approved} | publicados ${this.stats.published} | falhas ${this.stats.failed}`);
-    if ((ESTOQUE ? (this.stats.estocados || 0) : this.stats.published + (NOVO_COM_IA ? (this.stats.estocados || 0) : 0)) === 0) process.exitCode = 1;
+    if ((ESTOQUE ? (this.stats.estocados || 0) : this.stats.published + (this.stats.estocados || 0)) === 0) process.exitCode = 1;
     return this.stats;
   }
 }

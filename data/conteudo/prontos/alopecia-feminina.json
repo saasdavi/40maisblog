@@ -1,0 +1,120 @@
+{
+ "slug": "alopecia-feminina",
+ "title": "Alopecia Feminina: Causas, Tipos e Tratamentos",
+ "description": "Entenda as causas e os tipos de alopecia feminina, como o diagnóstico costuma ser feito e quais tratamentos são discutidos com o dermatologista.",
+ "primaryKeyword": "alopecia feminina",
+ "cluster": null,
+ "volume": 4400,
+ "wordCount": 1377,
+ "readingTime": 7,
+ "sources": [
+  {
+   "title": "Anais Brasileiros de Dermatologia",
+   "url": "https://anaisdedermatologia.org.br"
+  },
+  {
+   "title": "Revista Brasileira de Cirurgia Plástica",
+   "url": "https://rbcp.org.br"
+  },
+  {
+   "title": "Conselho Federal de Farmácia",
+   "url": "https://cff.org.br"
+  },
+  {
+   "title": "Sociedade Brasileira de Dermatologia",
+   "url": "https://www.sbd.org.br"
+  },
+  {
+   "title": "MedlinePlus (National Library of Medicine)",
+   "url": "https://medlineplus.gov"
+  }
+ ],
+ "featuredImage": "/images/alopecia-feminina/alopecia-feminina-capa.jpg",
+ "imageAlt": "Mulher de meia-idade com cabelo preso, mostrando o couro cabeludo em um retrato sobre alopecia feminina",
+ "imageCredit": {
+  "author": "https://kaboompics.com/",
+  "source": "Pexels",
+  "url": "https://www.pexels.com/photo/portrait-of-a-woman-with-short-hair-7588673/",
+  "license": "Licença Pexels",
+  "licenseUrl": "https://www.pexels.com/license/"
+ },
+ "images": [
+  {
+   "src": "/images/alopecia-feminina/mulher-aplicando-produto-no-cabelo-em-frente-ao-espelho-cuid.jpg",
+   "alt": "Mulher aplicando produto no cabelo em frente ao espelho, cuidado de rotina para alopecia feminina",
+   "legenda": "A rotina de cuidados com o cabelo ajuda, mas não substitui a avaliação médica.",
+   "secao": 2,
+   "width": 940,
+   "height": 627,
+   "credit": {
+    "author": "Yan Krukau",
+    "source": "Pexels",
+    "url": "https://www.pexels.com/photo/woman-in-white-bath-towel-holding-brown-hair-brush-7020353/",
+    "license": "Licença Pexels",
+    "licenseUrl": "https://www.pexels.com/license/"
+   }
+  },
+  {
+   "src": "/images/alopecia-feminina/consulta-com-dermatologista-com-mulher-sentada-e-profissiona.jpg",
+   "alt": "Consulta com dermatologista, com mulher sentada e profissional analisando exames",
+   "legenda": "Uma consulta especializada ajuda a separar as causas e definir o melhor caminho.",
+   "secao": 4,
+   "width": 940,
+   "height": 627,
+   "credit": {
+    "author": "Gustavo Fring",
+    "source": "Pexels",
+    "url": "https://www.pexels.com/photo/a-specialist-and-a-client-looking-at-the-tablet-7446684/",
+    "license": "Licença Pexels",
+    "licenseUrl": "https://www.pexels.com/license/"
+   }
+  }
+ ],
+ "scores": {
+  "auditoria": 100,
+  "demanda": "boa",
+  "total": 91,
+  "decisao": "PUBLICAR",
+  "partes": {
+   "qualidade": 100,
+   "demanda": 80,
+   "fontes": 100,
+   "originalidade": 70,
+   "formato": 90,
+   "seguranca": 100
+  },
+  "atencao": [
+   "parecido com \"alopecia na barba\" (50%): risco de canibalização"
+  ]
+ },
+ "validador": "Auditoria automática (sem API); texto escrito fora do robô",
+ "validacao": {
+  "palavraChave": "alopecia feminina",
+  "demanda": {
+   "volume": 4400,
+   "classe": "boa",
+   "tendencia": "estável",
+   "concorrencia": "LOW",
+   "fonte": "validadas/cabelo-expandido.json",
+   "fraseMedida": "alopécia feminina",
+   "porSimilar": false
+  },
+  "volume": 4400,
+  "cluster": null,
+  "apoio": [],
+  "perguntasDoGoogle": [],
+  "concorrentes": "não informado (concorrente não conferido)",
+  "lacunasCobertas": [],
+  "serp": null,
+  "fontesDaPauta": [
+   "https://anaisdedermatologia.org.br",
+   "https://rbcp.org.br",
+   "https://cff.org.br"
+  ],
+  "notas": "",
+  "briefing": null,
+  "validadoEm": "2026-10-10T20:20:04.268Z",
+  "observacao": "originalidade contra o concorrente não conferida automaticamente"
+ },
+ "content": "<p>A alopecia feminina é a perda de cabelo progressiva ou difusa, com destaque após os 40 anos. Entender o tipo de queda é o primeiro passo para escolher o tratamento. Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</p>\n<p>Ela pode ter causas hormonais, genéticas, inflamatórias ou ligadas a outros fatores de saúde.</p>\n\n<h2>O que caracteriza a alopecia feminina?</h2>\n<p>Diferente da queda em placas, a alopecia feminina costuma avançar de forma gradual. O cabelo fica mais fino, a linha de divisão se alarga e a densidade diminui, principalmente na região do alto da cabeça.</p>\n<p>Muitas mulheres percebem a mudança ao observar o couro cabeludo em fotos ou no momento de prender o cabelo.</p>\n<p>Esse padrão não significa, por si só, que a causa seja grave. Ele pode estar relacionado a fatores comuns, como alterações hormonais, mas também exige investigação para descartar outras condições.</p>\n\n<h2>Quais são as principais causas?</h2>\n<p>A alopecia feminina raramente tem um único motivo. Entre as causas mais estudadas estão:</p>\n<ul>\n<li><strong>Fatores genéticos:</strong> a predisposição herdada influencia o padrão e a idade de início da queda.</li>\n<li><strong>Alterações hormonais:</strong> mudanças típicas da perimenopausa e da menopausa costumam estar associadas ao afinamento dos fios.</li>\n<li><strong>Efluvio telógeno:</strong> queda temporária que pode seguir um período de estresse físico ou emocional, febre alta, cirurgias ou mudanças de peso.</li>\n<li><strong>Deficiências nutricionais:</strong> baixos níveis de ferro, vitamina D ou outros nutrientes podem contribuir.</li>\n<li><strong>Doenças da tireoide e outras condições clínicas:</strong> alterações nessas áreas podem afetar o ciclo do cabelo.</li>\n</ul>\n<p>Medicamentos e tratamentos químicos agressivos também podem estar envolvidos em alguns casos, e o histórico precisa ser contado com detalhes ao médico.</p>\n<figure class=\"article-figure\"><img src=\"/images/alopecia-feminina/mulher-aplicando-produto-no-cabelo-em-frente-ao-espelho-cuid.jpg\" alt=\"Mulher aplicando produto no cabelo em frente ao espelho, cuidado de rotina para alopecia feminina\" width=\"940\" height=\"627\" loading=\"lazy\" /><figcaption>A rotina de cuidados com o cabelo ajuda, mas não substitui a avaliação médica. <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/woman-in-white-bath-towel-holding-brown-hair-brush-7020353/\" rel=\"noopener nofollow\" target=\"_blank\">Yan Krukau</a> / Pexels</span></figcaption></figure>\n<h2>Quais tipos de queda são mais comuns?</h2>\n<p>Além da queda de padrão androgenético, que é a mais conhecida, existem outros tipos. O efluvio telógeno costuma ser difuso e temporário, enquanto a alopecia areata, de origem imunológica, aparece em falhas localizadas.</p>\n<p>Há ainda casos inflamatórios, que deixam a pele irritada, com descamação ou dor. Cada tipo exige uma abordagem diferente, por isso o diagnóstico correto faz toda a diferença.</p>\n<p>Para uma visão geral das causas mais comuns de queda, veja a página sobre <a href=\"/queda-de-cabelo/\">queda de cabelo</a>.</p>\n\n<h2>Como o diagnóstico é feito?</h2>\n<p>O dermatologista costuma começar pela história clínica, perguntando sobre a época de início, a velocidade da queda, medicamentos em uso, gestações, dieta, rotina e doenças prévias. Depois vem o exame do couro cabeludo, que pode incluir tricoscopia, um recurso que amplia a visão dos fios.</p>\n<p>Em alguns casos, são pedidos exames de sangue para checar ferritina, hormônios da tireoide, vitamina D e outros marcadores.</p>\n<p>A biópsia do couro cabeludo é reservada para situações específicas, quando o quadro não está claro. A decisão é do profissional.</p>\n<figure class=\"article-figure\"><img src=\"/images/alopecia-feminina/consulta-com-dermatologista-com-mulher-sentada-e-profissiona.jpg\" alt=\"Consulta com dermatologista, com mulher sentada e profissional analisando exames\" width=\"940\" height=\"627\" loading=\"lazy\" /><figcaption>Uma consulta especializada ajuda a separar as causas e definir o melhor caminho. <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/a-specialist-and-a-client-looking-at-the-tablet-7446684/\" rel=\"noopener nofollow\" target=\"_blank\">Gustavo Fring</a> / Pexels</span></figcaption></figure>\n<h2>Quais tratamentos são discutidos?</h2>\n<p>O tratamento depende da causa, da intensidade da queda e das expectativas da paciente.</p>\n<p>Entre as opções discutidas na literatura estão medicamentos tópicos, como o minoxidil, que pertence à classe de tratamentos para queda de cabelo e precisa de orientação do médico sobre uso e tempo de resposta.</p>\n<p>Em alguns casos, o dermatologista pode considerar tratamentos hormonais ou outras terapias, sempre com avaliação de riscos e contraindicações.</p>\n<p>Procedimentos estéticos e tratamentos com laser ou plasma também aparecem em discussões, mas a evidência varia e a indicação deve ser individual. Nenhum tratamento deve ser iniciado sem conversa com o profissional, e é normal que a resposta leve meses para aparecer.</p>\n\n<h2>Quais cuidados podem ajudar no dia a dia?</h2>\n<p>Algumas medidas ajudam a proteger os fios enquanto a causa é investigada. Evitar tração forte, como rabos de cabelo muito apertados, reduzir o uso de calor intenso e secadores em temperatura alta e escolher produtos suaves são práticas simples.</p>\n<p>Uma alimentação equilibrada, com proteínas, ferro e vitaminas, também contribui para a saúde geral do cabelo.</p>\n<p>Atenção a produtos que prometem resultados rápidos. Muitos não têm comprovação científica, e alguns podem irritar o couro cabeludo.</p>\n\n<h2>Como a menopausa se relaciona com a queda?</h2>\n<p>Na transição para a menopausa, a queda de estrogênio pode afetar o ciclo dos fios, deixando-os mais finos e com crescimento mais lento. Esse processo costuma ser gradual e aparece junto de outras mudanças, como alterações no sono e na pele.</p>\n<p>Para entender esse período com mais clareza, consulte o texto sobre menopausa.</p>\n<p>Mesmo quando a menopausa é o contexto, é importante investigar outras causas, porque a queda pode ter mais de uma origem.</p>\n\n<h2>Como a alimentação e o sono entram na conversa com o médico?</h2>\n<p>Muitas mulheres chegam ao consultório preocupadas com a alimentação e querem saber se estão comendo o suficiente para manter o cabelo saudável. A resposta depende do conjunto da rotina.</p>\n<p>Uma dieta muito restritiva, que corta grupos inteiros de alimentos ou reduz muito a ingestão de proteínas, pode contribuir para a queda temporária. Já uma alimentação variada, com proteínas, leguminosas, verduras e fontes de ferro, costuma sustentar melhor a saúde dos fios.</p>\n<p>O sono também merece atenção. Noites mal dormidas, despertares frequentes e sono fragmentado podem afetar o humor, a disposição e a regulação hormonal.</p>\n<p>Quem tem dificuldade para dormir pode se beneficiar de uma avaliação, já que o sono ruim costuma acompanhar a queda de cabelo e outras queixas típicas do período de transição. Para entender melhor esse ponto, o texto sobre <a href=\"/insonia/\">insônia</a> é um bom complemento.</p>\n<p>Ao relatar sua rotina, seja detalhada: conte sobre mudanças de peso, uso de dietas, prática de exercícios, medicamentos e suplementos, além de períodos intensos de estresse. Essas informações ajudam o profissional a separar fatores que podem ser ajustados de causas que exigem tratamento específico.</p>\n<p>Quanto mais completo for o relato, mais precisa tende a ser a orientação.</p>\n\n<p>Outro aspecto que costuma passar despercebido é o impacto da queda na vida social e profissional. Muitas mulheres evitam prender o cabelo, mudam penteados e deixam de frequentar determinados ambientes por insegurança.</p>\n<p>Reconhecer esse efeito e conversar sobre ele com o médico ou com um psicólogo é parte do cuidado, e não um detalhe secundário.</p>\n<p>Também vale lembrar que a evolução da queda muda ao longo do tempo. Em uma fase, o quadro pode estacionar; em outra, voltar a piorar. Por isso, o acompanhamento não termina quando um tratamento começa.</p>\n<p>Um retorno periódico permite ajustar a conduta, avaliar efeitos e revisar a estratégia de forma segura.</p>\n<p>Em resumo, a alopecia feminina merece uma abordagem completa, que una avaliação clínica, exames quando necessários, cuidados com os fios e orientação sobre expectativas. Quanto mais cedo a investigação começa, mais chances existem de identificar fatores que podem ser corrigidos.</p>\n\n<h2>Perguntas frequentes</h2>\n<p><strong>A alopecia feminina tem tratamento?</strong><br>Depende da causa. Algumas quedas são temporárias, outras são crônicas e exigem manejo contínuo, e o dermatologista explica o cenário de cada caso.</p>\n<p><strong>Mulher pode usar minoxidil sem receita?</strong><br>Não é recomendado. O uso deve ser discutido com médico ou dermatologista, porque há indicações, cuidados e possíveis efeitos.</p>\n<p><strong>Cortar o cabelo faz ele crescer mais forte?</strong><br>Não. O corte não altera a raiz do fio, que é o que determina a densidade.</p>\n<p><strong>Exames de sangue ajudam?</strong><br>Podem ajudar a identificar deficiências e alterações hormonais que contribuem para a queda.</p>\n\n<h2>Quando procurar um médico</h2>\n<p>Procure um dermatologista se a queda for intensa, se surgirem falhas, coceira, ardência ou descamação, se o cabelo cair em grande quantidade em pouco tempo ou se houver alterações associadas, como irregularidade menstrual, ganho de peso ou cansaço excessivo. Esses sinais merecem avaliação.</p>\n<p>Quem já está em tratamento deve comunicar qualquer mudança ao médico, principalmente após iniciar ou suspender medicamentos.</p>\n\n<h2>Resumindo</h2>\n<p>A alopecia feminina tem várias causas possíveis, entre elas genética, hormônios, carências nutricionais e condições clínicas. Reconhecer o tipo de queda e investigar a origem são passos essenciais antes de qualquer tratamento.</p>\n<p>O acompanhamento com dermatologista permite definir o melhor caminho, com expectativas realistas e segurança. Se a queda está incomodando, procure avaliação. Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</p>\n<h2>Fontes</h2>\n<ul>\n<li><a href=\"https://anaisdedermatologia.org.br\" rel=\"noopener nofollow\" target=\"_blank\">Anais Brasileiros de Dermatologia</a></li>\n<li><a href=\"https://rbcp.org.br\" rel=\"noopener nofollow\" target=\"_blank\">Revista Brasileira de Cirurgia Plástica</a></li>\n<li><a href=\"https://cff.org.br\" rel=\"noopener nofollow\" target=\"_blank\">Conselho Federal de Farmácia</a></li>\n<li><a href=\"https://www.sbd.org.br\" rel=\"noopener nofollow\" target=\"_blank\">Sociedade Brasileira de Dermatologia</a></li>\n<li><a href=\"https://medlineplus.gov\" rel=\"noopener nofollow\" target=\"_blank\">MedlinePlus (National Library of Medicine)</a></li>\n</ul>\n<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>"
+}

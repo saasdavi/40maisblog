@@ -8,6 +8,7 @@ on:
     # Programação do dia: 1 artigo NOVO escrito por IA (Gemini, reserva Claude, com pesquisa da SerpAPI antes) + 2 do estoque pronto.
     # As execuções das 06:17 e 09:43 UTC tentam o artigo novo (a das 09:43 só tenta se a das 06:17 não publicou um); as demais publicam do estoque
     # sem chamar IA nenhuma. Se o novo falhar, o estoque completa os 3 do dia.
+    # Quando o estoque pronto acaba, TODAS as execuções escrevem artigo novo pela API (Gemini, reserva Claude, SerpAPI antes): 3 por dia.
     - cron: '17 6 * * *'
     - cron: '43 9 * * *'
     - cron: '43 13 * * *'
@@ -61,17 +62,16 @@ jobs:
         continue-on-error: true
         run: node scripts/validar-pautas.js
 
-      - name: 🔎 SerpAPI - pesquisa da pauta do dia (só na execução do artigo novo)
-        if: env.NOVO == '1'
+      - name: 🔎 SerpAPI - pesquisa da pauta (artigo novo, ou qualquer execução quando o estoque acabou)
         continue-on-error: true
         env:
           SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
-        run: node scripts/serp-api.js
+        run: node scripts/serp-api.js ${{ env.NOVO == '1' && '' || '--so-se-sem-estoque' }}
 
       - name: 🤖 ARTICLE ROBOT 3/DIA - Fluxo Completo
-        continue-on-error: ${{ env.NOVO == '1' }}   # se o artigo novo falhar, o estoque completa os 3 do dia
+        continue-on-error: true   # se o artigo novo falhar, o estoque completa os 3 do dia
         env:
-          SEM_API: ${{ env.NOVO == '1' && '' || '1' }}   # fora do artigo novo: só publica do estoque, sem chamar IA
+          # execução sem NOVO: publica do estoque (sem IA); só escreve com a API quando o estoque pronto acabou
           NOVO_COM_IA: ${{ env.NOVO }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -90,6 +90,12 @@ jobs:
       - name: 📚 Banco de conteúdo (índice do que está pronto, publicado e por escrever)
         continue-on-error: true
         run: node scripts/banco-conteudo.js
+
+      - name: 📅 Calendário (12 meses e publicação)
+        continue-on-error: true
+        run: |
+          node scripts/calendario-editorial.js
+          node scripts/calendario-artigos.js
 
       - name: 🏗️ Build do site (falha aqui se algo quebrar)
         run: npm run build

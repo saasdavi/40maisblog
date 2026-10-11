@@ -1,0 +1,111 @@
+{
+ "slug": "vitamina-d",
+ "title": "Vitamina D: Para Que Serve, Sintomas e Cuidados",
+ "description": "Vitamina D: para que serve, sinais de falta e de excesso, fontes na alimentação e no sol e cuidados antes de usar suplementos.",
+ "primaryKeyword": "vitamina D",
+ "cluster": null,
+ "volume": 90500,
+ "wordCount": 1375,
+ "readingTime": 7,
+ "sources": [
+  {
+   "title": "Office of Dietary Supplements (NIH)",
+   "url": "https://ods.od.nih.gov"
+  },
+  {
+   "title": "Anvisa",
+   "url": "https://www.gov.br/anvisa"
+  },
+  {
+   "title": "Ministério da Saúde",
+   "url": "https://www.gov.br/saude"
+  }
+ ],
+ "featuredImage": "/images/vitamina-d/vitamina-d-capa.jpg",
+ "imageAlt": "Alimentos saudáveis e luz do sol sobre uma mesa, representando fontes de vitamina D",
+ "imageCredit": {
+  "author": "Phil Desforges",
+  "source": "Pexels",
+  "url": "https://www.pexels.com/photo/healthy-breakfast-on-a-table-15184842/",
+  "license": "Licença Pexels",
+  "licenseUrl": "https://www.pexels.com/license/"
+ },
+ "images": [
+  {
+   "src": "/images/vitamina-d/prato-com-peixe-assado-uma-das-fontes-alimentares-de-vitamin.jpg",
+   "alt": "Prato com peixe assado, uma das fontes alimentares de vitamina D",
+   "legenda": "Peixes gordurosos estão entre as fontes alimentares de vitamina D.",
+   "secao": 2,
+   "width": 940,
+   "height": 612,
+   "credit": {
+    "author": "Huzaifa Bukhari",
+    "source": "Pexels",
+    "url": "https://www.pexels.com/photo/fish-dinner-on-a-plate-16845479/",
+    "license": "Licença Pexels",
+    "licenseUrl": "https://www.pexels.com/license/"
+   }
+  },
+  {
+   "src": "/images/vitamina-d/tubo-de-coleta-de-sangue-em-laboratorio-usado-para-medir-a-v.jpg",
+   "alt": "Tubo de coleta de sangue em laboratório, usado para medir a vitamina D",
+   "legenda": "A dosagem no sangue é a forma de avaliar os níveis de vitamina D.",
+   "secao": 4,
+   "width": 940,
+   "height": 627,
+   "credit": {
+    "author": "Ivan S",
+    "source": "Pexels",
+    "url": "https://www.pexels.com/photo/a-person-holding-a-test-tube-9629693/",
+    "license": "Licença Pexels",
+    "licenseUrl": "https://www.pexels.com/license/"
+   }
+  }
+ ],
+ "scores": {
+  "auditoria": 100,
+  "demanda": "alta",
+  "total": 90,
+  "decisao": "PUBLICAR",
+  "partes": {
+   "qualidade": 100,
+   "demanda": 100,
+   "fontes": 100,
+   "originalidade": 40,
+   "formato": 90,
+   "seguranca": 100
+  },
+  "atencao": [
+   "parecido com \"vitamina D3\" (67%): risco de canibalização"
+  ]
+ },
+ "validador": "Auditoria automática (sem API); texto escrito fora do robô",
+ "validacao": {
+  "palavraChave": "vitamina D",
+  "demanda": {
+   "volume": 90500,
+   "classe": "alta",
+   "tendencia": null,
+   "concorrencia": "HIGH",
+   "fonte": "suplementos-volumes.json",
+   "fraseMedida": "vitamina d3",
+   "porSimilar": true
+  },
+  "volume": 90500,
+  "cluster": null,
+  "apoio": [],
+  "perguntasDoGoogle": [],
+  "concorrentes": "não informado (concorrente não conferido)",
+  "lacunasCobertas": [],
+  "serp": null,
+  "fontesDaPauta": [
+   "https://ods.od.nih.gov",
+   "https://www.gov.br/anvisa"
+  ],
+  "notas": "",
+  "briefing": null,
+  "validadoEm": "2026-10-10T21:51:59.966Z",
+  "observacao": "originalidade contra o concorrente não conferida automaticamente"
+ },
+ "content": "<p>Vitamina D é um nutriente que o corpo produz quando a pele recebe luz solar e que também está em alguns alimentos. Ela ajuda na absorção de cálcio e na saúde óssea.</p>\n\n<p>Tanto a falta quanto o excesso trazem problemas, e a decisão de suplementar deve considerar exames e orientação profissional.</p>\n\n<h2>O que é a vitamina D e o que ela faz no corpo</h2>\n\n<p>Do ponto de vista químico, a vitamina D é um hormônio esteroide, porque o organismo consegue produzi-la e ela age em diversos tecidos. Sua função mais conhecida é facilitar a absorção de cálcio no intestino, o que é fundamental para a formação e a manutenção dos ossos.</p>\n\n<p>Ela pertence ao grupo das vitaminas lipossolúveis, o que significa que se acumula em tecidos gordurosos e no fígado quando consumida em excesso.</p>\n\n<p>Além dos ossos, a vitamina participa do funcionamento dos músculos e do sistema imunológico. Pesquisas investigam esses efeitos há anos, mas nem todos os benefícios sugeridos estão comprovados para a população em geral.</p>\n\n<h2>De onde vem a vitamina D: sol, alimentos e suplementos</h2>\n\n<p>A principal fonte é a exposição da pele à radiação ultravioleta do sol. Esse processo depende de horário, latitude, estação do ano, cor da pele, uso de protetor e idade. Por isso, a produção varia muito de uma pessoa para outra.</p>\n\n<p>Na alimentação, peixes gordurosos, a gema do ovo e alguns alimentos fortificados fornecem a vitamina em quantidades moderadas. Dificilmente a dieta sozinha supre toda a necessidade em quem tem pouca exposição solar.</p>\n\n<p>Ler rótulos ajuda a conhecer o que foi adicionado a um alimento e em que quantidade, sobretudo em produtos vendidos como fortificados.</p>\n\n<ul>\n<li>Peixes gordurosos, como salmão e sardinha, são boas fontes naturais.</li>\n<li>Gema de ovo contribui com pequenas quantidades.</li>\n<li>Alguns leites e cereais são fortificados, conforme a legislação de cada produto.</li>\n</ul>\n\n<p>Suplementos existem para quem precisa de reposição, mas devem ser indicados após avaliação. Produtos regulados seguem normas de qualidade, e o rótulo deve trazer informações claras sobre o conteúdo.</p>\n\n<p>Também vale lembrar que a forma do suplemento, a frequência de uso e a presença de outros nutrientes, como o cálcio, mudam a resposta do corpo e devem ser discutidas com quem orienta o uso.</p>\n<figure class=\"article-figure\"><img src=\"/images/vitamina-d/prato-com-peixe-assado-uma-das-fontes-alimentares-de-vitamin.jpg\" alt=\"Prato com peixe assado, uma das fontes alimentares de vitamina D\" width=\"940\" height=\"612\" loading=\"lazy\" /><figcaption>Peixes gordurosos estão entre as fontes alimentares de vitamina D. <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/fish-dinner-on-a-plate-16845479/\" rel=\"noopener nofollow\" target=\"_blank\">Huzaifa Bukhari</a> / Pexels</span></figcaption></figure>\n<h2>Sinais de deficiência e por que são difíceis de notar</h2>\n\n<p>A falta de vitamina D pode causar fraqueza muscular, dor óssea difusa, cansaço e alterações do humor. O problema é que esses sintomas são inespecíficos e podem ter muitas outras causas, o que dificulta o diagnóstico só pela percepção.</p>\n\n<p>Muitas pessoas com níveis baixos não sentem nada. Por outro lado, sintomas como dor muscular após esforço leve podem ser atribuídos ao cansaço e passar despercebidos.</p>\n\n<p>Em crianças, a deficiência prolongada pode levar a alterações no crescimento ósseo. Em adultos e idosos, a perda de massa óssea e o aumento do risco de fraturas são preocupações importantes, sobretudo quando há outros fatores associados.</p>\n\n<p>Na infância, a avaliação inclui crescimento, alimentação e exposição solar, e a orientação deve ser feita pelo pediatra.</p>\n\n<p>Por isso, a dosagem no sangue é a forma mais confiável de avaliar o estado do nutriente. O exame costuma ser pedido quando há sintomas, fatores de risco ou indicação clínica específica.</p>\n\n<h2>Quando faz sentido investigar os níveis</h2>\n\n<p>Não há necessidade de exame para todas as pessoas saudáveis.</p>\n\n<p>Quem tem doenças crônicas deve combinar essa avaliação com o acompanhamento que já faz. A investigação faz mais sentido quando existe histórico de osteoporose, fraturas por baixo impacto, uso de medicamentos que interferem no metabolismo ósseo ou doenças que afetam a absorção de gordura.</p>\n\n<p>Também é útil avaliar pessoas com doença renal ou hepática, obesidade, cirurgias do estômago e intestino, e quem tem pouca exposição ao sol por razões de saúde ou de trabalho.</p>\n\n<p>O resultado do exame deve ser interpretado junto com sintomas e histórico, porque um número isolado nem sempre define a conduta.</p>\n<figure class=\"article-figure\"><img src=\"/images/vitamina-d/tubo-de-coleta-de-sangue-em-laboratorio-usado-para-medir-a-v.jpg\" alt=\"Tubo de coleta de sangue em laboratório, usado para medir a vitamina D\" width=\"940\" height=\"627\" loading=\"lazy\" /><figcaption>A dosagem no sangue é a forma de avaliar os níveis de vitamina D. <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/a-person-holding-a-test-tube-9629693/\" rel=\"noopener nofollow\" target=\"_blank\">Ivan S</a> / Pexels</span></figcaption></figure>\n<h2>Excesso de suplementação: os riscos que costumam ser ignorados</h2>\n\n<p>Tomar vitamina D em excesso pode causar aumento do cálcio no sangue, com náusea, vômitos, fraqueza, sede intensa e urina frequente. Em casos mais graves, há risco de cálculos renais e de danos aos rins.</p>\n\n<p>O erro mais comum é tomar suplementos por conta própria, por muito tempo, sem exame e sem acompanhamento. Sintomas de excesso podem demorar a aparecer, por isso o acompanhamento periódico é importante.</p>\n\n<p>A ideia de que mais é melhor não se aplica a essa vitamina, porque ela se acumula no organismo.</p>\n\n<p>Quem toma combinações de vários produtos, como multivitamínicos e suplementos específicos, pode somar substâncias sem perceber. Liste tudo o que é usado e leve a lista à consulta.</p>\n\n<p>Se você já usa suplemento, leve o rótulo à consulta e informe a frequência de uso. Essa informação ajuda o profissional a decidir se a dose atual é adequada. Anote também os horários de uso de cada produto, porque isso ajuda a esclarecer possíveis sintomas.</p>\n\n<h2>Grupos que merecem atenção especial</h2>\n\n<p>Idosos, pessoas com pele escura, quem passa a maior parte do tempo em ambientes fechados e quem usa roupas que cobrem o corpo quase todo tendem a ter menor produção. Gestantes e lactantes também têm necessidades específicas que devem ser acompanhadas.</p>\n\n<p>Vale notar que o protetor solar, recomendado para prevenir câncer de pele, reduz a produção cutânea. Por isso, o equilíbrio entre proteção e exposição deve ser discutido com o médico.</p>\n\n<p>Pessoas com obesidade, doenças inflamatórias intestinais e cirurgias bariátricas podem ter absorção alterada. Nesses casos, a suplementação costuma ser orientada por equipe médica, com monitoramento periódico.</p>\n\n<p>Em todos esses casos, as recomendações podem mudar ao longo do tempo, o que reforça a importância de revisões periódicas.</p>\n\n<p>Para entender melhor a relação entre a vitamina e a saúde óssea, leia <a href=\"/dores-lombares/\">o guia sobre dores lombares</a>, que ajuda a separar dores comuns de sinais que pedem avaliação.</p>\n\n<h2>Perguntas frequentes</h2>\n\n<p><strong>Vitamina D é a mesma coisa que vitamina D3?</strong><br>D3 é uma forma da vitamina, produzida na pele e presente em alguns alimentos. Os suplementos podem conter formas diferentes, e o profissional escolhe a mais adequada.</p>\n\n<p><strong>Tomar sol resolve a falta de vitamina D?</strong><br>Depende da frequência, do horário e da proteção usada. Como a exposição solar deve ser equilibrada com os riscos para a pele, o sol não é uma solução universal.</p>\n\n<p><strong>Preciso tomar vitamina D todos os dias?</strong><br>Não necessariamente. A frequência depende de exames, da idade e da condição de cada pessoa, e deve ser definida por um profissional. Mudanças na rotina exigem nova avaliação.</p>\n\n<p><strong>Vitamina D ajuda a emagrecer?</strong><br>Não há evidência de que a vitamina, por si só, promova perda de peso. Em pessoas com deficiência, a correção pode ser importante por outros motivos. Promessas de emagrecimento com essa vitamina devem ser desconsideradas.</p>\n\n<p><strong>Vitamina D e cálcio precisam ser tomados juntos?</strong><br>Os dois atuam em conjunto no metabolismo ósseo, mas a necessidade de cada um depende da alimentação e dos exames. Não combine doses sem orientação.</p>\n\n<h2>Quando procurar um médico</h2>\n\n<p>Procure atendimento se houver dor óssea persistente, fraqueza muscular, fraturas após pequenos traumas ou cansaço que não melhora. Esses sinais podem indicar deficiência ou outra condição que precisa de investigação.</p>\n\n<p>Também vale a consulta se você apresentar náusea persistente, sede excessiva, urina muito frequente ou dor no flanco depois de usar suplementos. Esses sintomas podem indicar excesso de cálcio e pedem avaliação rápida.</p>\n\n<p>Caso um exame tenha mostrado níveis fora da faixa, não ajuste a dose por conta própria. O ajuste deve seguir o plano definido pelo profissional.</p>\n\n<h2>Resumindo</h2>\n\n<p>A vitamina D é importante para ossos, músculos e outras funções, e sua produção depende muito da exposição solar. A falta e o excesso trazem problemas, por isso a suplementação deve ser orientada por exames e profissional.</p>\n\n<p>Entender os sinais, as fontes e os grupos de risco ajuda a tomar decisões mais seguras. Como a luz do dia também organiza o sono, veja <a href=\"/ritmo-circadiano/\">o conteúdo sobre ritmo circadiano</a>. Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</p>\n<h2>Fontes</h2>\n<ul>\n<li><a href=\"https://ods.od.nih.gov\" rel=\"noopener nofollow\" target=\"_blank\">Office of Dietary Supplements (NIH)</a></li>\n<li><a href=\"https://www.gov.br/anvisa\" rel=\"noopener nofollow\" target=\"_blank\">Anvisa</a></li>\n<li><a href=\"https://www.gov.br/saude\" rel=\"noopener nofollow\" target=\"_blank\">Ministério da Saúde</a></li>\n</ul>\n<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>"
+}

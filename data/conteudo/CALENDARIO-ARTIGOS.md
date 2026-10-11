@@ -1,6 +1,6 @@
 # Calendário de artigos
 
-Gerado por `scripts/calendario-artigos.js` em 10/10/2026. O robô publica 3/dia, na ordem da fila abaixo (coluna **Nº**).
+Gerado por `scripts/calendario-artigos.js` em 10/10/2026. Por dia: 1 artigo novo escrito por IA (Gemini, reserva Claude) + 2 do estoque pronto (tabela 2, na ordem do robô, coluna **Nº**). Quando o estoque acaba, os 3 do dia são escritos pela API. Plano de 12 meses: `calendario-12-meses.md`.
 
 | Situação | Artigos |
 |---|---|
@@ -43,172 +43,198 @@ O robô pula os artigos da tabela 3 até serem revisados e reimportados.
 | 10/10/2026 | Presbiopia: Como Corrigir Sua Visão de Perto (`/presbiopia/`) | 90 |
 | 10/10/2026 | Como Controlar a Ansiedade: Estratégias Práticas 40+ (`/como-controlar-a-ansiedade/`) | 95 |
 
+## 1b. Artigo novo (IA) dos próximos dias
+
+| Data | Palavra-chave | Situação |
+|---|---|---|
+| 11/10/2026 | hemograma completo | pauta validada |
+| 12/10/2026 | creatinina alta | pauta validada |
+| 13/10/2026 | café da manhã saudável | pauta validada |
+| 14/10/2026 | pressão 14 por 9 | pauta validada |
+| 15/10/2026 | longevidade | pauta validada |
+| 16/10/2026 | caminhada emagrece | pauta validada |
+| 17/10/2026 | como acelerar o metabolismo | pauta validada |
+| 18/10/2026 | alimentos que aumentam a testosterona | pauta validada |
+| 19/10/2026 | ressecamento da pele | pauta validada |
+| 20/10/2026 | queda de cabelo causas | pauta validada |
+| 21/10/2026 | alimentos anti inflamatórios | pauta validada |
+| 22/10/2026 | jantar saudável | pauta validada |
+| 23/10/2026 | hidroginástica benefícios | pauta validada |
+| 24/10/2026 | o que é sarcopenia | pauta validada |
+| 25/10/2026 | colesterol alto sintomas | pauta validada |
+| 26/10/2026 | com quantos anos a mulher entra na menopausa | pauta validada |
+| 27/10/2026 | menopausa precoce | pauta validada |
+| 28/10/2026 | melissa | tema novo: validar no Google |
+| 29/10/2026 | psyllium | tema novo: validar no Google |
+| 30/10/2026 | ômega 3 | tema novo: validar no Google |
+| 31/10/2026 | imc | tema novo: validar no Google |
+
 ## 2. Prontos para publicação futura (162)
 
 | Nº | Data prevista | Artigo | Palavra-chave | Nota |
 |---|---|---|---|---|
 | 1 | 11/10/2026 | Manchas na Pele: Guia Completo para Identificar o Risco (`/manchas-na-pele/`) | manchas na pele | 97 |
 | 2 | 11/10/2026 | Vitamina D Baixa Sintomas: Reconheça os Sinais (`/vitamina-d-baixa-sintomas/`) | vitamina d baixa sintomas | 97 |
-| 3 | 11/10/2026 | Lanche Saudável: 12 Ideias Fáceis para Sua Tarde (`/lanche-saudavel/`) | lanche saudável | 97 |
+| 3 | 12/10/2026 | Lanche Saudável: 12 Ideias Fáceis para Sua Tarde (`/lanche-saudavel/`) | lanche saudável | 97 |
 | 4 | 12/10/2026 | Cabelos Brancos: Causas, Cuidados e Tudo que Você Precisa Saber (`/cabelos-brancos/`) | cabelos brancos | 92 |
-| 5 | 12/10/2026 | Câimbras nas pernas: causas e alívio rápido (`/caimbras-nas-pernas/`) | câimbras nas pernas | 91 |
-| 6 | 12/10/2026 | Visão Embaçada: Causas e Como Melhorar (`/visao-embacada/`) | visão embaçada | 95 |
-| 7 | 13/10/2026 | Tontura ao Levantar: Causas e o Que Fazer (`/tontura-ao-levantar/`) | tontura ao levantar | 93 |
-| 8 | 13/10/2026 | Suor Noturno: Causas, Quando Preocupar e Como Tratar (`/suor-noturno/`) | suor noturno | 93 |
-| 9 | 13/10/2026 | Névoa Mental: Como Recuperar o Foco aos 40+ (`/nevoa-mental/`) | névoa mental | 95 |
-| 10 | 14/10/2026 | Fogachos: O Que São, Causas e Como Aliviar (`/fogachos/`) | fogachos | 92 |
-| 11 | 14/10/2026 | Exercícios para Idosos: Segurança e Força (`/exercicios-para-idosos/`) | exercícios para idosos | 96 |
-| 12 | 14/10/2026 | Ferro Baixo Sintomas: 8 Sinais que Você Não Deve Ignorar (`/ferro-baixo-sintomas/`) | ferro baixo sintomas | 93 |
-| 13 | 15/10/2026 | Esquecimento Frequente: Quando Procurar Médico (`/esquecimento/`) | esquecimento | 95 |
-| 14 | 15/10/2026 | Idade Metabólica: Calcule e Melhore a Sua (`/idade-metabolica/`) | idade metabólica | 96 |
-| 15 | 15/10/2026 | Sarcopenia: o que é, sinais e como cuidar (`/sarcopenia/`) | sarcopenia | 98 |
-| 16 | 16/10/2026 | Lanches Saudáveis: Ideias para o Dia a Dia (`/lanches-saudaveis/`) | lanches saudáveis | 96 |
-| 17 | 16/10/2026 | Açúcar: tipos, calorias e limite recomendado (`/acucar/`) | açúcar | 100 |
-| 18 | 16/10/2026 | Atemoia: benefícios, cuidados e como comer (`/atemoia/`) | atemoia | 100 |
-| 19 | 17/10/2026 | Goiaba: benefícios, intestino e tailandesa (`/goiaba/`) | goiaba | 100 |
-| 20 | 17/10/2026 | Ashwagandha: benefícios, efeitos e cuidados (`/ashwagandha/`) | ashwagandha | 90 |
-| 21 | 17/10/2026 | Bananazinha: Cachaça de Banana, Teor e Como Tomar (`/bananazinha/`) | bananazinha | 93 |
-| 22 | 18/10/2026 | Biotina: para que serve e efeito em exames (`/biotina/`) | biotina | 99 |
-| 23 | 18/10/2026 | Celulite: causas, graus e tratamentos (`/celulite/`) | celulite | 100 |
-| 24 | 18/10/2026 | Chá de cavalinha: para que serve e riscos (`/cha-de-cavalinha/`) | chá de cavalinha | 96 |
-| 25 | 19/10/2026 | Creatina: Para Que Serve, Benefícios, Riscos e Como Tomar (`/creatina/`) | creatina | 97 |
-| 26 | 19/10/2026 | Déficit Calórico: Como Calcular e Emagrecer com Saúde (`/deficit-calorico/`) | déficit calórico | 97 |
-| 27 | 19/10/2026 | Dermatite de contato: causas e como tratar (`/dermatite-de-contato/`) | dermatite de contato | 100 |
-| 28 | 20/10/2026 | Dieta Low Carb: Guia Completo com Cardápio (`/dieta-low-carb/`) | dieta low carb | 99 |
-| 29 | 20/10/2026 | Dieta Para Secar Barriga: Estratégias Comprovadas (`/dieta-para-secar-barriga/`) | dieta para secar barriga | 93 |
-| 30 | 20/10/2026 | Emagrecer com Saúde: Guia Completo e Sustentável (`/emagrecer-com-saude/`) | emagrecer com saúde | 91 |
-| 31 | 21/10/2026 | Emagrecimento Saudável: Guia Completo e Seguro (`/emagrecimento-saudavel/`) | emagrecimento saudável | 93 |
-| 32 | 21/10/2026 | Fiberlift — O Que É, Como Usar e Contraindicações (`/fiberlift/`) | fiberlift | 93 |
-| 33 | 21/10/2026 | Fibra Mais: Para Que Serve e Como Tomar (`/fibra-mais/`) | fibra mais | 90 |
-| 34 | 22/10/2026 | Glaçúcar União: Para Que Serve e Composição (`/glacucar-uniao/`) | glaçúcar união | 93 |
-| 35 | 22/10/2026 | Jejum Intermitente Para Emagrecer — Guia Prático (`/jejum-intermitente-para-emagrecer/`) | jejum intermitente para emagrecer | 94 |
-| 36 | 22/10/2026 | Magnésio: Para Que Serve, Tipos e Cuidados (`/magnesio/`) | magnésio | 99 |
-| 37 | 23/10/2026 | Melasma: causas, sintomas e como cuidar (`/melasma/`) | melasma | 100 |
-| 38 | 23/10/2026 | Nutrição Estética: Guia Completo da Pele e Saúde (`/nutricao-estetica/`) | nutrição estética | 95 |
-| 39 | 23/10/2026 | Paralisia do sono: causas e o que fazer (`/paralisia-do-sono/`) | paralisia do sono | 100 |
-| 40 | 24/10/2026 | Polissonografia: o que é e como se preparar (`/polissonografia/`) | polissonografia | 100 |
-| 41 | 24/10/2026 | Pomelos: nutrientes, remédios e cuidados (`/pomelos/`) | pomelos | 100 |
-| 42 | 24/10/2026 | Probióticos: Para Que Servem, Tipos e Benefícios (`/probioticos/`) | probióticos | 94 |
-| 43 | 25/10/2026 | Queloide: o que é, causas e tratamento (`/queloide/`) | queloide | 100 |
-| 44 | 25/10/2026 | Queratose pilar: causas e tratamento (`/queratose-pilar/`) | queratose pilar | 100 |
-| 45 | 25/10/2026 | Quero Emagrecer — Guia Realista e Saudável (`/quero-emagrecer/`) | quero emagrecer | 93 |
-| 46 | 26/10/2026 | Reeducação Alimentar Para Emagrecer — Guia Prático (`/reeducacao-alimentar-para-emagrecer/`) | reeducação alimentar para emagrecer | 93 |
-| 47 | 26/10/2026 | Sarna: sintomas, como se pega e quando tratar (`/sarna/`) | sarna | 100 |
-| 48 | 26/10/2026 | Menopausa: sintomas, fases e como aliviar (`/menopausa/`) | menopausa | 95 |
-| 49 | 27/10/2026 | Cebola para Cabelo: Funciona ou Mito? (`/suco-de-cebola-no-cabelo/`) | cebola para cabelo | 95 |
-| 50 | 27/10/2026 | Super Chá SB — O Que É, Riscos e Evidências (`/super-cha-sb/`) | super chá sb | 94 |
-| 51 | 27/10/2026 | Tabela de Calorias dos Alimentos — Guia Prático (`/tabela-de-calorias-dos-alimentos/`) | tabela de calorias dos alimentos | 93 |
-| 52 | 28/10/2026 | Urticária: causas, sintomas e quando procurar (`/urticaria/`) | urticária | 100 |
-| 53 | 28/10/2026 | Whey Protein: Para Que Serve, Tipos e Como Tomar (`/whey-protein/`) | whey protein | 98 |
-| 54 | 28/10/2026 | Azeite para Cabelo: Benefícios e Riscos (`/azeite-de-oliva-no-cabelo/`) | azeite para cabelo | 91 |
-| 55 | 29/10/2026 | Babosa no Cabelo: Benefícios Reais e Riscos (`/babosa-no-cabelo/`) | babosa no cabelo | 91 |
-| 56 | 29/10/2026 | Biotina comprimido: funções, riscos e exames (`/biotina-comprimido/`) | biotina comprimido | 90 |
-| 57 | 29/10/2026 | Biotina para que serve: funções e evidências (`/biotina-para-que-serve/`) | biotina para que serve | 99 |
-| 58 | 30/10/2026 | Biotina valor: o que considerar antes de usar (`/biotina-valor/`) | biotina valor | 95 |
-| 59 | 30/10/2026 | Academia emagrece? Musculação e perda de gordura (`/academia-emagrece/`) | academia emagrece | 90 |
-| 60 | 30/10/2026 | Ácido fólico para que serve: usos e cuidados (`/acido-folico-para-que-serve/`) | ácido fólico para que serve | 94 |
-| 61 | 31/10/2026 | Ácido hialurônico para que serve: tipos e riscos (`/acido-hialuronico-para-que-serve/`) | ácido hialurônico para que serve | 94 |
-| 62 | 31/10/2026 | Ácido salicílico: para que serve e como usar (`/acido-salicilico/`) | ácido salicílico | 95 |
-| 63 | 31/10/2026 | Ácido salicílico para que serve: benefícios e uso (`/acido-salicilico-para-que-serve/`) | ácido salicílico para que serve | 93 |
-| 64 | 01/11/2026 | Acordar cansado: causas e como melhorar o sono (`/acordar-cansado/`) | acordar cansado | 95 |
-| 65 | 01/11/2026 | Adapaleno: o que é, para que serve e como usar (`/adapaleno/`) | adapaleno | 95 |
-| 66 | 01/11/2026 | Alantoína: para que serve e cuidados na pele (`/alantoina/`) | alantoína | 90 |
-| 67 | 02/11/2026 | Albumina suplemento: riscos e quem deve evitar (`/albumina-suplemento/`) | albumina suplemento | 95 |
-| 68 | 02/11/2026 | Alimentação saudável criança: guia prático (`/alimentacao-saudavel-crianca/`) | alimentação saudável criança | 90 |
-| 69 | 02/11/2026 | Alimentos Saudáveis para Crianças: Guia Completo (`/alimentos-saudaveis-para-criancas/`) | alimentos saudáveis para crianças | 90 |
-| 70 | 03/11/2026 | Alimentos sem Glúten e sem Lactose: Guia Prático (`/alimentos-sem-gluten-e-sem-lactose/`) | alimentos sem glúten e sem lactose | 91 |
-| 71 | 03/11/2026 | Alimentos sem Lactose: Lista e Substituições (`/alimentos-sem-lactose/`) | alimentos sem lactose | 90 |
-| 72 | 03/11/2026 | Alopecia Areata: Causas, Sintomas e Tratamentos (`/alopecia-areata/`) | alopecia areata | 95 |
-| 73 | 04/11/2026 | Alopecia Feminina: Causas, Tipos e Tratamentos (`/alopecia-feminina/`) | alopecia feminina | 91 |
-| 74 | 04/11/2026 | Alopecia na Barba: Causas e Tratamentos (`/alopecia-na-barba/`) | alopecia na barba | 91 |
-| 75 | 04/11/2026 | Alopecia por Estresse: Sintomas e Controle (`/alopecia-por-estresse/`) | alopecia por estresse | 95 |
-| 76 | 05/11/2026 | Ansiedade: Sintomas Físicos, Causas e Ajuda (`/ansiedade/`) | ansiedade | 94 |
-| 77 | 05/11/2026 | Argila Verde: Para Que Serve e Como Usar (`/argila-verde/`) | argila verde | 91 |
-| 78 | 05/11/2026 | Frutas Exóticas: Quais São, Benefícios e Riscos (`/frutas-exoticas/`) | frutas exóticas | 90 |
-| 79 | 06/11/2026 | Magnésio Dimalato: O Que É, Usos e Cuidados (`/magnesio-dimalato/`) | magnésio dimalato | 94 |
-| 80 | 06/11/2026 | Resveratrol: O Que É, Onde Está e Cuidados (`/resveratrol/`) | resveratrol | 94 |
-| 81 | 06/11/2026 | Vitamina B12: Para Que Serve e Sinais de Falta (`/vitamina-b12/`) | vitamina B12 | 94 |
-| 82 | 07/11/2026 | Babosa é Bom para Queda de Cabelo? O que Se Sabe (`/babosa-para-queda-de-cabelo/`) | babosa é bom para queda de cabelo | 95 |
-| 83 | 07/11/2026 | Beta-alanina: para que serve e como tomar (`/beta-alanina/`) | beta-alanina | 95 |
-| 84 | 07/11/2026 | Bolinhas no couro cabeludo: causas e quando agir (`/bolinhas-no-couro-cabeludo/`) | bolinhas no couro cabeludo | 95 |
-| 85 | 08/11/2026 | Botox capilar: o que é, benefícios e cuidados (`/botox-capilar/`) | botox capilar | 94 |
-| 86 | 08/11/2026 | Cabelo branco masculino: causas e cuidados (`/cabelo-branco-masculino/`) | cabelo branco masculino | 90 |
-| 87 | 08/11/2026 | Cabelo caindo muito: causas e investigação (`/cabelo-caindo-muito/`) | cabelo caindo muito | 95 |
-| 88 | 09/11/2026 | Cabelo quebrado: como recuperar e cronograma (`/cabelo-quebrado/`) | cabelo quebrado | 90 |
-| 89 | 09/11/2026 | Queda de cabelo o que fazer: causas reais (`/queda-de-cabelo-o-que-fazer/`) | queda de cabelo o que fazer | 91 |
-| 90 | 09/11/2026 | Calculadora de IMC: entenda o seu índice corporal (`/calculadora-de-imc/`) | calculadora de IMC | 92 |
-| 91 | 10/11/2026 | Caloria dos alimentos: como calcular e usar (`/caloria-dos-alimentos/`) | caloria dos alimentos | 90 |
-| 92 | 10/11/2026 | Calvície masculina: causas e tratamentos (`/calvicie-masculina/`) | calvície masculina | 90 |
-| 93 | 10/11/2026 | Carboidratos: o que são, funções e tipos (`/carboidratos/`) | carboidratos | 94 |
-| 94 | 11/11/2026 | Cardápio de Dieta para Emagrecer: Guia Semanal (`/cardapio-para-emagrecer/`) | cardápio de dieta para emagrecer | 95 |
-| 95 | 11/11/2026 | Chá que emagrece 1kg por dia: evidências (`/cha-que-emagrece-1kg-por-dia/`) | chá que emagrece 1kg por dia | 90 |
-| 96 | 11/11/2026 | Chá relaxante muscular: o que a ciência diz (`/cha-relaxante-muscular/`) | chá relaxante muscular | 90 |
-| 97 | 12/11/2026 | Chás: o que a ciência sabe sobre ervas e saúde (`/chas/`) | chás | 94 |
-| 98 | 12/11/2026 | Cisto no couro cabeludo: tipos e cuidados (`/cisto-no-couro-cabeludo/`) | cisto no couro cabeludo | 95 |
-| 99 | 12/11/2026 | Como lavar o cabelo corretamente: passo a passo (`/como-lavar-o-cabelo-corretamente/`) | como lavar o cabelo corretamente | 90 |
-| 100 | 13/11/2026 | Compulsão alimentar: sintomas e tratamento (`/compulsao-alimentar/`) | compulsão alimentar | 94 |
-| 101 | 13/11/2026 | Contar calorias: como calcular e evitar erros (`/contar-calorias/`) | contar calorias | 90 |
-| 102 | 13/11/2026 | Cotovelos escuros: causas, como clarear e alerta (`/cotovelos-escuros/`) | cotovelos escuros | 90 |
-| 103 | 14/11/2026 | Cúrcuma: para que serve, benefícios e cuidados (`/curcuma/`) | cúrcuma | 90 |
-| 104 | 14/11/2026 | Dieta de 1000 calorias: riscos e indicação (`/dieta-de-1000-calorias/`) | dieta de 1000 calorias | 90 |
-| 105 | 14/11/2026 | Dieta enteral 1.5: guia completo para cuidadores (`/dieta-enteral-1-5/`) | dieta enteral 1.5 | 90 |
-| 106 | 15/11/2026 | Dieta para perder barriga: o que funciona (`/dieta-para-perder-barriga/`) | dieta para perder barriga | 95 |
-| 107 | 15/11/2026 | Dieta para secar: guia prático e realista (`/dieta-para-secar/`) | dieta para secar | 90 |
-| 108 | 15/11/2026 | Dieta sem carboidrato: como funciona e riscos (`/dieta-sem-carboidrato/`) | dieta sem carboidrato | 95 |
-| 109 | 16/11/2026 | Dormir cedo: benefícios, rotina e o que evitar (`/dormir-cedo/`) | dormir cedo | 92 |
-| 110 | 16/11/2026 | Eletrólitos: o que são, funções e como repor (`/eletrolitos/`) | eletrólitos | 99 |
-| 111 | 16/11/2026 | Emagrecer 10kg: o que é possível e com saúde (`/emagrecer-10kg/`) | emagrecer 10kg | 95 |
-| 112 | 17/11/2026 | Emagrecer rápido com saúde: guia seguro (`/emagrecer-rapido-com-saude/`) | emagrecer rápido com saúde | 95 |
-| 113 | 17/11/2026 | Entradas no cabelo: causas, tratamentos e cortes (`/entradas-no-cabelo/`) | entradas no cabelo | 90 |
-| 114 | 17/11/2026 | Especialista em cabelo: quando procurar (`/especialista-em-cabelo/`) | especialista em cabelo | 90 |
-| 115 | 18/11/2026 | Fogacho menopausa: causas, duração e tratamentos (`/fogacho-menopausa/`) | fogacho menopausa | 92 |
-| 116 | 18/11/2026 | Fome emocional: o que é, como identificar (`/fome-emocional/`) | fome emocional | 95 |
-| 117 | 18/11/2026 | Fome no mundo: causas, dados atuais e soluções (`/fome-no-mundo/`) | fome no mundo | 92 |
-| 118 | 19/11/2026 | Fruta do conde: nutrientes, benefícios e cuidados (`/fruta-do-conde/`) | fruta do conde | 92 |
-| 119 | 19/11/2026 | Glicina: o que é, para que serve e riscos (`/glicina/`) | glicina | 95 |
-| 120 | 19/11/2026 | Hidrafacial: o que é, benefícios e riscos (`/hidrafacial/`) | hidrafacial | 90 |
-| 121 | 20/11/2026 | Hidratante facial: como escolher o ideal (`/hidratante-facial/`) | hidratante facial | 94 |
-| 122 | 20/11/2026 | HMB: o que é, para que serve e efeitos colaterais (`/hmb/`) | HMB | 93 |
-| 123 | 20/11/2026 | Inibidor de apetite forte: riscos e cuidados (`/inibidor-de-apetite-forte/`) | inibidor de apetite forte | 95 |
-| 124 | 21/11/2026 | Maca Peruana: O Que É e Quais Cuidados Ter (`/maca-peruana/`) | maca peruana | 94 |
-| 125 | 21/11/2026 | Magnésio Dimalato Efeitos Colaterais e Rins (`/magnesio-dimalato-efeitos-colaterais/`) | magnésio dimalato efeitos colaterais | 90 |
-| 126 | 21/11/2026 | Magnésio Efeitos Colaterais: Guia Seguro (`/magnesio-efeitos-colaterais/`) | magnésio efeitos colaterais | 95 |
-| 127 | 22/11/2026 | Magnésio Treonato Para Que Serve e Efeitos (`/magnesio-treonato-para-que-serve/`) | magnésio treonato para que serve | 94 |
-| 128 | 22/11/2026 | Manchas Senis: Causas, Tratamentos e Autoexame (`/manchas-senis/`) | manchas senis | 94 |
-| 129 | 22/11/2026 | Manipulados para Emagrecer: Riscos e Regras (`/manipulados-para-emagrecer/`) | manipulados para emagrecer | 90 |
-| 130 | 23/11/2026 | Marmita Fitness Cardápio Semanal: Guia Prático (`/marmita-fitness-cardapio-semanal/`) | marmita fitness cardápio semanal | 99 |
-| 131 | 23/11/2026 | Massagem Capilar: Benefícios e Contraindicações (`/massagem-capilar/`) | massagem capilar | 90 |
-| 132 | 23/11/2026 | Melasma na Gravidez: Causas e Cuidados Seguros (`/melasma-na-gravidez/`) | melasma na gravidez | 90 |
-| 133 | 24/11/2026 | Obstipação Intestinal: Causas e Sintomas (`/obstipacao-intestinal/`) | obstipação intestinal | 95 |
-| 134 | 24/11/2026 | Óxido de Magnésio: Para Que Serve e Riscos (`/oxido-de-magnesio/`) | óxido de magnésio | 91 |
-| 135 | 24/11/2026 | pH da Pele: O Que é Ideal e Como Equilibrar (`/ph-da-pele/`) | ph da pele | 90 |
-| 136 | 25/11/2026 | Picolinato de Cromo para Que Serve e Riscos (`/picolinato-de-cromo-para-que-serve/`) | picolinato de cromo para que serve | 95 |
-| 137 | 25/11/2026 | Produtos Sem Lactose: Guia Completo e Prático (`/produtos-sem-lactose/`) | produtos sem lactose | 91 |
-| 138 | 25/11/2026 | Proteína para Emagrecer: Como Usar e Riscos (`/proteina-para-emagrecer/`) | proteína para emagrecer | 95 |
-| 139 | 26/11/2026 | Proteína em Pó: Como Usar e Comparar Opções (`/proteina-em-po/`) | proteína em pó | 90 |
-| 140 | 26/11/2026 | Protetor Solar Facial: Como Escolher e Usar (`/protetor-solar-facial/`) | protetor solar facial | 94 |
-| 141 | 26/11/2026 | Psoríase no Couro Cabeludo: Sintomas e Caspa (`/psoriase-no-couro-cabeludo/`) | psoríase no couro cabeludo | 94 |
-| 142 | 27/11/2026 | Queda de Cabelo Feminino: Causas e Tratamentos (`/queda-de-cabelo-feminino/`) | queda de cabelo feminino | 90 |
-| 143 | 27/11/2026 | Queda de Cabelo Intensa: Causas e Quando Tratar (`/queda-de-cabelo-intensa/`) | queda de cabelo intensa | 91 |
-| 144 | 27/11/2026 | Queda de Cabelo por Estresse: Causas e Sinais (`/queda-de-cabelo-por-estresse/`) | queda de cabelo por estresse | 90 |
-| 145 | 28/11/2026 | Reeducação Alimentar: Como Fazer na Prática (`/reeducacao-alimentar/`) | reeducação alimentar | 95 |
-| 146 | 28/11/2026 | Sabonete de Enxofre Para Que Serve e Cuidados (`/sabonete-de-enxofre-para-que-serve/`) | sabonete de enxofre para que serve | 94 |
-| 147 | 28/11/2026 | Saw Palmetto Queda de Cabelo: O Que Funciona (`/saw-palmetto-queda-de-cabelo/`) | saw palmetto queda de cabelo | 95 |
-| 148 | 29/11/2026 | Suplementos para Emagrecer Feminino: Evidências (`/suplementos-para-emagrecer-feminino/`) | suplementos para emagrecer feminino | 90 |
-| 149 | 29/11/2026 | Taurina Efeitos Colaterais: Rins e Cafeína (`/taurina-efeitos-colaterais/`) | taurina efeitos colaterais | 95 |
-| 150 | 29/11/2026 | Terapia Fotodinâmica: O Que É e Como Funciona (`/terapia-fotodinamica/`) | terapia fotodinâmica | 90 |
-| 151 | 30/11/2026 | Termogênico para Emagrecer: Funciona e Riscos (`/termogenico-para-emagrecer/`) | termogênico para emagrecer | 90 |
-| 152 | 30/11/2026 | Termogênicos Naturais: Funciona e os Riscos (`/termogenicos-naturais/`) | termogênicos naturais | 90 |
-| 153 | 30/11/2026 | Treino Funcional Emagrece? O Que Diz a Ciência (`/treino-funcional-emagrece/`) | treino funcional emagrece | 90 |
-| 154 | 01/12/2026 | Valeriana Para Que Serve: Efeitos e Riscos (`/valeriana-para-que-serve/`) | valeriana para que serve | 95 |
-| 155 | 01/12/2026 | Vasinhos no Rosto: Causas e Tratamento a Laser (`/vasinhos-no-rosto/`) | vasinhos no rosto | 90 |
-| 156 | 01/12/2026 | Vitamina D: Para Que Serve, Sintomas e Cuidados (`/vitamina-d/`) | vitamina D | 90 |
-| 157 | 02/12/2026 | Vitamina de Cavalo no Cabelo: Riscos (`/vitamina-de-cavalo-no-cabelo/`) | vitamina de cavalo no cabelo | 90 |
-| 158 | 02/12/2026 | Vitamina para Queda de Cabelo: O Que Funciona (`/vitamina-para-queda-de-cabelo/`) | vitamina para queda de cabelo | 95 |
-| 159 | 02/12/2026 | Vitaminas para Queda de Cabelo: Sinais e Exames (`/vitaminas-para-queda-de-cabelo/`) | Vitaminas para queda de cabelo | 90 |
-| 160 | 03/12/2026 | Albumina em pó: como usar e evitar gases (`/albumina-em-po/`) | albumina em pó | 90 |
-| 161 | 03/12/2026 | Bebidas Ambev: portfólio e tabela nutricional (`/bebidas-ambev/`) | bebidas ambev | 95 |
-| 162 | 03/12/2026 | Colágeno Verisol: para que serve e dosagem (`/colageno-verisol/`) | colágeno verisol | 94 |
+| 5 | 13/10/2026 | Câimbras nas pernas: causas e alívio rápido (`/caimbras-nas-pernas/`) | câimbras nas pernas | 91 |
+| 6 | 13/10/2026 | Visão Embaçada: Causas e Como Melhorar (`/visao-embacada/`) | visão embaçada | 95 |
+| 7 | 14/10/2026 | Tontura ao Levantar: Causas e o Que Fazer (`/tontura-ao-levantar/`) | tontura ao levantar | 93 |
+| 8 | 14/10/2026 | Suor Noturno: Causas, Quando Preocupar e Como Tratar (`/suor-noturno/`) | suor noturno | 93 |
+| 9 | 15/10/2026 | Névoa Mental: Como Recuperar o Foco aos 40+ (`/nevoa-mental/`) | névoa mental | 95 |
+| 10 | 15/10/2026 | Fogachos: O Que São, Causas e Como Aliviar (`/fogachos/`) | fogachos | 92 |
+| 11 | 16/10/2026 | Exercícios para Idosos: Segurança e Força (`/exercicios-para-idosos/`) | exercícios para idosos | 96 |
+| 12 | 16/10/2026 | Ferro Baixo Sintomas: 8 Sinais que Você Não Deve Ignorar (`/ferro-baixo-sintomas/`) | ferro baixo sintomas | 93 |
+| 13 | 17/10/2026 | Esquecimento Frequente: Quando Procurar Médico (`/esquecimento/`) | esquecimento | 95 |
+| 14 | 17/10/2026 | Idade Metabólica: Calcule e Melhore a Sua (`/idade-metabolica/`) | idade metabólica | 96 |
+| 15 | 18/10/2026 | Sarcopenia: o que é, sinais e como cuidar (`/sarcopenia/`) | sarcopenia | 98 |
+| 16 | 18/10/2026 | Lanches Saudáveis: Ideias para o Dia a Dia (`/lanches-saudaveis/`) | lanches saudáveis | 96 |
+| 17 | 19/10/2026 | Açúcar: tipos, calorias e limite recomendado (`/acucar/`) | açúcar | 100 |
+| 18 | 19/10/2026 | Atemoia: benefícios, cuidados e como comer (`/atemoia/`) | atemoia | 100 |
+| 19 | 20/10/2026 | Goiaba: benefícios, intestino e tailandesa (`/goiaba/`) | goiaba | 100 |
+| 20 | 20/10/2026 | Ashwagandha: benefícios, efeitos e cuidados (`/ashwagandha/`) | ashwagandha | 90 |
+| 21 | 21/10/2026 | Bananazinha: Cachaça de Banana, Teor e Como Tomar (`/bananazinha/`) | bananazinha | 93 |
+| 22 | 21/10/2026 | Biotina: para que serve e efeito em exames (`/biotina/`) | biotina | 99 |
+| 23 | 22/10/2026 | Celulite: causas, graus e tratamentos (`/celulite/`) | celulite | 100 |
+| 24 | 22/10/2026 | Chá de cavalinha: para que serve e riscos (`/cha-de-cavalinha/`) | chá de cavalinha | 96 |
+| 25 | 23/10/2026 | Creatina: Para Que Serve, Benefícios, Riscos e Como Tomar (`/creatina/`) | creatina | 97 |
+| 26 | 23/10/2026 | Déficit Calórico: Como Calcular e Emagrecer com Saúde (`/deficit-calorico/`) | déficit calórico | 97 |
+| 27 | 24/10/2026 | Dermatite de contato: causas e como tratar (`/dermatite-de-contato/`) | dermatite de contato | 100 |
+| 28 | 24/10/2026 | Dieta Low Carb: Guia Completo com Cardápio (`/dieta-low-carb/`) | dieta low carb | 99 |
+| 29 | 25/10/2026 | Dieta Para Secar Barriga: Estratégias Comprovadas (`/dieta-para-secar-barriga/`) | dieta para secar barriga | 93 |
+| 30 | 25/10/2026 | Emagrecer com Saúde: Guia Completo e Sustentável (`/emagrecer-com-saude/`) | emagrecer com saúde | 91 |
+| 31 | 26/10/2026 | Emagrecimento Saudável: Guia Completo e Seguro (`/emagrecimento-saudavel/`) | emagrecimento saudável | 93 |
+| 32 | 26/10/2026 | Fiberlift — O Que É, Como Usar e Contraindicações (`/fiberlift/`) | fiberlift | 93 |
+| 33 | 27/10/2026 | Fibra Mais: Para Que Serve e Como Tomar (`/fibra-mais/`) | fibra mais | 90 |
+| 34 | 27/10/2026 | Glaçúcar União: Para Que Serve e Composição (`/glacucar-uniao/`) | glaçúcar união | 93 |
+| 35 | 28/10/2026 | Jejum Intermitente Para Emagrecer — Guia Prático (`/jejum-intermitente-para-emagrecer/`) | jejum intermitente para emagrecer | 94 |
+| 36 | 28/10/2026 | Magnésio: Para Que Serve, Tipos e Cuidados (`/magnesio/`) | magnésio | 99 |
+| 37 | 29/10/2026 | Melasma: causas, sintomas e como cuidar (`/melasma/`) | melasma | 100 |
+| 38 | 29/10/2026 | Nutrição Estética: Guia Completo da Pele e Saúde (`/nutricao-estetica/`) | nutrição estética | 95 |
+| 39 | 30/10/2026 | Paralisia do sono: causas e o que fazer (`/paralisia-do-sono/`) | paralisia do sono | 100 |
+| 40 | 30/10/2026 | Polissonografia: o que é e como se preparar (`/polissonografia/`) | polissonografia | 100 |
+| 41 | 31/10/2026 | Pomelos: nutrientes, remédios e cuidados (`/pomelos/`) | pomelos | 100 |
+| 42 | 31/10/2026 | Probióticos: Para Que Servem, Tipos e Benefícios (`/probioticos/`) | probióticos | 94 |
+| 43 | 01/11/2026 | Queloide: o que é, causas e tratamento (`/queloide/`) | queloide | 100 |
+| 44 | 01/11/2026 | Queratose pilar: causas e tratamento (`/queratose-pilar/`) | queratose pilar | 100 |
+| 45 | 02/11/2026 | Quero Emagrecer — Guia Realista e Saudável (`/quero-emagrecer/`) | quero emagrecer | 93 |
+| 46 | 02/11/2026 | Reeducação Alimentar Para Emagrecer — Guia Prático (`/reeducacao-alimentar-para-emagrecer/`) | reeducação alimentar para emagrecer | 93 |
+| 47 | 03/11/2026 | Sarna: sintomas, como se pega e quando tratar (`/sarna/`) | sarna | 100 |
+| 48 | 03/11/2026 | Menopausa: sintomas, fases e como aliviar (`/menopausa/`) | menopausa | 95 |
+| 49 | 04/11/2026 | Cebola para Cabelo: Funciona ou Mito? (`/suco-de-cebola-no-cabelo/`) | cebola para cabelo | 95 |
+| 50 | 04/11/2026 | Super Chá SB — O Que É, Riscos e Evidências (`/super-cha-sb/`) | super chá sb | 94 |
+| 51 | 05/11/2026 | Tabela de Calorias dos Alimentos — Guia Prático (`/tabela-de-calorias-dos-alimentos/`) | tabela de calorias dos alimentos | 93 |
+| 52 | 05/11/2026 | Urticária: causas, sintomas e quando procurar (`/urticaria/`) | urticária | 100 |
+| 53 | 06/11/2026 | Whey Protein: Para Que Serve, Tipos e Como Tomar (`/whey-protein/`) | whey protein | 98 |
+| 54 | 06/11/2026 | Azeite para Cabelo: Benefícios e Riscos (`/azeite-de-oliva-no-cabelo/`) | azeite para cabelo | 91 |
+| 55 | 07/11/2026 | Babosa no Cabelo: Benefícios Reais e Riscos (`/babosa-no-cabelo/`) | babosa no cabelo | 91 |
+| 56 | 07/11/2026 | Biotina comprimido: funções, riscos e exames (`/biotina-comprimido/`) | biotina comprimido | 90 |
+| 57 | 08/11/2026 | Biotina para que serve: funções e evidências (`/biotina-para-que-serve/`) | biotina para que serve | 99 |
+| 58 | 08/11/2026 | Biotina valor: o que considerar antes de usar (`/biotina-valor/`) | biotina valor | 95 |
+| 59 | 09/11/2026 | Academia emagrece? Musculação e perda de gordura (`/academia-emagrece/`) | academia emagrece | 90 |
+| 60 | 09/11/2026 | Ácido fólico para que serve: usos e cuidados (`/acido-folico-para-que-serve/`) | ácido fólico para que serve | 94 |
+| 61 | 10/11/2026 | Ácido hialurônico para que serve: tipos e riscos (`/acido-hialuronico-para-que-serve/`) | ácido hialurônico para que serve | 94 |
+| 62 | 10/11/2026 | Ácido salicílico: para que serve e como usar (`/acido-salicilico/`) | ácido salicílico | 95 |
+| 63 | 11/11/2026 | Ácido salicílico para que serve: benefícios e uso (`/acido-salicilico-para-que-serve/`) | ácido salicílico para que serve | 93 |
+| 64 | 11/11/2026 | Acordar cansado: causas e como melhorar o sono (`/acordar-cansado/`) | acordar cansado | 95 |
+| 65 | 12/11/2026 | Adapaleno: o que é, para que serve e como usar (`/adapaleno/`) | adapaleno | 95 |
+| 66 | 12/11/2026 | Alantoína: para que serve e cuidados na pele (`/alantoina/`) | alantoína | 90 |
+| 67 | 13/11/2026 | Albumina suplemento: riscos e quem deve evitar (`/albumina-suplemento/`) | albumina suplemento | 95 |
+| 68 | 13/11/2026 | Alimentação saudável criança: guia prático (`/alimentacao-saudavel-crianca/`) | alimentação saudável criança | 90 |
+| 69 | 14/11/2026 | Alimentos Saudáveis para Crianças: Guia Completo (`/alimentos-saudaveis-para-criancas/`) | alimentos saudáveis para crianças | 90 |
+| 70 | 14/11/2026 | Alimentos sem Glúten e sem Lactose: Guia Prático (`/alimentos-sem-gluten-e-sem-lactose/`) | alimentos sem glúten e sem lactose | 91 |
+| 71 | 15/11/2026 | Alimentos sem Lactose: Lista e Substituições (`/alimentos-sem-lactose/`) | alimentos sem lactose | 90 |
+| 72 | 15/11/2026 | Alopecia Areata: Causas, Sintomas e Tratamentos (`/alopecia-areata/`) | alopecia areata | 95 |
+| 73 | 16/11/2026 | Alopecia Feminina: Causas, Tipos e Tratamentos (`/alopecia-feminina/`) | alopecia feminina | 91 |
+| 74 | 16/11/2026 | Alopecia na Barba: Causas e Tratamentos (`/alopecia-na-barba/`) | alopecia na barba | 91 |
+| 75 | 17/11/2026 | Alopecia por Estresse: Sintomas e Controle (`/alopecia-por-estresse/`) | alopecia por estresse | 95 |
+| 76 | 17/11/2026 | Ansiedade: Sintomas Físicos, Causas e Ajuda (`/ansiedade/`) | ansiedade | 94 |
+| 77 | 18/11/2026 | Argila Verde: Para Que Serve e Como Usar (`/argila-verde/`) | argila verde | 91 |
+| 78 | 18/11/2026 | Frutas Exóticas: Quais São, Benefícios e Riscos (`/frutas-exoticas/`) | frutas exóticas | 90 |
+| 79 | 19/11/2026 | Magnésio Dimalato: O Que É, Usos e Cuidados (`/magnesio-dimalato/`) | magnésio dimalato | 94 |
+| 80 | 19/11/2026 | Resveratrol: O Que É, Onde Está e Cuidados (`/resveratrol/`) | resveratrol | 94 |
+| 81 | 20/11/2026 | Vitamina B12: Para Que Serve e Sinais de Falta (`/vitamina-b12/`) | vitamina B12 | 94 |
+| 82 | 20/11/2026 | Babosa é Bom para Queda de Cabelo? O que Se Sabe (`/babosa-para-queda-de-cabelo/`) | babosa é bom para queda de cabelo | 95 |
+| 83 | 21/11/2026 | Beta-alanina: para que serve e como tomar (`/beta-alanina/`) | beta-alanina | 95 |
+| 84 | 21/11/2026 | Bolinhas no couro cabeludo: causas e quando agir (`/bolinhas-no-couro-cabeludo/`) | bolinhas no couro cabeludo | 95 |
+| 85 | 22/11/2026 | Botox capilar: o que é, benefícios e cuidados (`/botox-capilar/`) | botox capilar | 94 |
+| 86 | 22/11/2026 | Cabelo branco masculino: causas e cuidados (`/cabelo-branco-masculino/`) | cabelo branco masculino | 90 |
+| 87 | 23/11/2026 | Cabelo caindo muito: causas e investigação (`/cabelo-caindo-muito/`) | cabelo caindo muito | 95 |
+| 88 | 23/11/2026 | Cabelo quebrado: como recuperar e cronograma (`/cabelo-quebrado/`) | cabelo quebrado | 90 |
+| 89 | 24/11/2026 | Queda de cabelo o que fazer: causas reais (`/queda-de-cabelo-o-que-fazer/`) | queda de cabelo o que fazer | 91 |
+| 90 | 24/11/2026 | Calculadora de IMC: entenda o seu índice corporal (`/calculadora-de-imc/`) | calculadora de IMC | 92 |
+| 91 | 25/11/2026 | Caloria dos alimentos: como calcular e usar (`/caloria-dos-alimentos/`) | caloria dos alimentos | 90 |
+| 92 | 25/11/2026 | Calvície masculina: causas e tratamentos (`/calvicie-masculina/`) | calvície masculina | 90 |
+| 93 | 26/11/2026 | Carboidratos: o que são, funções e tipos (`/carboidratos/`) | carboidratos | 94 |
+| 94 | 26/11/2026 | Cardápio de Dieta para Emagrecer: Guia Semanal (`/cardapio-para-emagrecer/`) | cardápio de dieta para emagrecer | 95 |
+| 95 | 27/11/2026 | Chá que emagrece 1kg por dia: evidências (`/cha-que-emagrece-1kg-por-dia/`) | chá que emagrece 1kg por dia | 90 |
+| 96 | 27/11/2026 | Chá relaxante muscular: o que a ciência diz (`/cha-relaxante-muscular/`) | chá relaxante muscular | 90 |
+| 97 | 28/11/2026 | Chás: o que a ciência sabe sobre ervas e saúde (`/chas/`) | chás | 94 |
+| 98 | 28/11/2026 | Cisto no couro cabeludo: tipos e cuidados (`/cisto-no-couro-cabeludo/`) | cisto no couro cabeludo | 95 |
+| 99 | 29/11/2026 | Como lavar o cabelo corretamente: passo a passo (`/como-lavar-o-cabelo-corretamente/`) | como lavar o cabelo corretamente | 90 |
+| 100 | 29/11/2026 | Compulsão alimentar: sintomas e tratamento (`/compulsao-alimentar/`) | compulsão alimentar | 94 |
+| 101 | 30/11/2026 | Contar calorias: como calcular e evitar erros (`/contar-calorias/`) | contar calorias | 90 |
+| 102 | 30/11/2026 | Cotovelos escuros: causas, como clarear e alerta (`/cotovelos-escuros/`) | cotovelos escuros | 90 |
+| 103 | 01/12/2026 | Cúrcuma: para que serve, benefícios e cuidados (`/curcuma/`) | cúrcuma | 90 |
+| 104 | 01/12/2026 | Dieta de 1000 calorias: riscos e indicação (`/dieta-de-1000-calorias/`) | dieta de 1000 calorias | 90 |
+| 105 | 02/12/2026 | Dieta enteral 1.5: guia completo para cuidadores (`/dieta-enteral-1-5/`) | dieta enteral 1.5 | 90 |
+| 106 | 02/12/2026 | Dieta para perder barriga: o que funciona (`/dieta-para-perder-barriga/`) | dieta para perder barriga | 95 |
+| 107 | 03/12/2026 | Dieta para secar: guia prático e realista (`/dieta-para-secar/`) | dieta para secar | 90 |
+| 108 | 03/12/2026 | Dieta sem carboidrato: como funciona e riscos (`/dieta-sem-carboidrato/`) | dieta sem carboidrato | 95 |
+| 109 | 04/12/2026 | Dormir cedo: benefícios, rotina e o que evitar (`/dormir-cedo/`) | dormir cedo | 92 |
+| 110 | 04/12/2026 | Eletrólitos: o que são, funções e como repor (`/eletrolitos/`) | eletrólitos | 99 |
+| 111 | 05/12/2026 | Emagrecer 10kg: o que é possível e com saúde (`/emagrecer-10kg/`) | emagrecer 10kg | 95 |
+| 112 | 05/12/2026 | Emagrecer rápido com saúde: guia seguro (`/emagrecer-rapido-com-saude/`) | emagrecer rápido com saúde | 95 |
+| 113 | 06/12/2026 | Entradas no cabelo: causas, tratamentos e cortes (`/entradas-no-cabelo/`) | entradas no cabelo | 90 |
+| 114 | 06/12/2026 | Especialista em cabelo: quando procurar (`/especialista-em-cabelo/`) | especialista em cabelo | 90 |
+| 115 | 07/12/2026 | Fogacho menopausa: causas, duração e tratamentos (`/fogacho-menopausa/`) | fogacho menopausa | 92 |
+| 116 | 07/12/2026 | Fome emocional: o que é, como identificar (`/fome-emocional/`) | fome emocional | 95 |
+| 117 | 08/12/2026 | Fome no mundo: causas, dados atuais e soluções (`/fome-no-mundo/`) | fome no mundo | 92 |
+| 118 | 08/12/2026 | Fruta do conde: nutrientes, benefícios e cuidados (`/fruta-do-conde/`) | fruta do conde | 92 |
+| 119 | 09/12/2026 | Glicina: o que é, para que serve e riscos (`/glicina/`) | glicina | 95 |
+| 120 | 09/12/2026 | Hidrafacial: o que é, benefícios e riscos (`/hidrafacial/`) | hidrafacial | 90 |
+| 121 | 10/12/2026 | Hidratante facial: como escolher o ideal (`/hidratante-facial/`) | hidratante facial | 94 |
+| 122 | 10/12/2026 | HMB: o que é, para que serve e efeitos colaterais (`/hmb/`) | HMB | 93 |
+| 123 | 11/12/2026 | Inibidor de apetite forte: riscos e cuidados (`/inibidor-de-apetite-forte/`) | inibidor de apetite forte | 95 |
+| 124 | 11/12/2026 | Maca Peruana: O Que É e Quais Cuidados Ter (`/maca-peruana/`) | maca peruana | 94 |
+| 125 | 12/12/2026 | Magnésio Dimalato Efeitos Colaterais e Rins (`/magnesio-dimalato-efeitos-colaterais/`) | magnésio dimalato efeitos colaterais | 90 |
+| 126 | 12/12/2026 | Magnésio Efeitos Colaterais: Guia Seguro (`/magnesio-efeitos-colaterais/`) | magnésio efeitos colaterais | 95 |
+| 127 | 13/12/2026 | Magnésio Treonato Para Que Serve e Efeitos (`/magnesio-treonato-para-que-serve/`) | magnésio treonato para que serve | 94 |
+| 128 | 13/12/2026 | Manchas Senis: Causas, Tratamentos e Autoexame (`/manchas-senis/`) | manchas senis | 94 |
+| 129 | 14/12/2026 | Manipulados para Emagrecer: Riscos e Regras (`/manipulados-para-emagrecer/`) | manipulados para emagrecer | 90 |
+| 130 | 14/12/2026 | Marmita Fitness Cardápio Semanal: Guia Prático (`/marmita-fitness-cardapio-semanal/`) | marmita fitness cardápio semanal | 99 |
+| 131 | 15/12/2026 | Massagem Capilar: Benefícios e Contraindicações (`/massagem-capilar/`) | massagem capilar | 90 |
+| 132 | 15/12/2026 | Melasma na Gravidez: Causas e Cuidados Seguros (`/melasma-na-gravidez/`) | melasma na gravidez | 90 |
+| 133 | 16/12/2026 | Obstipação Intestinal: Causas e Sintomas (`/obstipacao-intestinal/`) | obstipação intestinal | 95 |
+| 134 | 16/12/2026 | Óxido de Magnésio: Para Que Serve e Riscos (`/oxido-de-magnesio/`) | óxido de magnésio | 91 |
+| 135 | 17/12/2026 | pH da Pele: O Que é Ideal e Como Equilibrar (`/ph-da-pele/`) | ph da pele | 90 |
+| 136 | 17/12/2026 | Picolinato de Cromo para Que Serve e Riscos (`/picolinato-de-cromo-para-que-serve/`) | picolinato de cromo para que serve | 95 |
+| 137 | 18/12/2026 | Produtos Sem Lactose: Guia Completo e Prático (`/produtos-sem-lactose/`) | produtos sem lactose | 91 |
+| 138 | 18/12/2026 | Proteína para Emagrecer: Como Usar e Riscos (`/proteina-para-emagrecer/`) | proteína para emagrecer | 95 |
+| 139 | 19/12/2026 | Proteína em Pó: Como Usar e Comparar Opções (`/proteina-em-po/`) | proteína em pó | 90 |
+| 140 | 19/12/2026 | Protetor Solar Facial: Como Escolher e Usar (`/protetor-solar-facial/`) | protetor solar facial | 94 |
+| 141 | 20/12/2026 | Psoríase no Couro Cabeludo: Sintomas e Caspa (`/psoriase-no-couro-cabeludo/`) | psoríase no couro cabeludo | 94 |
+| 142 | 20/12/2026 | Queda de Cabelo Feminino: Causas e Tratamentos (`/queda-de-cabelo-feminino/`) | queda de cabelo feminino | 90 |
+| 143 | 21/12/2026 | Queda de Cabelo Intensa: Causas e Quando Tratar (`/queda-de-cabelo-intensa/`) | queda de cabelo intensa | 91 |
+| 144 | 21/12/2026 | Queda de Cabelo por Estresse: Causas e Sinais (`/queda-de-cabelo-por-estresse/`) | queda de cabelo por estresse | 90 |
+| 145 | 22/12/2026 | Reeducação Alimentar: Como Fazer na Prática (`/reeducacao-alimentar/`) | reeducação alimentar | 95 |
+| 146 | 22/12/2026 | Sabonete de Enxofre Para Que Serve e Cuidados (`/sabonete-de-enxofre-para-que-serve/`) | sabonete de enxofre para que serve | 94 |
+| 147 | 23/12/2026 | Saw Palmetto Queda de Cabelo: O Que Funciona (`/saw-palmetto-queda-de-cabelo/`) | saw palmetto queda de cabelo | 95 |
+| 148 | 23/12/2026 | Suplementos para Emagrecer Feminino: Evidências (`/suplementos-para-emagrecer-feminino/`) | suplementos para emagrecer feminino | 90 |
+| 149 | 24/12/2026 | Taurina Efeitos Colaterais: Rins e Cafeína (`/taurina-efeitos-colaterais/`) | taurina efeitos colaterais | 95 |
+| 150 | 24/12/2026 | Terapia Fotodinâmica: O Que É e Como Funciona (`/terapia-fotodinamica/`) | terapia fotodinâmica | 90 |
+| 151 | 25/12/2026 | Termogênico para Emagrecer: Funciona e Riscos (`/termogenico-para-emagrecer/`) | termogênico para emagrecer | 90 |
+| 152 | 25/12/2026 | Termogênicos Naturais: Funciona e os Riscos (`/termogenicos-naturais/`) | termogênicos naturais | 90 |
+| 153 | 26/12/2026 | Treino Funcional Emagrece? O Que Diz a Ciência (`/treino-funcional-emagrece/`) | treino funcional emagrece | 90 |
+| 154 | 26/12/2026 | Valeriana Para Que Serve: Efeitos e Riscos (`/valeriana-para-que-serve/`) | valeriana para que serve | 95 |
+| 155 | 27/12/2026 | Vasinhos no Rosto: Causas e Tratamento a Laser (`/vasinhos-no-rosto/`) | vasinhos no rosto | 90 |
+| 156 | 27/12/2026 | Vitamina D: Para Que Serve, Sintomas e Cuidados (`/vitamina-d/`) | vitamina D | 90 |
+| 157 | 28/12/2026 | Vitamina de Cavalo no Cabelo: Riscos (`/vitamina-de-cavalo-no-cabelo/`) | vitamina de cavalo no cabelo | 90 |
+| 158 | 28/12/2026 | Vitamina para Queda de Cabelo: O Que Funciona (`/vitamina-para-queda-de-cabelo/`) | vitamina para queda de cabelo | 95 |
+| 159 | 29/12/2026 | Vitaminas para Queda de Cabelo: Sinais e Exames (`/vitaminas-para-queda-de-cabelo/`) | Vitaminas para queda de cabelo | 90 |
+| 160 | 29/12/2026 | Albumina em pó: como usar e evitar gases (`/albumina-em-po/`) | albumina em pó | 90 |
+| 161 | 30/12/2026 | Bebidas Ambev: portfólio e tabela nutricional (`/bebidas-ambev/`) | bebidas ambev | 95 |
+| 162 | 30/12/2026 | Colágeno Verisol: para que serve e dosagem (`/colageno-verisol/`) | colágeno verisol | 94 |
 
 ## 3. Precisam de revisão (53)
 

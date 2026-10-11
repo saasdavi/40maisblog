@@ -1,0 +1,111 @@
+{
+ "slug": "adapaleno",
+ "title": "Adapaleno: o que é, para que serve e como usar",
+ "description": "Adapaleno: o que é, para que serve na pele, como age um retinoide tópico, efeitos iniciais esperados e cuidados a combinar com o dermatologista.",
+ "primaryKeyword": "adapaleno",
+ "cluster": null,
+ "volume": 90500,
+ "wordCount": 1375,
+ "readingTime": 7,
+ "sources": [
+  {
+   "title": "Ministério da Saúde",
+   "url": "https://www.gov.br/saude"
+  },
+  {
+   "title": "Organização Mundial da Saúde (OMS)",
+   "url": "https://www.who.int"
+  },
+  {
+   "title": "MedlinePlus (National Library of Medicine)",
+   "url": "https://medlineplus.gov"
+  }
+ ],
+ "featuredImage": "/images/adapaleno/adapaleno-capa.jpg",
+ "imageAlt": "Dermatologista examinando a pele do rosto de um paciente, tema adapaleno para que serve",
+ "imageCredit": {
+  "author": "Gustavo Fring",
+  "source": "Pexels",
+  "url": "https://www.pexels.com/photo/woman-in-white-robe-doing-cosmetic-procedure-to-a-woman-lying-beside-with-eyes-closed-7446665/",
+  "license": "Licença Pexels",
+  "licenseUrl": "https://www.pexels.com/license/"
+ },
+ "images": [
+  {
+   "src": "/images/adapaleno/bisnaga-de-creme-dermatologico-ao-lado-de-um-frasco-de-locao.jpg",
+   "alt": "Bisnaga de creme dermatológico ao lado de um frasco de loção",
+   "legenda": "Tratamentos tópicos precisam de orientação sobre quando e como aplicar.",
+   "secao": 2,
+   "width": 940,
+   "height": 527,
+   "credit": {
+    "author": "Deepa Nishad",
+    "source": "Pexels",
+    "url": "https://www.pexels.com/photo/a-tube-of-cosmetic-cream-on-a-pink-background-27544683/",
+    "license": "Licença Pexels",
+    "licenseUrl": "https://www.pexels.com/license/"
+   }
+  },
+  {
+   "src": "/images/adapaleno/pessoa-aplicando-protetor-solar-no-rosto-antes-de-sair-de-ca.jpg",
+   "alt": "Pessoa aplicando protetor solar no rosto antes de sair de casa",
+   "legenda": "O protetor solar é parte essencial da rotina com retinoides.",
+   "secao": 4,
+   "width": 940,
+   "height": 627,
+   "credit": {
+    "author": "Mikhail Nilov",
+    "source": "Pexels",
+    "url": "https://www.pexels.com/photo/woman-applying-sunscreen-on-beach-8157159/",
+    "license": "Licença Pexels",
+    "licenseUrl": "https://www.pexels.com/license/"
+   }
+  }
+ ],
+ "scores": {
+  "auditoria": 100,
+  "demanda": "alta",
+  "total": 95,
+  "decisao": "PUBLICAR",
+  "partes": {
+   "qualidade": 100,
+   "demanda": 100,
+   "fontes": 100,
+   "originalidade": 70,
+   "formato": 90,
+   "seguranca": 100
+  },
+  "atencao": [
+   "parecido com \"ácido salicílico\" (57%): risco de canibalização"
+  ]
+ },
+ "validador": "Auditoria automática (sem API); texto escrito fora do robô",
+ "validacao": {
+  "palavraChave": "adapaleno",
+  "demanda": {
+   "volume": 90500,
+   "classe": "alta",
+   "tendencia": null,
+   "concorrencia": "HIGH",
+   "fonte": "pele-volumes.json",
+   "fraseMedida": "adapaleno",
+   "porSimilar": false
+  },
+  "volume": 90500,
+  "cluster": null,
+  "apoio": [],
+  "perguntasDoGoogle": [],
+  "concorrentes": "não informado (concorrente não conferido)",
+  "lacunasCobertas": [],
+  "serp": null,
+  "fontesDaPauta": [
+   "https://www.gov.br/saude",
+   "https://www.who.int"
+  ],
+  "notas": "",
+  "briefing": null,
+  "validadoEm": "2026-10-10T20:19:46.148Z",
+  "observacao": "originalidade contra o concorrente não conferida automaticamente"
+ },
+ "content": "<p>Adapaleno é um medicamento de uso tópico da classe dos retinoides, usado principalmente no tratamento da acne. Ele age sobre o processo que leva ao entupimento dos poros e à inflamação. Como se trata de um remédio, o uso deve seguir a prescrição e a orientação do dermatologista.</p>\n<h2>Adapaleno: o que é e como ele age</h2>\n<p>O adapaleno é derivado da vitamina A. Retinoides tópicos atuam nas células que revestem o folículo, normalizando a renovação celular e reduzindo a formação de microcomedões, que são as lesões iniciais da acne.</p>\n<p>Ele também tem ação anti-inflamatória, o que ajuda a diminuir a vermelhidão e o número de lesões inflamadas. O efeito não é imediato, e o uso contínuo costuma ser necessário para avaliar a resposta.</p>\n<p>Por ser um medicamento, ele é regulado pela Anvisa, e as informações sobre indicações e advertências constam na bula.</p>\n<h2>Para que serve na prática</h2>\n<p>A indicação mais conhecida é a acne de intensidade leve a moderada. Em alguns casos, retinoides tópicos também são usados em outras condições da pele, sempre por indicação médica.</p>\n<p>Pessoas com manchas, cicatrizes e textura irregular podem se beneficiar de outros tratamentos dermatológicos, e a escolha depende do diagnóstico. Para entender as mudanças da pele nessa fase, leia sobre <a href=\"/o-que-e-perimenopausa/\">perimenopausa</a>.</p>\n<figure class=\"article-figure\"><img src=\"/images/adapaleno/bisnaga-de-creme-dermatologico-ao-lado-de-um-frasco-de-locao.jpg\" alt=\"Bisnaga de creme dermatológico ao lado de um frasco de loção\" width=\"940\" height=\"527\" loading=\"lazy\" /><figcaption>Tratamentos tópicos precisam de orientação sobre quando e como aplicar. <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/a-tube-of-cosmetic-cream-on-a-pink-background-27544683/\" rel=\"noopener nofollow\" target=\"_blank\">Deepa Nishad</a> / Pexels</span></figcaption></figure>\n<h2>Como costuma começar o uso</h2>\n<p>O início do tratamento pede paciência e orientação. O dermatologista costuma indicar a aplicação em pequena quantidade, em pele limpa e seca, geralmente à noite, e pode orientar a frequência nas primeiras semanas.</p>\n<p>A adaptação é gradual. Muitas pessoas notam ressecamento, descamação e leve ardência nas primeiras semanas, e isso faz parte do processo de adaptação. Não aumente a frequência por conta própria.</p>\n<ul>\n<li>Aplique apenas a quantidade orientada pelo médico.</li>\n<li>Evite contato com olhos, lábios e mucosas.</li>\n<li>Não combine com outros esfoliantes sem orientação.</li>\n</ul>\n<h2>Efeitos esperados e efeitos que exigem atenção</h2>\n<p>Os efeitos mais comuns são vermelhidão, ressecamento, descamação e sensação de ardência no início. Esses sinais costumam diminuir com o tempo e com o ajuste da rotina.</p>\n<p>Irritação intensa, bolhas, inchaço, coceira forte ou sinais de reação alérgica são motivos para suspender o uso e procurar atendimento. Sensibilidade aumentada à luz solar também é um efeito relevante.</p>\n<figure class=\"article-figure\"><img src=\"/images/adapaleno/pessoa-aplicando-protetor-solar-no-rosto-antes-de-sair-de-ca.jpg\" alt=\"Pessoa aplicando protetor solar no rosto antes de sair de casa\" width=\"940\" height=\"627\" loading=\"lazy\" /><figcaption>O protetor solar é parte essencial da rotina com retinoides. <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/woman-applying-sunscreen-on-beach-8157159/\" rel=\"noopener nofollow\" target=\"_blank\">Mikhail Nilov</a> / Pexels</span></figcaption></figure>\n<h2>Proteção solar e cuidados com o sol</h2>\n<p>Retinoides podem aumentar a sensibilidade da pele à luz, o que favorece queimaduras e manchas. Por isso, o uso de protetor solar diário, com fator adequado e reaplicação conforme orientação, é parte essencial do tratamento.</p>\n<p>Evite exposição solar intensa nas horas de maior radiação e use chapéu e roupas de proteção quando necessário.</p>\n<h2>Gravidez, amamentação e outras situações</h2>\n<p>Gestantes e pessoas que planejam engravidar devem informar o médico antes de usar qualquer retinoide. A decisão sobre o uso nesse período é individual e depende de avaliação profissional.</p>\n<p>Também é importante informar o uso de outros medicamentos tópicos ou orais, já que a combinação pode aumentar a irritação. Não aplique o produto em pele lesionada ou em áreas com queimaduras.</p>\n<p>Organizações de saúde reforçam que tratamentos dermatológicos devem ser baseados em diagnóstico e em acompanhamento. A automedicação com medicamentos de uso tópico, sobretudo os mais potentes, aumenta o risco de efeitos indesejados.</p>\n<p>O Ministério da Saúde disponibiliza informações sobre o uso racional de medicamentos, que orientam a busca por profissional antes de iniciar um tratamento contínuo.</p>\n<p>Muitas pessoas se perguntam se é possível associar o adapaleno a outros cuidados da pele. A resposta depende do conjunto de produtos. Limpadores suaves, hidratantes sem álcool e protetor solar costumam ser bem tolerados, enquanto esfoliantes, ácidos e peelings precisam de avaliação, já que somam o efeito irritante.</p>\n<p>Em relação ao horário, a aplicação noturna é comum porque a luz solar pode reduzir a estabilidade de alguns retinoides e aumentar a sensibilidade da pele. O dermatologista pode indicar o momento mais adequado para o seu caso, incluindo a frequência inicial.</p>\n<p>A pele que está em tratamento tende a ficar mais sensível ao frio, ao vento e ao atrito de roupas e de máscaras. Hidratação regular e cuidado com o barbear ajudam a reduzir o desconforto, e o profissional pode orientar sobre produtos de apoio, sem indicar marcas nesta etapa.</p>\n<p>Para quem tem acne com cicatrizes ou manchas, o tratamento costuma ser combinado e de longo prazo. O retinoide tópico pode fazer parte desse plano, mas a evolução precisa ser acompanhada, e o médico pode incluir outras medidas quando necessário.</p>\n<p>A exposição solar também pede cuidado extra durante o uso. O estresse pode influenciar a acne; veja sobre <a href=\"/cortisol-alto/\">cortisol alto</a>.</p>\n<p>A interrupção do uso deve ser discutida com o médico, mesmo quando a pele parece melhor. Parar de forma abrupta pode levar ao retorno das lesões, e a retomada precisa de nova orientação sobre a intensidade e a frequência.</p>\n<p>Em casos de dúvida sobre o rótulo ou a bula, leve o produto à consulta. A informação correta sobre a concentração, a forma de aplicação e as contraindicações evita erros e facilita o acompanhamento ao longo do tratamento.</p>\n<p>Por fim, lembre que a acne tem causas variadas, incluindo genética, hormônios e alimentação em alguns casos. Um plano bem feito considera esses fatores e não depende de um único produto, por mais eficaz que ele seja em determinadas situações.</p>\n<p>Muitas pessoas esperam que a pele melhore em poucos dias e abandonam o tratamento ao notar irritação no início.</p>\n<p>Essa expectativa é um dos motivos mais comuns de desistência. Registrar a evolução com fotos e comentar cada efeito na consulta permite ajustar o plano sem interromper o tratamento por conta própria.</p>\n<p>Em peles mais escuras, a acne inflamada pode deixar manchas pós-inflamatórias que demoram a clarear. Nesses casos, o controle da inflamação com o tratamento adequado é parte da prevenção, e a exposição solar deve ser evitada durante a fase ativa da lesão.</p>\n<p>Também é importante lembrar que a acne não é causada por falta de higiene. Lavar o rosto várias vezes ao dia ou usar esfoliação excessiva costuma piorar a irritação. A limpeza suave, duas vezes ao dia, é suficiente na maior parte dos casos.</p>\n<p>Ao receber a prescrição, peça orientação clara sobre o que fazer se surgir ardência intensa, sobre quais produtos evitar e por quanto tempo manter o uso. Esse esclarecimento torna a rotina mais segura e evita dúvidas nas semanas seguintes.</p>\n<p>Também é útil entender que melhora não significa eliminação definitiva. A acne tende a responder ao tratamento contínuo e pode voltar quando o uso é interrompido. Por isso, o médico costuma planejar a manutenção depois da fase inicial, com o objetivo de manter a pele controlada a longo prazo.</p>\n<h2>Perguntas frequentes</h2>\n<p><strong>Adapaleno funciona rápido?</strong></p>\n<p>Não. Os resultados costumam levar semanas e, em alguns casos, meses. A resposta deve ser avaliada pelo dermatologista.</p>\n<p><strong>É normal descamar no início?</strong></p>\n<p>Sim, ressecamento e descamação são comuns nas primeiras semanas, mas devem diminuir com a adaptação.</p>\n<p><strong>Posso usar adapaleno no sol?</strong></p>\n<p>O medicamento aumenta a sensibilidade à luz. O protetor solar diário é indispensável.</p>\n<h2>Quando procurar um médico</h2>\n<p>Procure um dermatologista se a irritação for intensa, se houver sinais de reação alérgica, se você engravidar ou pretender engravidar, ou se a acne piorar mesmo com o tratamento. Atendimento de urgência é necessário diante de inchaço no rosto ou dificuldade para respirar.</p>\n<ul>\n<li>Queimação, bolhas ou ferida que não melhora.</li>\n<li>Piora da acne após semanas de uso.</li>\n<li>Suspeita de gravidez durante o tratamento.</li>\n</ul>\n<p>A continuidade, a dose e a troca do medicamento são decisões do médico. Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</p>\n<h2>Resumindo</h2>\n<p>Adapaleno é um retinoide de uso tópico, usado sobretudo na acne, que age na renovação celular e na inflamação. Os efeitos iniciais, como ressecamento e descamação, costumam ser esperados e diminuem com o tempo.</p>\n<p>O uso deve seguir a prescrição, com protetor solar diário e comunicação ao médico sobre gravidez e outros medicamentos. Em caso de irritação intensa ou dúvidas, procure um dermatologista. Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</p>\n<h2>Fontes</h2>\n<ul>\n<li><a href=\"https://www.gov.br/saude\" rel=\"noopener nofollow\" target=\"_blank\">Ministério da Saúde</a></li>\n<li><a href=\"https://www.who.int\" rel=\"noopener nofollow\" target=\"_blank\">Organização Mundial da Saúde (OMS)</a></li>\n<li><a href=\"https://medlineplus.gov\" rel=\"noopener nofollow\" target=\"_blank\">MedlinePlus (National Library of Medicine)</a></li>\n</ul>\n<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>"
+}

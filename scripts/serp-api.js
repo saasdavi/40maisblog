@@ -1,5 +1,5 @@
 // Pesquisa a próxima pauta da fila no Google (SerpAPI, 1 busca por artigo) e prepara o briefing que o redator lê.
-//   SERP_API_KEY=... node scripts/serp-api.js [--keyword "palavra"] [--mock arquivo.json]
+//   SERP_API_KEY=... node scripts/serp-api.js [--keyword "palavra"] [--mock arquivo.json] [--so-se-sem-estoque]
 // Grava o top orgânico, as perguntas do Google (PAA) e as buscas relacionadas em data/pesquisa/serp-resultados.json
 // e roda scripts/briefing.js para essa pauta. Cota: contador mensal em data/pesquisa/serpapi-uso.json (limite 240 de 250).
 import fs from 'fs';
@@ -36,7 +36,10 @@ async function main() {
   const mock = arg('--mock');
   if (!chave && !mock) { console.log('⚠️  SERP_API_KEY ausente: sem pesquisa nova no Google; o redator usa o que já está em data/pesquisa/serp-resultados.json.'); return; }
 
-  const keyword = arg('--keyword') || new ArticleRobot().escolherPauta()[0]?.keyword;
+  const robo = new ArticleRobot();
+  // execuções que só publicam do estoque não escrevem nada: não gastam busca (--so-se-sem-estoque)
+  if (process.argv.includes('--so-se-sem-estoque') && robo.prontosNoEstoque().length > 0) { console.log(`Estoque pronto (${robo.prontosNoEstoque().length}): esta execução só publica, sem pesquisa na SerpAPI.`); return; }
+  const keyword = arg('--keyword') || robo.escolherPauta()[0]?.keyword;
   if (!keyword) { console.log('Sem pauta livre na fila: nada a pesquisar.'); return; }
 
   const serp = lerJson(SERP_FILE, {});
