@@ -40,3 +40,23 @@ assert.strictEqual(ajustarTitulo('Insônia: Causas e Tratamento', 'insônia'), '
 // Dois títulos separados por um parágrafo viram dois H2 (H3 só quando o título vem logo depois de outro título)
 assert.ok(!/<h3>/.test(textoParaHtml(['Título A', 'Parágrafo comprido o bastante para não ser confundido com um título de seção, porque termina com ponto final.'])));
 console.log('ok: entrada-google');
+
+// Nota do chat: o normalizador mantém NOTA_CHAT no cabeçalho
+{
+  const comNota = ler('google-tsh-alto').replace(/^(PALAVRA_CHAVE:.*)$/m, '$1\nNOTA_CHAT: 9,2');
+  const n = normalizarEntradaGoogle(comNota, opts);
+  assert.match(n.texto.split('\n---\n')[0], /^NOTA_CHAT: 9,2$/m, 'NOTA_CHAT preservada');
+}
+// Artigo com NOTA_CHAT ≥ 9 não fica parado por pontuação baixa e conta como pronto no estoque
+{
+  const base = { status: 'draft', estoque: true, origem: 'importado', scores: { auditoria: 80, total: 78, atencao: [] } };
+  assert.strictEqual(r.precisaRevisao(base), true, 'sem nota do chat: total 78 pede revisão');
+  const chat = { ...base, scores: { ...base.scores, notaChat: 9.2 } };
+  assert.strictEqual(r.precisaRevisao(chat), false, 'nota do chat 9,2: não pede revisão');
+  const sensivel = { ...chat, scores: { ...chat.scores, atencao: ['tema sensível sem REVISADO: sim'] } };
+  assert.strictEqual(r.precisaRevisao(sensivel), true, 'tema sensível continua pedindo revisão');
+  const guardado = r.db.articles; r.db.articles = [chat, base];
+  assert.strictEqual(r.prontosNoEstoque().length, 1, 'só o artigo com nota do chat entra nos prontos');
+  r.db.articles = guardado;
+}
+console.log('ok: nota do chat (NOTA_CHAT)');

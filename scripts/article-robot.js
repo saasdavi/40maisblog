@@ -180,8 +180,8 @@ class ArticleRobot {
   // ---------- estoque de artigos prontos ----------
   // Só publica do estoque o que foi aprovado pelo robô ou importado (ChatGPT etc.) E tem auditoria acima de 85; abaixo disso fica retido para correção.
   // Artigo do estoque que o dono precisa revisar antes de ir ao ar: nota final abaixo de 90 ou tema sensível sem REVISADO: sim.
-  precisaRevisao(a) { return (a.scores?.total ?? 100) < 90 || (a.scores?.atencao || []).some(m => m.includes('tema sensível')); }
-  prontosNoEstoque() { return this.db.articles.filter(a => a.status === 'draft' && a.estoque === true && (a.validador === 'APROVADO' || a.origem === 'importado') && (a.scores?.auditoria ?? 100) > 85 && !this.precisaRevisao(a)); }
+  precisaRevisao(a) { return ((a.scores?.total ?? 100) < 90 && !((a.scores?.notaChat ?? 0) >= 9)) || (a.scores?.atencao || []).some(m => m.includes('tema sensível')); }
+  prontosNoEstoque() { return this.db.articles.filter(a => a.status === 'draft' && a.estoque === true && (a.validador === 'APROVADO' || a.origem === 'importado') && ((a.scores?.auditoria ?? 100) > 85 || (a.scores?.notaChat ?? 0) >= 9) && !this.precisaRevisao(a)); }
 
   // Publica do estoque (no máximo `quantos`, respeitando o teto do dia). Devolve quantos publicou.
   // Artigo guardado sem foto (fotoPendente) busca a foto AGORA, na hora de publicar; se as APIs de foto

@@ -155,6 +155,7 @@ export function normalizarEntradaGoogle(raw, { artigos = [], publicados = [], pr
     cabeca.push(`FOTO${n}_SECAO: ${cab[`FOTO${n}_SECAO`] || (n === 1 ? 2 : 4)}`);
   });
   fontes.forEach((f) => cabeca.push(`FONTE: ${f.title} | ${f.url}`));
+  if (cab.NOTA_CHAT) cabeca.push(`NOTA_CHAT: ${cab.NOTA_CHAT}`);
   if (existente && precisaRevisao(existente) && (existente.scores?.atencao || []).some((m) => m.includes('tema sensível'))) cabeca.push('REVISADO: sim');
 
   let html = corpo.some((l) => /<\/?(p|h2|ul)\b/i.test(l)) ? corpo.join('\n') : textoParaHtml(corpo);

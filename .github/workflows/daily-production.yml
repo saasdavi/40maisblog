@@ -54,6 +54,15 @@ jobs:
         continue-on-error: true
         run: node scripts/validar-pautas.js
 
+      - name: 📥 Importar artigos novos de data/entrada (já avaliados no chat; entram direto no estoque)
+        continue-on-error: true
+        env:
+          PEXEL_API_KEY: ${{ secrets.PEXEL_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          FOTO_NA_PUBLICACAO: '1'
+        run: node scripts/importar-artigo.js
+
       - name: 🔎 SerpAPI - pesquisa da pauta (artigo novo, ou qualquer execução quando o estoque acabou)
         continue-on-error: true
         env:

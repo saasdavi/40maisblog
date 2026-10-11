@@ -103,3 +103,13 @@ TETOS DE SEGURANÇA (Limitam a Nota Final, independente do resto)
 • Presença de clichês ou estruturas típicas de IA (falha no Filtro Anti-IA): Nota máxima 7,0.
 • Texto com menos de 1.300 palavras: Nota máxima 7,0.
 • Formato fora do padrão do importador (Markdown no texto, falta de tags de imagem): Marcar como "NÃO IMPORTÁVEL" e rebaixar a nota.
+
+---
+
+## ENTREGA FINAL (cole no fim do prompt, para tarefas agendadas do chat)
+
+Depois da Fase 3: se a NOTA FINAL for **9,0 ou mais**, entregue o artigo e inclua no cabeçalho a linha `NOTA_CHAT: X,X` (a nota final, com vírgula). Se for menor que 9,0, corrija e avalie de novo (no máximo 2 vezes). Se ainda ficar abaixo de 9,0, **não entregue nada** e responda numa linha o motivo.
+
+Entregue SÓ o arquivo `SLUG.txt` (slug = palavra-chave em minúsculas, sem acento, com hífens) contendo o cabeçalho, a linha `---` e o corpo em HTML, sem tabela de avaliação nem comentários. O arquivo vai para `data/entrada/google/`.
+
+No repositório, o artigo com `NOTA_CHAT` 9,0 ou mais **entra direto no estoque e no calendário de publicação**, sem ser reprovado de novo por nota (o importador mantém só os bloqueios de promessa de cura, de formato, fonte sem link direto, tema sensível sem `REVISADO: sim` e duplicata de tema). Sem `NOTA_CHAT`, vale a regra antiga (auditoria mínima 8,5).
