@@ -1,0 +1,117 @@
+{
+ "slug": "melanoma",
+ "title": "Melanoma: sinais, ABCDE e quando procurar",
+ "description": "Entenda o melanoma, o câncer de pele mais grave: sinais de alerta, regra ABCDE, quem tem mais risco, diagnóstico por biópsia e como se proteger do sol.",
+ "primaryKeyword": "melanoma",
+ "cluster": null,
+ "volume": 74000,
+ "wordCount": 1772,
+ "readingTime": 9,
+ "sources": [
+  {
+   "title": "Manual MSD Versão Saúde para a Família, câncer das células de pigmento da pele",
+   "url": "https://www.msdmanuals.com/pt/casa/c%C3%A2ncer/c%C3%A2nceres-de-pele/melanoma"
+  },
+  {
+   "title": "INCA, normas e recomendações sobre a prevenção do câncer da pele",
+   "url": "https://rbc.inca.gov.br/index.php/revista/article/download/2067/1282/14884"
+  },
+  {
+   "title": "Agência Minas (SES-MG), campanha Dezembro Laranja e diagnóstico precoce",
+   "url": "https://www.agenciaminas.mg.gov.br/news/pdf/128634.pdf"
+  }
+ ],
+ "featuredImage": "/images/melanoma/melanoma-capa.jpg",
+ "imageAlt": "Dermatologista examinando uma pinta nas costas de um paciente com um dermatoscópio",
+ "imageCredit": {
+  "author": "Gustavo Fring",
+  "source": "Pexels",
+  "url": "https://www.pexels.com/photo/woman-having-a-facial-done-by-a-beautician-7446669/",
+  "license": "Licença Pexels",
+  "licenseUrl": "https://www.pexels.com/license/"
+ },
+ "images": [
+  {
+   "src": "/images/melanoma/pessoa-passando-protetor-solar-no-braco-ao-ar-livre-em-um-di.jpg",
+   "alt": "Pessoa passando protetor solar no braço ao ar livre em um dia de sol",
+   "legenda": "Sombra, roupas e protetor solar são as medidas de proteção recomendadas pelas fontes.",
+   "secao": 9,
+   "width": 940,
+   "height": 627,
+   "credit": {
+    "author": "Mikhail Nilov",
+    "source": "Pexels",
+    "url": "https://www.pexels.com/photo/woman-wearing-an-orange-swimsuit-applying-sunscreen-8157147/",
+    "license": "Licença Pexels",
+    "licenseUrl": "https://www.pexels.com/license/"
+   }
+  },
+  {
+   "src": "/images/melanoma/mulher-com-chapeu-de-aba-larga-caminhando-sob-o-sol-forte-do.jpg",
+   "alt": "Mulher com chapéu de aba larga caminhando sob o sol forte do meio-dia",
+   "legenda": "Evitar o sol entre 10h e 16h reduz a exposição aos raios mais intensos.",
+   "secao": 3,
+   "width": 940,
+   "height": 627,
+   "credit": {
+    "author": "cottonbro studio",
+    "source": "Pexels",
+    "url": "https://www.pexels.com/photo/young-woman-with-large-straw-hat-crouching-on-desert-5850907/",
+    "license": "Licença Pexels",
+    "licenseUrl": "https://www.pexels.com/license/"
+   }
+  }
+ ],
+ "scores": {
+  "auditoria": 100,
+  "demanda": "alta",
+  "total": 97,
+  "decisao": "SEGURAR (corrigir)",
+  "partes": {
+   "qualidade": 100,
+   "demanda": 100,
+   "fontes": 100,
+   "originalidade": 100,
+   "formato": 100,
+   "seguranca": 40
+  },
+  "atencao": [
+   "tema sensível sem REVISADO: sim"
+  ]
+ },
+ "validador": "Auditoria automática (sem API); texto escrito fora do robô",
+ "validacao": {
+  "palavraChave": "melanoma",
+  "demanda": {
+   "volume": 74000,
+   "classe": "alta",
+   "tendencia": null,
+   "concorrencia": "LOW",
+   "fonte": "pele-volumes.json",
+   "fraseMedida": "melanoma",
+   "porSimilar": false
+  },
+  "volume": 74000,
+  "cluster": null,
+  "apoio": [],
+  "perguntasDoGoogle": [],
+  "concorrentes": "não informado (concorrente não conferido)",
+  "lacunasCobertas": [
+   "O câncer pode aparecer em áreas sem sol e sem pigmento, e nem toda lesão segue o ABCDE.",
+   "A evidência de que o autoexame e o exame de rotina reduzem mortes ainda é incerta.",
+   "A relação entre espessura da lesão, disseminação e resultado do tratamento.",
+   "O melanoma também ocorre em pele escura, mais em unhas, palmas das mãos e plantas dos pés."
+  ],
+  "serp": null,
+  "fontesDaPauta": [
+   "https://www.msdmanuals.com/pt/casa/c%C3%A2ncer/c%C3%A2nceres-de-pele/melanoma",
+   "https://rbc.inca.gov.br/index.php/revista/article/download/2067/1282/14884",
+   "https://www.agenciaminas.mg.gov.br/news/pdf/128634.pdf"
+  ],
+  "notas": "",
+  "briefing": null,
+  "validadoEm": "2026-10-10T19:46:47.482Z",
+  "observacao": "originalidade contra o concorrente não conferida automaticamente"
+ },
+ "content": "<p>O melanoma é o câncer de pele que começa nos melanócitos, as células que dão cor à pele. Segundo o <a href=\"https://www.msdmanuals.com/pt/casa/c%C3%A2ncer/c%C3%A2nceres-de-pele/melanoma\" rel=\"noopener nofollow\" target=\"_blank\">Manual MSD</a>, é o tipo mais grave, e a descoberta precoce muda o resultado.</p>\n<p>Uma pinta nova ou que muda de aspecto deve ser vista por um médico. Este guia não faz diagnóstico: só uma biópsia confirma o que a lesão é.</p>\n\n<h2>O que é o melanoma?</h2>\n<p>O Manual MSD descreve o melanoma como um câncer que começa nas células produtoras de pigmento da pele. Ele pode surgir na pele normal ou em um nevo, a pinta que já existia.</p>\n<p>Cerca de uma em cada três lesões se desenvolve em um nevo preexistente, segundo o manual. O melanoma também pode ocorrer nos olhos, na boca, nos órgãos genitais, na região retal, no cérebro e nos leitos das unhas.</p>\n<p>O manual afirma que ele se espalha rapidamente para zonas distantes do corpo, onde destrói tecido. Nos Estados Unidos, responde por menos de 2% dos cânceres de pele diagnosticados, mas causa a maioria das mortes por câncer da pele.</p>\n<p>O <a href=\"https://rbc.inca.gov.br/index.php/revista/article/download/2067/1282/14884\" rel=\"noopener nofollow\" target=\"_blank\">Instituto Nacional de Câncer (INCA)</a> informa que o melanoma responde por cerca de 5% dos casos de câncer da pele. Ele tem alta letalidade, principalmente pela capacidade de formar metástases.</p>\n\n<h2>Quem tem mais risco?</h2>\n<p>O manual lista estes fatores de risco:</p>\n<ul>\n<li>exposição ao sol, principalmente queimaduras com bolhas repetidas;</li>\n<li>bronzeamento artificial repetido;</li>\n<li>já ter tido câncer de pele, inclusive outro melanoma;</li>\n<li>parentes com melanoma, ou histórico familiar de câncer de mama, ovário ou pâncreas;</li>\n<li>pele clara e sardas;</li>\n<li>muitos nevos (mais de 50) ou nevos atípicos, sobretudo mais de cinco;</li>\n<li>sistema imunológico enfraquecido;</li>\n<li>nevo congênito grande;</li>\n<li>idade avançada.</li>\n</ul>\n<p>O INCA acrescenta a exposição excessiva aos raios solares como fator principal dos cânceres de pele. Para o melanoma, cita ainda o nevo displásico, que tem alterações celulares pré-cancerosas.</p>\n<p>O manual afirma que a gravidez não aumenta a chance de um nevo virar melanoma. Os nevos costumam mudar de tamanho e escurecer na gravidez, sem que isso signifique câncer.</p>\n\n<h2>Quais são os sinais de alerta?</h2>\n<p>O manual diz que o aspecto varia. Alguns melanomas são placas acastanhadas, planas e irregulares, com pontos negros. Outros são placas elevadas, com pontos vermelhos, brancos, negros ou azuis.</p>\n<p>Às vezes surge como um tumor duro, vermelho, negro ou cinza. Entre 2% e 8% não têm pigmento, e podem parecer rosados, avermelhados ou marrom-claros.</p>\n<p>O INCA lista as queixas mais comuns do câncer da pele:</p>\n<ul>\n<li>mancha que coça, dói, sangra ou descama;</li>\n<li>ferida que não cicatriza em 4 semanas;</li>\n<li>sinal que muda de cor, textura, tamanho, espessura ou contornos;</li>\n<li>elevação ou nódulo que aumenta de tamanho, com aparência perolada, translúcida, avermelhada ou escura.</li>\n</ul>\n<figure class=\"article-figure\"><img src=\"/images/melanoma/mulher-com-chapeu-de-aba-larga-caminhando-sob-o-sol-forte-do.jpg\" alt=\"Mulher com chapéu de aba larga caminhando sob o sol forte do meio-dia\" width=\"940\" height=\"627\" loading=\"lazy\" /><figcaption>Evitar o sol entre 10h e 16h reduz a exposição aos raios mais intensos. <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/young-woman-with-large-straw-hat-crouching-on-desert-5850907/\" rel=\"noopener nofollow\" target=\"_blank\">cottonbro studio</a> / Pexels</span></figcaption></figure>\n<h2>O que é a regra ABCDE?</h2>\n<p>O manual apresenta o ABCDE como indicadores de alerta para os nevos:</p>\n<ul>\n<li><strong>A, assimetria:</strong> as duas metades da pinta não são iguais;</li>\n<li><strong>B, bordas:</strong> irregulares, que se misturam com a pele ao redor ou não são arredondadas ou ovais;</li>\n<li><strong>C, cor:</strong> mudança de cor, ou mistura de marrom, preto, vermelho, branco ou azul;</li>\n<li><strong>D, diâmetro:</strong> maior que 6 milímetros;</li>\n<li><strong>E, evolução:</strong> nevo novo em quem tem mais de 30 anos, ou nevo que muda.</li>\n</ul>\n<p>O INCA usa a versão ABCD: assimetria, bordas irregulares, cor variável e diâmetro maior que 6 milímetros.</p>\n<p>Nem toda lesão segue a regra. Por isso, qualquer pinta que preocupe deve ser avaliada por um médico, em vez de ser julgada só pelo ABCDE.</p>\n\n<h2>O melanoma só aparece em áreas de sol?</h2>\n<p>Não. O manual afirma que ele geralmente começa na pele normal, com mais frequência em áreas expostas ao sol. Mas pode ocorrer em olhos, boca, genitais, região retal, cérebro e leitos das unhas.</p>\n<p>Em pessoas de pele escura, o manual diz que o câncer é menos comum. Quando ocorre, muitas vezes aparece nos leitos das unhas, nas palmas das mãos e nas plantas dos pés.</p>\n<p>Isso mostra que o exame da pele deve incluir áreas que o sol quase não atinge.</p>\n\n<h2>Como é feito o diagnóstico?</h2>\n<p>Segundo o manual, o diagnóstico é feito por biópsia. O médico remove o tumor inteiro, se ele for pequeno, ou só parte dele, se for grande. A amostra é examinada ao microscópio.</p>\n<p>O médico pode usar luz polarizada e dermatoscopia para avaliar melhor a lesão. Em pessoas com lesões mais profundas, às vezes se faz a biópsia do linfonodo sentinela, para ver se o câncer chegou aos gânglios.</p>\n<p>O manual lembra que a maior parte dos tumores pigmentados retirados para biópsia são nevos simples, e não melanomas. Mesmo assim, é preferível remover um nevo inofensivo a deixar crescer um câncer.</p>\n<p>O INCA recomenda que pessoas com lesões suspeitas sejam encaminhadas logo para atendimento especializado.</p>\n\n<h2>Como é o tratamento?</h2>\n<p>O manual afirma que os médicos tratam o melanoma retirando a lesão, com uma margem de cerca de 1 centímetro ou mais de pele ao redor.</p>\n<p>Em melanomas superficiais, que envolvem só a camada de cima da pele, e em quem não pode ou não quer operar, o médico pode usar um creme ou o frio extremo. A escolha é do médico.</p>\n<p>Se o câncer se espalhou, a cirurgia geralmente deixa de ser uma opção. Podem ser usadas imunoterapia, terapia direcionada, quimioterapia e radioterapia, conforme o caso.</p>\n<p>Este guia não traz nomes de remédios nem doses. O manual diz que não há comprovação de que a quimioterapia prolongue a vida, e que ela só é usada em quem não tem outras opções.</p>\n\n<h2>Qual é o prognóstico?</h2>\n<p>O manual afirma que, quanto menos a lesão cresce dentro da pele, maior a chance de resolver com cirurgia. Quase 100% dos melanomas iniciais e superficiais saram com a operação.</p>\n<p>Lesões que crescem mais de 1 milímetro dentro da pele têm risco maior de formar metástases nos gânglios e nos vasos sanguíneos.</p>\n<p>A sobrevida em cinco anos é de cerca de 95%, mas cai muito se o câncer se espalhou, segundo o manual. Por isso, a descoberta cedo faz diferença.</p>\n\n<h2>Como prevenir?</h2>\n<p>O manual recomenda, desde a infância, estas medidas:</p>\n<ul>\n<li>ficar na sombra e reduzir as atividades ao ar livre entre 10h e 16h;</li>\n<li>evitar banhos de sol e o bronzeamento artificial;</li>\n<li>usar roupas de proteção, como camisa de manga comprida, calça e chapéu de aba grande;</li>\n<li>usar protetor com fator 30 ou mais e proteção contra UVA e UVB, reaplicando a cada 2 horas e depois de nadar ou suar.</li>\n</ul>\n<p>O INCA também orienta evitar o sol entre 10h e 16h e usar filtro solar, roupas e acessórios protetores.</p>\n<p>O manual faz uma ressalva honesta: os médicos não sabem com certeza se essas medidas reduzem as chances de ter ou de morrer de melanoma. Mas o bronzeamento artificial, principalmente entre jovens, parece aumentar o risco.</p>\n<p>A <a href=\"https://www.agenciaminas.mg.gov.br/news/pdf/128634.pdf\" rel=\"noopener nofollow\" target=\"_blank\">Agência Minas</a>, da Secretaria de Saúde de Minas Gerais, também aponta a proteção contra a exposição excessiva ao sol como principal forma de prevenção.</p>\n<figure class=\"article-figure\"><img src=\"/images/melanoma/pessoa-passando-protetor-solar-no-braco-ao-ar-livre-em-um-di.jpg\" alt=\"Pessoa passando protetor solar no braço ao ar livre em um dia de sol\" width=\"940\" height=\"627\" loading=\"lazy\" /><figcaption>Sombra, roupas e protetor solar são as medidas de proteção recomendadas pelas fontes. <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/woman-wearing-an-orange-swimsuit-applying-sunscreen-8157147/\" rel=\"noopener nofollow\" target=\"_blank\">Mikhail Nilov</a> / Pexels</span></figcaption></figure>\n<h2>Autoexame e exames de rotina ajudam?</h2>\n<p>As evidências citadas pelo INCA indicam que o rastreamento da população por autoexame ou por exame clínico não reduziu a mortalidade por câncer de pele. Mesmo assim, o exame da pele deve fazer parte do exame físico de rotina.</p>\n<p>O manual afirma que quem já teve melanoma deve fazer exames de pele regularmente. Quem tem muitos nevos deve fazer exame da pele inteira pelo menos uma vez por ano.</p>\n<p>Para pessoas sem fatores de risco, os médicos não sabem se o exame anual de rotina reduz mortes por melanoma, segundo o manual.</p>\n<p>Isso não impede que a pessoa observe a própria pele. O manual orienta que as pessoas conheçam o ABCDE, para notar mudanças nos nevos.</p>\n\n<h2>Mitos e verdades sobre o melanoma</h2>\n<h3>\"Só tem quem toma muito sol\"</h3>\n<p>Mito. O sol é o principal fator, mas o câncer também ocorre em áreas sem sol, como a boca, os genitais e as unhas, segundo o manual.</p>\n<h3>\"Quem tem pele escura não tem risco\"</h3>\n<p>Mito. É menos comum, mas ocorre, principalmente em unhas, palmas e plantas dos pés.</p>\n<h3>\"A gravidez transforma pintas em câncer\"</h3>\n<p>Mito. O manual afirma que a gravidez não aumenta a probabilidade de um nevo virar melanoma.</p>\n<h3>\"Toda pinta que cresce é câncer\"</h3>\n<p>Nem sempre. A maior parte das pintas retiradas para biópsia são nevos simples, mas só o médico pode saber.</p>\n\n<h2>O que perguntar ao médico?</h2>\n<p>Levar perguntas objetivas ajuda a conduzir a consulta. Estas sugestões se baseiam nas fontes citadas:</p>\n<ul>\n<li>Esta pinta precisa ser retirada para biópsia?</li>\n<li>Tenho fatores de risco que pedem exame da pele inteira todo ano?</li>\n<li>Como devo observar minhas pintas em casa?</li>\n<li>Que proteção solar vale para a minha rotina?</li>\n<li>Se houver um diagnóstico, qual é a espessura da lesão e o que isso significa?</li>\n</ul>\n\n<h2>Perguntas frequentes sobre o melanoma</h2>\n<h3>O melanoma é o tipo mais comum de câncer de pele?</h3>\n<p>Não. O INCA informa que o câncer de pele não melanoma é o mais frequente. O melanoma responde por cerca de 5% dos casos.</p>\n<h3>Quando uma pinta preocupa?</h3>\n<p>Quando é nova, muda de cor, forma ou tamanho, sangra, coça, dói ou não cicatriza em 4 semanas. O manual e o INCA citam esses sinais.</p>\n<h3>Para que serve a biópsia?</h3>\n<p>Ela confirma se a lesão é um melanoma, identifica o tipo e ajuda a estadiar o câncer, segundo o manual.</p>\n<h3>Protetor solar basta?</h3>\n<p>Não sozinho. O manual recomenda combinar com sombra e roupas, e avisa que o protetor não deve ser usado para prolongar a exposição ao sol.</p>\n\n<h2>Quando procurar um médico</h2>\n<p>Procure um dermatologista se aparecer uma pinta nova, se uma pinta mudar de cor, forma ou tamanho, ou se uma ferida não cicatrizar em 4 semanas. O INCA orienta encaminhar logo as lesões suspeitas.</p>\n<p>Procure também se houver mancha que coça, dói, sangra ou descama. Quem já teve câncer de pele ou tem muitos nevos deve fazer exames regulares.</p>\n<p>Nenhum cuidado em casa substitui a avaliação de um profissional de saúde. Para lidar com a ansiedade antes da consulta, veja o guia sobre <a href=\"/meditacao-ansiedade-40/\">como meditar</a> e o texto sobre <a href=\"/cortisol-alto/\">cortisol alto</a>.</p>\n\n<h2>Resumindo</h2>\n<p>O melanoma é o câncer de pele mais grave, que começa nos melanócitos e pode aparecer até em áreas sem sol. A regra ABCDE ajuda a notar sinais, e a biópsia confirma o diagnóstico.</p>\n<p>Quando descoberto cedo e superficial, a cirurgia costuma resolver. A proteção contra o sol é a principal medida, mesmo com dúvidas sobre o efeito exato. Em caso de dúvida, converse com um médico.</p>\n<h2>Fontes</h2>\n<ul>\n<li><a href=\"https://www.msdmanuals.com/pt/casa/c%C3%A2ncer/c%C3%A2nceres-de-pele/melanoma\" rel=\"noopener nofollow\" target=\"_blank\">Manual MSD Versão Saúde para a Família, câncer das células de pigmento da pele</a></li>\n<li><a href=\"https://rbc.inca.gov.br/index.php/revista/article/download/2067/1282/14884\" rel=\"noopener nofollow\" target=\"_blank\">INCA, normas e recomendações sobre a prevenção do câncer da pele</a></li>\n<li><a href=\"https://www.agenciaminas.mg.gov.br/news/pdf/128634.pdf\" rel=\"noopener nofollow\" target=\"_blank\">Agência Minas (SES-MG), campanha Dezembro Laranja e diagnóstico precoce</a></li>\n</ul>\n<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>"
+}

@@ -4,19 +4,22 @@ Fonte dos textos: `data/articles.json`. Atualizado por `node scripts/banco-conte
 
 | O que | Quantidade | Dias |
 |---|---|---|
-| **Pronto para usar** (a fila do robô; saem 2 por dia) | **160** | 80 |
-| Precisa de revisão (o robô não publica) | 53 | |
+| **Pronto para usar** (a fila do robô; saem 2 por dia) | **171** | 85 |
+| Precisa de revisão (o robô não publica) | 42 | |
 | Publicado (no ar) | 31 | |
 | Pauta validada, falta escrever | 17 | 5 |
 | Planejado, falta validar no Google | 886 | 295 |
 | Vagas (sem tema levantado) | 146 | |
 
-Dias de conteúdo já escrito + pauta validada: **85** (estoque a 2 por dia; pauta validada, 1 por dia).
+Dias de conteúdo já escrito + pauta validada: **90** (estoque a 2 por dia; pauta validada, 1 por dia).
 
 ## Prontos para usar
 
 | Artigo | Palavras | Auditoria | Previsto para |
 |---|---|---|---|
+| Dor nas Costas: Causas e Sinais de Alerta | 1608 | 100 | 2026-10-08 |
+| Prisão de Ventre: O Que Fazer e Causas | 1912 | 100 | 2026-10-11 |
+| Moscas Volantes: Quando São Normais | 1863 | 86 | 2026-10-12 |
 | Lanche Saudável: 12 Ideias Fáceis para Sua Tarde | 1511 | 91 | 2026-10-17 |
 | Cabelos Brancos: Causas, Cuidados e Tudo que Você Precisa Saber | 1820 | 87 | 2026-10-17 |
 | Câimbras nas pernas: causas e alívio rápido | 1372 | 100 | 2026-10-18 |
@@ -30,6 +33,11 @@ Dias de conteúdo já escrito + pauta validada: **85** (estoque a 2 por dia; pau
 | Esquecimento Frequente: Quando Procurar Médico | 1496 | 100 | 2026-10-22 |
 | Idade Metabólica: Calcule e Melhore a Sua | 1544 | 100 | 2026-10-22 |
 | Sarcopenia: o que é, sinais e como cuidar | 1236 | 98 | - |
+| Colesterol HDL: O Que É, Valores e Como Aumentar | 2055 | 96 | 2026-10-23 |
+| Colesterol LDL: o que é e como reduzir | 1042 | 96 | 2026-10-24 |
+| Hipotireoidismo Sintomas: Sinais Comuns aos 40+ | 1629 | 100 | 2026-10-10 |
+| TSH alto: o que significa e quando investigar | 1143 | 96 | 2026-10-16 |
+| Próstata aumentada: sintomas e o que fazer | 1080 | 92 | 2026-10-24 |
 | Lanches Saudáveis: Ideias para o Dia a Dia | 1389 | 94 | - |
 | Açúcar: tipos, calorias e limite recomendado | 1508 | 100 | - |
 | Atemoia: benefícios, cuidados e como comer | 1539 | 100 | - |
@@ -51,6 +59,7 @@ Dias de conteúdo já escrito + pauta validada: **85** (estoque a 2 por dia; pau
 | Glaçúcar União: Para Que Serve e Composição | 1464 | 98 | - |
 | Jejum Intermitente Para Emagrecer — Guia Prático | 1915 | 97 | - |
 | Magnésio: Para Que Serve, Tipos e Cuidados | 2256 | 96 | 2027-05-24 |
+| Melanoma: sinais, ABCDE e quando procurar | 1772 | 100 | - |
 | Melasma: causas, sintomas e como cuidar | 1602 | 100 | 2026-10-29 |
 | Nutrição Estética: Guia Completo da Pele e Saúde | 2350 | 100 | - |
 | Paralisia do sono: causas e o que fazer | 1512 | 100 | 2026-10-27 |
@@ -73,6 +82,7 @@ Dias de conteúdo já escrito + pauta validada: **85** (estoque a 2 por dia; pau
 | Biotina comprimido: funções, riscos e exames | 1316 | 100 | - |
 | Biotina para que serve: funções e evidências | 1326 | 100 | - |
 | Biotina valor: o que considerar antes de usar | 1329 | 100 | - |
+| Remédio Minoxidil: Ação, Riscos e Cuidados | 1370 | 100 | - |
 | Academia emagrece? Musculação e perda de gordura | 1356 | 100 | - |
 | Ácido fólico para que serve: usos e cuidados | 1345 | 100 | 2026-11-02 |
 | Ácido hialurônico para que serve: tipos e riscos | 1330 | 100 | - |
@@ -107,6 +117,7 @@ Dias de conteúdo já escrito + pauta validada: **85** (estoque a 2 por dia; pau
 | Calculadora de IMC: entenda o seu índice corporal | 1330 | 95 | - |
 | Caloria dos alimentos: como calcular e usar | 1324 | 100 | - |
 | Calvície masculina: causas e tratamentos | 1335 | 100 | - |
+| Câncer de pele sintomas: sinais de alerta | 1348 | 100 | - |
 | Carboidratos: o que são, funções e tipos | 1361 | 100 | - |
 | Cardápio de Dieta para Emagrecer: Guia Semanal | 1364 | 100 | - |
 | Chá que emagrece 1kg por dia: evidências | 1332 | 100 | - |

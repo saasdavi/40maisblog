@@ -1,6 +1,6 @@
 # Pautas do CHATGPT-02
 
-Gerado por `scripts/pautas-chat.js` em 2026-10-11. 227 temas só deste agente (nenhum outro ChatGPT recebe estes), ≈ 76 dias a 3 por dia. Lista completa em `PAUTAS.csv` (mesma pasta).
+Gerado por `scripts/pautas-chat.js` em 2026-10-11. 224 temas só deste agente (nenhum outro ChatGPT recebe estes), ≈ 75 dias a 3 por dia. Lista completa em `PAUTAS.csv` (mesma pasta).
 
 **Como usar:** a cada dia, pegue os **3 primeiros** desta lista, escreva seguindo `data/entrada/google/LEIA-ME.md` e entregue cada um em `data/entrada/google/` com o nome da coluna "Arquivo". A lista se atualiza sozinha: tema entregue ou que virou artigo sai daqui.
 
