@@ -10,7 +10,7 @@ process.env.DAILY_LIMIT = '100'; process.env.BATCH_SIZE = '5'; // para escolherP
 process.env.PAUTAS_FALHAS = path.join(path.dirname(estado), 'pautas-falhas.json');
 process.env.ANTHROPIC_API_KEY = 'teste-claude';
 const { default: ArticleRobot } = await import('./article-robot.js');
-const { resumirSerp } = await import('./serp-api.js');
+const { resumirSerp, pularBusca } = await import('./serp-api.js');
 
 let chamadas = [];
 let gemini = () => ({ ok: true, status: 200, json: async () => ({ candidates: [{ content: { parts: [{ text: 'ARTIGO GEMINI' }] }, finishReason: 'STOP' }], usageMetadata: { promptTokenCount: 10, candidatesTokenCount: 20 } }), text: async () => '' });
@@ -98,3 +98,17 @@ console.log('ok: novoHoje');
   assert.strictEqual(rb.lerFalhasPauta()[primeira].tentativas, 2);
 }
 console.log('ok: pauta que falha é pulada');
+
+// 11. SerpAPI: execução que só publica do estoque não gasta busca
+{
+  const rb = robo();
+  const comEstoque = rb.prontosNoEstoque().length > 0;
+  rb.db.articles = rb.db.articles.filter((a) => !(a.status === 'published' && a.escritoPor));
+  assert.strictEqual(pularBusca(rb, false), false, 'novo de hoje não saiu: pesquisa');
+  assert.strictEqual(pularBusca(rb, true), comEstoque, 'só publica do estoque: não pesquisa se há estoque');
+  rb.db.articles.push({ status: 'published', escritoPor: 'gemini', publishedAt: new Date().toISOString() });
+  assert.strictEqual(pularBusca(rb, false), comEstoque, 'novo de hoje já saiu: não pesquisa se há estoque');
+  const vazio = robo(); vazio.prontosNoEstoque = () => [];
+  assert.strictEqual(pularBusca(vazio, true), false, 'sem estoque: pesquisa sempre (a execução vai escrever)');
+}
+console.log('ok: serp-api pula a busca quando só publica');
