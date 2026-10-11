@@ -1,5 +1,5 @@
 // Pesquisa a próxima pauta da fila no Google (SerpAPI, 1 busca por artigo) e prepara o briefing que o redator lê.
-//   SERP_API_KEY=... node scripts/serp-api.js [--keyword "palavra"] [--mock arquivo.json] [--so-se-sem-estoque]
+//   SERP_API_KEY=... node scripts/serp-api.js [--keyword "palavra"] [--mock arquivo.json] [--so-se-sem-estoque] [--novo]
 // Grava o top orgânico, as perguntas do Google (PAA) e as buscas relacionadas em data/pesquisa/serp-resultados.json
 // e roda scripts/briefing.js para essa pauta. Cota: contador mensal em data/pesquisa/serpapi-uso.json (limite 240 de 250).
 import fs from 'fs';
