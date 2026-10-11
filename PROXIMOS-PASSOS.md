@@ -2,13 +2,15 @@
 
 > Leia isto primeiro numa sessão nova. Detalhes: `ESTRATEGIA-E-FLUXO-AUTOMATICO.md` (seções 16 e 17 = painel de estoque e inventário de dados). Atualize a data e os números abaixo a cada rodada.
 
-**Atualizado:** 2026-10-11 (bloco "Fluxo atual de artigos" abaixo; o resto do arquivo é de 2026-10-04)
+**Atualizado:** 2026-10-11, noite (bloco "Fluxo atual de artigos" abaixo; o resto do arquivo é de 2026-10-04)
 
 ## Fluxo atual de artigos (2026-10-11)
 - **Estoque e calendário:** `data/conteudo/CALENDARIO-ARTIGOS.md` (gerado por `node scripts/calendario-artigos.js`): publicados, prontos com data prevista (3/dia) e em revisão. O robô pula artigo com nota < 90 ou tema sensível sem `REVISADO: sim` (`robot.precisaRevisao`); a lista dos que faltam está em `data/conteudo/ABAIXO-DE-90.md`.
 - **Auditor:** `scripts/article-robot.js` `auditar` + `scripts/pontuacao.js`. A trava de palavras (cura, garantido, milagre) foi trocada por trava de **promessa** (`achaPromessas`).
 - **Artigos escritos pela IA do Google** (prompt unificado em `data/entrada/PROMPT-UNIFICADO.md`): colar a resposta inteira em `data/entrada/google/<nome>.txt` e rodar a Action "Importar artigos (sem API)". O conversor é `scripts/lib/entrada-google.js` (teste: `node scripts/test-entrada-google.mjs`). Reprovado volta com `<nome>.relatorio.md`; o que falhar é corrigido na conversa e reimportado.
-- **Programação desejada pelo usuário:** por dia, 1 artigo novo escrito por Gemini com Claude de reserva + 2 da lista pronta (estoque). Falta implementar o "1 novo por dia"; ver mente-curiosa (`.github/workflows/gerar-artigo.yml`, `scripts/gerar_artigo.py`) como referência. Secrets necessários: `GEMINI_API_KEY` (novo) e `ANTHROPIC_API_KEY` (já existe).
+- **Programação do dia (implementada, no ar):** 1 artigo novo por IA (Gemini, reserva Claude, SerpAPI antes) + 2 do estoque, 3/dia. Os horários vêm do **cron-job.org** (3 jobs, 08:00, 12:30 e 18:00 de Brasília; passo a passo em `CRON-EXTERNO.md`). Teste 2026-10-11: HTTP 204 e run #58 com sucesso. `workflow_dispatch` aceita `forcar=sim` para testar o artigo novo mesmo se já saiu um hoje.
+- **Gemini ainda sem teste real:** o #57 (hemograma) foi escrito pelo Claude porque `GEMINI_API_KEY` ainda não existia no job. O secret já foi criado; o disparo das 08:00 de 12/10 é o primeiro teste. Conferir no log: busca SerpAPI, provedor, nota, `escritoPor` em `data/articles.json`.
+- **Próximo foco (decidido pelo usuário em 2026-10-11, depois de 1 dia de descanso):** divulgação automática com **feed RSS** (o site ainda não tem `rss.xml`; só `sitemap.xml`). Ideia: `src/pages/rss.xml.js` com os artigos publicados + `<link rel="alternate">` no layout, e então ligar o feed a serviços que publiquem sozinhos (IFTTT/Activepieces, Pinterest, Telegram, newsletter). Definir com o usuário quais canais.
 - Pendente do usuário: lote dos 53 artigos revisados (pacote `53-artigos-para-revisar`), `PIXABAY_API_KEY` válida (opcional).
 
 ## Painel de produção e estoque (conferido em 2026-10-04 06:33 UTC)
