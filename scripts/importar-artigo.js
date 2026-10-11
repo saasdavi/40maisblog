@@ -12,7 +12,7 @@ const DIR = path.join(__dirname, '../data/entrada');
 import { demandaDe } from './demanda-lib.js';
 import { pontuar } from './pontuacao.js';
 import { ehSaidaGoogle, normalizarEntradaGoogle, lerFontes } from './lib/entrada-google.js';
-const MIN_SCORE = 85; // regra do usuário: nota mínima 8,5 de 10 (85/100)
+import { decidirImportacao } from './lib/decisao-importacao.js';
 // NOTA_CHAT: nota final (0 a 10) que o chat deu ao próprio artigo; ele só entrega com 9,0 ou mais. Aceita 9,2 | 9.2 | 92.
 const lerNotaChat = (v) => { if (!v) return null; const n = parseFloat(String(v).replace(',', '.')); if (!Number.isFinite(n)) return null; return n > 10 ? n / 10 : n; };
 const de10 = (n) => (n / 10).toFixed(1).replace('.', ',');
@@ -55,15 +55,15 @@ for (const nome of arquivos) {
     if (pauta.volume == null && dem) pauta.volume = dem.volume;
     console.log(`  demanda: ${dem ? `${dem.volume} buscas/mês (${dem.classe}${dem.tendencia ? ', ' + dem.tendencia : ''}${dem.porSimilar ? ', por frase parecida: ' + dem.frase : ''})` : 'NÃO MEDIDA (palavra-chave fora de data/pesquisa/demanda-validada.json)'}`);
     const notaChat = lerNotaChat(get('NOTA_CHAT'));
-    const confiavel = notaChat !== null && notaChat >= 9; // já vem revisado: não reprova por nota; bloqueios de promessa/formato e duplicata continuam
-    if (confiavel) console.log(`  ✍️  nota do chat ${String(notaChat).replace('.', ',')}/10: entra direto, sem reprovar por nota`);
+    if (notaChat !== null) console.log(`  ✍️  NOTA_CHAT ${String(notaChat).replace('.', ',')}/10`);
     const art = robot.montar(pauta, d, fontes);
     const aud = robot.auditar(art, null);
     console.log(`  ${art.wordCount} palavras | auditoria ${aud.nota}/100 (nota ${de10(aud.nota)}/10)${aud.bloqueios.length ? ' | BLOQUEIOS: ' + aud.bloqueios.join('; ') : ''}`);
-    // Regra do dono: promessa de cura/resultado garantido não trava o artigo; vira só aviso no log e em scores.atencao.
-    const promessas = aud.bloqueios.filter((b) => /^SEG: promessa/.test(b));
-    const duros = aud.bloqueios.filter((b) => !/^SEG: promessa/.test(b));
-    if (duros.length || (!confiavel && aud.nota < MIN_SCORE)) { relatorio([`Nota ${de10(aud.nota)}/10 (mínimo 8,5)`, ...aud.bloqueios.map((b) => `BLOQUEIO: ${b}`), ...aud.alertas]); console.log('  ⛔ reprovado; veja o .relatorio.md'); continue; }
+    // Regras em DECISOES-DO-DONO.md e scripts/lib/decisao-importacao.js (promessa e tema sensível não travam; promessa vira aviso)
+    const pre = decidirImportacao({ notaChat, aud });
+    const confiavel = pre.confiavel;
+    const promessas = pre.avisos.map((x) => x.replace(/^aviso: /, ''));
+    if (pre.acao === 'recusar') { relatorio([`Nota ${de10(aud.nota)}/10`, ...pre.motivos.map((b) => `RECUSA: ${b}`), ...aud.alertas]); console.log('  ⛔ recusado; veja o .relatorio.md'); continue; }
     let fotoPendente = false;
     if (!(await robot.imagem(art))) {
       if (process.env.FOTO_NA_PUBLICACAO !== '1') { relatorio(['Sem imagens: confira PEXEL_API_KEY/PIXABAY_API_KEY/UNSPLASH_ACCESS_KEY e as buscas de foto do cabeçalho.']); continue; }
@@ -72,14 +72,18 @@ for (const nome of arquivos) {
       fotoPendente = true;
       console.log('  📷 sem foto agora: guardado com as buscas de foto; a foto é buscada na hora de publicar');
     }
-    const pont = pontuar({ art, aud, outros: robot.db.articles, revisado: get('REVISADO') === 'sim' });
+    // pontuação técnica: tema sensível não pesa (regra do dono) e promessa não zera a segurança (é só aviso)
+    const pont = pontuar({ art, aud: { ...aud, bloqueios: aud.bloqueios.filter((b) => !/^SEG: promessa/.test(b)) }, outros: robot.db.articles, revisado: true, imagensPrevistas: fotoPendente ? 3 : null });
     console.log(`  🎯 pontuação ${pont.total}/100 (nota ${de10(pont.total)}/10) → ${pont.decisao} (qualidade ${pont.partes.qualidade} | demanda ${pont.partes.demanda} | fontes ${pont.partes.fontes} | originalidade ${pont.partes.originalidade} | formato ${pont.partes.formato})`);
     if (pont.motivos.length) console.log(`     pontos de atenção: ${pont.motivos.slice(0, 4).join('; ')}`);
     const duplicado = pont.motivos.some((m) => { const x = m.match(/^parecido com .*\((\d+)%\)/); return x && Number(x[1]) >= 80; });
-    if (duros.length || duplicado || (!confiavel && pont.total < 70)) { relatorio([`Pontuação ${pont.total}/100: DEVOLVER`, ...pont.motivos]); console.log('  ⛔ devolvido pela pontuação; veja o .relatorio.md'); continue; }
+    const dec = decidirImportacao({ notaChat, aud, pont, duplicado });
+    if (dec.acao === 'recusar') { relatorio([`Pontuação ${pont.total}/100`, ...dec.motivos.map((m) => `RECUSA: ${m}`)]); console.log('  ⛔ recusado pela pontuação; veja o .relatorio.md'); continue; }
+    const segurar = dec.acao === 'segurar';
+    if (segurar) console.log(`  ✋ SEGURADO (segurar: true, não publica até você liberar): ${dec.motivos[0]}`);
     const agora = new Date().toISOString();
     delete art.bodyOriginal; delete art._substitui;
-    Object.assign(art, fotoPendente ? { fotoPendente: true } : {}, { status: 'draft', estoque: true, estocadoEm: agora, scores: { auditoria: aud.nota, ...(confiavel ? { notaChat } : {}), demanda: dem ? dem.classe : 'não medida', total: pont.total, decisao: pont.decisao, partes: pont.partes, atencao: [...pont.motivos.filter((m) => !/^BLOQUEIO: SEG: promessa/.test(m)), ...promessas.map((x) => `aviso: ${x}`)].slice(0, 8) }, validador: 'Auditoria automática (sem API); texto escrito fora do robô', origem: 'importado', ...(confiavel ? { redator: 'chat' } : {}),
+    Object.assign(art, fotoPendente ? { fotoPendente: true } : {}, { status: 'draft', estoque: true, estocadoEm: agora, scores: { auditoria: aud.nota, ...(notaChat !== null ? { notaChat } : {}), demanda: dem ? dem.classe : 'não medida', total: pont.total, decisao: pont.decisao, partes: pont.partes, atencao: [...pont.motivos.filter((m) => !/^BLOQUEIO: SEG: promessa/.test(m)), ...promessas.map((x) => `aviso: ${x}`)].slice(0, 8) }, validador: 'Auditoria automática (sem API); texto escrito fora do robô', origem: 'importado', ...(confiavel ? { redator: 'chat' } : {}), ...(segurar ? { segurar: true, segurarMotivo: { notaChat, pontuacaoImportador: pont.total, motivos: dec.motivos } } : {}),
       validacao: { palavraChave: keyword, demanda: dem ? { volume: dem.volume, classe: dem.classe, tendencia: dem.tendencia, concorrencia: dem.concorrencia, fonte: dem.fonte, fraseMedida: dem.frase, porSimilar: dem.porSimilar } : { classe: 'não medida' }, volume: pauta.volume, cluster: pauta.cluster, apoio: (pauta.secundarias || []).map((x) => x.palavra), perguntasDoGoogle: pauta.absorve || [], concorrentes: concorrentes.length ? concorrentes : 'não informado (concorrente não conferido)', lacunasCobertas: lacunas, serp: pauta.serp || null, fontesDaPauta: fontes.map((f) => f.url), notas: pauta.notas || '', briefing: robot.readJson(`data/briefings/${slugify(keyword)}.json`, null), validadoEm: agora, observacao: 'originalidade contra o concorrente não conferida automaticamente' } });
     const i = robot.db.articles.findIndex((x) => x.slug === art.slug);
     if (i >= 0) { art.createdAt = robot.db.articles[i].createdAt || art.createdAt; robot.db.articles[i] = art; } else robot.db.articles.push(art);

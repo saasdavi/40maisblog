@@ -10,7 +10,7 @@ const SENS = /\b(minoxidil|isotretin\w*|tretin\w*|hidroquinon\w*|ozempic|mounjar
 const toks = (s) => new Set(norm(s).split(' ').filter((t) => t.length > 2));
 const jacc = (a, b) => { const i = [...a].filter((x) => b.has(x)).length; return i / Math.max(1, a.size + b.size - i); };
 
-export function pontuar({ art, aud, outros = [], revisado = false }) {
+export function pontuar({ art, aud, outros = [], revisado = false, imagensPrevistas = null }) {
   const palavras = art.wordCount || 0;
   const dem = demandaDe(art.primaryKeyword);
   const fontes = art.sources || [];
@@ -28,7 +28,8 @@ export function pontuar({ art, aud, outros = [], revisado = false }) {
   const orig = maxSim >= 0.8 ? 0 : maxSim >= 0.65 ? 40 : maxSim >= 0.5 ? 70 : 100;
   // 5 formato e cobertura
   const internos = [...(art.content || '').matchAll(/href="(\/[a-z0-9-]+\/)"/g)].length;
-  const imgs = (art.images || []).length + (art.featuredImage ? 1 : 0);
+  // foto buscada na hora de publicar (fotoPendente): conta as imagens previstas no plano
+  const imgs = imagensPrevistas ?? ((art.images || []).length + (art.featuredImage ? 1 : 0));
   const formato = (palavras >= 1500 ? 60 : palavras >= 1200 ? 50 : palavras >= 1000 ? 30 : 0) + (imgs >= 3 ? 20 : imgs >= 2 ? 10 : 0) + (internos >= 2 ? 20 : internos ? 10 : 0);
   // 6 segurança editorial
   const sensivel = SENS.test(norm(art.primaryKeyword));
