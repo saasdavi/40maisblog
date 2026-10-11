@@ -48,8 +48,9 @@ if (!propsArticle && !article) {
 const currentArticle = propsArticle || article;
 
 // Gerar Schema.org JSON-LD usando funções centralizadas
-const publishedDate = currentArticle.createdAt
-  ? new Date(currentArticle.createdAt)
+// Data de publicação = a mesma que a grade mostra (publishedAt); createdAt é só a geração
+const publishedDate = currentArticle.publishedAt || currentArticle.createdAt
+  ? new Date(currentArticle.publishedAt || currentArticle.createdAt)
   : new Date();
 
 const modifiedDate = currentArticle.updatedAt
@@ -421,7 +422,7 @@ const breadcrumbItems = [
         <h1>{currentArticle.title}</h1>
         <p>{currentArticle.description}</p>
         <div class="meta">
-          <span>📅 {currentArticle.createdAt ? new Date(currentArticle.createdAt).toLocaleDateString('pt-BR', { year: 'numeric', month: 'long', day: 'numeric' }) : 'Data não disponível'}</span>
+          <span>📅 {currentArticle.publishedAt || currentArticle.createdAt ? new Date(currentArticle.publishedAt || currentArticle.createdAt).toLocaleDateString('pt-BR', { year: 'numeric', month: 'long', day: 'numeric' }) : 'Data não disponível'}</span>
           <span>⏱️ {Math.ceil((currentArticle.wordCount || 0) / 200)} min de leitura</span>
           <span>✍️ Saúde 40+</span>
         </div>
