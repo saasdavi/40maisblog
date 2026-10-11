@@ -97,6 +97,7 @@ jobs:
         run: |
           node scripts/calendario-editorial.js
           node scripts/calendario-artigos.js
+          node scripts/pautas-chat.js
 
       - name: 🏗️ Build do site (falha aqui se algo quebrar)
         run: npm run build
