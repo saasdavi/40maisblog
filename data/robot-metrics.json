@@ -255,5 +255,36 @@
     },
     "custoUSD": 2.445,
     "custoPorPublicadoUSD": 0.1222
+  },
+  {
+    "data": "2026-10-11T03:02:29.936Z",
+    "modeloRedator": "claude-haiku-4-5-20251001",
+    "modeloValidador": "claude-haiku-4-5-20251001",
+    "tentativas": 1,
+    "aprovados": 1,
+    "publicados": 1,
+    "estocados": 0,
+    "falhas": 0,
+    "porArtigo": [
+      {
+        "palavra": "hemograma completo",
+        "tentativas": 1,
+        "resultado": "aprovado"
+      }
+    ],
+    "uso": {
+      "redator:claude-haiku-4-5-20251001": {
+        "chamadas": 1,
+        "entrada": 13567,
+        "saida": 4414
+      },
+      "validador:claude-haiku-4-5-20251001": {
+        "chamadas": 1,
+        "entrada": 15414,
+        "saida": 29
+      }
+    },
+    "custoUSD": 0.0512,
+    "custoPorPublicadoUSD": 0.0512
   }
 ]

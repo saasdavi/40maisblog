@@ -6,12 +6,12 @@ Fonte dos textos: `data/articles.json`. Atualizado por `node scripts/banco-conte
 |---|---|---|
 | **Pronto para usar** (a fila do robô; saem 2 por dia) | **162** | 81 |
 | Precisa de revisão (o robô não publica) | 53 | |
-| Publicado (no ar) | 28 | |
-| Pauta validada, falta escrever | 18 | 6 |
+| Publicado (no ar) | 29 | |
+| Pauta validada, falta escrever | 17 | 5 |
 | Planejado, falta validar no Google | 886 | 295 |
 | Vagas (sem tema levantado) | 146 | |
 
-Dias de conteúdo já escrito + pauta validada: **87** (a 3 por dia).
+Dias de conteúdo já escrito + pauta validada: **86** (estoque a 2 por dia; pauta validada, 1 por dia).
 
 ## Prontos para usar
 
@@ -212,6 +212,7 @@ Dias de conteúdo já escrito + pauta validada: **87** (a 3 por dia).
 | Queda de Cabelo: Saiba Quando é Normal Tratar | 1544 | 96 | 2026-10-10 |
 | Presbiopia: Como Corrigir Sua Visão de Perto | 1777 | 90 | 2026-10-10 |
 | Como Controlar a Ansiedade: Estratégias Práticas 40+ | 1471 | 95 | 2026-10-10 |
+| Hemograma Completo: Resultados Claros para Sua Saúde | 1691 | 89 | 2026-10-11 |
 
 ## Pautas validadas esperando texto (próximas a escrever)
 
@@ -225,7 +226,6 @@ Dias de conteúdo já escrito + pauta validada: **87** (a 3 por dia).
 - alimentos anti inflamatórios (6600/mês)
 - queda de cabelo causas (7200/mês)
 - creatinina alta (33100/mês)
-- hemograma completo (60500/mês)
 - pressão 14 por 9 (18100/mês)
 - café da manhã saudável (22200/mês)
 - jantar saudável (5400/mês)

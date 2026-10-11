@@ -347,4 +347,15 @@
       <image:caption>Aprenda como controlar a ansiedade com técnicas comprovadas. Respire melhor, duerma bem e recupere o controle da sua rotina.</image:caption>
     </image:image>
   </url>
+  <url>
+    <loc>https://health-40-blog.vercel.app/hemograma-completo</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>/images/hemograma-completo/hemograma-completo-capa.jpg</image:loc>
+      <image:title>Hemograma Completo: Resultados Claros para Sua Saúde</image:title>
+      <image:caption>Hemograma completo explica as três células do sangue. Aprenda valores normais, doenças detectadas e como interpretar seus resultados com segurança.</image:caption>
+    </image:image>
+  </url>
 </urlset>
