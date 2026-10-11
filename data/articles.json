@@ -5630,7 +5630,7 @@
         ]
       },
       "volume": 12100,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T17:56:21.705Z",
       "scores": {
         "auditoria": 92,
@@ -5696,7 +5696,7 @@
         "pexels:4506105"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-04T17:56:24.178Z",
       "validacao": {
         "palavraChave": "vitamina d baixa sintomas",
@@ -5772,7 +5772,9 @@
           ]
         },
         "validadoEm": "2026-10-04T17:56:24.178Z"
-      }
+      },
+      "publishedAt": "2026-10-11T11:00:33.987Z",
+      "publicadoDoEstoqueEm": "2026-10-11T11:00:33.987Z"
     },
     {
       "id": "art_1791136749167_pjtd",
@@ -37247,6 +37249,6 @@
   ],
   "stats": {
     "total": 244,
-    "published": 30
+    "published": 31
   }
 }

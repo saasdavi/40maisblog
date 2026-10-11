@@ -1,7 +1,7 @@
 {
  "resumo": {
-  "publicados": 30,
-  "prontosParaUsar": 161,
+  "publicados": 31,
+  "prontosParaUsar": 160,
   "pautasValidadasSemTexto": 17,
   "planejadasAValidar": 886,
   "vagas": 146,
@@ -593,15 +593,15 @@
    "palavraChave": "vitamina d baixa sintomas",
    "cluster": "nutricao",
    "volume": 12100,
-   "status": "pronto",
+   "status": "publicado",
    "palavras": 1948,
    "h2": 15,
    "imagens": 3,
    "fontes": 6,
    "auditoria": 92,
-   "publicadoEm": null,
+   "publicadoEm": "2026-10-11T11:00:33.987Z",
    "escritoEm": "2026-10-04T17:56:24.178Z",
-   "previstoPara": "2026-10-15",
+   "previstoPara": null,
    "pontesSugeridas": [
     "ferro baixo sintomas"
    ]

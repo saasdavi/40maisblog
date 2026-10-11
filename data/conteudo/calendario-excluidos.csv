@@ -108,7 +108,6 @@
 "café arábica";"9900";"saude-geral";"demanda-validada.json";"ruído / fora do nicho (café, lanches, carnes, locais)"
 "lanches proximo a mim";"9900";"alimentacao-e-peso";"demanda-validada.json";"ruído / fora do nicho (café, lanches, carnes, locais)"
 "cafe cultura";"9900";"saude-geral";"demanda-validada.json";"ruído / fora do nicho (café, lanches, carnes, locais)"
-"clara de ovo";"9900";"Saúde geral";"pautas-mestre.csv + demanda-validada.json";"fila de espera: depois dos 12 meses"
 "cachaça cabare";"9900";"Saúde geral";"pautas-mestre.csv + demanda-validada.json";"fila de espera: depois dos 12 meses"
 "goiaba tailandesa";"9900";"Saúde geral";"pautas-mestre.csv + demanda-validada.json";"fila de espera: depois dos 12 meses"
 "ovo online";"9900";"Saúde geral";"pautas-mestre.csv + demanda-validada.json";"fila de espera: depois dos 12 meses"

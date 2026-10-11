@@ -4,9 +4,9 @@ Fonte dos textos: `data/articles.json`. Atualizado por `node scripts/banco-conte
 
 | O que | Quantidade | Dias |
 |---|---|---|
-| **Pronto para usar** (a fila do robô; saem 2 por dia) | **161** | 80 |
+| **Pronto para usar** (a fila do robô; saem 2 por dia) | **160** | 80 |
 | Precisa de revisão (o robô não publica) | 53 | |
-| Publicado (no ar) | 30 | |
+| Publicado (no ar) | 31 | |
 | Pauta validada, falta escrever | 17 | 5 |
 | Planejado, falta validar no Google | 886 | 295 |
 | Vagas (sem tema levantado) | 146 | |
@@ -17,7 +17,6 @@ Dias de conteúdo já escrito + pauta validada: **85** (estoque a 2 por dia; pau
 
 | Artigo | Palavras | Auditoria | Previsto para |
 |---|---|---|---|
-| Vitamina D Baixa Sintomas: Reconheça os Sinais | 1948 | 92 | 2026-10-15 |
 | Lanche Saudável: 12 Ideias Fáceis para Sua Tarde | 1511 | 91 | 2026-10-17 |
 | Cabelos Brancos: Causas, Cuidados e Tudo que Você Precisa Saber | 1820 | 87 | 2026-10-17 |
 | Câimbras nas pernas: causas e alívio rápido | 1372 | 100 | 2026-10-18 |
@@ -211,6 +210,7 @@ Dias de conteúdo já escrito + pauta validada: **85** (estoque a 2 por dia; pau
 | Queda de Cabelo: Saiba Quando é Normal Tratar | 1544 | 96 | 2026-10-10 |
 | Presbiopia: Como Corrigir Sua Visão de Perto | 1777 | 90 | 2026-10-10 |
 | Manchas na Pele: Guia Completo para Identificar o Risco | 1205 | 95 | 2026-10-11 |
+| Vitamina D Baixa Sintomas: Reconheça os Sinais | 1948 | 92 | 2026-10-11 |
 | Como Controlar a Ansiedade: Estratégias Práticas 40+ | 1471 | 95 | 2026-10-10 |
 | Hemograma Completo: Resultados Claros para Sua Saúde | 1691 | 89 | 2026-10-11 |
 
