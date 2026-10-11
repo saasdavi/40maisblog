@@ -165,6 +165,7 @@ class ArticleRobot {
 
   // Já saiu hoje (dia de Brasília) o artigo novo escrito por IA? Então as outras execuções só publicam do estoque.
   novoHoje() {
+    if (process.env.FORCAR_NOVO === '1') return false; // teste manual: ignora o artigo novo que já saiu hoje
     const inicio = new Date(new Date(Date.now() - 3 * 3600 * 1000).toISOString().slice(0, 10) + 'T03:00:00Z').getTime();
     return this.db.articles.some(a => a.status === 'published' && a.escritoPor && Date.parse(a.publishedAt) >= inicio);
   }

@@ -17,6 +17,10 @@ on:
         description: 'novo = tenta o artigo novo por IA se ainda não saiu um hoje, senão publica do estoque; estoque = só publica do estoque'
         required: false
         default: 'novo'
+      forcar:
+        description: 'sim = escreve o artigo novo por IA mesmo que já tenha saído um hoje (só para teste; respeita o teto de 3 por dia)'
+        required: false
+        default: ''
 
 concurrency:
   group: produce-articles
@@ -27,6 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # '1' (tenta o artigo novo) em qualquer disparo que não peça explicitamente "estoque"
+      FORCAR_NOVO: ${{ github.event.inputs.forcar == 'sim' && '1' || '' }}
       NOVO: ${{ github.event.inputs.modo != 'estoque' && '1' || '' }}
     # Daily production schedule: 9h UTC (6h AM BRT)
     # Generates 3 articles per day (bilingual pairs + singles)
