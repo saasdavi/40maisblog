@@ -58,7 +58,7 @@ jobs:
         continue-on-error: true
         env:
           SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
-        run: node scripts/serp-api.js ${{ env.NOVO == '1' && '' || '--so-se-sem-estoque' }}
+        run: node scripts/serp-api.js ${{ env.NOVO == '1' && '--novo' || '--so-se-sem-estoque' }}
 
       - name: 🤖 ARTICLE ROBOT 3/DIA - Fluxo Completo
         continue-on-error: true   # se o artigo novo falhar, o estoque completa os 3 do dia
