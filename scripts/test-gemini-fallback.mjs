@@ -112,3 +112,23 @@ console.log('ok: pauta que falha é pulada');
   assert.strictEqual(pularBusca(vazio, true), false, 'sem estoque: pesquisa sempre (a execução vai escrever)');
 }
 console.log('ok: serp-api pula a busca quando só publica');
+
+// Nota mínima 9: o auditor em código exige 90/100 e o validador devolve o artigo com nota abaixo de 9
+{
+  const montar = (nota, notaV) => {
+    const rb = robo();
+    const art = { wordCount: 1500, sources: [], primaryKeyword: 'x', title: 'x', content: '<p>x</p>', bodyOriginal: '<p>x</p>' };
+    rb.buscarFontes = async () => [{ nome: 'a' }, { nome: 'b' }];
+    rb.promptRedator = () => 'p'; rb.escrever = async () => 'raw'; rb.parse = () => ({}); rb.montar = () => ({ ...art });
+    rb.auditar = () => ({ nota, bloqueios: [], alertas: [] });
+    rb.validar = async () => (notaV === undefined ? { decisao: 'APROVADO' } : { decisao: 'APROVADO', nota: notaV, motivos: [] });
+    return rb;
+  };
+  const p = { keyword: 'x' };
+  assert.strictEqual(await montar(89, 9.5).produzir(p), null, 'auditoria 89 < 90 reprova (hemograma do teste #57)');
+  assert.strictEqual(await montar(92, 8.6).produzir(p), null, 'validador com nota 8,6 < 9 devolve');
+  const ok = await montar(92, 9.2).produzir(p);
+  assert.ok(ok && ok.validador === 'APROVADO' && ok.scores.validador === 9.2, 'auditoria 92 e validador 9,2 aprovam');
+  assert.ok(await montar(92).produzir(p), 'validador sem nota (formato antigo) continua valendo pela decisão');
+}
+console.log('ok: nota mínima 9 (auditor 90 + validador 9,0)');

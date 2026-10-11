@@ -90,7 +90,7 @@ Dê uma nota de 0 a 10 somando estes critérios:
 Apresente a avaliação seguindo este formato padrão:
 1. Tabela de Avaliação: Critério | Nota | Máximo | Motivo em 1 frase.
 2. NOTA FINAL: X,X / 10 (Aplique os tetos de segurança abaixo se houver infrações).
-3. VEREDITO: APROVADO (Nota 8,5 ou mais) ou REPROVADO (Nota abaixo de 8,5).
+3. VEREDITO: APROVADO (Nota 9,0 ou mais) ou REPROVADO (Nota abaixo de 9,0).
 4. Tabela de Fontes Utilizadas: URL | Assunto real da página | Frase exata do artigo que ela sustenta | Verificada de verdade? (sim / não verificado).
 5. Lista Numerada de Problemas Encontrados: Indique o trecho exato e a correção sugerida na ordem de gravidade.
 6. NÃO VERIFIQUEI: Lista de links ou afirmações que não puderam ser confirmados de forma direta.
