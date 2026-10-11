@@ -15,7 +15,7 @@ Regras de segurança (obrigatórias):
 - Mínimo de 1.200 palavras. Não use H1 (o título eu coloco).
 - Só use número, valor ou porcentagem que esteja numa fonte oficial. Para cada número, cole o trecho exato da fonte. Sem fonte, não escreva o número.
 - Fontes: no mínimo 3 oficiais e brasileiras (Ministério da Saúde, sociedade médica, diretriz, SciELO), com link que abre. Não invente link.
-- Nunca use as palavras "cura", "garantido", "milagre". Use "tratamento" e "controle".
+- Nunca prometa cura, resultado garantido ou "milagre". As palavras podem aparecer quando negam ou explicam ("não tem cura", "tem cura?"); para o que se faz, prefira "tratamento" e "controle".
 - Sem remédio, dose, suplemento ou marca. Sem diagnóstico ("você tem...").
 - Não explique tratamento. Diga que o médico decide.
 - Sem fotos no texto: eu escolho no Pexels.

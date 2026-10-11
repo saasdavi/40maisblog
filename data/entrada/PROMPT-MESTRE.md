@@ -102,7 +102,7 @@ CORPO (HTML simples: p, h2, h3, ul, li, strong, a; sem h1, sem hr, sem component
 REGRAS DE SEGURANÇA
 - Número, porcentagem, valor ou dose só se estiver nas FONTES. Sem fonte, não escreva o número.
 - Tema de fitoterapia, suplementos, hormônios, exames ou remédios: inclua contraindicações por grupo (gestantes, lactantes, crianças, hipertensos, problemas renais e hepáticos, quem usa remédio contínuo, diabetes), interação com medicamentos e aviso para procurar médico. Sem nome de remédio, marca, dose, link de compra ou preço.
-- Proibido: cura, garantido, milagre/milagroso/milagres (mesmo em aviso), imbatível, mágico/mágica, "sem efeitos colaterais", "queima gordura", "elimina barriga"; diagnóstico ("você tem").
+- Proibido PROMETER: cura garantida/definitiva, resultado garantido, produto "milagroso", "sem efeitos colaterais", perda de peso com prazo, "queima gordura", "elimina barriga", imbatível, mágico/mágica; diagnóstico ("você tem"). As palavras cura, garantido e milagre podem aparecer quando negam ou explicam ("não tem cura", "tem cura?", "não existe milagre").
 - Proibido: "neste artigo", "vamos explorar", "mergulhar", "jornada", "vale ressaltar", "é importante destacar", "em suma", "concluindo", "no cenário atual".
 - Sem "forte", "intensa", "altíssimo poder", "potente" para efeito de erva ou alimento; use "pode auxiliar" ou "suporte moderado".
 - Sem linguagem opinativa ou ofensiva ("pífios", "fantasiosos", "irrelevante", "irrefreável").

@@ -63,7 +63,35 @@ const PROIBIDAS = [
   'em suma', 'concluindo', 'fascinante mundo', 'desvendar os mistérios', 'no cenário atual'
 ];
 const RESTOS_IA = [/como uma ia/i, /\[inserir/i, /lorem ipsum/i, /como modelo de linguagem/i];
-const CLAIMS = [/\bcura\b/i, /garantid[oa]/i, /milagr/i, /sem efeitos? colaterais?/i, /perca?\s+\d+\s*kg\s+em/i, /100%\s*(seguro|natural|eficaz)/i];
+// Promessas proibidas (cura/resultado garantido, "milagre", "sem efeitos colaterais", perda de peso com prazo). A trava é pela PROMESSA, não pela palavra:
+// "não tem cura", "tem cura?" e "não existe milagre" passam (negação ou pergunta perto do trecho); "cura garantida" e "fórmula milagrosa" bloqueiam.
+const CLAIMS = [
+  /\bcura\s+(garantida|definitiva|total|r[aá]pida|imediata|certa|milagrosa|em\s+\d+)/i,
+  /\bgarant(imos|e|ido|ida|idos|idas)\s+(a\s+cura|resultados?|o\s+emagrecimento)/i,
+  /\bgarantimos\b/i,
+  /\bgarant(e|ido)\s+que\s+voc[eê]\s+(vai|ir[aá])\s+(emagrec|cur|perd)/i,
+  /\b(resultados?|efeitos?|emagrecimento|perda\s+de\s+peso|sucesso)\s+garantid[oa]s?\b/i,
+  /\b(com|oferece|tem)\s+garantia\s+de\s+(resultado|cura|sucesso)/i,
+  /\bmilagr(e|es|oso|osa|osos|osas)\b/i,
+  /\bsem\s+(nenhum\s+)?efeitos?\s+colaterais?\b/i,
+  /\bperca?\s+\d+\s*kg\s+em\b/i,
+  /\b100\s*%\s*(seguro|natural|eficaz)/i,
+];
+const NEGA = /\b(n[aã]o|nem|nunca|jamais|sem\s+garantia|nenhum\w*|mito|promessas?\s+de|falsas?)\b/i;
+// Devolve os trechos que prometem; ignora o que vem negado logo antes ou em forma de pergunta logo depois.
+export function achaPromessas(texto) {
+  const achados = [];
+  for (const re of CLAIMS) {
+    const g = new RegExp(re.source, 'gi');
+    for (const m of texto.matchAll(g)) {
+      const antes = texto.slice(Math.max(0, m.index - 40), m.index);
+      const depois = texto.slice(m.index + m[0].length, m.index + m[0].length + 3);
+      if (NEGA.test(antes) || /^\s*\?/.test(depois)) continue;
+      achados.push(texto.slice(Math.max(0, m.index - 25), m.index + m[0].length + 25).replace(/\s+/g, ' ').trim());
+    }
+  }
+  return achados;
+}
 
 const NOMES_FONTE = {
   'tuasaude.com': 'Tua Saúde', 'rededorsaoluiz.com.br': "Rede D'Or", 'altadiagnosticos.com.br': 'Alta Diagnósticos',
@@ -314,7 +342,7 @@ REGRAS (padrão Mente Curiosa):
 6. NÃO escreva a seção de Fontes (o sistema anexa). Use SOMENTE fatos presentes nos TRECHOS DAS FONTES abaixo; reescreva com suas palavras (não copie frases). Se um fato não está nos trechos, não escreva. Se as fontes divergirem num número, omita o número. Ao citar uma fonte no texto, use EXATAMENTE o "NOME PARA CITAR" dela e só atribua o que o trecho dessa fonte realmente diz. Não escreva comparações, imagens ou exemplos de cotidiano que não estejam nos trechos.
 7. Pelo menos 2 links internos no corpo no formato <a href="/slug/">texto natural</a>, escolhendo SÓ desta lista (se a lista tiver menos de 2, use o que houver):
 ${lista}
-8. NUNCA invente números, estudos, nomes, depoimentos, antes/depois ou resultados. Na dúvida, corte. Sem promessa de cura, emagrecimento garantido ou "sem efeitos colaterais". Sem diagnóstico, sem dose de medicamento ou suplemento.
+8. NUNCA invente números, estudos, nomes, depoimentos, antes/depois ou resultados. Na dúvida, corte. Sem PROMESSA de cura, de emagrecimento garantido ou de "sem efeitos colaterais" (as palavras podem aparecer quando negam ou explicam, ex.: "não tem cura"). Sem diagnóstico, sem dose de medicamento ou suplemento.
 9. "Depois dos 40" é só o público do blog: NÃO afirme nada específico de idade, menopausa, hormônios ou "após os 40" que não esteja escrito nos trechos das fontes. Se as fontes não falam de 40+, escreva de forma geral e use "você".
 9b. Tom humano: "você", exemplos do dia a dia. PROIBIDO: ${PROIBIDAS.map(x => `"${x}"`).join(', ')}.
 10. Não mencione marcas de suplemento nem venda produtos.
@@ -404,7 +432,8 @@ FOTO2_SECAO: <número do <h2>, diferente do da foto 1>
     if (this.db.articles.some(x => x.status !== 'draft' && x.slug === a.slug && x.slug !== a._substitui)) bloqueios.push('B04: keyword/slug já existe (canibalização)');
     if (!texto.includes('não substitui a orientação de um profissional de saúde')) bloqueios.push('B05: sem aviso de saúde');
     if (RESTOS_IA.some(r => r.test(texto))) bloqueios.push('B06: resto de rascunho/IA');
-    if (CLAIMS.some(r => r.test(texto))) bloqueios.push('SEG: claim proibido (cura/garantido/milagre/sem efeitos colaterais)');
+    const promessas = achaPromessas(texto);
+    if (promessas.length) bloqueios.push(`SEG: promessa proibida (cura/resultado garantido, milagre, sem efeitos colaterais): "${promessas[0]}"`);
     if (fontesLidas?.length) {
       const sim = this.semelhanca(html, fontesLidas);
       if (sim.pct > MAX_SEMELHANCA) bloqueios.push(`B07: ${sim.pct}% do texto tem sequências de 7 palavras iguais às fontes/concorrentes (máx ${MAX_SEMELHANCA}%); reescreva com SUAS palavras e estrutura própria. Exemplos copiados: "${sim.exemplos.join('" | "')}"`);
