@@ -337,6 +337,17 @@
     </image:image>
   </url>
   <url>
+    <loc>https://health-40-blog.vercel.app/manchas-na-pele</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>/images/manchas-na-pele/manchas-na-pele-capa.jpg</image:loc>
+      <image:title>Manchas na Pele: Guia Completo para Identificar o Risco</image:title>
+      <image:caption>Manchas na pele podem ser inofensivas ou sinais de alerta. Saiba quais tipos merecem atenção médica urgente e como agir.</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://health-40-blog.vercel.app/como-controlar-a-ansiedade</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>

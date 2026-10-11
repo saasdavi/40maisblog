@@ -1,7 +1,7 @@
 {
  "resumo": {
-  "publicados": 29,
-  "prontosParaUsar": 162,
+  "publicados": 30,
+  "prontosParaUsar": 161,
   "pautasValidadasSemTexto": 17,
   "planejadasAValidar": 886,
   "vagas": 146,
@@ -552,15 +552,15 @@
    "palavraChave": "manchas na pele",
    "cluster": "pele-cabelo",
    "volume": 18100,
-   "status": "pronto",
+   "status": "publicado",
    "palavras": 1205,
    "h2": 11,
    "imagens": 3,
    "fontes": 6,
    "auditoria": 95,
-   "publicadoEm": null,
+   "publicadoEm": "2026-10-11T03:30:31.860Z",
    "escritoEm": "2026-10-04T17:51:45.718Z",
-   "previstoPara": "2026-10-14",
+   "previstoPara": null,
    "pontesSugeridas": [
     "ressecamento da pele"
    ]

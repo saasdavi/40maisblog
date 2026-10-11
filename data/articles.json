@@ -5112,7 +5112,7 @@
         ]
       },
       "volume": 18100,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T17:51:43.654Z",
       "scores": {
         "auditoria": 95,
@@ -5178,7 +5178,7 @@
         "pexels:14387797"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-04T17:51:45.718Z",
       "validacao": {
         "palavraChave": "manchas na pele",
@@ -5268,7 +5268,9 @@
           ]
         },
         "validadoEm": "2026-10-04T17:51:45.718Z"
-      }
+      },
+      "publishedAt": "2026-10-11T03:30:31.860Z",
+      "publicadoDoEstoqueEm": "2026-10-11T03:30:31.860Z"
     },
     {
       "id": "art_1791136522223_x1mj",
@@ -37245,6 +37247,6 @@
   ],
   "stats": {
     "total": 244,
-    "published": 29
+    "published": 30
   }
 }
