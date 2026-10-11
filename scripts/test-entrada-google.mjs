@@ -47,16 +47,19 @@ console.log('ok: entrada-google');
   const n = normalizarEntradaGoogle(comNota, opts);
   assert.match(n.texto.split('\n---\n')[0], /^NOTA_CHAT: 9,2$/m, 'NOTA_CHAT preservada');
 }
-// Nenhuma regra automática segura artigo: só `segurar: true` (decisão do dono)
+// Regra do dono: a única trava é nota baixa; tema sensível e promessa não seguram
 {
-  const base = { status: 'draft', estoque: true, origem: 'importado', scores: { auditoria: 80, total: 78, atencao: ['tema sensível sem REVISADO: sim'] } };
-  assert.strictEqual(r.precisaRevisao(base), false, 'nota baixa ou tema sensível não seguram mais');
-  assert.strictEqual(r.precisaRevisao({ ...base, segurar: true }), true, 'segurar: true segura');
-  const guardado = r.db.articles; r.db.articles = [base, { ...base, scores: { ...base.scores, notaChat: 9.2 } }, { ...base, segurar: true }];
-  assert.strictEqual(r.prontosNoEstoque().length, 1, 'o artigo com nota do chat entra; o de auditoria 80 não; o segurado não');
+  const base = { status: 'draft', estoque: true, origem: 'importado', scores: { auditoria: 90, total: 95, atencao: ['tema sensível sem REVISADO: sim', 'aviso: cura garantida'] } };
+  assert.strictEqual(r.precisaRevisao(base), false, 'tema sensível e promessa não seguram');
+  const baixa = { ...base, scores: { ...base.scores, total: 78 } };
+  assert.strictEqual(r.precisaRevisao(baixa), true, 'nota baixa segura');
+  assert.strictEqual(r.precisaRevisao({ ...baixa, scores: { ...baixa.scores, notaChat: 9.2 } }), false, 'nota do chat ≥ 9 não segura');
+  assert.strictEqual(r.precisaRevisao({ ...base, segurar: true }), true, 'segurar: true (decisão manual do dono) segura');
+  const guardado = r.db.articles; r.db.articles = [base, baixa];
+  assert.strictEqual(r.prontosNoEstoque().length, 1, 'só o de nota alta entra nos prontos');
   r.db.articles = guardado;
 }
-console.log('ok: nota do chat (NOTA_CHAT) e sem trava de revisão');
+console.log('ok: única trava é nota baixa');
 
 // Promessa: quem ALERTA contra o "milagroso" não é bloqueado; quem promete é achado
 {
@@ -64,6 +67,7 @@ console.log('ok: nota do chat (NOTA_CHAT) e sem trava de revisão');
   assert.deepStrictEqual(achaPromessas('Suplementos "milagrosos" Produtos vendidos como "colesterol bom em cápsula" não têm eficácia comprovada.'), []);
   assert.deepStrictEqual(achaPromessas('Não consuma fórmulas fitoterápicas comerciais milagrosas que prometem a limpeza de metais.'), []);
   assert.deepStrictEqual(achaPromessas('Evite fórmulas milagrosas vendidas na internet.'), []);
+  assert.deepStrictEqual(achaPromessas('Ajustes nutricionais devem priorizar uma alimentação balanceada, evitando fórmulas comerciais milagrosas.'), []);
   assert.ok(achaPromessas('Nossa fórmula milagrosa trata o problema em uma semana.').length >= 1, 'promessa de verdade é achada');
   assert.ok(achaPromessas('Resultado garantido em 30 dias, cura definitiva.').length >= 1);
 }

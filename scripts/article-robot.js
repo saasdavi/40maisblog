@@ -88,7 +88,7 @@ const CLAIMS = [
   /\b100\s*%\s*(seguro|natural|eficaz)/i,
 ];
 const NEGA = /\b(n[aã]o|nem|nunca|jamais|sem\s+garantia|nenhum\w*|mito|promessas?\s+de|falsas?)\b/i;
-const AVISA_ANTES = /\b(evite|evitar|cuidado|desconfie|prometem|prometer|prometendo|alegam|anunciad\w+|vendid\w+|n[aã]o\s+(use|usar|consuma|compre|inicie)|sem\s+(comprova\w+|respaldo|suporte|evid[eê]ncia\w*))\b/i;
+const AVISA_ANTES = /\b(evit(e|ar|ando|em)|cuidado|desconfie|prometem|prometer|prometendo|alegam|anunciad\w+|vendid\w+|n[aã]o\s+(use|usar|consuma|compre|inicie)|sem\s+(comprova\w+|respaldo|suporte|evid[eê]ncia\w*))\b/i;
 const AVISA_DEPOIS = /^[^.!?]{0,70}\b(n[aã]o\s+(t[eê]m|tem|funciona\w*|existe\w*|h[aá]|possu\w+)|sem\s+(efic[aá]cia|comprova\w+|respaldo|evid[eê]ncia\w*)|n[aã]o\s+s[aã]o\s+(seguros|eficazes))/i;
 // Devolve os trechos que prometem; ignora o que vem negado logo antes ou em forma de pergunta logo depois.
 export function achaPromessas(texto) {
@@ -182,8 +182,9 @@ class ArticleRobot {
 
   // ---------- estoque de artigos prontos ----------
   // Só publica do estoque o que foi aprovado pelo robô ou importado (ChatGPT etc.) E tem auditoria acima de 85; abaixo disso fica retido para correção.
-  // Nenhuma regra automática segura artigo no estoque: quem decide o que bloquear no blog é o dono. Para segurar um artigo, ponha `segurar: true` nele em data/articles.json.
-  precisaRevisao(a) { return a.segurar === true; }
+  // Regra do dono (DECISOES-DO-DONO.md): a ÚNICA trava é nota baixa (pontuação final < 90, salvo artigo do chat com NOTA_CHAT ≥ 9).
+  // Tema sensível e promessa não seguram artigo. `segurar: true`, posto à mão pelo dono, também segura.
+  precisaRevisao(a) { return ((a.scores?.total ?? 100) < 90 && !((a.scores?.notaChat ?? 0) >= 9)) || a.segurar === true; }
   prontosNoEstoque() { return this.db.articles.filter(a => a.status === 'draft' && a.estoque === true && (a.validador === 'APROVADO' || a.origem === 'importado') && ((a.scores?.auditoria ?? 100) > 85 || (a.scores?.notaChat ?? 0) >= 9) && !this.precisaRevisao(a)); }
 
   // Publica do estoque (no máximo `quantos`, respeitando o teto do dia). Devolve quantos publicou.

@@ -1,6 +1,6 @@
 # CLAUDE.md - Project Intelligence Guide
 
-> **DECISÕES DO DONO (prevalecem):** `DECISOES-DO-DONO.md` — sem trava automática de revisão; promessa vira `segurar: true` para o dono ler.
+> **DECISÕES DO DONO (prevalecem):** `DECISOES-DO-DONO.md` — a única trava é nota baixa; tema sensível e promessa não travam.
 >
 > **ESTADO ATUAL E PRÓXIMOS PASSOS:** `PROXIMOS-PASSOS.md` (1 página; leia antes de tudo e atualize ao terminar).
 >

@@ -60,7 +60,7 @@ for (const nome of arquivos) {
     const art = robot.montar(pauta, d, fontes);
     const aud = robot.auditar(art, null);
     console.log(`  ${art.wordCount} palavras | auditoria ${aud.nota}/100 (nota ${de10(aud.nota)}/10)${aud.bloqueios.length ? ' | BLOQUEIOS: ' + aud.bloqueios.join('; ') : ''}`);
-    // Promessa de cura/resultado garantido NÃO recusa o artigo: ele entra no estoque marcado `segurar: true` com o trecho, para o dono ler e decidir.
+    // Regra do dono: promessa de cura/resultado garantido não trava o artigo; vira só aviso no log e em scores.atencao.
     const promessas = aud.bloqueios.filter((b) => /^SEG: promessa/.test(b));
     const duros = aud.bloqueios.filter((b) => !/^SEG: promessa/.test(b));
     if (duros.length || (!confiavel && aud.nota < MIN_SCORE)) { relatorio([`Nota ${de10(aud.nota)}/10 (mínimo 8,5)`, ...aud.bloqueios.map((b) => `BLOQUEIO: ${b}`), ...aud.alertas]); console.log('  ⛔ reprovado; veja o .relatorio.md'); continue; }
@@ -79,7 +79,7 @@ for (const nome of arquivos) {
     if (duros.length || duplicado || (!confiavel && pont.total < 70)) { relatorio([`Pontuação ${pont.total}/100: DEVOLVER`, ...pont.motivos]); console.log('  ⛔ devolvido pela pontuação; veja o .relatorio.md'); continue; }
     const agora = new Date().toISOString();
     delete art.bodyOriginal; delete art._substitui;
-    Object.assign(art, fotoPendente ? { fotoPendente: true } : {}, { status: 'draft', estoque: true, estocadoEm: agora, scores: { auditoria: aud.nota, ...(confiavel ? { notaChat } : {}), demanda: dem ? dem.classe : 'não medida', total: pont.total, decisao: pont.decisao, partes: pont.partes, atencao: pont.motivos.slice(0, 8) }, validador: 'Auditoria automática (sem API); texto escrito fora do robô', origem: 'importado', ...(confiavel ? { redator: 'chat' } : {}), ...(promessas.length ? { segurar: true, segurarMotivo: promessas } : {}),
+    Object.assign(art, fotoPendente ? { fotoPendente: true } : {}, { status: 'draft', estoque: true, estocadoEm: agora, scores: { auditoria: aud.nota, ...(confiavel ? { notaChat } : {}), demanda: dem ? dem.classe : 'não medida', total: pont.total, decisao: pont.decisao, partes: pont.partes, atencao: [...pont.motivos.filter((m) => !/^BLOQUEIO: SEG: promessa/.test(m)), ...promessas.map((x) => `aviso: ${x}`)].slice(0, 8) }, validador: 'Auditoria automática (sem API); texto escrito fora do robô', origem: 'importado', ...(confiavel ? { redator: 'chat' } : {}),
       validacao: { palavraChave: keyword, demanda: dem ? { volume: dem.volume, classe: dem.classe, tendencia: dem.tendencia, concorrencia: dem.concorrencia, fonte: dem.fonte, fraseMedida: dem.frase, porSimilar: dem.porSimilar } : { classe: 'não medida' }, volume: pauta.volume, cluster: pauta.cluster, apoio: (pauta.secundarias || []).map((x) => x.palavra), perguntasDoGoogle: pauta.absorve || [], concorrentes: concorrentes.length ? concorrentes : 'não informado (concorrente não conferido)', lacunasCobertas: lacunas, serp: pauta.serp || null, fontesDaPauta: fontes.map((f) => f.url), notas: pauta.notas || '', briefing: robot.readJson(`data/briefings/${slugify(keyword)}.json`, null), validadoEm: agora, observacao: 'originalidade contra o concorrente não conferida automaticamente' } });
     const i = robot.db.articles.findIndex((x) => x.slug === art.slug);
     if (i >= 0) { art.createdAt = robot.db.articles[i].createdAt || art.createdAt; robot.db.articles[i] = art; } else robot.db.articles.push(art);
@@ -87,7 +87,7 @@ for (const nome of arquivos) {
     fs.mkdirSync(path.join(DIR, 'processados'), { recursive: true });
     fs.renameSync(caminho, path.join(DIR, 'processados', path.basename(nome)));
     fs.rmSync(caminho.replace(/\.txt$/, '.relatorio.md'), { force: true });
-    if (promessas.length) console.log(`  ✋ SEGURADO para você ler (segurar: true): ${promessas.join(' | ')}`);
+    if (promessas.length) console.log(`  ⚠️  aviso (não trava): ${promessas.join(' | ')}`);
     guardados++;
     console.log(`  📦 guardado no estoque: /${art.slug}/ (nota ${de10(aud.nota)}/10)`);
   } catch (e) { relatorio([e.message]); console.error(`  ❌ ${e.message}`); }

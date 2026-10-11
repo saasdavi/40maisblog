@@ -2,9 +2,11 @@
 
 O dono do blog, do domínio e responsável pelo conteúdo decide o que bloquear. Registrado em 2026-10-11.
 
-1. **Sem trava automática de revisão.** Nota baixa, tema sensível e falta de `REVISADO: sim` não seguram artigo. Só `segurar: true` (posto pelo dono ou pela regra 2) segura.
-2. **Promessa de cura ou resultado garantido** não recusa o artigo: ele entra no estoque com `segurar: true` e o trecho em `segurarMotivo`, e o dono lê e decide (troca `segurar` para `false` para liberar). Quem alerta contra o "milagroso" não é promessa.
-3. **Artigo escrito e avaliado no chat** (`NOTA_CHAT` ≥ 9) entra direto no estoque e no calendário, sem ser reprovado de novo por nota.
-4. Tema duplicado (≥ 80%) e fonte sem link direto continuam como checagem do importador; formato que derruba o site (`<h1>`, componentes) é recusado porque quebra a página.
+1. **A única trava é nota baixa**: pontuação final abaixo de 90 (artigo do chat com `NOTA_CHAT` ≥ 9 conta como aprovado). Auditoria de 85 ou menos também é nota baixa.
+2. **Tema sensível não trava.** Não precisa de `REVISADO: sim`.
+3. **Promessa (cura, resultado garantido, "milagre") não trava.** O importador só registra um aviso no log e em `scores.atencao`.
+4. **Artigo escrito e avaliado no chat** (`NOTA_CHAT` ≥ 9) entra direto no estoque e no calendário.
+5. `segurar: true`, posto à mão pelo dono num artigo, segura esse artigo.
+6. Recusas técnicas do importador continuam (não são decisão editorial): formato que quebra a página (`<h1>`, componentes), fonte sem link completo, cabeçalho incompleto e tema duplicado (≥ 80%).
 
-Guarda: `node scripts/test-entrada-google.mjs` falha se alguém reintroduzir trava automática de revisão.
+Guarda: `node scripts/test-entrada-google.mjs` falha se alguém mudar essas regras sem mudar este arquivo.
