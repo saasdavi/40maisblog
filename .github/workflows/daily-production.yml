@@ -1,20 +1,12 @@
 name: 📝 Daily Article Production
 
 on:
-  schedule:
-    # Meta: 3 artigos por dia (1 por execução; o teto DAILY_LIMIT=3 por dia de Brasília faz as sobras não publicarem nada).
-    # O GitHub atrasa ou descarta agendamentos, então há 6 horários por dia: se alguns falharem, os outros completam os 3.
-    # UTC: 06:17, 09:43, 13:43, 17:23, 20:47 e 23:27 (03:17, 06:43, 10:43, 14:23, 17:47 e 20:27 em Brasília).
-    # Programação do dia: 1 artigo NOVO escrito por IA (Gemini, reserva Claude, com pesquisa da SerpAPI antes) + 2 do estoque pronto.
-    # As execuções das 06:17 e 09:43 UTC tentam o artigo novo (a das 09:43 só tenta se a das 06:17 não publicou um); as demais publicam do estoque
-    # sem chamar IA nenhuma. Se o novo falhar, o estoque completa os 3 do dia.
-    # Quando o estoque pronto acaba, TODAS as execuções escrevem artigo novo pela API (Gemini, reserva Claude, SerpAPI antes): 3 por dia.
-    - cron: '17 6 * * *'
-    - cron: '43 9 * * *'
-    - cron: '43 13 * * *'
-    - cron: '23 17 * * *'
-    - cron: '47 20 * * *'
-    - cron: '27 23 * * *'
+  # Sem `schedule`: o GitHub atrasa ou descarta agendamentos. Os 3 horários do dia vêm de um cron externo (cron-job.org) que chama
+  # a API do GitHub (workflow_dispatch). Passo a passo em CRON-EXTERNO.md.
+  # Programação do dia: 1 artigo NOVO escrito por IA (Gemini, reserva Claude, pesquisa da SerpAPI antes) + 2 do estoque pronto, sem IA.
+  # Os 3 disparos são iguais (modo = novo): cada um tenta o artigo novo se ainda não saiu um hoje (novoHoje); se já saiu, publica 1 do estoque.
+  # Se o novo falhar, a execução seguinte tenta de novo, e o estoque completa os 3 do dia (teto DAILY_LIMIT=3, dia de Brasília).
+  # Quando o estoque pronto acaba, todas as execuções escrevem artigo novo pela API (Gemini, reserva Claude, SerpAPI antes): 3 por dia.
   workflow_dispatch:
     inputs:
       batch:
@@ -22,9 +14,9 @@ on:
         required: false
         default: '1'
       modo:
-        description: 'novo = 1 artigo novo escrito por IA (Gemini, reserva Claude); estoque = só publica do estoque'
+        description: 'novo = tenta o artigo novo por IA se ainda não saiu um hoje, senão publica do estoque; estoque = só publica do estoque'
         required: false
-        default: 'estoque'
+        default: 'novo'
 
 concurrency:
   group: produce-articles
@@ -34,8 +26,8 @@ jobs:
   produce-articles:
     runs-on: ubuntu-latest
     env:
-      # '1' nas duas primeiras execuções do dia e quando o modo manual é "novo"
-      NOVO: ${{ (github.event.schedule == '17 6 * * *' || github.event.schedule == '43 9 * * *' || github.event.inputs.modo == 'novo') && '1' || '' }}
+      # '1' (tenta o artigo novo) em qualquer disparo que não peça explicitamente "estoque"
+      NOVO: ${{ github.event.inputs.modo != 'estoque' && '1' || '' }}
     # Daily production schedule: 9h UTC (6h AM BRT)
     # Generates 3 articles per day (bilingual pairs + singles)
 

@@ -121,3 +121,5 @@ O robô publica sozinho qualquer pauta com SERP fácil e fontes; **`revisar: tru
 
 ## Programação diária (2026-10-11)
 1 artigo novo com Gemini (reserva Claude, pesquisa SerpAPI antes) + 2 do estoque pronto, sem IA; quando o estoque acaba, 3 por dia pela API. Plano de 12 meses em `data/conteudo/calendario-12-meses.md` (gerado). Detalhes e secrets na seção 18 de `ESTRATEGIA-E-FLUXO-AUTOMATICO.md`. Falta o usuário criar `GEMINI_API_KEY` e `SERP_API_KEY` em Settings > Secrets > Actions. **Gargalo:** só 17 pautas validadas livres na fila; o resto dos 933 temas novos do ano precisa ser validado no Google (promoção automática de candidato para a fila ainda não existe).
+
+**Horários (2026-10-11):** 3 disparos por dia pelo cron externo (cron-job.org → `workflow_dispatch`), sem `schedule` no GitHub. Passo a passo e token em `CRON-EXTERNO.md`. Pendente do usuário: criar o token (Actions: Read and write) e os 3 jobs.

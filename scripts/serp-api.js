@@ -31,6 +31,13 @@ export function resumirSerp(j) {
   };
 }
 
+// Execução que só vai publicar do estoque não escreve nada e não gasta busca: o artigo novo de hoje já saiu, ou a opção
+// --so-se-sem-estoque foi pedida; em ambos os casos só vale se ainda há estoque pronto.
+export function pularBusca(robo, soSeSemEstoque) {
+  if (robo.prontosNoEstoque().length === 0) return false;
+  return soSeSemEstoque || robo.novoHoje();
+}
+
 async function main() {
   const chave = (process.env.SERP_API_KEY || process.env.SERPAPI_API_KEY || '').trim();
   const mock = arg('--mock');
@@ -38,7 +45,7 @@ async function main() {
 
   const robo = new ArticleRobot();
   // execuções que só publicam do estoque não escrevem nada: não gastam busca (--so-se-sem-estoque)
-  if (process.argv.includes('--so-se-sem-estoque') && robo.prontosNoEstoque().length > 0) { console.log(`Estoque pronto (${robo.prontosNoEstoque().length}): esta execução só publica, sem pesquisa na SerpAPI.`); return; }
+  if (pularBusca(robo, process.argv.includes('--so-se-sem-estoque'))) { console.log('Esta execução só publica do estoque: sem pesquisa na SerpAPI.'); return; }
   const keyword = arg('--keyword') || robo.escolherPauta()[0]?.keyword;
   if (!keyword) { console.log('Sem pauta livre na fila: nada a pesquisar.'); return; }
 
