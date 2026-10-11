@@ -5,6 +5,9 @@ on:
     # Meta: 3 artigos por dia (1 por execução; o teto DAILY_LIMIT=3 por dia de Brasília faz as sobras não publicarem nada).
     # O GitHub atrasa ou descarta agendamentos, então há 6 horários por dia: se alguns falharem, os outros completam os 3.
     # UTC: 06:17, 09:43, 13:43, 17:23, 20:47 e 23:27 (03:17, 06:43, 10:43, 14:23, 17:47 e 20:27 em Brasília).
+    # Programação do dia: 1 artigo NOVO escrito por IA (Gemini, reserva Claude, com pesquisa da SerpAPI antes) + 2 do estoque pronto.
+    # As execuções das 06:17 e 09:43 UTC tentam o artigo novo (a das 09:43 só tenta se a das 06:17 não publicou um); as demais publicam do estoque
+    # sem chamar IA nenhuma. Se o novo falhar, o estoque completa os 3 do dia.
     - cron: '17 6 * * *'
     - cron: '43 9 * * *'
     - cron: '43 13 * * *'
@@ -17,6 +20,10 @@ on:
         description: 'Quantos artigos gerar nesta execução'
         required: false
         default: '1'
+      modo:
+        description: 'novo = 1 artigo novo escrito por IA (Gemini, reserva Claude); estoque = só publica do estoque'
+        required: false
+        default: 'estoque'
 
 concurrency:
   group: produce-articles
@@ -25,6 +32,9 @@ concurrency:
 jobs:
   produce-articles:
     runs-on: ubuntu-latest
+    env:
+      # '1' nas duas primeiras execuções do dia e quando o modo manual é "novo"
+      NOVO: ${{ (github.event.schedule == '17 6 * * *' || github.event.schedule == '43 9 * * *' || github.event.inputs.modo == 'novo') && '1' || '' }}
     # Daily production schedule: 9h UTC (6h AM BRT)
     # Generates 3 articles per day (bilingual pairs + singles)
 
@@ -51,9 +61,20 @@ jobs:
         continue-on-error: true
         run: node scripts/validar-pautas.js
 
-      - name: 🤖 ARTICLE ROBOT 3/DIA - Fluxo Completo
+      - name: 🔎 SerpAPI - pesquisa da pauta do dia (só na execução do artigo novo)
+        if: env.NOVO == '1'
+        continue-on-error: true
         env:
-          SEM_API: '1'   # só publica do estoque; nunca escreve com API (sem gasto)
+          SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
+        run: node scripts/serp-api.js
+
+      - name: 🤖 ARTICLE ROBOT 3/DIA - Fluxo Completo
+        continue-on-error: ${{ env.NOVO == '1' }}   # se o artigo novo falhar, o estoque completa os 3 do dia
+        env:
+          SEM_API: ${{ env.NOVO == '1' && '' || '1' }}   # fora do artigo novo: só publica do estoque, sem chamar IA
+          NOVO_COM_IA: ${{ env.NOVO }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GOOGLE_ADS_CLIENT_ID: ${{ secrets.GOOGLE_ADS_CLIENT_ID }}
           GOOGLE_ADS_CLIENT_SECRET: ${{ secrets.GOOGLE_ADS_CLIENT_SECRET }}
           GOOGLE_ADS_REFRESH_TOKEN: ${{ secrets.GOOGLE_ADS_REFRESH_TOKEN }}

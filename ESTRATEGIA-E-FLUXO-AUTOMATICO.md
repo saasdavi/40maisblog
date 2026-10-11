@@ -243,3 +243,12 @@ Todas as 23 frases estão no banco (`fonte: hypd-angulos-pornografia`) com a mar
 **Honestidade sobre o banco:** 'volume medido' quer dizer que o Google tem número para a frase, não que cada frase vire artigo. Faixas do banco: >= 10 mil: 188 | 1 mil a 9.999: 643 | 100 a 999: 983 | 10 a 99: 1660. Muitas frases são grafias repetidas ou ideias relacionadas fora do foco (ex.: 'meditação ... louise hay'); a demanda que conta é a do GRUPO por intenção (regra de 1.000 somadas), validada no Google.
 
 **Listas guardadas em 04/10/2026 (nada se joga fora):** `data/pesquisa/sem-dado.json` (63 frases que o HYPD devolveu sem dado; não é demanda zero), `data/pesquisa/lotes/pressao-alta-sintomas-lista-ltkwid.txt` (28 frases) e `...-gprsea.txt` (9 frases): palavras sem volume, para medir no Planejador. As páginas antigas do HYPD que não foram lidas expiram em 24 h; as palavras mais fortes já estão no banco.
+
+## 18. Programação diária: 1 artigo novo com IA + 2 do estoque (2026-10-11)
+Por dia saem 3 artigos (`DAILY_LIMIT`, dia de Brasília):
+- **1 novo**, escrito por IA, nas execuções das 06:17 e 09:43 UTC (a das 09:43 só tenta se a das 06:17 não publicou um novo; `novoHoje()`): antes de escrever, `scripts/serp-api.js` faz **1 busca na SerpAPI** (top orgânico sem vídeo/rede social, perguntas do Google, buscas relacionadas) e roda `scripts/briefing.js` para a pauta. O redator é o **Gemini** (`GEMINI_API_KEY`, modelo `GEMINI_MODEL`, teto `MAX_GEMINI_CALLS_PER_DAY`); qualquer erro da API ou artigo reprovado na auditoria/validação passa a pauta para o **Claude**, que fica com o resto do dia (`data/llm-estado.json`). O validador independente continua sendo o Claude. Sem foto na hora (limite das APIs), o artigo vai para o estoque com `fotoPendente`.
+- **2 do estoque pronto**, nas outras execuções, sem chamar IA nenhuma (`SEM_API=1`): `publicarDoEstoque` só publica e manda para o deploy. Se o novo falhar, o estoque completa os 3.
+- Cota da SerpAPI: 250 buscas/mês, 1 por artigo novo; contador em `data/pesquisa/serpapi-uso.json` (para em 240).
+- Secrets: `GEMINI_API_KEY`, `SERP_API_KEY` (novos) e `ANTHROPIC_API_KEY` (já existe). Sem `GEMINI_API_KEY` o Claude escreve sozinho; sem `SERP_API_KEY` o redator usa a pesquisa que já está em `data/pesquisa/serp-resultados.json`.
+- Disparo manual: Actions > "Daily Article Production" > Run workflow > `modo = novo`.
+- Testes: `node scripts/test-gemini-fallback.mjs`.
