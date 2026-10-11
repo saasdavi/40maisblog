@@ -1,0 +1,112 @@
+{
+ "slug": "alopecia-areata",
+ "title": "Alopecia Areata: Causas, Sintomas e Tratamentos",
+ "description": "Entenda o que é alopecia areata, quais sinais costumam aparecer, como o diagnóstico é feito e por que o dermatologista deve decidir o tratamento.",
+ "primaryKeyword": "alopecia areata",
+ "cluster": null,
+ "volume": 49500,
+ "wordCount": 1336,
+ "readingTime": 7,
+ "sources": [
+  {
+   "title": "Anais Brasileiros de Dermatologia",
+   "url": "https://anaisdedermatologia.org.br"
+  },
+  {
+   "title": "PubMed (National Library of Medicine)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov"
+  },
+  {
+   "title": "Governo Federal",
+   "url": "https://www.gov.br"
+  }
+ ],
+ "featuredImage": "/images/alopecia-areata/alopecia-areata-capa.jpg",
+ "imageAlt": "Close de couro cabeludo com pequena falha de cabelo, ilustrando alopecia areata",
+ "imageCredit": {
+  "author": "Towfiqu barbhuiya",
+  "source": "Pexels",
+  "url": "https://www.pexels.com/photo/hair-on-a-comb-14547030/",
+  "license": "Licença Pexels",
+  "licenseUrl": "https://www.pexels.com/license/"
+ },
+ "images": [
+  {
+   "src": "/images/alopecia-areata/dermatologista-examinando-o-couro-cabeludo-de-um-paciente-em.jpg",
+   "alt": "Dermatologista examinando o couro cabeludo de um paciente em consultório, tema de alopecia areata",
+   "legenda": "A avaliação clínica do couro cabeludo é o primeiro passo para entender a queda localizada.",
+   "secao": 2,
+   "width": 940,
+   "height": 587,
+   "credit": {
+    "author": "Sanket  Mishra",
+    "source": "Pexels",
+    "url": "https://www.pexels.com/photo/young-man-checking-hair-for-hair-loss-concerns-39570856/",
+    "license": "Licença Pexels",
+    "licenseUrl": "https://www.pexels.com/license/"
+   }
+  },
+  {
+   "src": "/images/alopecia-areata/mulher-penteando-os-cabelos-diante-do-espelho-cuidado-com-a-.jpg",
+   "alt": "Mulher penteando os cabelos diante do espelho, cuidado com a aparência em caso de alopecia areata",
+   "legenda": "O impacto emocional da queda de cabelo merece cuidado tanto quanto o tratamento clínico.",
+   "secao": 4,
+   "width": 940,
+   "height": 627,
+   "credit": {
+    "author": "https://kaboompics.com/",
+    "source": "Pexels",
+    "url": "https://www.pexels.com/photo/woman-brushing-hair-7321246/",
+    "license": "Licença Pexels",
+    "licenseUrl": "https://www.pexels.com/license/"
+   }
+  }
+ ],
+ "scores": {
+  "auditoria": 100,
+  "demanda": "alta",
+  "total": 95,
+  "decisao": "PUBLICAR",
+  "partes": {
+   "qualidade": 100,
+   "demanda": 100,
+   "fontes": 100,
+   "originalidade": 70,
+   "formato": 90,
+   "seguranca": 100
+  },
+  "atencao": [
+   "parecido com \"alopecia na barba\" (50%): risco de canibalização"
+  ]
+ },
+ "validador": "Auditoria automática (sem API); texto escrito fora do robô",
+ "validacao": {
+  "palavraChave": "alopecia areata",
+  "demanda": {
+   "volume": 49500,
+   "classe": "alta",
+   "tendencia": "estável",
+   "concorrencia": "LOW",
+   "fonte": "validadas/cabelo-expandido.json",
+   "fraseMedida": "alopecia areata",
+   "porSimilar": false
+  },
+  "volume": 49500,
+  "cluster": null,
+  "apoio": [],
+  "perguntasDoGoogle": [],
+  "concorrentes": "não informado (concorrente não conferido)",
+  "lacunasCobertas": [],
+  "serp": null,
+  "fontesDaPauta": [
+   "https://anaisdedermatologia.org.br",
+   "https://pubmed.ncbi.nlm.nih.gov",
+   "https://www.gov.br"
+  ],
+  "notas": "",
+  "briefing": null,
+  "validadoEm": "2026-10-10T20:20:01.835Z",
+  "observacao": "originalidade contra o concorrente não conferida automaticamente"
+ },
+ "content": "<p>A alopecia areata é uma condição em que o sistema imunológico ataca os folículos capilares e provoca falhas redondas de cabelo. O diagnóstico cabe ao dermatologista. Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</p>\n<p>Ela pode afetar o couro cabeludo, a barba e outras áreas do corpo. O diagnóstico e o tratamento devem ser conduzidos por um dermatologista.</p>\n\n<h2>O que acontece com os folículos na alopecia areata?</h2>\n<p>Nessa condição, células de defesa do próprio organismo passam a agir sobre os folículos, que são as estruturas de onde o fio de cabelo nasce. O resultado é a interrupção temporária do crescimento.</p>\n<p>Em muitos casos, o folículo não é destruído e pode voltar a produzir fios, mas isso nem sempre acontece da mesma forma em todas as pessoas.</p>\n<p>Os especialistas associam a alopecia areata a uma combinação de fatores genéticos e gatilhos ambientais, e ainda há muito a estudar sobre as causas exatas. Por isso, a condição não deve ser atribuída a um único motivo.</p>\n\n<h2>Quais sinais costumam aparecer?</h2>\n<p>O sintoma mais característico é a queda em placas, com áreas lisas e sem cabelo que surgem de um dia para o outro. Em algumas pessoas, o cabelo cai em pequenas falhas espalhadas.</p>\n<p>Em casos mais extensos, a perda pode atingir todo o couro cabeludo ou o corpo inteiro. Outras manifestações incluem unhas com pequenas marcas, como pontilhados, e falhas na barba.</p>\n<ul>\n<li>Falhas redondas ou ovais no couro cabeludo, muitas vezes sem sinais de inflamação.</li>\n<li>Pelos finos e em forma de ponto de exclamação na borda da falha.</li>\n<li>Alterações nas unhas, como pequenas depressões.</li>\n<li>Queda em outras áreas do corpo, como sobrancelhas e barba.</li>\n</ul>\n<p>Esses sinais não são exclusivos da alopecia areata, por isso a avaliação clínica é indispensável.</p>\n<figure class=\"article-figure\"><img src=\"/images/alopecia-areata/dermatologista-examinando-o-couro-cabeludo-de-um-paciente-em.jpg\" alt=\"Dermatologista examinando o couro cabeludo de um paciente em consultório, tema de alopecia areata\" width=\"940\" height=\"587\" loading=\"lazy\" /><figcaption>A avaliação clínica do couro cabeludo é o primeiro passo para entender a queda localizada. <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/young-man-checking-hair-for-hair-loss-concerns-39570856/\" rel=\"noopener nofollow\" target=\"_blank\">Sanket  Mishra</a> / Pexels</span></figcaption></figure>\n<h2>Como o diagnóstico costuma ser feito?</h2>\n<p>O dermatologista observa o padrão da queda, examina o couro cabeludo e as unhas e pergunta sobre o histórico familiar e sobre doenças associadas. Em alguns casos, é feita uma biópsia ou um exame de tricoscopia, que amplia a imagem dos fios e dos folículos.</p>\n<p>Exames de sangue podem ser pedidos para investigar outras causas, como deficiências nutricionais e alterações da tireoide.</p>\n<p>Esse processo evita confundir a alopecia areata com outros tipos de queda, como a alopecia androgenética ou a queda ligada ao estresse, que têm abordagens diferentes.</p>\n\n<h2>Quais caminhos de tratamento são discutidos?</h2>\n<p>Não existe um tratamento padrão para todos os casos. Em geral, a escolha depende da extensão das falhas, da idade, da duração da queda e de outras condições de saúde.</p>\n<p>Há opções que incluem corticoides aplicados na área afetada ou em forma de injeção, medicamentos de uso tópico e, em situações selecionadas, medicamentos sistêmicos de classes imunomoduladoras.</p>\n<p>Algumas pessoas também usam substâncias como o minoxidil, que é uma classe de tratamento para queda de cabelo, mas seu uso na alopecia areata deve ser avaliado pelo dermatologista.</p>\n<p>Em muitos casos, a queda diminui sem tratamento, e os fios podem voltar. Ainda assim, a decisão sobre qualquer intervenção é do profissional, que avalia riscos, benefícios e expectativas. Nenhum tratamento consegue prometer resultado em todas as pessoas, e é importante conversar sobre isso.</p>\n<figure class=\"article-figure\"><img src=\"/images/alopecia-areata/mulher-penteando-os-cabelos-diante-do-espelho-cuidado-com-a-.jpg\" alt=\"Mulher penteando os cabelos diante do espelho, cuidado com a aparência em caso de alopecia areata\" width=\"940\" height=\"627\" loading=\"lazy\" /><figcaption>O impacto emocional da queda de cabelo merece cuidado tanto quanto o tratamento clínico. <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/woman-brushing-hair-7321246/\" rel=\"noopener nofollow\" target=\"_blank\">https://kaboompics.com/</a> / Pexels</span></figcaption></figure>\n<h2>Como o emocional entra nessa história?</h2>\n<p>A alopecia areata pode gerar desconforto, ansiedade e sensação de exposição, principalmente quando as falhas aparecem no rosto ou no couro cabeludo visível. Esse impacto é real e deve ser levado a sério.</p>\n<p>Grupos de apoio, conversas com psicólogos e a orientação de familiares ajudam muitas pessoas a lidar melhor com a situação.</p>\n<p>Também é normal sentir frustração com a duração da condição. Explicar ao dermatologista o que você sente ajuda a construir um plano mais realista.</p>\n\n<h2>Quais cuidados no dia a dia?</h2>\n<p>Quem tem alopecia areata pode manter a rotina de cuidados com o cabelo, evitando puxões, tranças muito apertadas e produtos agressivos. Protetor solar na área sem cabelo é recomendado para evitar queimaduras.</p>\n<p>Não há evidência de que tratamentos caseiros, como óleos ou chás, revertam a condição de forma confiável, e alguns podem irritar a pele. Antes de testar qualquer produto natural, converse com o dermatologista.</p>\n<p>Se você quer entender melhor outros tipos de queda, a página sobre <a href=\"/queda-de-cabelo/\">queda de cabelo</a> reúne informações gerais sobre as principais causas.</p>\n\n<h2>Como o dermatologista decide o plano de cuidado?</h2>\n<p>A decisão considera vários fatores, como a extensão das falhas, o tempo de evolução, a idade, a presença de outras doenças autoimunes e o impacto emocional sentido pela pessoa.</p>\n<p>Uma falha pequena e recente pode ser acompanhada por algumas semanas antes de qualquer intervenção, porque há casos em que a recuperação acontece sem tratamento. Já quadros extensos ou que progridem rápido costumam exigir uma conversa mais detalhada sobre as opções disponíveis.</p>\n<p>Também é comum que o médico explique o que cada abordagem pode e não pode fazer. Algumas opções agem na inflamação local, outras buscam modular a resposta do sistema imunológico.</p>\n<p>Cada uma tem prazos de avaliação, possíveis efeitos e necessidade de acompanhamento. Ao final, a escolha é feita em conjunto, com o paciente informado sobre o que esperar.</p>\n\n<h2>Como é o acompanhamento a longo prazo?</h2>\n<p>A alopecia areata costuma ter fases de piora e de melhora, e nem sempre há um padrão previsível. Por isso, o acompanhamento regular ajuda a identificar novas falhas cedo, quando a conduta pode ser mais simples.</p>\n<p>Fotos do couro cabeludo tiradas no mesmo ângulo e em intervalos regulares são um recurso útil para a consulta, porque mostram mudanças que passam despercebidas no dia a dia.</p>\n<p>Os fatores emocionais são discutidos com frequência, mas a relação com o estresse não é simples. Muitas pessoas associam uma crise de queda a um período difícil, e isso faz sentido como experiência pessoal.</p>\n<p>Para entender o papel de hormônios ligados à pressão do dia a dia, o texto sobre <a href=\"/cortisol-alto/\">cortisol alto</a> traz informações gerais, sem substituir a avaliação médica.</p>\n<p>Vale lembrar que a alopecia areata pode envolver outras áreas do corpo, como unhas e sobrancelhas. Por isso, o dermatologista costuma perguntar sobre todas as regiões afetadas em cada consulta, e não apenas sobre o couro cabeludo.</p>\n\n<p>Algumas pessoas perguntam se a alopecia areata pode ser prevenida. Como o mecanismo envolve o sistema imunológico e fatores genéticos, não há uma forma comprovada de evitar o surgimento da condição.</p>\n<p>O que se recomenda é observar mudanças no couro cabeludo e nas unhas e procurar avaliação precoce quando algo novo aparecer, porque a conduta costuma ser mais simples no início.</p>\n\n<h2>Perguntas frequentes</h2>\n<p><strong>Alopecia areata é contagiosa?</strong><br>Não. Ela não se transmite de uma pessoa para outra.</p>\n<p><strong>O cabelo sempre volta?</strong><br>Em muitos casos sim, mas o padrão varia. Algumas pessoas têm recorrência e precisam de acompanhamento contínuo.</p>\n<p><strong>Estresse causa alopecia areata?</strong><br>Estresse pode estar associado a episódios em algumas pessoas, mas não é a causa única. A relação ainda é estudada.</p>\n<p><strong>Posso usar suplementos para acelerar o crescimento?</strong><br>Qualquer suplemento deve ser discutido com o médico antes, porque a resposta é individual e nem todos têm indicação.</p>\n\n<h2>Quando procurar um médico</h2>\n<p>Procure um dermatologista assim que notar falhas de cabelo de início repentino, principalmente se elas crescerem rápido, atingirem a barba ou as unhas, ou se você sentir coceira e ardência no couro cabeludo.</p>\n<p>Também vale buscar avaliação se a queda estiver acompanhada de outros sintomas, como cansaço intenso, alterações de peso ou de humor.</p>\n<p>Quanto mais cedo a condição é avaliada, mais fácil é entender o quadro e definir um plano seguro.</p>\n\n<h2>Resumindo</h2>\n<p>A alopecia areata é uma condição imunológica que causa falhas de cabelo, muitas vezes em placas. Os sinais são característicos, mas o diagnóstico precisa de avaliação clínica, e o tratamento deve ser escolhido com o dermatologista, considerando cada caso.</p>\n<p>O acolhimento emocional e os cuidados básicos com a pele e o cabelo também fazem parte do cuidado. Se você percebeu falhas de cabelo recentes, procure um profissional. Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</p>\n<h2>Fontes</h2>\n<ul>\n<li><a href=\"https://anaisdedermatologia.org.br\" rel=\"noopener nofollow\" target=\"_blank\">Anais Brasileiros de Dermatologia</a></li>\n<li><a href=\"https://pubmed.ncbi.nlm.nih.gov\" rel=\"noopener nofollow\" target=\"_blank\">PubMed (National Library of Medicine)</a></li>\n<li><a href=\"https://www.gov.br\" rel=\"noopener nofollow\" target=\"_blank\">Governo Federal</a></li>\n</ul>\n<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>"
+}

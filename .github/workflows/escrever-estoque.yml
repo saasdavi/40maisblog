@@ -67,6 +67,12 @@ jobs:
         continue-on-error: true
         run: node scripts/banco-conteudo.js
 
+      - name: 📅 Calendário (12 meses e publicação)
+        continue-on-error: true
+        run: |
+          node scripts/calendario-editorial.js
+          node scripts/calendario-artigos.js
+
       - name: 📤 Commit & Push
         run: |
           git config user.name "Health 40+ Bot"

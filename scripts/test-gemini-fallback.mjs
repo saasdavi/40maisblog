@@ -6,6 +6,8 @@ import assert from 'assert';
 
 const estado = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'llm-')), 'llm-estado.json');
 process.env.LLM_ESTADO = estado;
+process.env.DAILY_LIMIT = '100'; process.env.BATCH_SIZE = '5'; // para escolherPauta() devolver pautas mesmo depois do teto do dia
+process.env.PAUTAS_FALHAS = path.join(path.dirname(estado), 'pautas-falhas.json');
 process.env.ANTHROPIC_API_KEY = 'teste-claude';
 const { default: ArticleRobot } = await import('./article-robot.js');
 const { resumirSerp } = await import('./serp-api.js');
@@ -84,3 +86,15 @@ console.log('ok: gemini-fallback + serp-api');
   assert.strictEqual(rb.novoHoje(), false, 'artigo de ontem não conta');
 }
 console.log('ok: novoHoje');
+
+// 10. Pauta que reprova 2 vezes é pulada (não gasta Gemini/Claude de novo)
+{
+  const rb = robo();
+  const primeira = rb.escolherPauta()[0].keyword;
+  rb.registrarFalhaPauta(primeira, 'nota 70');
+  assert.strictEqual(rb.escolherPauta()[0].keyword, primeira, 'com 1 falha ainda tenta de novo');
+  rb.registrarFalhaPauta(primeira, 'nota 72');
+  assert.notStrictEqual(rb.escolherPauta()[0].keyword, primeira, 'com 2 falhas pula');
+  assert.strictEqual(rb.lerFalhasPauta()[primeira].tentativas, 2);
+}
+console.log('ok: pauta que falha é pulada');

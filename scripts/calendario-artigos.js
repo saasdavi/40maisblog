@@ -37,17 +37,23 @@ const hoje = publicados.filter((a) => dia(new Date(a.publishedAt)) === hojeIso).
 // primeiro dia com vaga: hoje se ainda cabe, senão amanhã
 const d0 = new Date(hojeIso + 'T12:00:00Z'); if (hoje >= POR_DIA) d0.setUTCDate(d0.getUTCDate() + 1);
 const data = (i) => { const d = new Date(d0); d.setUTCDate(d.getUTCDate() + Math.floor((i + (hoje >= POR_DIA ? 0 : hoje)) / POR_DIA)); return d.toISOString().slice(0, 10); };
-const plano = fila.map((a, i) => ({ a, dia: data(i), n: i + 1 }));
+// datas e artigo novo do dia vêm do calendário de 12 meses (scripts/calendario-editorial.js), a fonte única da programação
+let cal12 = { slots: [] }; try { cal12 = JSON.parse(fs.readFileSync(path.join(raiz, 'data/conteudo/calendario-12-meses.json'), 'utf8')); } catch { /* ainda não gerado */ }
+const diaDoEstoque = new Map(cal12.slots.filter((x) => x.slug).map((x) => [x.slug, x.data]));
+const novos = cal12.slots.filter((x) => x.tipo === 'novo (IA)').slice(0, 21);
+const plano = fila.map((a, i) => ({ a, dia: diaDoEstoque.get(a.slug) || data(i), n: i + 1 }));
 const prontos = plano;
 const revisar = [];
 
 const L = [];
-L.push('# Calendário de artigos', '', `Gerado por \`scripts/calendario-artigos.js\` em ${br(hojeIso)}. O robô publica ${POR_DIA}/dia, na ordem da fila abaixo (coluna **Nº**).`, '',
+L.push('# Calendário de artigos', '', `Gerado por \`scripts/calendario-artigos.js\` em ${br(hojeIso)}. Por dia: 1 artigo novo escrito por IA (Gemini, reserva Claude) + 2 do estoque pronto (tabela 2, na ordem do robô, coluna **Nº**). Quando o estoque acaba, os 3 do dia são escritos pela API. Plano de 12 meses: \`calendario-12-meses.md\`.`, '',
   `| Situação | Artigos |`, '|---|---|', `| Publicados | ${publicados.length} |`, `| Prontos para publicação futura (nota 90+, sem revisão pendente) | ${prontos.length} |`,
   `| Precisam de revisão (o robô não publica até serem revisados) | ${revisar.length + foraFila.length} |`, '',
   `O robô pula os artigos da tabela 3 até serem revisados e reimportados.`, '',
   `## 1. Artigos publicados (${publicados.length})`, '', '| Data | Artigo | Nota |', '|---|---|---|',
   ...publicados.map((a) => `| ${br(dia(new Date(a.publishedAt)))} | ${esc(a.title)} (\`/${a.slug}/\`) | ${a.scores?.total ?? a.scores?.auditoria ?? '—'} |`), '',
+  `## 1b. Artigo novo (IA) dos próximos dias`, '', '| Data | Palavra-chave | Situação |', '|---|---|---|',
+  ...novos.map((x) => `| ${br(x.data)} | ${esc(x.palavra)} | ${esc(x.situacao)} |`), '',
   `## 2. Prontos para publicação futura (${prontos.length})`, '', '| Nº | Data prevista | Artigo | Palavra-chave | Nota |', '|---|---|---|---|---|',
   ...prontos.map((x) => `| ${x.n} | ${br(x.dia)} | ${esc(x.a.title)} (\`/${x.a.slug}/\`) | ${esc(x.a.primaryKeyword)} | ${x.a.scores.total} |`), '',
   `## 3. Precisam de revisão (${revisar.length + foraFila.length})`, '', '| Nº | Data prevista se ninguém revisar | Artigo | Palavra-chave | Nota | Motivo |', '|---|---|---|---|---|---|',

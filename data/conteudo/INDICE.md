@@ -2,25 +2,22 @@
 
 Fonte dos textos: `data/articles.json`. Atualizado por `node scripts/banco-conteudo.js` (roda nos workflows de produção e de estoque).
 
-| O que | Quantidade | Dias (3/dia) |
+| O que | Quantidade | Dias |
 |---|---|---|
-| **Pronto para usar** (escrito, aprovado, guardado) | **18** | 6 |
+| **Pronto para usar** (a fila do robô; saem 2 por dia) | **162** | 81 |
+| Precisa de revisão (o robô não publica) | 53 | |
 | Publicado (no ar) | 28 | |
 | Pauta validada, falta escrever | 18 | 6 |
 | Planejado, falta validar no Google | 886 | 295 |
 | Vagas (sem tema levantado) | 146 | |
 
-Dias de conteúdo já escrito + pauta validada: **12** (a 3 por dia).
+Dias de conteúdo já escrito + pauta validada: **87** (a 3 por dia).
 
 ## Prontos para usar
 
 | Artigo | Palavras | Auditoria | Previsto para |
 |---|---|---|---|
-| Dor nas Costas: Guia Prático para Aliviar em Casa | 1721 | 85 | 2026-10-08 |
-| Prisão de Ventre: Como Aliviar em Dias | 1219 | 84 | 2026-10-11 |
-| Moscas Volantes: Causas, Sinais e Quando Procurar Médico | 1394 | 83 | 2026-10-12 |
 | Manchas na Pele: Guia Completo para Identificar o Risco | 1205 | 95 | 2026-10-14 |
-| O que é Menopausa: Guia Completo para Mulheres 40+ | 1504 | 81 | 2026-10-15 |
 | Vitamina D Baixa Sintomas: Reconheça os Sinais | 1948 | 92 | 2026-10-15 |
 | Lanche Saudável: 12 Ideias Fáceis para Sua Tarde | 1511 | 91 | 2026-10-17 |
 | Cabelos Brancos: Causas, Cuidados e Tudo que Você Precisa Saber | 1820 | 87 | 2026-10-17 |
@@ -35,45 +32,29 @@ Dias de conteúdo já escrito + pauta validada: **12** (a 3 por dia).
 | Esquecimento Frequente: Quando Procurar Médico | 1496 | 100 | 2026-10-22 |
 | Idade Metabólica: Calcule e Melhore a Sua | 1544 | 100 | 2026-10-22 |
 | Sarcopenia: o que é, sinais e como cuidar | 1236 | 98 | - |
-| Colesterol HDL: o que é e como interpretar | 1244 | 96 | 2026-10-23 |
-| Colesterol LDL: o que é e como reduzir | 1042 | 96 | 2026-10-24 |
-| Hipotireoidismo sintomas: sinais comuns aos 40+ | 1144 | 94 | 2026-10-10 |
-| Ferritina alta: causas e o que fazer | 1172 | 96 | 2026-10-06 |
-| TSH alto: o que significa e quando investigar | 1143 | 96 | 2026-10-16 |
-| Pressão alta sintomas: saiba por que a doença é silenciosa | 1656 | 87 | 2026-12-23 |
-| Próstata aumentada: sintomas e o que fazer | 1080 | 92 | 2026-10-24 |
-| Ureia alta: causas e o que fazer | 1069 | 92 | 2026-10-13 |
 | Lanches Saudáveis: Ideias para o Dia a Dia | 1389 | 94 | - |
 | Açúcar: tipos, calorias e limite recomendado | 1508 | 100 | - |
 | Atemoia: benefícios, cuidados e como comer | 1539 | 100 | - |
-| Caixa d’água: como escolher e limpar | 1745 | 94 | - |
 | Goiaba: benefícios, intestino e tailandesa | 1798 | 100 | - |
 | Ashwagandha: benefícios, efeitos e cuidados | 1631 | 92 | - |
 | Bananazinha: Cachaça de Banana, Teor e Como Tomar | 1903 | 93 | - |
 | Biotina: para que serve e efeito em exames | 1358 | 100 | - |
-| Calcular Tabela Nutricional Online Grátis: Guia Prático | 2050 | 95 | - |
 | Celulite: causas, graus e tratamentos | 1575 | 100 | - |
 | Chá de cavalinha: para que serve e riscos | 1510 | 100 | - |
-| Chá Para Aumentar a Imunidade — O Que Funciona | 2190 | 98 | - |
 | Creatina: Para Que Serve, Benefícios, Riscos e Como Tomar | 2241 | 95 | 2027-05-24 |
 | Déficit Calórico: Como Calcular e Emagrecer com Saúde | 1718 | 93 | - |
 | Dermatite de contato: causas e como tratar | 1537 | 100 | 2026-10-26 |
 | Dieta Low Carb: Guia Completo com Cardápio | 1755 | 100 | - |
 | Dieta Para Secar Barriga: Estratégias Comprovadas | 1802 | 95 | - |
-| Dieta Simples Para Emagrecer — Guia Prático e Barato | 1811 | 95 | - |
 | Emagrecer com Saúde: Guia Completo e Sustentável | 1831 | 100 | - |
 | Emagrecimento Saudável: Guia Completo e Seguro | 1948 | 94 | - |
 | Fiberlift — O Que É, Como Usar e Contraindicações | 1676 | 95 | - |
 | Fibra Mais: Para Que Serve e Como Tomar | 1524 | 98 | - |
 | Glaçúcar União: Para Que Serve e Composição | 1464 | 98 | - |
 | Jejum Intermitente Para Emagrecer — Guia Prático | 1915 | 97 | - |
-| Lista de Dieta Para Emagrecer — Guia Prático | 1903 | 96 | - |
 | Magnésio: Para Que Serve, Tipos e Cuidados | 2256 | 96 | 2027-05-24 |
-| Melanoma: sinais, ABCDE e quando procurar | 1772 | 100 | - |
 | Melasma: causas, sintomas e como cuidar | 1602 | 100 | 2026-10-29 |
-| Melatonina: Para Que Serve, Efeitos e Cuidados | 1355 | 100 | 2027-05-25 |
 | Nutrição Estética: Guia Completo da Pele e Saúde | 2350 | 100 | - |
-| Osteoporose: sintomas, prevenção e tratamento | 1407 | 94 | - |
 | Paralisia do sono: causas e o que fazer | 1512 | 100 | 2026-10-27 |
 | Polissonografia: o que é e como se preparar | 1508 | 100 | - |
 | Pomelos: nutrientes, remédios e cuidados | 1529 | 100 | - |
@@ -94,10 +75,7 @@ Dias de conteúdo já escrito + pauta validada: **12** (a 3 por dia).
 | Biotina comprimido: funções, riscos e exames | 1316 | 100 | - |
 | Biotina para que serve: funções e evidências | 1326 | 100 | - |
 | Biotina valor: o que considerar antes de usar | 1329 | 100 | - |
-| Minoxidil spray cabelo: como usar e cuidados | 1710 | 100 | - |
-| Remédio Minoxidil: Ação, Riscos e Cuidados | 1370 | 100 | - |
 | Academia emagrece? Musculação e perda de gordura | 1356 | 100 | - |
-| Acantose nigricans: causas e manchas escuras | 1376 | 100 | - |
 | Ácido fólico para que serve: usos e cuidados | 1345 | 100 | 2026-11-02 |
 | Ácido hialurônico para que serve: tipos e riscos | 1330 | 100 | - |
 | Ácido salicílico: para que serve e como usar | 3096 | 100 | 2027-05-29 |
@@ -107,9 +85,6 @@ Dias de conteúdo já escrito + pauta validada: **12** (a 3 por dia).
 | Alantoína: para que serve e cuidados na pele | 1330 | 100 | - |
 | Albumina suplemento: riscos e quem deve evitar | 1360 | 100 | - |
 | Alimentação saudável criança: guia prático | 1357 | 100 | - |
-| Alimentação sem lactose e glúten: guia completo | 1414 | 100 | - |
-| Alimentos para Ganhar Massa Muscular: Guia | 1411 | 100 | - |
-| Alimentos Ricos em Proteína: Lista e Como Usar | 1382 | 100 | 2026-11-09 |
 | Alimentos Saudáveis para Crianças: Guia Completo | 1397 | 100 | - |
 | Alimentos sem Glúten e sem Lactose: Guia Prático | 1387 | 100 | - |
 | Alimentos sem Lactose: Lista e Substituições | 1379 | 100 | - |
@@ -123,60 +98,48 @@ Dias de conteúdo já escrito + pauta validada: **12** (a 3 por dia).
 | Magnésio Dimalato: O Que É, Usos e Cuidados | 1361 | 100 | - |
 | Resveratrol: O Que É, Onde Está e Cuidados | 1352 | 100 | - |
 | Vitamina B12: Para Que Serve e Sinais de Falta | 1370 | 100 | - |
-| Vitamina D3: Para Que Serve, Fontes e Cuidados | 1405 | 100 | 2027-05-25 |
 | Babosa é Bom para Queda de Cabelo? O que Se Sabe | 1344 | 100 | - |
-| Tipos de bebidas: diferenças e efeitos na saúde | 3258 | 100 | - |
 | Beta-alanina: para que serve e como tomar | 2314 | 100 | - |
 | Bolinhas no couro cabeludo: causas e quando agir | 1354 | 100 | - |
 | Botox capilar: o que é, benefícios e cuidados | 1362 | 100 | - |
 | Cabelo branco masculino: causas e cuidados | 1387 | 100 | - |
 | Cabelo caindo muito: causas e investigação | 1332 | 100 | 2026-11-18 |
-| Cabelo caindo o que fazer: causas e cuidados | 1358 | 100 | - |
 | Cabelo quebrado: como recuperar e cronograma | 1369 | 100 | - |
 | Queda de cabelo o que fazer: causas reais | 1359 | 100 | 2027-06-29 |
 | Calculadora de IMC: entenda o seu índice corporal | 1330 | 95 | - |
 | Caloria dos alimentos: como calcular e usar | 1324 | 100 | - |
 | Calvície masculina: causas e tratamentos | 1335 | 100 | - |
-| Câncer de pele sintomas: sinais de alerta | 1348 | 100 | - |
-| Tratamento capilar caseiro: benefícios e riscos | 1379 | 100 | - |
 | Carboidratos: o que são, funções e tipos | 1361 | 100 | - |
 | Cardápio de Dieta para Emagrecer: Guia Semanal | 1364 | 100 | - |
 | Chá que emagrece 1kg por dia: evidências | 1332 | 100 | - |
 | Chá relaxante muscular: o que a ciência diz | 1364 | 100 | - |
 | Chás: o que a ciência sabe sobre ervas e saúde | 1370 | 100 | - |
 | Cisto no couro cabeludo: tipos e cuidados | 1337 | 100 | - |
-| Como engordar de forma saudável: guia prático | 1382 | 100 | - |
 | Como lavar o cabelo corretamente: passo a passo | 1336 | 100 | - |
-| Complexo B para que serve: benefícios e cuidados | 1354 | 100 | - |
 | Compulsão alimentar: sintomas e tratamento | 1386 | 100 | - |
 | Contar calorias: como calcular e evitar erros | 1338 | 100 | - |
 | Cotovelos escuros: causas, como clarear e alerta | 1342 | 100 | - |
 | Cúrcuma: para que serve, benefícios e cuidados | 1371 | 100 | - |
 | Dieta de 1000 calorias: riscos e indicação | 1368 | 100 | - |
 | Dieta enteral 1.5: guia completo para cuidadores | 1340 | 100 | - |
-| Dieta para diabetes tipo 2: guia e cardápio | 1376 | 100 | - |
 | Dieta para perder barriga: o que funciona | 1395 | 100 | 2026-11-25 |
 | Dieta para secar: guia prático e realista | 1365 | 100 | - |
 | Dieta sem carboidrato: como funciona e riscos | 1412 | 100 | - |
-| Dispneia paroxística noturna: causas e alertas | 1400 | 100 | - |
 | Dormir cedo: benefícios, rotina e o que evitar | 1355 | 92 | - |
 | Eletrólitos: o que são, funções e como repor | 1448 | 100 | - |
 | Emagrecer 10kg: o que é possível e com saúde | 1403 | 100 | - |
 | Emagrecer rápido com saúde: guia seguro | 1388 | 100 | - |
 | Entradas no cabelo: causas, tratamentos e cortes | 1395 | 100 | - |
 | Especialista em cabelo: quando procurar | 1395 | 100 | 2027-01-11 |
-| Exercícios para emagrecer na academia: guia | 1368 | 100 | - |
 | Fogacho menopausa: causas, duração e tratamentos | 1354 | 100 | - |
 | Fome emocional: o que é, como identificar | 1357 | 100 | - |
 | Fome no mundo: causas, dados atuais e soluções | 1380 | 92 | - |
 | Fruta do conde: nutrientes, benefícios e cuidados | 1357 | 95 | - |
-| GABA: para que serve, efeitos colaterais e riscos | 1361 | 95 | - |
 | Glicina: o que é, para que serve e riscos | 1394 | 100 | - |
 | Hidrafacial: o que é, benefícios e riscos | 1361 | 100 | - |
 | Hidratante facial: como escolher o ideal | 1395 | 100 | - |
 | HMB: o que é, para que serve e efeitos colaterais | 1401 | 95 | - |
 | Inibidor de apetite forte: riscos e cuidados | 1379 | 100 | - |
-| Fibra de soja em dietas enterais: para que serve | 1368 | 100 | - |
 | Maca Peruana: O Que É e Quais Cuidados Ter | 1366 | 100 | - |
 | Magnésio Dimalato Efeitos Colaterais e Rins | 1320 | 100 | - |
 | Magnésio Efeitos Colaterais: Guia Seguro | 1341 | 100 | - |
@@ -186,17 +149,8 @@ Dias de conteúdo já escrito + pauta validada: **12** (a 3 por dia).
 | Marmita Fitness Cardápio Semanal: Guia Prático | 1367 | 100 | - |
 | Massagem Capilar: Benefícios e Contraindicações | 1350 | 100 | - |
 | Melasma na Gravidez: Causas e Cuidados Seguros | 1337 | 100 | - |
-| Melhor Suplemento Para Reduzir Gordura: Estudos | 1378 | 100 | - |
-| Minoxidil Solução Capilar: Como Usar e Efeitos | 1341 | 100 | - |
-| Minoxidil Spray Cabelo: Como Atua e Cuidados | 1333 | 100 | - |
-| Minoxidil Tônico Capilar: Como Usar e Shedding | 1372 | 100 | - |
-| Minoxidil para que serve, efeitos e cuidados | 1762 | 100 | - |
-| Energético Sabores: Riscos, Cafeína e Cuidados | 1373 | 100 | - |
-| Niacinamida Para Que Serve: Benefícios e Efeitos | 1382 | 100 | - |
 | Obstipação Intestinal: Causas e Sintomas | 1323 | 100 | - |
 | Óxido de Magnésio: Para Que Serve e Riscos | 1371 | 100 | - |
-| Corpo em Formato de Pera: Saúde e Cuidados 40+ | 1446 | 100 | - |
-| Perder Gordura e Ganhar Massa Muscular: Guia | 1397 | 100 | - |
 | pH da Pele: O Que é Ideal e Como Equilibrar | 1338 | 100 | - |
 | Picolinato de Cromo para Que Serve e Riscos | 1395 | 100 | - |
 | Produtos Sem Lactose: Guia Completo e Prático | 1377 | 100 | - |
@@ -207,14 +161,9 @@ Dias de conteúdo já escrito + pauta validada: **12** (a 3 por dia).
 | Queda de Cabelo Feminino: Causas e Tratamentos | 1393 | 100 | - |
 | Queda de Cabelo Intensa: Causas e Quando Tratar | 1419 | 100 | - |
 | Queda de Cabelo por Estresse: Causas e Sinais | 1374 | 100 | - |
-| Queda de Cabelo Pós-parto: Causas e Cuidados | 1368 | 100 | - |
 | Reeducação Alimentar: Como Fazer na Prática | 1391 | 100 | - |
-| Resistência Insulínica: Sintomas e Cuidados | 1366 | 100 | - |
-| Retinol Para Que Serve: Benefícios e Como Usar | 1405 | 100 | - |
 | Sabonete de Enxofre Para Que Serve e Cuidados | 1402 | 100 | - |
-| Saladas Completas: Como Substituir Refeições | 1397 | 100 | - |
 | Saw Palmetto Queda de Cabelo: O Que Funciona | 1413 | 100 | - |
-| Suplemento Contribui para a Perda de Gordura? | 1440 | 100 | - |
 | Suplementos para Emagrecer Feminino: Evidências | 1343 | 100 | - |
 | Taurina Efeitos Colaterais: Rins e Cafeína | 1338 | 100 | - |
 | Terapia Fotodinâmica: O Que É e Como Funciona | 1343 | 100 | - |
@@ -230,7 +179,6 @@ Dias de conteúdo já escrito + pauta validada: **12** (a 3 por dia).
 | Albumina em pó: como usar e evitar gases | 1734 | 100 | - |
 | Bebidas Ambev: portfólio e tabela nutricional | 1861 | 100 | - |
 | Colágeno Verisol: para que serve e dosagem | 2281 | 100 | - |
-| Queda de cabelo depois dos 40: causas e cuidados | 1459 | 100 | - |
 
 ## Publicados
 

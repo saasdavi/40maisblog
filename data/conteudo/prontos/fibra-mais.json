@@ -1,0 +1,103 @@
+{
+ "slug": "fibra-mais",
+ "title": "Fibra Mais: Para Que Serve e Como Tomar",
+ "description": "Fibra Mais é suplemento de fibras solúveis (goma guar e inulina). Veja para que serve, como tomar, composição e cuidados com hidratação.",
+ "primaryKeyword": "fibra mais",
+ "cluster": null,
+ "volume": 1300,
+ "wordCount": 1524,
+ "readingTime": 7,
+ "sources": [
+  {
+   "title": "PubMed Central (NIH)",
+   "url": "https://pmc.ncbi.nlm.nih.gov"
+  },
+  {
+   "title": "nestlehealthscience.com.br",
+   "url": "https://nestlehealthscience.com.br"
+  },
+  {
+   "title": "fibermais.com.br",
+   "url": "https://fibermais.com.br"
+  },
+  {
+   "title": "Ministério da Saúde: alimentação saudável",
+   "url": "https://www.gov.br/saude"
+  }
+ ],
+ "featuredImage": "/images/fibra-mais/fibra-mais-capa.jpg",
+ "imageAlt": "Suplementos e vitaminas sobre fibra mais",
+ "imageCredit": {
+  "author": "ready made",
+  "source": "Pexels",
+  "url": "https://www.pexels.com/photo/white-and-yellow-capsules-3850811/",
+  "license": "Licença Pexels",
+  "licenseUrl": "https://www.pexels.com/license/"
+ },
+ "images": [
+  {
+   "src": "/images/fibra-mais/capsulas-e-comprimidos-relacionado-a-fibra-mais.jpg",
+   "alt": "Cápsulas e comprimidos relacionado a fibra mais",
+   "legenda": "Ilustração ilustrativa do tema",
+   "secao": 2,
+   "width": 940,
+   "height": 627,
+   "credit": {
+    "author": "Odin Mcraig",
+    "source": "Pexels",
+    "url": "https://www.pexels.com/photo/medicine-capsules-on-the-black-background-13534594/",
+    "license": "Licença Pexels",
+    "licenseUrl": "https://www.pexels.com/license/"
+   }
+  }
+ ],
+ "scores": {
+  "auditoria": 98,
+  "demanda": "boa",
+  "total": 90,
+  "decisao": "PUBLICAR",
+  "partes": {
+   "qualidade": 98,
+   "demanda": 80,
+   "fontes": 100,
+   "originalidade": 70,
+   "formato": 90,
+   "seguranca": 100
+  },
+  "atencao": [
+   "parecido com \"beta-alanina\" (50%): risco de canibalização",
+   "2 imagem(ns) (ideal 3)",
+   "ajuste: 1 parágrafos > 50 palavras"
+  ]
+ },
+ "validador": "Auditoria automática (sem API); texto escrito fora do robô",
+ "validacao": {
+  "palavraChave": "fibra mais",
+  "demanda": {
+   "volume": 1300,
+   "classe": "boa",
+   "tendencia": "estável",
+   "concorrencia": "HIGH",
+   "fonte": "validadas/alimentacao-peso.json",
+   "fraseMedida": "fibra mais",
+   "porSimilar": false
+  },
+  "volume": 1300,
+  "cluster": null,
+  "apoio": [],
+  "perguntasDoGoogle": [],
+  "concorrentes": "não informado (concorrente não conferido)",
+  "lacunasCobertas": [],
+  "serp": null,
+  "fontesDaPauta": [
+   "https://pmc.ncbi.nlm.nih.gov",
+   "https://nestlehealthscience.com.br",
+   "https://fibermais.com.br"
+  ],
+  "notas": "",
+  "briefing": null,
+  "validadoEm": "2026-10-10T19:46:35.820Z",
+  "observacao": "originalidade contra o concorrente não conferida automaticamente"
+ },
+ "content": "<div id=\"container-imagem-capa\" class=\"loading\">Carregando imagem...</div>\n\n<p>O Fibra Mais é um suplemento alimentar de fibras solúveis composto por goma guar parcialmente hidrolisada e inulina. Seu objetivo é auxiliar o funcionamento regular do intestino e contribuir para o equilíbrio da microbiota intestinal.</p>\n\n<p>Diferente de laxantes estimulantes, o Fibra Mais atua de forma natural, adicionando fibras à dieta que ajudam a formar o bolo fecal e a manter o trânsito intestinal adequado. Entender sua composição e modo de uso é essencial para aproveitar seus benefícios com segurança.</p>\n\n<h2>O que é o Fibra Mais e para que serve?</h2>\n<p>O Fibra Mais é um suplemento de fibras 100% solúveis. Sua composição inclui dois tipos de fibras vegetais: goma guar parcialmente hidrolisada, extraída do grão de vagem, e inulina, extraída da chicória [citation:1].</p>\n\n<p>As fibras solúveis formam um gel em contato com a água, o que amolece as fezes e facilita a passagem pelo intestino. Além disso, servem como alimento para as bactérias benéficas do cólon, atuando como prebióticos [citation:5].</p>\n\n<p>O produto é indicado para auxiliar no funcionamento intestinal em casos de constipação leve a moderada. Também pode ser usado por pessoas que precisam aumentar a ingestão de fibras, mas têm dificuldade de obter a quantidade necessária apenas pela alimentação.</p>\n\n<p>O Fibra Mais é sem sabor e sem cheiro, podendo ser adicionado a qualquer alimento ou bebida, quente ou fria, sem alterar o sabor ou a textura da preparação [citation:1].</p>\n\n<div id=\"container-imagem-1\" class=\"loading\">Carregando imagem...</div>\n\n<h2>Qual a composição do Fibra Mais?</h2>\n<p>A fórmula do Fibra Mais é simples e transparente. Cada porção contém apenas as duas fibras solúveis mencionadas, sem adição de açúcares, gorduras ou outros aditivos.</p>\n\n<table>\n<thead>\n<tr>\n<th>Componente</th>\n<th>Quantidade por porção (5g)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Valor energético</td>\n<td>0 kcal</td>\n</tr>\n<tr>\n<td>Carboidratos</td>\n<td>0g</td>\n</tr>\n<tr>\n<td>Fibra alimentar</td>\n<td>4,3g</td>\n</tr>\n<tr>\n<td>Proteínas</td>\n<td>0g</td>\n</tr>\n<tr>\n<td>Gorduras</td>\n<td>0g</td>\n</tr>\n</tbody>\n</table>\n\n<p>Esses valores mostram que o produto é praticamente isento de calorias. A maior parte de seu peso corresponde às fibras que não são digeridas nem absorvidas pelo organismo [citation:14].</p>\n\n<p>A goma guar parcialmente hidrolisada é uma fibra viscosa que forma gel rapidamente, enquanto a inulina é uma fibra fermentável que serve de substrato para a microbiota intestinal. A combinação das duas oferece benefícios complementares.</p>\n\n<div id=\"container-imagem-2\" class=\"loading\">Carregando imagem...</div>\n<figure class=\"article-figure\"><img src=\"/images/fibra-mais/capsulas-e-comprimidos-relacionado-a-fibra-mais.jpg\" alt=\"Cápsulas e comprimidos relacionado a fibra mais\" width=\"940\" height=\"627\" loading=\"lazy\" /><figcaption>Ilustração ilustrativa do tema <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/medicine-capsules-on-the-black-background-13534594/\" rel=\"noopener nofollow\" target=\"_blank\">Odin Mcraig</a> / Pexels</span></figcaption></figure>\n<h2>Como tomar o Fibra Mais?</h2>\n<p>O modo de uso do Fibra Mais é simples e versátil. A recomendação é adicionar uma porção do produto a um copo com líquido e mexer até completa dissolução, ou misturar diretamente em alimentos pastosos como iogurte, purês e cremes [citation:5].</p>\n\n<p>A dose inicial recomendada para adultos é de 1 sachê por dia, progredindo gradualmente até 3 sachês, conforme necessidade e tolerância. Para crianças a partir de 4 anos, a orientação é iniciar com meio sachê (2,5g) e progredir até 1 sachê (5g), sempre sob orientação de nutricionista ou médico [citation:10].</p>\n\n<p>A introdução gradual é importante porque o intestino precisa se adaptar ao aumento da ingestão de fibras. Começar com doses altas pode causar desconforto abdominal, gases e estufamento.</p>\n\n<h3>A hidratação é indispensável</h3>\n<p>O consumo de qualquer suplemento de fibras deve ser acompanhado de ingestão adequada de líquidos. Essa é a recomendação mais enfática de todos os fabricantes e diretrizes clínicas [citation:1][citation:10].</p>\n\n<p>As fibras solúveis precisam de água para formar o gel que amolece as fezes. Sem hidratação suficiente, elas podem ter o efeito oposto: absorver a água disponível no intestino e tornar as fezes mais secas e endurecidas.</p>\n\n<p>Um estudo de caso documentou obstrução intestinal em um paciente que consumiu psyllium (outra fibra solúvel) sem quantidade adequada de água durante o jejum do Ramadã. O paciente precisou de atendimento hospitalar para resolver o quadro [citation:19].</p>\n\n<p>Esse caso ilustra a importância da hidratação. Embora seja um evento raro, serve como alerta de que fibras sem água podem ser prejudiciais.</p>\n\n<p>A recomendação geral é de 2 a 3 litros de líquido por dia para adultos, ajustando conforme peso, clima e nível de atividade física [citation:4].</p>\n\n<div id=\"container-imagem-3\" class=\"loading\">Carregando imagem...</div>\n\n<h2>Quais os benefícios das fibras solúveis?</h2>\n<p>As fibras solúveis presentes no Fibra Mais oferecem benefícios que vão além do funcionamento intestinal.</p>\n\n<p>Elas ajudam a regular o trânsito intestinal tanto em casos de constipação quanto de diarreia. Em constipação, formam gel que amolece as fezes. Em diarreia, absorvem o excesso de líquido e dão consistência ao bolo fecal [citation:12].</p>\n\n<p>Como prebióticos, alimentam as bactérias benéficas do cólon, favorecendo o equilíbrio da microbiota intestinal. Uma microbiota equilibrada está associada a melhor digestão, absorção de nutrientes e função imunológica [citation:5].</p>\n\n<p>As fibras solúveis também podem contribuir para a saciedade, pois formam gel no estômago e retardam o esvaziamento gástrico. Isso pode auxiliar no controle do apetite em dietas de emagrecimento.</p>\n\n<p>Além disso, estudos sugerem que fibras solúveis como a goma guar podem auxiliar no controle da glicemia e do colesterol, embora esse não seja o objetivo principal do suplemento.</p>\n\n<h3>Contraindicações e grupos de risco</h3>\n<p>O Fibra Mais, por ser um alimento, geralmente não apresenta contraindicações para a população em geral [citation:5]. No entanto, algumas situações exigem cautela.</p>\n\n<p>Pessoas com alergia ou intolerância a algum dos componentes da fórmula devem evitar o produto. O rótulo informa que o produto pode conter leite, trigo, cevada e aveia, por contaminação cruzada no processo industrial [citation:10].</p>\n\n<p>Pacientes com obstrução intestinal suspeita ou confirmada não devem usar suplementos de fibras sem orientação médica. As fibras aumentam o volume do conteúdo intestinal e podem agravar uma obstrução existente [citation:19].</p>\n\n<p>Pessoas com doenças inflamatórias intestinais em atividade, como doença de Crohn ou retocolite ulcerativa, devem consultar o médico antes de usar fibras fermentáveis. A inulina pode exacerbar sintomas em alguns casos.</p>\n\n<p>Gestantes, lactantes e crianças menores de 4 anos devem usar o produto apenas com orientação profissional.</p>\n\n<h2>Perguntas frequentes</h2>\n\n<h3>1. Fibra Mais engorda ou quebra o jejum?</h3>\n<p>Fibra Mais não engorda, pois não fornece calorias significativas. Também não quebra o jejum, já que contém apenas fibras não digeríveis e zero carboidratos absorvíveis.</p>\n\n<h3>2. Qual a diferença entre Fibra Mais em pó e Fibra Mais geleia?</h3>\n<p>O Fibra Mais em pó é composto por goma guar e inulina, sem sabor. A versão geleia contém extrato de ameixa e tamarindo, que adicionam sabor e podem ter efeito laxativo adicional. As duas versões têm propósitos semelhantes, mas a geleia é mais voltada para quem prefere um produto com sabor.</p>\n\n<h3>3. Como tomar o Fibra Mais para soltar o intestino preso?</h3>\n<p>Adicione a dose recomendada a um copo com água ou outro líquido e mexa até dissolver. Beba imediatamente. Aumente a ingestão de água ao longo do dia. O efeito pode levar de 12 a 72 horas para ser percebido [citation:8].</p>\n\n<h3>4. Fibra Mais causa gases e estufamento?</h3>\n<p>Sim, é possível. As fibras fermentáveis como a inulina podem causar gases e estufamento, especialmente no início do uso. A introdução gradual da dose ajuda a minimizar esse efeito. Se os sintomas persistirem, reduza a dose ou consulte um profissional.</p>\n\n<h3>5. Posso tomar Fibra Mais todos os dias?</h3>\n<p>Sim, o uso diário é seguro para a maioria das pessoas. O produto é indicado para uso contínuo, como parte de uma rotina de cuidados com o funcionamento intestinal. Mantenha a hidratação adequada.</p>\n\n<h2>Resumindo</h2>\n<p>Fibra Mais é um suplemento de fibras 100% solúveis composto por goma guar parcialmente hidrolisada e inulina. Ele auxilia o funcionamento intestinal e contribui para o equilíbrio da microbiota como prebiótico.</p>\n\n<p>O produto é sem sabor e pode ser adicionado a qualquer alimento ou bebida. A dose inicial para adultos é de 1 sachê por dia, progredindo até 3 sachês conforme tolerância. Crianças a partir de 4 anos podem usar doses menores sob orientação profissional.</p>\n\n<p>A hidratação adequada é indispensável ao usar qualquer suplemento de fibras. Sem água suficiente, as fibras podem piorar a constipação em vez de melhorá-la. Casos de obstrução intestinal já foram documentados com uso de fibras sem hidratação.</p>\n\n<p>Os benefícios incluem regulação do trânsito intestinal, efeito prebiótico, contribuição para saciedade e possível auxílio no controle glicêmico e de colesterol.</p>\n\n<p>Contraindicações incluem alergia aos componentes, obstrução intestinal e doenças inflamatórias intestinais em atividade. Gestantes, lactantes e crianças pequenas devem consultar um profissional antes de usar.</p>\n\n<h2>Fontes</h2>\n<ul>\n<li>FiberMais Sem Sabor (260g) - Nestlé Health Science. https://www.nestlehealthscience.com.br/marcas/fibermais/lata-260g</li>\n<li>Perguntas Frequentes - FiberMais. https://www.fibermais.com.br/perguntas-frequentes</li>\n<li>Fibra Mais 260g - PanVel Farmácias. https://www.panvel.com/panvel/suplemento-alimentar-de-fibras-fiber-mais-sem-sabor-260g/p-916980</li>\n<li>Suplemento Alimentar de Fibras Fibermais 260g - Drogaria Minas-Brasil. https://www.drogariaminasbrasil.com.br/saude/saude-e-bem-estar/flora-intestinal/constipacao-e-diarreia/fiber-mais-fibra-alimentar-260g</li>\n<li>Les fibres et les soins liés à l'élimination intestinale - University Health Network. https://www.uhn.ca/TorontoRehab/Spinal-Cord-Rehab/Spinal-Cord-Essentials/Documents/Self-Care/SCE2-Sb3-Fibre-Bowel-Care-FR.pdf</li>\n<li>Intestinal obstruction caused by a laxative drug (Psyllium): A case report and review of the literature - PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC6197948/pdf/main.pdf</li>\n<li><a href=\"https://www.gov.br/saude\" rel=\"noopener nofollow\" target=\"_blank\">Ministério da Saúde: alimentação saudável</a></li>\n</ul>\n\n<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>\n<p>Para ampliar o assunto, veja também <a href=\"/como-controlar-a-ansiedade/\">Como Controlar a Ansiedade: Estratégias Práticas 40+</a> e <a href=\"/colesterol-depois-dos-40/\">Como Baixar Colesterol: Guia Prático 40+</a>.</p>\n<h2>Quando procurar um médico</h2>\n<p>Procure um médico se os sintomas persistirem, piorarem ou vierem acompanhados de sinais de alerta. Quem usa medicamentos de uso contínuo, está grávida ou tem doença crônica deve conversar com o profissional de saúde antes de começar qualquer tratamento ou suplemento.</p>\n\n<h2>Fontes consultadas</h2>\n<p>As informações deste texto têm como base materiais da <a href=\"https://pmc.ncbi.nlm.nih.gov\" target=\"_blank\" rel=\"noopener\">PubMed Central (NIH)</a>, <a href=\"https://nestlehealthscience.com.br\" target=\"_blank\" rel=\"noopener\">nestlehealthscience.com.br</a> e da <a href=\"https://fibermais.com.br\" target=\"_blank\" rel=\"noopener\">fibermais.com.br</a>. Para conferir os temas, acesse o site oficial de cada instituição.</p>\n<h2>Fontes</h2>\n<ul>\n<li><a href=\"https://pmc.ncbi.nlm.nih.gov\" rel=\"noopener nofollow\" target=\"_blank\">PubMed Central (NIH)</a></li>\n<li><a href=\"https://nestlehealthscience.com.br\" rel=\"noopener nofollow\" target=\"_blank\">nestlehealthscience.com.br</a></li>\n<li><a href=\"https://fibermais.com.br\" rel=\"noopener nofollow\" target=\"_blank\">fibermais.com.br</a></li>\n</ul>\n<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>"
+}

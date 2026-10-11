@@ -1,0 +1,115 @@
+{
+ "slug": "queratose-pilar",
+ "title": "Queratose pilar: causas e tratamento",
+ "description": "Entenda a queratose pilar, as bolinhas ásperas nos braços e nas coxas: o que é, as causas, quando melhora, o que ajuda e quando vale procurar o médico.",
+ "primaryKeyword": "queratose pilar",
+ "cluster": null,
+ "volume": 60500,
+ "wordCount": 1512,
+ "readingTime": 8,
+ "sources": [
+  {
+   "title": "Manual MSD Versão Saúde para a Família, bolinhas nos folículos pilosos",
+   "url": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-da-pele/dist%C3%BArbios-da-queratiniza%C3%A7%C3%A3o/ceratose-pilosa"
+  },
+  {
+   "title": "Manual MSD Versão para Profissionais, alteração da queratinização folicular",
+   "url": "https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-dermatol%C3%B3gicos/dist%C3%BArbios-da-queratiniza%C3%A7%C3%A3o/queratose-pilar"
+  },
+  {
+   "title": "Rede D'Or São Luiz, bolinhas avermelhadas ou esbranquiçadas na pele",
+   "url": "https://www.rededorsaoluiz.com.br/doencas/queratose-pilar"
+  }
+ ],
+ "featuredImage": "/images/queratose-pilar/queratose-pilar-capa.jpg",
+ "imageAlt": "Close da pele da parte superior do braço, com textura áspera e pequenos pontos",
+ "imageCredit": {
+  "author": "https://kaboompics.com/",
+  "source": "Pexels",
+  "url": "https://www.pexels.com/photo/close-up-of-a-person-s-arm-8093227/",
+  "license": "Licença Pexels",
+  "licenseUrl": "https://www.pexels.com/license/"
+ },
+ "images": [
+  {
+   "src": "/images/queratose-pilar/mulher-aplicando-creme-hidratante-no-braco-com-a-palma-da-ma.jpg",
+   "alt": "Mulher aplicando creme hidratante no braço com a palma da mão",
+   "legenda": "Hidratantes específicos podem ajudar a achatar as bolinhas, segundo o Manual MSD.",
+   "secao": 9,
+   "width": 940,
+   "height": 627,
+   "credit": {
+    "author": "SHVETS production",
+    "source": "Pexels",
+    "url": "https://www.pexels.com/photo/woman-massaging-cosmetic-product-into-her-skin-9774600/",
+    "license": "Licença Pexels",
+    "licenseUrl": "https://www.pexels.com/license/"
+   }
+  },
+  {
+   "src": "/images/queratose-pilar/dermatologista-examinando-a-pele-do-braco-de-uma-paciente-em.jpg",
+   "alt": "Dermatologista examinando a pele do braço de uma paciente em consultório",
+   "legenda": "O diagnóstico se baseia no aspecto e na sensação da pele nas áreas típicas.",
+   "secao": 7,
+   "width": 940,
+   "height": 627,
+   "credit": {
+    "author": "Tima Miroshnichenko",
+    "source": "Pexels",
+    "url": "https://www.pexels.com/photo/a-person-in-white-coat-8376308/",
+    "license": "Licença Pexels",
+    "licenseUrl": "https://www.pexels.com/license/"
+   }
+  }
+ ],
+ "scores": {
+  "auditoria": 100,
+  "demanda": "alta",
+  "total": 100,
+  "decisao": "PUBLICAR",
+  "partes": {
+   "qualidade": 100,
+   "demanda": 100,
+   "fontes": 100,
+   "originalidade": 100,
+   "formato": 100,
+   "seguranca": 100
+  },
+  "atencao": []
+ },
+ "validador": "Auditoria automática (sem API); texto escrito fora do robô",
+ "validacao": {
+  "palavraChave": "queratose pilar",
+  "demanda": {
+   "volume": 60500,
+   "classe": "alta",
+   "tendencia": null,
+   "concorrencia": "LOW",
+   "fonte": "pele-volumes.json",
+   "fraseMedida": "queratose pilar",
+   "porSimilar": false
+  },
+  "volume": 60500,
+  "cluster": null,
+  "apoio": [],
+  "perguntasDoGoogle": [],
+  "concorrentes": "não informado (concorrente não conferido)",
+  "lacunasCobertas": [
+   "O quadro é comum e inofensivo, mas pode voltar quando o tratamento é suspenso.",
+   "O papel da hereditariedade e a ligação com a dermatite atópica.",
+   "Cremes com ácidos devem ser evitados em crianças pequenas, por causar ardor.",
+   "Por que costuma melhorar no verão e piorar no frio."
+  ],
+  "serp": null,
+  "fontesDaPauta": [
+   "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-da-pele/dist%C3%BArbios-da-queratiniza%C3%A7%C3%A3o/ceratose-pilosa",
+   "https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-dermatol%C3%B3gicos/dist%C3%BArbios-da-queratiniza%C3%A7%C3%A3o/queratose-pilar",
+   "https://www.rededorsaoluiz.com.br/doencas/queratose-pilar"
+  ],
+  "notas": "",
+  "briefing": null,
+  "validadoEm": "2026-10-10T19:47:19.019Z",
+  "observacao": "originalidade contra o concorrente não conferida automaticamente"
+ },
+ "content": "<p>A queratose pilar, também chamada de ceratose pilosa ou \"pele de galinha\", é um problema comum e inofensivo em que células mortas entopem os folículos e formam pequenos caroços ásperos. Segundo o <a href=\"https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-da-pele/dist%C3%BArbios-da-queratiniza%C3%A7%C3%A3o/ceratose-pilosa\" rel=\"noopener nofollow\" target=\"_blank\">Manual MSD</a>, só precisa de tratamento se incomodar.</p>\n<p>Os caroços costumam aparecer nos braços, nas coxas e nas nádegas, e a condição tende a voltar quando o tratamento é suspenso.</p>\n\n<h2>O que é a queratose pilar?</h2>\n<p>O Manual MSD descreve o problema como um distúrbio frequente, em que as células mortas se soltam da camada superior da pele e formam tampões. Eles obstruem os orifícios dos folículos pilosos.</p>\n<p>O manual para profissionais a define como uma alteração da queratinização, em que tampões córneos, feitos de queratina, preenchem os orifícios dos folículos.</p>\n<p>A <a href=\"https://www.rededorsaoluiz.com.br/doencas/queratose-pilar\" rel=\"noopener nofollow\" target=\"_blank\">Rede D'Or São Luiz</a> a descreve como bolinhas avermelhadas ou esbranquiçadas na pele, causadas pelo acúmulo de queratina nos folículos, e afirma que o quadro não é grave.</p>\n<p>O manual afirma que ela é comum e inofensiva.</p>\n\n<h2>Quais são os sintomas?</h2>\n<p>Os caroços são pequenos, da cor da pele ou vermelhos e secos. Eles surgem nos folículos e dão à pele uma sensação áspera, segundo o Manual MSD.</p>\n<p>Às vezes, têm tampões no centro que parecem pequenas espinhas. Em geral, não causam coceira nem dor e provocam só problemas estéticos, embora às vezes possam coçar.</p>\n<p>A pele ao redor também pode ficar vermelha, de acordo com o manual.</p>\n\n<h2>Onde os caroços aparecem?</h2>\n<p>A parte superior dos braços, as coxas e as nádegas são as áreas mais afetadas, segundo o manual. A face também pode ser afetada, especialmente em crianças.</p>\n<p>O manual para profissionais cita as faces laterais da parte superior dos braços, as coxas e as nádegas, e afirma que as lesões no rosto aparecem principalmente em crianças.</p>\n<p>Uma variante, a queratose pilar rubra, tem vermelhidão mais marcada, de acordo com o mesmo manual.</p>\n\n<h2>Por que aparece?</h2>\n<p>A causa exata não é conhecida, segundo o Manual MSD, mas a hereditariedade frequentemente tem um papel. O manual para profissionais cita um padrão de herança em que um dos pais pode transmitir a característica.</p>\n<p>Pessoas com dermatite atópica e alergias sazonais têm mais chance de desenvolver o quadro. Mesmo assim, ele não parece ser um distúrbio do sistema imunológico ou de hipersensibilidade.</p>\n<p>O <a href=\"https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-dermatol%C3%B3gicos/dist%C3%BArbios-da-queratiniza%C3%A7%C3%A3o/queratose-pilar\" rel=\"noopener nofollow\" target=\"_blank\">manual para profissionais</a> também cita associação com ictiose vulgar, obesidade e diabetes tipo 1. Associação não significa causa.</p>\n<p>Para conhecer sinais do diabetes, veja os <a href=\"/sintomas-de-diabetes/\">sintomas de diabetes</a>. Para entender o excesso de gordura abdominal, veja o guia sobre <a href=\"/o-que-e-gordura-visceral/\">gordura visceral</a>.</p>\n\n<h2>Roupas apertadas e pele seca influenciam?</h2>\n<p>A Rede D'Or São Luiz afirma que a produção de queratina pode ser estimulada pelo uso de roupas apertadas, por pele muito seca, por doenças hereditárias e por problemas de pele como a dermatite atópica.</p>\n<p>O Manual MSD não cita roupas apertadas. Por isso, esse ponto deve ser visto como uma observação de uma instituição de saúde, e não como causa comprovada.</p>\n<p>O que as duas fontes concordam é que o quadro não é grave.</p>\n\n<h2>Por que melhora no verão e piora no frio?</h2>\n<p>O Manual MSD afirma que os caroços ocorrem com mais frequência em climas frios e desaparecem no verão. O manual para profissionais diz que o quadro é mais marcado na época do frio e às vezes melhora no verão.</p>\n<p>As fontes consultadas não explicam o motivo dessa variação. Por isso, este guia não propõe uma explicação, e apenas registra o padrão descrito.</p>\n\n<h2>Como é feito o diagnóstico?</h2>\n<p>O diagnóstico é feito por um exame médico da pele. Geralmente, o médico se baseia no aspecto e na sensação da pele nas áreas tipicamente afetadas, segundo o Manual MSD.</p>\n<p>Não são citados exames de sangue ou de imagem como necessários.</p>\n<p>Por isso, bolinhas novas, que coçam muito ou que não têm o aspecto típico, merecem avaliação, em vez de tratamento por conta própria.</p>\n<figure class=\"article-figure\"><img src=\"/images/queratose-pilar/dermatologista-examinando-a-pele-do-braco-de-uma-paciente-em.jpg\" alt=\"Dermatologista examinando a pele do braço de uma paciente em consultório\" width=\"940\" height=\"627\" loading=\"lazy\" /><figcaption>O diagnóstico se baseia no aspecto e na sensação da pele nas áreas típicas. <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/a-person-in-white-coat-8376308/\" rel=\"noopener nofollow\" target=\"_blank\">Tima Miroshnichenko</a> / Pexels</span></figcaption></figure>\n<h2>Precisa tratar?</h2>\n<p>Segundo o manual, não é necessário tratamento, a menos que a pessoa se sinta incomodada pelo aspecto dos nódulos.</p>\n<p>O manual para profissionais afirma que o tratamento costuma ser insatisfatório, por causa da resposta variável. Além disso, é provável que o quadro volte quando o tratamento é suspenso, segundo o manual para a família.</p>\n<p>Por isso, a expectativa realista é melhorar a textura da pele, e não eliminá-la de vez.</p>\n\n<h2>O que pode ajudar?</h2>\n<p>O Manual MSD cita hidratantes especializados e outros cremes, géis e loções. Hidratantes com vaselina podem ajudar a achatar os nódulos.</p>\n<p>Também são citados produtos com ácidos, com ureia e, com prescrição médica, esfoliantes derivados da vitamina A. O manual diz ainda que alguns produtos aplicados na pele podem ser eficazes.</p>\n<p>Este guia não traz nomes de remédios nem doses. A escolha do produto cabe ao médico ou ao farmacêutico, de acordo com a pele de cada pessoa.</p>\n<p>Em casos de vermelhidão no rosto que incomodam, os médicos podem usar laser, segundo o manual.</p>\n<figure class=\"article-figure\"><img src=\"/images/queratose-pilar/mulher-aplicando-creme-hidratante-no-braco-com-a-palma-da-ma.jpg\" alt=\"Mulher aplicando creme hidratante no braço com a palma da mão\" width=\"940\" height=\"627\" loading=\"lazy\" /><figcaption>Hidratantes específicos podem ajudar a achatar as bolinhas, segundo o Manual MSD. <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/woman-massaging-cosmetic-product-into-her-skin-9774600/\" rel=\"noopener nofollow\" target=\"_blank\">SHVETS production</a> / Pexels</span></figcaption></figure>\n<h2>O quadro some sozinho?</h2>\n<p>As fontes divergem em parte. A Rede D'Or São Luiz afirma que, como a condição não é grave e pode desaparecer sozinha, nenhum tratamento é indicado.</p>\n<p>O <a href=\"https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-da-pele/dist%C3%BArbios-da-queratiniza%C3%A7%C3%A3o/ceratose-pilosa\" rel=\"noopener nofollow\" target=\"_blank\">Manual MSD</a> informa que os caroços tendem a desaparecer no verão e que é provável a volta quando o tratamento é suspenso.</p>\n<p>Na prática, isso sugere que a melhora pode ser passageira. Por isso, vale combinar com o médico o que esperar em cada caso.</p>\n\n<h2>O laser tem algum papel?</h2>\n<p>Sim, em situações específicas. O manual afirma que os médicos podem usar laser para tratar a vermelhidão facial, quando ela ocorre e incomoda a pessoa.</p>\n<p>O manual para profissionais acrescenta que certos tipos de laser foram usados com sucesso para tratar o rubor do rosto, especialmente em crianças com a variante rubra.</p>\n<p>O laser trata a vermelhidão, e não os caroços. Por isso, a indicação cabe ao dermatologista.</p>\n\n<h2>Mitos e verdades sobre a queratose pilar</h2>\n<h3>\"É uma alergia\"</h3>\n<p>Mito. O Manual MSD afirma que o quadro não parece ser um distúrbio alérgico, do sistema imunológico ou de hipersensibilidade, embora seja mais comum em quem tem dermatite atópica.</p>\n<h3>\"Só aparece nos braços\"</h3>\n<p>Mito. As áreas mais afetadas incluem os braços, as coxas e as nádegas, e a face também pode ser atingida, principalmente em crianças.</p>\n<h3>\"Precisa de tratamento\"</h3>\n<p>Nem sempre. O manual diz que o tratamento só é necessário se a aparência incomodar.</p>\n<h3>\"Melhora para sempre com um tratamento\"</h3>\n<p>Mito. É provável que o quadro volte quando o tratamento é suspenso, segundo o manual.</p>\n\n<h2>Quais cuidados valem para crianças?</h2>\n<p>O manual afirma que cremes com ácidos devem ser evitados em crianças pequenas, porque causam queimação e ardor.</p>\n<p>Em crianças, a face também pode ser afetada. Por isso, qualquer produto na pele de uma criança deve ser definido pelo pediatra ou pelo dermatologista.</p>\n<p>Não se deve aplicar produtos esfoliantes em casa nas bolinhas de crianças sem orientação, pelo risco de irritar a pele.</p>\n\n<h2>O que perguntar ao médico?</h2>\n<p>Levar perguntas objetivas ajuda a escolher com segurança. Estas sugestões se baseiam nas fontes citadas:</p>\n<ul>\n<li>Os caroços são mesmo queratose pilar?</li>\n<li>Preciso tratar, ou posso apenas observar?</li>\n<li>Quais produtos são adequados para o meu tipo de pele?</li>\n<li>O quadro pode voltar se eu parar o tratamento?</li>\n<li>Há algum cuidado especial se for para uma criança?</li>\n</ul>\n\n<h2>Perguntas frequentes sobre a queratose pilar</h2>\n<h3>Ela coça ou dói?</h3>\n<p>Em geral, não. O Manual MSD afirma que os caroços tipicamente não causam coceira nem dor, embora às vezes possam coçar.</p>\n<h3>É grave?</h3>\n<p>Não. O Manual MSD afirma que é comum e inofensiva, e a Rede D'Or São Luiz diz que não é uma condição grave.</p>\n<h3>Fica mais visível em algumas épocas?</h3>\n<p>Sim. Segundo o manual, ocorre com mais frequência em climas frios e desaparece no verão.</p>\n<h3>Crianças também podem ter?</h3>\n<p>Sim. O manual afirma que a face pode ser afetada, principalmente em crianças. Por isso, o pediatra ou o dermatologista deve orientar o cuidado.</p>\n<h3>Tem relação com diabetes ou com excesso de peso?</h3>\n<p>O manual para profissionais cita associação com obesidade e diabetes tipo 1, mas associação não é causa. Quem tem dúvidas deve conversar com o médico.</p>\n<h3>Tem relação com herança familiar?</h3>\n<p>A hereditariedade frequentemente tem um papel, segundo o manual, mas a causa exata não é conhecida.</p>\n\n<h2>Quando procurar um médico</h2>\n<p>Procure um dermatologista se houver dúvida sobre o diagnóstico, se as lesões coçarem, ficarem muito vermelhas ou se o incômodo estético for grande.</p>\n<p>Procure também antes de usar produtos com ácidos, principalmente em crianças pequenas. Nenhum cuidado em casa substitui a avaliação de um profissional de saúde.</p>\n\n<h2>Resumindo</h2>\n<p>A queratose pilar é um problema comum e inofensivo, com bolinhas ásperas nos braços, nas coxas e nas nádegas. A causa exata é desconhecida, e a hereditariedade tem um papel frequente.</p>\n<p>Só precisa de tratamento se incomodar, e a condição pode voltar quando ele é suspenso. Cremes com ácidos devem ser evitados em crianças pequenas. Em caso de dúvida, converse com um médico.</p>\n<h2>Fontes</h2>\n<ul>\n<li><a href=\"https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-da-pele/dist%C3%BArbios-da-queratiniza%C3%A7%C3%A3o/ceratose-pilosa\" rel=\"noopener nofollow\" target=\"_blank\">Manual MSD Versão Saúde para a Família, bolinhas nos folículos pilosos</a></li>\n<li><a href=\"https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-dermatol%C3%B3gicos/dist%C3%BArbios-da-queratiniza%C3%A7%C3%A3o/queratose-pilar\" rel=\"noopener nofollow\" target=\"_blank\">Manual MSD Versão para Profissionais, alteração da queratinização folicular</a></li>\n<li><a href=\"https://www.rededorsaoluiz.com.br/doencas/queratose-pilar\" rel=\"noopener nofollow\" target=\"_blank\">Rede D'Or São Luiz, bolinhas avermelhadas ou esbranquiçadas na pele</a></li>\n</ul>\n<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>"
+}
