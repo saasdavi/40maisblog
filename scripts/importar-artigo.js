@@ -11,27 +11,37 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIR = path.join(__dirname, '../data/entrada');
 import { demandaDe } from './demanda-lib.js';
 import { pontuar } from './pontuacao.js';
+import { ehSaidaGoogle, normalizarEntradaGoogle, lerFontes } from './lib/entrada-google.js';
 const MIN_SCORE = 85; // regra do usuário: nota mínima 8,5 de 10 (85/100)
 const de10 = (n) => (n / 10).toFixed(1).replace('.', ',');
 
 const slugify = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 const robot = new ArticleRobot();
-const arquivos = fs.existsSync(DIR) ? fs.readdirSync(DIR).filter((f) => f.endsWith('.txt') && f !== 'LEIA-ME.txt') : [];
+const lista = (sub) => { const d = path.join(DIR, sub); return fs.existsSync(d) ? fs.readdirSync(d).filter((f) => f.endsWith('.txt') && f !== 'LEIA-ME.txt').map((f) => path.join(sub, f)) : []; };
+const arquivos = [...lista(''), ...lista('google')]; // data/entrada/*.txt e data/entrada/google/*.txt (saída colada da IA do Google)
 if (!arquivos.length) { console.log('📥 Nada em data/entrada/.'); process.exit(0); }
 
 let guardados = 0;
 for (const nome of arquivos) {
   const caminho = path.join(DIR, nome);
-  const raw = fs.readFileSync(caminho, 'utf8').replace(/\r\n/g, '\n');
+  let raw = fs.readFileSync(caminho, 'utf8').replace(/\r\n/g, '\n');
   const relatorio = (linhas) => fs.writeFileSync(caminho.replace(/\.txt$/, '.relatorio.md'), `# ${nome}\n\n${linhas.map((l) => `- ${l}`).join('\n')}\n`);
   console.log(`\n📥 ${nome}`);
   try {
+    if (ehSaidaGoogle(raw)) { // saída colada da IA do Google: recorta a Fase 2 e converte para o formato do importador
+      const g = normalizarEntradaGoogle(raw, { artigos: robot.db.articles, publicados: robot.linksInternos(), precisaRevisao: (a) => robot.precisaRevisao(a) });
+      g.avisos.forEach((a) => console.log(`  ⚠️  ${a}`));
+      if (g.erros.length) throw new Error(g.erros.join('; '));
+      raw = g.texto;
+    }
     const d = robot.parse(raw);
     const get = (k) => (raw.slice(0, raw.indexOf('\n---\n')).match(new RegExp(`^${k}:\\s*(.+)$`, 'm')) || [])[1]?.trim();
     const keyword = get('PALAVRA_CHAVE');
     if (!keyword) throw new Error('falta PALAVRA_CHAVE no cabeçalho');
-    const fontes = [...raw.slice(0, raw.indexOf('\n---\n')).matchAll(/^FONTE:\s*(.+?)\s*\|\s*(https?:\/\/\S+)\s*$/gm)].map((m) => ({ title: m[1], url: m[2], texto: '' }));
+    const lf = lerFontes([...raw.slice(0, raw.indexOf('\n---\n')).matchAll(/^FONTE:\s*(.+)$/gm)].map((m) => m[1]));
+    if (lf.erros.length) throw new Error(lf.erros.join('; '));
+    const fontes = lf.fontes.map((f) => ({ title: f.title, url: f.url, texto: '' }));
     if (fontes.length < 2) throw new Error(`só ${fontes.length} FONTE(s); mínimo 2 (formato: FONTE: Título | https://...)`);
     const pauta = robot.kw.find((k) => k.keyword.toLowerCase() === keyword.toLowerCase()) || { keyword, volume: null, cluster: get('CLUSTER') || null };
     if (get('SLUG')) pauta.slug = get('SLUG'); // artigo revisado que substitui um do estoque com outro endereço
@@ -67,7 +77,7 @@ for (const nome of arquivos) {
     if (i >= 0) { art.createdAt = robot.db.articles[i].createdAt || art.createdAt; robot.db.articles[i] = art; } else robot.db.articles.push(art);
     robot.gravar();
     fs.mkdirSync(path.join(DIR, 'processados'), { recursive: true });
-    fs.renameSync(caminho, path.join(DIR, 'processados', nome));
+    fs.renameSync(caminho, path.join(DIR, 'processados', path.basename(nome)));
     fs.rmSync(caminho.replace(/\.txt$/, '.relatorio.md'), { force: true });
     guardados++;
     console.log(`  📦 guardado no estoque: /${art.slug}/ (nota ${de10(aud.nota)}/10)`);
