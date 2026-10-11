@@ -111,3 +111,6 @@ O robô publica sozinho qualquer pauta com SERP fácil e fontes; **`revisar: tru
 - Nunca colocar chaves no chat nem em arquivo versionado: só como secret do repositório.
 - Resultados do HYPD expiram em 24 h: ingerir no mesmo dia.
 - Cada checagem do Google gasta bastante contexto: lotes pequenos, uma frase por chamada.
+
+## Programação diária (2026-10-11)
+1 artigo novo com Gemini (reserva Claude, pesquisa SerpAPI antes) + 2 do estoque pronto, sem IA. Detalhes e secrets na seção 18 de `ESTRATEGIA-E-FLUXO-AUTOMATICO.md`. Falta o usuário criar `GEMINI_API_KEY` e `SERP_API_KEY` em Settings > Secrets > Actions.

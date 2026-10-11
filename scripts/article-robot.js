@@ -7,7 +7,8 @@
  *   -> validador (Claude, 2ª chamada) -> imagem (Pexels) -> publica
  * Máximo 2 voltas por artigo; reprovado vira draft (nunca vai ao ar).
  *
- * Env: ANTHROPIC_API_KEY (obrigatória) | PEXEL_API_KEY (imagem) | BATCH_SIZE (padrão 1)
+ * Env: ANTHROPIC_API_KEY (validador e reserva do redator) | GEMINI_API_KEY (redator principal, opcional) | PEXEL_API_KEY (imagem) | BATCH_SIZE (padrão 1)
+ *      NOVO_COM_IA=1 (1 artigo novo escrito por IA e publicado; senão só publica do estoque) | SEM_API=1 (só estoque)
  *      ROBOT_MODEL (redator, padrão Haiku 4.5) | VALIDATOR_MODEL (padrão Haiku 4.5) | DRY_RUN=1 (não grava) | ALLOW_NO_IMAGE=1 (só para teste local)
  */
 
@@ -34,6 +35,13 @@ const ESTOQUE = process.env.ESTOQUE === '1';
 // SEM_API=1: só publica do estoque (artigos escritos fora); nunca chama a API de escrita nem exige chave.
 const SEM_API = process.env.SEM_API === '1';
 const ESTOQUE_ALVO = Number(process.env.ESTOQUE_ALVO || 21);
+// NOVO_COM_IA=1: escreve 1 artigo novo da fila com IA (Gemini primeiro; Claude assume se o Gemini falhar ou reprovar) e publica na hora.
+// Sem isso, a execução só publica do estoque. Programação do dia: 1 execução NOVO_COM_IA + as outras publicando do estoque (SEM_API=1).
+const NOVO_COM_IA = process.env.NOVO_COM_IA === '1';
+const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-3.8-flash';
+const MAX_GEMINI_CHAMADAS_DIA = Number(process.env.MAX_GEMINI_CALLS_PER_DAY || 50);
+// Estado do dia do redator: depois que o Gemini falha (cota, erro, reprovação), o resto do dia segue no Claude.
+const LLM_ESTADO = process.env.LLM_ESTADO || path.join(__dirname, '../data/llm-estado.json');
 const WRITER_MODEL = process.env.ROBOT_MODEL || 'claude-haiku-4-5-20251001';
 const VALIDATOR_MODEL = process.env.VALIDATOR_MODEL || 'claude-haiku-4-5-20251001';
 const MIN_SCORE = 80;
@@ -139,6 +147,12 @@ class ArticleRobot {
     livres.sort((a, b) => espera(a) - espera(b) || (a.cluster === ultima ? 1 : 0) - (b.cluster === ultima ? 1 : 0) || b.volume - a.volume);
     // o teto diário (DAILY_LIMIT) limita só a PUBLICAÇÃO; escrever para o estoque usa o lote inteiro
     return livres.slice(0, ESTOQUE ? BATCH_SIZE : Math.min(BATCH_SIZE, this.restanteHoje()));
+  }
+
+  // Já saiu hoje (dia de Brasília) o artigo novo escrito por IA? Então as outras execuções só publicam do estoque.
+  novoHoje() {
+    const inicio = new Date(new Date(Date.now() - 3 * 3600 * 1000).toISOString().slice(0, 10) + 'T03:00:00Z').getTime();
+    return this.db.articles.some(a => a.status === 'published' && a.escritoPor && Date.parse(a.publishedAt) >= inicio);
   }
 
   // Quantos artigos ainda cabem hoje (dia de Brasília, UTC-3) pelo teto DAILY_LIMIT
@@ -298,10 +312,52 @@ class ArticleRobot {
     fs.writeFileSync(METRICS_FILE, JSON.stringify(hist, null, 2));
   }
 
+  // Estado do redator no dia de Brasília: { data, provedor: null|'claude', chamadas } em data/llm-estado.json
+  estadoLLM() {
+    const hoje = new Date(Date.now() - 3 * 3600 * 1000).toISOString().slice(0, 10);
+    try { const e = JSON.parse(fs.readFileSync(LLM_ESTADO, 'utf8')); if (e.data === hoje) return e; } catch { /* sem estado de hoje */ }
+    return { data: hoje, provedor: null, chamadas: 0 };
+  }
+  gravarEstadoLLM(e) { fs.mkdirSync(path.dirname(LLM_ESTADO), { recursive: true }); fs.writeFileSync(LLM_ESTADO, JSON.stringify(e)); }
+  // O Gemini escreveu e o artigo foi reprovado: o Claude assume as próximas voltas e o resto do dia.
+  geminiFalhou() {
+    if (this.provedorUsado !== 'gemini') return;
+    const e = this.estadoLLM(); e.provedor = 'claude'; this.gravarEstadoLLM(e);
+    console.log('  ↪️  artigo do Gemini reprovado: o Claude assume a pauta e o resto do dia');
+  }
+
+  async gemini(prompt) {
+    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', 'x-goog-api-key': (process.env.GEMINI_API_KEY || '').trim() },
+      body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
+    });
+    if (!res.ok) throw new Error(`Gemini API ${res.status}: ${(await res.text()).slice(0, 300)}`);
+    const j = await res.json();
+    const cand = j.candidates?.[0];
+    const texto = (cand?.content?.parts || []).map(x => x.text || '').join('').trim();
+    if (!texto) throw new Error('Gemini: resposta vazia');
+    this.registrarUso(GEMINI_MODEL, 'redator', { input_tokens: j.usageMetadata?.promptTokenCount, output_tokens: j.usageMetadata?.candidatesTokenCount });
+    if (cand?.finishReason === 'MAX_TOKENS') throw new Error('Gemini: resposta truncada');
+    return texto;
+  }
+
+  // Gemini primeiro (se houver chave, não tiver falhado hoje e estiver dentro do teto de chamadas); qualquer erro passa ao Claude.
+  async redigir(prompt, limite) {
+    const e = this.estadoLLM();
+    if ((process.env.GEMINI_API_KEY || '').trim() && e.provedor !== 'claude' && e.chamadas < MAX_GEMINI_CHAMADAS_DIA) {
+      e.chamadas++; this.gravarEstadoLLM(e);
+      try { const t = await this.gemini(prompt); this.provedorUsado = 'gemini'; return t; }
+      catch (err) { console.log(`  ↪️  Gemini falhou, o Claude assume e fica com o resto do dia: ${err.message}`); e.provedor = 'claude'; this.gravarEstadoLLM(e); }
+    }
+    this.provedorUsado = 'claude';
+    return await this.claude(prompt, limite);
+  }
+
   async escrever(prompt) {
     let limite = 16000;
     for (let t = 1; t <= 3; t++) {
-      try { return await this.claude(prompt, limite); }
+      try { return await this.redigir(prompt, limite); }
       catch (e) { if (e.message !== 'TRUNCADO' || t === 3) throw e; limite = Math.min(limite * 2, 48000); console.log(`  ↻ resposta truncada, repetindo com limite ${limite}`); }
     }
   }
@@ -511,12 +567,13 @@ Responda SOMENTE com um objeto JSON válido (sem texto antes ou depois, sem cerc
       const aud = this.auditar(art, fontesLidas);
       console.log(`  volta ${volta}: ${art.wordCount} palavras | auditoria ${aud.nota}/100${aud.bloqueios.length ? ' | BLOQUEIOS: ' + aud.bloqueios.join('; ') : ''}`);
       aud.alertas.forEach(x => console.log(`     · ${x}`));
-      if (aud.bloqueios.length || aud.nota < MIN_SCORE) { devolucao = [...aud.bloqueios, ...aud.alertas]; ultimo = { art, motivos: devolucao }; continue; }
+      if (aud.bloqueios.length || aud.nota < MIN_SCORE) { devolucao = [...aud.bloqueios, ...aud.alertas]; ultimo = { art, motivos: devolucao }; this.geminiFalhou(); continue; }
       const v = await this.validar(art, fontesLidas);
       console.log(`  validador: ${v.decisao}${v.motivos?.length ? ' — ' + v.motivos.join(' | ') : ''}`);
       if (v.decisao === 'APROVADO') { art.scores = { auditoria: aud.nota }; art.validador = 'APROVADO'; delete art.bodyOriginal; return art; }
       devolucao = v.motivos || ['validador devolveu'];
       ultimo = { art, motivos: devolucao };
+      this.geminiFalhou();
     }
     delete ultimo.art.bodyOriginal; delete ultimo.art._substitui;
     ultimo.art.status = 'draft';
@@ -651,15 +708,19 @@ Responda SOMENTE com um objeto JSON válido (sem texto antes ou depois, sem cerc
     console.log(`\n🤖 ARTICLE ROBOT — ${new Date().toISOString()}`);
     if (!ESTOQUE) {
       if (this.restanteHoje() === 0) { console.log(`⏸️  Teto do dia atingido (${DAILY_LIMIT} artigos publicados hoje). Nada a fazer.`); return this.stats; }
-      const n = await this.publicarDoEstoque(BATCH_SIZE);
-      if (n > 0) { this.gravar(); console.log(`\n📦 ${n} artigo(s) publicado(s) do estoque (${this.prontosNoEstoque().length} ainda guardados).`); return this.stats; }
-      if (SEM_API) {
-        const aguardando = this.prontosNoEstoque().length;
-        console.log(aguardando ? `📷 ${aguardando} artigo(s) no estoque aguardam foto (limite das APIs de imagem): nada publicado agora, tenta de novo na próxima execução.` : '📦 Estoque vazio e SEM_API=1: nada a publicar (sem gasto de API). Importe mais artigos em data/entrada/.');
-        this.gravar();
-        return this.stats;
+      if (NOVO_COM_IA && !this.novoHoje()) {
+        console.log(`✍️  NOVO_COM_IA: 1 artigo novo da fila, escrito por ${(process.env.GEMINI_API_KEY || '').trim() ? 'Gemini (Claude de reserva)' : 'Claude (sem GEMINI_API_KEY)'}; o estoque publica nas outras execuções.`);
+      } else {
+        const n = await this.publicarDoEstoque(BATCH_SIZE);
+        if (n > 0) { this.gravar(); console.log(`\n📦 ${n} artigo(s) publicado(s) do estoque (${this.prontosNoEstoque().length} ainda guardados).`); return this.stats; }
+        if (SEM_API) {
+          const aguardando = this.prontosNoEstoque().length;
+          console.log(aguardando ? `📷 ${aguardando} artigo(s) no estoque aguardam foto (limite das APIs de imagem): nada publicado agora, tenta de novo na próxima execução.` : '📦 Estoque vazio e SEM_API=1: nada a publicar (sem gasto de API). Importe mais artigos em data/entrada/.');
+          this.gravar();
+          return this.stats;
+        }
+        console.log('📦 Estoque vazio: escrevendo e publicando na hora.');
       }
-      console.log('📦 Estoque vazio: escrevendo e publicando na hora.');
     } else {
       const faltam = ESTOQUE_ALVO - this.prontosNoEstoque().length;
       if (faltam <= 0) { console.log(`📦 Estoque cheio (${this.prontosNoEstoque().length}/${ESTOQUE_ALVO}). Nada a escrever.`); return this.stats; }
@@ -676,10 +737,23 @@ Responda SOMENTE com um objeto JSON válido (sem texto antes ou depois, sem cerc
         const art = await this.produzir(p);
         if (!art) { this.stats.failed++; registrar('reprovado'); console.log('  ⛔ reprovado após 2 voltas, não publicado'); continue; }
         this.stats.approved++;
-        if (!(await this.imagem(art))) { this.stats.failed++; registrar('sem imagem'); continue; }
+        if (!(await this.imagem(art))) {
+          if (NOVO_COM_IA) { // sem foto agora (limite das APIs de imagem): guarda no estoque; a foto é buscada na hora de publicar
+            for (const k of ['featuredImage', 'imageAlt', 'imageCredit', 'images', 'imageIds']) delete art[k];
+            Object.assign(art, { fotoPendente: true, status: 'draft', estoque: true, estocadoEm: new Date().toISOString(), escritoPor: this.provedorUsado || 'claude' });
+            delete art._substitui;
+            this.db.articles.push(art);
+            this.stats.estocados = (this.stats.estocados || 0) + 1;
+            registrar('sem foto: guardado no estoque');
+            console.log(`  📷 sem foto agora: guardado no estoque (/${art.slug}/); a foto é buscada na hora de publicar`);
+            continue;
+          }
+          this.stats.failed++; registrar('sem imagem'); continue;
+        }
         registrar('aprovado');
         const agora = new Date().toISOString();
         art.status = ESTOQUE ? 'draft' : 'published';
+        if (NOVO_COM_IA) art.escritoPor = this.provedorUsado || 'claude';
         if (ESTOQUE) {
           art.estoque = true; art.estocadoEm = agora;
           // ficha de validação: por que esta pauta foi aprovada e o que o topo do Google mostra (copiada do briefing e da pauta)
@@ -709,7 +783,7 @@ Responda SOMENTE com um objeto JSON válido (sem texto antes ou depois, sem cerc
     this.gravar();
     this.relatorioCusto();
     console.log(`\n📊 gerados ${this.stats.generated} | aprovados ${this.stats.approved} | publicados ${this.stats.published} | falhas ${this.stats.failed}`);
-    if ((ESTOQUE ? (this.stats.estocados || 0) : this.stats.published) === 0) process.exitCode = 1;
+    if ((ESTOQUE ? (this.stats.estocados || 0) : this.stats.published + (NOVO_COM_IA ? (this.stats.estocados || 0) : 0)) === 0) process.exitCode = 1;
     return this.stats;
   }
 }
