@@ -1,19 +1,53 @@
-// Pesquisa manual de UMA palavra-chave na SerpAPI (Google Brasil). Não usa as regras do robô:
-// não pula por estoque, não gera briefing, não mexe na fila de pautas.
+// Pesquisa manual de UMA palavra-chave na SerpAPI (Google Brasil) e leitura dos concorrentes.
+// Não usa as regras do robô: não pula por estoque, não gera briefing, não mexe na fila de pautas.
 //   SERP_API_KEY=... PALAVRA="melatonina" node scripts/pesquisa-serp-manual.js
 // Grava data/entrada/pautas-chat_01/resposta/<slug>.json e o contador uso-serpapi.json na mesma pasta.
+// A busca usa 1 consulta da SerpAPI. As páginas são lidas direto (sem custo), respeitando robots.txt.
 import fs from 'fs';
 
 const PALAVRA = (process.env.PALAVRA || '').trim();
 const CHAVE = (process.env.SERP_API_KEY || '').trim();
 const LIMITE_MES = Number(process.env.SERPAPI_LIMITE_MES || 240);
 const VALIDADE_DIAS = 14;
-// Tudo fica nesta pasta: resultado e contador de cota (senão a cota zera a cada execução).
 const PASTA = 'data/entrada/pautas-chat_01/resposta';
 const USO_FILE = `${PASTA}/uso-serpapi.json`;
+const UA = 'MenteCuriosaBot/1.0 (+https://www.mentecuriosa.blog)';
+const PAUSA_MS = 2000;
+// fora dos concorrentes: vídeo, rede social, loja, buscador e enciclopédia
+const EXCLUIDOS = /(youtube\.com|youtu\.be|instagram\.com|facebook\.com|tiktok\.com|twitter\.com|x\.com|reddit\.com|linkedin\.com|pinterest\.com|wikipedia\.org|amazon\.|mercadolivre\.|shopee\.|google\.)/i;
 
 const slug = (s) => s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const lerJson = (p, fb) => { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return fb; } };
+const semTags = (h) => h.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<!--[\s\S]*?-->/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&[a-z#0-9]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+const esperar = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// robots.txt: se não der para ler, não lê a página (mesma regra do enriquecer_serp.py)
+async function podeLer(link) {
+  const u = new URL(link);
+  try {
+    const r = await fetch(`${u.protocol}//${u.host}/robots.txt`, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(10000) });
+    if (r.status === 404) return true;
+    if (!r.ok) return false;
+    const bloco = (await r.text()).split(/\n\s*\n/).find((b) => /user-agent:\s*(\*|menteculiosa)/i.test(b)) || '';
+    const proibidos = [...bloco.matchAll(/^disallow:\s*(\S*)/gim)].map((m) => m[1]).filter(Boolean);
+    return !proibidos.some((p) => u.pathname.startsWith(p));
+  } catch { return false; }
+}
+
+async function lerPagina(link) {
+  if (!(await podeLer(link))) return { lida: false, motivo: 'robots.txt não permite ou não foi possível ler' };
+  try {
+    const r = await fetch(link, { headers: { 'User-Agent': UA }, redirect: 'follow', signal: AbortSignal.timeout(15000) });
+    if (!r.ok) return { lida: false, motivo: `HTTP ${r.status}` };
+    const html = await r.text();
+    const h2 = [...html.matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>/gi)].map((m) => semTags(m[1])).filter((t) => t && t.length <= 120).slice(0, 12);
+    const titulo = semTags((html.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || '');
+    const palavras = semTags(html).split(' ').filter(Boolean).length;
+    return { lida: true, titulo, h2, palavras };
+  } catch (e) {
+    return { lida: false, motivo: e.message };
+  }
+}
 
 async function main() {
   if (!PALAVRA) throw new Error('PALAVRA vazia: informe a palavra-chave no workflow.');
@@ -42,14 +76,19 @@ async function main() {
     throw new Error(`SerpAPI ${r.status}: ${(j.error || 'resposta sem status Success').replace(CHAVE, '***')}`);
   }
 
-  const organicos = (j.organic_results || []).slice(0, 5).map((o, i) => ({
-    posicao: i + 1, titulo: o.title || '', link: o.link || '', trecho: o.snippet || '',
-  }));
+  const concorrentes = (j.organic_results || []).filter((o) => o.link && !EXCLUIDOS.test(new URL(o.link).hostname)).slice(0, 5);
+  const paginas = [];
+  for (const [i, o] of concorrentes.entries()) {
+    const leitura = await lerPagina(o.link);
+    paginas.push({ posicao: i + 1, titulo: o.title || '', link: o.link, trecho: o.snippet || '', ...leitura });
+    await esperar(PAUSA_MS);
+  }
+
   const resultado = {
     palavra: PALAVRA,
     data: hoje,
     fonte: 'SerpAPI (Google Brasil)',
-    organicos,
+    concorrentes: paginas,
     perguntas: (j.related_questions || []).map((q) => q.question).filter(Boolean),
     relacionadas: (j.related_searches || []).map((q) => q.query).filter(Boolean),
     ai_overview: !!j.ai_overview,
@@ -59,7 +98,8 @@ async function main() {
   fs.writeFileSync(arquivo, JSON.stringify(resultado, null, 1));
   uso.buscas++;
   fs.writeFileSync(USO_FILE, JSON.stringify(uso));
-  console.log(`"${PALAVRA}": ${organicos.length} resultados, ${resultado.perguntas.length} perguntas, ${resultado.relacionadas.length} relacionadas. Busca ${uso.buscas}/${LIMITE_MES} no mês. Gravado em ${arquivo}`);
+  const lidas = paginas.filter((p) => p.lida).length;
+  console.log(`"${PALAVRA}": ${paginas.length} concorrentes, ${lidas} lidas de verdade, ${resultado.perguntas.length} perguntas. Busca ${uso.buscas}/${LIMITE_MES} no mês. Gravado em ${arquivo}`);
 }
 
 main().catch((e) => { console.error('❌', e.message); process.exit(1); });
