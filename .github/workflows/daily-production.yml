@@ -73,7 +73,9 @@ jobs:
         continue-on-error: true   # se o artigo novo falhar, o estoque completa os 3 do dia
         env:
           # execução sem NOVO: publica do estoque (sem IA); só escreve com a API quando o estoque pronto acabou
-          NOVO_COM_IA: ${{ env.NOVO }}
+          # Pausado: sem escrita por IA (Gemini/Claude). Só publica do estoque pronto e do que o ChatGPT entregar.
+          NOVO_COM_IA: ''
+          SEM_API: '1'
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GOOGLE_ADS_CLIENT_ID: ${{ secrets.GOOGLE_ADS_CLIENT_ID }}

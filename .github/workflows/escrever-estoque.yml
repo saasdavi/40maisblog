@@ -27,6 +27,8 @@ permissions:
 
 jobs:
   estoque:
+    # Pausado (decisão do dono): não escreve com API. Arquivo mantido, não apagar.
+    if: false
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
