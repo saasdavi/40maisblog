@@ -1,28 +1,26 @@
 # Pautas do CHATGPT-01
 
-Gerado por `scripts/pautas-chat.js` em 2026-10-11. 225 temas só deste agente (nenhum outro ChatGPT recebe estes), ≈ 75 dias a 3 por dia. Lista completa em `PAUTAS.csv` (mesma pasta).
+Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 temas no total: as 225 pautas originais deste agente, seguidas das sobras da `data/conteudo/pautas-mestre.csv` (sem repetição). Lista completa em `PAUTAS.csv` (mesma pasta).
 
-**Como usar:** a cada dia, pegue os **3 primeiros** desta lista, escreva seguindo `data/entrada/google/LEIA-ME.md` e entregue cada um em `data/entrada/google/` com o nome da coluna "Arquivo". A lista se atualiza sozinha: tema entregue ou que virou artigo sai daqui.
+**Como usar:** a cada dia, pegue os **3 primeiros pendentes** desta lista, escreva seguindo `data/entrada/google/LEIA-ME.md` e entregue cada um em `data/entrada/google/` com o nome da coluna "Arquivo".
 
-Os "subtemas" são buscas da mesma família: viram seções `<h2>` do mesmo artigo, não artigos novos.
-
-**Antes de escrever, confira a intenção no Google.** Se a palavra for ambígua (ex.: "melissa" também é marca de calçado), escreva sobre o sentido de saúde usando o subtema como guia ("melissa para que serve"). Se a busca não for de saúde, pule o tema e siga para o próximo.
+**Antes de escrever, confira a intenção no Google.** Se a palavra for ambígua, escreva sobre o sentido de saúde. Se a busca não for de saúde, pule o tema e siga para o próximo.
 
 | Nº | Palavra-chave | Arquivo | Buscas/mês | Subtemas (H2) | Atenção |
 |---|---|---|---|---|---|
 | 1 | melissa | `melissa.txt` | 673000 | melissa para que serve |  |
-| 2 | coenzima q10 | `coenzima-q10.txt` | 201000 | coenzima q10 para que serve / coenzima q10 efeitos colaterais |  |
+| 2 | coenzima q10 | `coenzima-q10.txt` | 201000 | coenzima q10 para que serve | coenzima q10 efeitos colaterais |  |
 | 3 | metilcobalamina | `metilcobalamina.txt` | 165000 | metilcobalamina para que serve |  |
 | 4 | foliculite | `foliculite.txt` | 165000 | — |  |
 | 5 | ginkgo biloba | `ginkgo-biloba.txt` | 110000 | ginkgo biloba para que serve |  |
 | 6 | própolis | `propolis.txt` | 110000 | própolis para que serve |  |
-| 7 | dieta cetogênica | `dieta-cetogenica.txt` | 90500 | dieta cetogênica cardapio / dieta cetogenica como funciona / dieta cetogênica como fazer / dieta cetogenica alimentos / dieta cetogenica o que é |  |
-| 8 | finasterida | `finasterida.txt` | 90500 | finasterida efeitos colaterais |  |
-| 9 | insulínica | `insulinica.txt` | 90500 | — |  |
+| 7 | dieta cetogênica | `dieta-cetogenica.txt` | 90500 | dieta cetogênica cardapio | dieta cetogenica como funciona | dieta cetogênica como fazer | dieta cetogenica alimentos | dieta cetogenica o que é |  |
+| 8 | finasterida | `finasterida.txt` | 90500 | finasterida efeitos colaterais | sensível: só publica com `REVISADO: sim` |
+| 9 | insulínica | `insulinica.txt` | 90500 | — | sensível: só publica com `REVISADO: sim` |
 | 10 | triptofano | `triptofano.txt` | 60500 | triptofano para que serve |  |
 | 11 | bursite | `bursite.txt` | 74000 | — |  |
 | 12 | vitamina b6 | `vitamina-b6.txt` | 49500 | vitamina b6 para que serve |  |
-| 13 | l carnitina | `l-carnitina.txt` | 49500 | l carnitina para que serve / l carnitina emagrece |  |
+| 13 | l carnitina | `l-carnitina.txt` | 49500 | l carnitina para que serve | l carnitina emagrece |  |
 | 14 | cromo | `cromo.txt` | 49500 | cromo para que serve |  |
 | 15 | chas que emagrecem | `chas-que-emagrecem.txt` | 60500 | — |  |
 | 16 | potássio | `potassio.txt` | 49500 | potássio para que serve |  |
@@ -35,7 +33,7 @@ Os "subtemas" são buscas da mesma família: viram seções `<h2>` do mesmo arti
 | 23 | câimbras | `caimbras.txt` | 33100 | — |  |
 | 24 | chlorella | `chlorella.txt` | 27100 | chlorella para que serve |  |
 | 25 | caspa | `caspa.txt` | 22200 | caspa o que é |  |
-| 26 | dieta do ovo | `dieta-do-ovo.txt` | 18100 | dieta do ovo 7kg em 7 dias / dieta do ovo cozido |  |
+| 26 | dieta do ovo | `dieta-do-ovo.txt` | 18100 | dieta do ovo 7kg em 7 dias | dieta do ovo cozido |  |
 | 27 | cabelos grisalhos | `cabelos-grisalhos.txt` | 22200 | — |  |
 | 28 | tendinite no ombro | `tendinite-no-ombro.txt` | 22200 | — |  |
 | 29 | astaxantina | `astaxantina.txt` | 22200 | astaxantina para que serve |  |
@@ -56,10 +54,10 @@ Os "subtemas" são buscas da mesma família: viram seções `<h2>` do mesmo arti
 | 44 | suco detox emagrece | `suco-detox-emagrece.txt` | 9900 | — |  |
 | 45 | okralin | `okralin.txt` | 12100 | okralin para que serve |  |
 | 46 | sopa para emagrecer | `sopa-para-emagrecer.txt` | 8100 | — |  |
-| 47 | ureia no creme | `ureia-no-creme.txt` | 8100 | — |  |
+| 47 | ureia no creme | `ureia-no-creme.txt` | 8100 | — | sensível: só publica com `REVISADO: sim` |
 | 48 | silício orgânico | `silicio-organico.txt` | 8100 | silício orgânico para que serve |  |
 | 49 | vitaminas para homens | `vitaminas-para-homens.txt` | 8100 | — |  |
-| 50 | gordura na barriga como perder | `gordura-na-barriga-como-perder.txt` | 3600 | gordura na barriga / gordura da barriga como eliminar |  |
+| 50 | gordura na barriga como perder | `gordura-na-barriga-como-perder.txt` | 3600 | gordura na barriga | gordura da barriga como eliminar |  |
 | 51 | albumina para que serve | `albumina-para-que-serve.txt` | 9900 | — |  |
 | 52 | proteina vegana | `proteina-vegana.txt` | 6600 | — |  |
 | 53 | alopecia frontal fibrosante | `alopecia-frontal-fibrosante.txt` | 6600 | — |  |
