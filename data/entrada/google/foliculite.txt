@@ -6,9 +6,9 @@ FOTO1_ALT: Pessoa higienizando suavemente a pele durante a rotina de cuidados
 FOTO1_SECAO: 2
 FOTO2_ALT: Dermatologista examinando a pele de uma pessoa em consulta
 FOTO2_SECAO: 5
-FONTE: Folliculitis — MedlinePlus Medical Encyclopedia | https://medlineplus.gov/ency/article/000823.htm
-FONTE: Acne-like breakouts could be folliculitis — American Academy of Dermatology | https://staging.aad.org/public/diseases/a-z/folliculitis
-FONTE: Hot tub folliculitis — MedlinePlus Medical Encyclopedia | https://medlineplus.gov/ency/article/001460.htm
+FONTE: Folliculitis | MedlinePlus Medical Encyclopedia | https://medlineplus.gov/ency/article/000823.htm
+FONTE: Acne-like breakouts could be folliculitis | American Academy of Dermatology | https://staging.aad.org/public/diseases/a-z/folliculitis
+FONTE: Hot tub folliculitis | MedlinePlus Medical Encyclopedia | https://medlineplus.gov/ency/article/001460.htm
 NOTA_CHAT: 9,1
 ---
 <p>Foliculite é a inflamação de um ou mais folículos pilosos, estruturas de onde nascem os pelos. Pode causar bolinhas vermelhas, coceira ou pequenas pústulas. O tratamento depende da causa, por isso nem toda lesão deve receber a mesma pomada.</p>
