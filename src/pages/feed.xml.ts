@@ -13,6 +13,17 @@ const escapaXml = (s: string) =>
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&apos;');
 
+// Imagem de capa do artigo: testa os nomes de campo mais comuns.
+const imagemDoArtigo = (a: any): string => {
+  const img = a.imagem ?? a.image ?? a.cover ?? a.featuredImage ?? '';
+  if (!img) return '';
+  try {
+    return new URL(String(img), SITE.url).href;
+  } catch {
+    return '';
+  }
+};
+
 export const GET: APIRoute = () => {
   const artigos = artigosPublicados().slice(0, ITENS);
   const ultimo = artigos[0]?.publishedAt ? new Date(artigos[0].publishedAt) : new Date();
@@ -21,12 +32,14 @@ export const GET: APIRoute = () => {
     .map((a) => {
       const link = new URL(`/${a.slug}`, SITE.url).href;
       const pubDate = a.publishedAt ? new Date(a.publishedAt).toUTCString() : '';
+      const imagem = imagemDoArtigo(a);
       return `    <item>
       <title>${escapaXml(a.title)}</title>
       <link>${link}</link>
       <guid isPermaLink="true">${link}</guid>
       <description>${escapaXml(a.description)}</description>
-      <category>${escapaXml(a.tema.nome)}</category>${pubDate ? `
+      <category>${escapaXml(a.tema.nome)}</category>${imagem ? `
+      <enclosure url="${escapaXml(imagem)}" type="image/jpeg" />` : ''}${pubDate ? `
       <pubDate>${pubDate}</pubDate>` : ''}
     </item>`;
     })
