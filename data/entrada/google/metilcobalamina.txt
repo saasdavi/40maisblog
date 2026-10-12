@@ -67,6 +67,7 @@ NOTA_CHAT: 9,2
 <p>O objetivo é garantir uma fonte adequada e consistente, não escolher uma forma de suplemento pela promessa de ser mais natural. A decisão deve levar em conta a dieta, o histórico e a necessidade individual.</p>
 <p>Para mais orientações sobre alimentação e saúde após os 40, consulte nosso guia sobre <a href="/proteina-mulheres-40/">proteína para mulheres depois dos 40</a>. Também vale acompanhar fatores cardiovasculares com informação confiável: veja o conteúdo sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a>. A necessidade de exames e suplementos deve ser avaliada individualmente.</p>
 
+<p>Como a vitamina B12 está presente em alimentos de origem animal, consulte também nosso guia sobre <a href="/proteina-mulheres-40/">proteína para mulheres depois dos 40</a> ao planejar uma alimentação variada.</p>
 <h2>Quando procurar um médico</h2>
 <p>Procure avaliação se houver formigamento persistente, perda de sensibilidade, dificuldade de equilíbrio, fraqueza importante, palidez ou cansaço que não melhora. Esses sintomas podem indicar deficiência de B12 ou outras condições que precisam de investigação.</p>
 <p>Se você usa metformina ou medicamentos que reduzem a acidez gástrica por longo período, pergunte ao profissional se há necessidade de avaliar a vitamina B12. Não interrompa os medicamentos sem orientação.</p>
