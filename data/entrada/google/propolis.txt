@@ -7,21 +7,24 @@ FOTO1_SECAO: 2
 FOTO2_ALT: Pessoa conferindo o rótulo de um frasco de extrato de própolis
 FOTO2_SECAO: 6
 FONTE: Produção e beneficiamento da própolis | Epagri | https://docweb.epagri.sc.gov.br/website_epagri/PRODUCAO-BENEFICIAMENTO-PROPOLIS.pdf
-FONTE: Efficacy and Safety of Propolis for Treating Recurrent Aphthous Stomatitis | PubMed | https://pubmed.ncbi.nlm.nih.gov/38248221/
-FONTE: Contact Allergy to Propolis: Update 2013-2025 | PubMed | https://pubmed.ncbi.nlm.nih.gov/41346028/
+FONTE: Efficacy and Safety of Propolis for Treating Recurrent Aphthous Stomatitis: A Systematic Review and Meta-Analysis | PubMed Central | https://pmc.ncbi.nlm.nih.gov/articles/PMC10814165/
+FONTE: Prevalence of Contact Allergy to Propolis: Testing With Different Propolis Patch Test Materials | PubMed Central | https://pmc.ncbi.nlm.nih.gov/articles/PMC11965539/
 NOTA_CHAT: 9,1
 ---
 <p>A própolis é uma substância resinosa que as abelhas produzem a partir de materiais vegetais. Extratos e sprays são vendidos para diferentes finalidades, mas as evidências variam conforme o uso. Ela pode causar alergias e não substitui tratamento médico.</p>
 
 <h2>O que é própolis e como é produzida?</h2>
-<p>As abelhas coletam resinas de brotos, cascas e outras partes de plantas, misturando-as com cera e secreções próprias. O material resultante é utilizado na colmeia para vedar pequenas aberturas e contribuir para a proteção do ambiente interno. A composição muda de acordo com a vegetação, a região, a época do ano e as espécies envolvidas.</p>
+<p>As abelhas coletam resinas de brotos, cascas e outras partes de plantas, misturando-as com cera e secreções próprias. O material resultante é utilizado na colmeia para vedar pequenas aberturas e contribuir para a proteção do ambiente interno.</p>
+<p>A composição muda de acordo com a vegetação, a região, a época do ano e as espécies envolvidas.</p>
 <p>Por isso, não existe uma própolis com composição química idêntica em todos os lugares. No Brasil, são comercializadas variedades como a verde, a marrom e a vermelha, classificadas em parte pela origem botânica e pelas características químicas. A cor, sozinha, não comprova maior eficácia ou qualidade terapêutica.</p>
 <p>Os produtos vendidos ao consumidor podem ser extratos líquidos, sprays, cápsulas, pastilhas, cremes ou pomadas. Eles podem ter concentrações e ingredientes adicionais diferentes. Um spray para a boca, por exemplo, não deve ser considerado equivalente a uma solução concentrada para uso externo ou a uma cápsula ingerida.</p>
 
 <h2>Própolis: para que serve?</h2>
 <p>A própolis é usada tradicionalmente em produtos voltados à garganta, à higiene oral e aos cuidados com a pele. Estudos investigam suas substâncias, incluindo compostos fenólicos, por possíveis atividades antimicrobianas e anti-inflamatórias em condições experimentais. Esses resultados ajudam a formular perguntas de pesquisa, mas não demonstram que qualquer extrato trate doenças em pessoas.</p>
-<p>Uma revisão sistemática publicada em 2024 analisou estudos sobre o uso da própolis em aftas recorrentes. Os autores encontraram sinais de possível melhora em alguns desfechos, como dor e tempo de cicatrização, mas classificaram a certeza geral das evidências como muito baixa. Os estudos tinham diferenças importantes de formulação, tamanho e risco de viés.</p>
-<p>Isso significa que não é correto prometer que a própolis fortalece a imunidade, cura infecções, trata gastrite ou substitui antibióticos. Os resultados de um estudo específico não podem ser aplicados automaticamente a todos os produtos comercializados. Para cada alegação, é necessário avaliar a indicação, o tipo de extrato e a qualidade da evidência.</p>
+<p>Uma revisão sistemática publicada em 2024 analisou estudos sobre o uso da própolis em aftas recorrentes. Os autores encontraram sinais de possível melhora em alguns desfechos, como dor e tempo de cicatrização, mas classificaram a certeza geral das evidências como muito baixa.</p>
+<p>Os estudos tinham diferenças importantes de formulação, tamanho e risco de viés.</p>
+<p>Isso significa que não é correto prometer que a própolis fortalece a imunidade, cura infecções, trata gastrite ou substitui antibióticos. Os resultados de um estudo específico não podem ser aplicados automaticamente a todos os produtos comercializados.</p>
+<p>Para cada alegação, é necessário avaliar a indicação, o tipo de extrato e a qualidade da evidência.</p>
 
 <h2>Própolis verde tem mais benefícios?</h2>
 <p>A própolis verde brasileira é conhecida por compostos associados às plantas de onde as abelhas coletam resinas, incluindo o artepelin C em determinadas amostras. A composição pode ser interessante para pesquisas, mas não significa que todo produto verde tenha a mesma concentração nem que seja superior para qualquer finalidade.</p>
@@ -29,36 +32,42 @@ NOTA_CHAT: 9,1
 <p>Não confunda um rótulo que menciona compostos bioativos com uma comprovação clínica de benefício. A presença de uma substância estudada em laboratório não garante que a quantidade presente no produto produza o mesmo efeito no organismo. Resultados promissores precisam ser confirmados em estudos clínicos adequados.</p>
 
 <h2>Própolis para garganta, tosse e resfriado</h2>
-<p>Sprays e pastilhas com própolis são usados por algumas pessoas para aliviar desconfortos na boca e na garganta. Entretanto, a sensação de alívio não comprova que o produto elimine o agente causador de uma infecção ou encurte a doença. Formulações diferentes também podem incluir álcool, mel, aromatizantes ou outros ingredientes que alteram a tolerância.</p>
-<p>Resfriados costumam melhorar com o tempo e cuidados de suporte, mas sintomas persistentes ou intensos podem exigir avaliação. Não use própolis para adiar atendimento quando houver falta de ar, dificuldade importante para engolir, desidratação, dor intensa, febre persistente ou piora progressiva. Pessoas com condições crônicas devem seguir orientações adequadas ao seu quadro.</p>
-<p>Para cuidar da saúde de forma mais ampla, também é importante acompanhar fatores como colesterol e risco cardiovascular. Veja nosso conteúdo sobre <a href="/colesterol-ldl/">colesterol LDL</a> e converse com um profissional sobre exames e prevenção indicados para seu caso.</p>
+<p>Sprays e pastilhas com própolis são usados por algumas pessoas para aliviar desconfortos na boca e na garganta. Entretanto, a sensação de alívio não comprova que o produto elimine o agente causador de uma infecção ou encurte a doença.</p>
+<p>Formulações diferentes também podem incluir álcool, mel, aromatizantes ou outros ingredientes que alteram a tolerância.</p>
+<p>Resfriados costumam melhorar com o tempo e cuidados de suporte, mas sintomas persistentes ou intensos podem exigir avaliação. Não use própolis para adiar atendimento quando houver falta de ar, dificuldade importante para engolir, desidratação, dor intensa, febre persistente ou piora progressiva.</p>
+<p>Pessoas com condições crônicas devem seguir orientações adequadas ao seu quadro.</p>
+<p>Para cuidar da saúde de forma mais ampla, também é importante acompanhar fatores como colesterol e risco cardiovascular. Veja nosso conteúdo sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a> e converse com um profissional sobre exames e prevenção indicados para seu caso.</p>
 
 <h2>Como usar extrato de própolis?</h2>
-<p>Não há uma dose universal para todos os produtos. A concentração do extrato, a proporção de própolis, a forma de apresentação e a finalidade de uso podem variar. Siga as instruções específicas do rótulo e não aumente a dose para tentar obter um resultado mais rápido. Se houver dúvida, peça orientação a um farmacêutico ou profissional de saúde.</p>
+<p>Não há uma dose universal para todos os produtos. A concentração do extrato, a proporção de própolis, a forma de apresentação e a finalidade de uso podem variar. Siga as instruções específicas do rótulo e não aumente a dose para tentar obter um resultado mais rápido.</p>
+<p>Se houver dúvida, peça orientação a um farmacêutico ou profissional de saúde.</p>
 <p>Não aplique um produto destinado à ingestão nos olhos, em feridas profundas ou em mucosas diferentes das indicadas. Da mesma forma, não ingira pomadas ou cosméticos de uso externo. O uso inadequado pode provocar irritação, exposição a ingredientes não destinados à ingestão ou atraso no tratamento correto.</p>
 <p>Evite receitas caseiras que misturem extrato concentrado com outras substâncias sem orientação. O álcool presente em algumas formulações pode irritar a mucosa e não é adequado para todas as pessoas. Crianças, gestantes, pessoas que amamentam e quem utiliza medicamentos regularmente devem consultar um profissional antes de usar produtos concentrados.</p>
 
 <h2>Própolis faz mal? Efeitos colaterais e alergias</h2>
 <p>O risco mais importante é a reação alérgica. A própolis pode causar coceira, vermelhidão, inchaço, irritação na boca ou dermatite de contato. Alergias podem ocorrer em pessoas sensibilizadas a substâncias presentes na própolis ou a compostos relacionados, como algumas fragrâncias e resinas vegetais.</p>
-<p>Uma revisão atualizada sobre alergia de contato à própolis, publicada em 2025, descreve reações positivas em testes dermatológicos e discute a dificuldade de interpretar alguns resultados. Isso reforça que a tolerância depende da pessoa e da preparação utilizada. Ter usado o produto antes sem problemas não garante que nunca ocorrerá uma reação.</p>
+<p>Uma revisão atualizada sobre alergia de contato à própolis, publicada em 2025, descreve reações positivas em testes dermatológicos e discute a dificuldade de interpretar alguns resultados. Isso reforça que a tolerância depende da pessoa e da preparação utilizada.</p>
+<p>Ter usado o produto antes sem problemas não garante que nunca ocorrerá uma reação.</p>
 <p>Interrompa o uso se notar irritação ou sintomas novos e procure orientação. Inchaço da língua ou da garganta, dificuldade para respirar, desmaio ou sinais de reação alérgica generalizada exigem atendimento de emergência. Não tente tratar uma reação grave com mais própolis ou outro produto caseiro.</p>
 <p>Também vale considerar ingredientes adicionais. Mel, álcool, conservantes, óleos essenciais e aromatizantes podem ser relevantes para algumas pessoas. Leia a composição completa e não presuma que um produto natural seja livre de efeitos adversos.</p>
 
 <h2>Quem deve ter cuidado antes de usar?</h2>
 <p>Pessoas com alergia conhecida a produtos apícolas ou que já tiveram reação à própolis devem evitar a exposição até receberem orientação profissional. Quem tem asma, alergias importantes ou pele muito sensível pode precisar de uma avaliação mais cuidadosa, especialmente antes de aplicar o produto na pele ou na boca.</p>
 <p>Gestantes, pessoas que amamentam, crianças e indivíduos com doenças crônicas devem conversar com um profissional antes de usar extratos concentrados. A segurança pode não estar bem estabelecida para todas as formulações e grupos. Se você toma medicamentos, informe quais são e peça orientação sobre possíveis interações ou ingredientes incompatíveis.</p>
-<p>Não substitua medicamentos prescritos por própolis e não interrompa antibióticos ou outros tratamentos por conta própria. A escolha do cuidado depende da causa do problema, da gravidade dos sintomas e das características individuais. Quando houver dúvida, o profissional de saúde pode ajudar a decidir se o produto tem algum papel complementar razoável.</p>
+<p>Não substitua medicamentos prescritos por própolis e não interrompa antibióticos ou outros tratamentos por conta própria. A escolha do cuidado depende da causa do problema, da gravidade dos sintomas e das características individuais.</p>
+<p>Quando houver dúvida, o profissional de saúde pode ajudar a decidir se o produto tem algum papel complementar razoável.</p>
 
 <h2>Como escolher um produto de própolis?</h2>
 <p>Prefira produtos com identificação clara do fabricante, composição, concentração, lote, validade e instruções de uso. Confira se a apresentação é adequada à finalidade pretendida e siga as recomendações do rótulo. Desconfie de alegações de cura, prevenção garantida de doenças ou resultados extraordinários sem evidência clínica confiável.</p>
 <p>Observe também as condições de conservação e a integridade da embalagem. Não utilize produtos vencidos, sem rótulo legível ou cuja procedência seja desconhecida. Se o produto provocar reação adversa, interrompa o uso e guarde a embalagem para que um profissional possa conferir os ingredientes.</p>
 <p>A própolis pode ser um tema legítimo de pesquisa, mas não deve ser tratada como solução universal. A qualidade do produto, a indicação e o histórico de saúde são mais importantes do que a popularidade de uma variedade ou a promessa de marketing.</p>
 
-<p>Para conhecer outro tema de prevenção, confira nosso guia sobre <a href="/vitamina-d/">vitamina D</a>; a necessidade de suplementação deve ser avaliada individualmente.</p>
+<p>Para conhecer outro tema de alimentação e saúde, confira nosso guia sobre <a href="/proteina-mulheres-40/">proteína para mulheres depois dos 40</a>. A necessidade de suplementação deve ser avaliada individualmente, e a própolis não substitui tratamentos indicados.</p>
 
 <h2>Quando procurar um médico</h2>
 <p>Procure atendimento se houver febre persistente, dor forte, piora dos sintomas, dificuldade para engolir, lesões na boca que não cicatrizam ou sinais de infecção que se espalha. Procure emergência diante de falta de ar, inchaço de língua ou garganta, desmaio ou suspeita de reação alérgica grave.</p>
 <p>Se você tem aftas frequentes, irritação persistente ou sintomas que voltam repetidamente, vale investigar a causa. O tratamento pode depender de fatores como trauma local, medicamentos, deficiências nutricionais ou outras condições. A própolis não deve atrasar esse processo.</p>
 
 <h2>Resumindo</h2>
-<p>A própolis é uma substância produzida pelas abelhas a partir de resinas vegetais e vendida em diferentes apresentações. Algumas pesquisas investigam usos específicos, mas a evidência ainda é limitada para muitas alegações populares. A composição varia entre produtos e existe risco de alergia, irritação e reações graves em pessoas sensíveis. Siga o rótulo, não substitua tratamentos prescritos e converse com um profissional antes de usar extratos concentrados, sobretudo se tiver alergias, doenças crônicas ou tomar medicamentos.</p>
+<p>A própolis é uma substância produzida pelas abelhas a partir de resinas vegetais e vendida em diferentes apresentações. Algumas pesquisas investigam usos específicos, mas a evidência ainda é limitada para muitas alegações populares. A composição varia entre produtos e existe risco de alergia, irritação e reações graves em pessoas sensíveis.</p>
+<p>Siga o rótulo, não substitua tratamentos prescritos e converse com um profissional antes de usar extratos concentrados, sobretudo se tiver alergias, doenças crônicas ou tomar medicamentos.</p>
