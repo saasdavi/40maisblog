@@ -1,0 +1,61 @@
+PALAVRA_CHAVE: ginkgo biloba
+TITLE: Ginkgo biloba: para que serve e cuidados
+DESCRIPTION: Saiba para que serve o ginkgo biloba, o que as pesquisas mostram sobre memória e circulação, quais são os riscos e quando evitar o suplemento.
+CAPA_ALT: Folhas verdes de ginkgo biloba em uma planta adulta
+FOTO1_ALT: Folhas em formato de leque características do ginkgo biloba
+FOTO1_SECAO: 2
+FOTO2_ALT: Profissional de saúde orientando uma pessoa sobre uso seguro de suplementos
+FOTO2_SECAO: 6
+FONTE: Ginkgo: Usefulness and Safety — National Center for Complementary and Integrative Health | https://www.nccih.nih.gov/health/ginkgo
+FONTE: Ginkgo biloba for prevention of dementia: a randomized controlled trial — PubMed | https://pubmed.ncbi.nlm.nih.gov/19017911/
+FONTE: Ginkgo biloba — StatPearls, NCBI Bookshelf | https://www.ncbi.nlm.nih.gov/books/NBK541024/
+NOTA_CHAT: 9,1
+---
+<p>Ginkgo biloba é uma planta cujo extrato das folhas é vendido como suplemento, principalmente para memória e circulação. Apesar da popularidade, as evidências não confirmam benefícios para todas as promessas comerciais, e o produto pode interagir com medicamentos. Antes de usar, é importante avaliar riscos e objetivos com um profissional de saúde.</p>
+
+<h2>O que é ginkgo biloba?</h2>
+<p>O ginkgo é uma árvore antiga, originária da China, conhecida pelas folhas em formato de leque. Na medicina tradicional, diferentes preparações da planta foram usadas para várias queixas. Atualmente, os suplementos são feitos sobretudo com extratos das folhas, cuja composição depende do processo de fabricação.</p>
+<p>É importante distinguir o extrato padronizado de folhas das sementes e de preparações caseiras. As sementes frescas ou assadas podem ser tóxicas, e folhas não processadas não equivalem a um suplemento estudado em pesquisas. Por isso, não é seguro improvisar chás, triturar partes da planta ou presumir que qualquer produto tenha a mesma composição.</p>
+
+<h2>Ginkgo biloba: para que serve?</h2>
+<p>O suplemento costuma ser anunciado para memória, concentração, zumbido no ouvido, tontura, ansiedade e sintomas associados ao envelhecimento. Essas alegações não têm todas o mesmo nível de evidência. O fato de um produto ser tradicional ou muito vendido não significa que sua eficácia tenha sido demonstrada em estudos clínicos de boa qualidade.</p>
+<p>O Centro Nacional de Saúde Complementar e Integrativa dos Estados Unidos informa que não há evidência conclusiva de que o ginkgo seja eficaz para uma condição de saúde específica. Para algumas situações, existem estudos com resultados limitados ou inconsistentes, mas isso não é suficiente para recomendar o suplemento como tratamento geral.</p>
+<p>Também não se deve usar ginkgo para substituir medicamentos prescritos, investigação médica ou medidas comprovadas de prevenção. Se a intenção é melhorar memória, tratar tontura ou aliviar zumbido, o primeiro passo é entender a causa do sintoma, que pode exigir uma avaliação específica.</p>
+
+<h2>Ginkgo biloba melhora a memória?</h2>
+<p>A promessa de melhorar a memória é uma das razões mais comuns para procurar o suplemento. Entretanto, pesquisas em pessoas saudáveis não demonstraram de forma consistente melhora relevante da capacidade de lembrar, aprender ou manter a atenção. Os resultados podem variar conforme o extrato, a dose, a duração do estudo e as características dos participantes.</p>
+<p>Um grande ensaio clínico conhecido como Ginkgo Evaluation of Memory acompanhou mais de três mil adultos com 75 anos ou mais por vários anos. O estudo não encontrou redução do risco de desenvolver demência ou doença de Alzheimer entre participantes que receberam extrato de ginkgo e aqueles que receberam placebo.</p>
+<p>Algumas pesquisas analisaram o extrato como apoio para sintomas de pessoas que já têm demência. Nesses casos, foram observados resultados inconsistentes e não se demonstrou que o produto previna a doença ou interrompa sua progressão. Isso é diferente de afirmar que o ginkgo melhora a memória de qualquer pessoa.</p>
+<p>Esquecimentos frequentes podem estar relacionados a sono insuficiente, depressão, estresse, efeitos de medicamentos, alterações da tireoide ou outras condições tratáveis. Quando a memória interfere na rotina, piora progressivamente ou vem acompanhada de desorientação, vale procurar avaliação em vez de iniciar um suplemento por conta própria.</p>
+
+<h2>O ginkgo biloba ajuda na circulação?</h2>
+<p>O ginkgo é associado à circulação porque alguns compostos presentes no extrato podem influenciar processos biológicos relacionados aos vasos sanguíneos e às plaquetas. Porém, uma explicação possível sobre o mecanismo não comprova que o suplemento previna infarto, acidente vascular cerebral (AVC) ou doenças circulatórias.</p>
+<p>As evidências disponíveis não demonstram que o ginkgo previna doenças cardíacas ou reduza a pressão arterial. Também não há comprovação consistente de que alivie zumbido no ouvido. Dores nas pernas ao caminhar, dormência, tontura e alterações de equilíbrio precisam ser avaliadas, pois podem ter causas diferentes e algumas exigem atendimento rápido.</p>
+<p>Para cuidar da saúde cardiovascular, medidas com benefício conhecido incluem não fumar, manter acompanhamento da pressão e do colesterol, praticar atividade física adequada, alimentar-se de forma equilibrada e seguir o tratamento indicado. O suplemento não substitui essas medidas nem a avaliação de sintomas.</p>
+
+<h2>Ginkgo biloba emagrece ou dá sono?</h2>
+<p>Não há evidência confiável de que o ginkgo provoque perda de peso de forma clinicamente relevante. Ele não deve ser usado como estratégia para emagrecer, reduzir gordura abdominal ou compensar hábitos alimentares. Se o objetivo é controlar o peso, um plano sustentável e individualizado costuma ser mais seguro do que apostar em produtos com promessas amplas.</p>
+<p>O ginkgo também não é um tratamento comprovado para insônia. Algumas pessoas podem relatar sensações diferentes durante o uso, mas isso não permite concluir que o suplemento seja sedativo ou melhore a qualidade do sono. Quem tem dificuldade persistente para dormir deve investigar hábitos, medicamentos e possíveis condições associadas.</p>
+<p>Para conhecer outros fatores que interferem na saúde, veja também nosso conteúdo sobre <a href="/vitamina-d/">vitamina D</a> e a importância de avaliar necessidades individuais antes de suplementar.</p>
+
+<h2>Como tomar ginkgo biloba com segurança?</h2>
+<p>Não existe uma dose única que sirva para todos os produtos ou objetivos. Estudos clínicos costumam utilizar extratos específicos e padronizados, que não podem ser comparados diretamente com pós, chás ou cápsulas de composição desconhecida. Não copie a dose de outra pessoa nem aumente a quantidade por acreditar que terá um efeito mais rápido.</p>
+<p>Se um profissional considerar o uso apropriado, confira a identificação do fabricante, a composição, a concentração do extrato e as orientações do rótulo. Desconfie de produtos que prometem prevenir Alzheimer, curar zumbido ou garantir melhora da memória. Suplementos podem variar em qualidade e não devem ser tratados como medicamentos equivalentes entre marcas.</p>
+<p>Informe ao médico ou farmacêutico todos os medicamentos, vitaminas e plantas que utiliza. Essa conversa é especialmente importante antes de uma cirurgia ou procedimento odontológico, durante a gravidez ou amamentação, e quando há doenças crônicas. Não interrompa um tratamento prescrito para substituir por ginkgo.</p>
+
+<h2>Quais são os efeitos colaterais do ginkgo biloba?</h2>
+<p>Os efeitos adversos relatados incluem dor de cabeça, tontura, desconforto gastrointestinal e reações alérgicas na pele. A ausência de sintomas no início não garante que o uso prolongado seja adequado. Se surgir uma reação nova depois de começar o produto, suspenda a automedicação e procure orientação para avaliar a relação com o suplemento.</p>
+<p>Um risco importante é o aumento da possibilidade de sangramento, especialmente em pessoas que usam anticoagulantes, como varfarina, ou outros medicamentos que afetam a coagulação. Há relatos e preocupações sobre interações com diferentes fármacos. Por isso, a combinação não deve ser decidida sem avaliação profissional.</p>
+<p>As sementes do ginkgo merecem atenção especial: podem conter substâncias tóxicas e causar efeitos graves. Não consuma sementes cruas ou assadas e não use partes não processadas da planta como se fossem equivalentes a extratos padronizados.</p>
+
+<h2>Quem deve evitar ou ter cuidado?</h2>
+<p>Gestantes devem evitar o uso sem indicação médica, pois a segurança não está estabelecida e existe preocupação com sangramento e parto prematuro. Também faltam informações suficientes para considerar o uso seguro durante a amamentação. Crianças não devem receber o suplemento sem orientação de um profissional habilitado.</p>
+<p>Pessoas que usam anticoagulantes ou antiagregantes, têm distúrbios hemorrágicos, apresentam epilepsia, usam vários medicamentos ou estão prestes a fazer cirurgia precisam de avaliação individual. O cuidado também vale para quem tem doenças crônicas ou pretende combinar o ginkgo com outros suplementos.</p>
+<p>O risco não depende apenas do nome da planta. Ele pode variar com a formulação, a concentração, a procedência e os outros produtos utilizados. Levar a embalagem à consulta ajuda a identificar os ingredientes e possíveis interações.</p>
+
+<h2>Quando procurar um médico</h2>
+<p>Procure atendimento urgente diante de sinais compatíveis com AVC, como fraqueza súbita em um lado do corpo, dificuldade para falar, perda repentina da visão ou desequilíbrio intenso. Sangramento incomum, fezes escuras, reação alérgica importante ou desmaio também precisam de avaliação rápida.</p>
+<p>Marque uma consulta se os esquecimentos aumentarem, se houver tontura recorrente, zumbido persistente ou se você estiver pensando em usar ginkgo junto com medicamentos. A avaliação pode identificar a causa do sintoma e evitar interações que poderiam ser prevenidas.</p>
+
+<h2>Resumindo</h2>
+<p>Ginkgo biloba é um suplemento popular, mas as pesquisas não confirmam benefícios consistentes para memória em pessoas saudáveis nem para prevenir demência, doenças cardíacas ou AVC. Pode causar efeitos adversos e aumentar o risco de sangramento, principalmente com certos medicamentos. Não use sementes ou preparações caseiras da planta. Converse com um profissional de saúde antes de iniciar o produto, especialmente se você toma remédios ou tem uma condição crônica.</p>
