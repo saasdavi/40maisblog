@@ -6,9 +6,9 @@ FOTO1_ALT: Folhas em formato de leque características do ginkgo biloba
 FOTO1_SECAO: 2
 FOTO2_ALT: Profissional de saúde orientando uma pessoa sobre uso seguro de suplementos
 FOTO2_SECAO: 6
-FONTE: Ginkgo: Usefulness and Safety — National Center for Complementary and Integrative Health | https://www.nccih.nih.gov/health/ginkgo
-FONTE: Ginkgo biloba for prevention of dementia: a randomized controlled trial — PubMed | https://pubmed.ncbi.nlm.nih.gov/19017911/
-FONTE: Ginkgo biloba — StatPearls, NCBI Bookshelf | https://www.ncbi.nlm.nih.gov/books/NBK541024/
+FONTE: Ginkgo: Usefulness and Safety | National Center for Complementary and Integrative Health | https://www.nccih.nih.gov/health/ginkgo
+FONTE: Ginkgo biloba for prevention of dementia: a randomized controlled trial | PubMed | https://pubmed.ncbi.nlm.nih.gov/19017911/
+FONTE: Ginkgo biloba | StatPearls, NCBI Bookshelf | https://www.ncbi.nlm.nih.gov/books/NBK541024/
 NOTA_CHAT: 9,1
 ---
 <p>Ginkgo biloba é uma planta cujo extrato das folhas é vendido como suplemento, principalmente para memória e circulação. Apesar da popularidade, as evidências não confirmam benefícios para todas as promessas comerciais, e o produto pode interagir com medicamentos. Antes de usar, é importante avaliar riscos e objetivos com um profissional de saúde.</p>
