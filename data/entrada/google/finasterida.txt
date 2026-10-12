@@ -6,9 +6,9 @@ FOTO1_ALT: Profissional de saúde avaliando o couro cabeludo de um homem
 FOTO1_SECAO: 2
 FOTO2_ALT: Pessoa conferindo informações de um medicamento com orientação farmacêutica
 FOTO2_SECAO: 6
-FONTE: About finasteride — NHS | https://www.nhs.uk/medicines/finasteride/about-finasteride/
-FONTE: Side effects of finasteride — NHS | https://www.nhs.uk/medicines/finasteride/side-effects-of-finasteride/
-FONTE: Common questions about finasteride — NHS | https://www.nhs.uk/medicines/finasteride/common-questions-about-finasteride/
+FONTE: About finasteride | NHS | https://www.nhs.uk/medicines/finasteride/about-finasteride/
+FONTE: Side effects of finasteride | NHS | https://www.nhs.uk/medicines/finasteride/side-effects-of-finasteride/
+FONTE: Common questions about finasteride | NHS | https://www.nhs.uk/medicines/finasteride/common-questions-about-finasteride/
 NOTA_CHAT: 9,1
 ---
 <p>A finasterida é um medicamento de prescrição usado principalmente para tratar a calvície de padrão masculino e, em outra dose, o aumento benigno da próstata. Pode levar meses para produzir resultados e causar efeitos colaterais, por isso exige avaliação e acompanhamento médico.</p>
