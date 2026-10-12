@@ -6,7 +6,7 @@ FOTO1_ALT: Peixes e carnes que podem fornecer pequenas quantidades de coenzima Q
 FOTO1_SECAO: 2
 FOTO2_ALT: Pessoa conversando com profissional de saúde durante uma consulta
 FOTO2_SECAO: 5
-FONTE: Coenzyme Q10 | National Center for Complementary and Integrative Health | https://www.nccih.nih.gov/health/coenzyme-q10?nav=govd
+FONTE: Coenzyme Q10 | National Center for Complementary and Integrative Health | https://www.nccih.nih.gov/health/coenzyme-q10
 FONTE: Headaches and Complementary Health Approaches: What the Science Says | National Center for Complementary and Integrative Health | https://www.nccih.nih.gov/health/providers/digest/headaches-and-complementary-health-approaches-science
 FONTE: Bioavailability of Coenzyme Q10: An Overview of the Absorption Process and Subsequent Metabolism | PubMed | https://pubmed.ncbi.nlm.nih.gov/32380795/
 NOTA_CHAT: 9,0
@@ -49,7 +49,6 @@ NOTA_CHAT: 9,0
 <p>Se a fadiga interfere na rotina, vale conversar com um profissional de saúde antes de iniciar suplementos. A avaliação considera duração dos sintomas, alimentação, sono, atividade física, doenças conhecidas e medicamentos utilizados.</p>
 <p>O mesmo raciocínio vale para quem toma estatinas e sente dor muscular. A evidência disponível não demonstra benefício consistente da CoQ10 para esse problema. Não interrompa nem reduza o remédio por conta própria.</p>
 <p>Para acompanhar outro fator da saúde cardiovascular, consulte também nosso guia sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a>.</p>
-<p>Manter a força e a autonomia após os 40 também depende de atividade física regular, sono e alimentação adequada. Para acompanhar a saúde cardiovascular, veja nosso guia sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a>.</p>
 <p>Uma alimentação adequada também importa para a manutenção muscular. Confira o conteúdo sobre <a href="/proteina-mulheres-40/">proteína para mulheres depois dos 40</a>, sem presumir que um nutriente isolado resolva todos os problemas de saúde.</p>
 
 <h2>Coenzima Q10: efeitos colaterais e segurança</h2>
@@ -81,4 +80,4 @@ NOTA_CHAT: 9,0
 
 <h2>Resumindo</h2>
 <p>A coenzima Q10 participa da produção de energia celular e tem função antioxidante. Alguns usos estão em estudo, mas as evidências não confirmam todos os benefícios divulgados comercialmente.</p>
-<p>O suplemento pode causar desconforto digestivo e interagir com medicamentos, especialmente a varfarina. Antes de tomar, avalie a necessidade com um profissional e não substitua tratamentos prescritos por suplementos.</p>
+<p>O suplemento pode causar desconforto digestivo e interagir com medicamentos, especialmente a varfarina. Antes de tomar, avalie a necessidade com um profissional e não substitua tratamentos prescritos por suplementos. Este conteúdo é informativo e não substitui a avaliação de um médico ou profissional de saúde.</p>
