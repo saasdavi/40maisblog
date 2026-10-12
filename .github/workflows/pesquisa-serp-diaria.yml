@@ -1,0 +1,47 @@
+name: Pesquisa SerpAPI (diária)
+
+# Disparada pelo cron-job.org às 01:30 (America/Sao_Paulo), via API do GitHub (workflow_dispatch).
+# Percorre PAUTAS.csv na ordem e faz até 5 buscas por execução (scripts/pesquisa-serp-diaria.js),
+# pulando as que já têm resposta válida (14 dias). Para ao acabar as 5, a cota do mês ou a lista.
+# Grava só em data/entrada/pautas-chat_01/resposta/. Não gera artigo nem publica.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pesquisa-serp
+  cancel-in-progress: false
+
+jobs:
+  pesquisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Pesquisar na SerpAPI (até 5 pautas)
+        env:
+          SERP_API_KEY: ${{ secrets.SERP___APIKEY }}
+        run: node scripts/pesquisa-serp-diaria.js
+
+      - name: Commit e push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Pesquisa SERP"
+          git add data/entrada/pautas-chat_01/resposta
+          if git diff --staged --quiet; then
+            echo "Nada novo para gravar"
+            exit 0
+          fi
+          git commit -m "🤖 Pesquisa SerpAPI diária"
+          git pull --rebase -q origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
