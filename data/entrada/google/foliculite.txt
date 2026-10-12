@@ -1,15 +1,18 @@
 PALAVRA_CHAVE: foliculite
-TITLE: Foliculite: Causas, Tratamento e Prevenção
-DESCRIPTION: Entenda o que é foliculite, por que surgem bolinhas e pústulas na pele, quais cuidados podem ajudar e quando procurar um dermatologista.
+TITLE: Foliculite: causas, cuidados e prevenção
+DESCRIPTION: Saiba o que causa foliculite, como reconhecer lesões, quais cuidados podem ajudar, quando pomadas são necessárias e quais sinais exigem avaliação médica.
 CAPA_ALT: Pele do braço em close com foco em cuidados dermatológicos
+CAPA_ID:
 FOTO1_ALT: Pessoa higienizando suavemente a pele durante a rotina de cuidados
+FOTO1_ID:
 FOTO1_SECAO: 2
 FOTO2_ALT: Dermatologista examinando a pele de uma pessoa em consulta
+FOTO2_ID:
 FOTO2_SECAO: 5
-FONTE: Folliculitis | MedlinePlus Medical Encyclopedia | https://medlineplus.gov/ency/article/000823.htm
+FONTE: Acne-like breakouts could be folliculitis | American Academy of Dermatology Association | https://www.aad.org/public/diseases/a-z/folliculitis/
+FONTE: Preventing Hot Tub Rash | Centers for Disease Control and Prevention | https://www.cdc.gov/healthy-swimming/prevention/preventing-hot-tub-rash.html
 FONTE: Folliculitis: Diagnosis and treatment | Mayo Clinic | https://www.mayoclinic.org/diseases-conditions/folliculitis/diagnosis-treatment/drc-20361662
-FONTE: Folliculitis: Symptoms and causes | Mayo Clinic | https://www.mayoclinic.org/diseases-conditions/folliculitis/symptoms-causes/syc-20361634
-NOTA_CHAT: 9,1
+NOTA_CHAT: 9,2
 ---
 <p>Foliculite é a inflamação de um ou mais folículos pilosos, estruturas de onde nascem os pelos. Pode causar bolinhas vermelhas, coceira ou pequenas pústulas. O tratamento depende da causa, por isso nem toda lesão deve receber a mesma pomada.</p>
 
@@ -57,7 +60,7 @@ NOTA_CHAT: 9,1
 <p>Na barba, o barbear rente pode irritar os folículos e favorecer pelos encravados. Usar lâmina limpa, evitar esticar a pele e não raspar contra o sentido do crescimento podem ajudar algumas pessoas, embora a melhor técnica dependa do tipo de pelo e da pele.</p>
 <p>Nas axilas e na virilha, suor, depilação, roupas apertadas e atrito podem contribuir. Prefira tecidos confortáveis e evite depilar a área inflamada até que ela melhore.</p>
 <p>Lesões profundas e dolorosas que retornam na virilha ou nas axilas não devem ser consideradas automaticamente foliculite simples. Outras condições podem causar nódulos recorrentes e exigem avaliação específica.</p>
-<p>A foliculite exige cuidados específicos e não deve ser tratada com suplementos. Para outros temas de saúde geral após os 40, consulte nosso guia sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a>.</p>
+<p>Quando a inflamação atinge o couro cabeludo e é recorrente, pode ser importante avaliar também a queda de cabelo. Nosso guia sobre <a href="/queda-de-cabelo/">queda de cabelo</a> explica outras causas possíveis, embora lesões ativas precisem de avaliação própria.</p>
 
 <h2>Como prevenir novas crises?</h2>
 <p>A prevenção começa pela identificação dos hábitos ou ambientes que parecem desencadear as lesões. Nem toda medida funciona para todas as causas, mas alguns cuidados podem reduzir irritação e exposição a microrganismos.</p>
@@ -71,14 +74,14 @@ NOTA_CHAT: 9,1
 </ul>
 <p>Se a foliculite reaparece com frequência, registre quando surge, quais regiões são afetadas e quais produtos ou práticas antecederam as lesões. Essas informações ajudam o profissional a identificar padrões e escolher o tratamento.</p>
 <p>Manter a pele limpa não significa esfregar com força ou usar sabonetes agressivos. A limpeza excessiva pode irritar a barreira cutânea e piorar o desconforto.</p>
-<p>Uma alimentação equilibrada faz parte da saúde geral, mas não previne todas as causas de foliculite nem substitui os cuidados com a pele. Veja também nosso guia sobre <a href="/proteina-mulheres-40/">proteína para mulheres depois dos 40</a>.</p>
+<p>Quem tem diabetes ou imunidade reduzida deve dar atenção a lesões persistentes ou que pioram. Nosso guia sobre <a href="/sintomas-de-diabetes/">sintomas de diabetes</a> apresenta sinais gerais, mas não substitui avaliação clínica de alterações da pele.</p>
 
 <h2>Quanto tempo demora para melhorar?</h2>
 <p>O tempo de melhora varia conforme a causa, a extensão e a saúde da pessoa. Algumas lesões leves desaparecem em poucos dias após a retirada do fator irritante. Infecções mais intensas ou recorrentes podem precisar de tratamento específico.</p>
 <p>Se as lesões piorarem, espalharem, voltarem repetidamente ou não melhorarem após alguns dias de cuidados, procure avaliação médica. Não continue testando produtos diferentes por semanas sem esclarecer a causa.</p>
 <p>Febre, vermelhidão que se expande rapidamente, dor intensa, inchaço importante ou acúmulo de pus podem indicar uma infecção mais profunda. Nesses casos, a avaliação deve ser rápida, especialmente em pessoas com imunidade comprometida ou diabetes.</p>
 <p>O diagnóstico pode ser feito pelo exame da pele. Em alguns casos, o profissional solicita coleta de material para identificar bactérias ou fungos e orientar melhor o tratamento.</p>
-<p>Uma alimentação adequada faz parte do cuidado geral, mas não substitui o tratamento da pele. Veja também nosso conteúdo sobre <a href="/proteina-mulheres-40/">proteína para mulheres depois dos 40</a>, lembrando que a foliculite precisa ser avaliada conforme suas causas e gravidade.</p>
+<p>Lesões repetidas no couro cabeludo, sobretudo quando causam crostas ou queda de cabelo, precisam de investigação. Consulte também nosso guia sobre <a href="/queda-de-cabelo/">queda de cabelo</a> para entender por que o diagnóstico depende da causa.</p>
 
 
 <h2>Quando procurar um médico</h2>
@@ -87,4 +90,4 @@ NOTA_CHAT: 9,1
 
 <h2>Resumindo</h2>
 <p>A foliculite é uma inflamação dos folículos pilosos que pode ser causada por irritação, pelos encravados, bactérias, fungos ou exposição a água contaminada. A aparência das lesões não revela sempre a causa exata.</p>
-<p>Cuidados suaves, compressas mornas e redução do atrito podem ajudar em casos leves, mas pomadas e antibióticos devem ser escolhidos conforme a causa. Lesões persistentes, recorrentes ou acompanhadas de sinais de infecção precisam de avaliação profissional.</p>
+<p>Compressas mornas e redução do atrito podem ajudar em casos leves. Pomadas e antibióticos dependem da causa, e lesões persistentes, recorrentes ou com sinais de infecção precisam de avaliação profissional. Este conteúdo é informativo e não substitui a avaliação de um médico ou profissional de saúde.</p>
