@@ -63,6 +63,7 @@ NOTA_CHAT: 9,1
 <h2>Quais são os riscos e efeitos colaterais?</h2>
 <p>Nos primeiros dias, algumas pessoas relatam dor de cabeça, cansaço, tontura, irritabilidade, náusea, mau hálito ou dificuldade de concentração. A constipação também pode ocorrer quando a ingestão de fibras e líquidos cai. Sintomas persistentes ou intensos não devem ser ignorados nem tratados apenas com suplementos por conta própria.</p>
 <p>Uma dieta mal planejada pode reduzir a ingestão de fibras, vitaminas e minerais. O consumo elevado de gorduras saturadas pode aumentar o colesterol LDL em algumas pessoas, e os efeitos de longo prazo variam.</p>
+<p>Como dietas restritivas podem influenciar diferentes marcadores metabólicos, veja também nosso guia sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a>.</p>
 <p>Pessoas com doença renal ou hepática precisam de avaliação individual, pois mudanças na ingestão de gordura, proteína e líquidos podem ser relevantes para seu quadro.</p>
 <p>Outros riscos possíveis incluem desidratação, alterações de eletrólitos, cálculos renais e dificuldade de manter a dieta por longos períodos. Uma alimentação muito restritiva pode ainda piorar a relação com a comida em pessoas vulneráveis a comportamentos alimentares desordenados. Se surgirem sintomas preocupantes, interrompa a tentativa de automanejo e procure orientação.</p>
 
@@ -81,7 +82,7 @@ NOTA_CHAT: 9,1
 <p>Se o plano causar efeitos adversos ou se tornar impossível de manter, reveja a estratégia com orientação.</p>
 <p>Como a dieta cetogênica restringe grupos alimentares, é necessário planejar a ingestão de proteínas e outros nutrientes. Confira nosso guia sobre <a href="/proteina-mulheres-40/">proteína para mulheres depois dos 40</a>. As necessidades variam de pessoa para pessoa, e o conteúdo não substitui um plano alimentar individualizado.</p>
 
-<p>Como dietas restritivas podem influenciar diferentes marcadores metabólicos, veja também nosso guia sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a>.</p>
+
 <h2>Quando procurar um médico</h2>
 <p>Procure orientação antes de começar a dieta se você tem diabetes, usa medicamentos para glicemia, está grávida ou amamentando, ou apresenta doença renal, hepática ou outra condição crônica. Durante a dieta, busque atendimento se houver vômitos persistentes, fraqueza intensa, desmaio, desidratação importante ou alterações relevantes da glicemia.</p>
 <p>Pessoas com diabetes devem reconhecer sinais de hipoglicemia e cetoacidose conforme as orientações recebidas da equipe de saúde. Confusão, respiração rápida ou profunda, dor abdominal, vômitos e piora importante do estado geral podem indicar uma emergência, sobretudo quando há diabetes. Não tente resolver esses sinais apenas ajustando alimentos em casa.</p>
