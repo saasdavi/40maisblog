@@ -6,6 +6,10 @@
   },
   "routes": [
     {
+      "src": "/feed",
+      "dest": "/feed.xml"
+    },
+    {
       "src": "/(.*)",
       "destination": "/$1"
     }

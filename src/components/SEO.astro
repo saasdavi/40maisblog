@@ -47,6 +47,7 @@ const fullTitle = path === '/'
 <title>{fullTitle}</title>
 <meta name="description" content={description} />
 <link rel="canonical" href={canonical} />
+<link rel="alternate" type="application/rss+xml" title={`${SITE.name} — artigos`} href={new URL('/feed.xml', SITE.url).href} />
 <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large'} />
 {SITE.googleSiteVerification && (
   <meta name="google-site-verification" content={SITE.googleSiteVerification} />
