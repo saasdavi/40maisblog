@@ -1,0 +1,55 @@
+name: Pesquisa SerpAPI (manual)
+
+# Disparo manual, feito por você ou pelo ChatGPT. Faz 1 busca no Google Brasil por palavra-chave
+# (SerpAPI), respeitando o contador mensal de data/pesquisa/serpapi-uso.json (240 de 250),
+# e grava o resultado em data/pesquisa/serp-resultados.json. Não gera artigo nem publica.
+
+on:
+  workflow_dispatch:
+    inputs:
+      palavra_chave:
+        description: 'Palavra-chave a pesquisar no Google Brasil (uma consulta)'
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pesquisa-serp
+  cancel-in-progress: false
+
+jobs:
+  pesquisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Pesquisar na SerpAPI
+        env:
+          SERP_API_KEY: ${{ secrets.SERP___APIKEY }}
+          PALAVRA: ${{ github.event.inputs.palavra_chave }}
+        run: node scripts/serp-api.js --keyword "$PALAVRA"
+
+      - name: Commit e push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Pesquisa SERP"
+          git add data/pesquisa data/briefings
+          if git diff --staged --quiet; then
+            echo "Nada novo para gravar"
+            exit 0
+          fi
+          git commit -m "🤖 Pesquisa SerpAPI: ${{ github.event.inputs.palavra_chave }}"
+          git pull --rebase -q origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
