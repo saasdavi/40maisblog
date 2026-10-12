@@ -8,7 +8,7 @@ FOTO2_ALT: Pessoa conferindo o rótulo de um frasco de extrato de própolis
 FOTO2_SECAO: 6
 FONTE: Produção e beneficiamento da própolis | Epagri | https://docweb.epagri.sc.gov.br/website_epagri/PRODUCAO-BENEFICIAMENTO-PROPOLIS.pdf
 FONTE: Efficacy and Safety of Propolis for Treating Recurrent Aphthous Stomatitis: A Systematic Review and Meta-Analysis | PubMed Central | https://pmc.ncbi.nlm.nih.gov/articles/PMC10814165/
-FONTE: Contact Allergy to Propolis: Update 2013-2025 | PubMed | https://pubmed.ncbi.nlm.nih.gov/41346028/
+FONTE: Contact allergy to propolis | DermNet New Zealand | https://dermnetnz.org/topics/contact-allergy-to-propolis
 NOTA_CHAT: 9,1
 ---
 <p>A própolis é uma substância resinosa que as abelhas produzem a partir de materiais vegetais. Extratos e sprays são vendidos para diferentes finalidades, mas as evidências variam conforme o uso. Ela pode causar alergias e não substitui tratamento médico.</p>
@@ -46,7 +46,7 @@ NOTA_CHAT: 9,1
 
 <h2>Própolis faz mal? Efeitos colaterais e alergias</h2>
 <p>O risco mais importante é a reação alérgica. A própolis pode causar coceira, vermelhidão, inchaço, irritação na boca ou dermatite de contato. Alergias podem ocorrer em pessoas sensibilizadas a substâncias presentes na própolis ou a compostos relacionados, como algumas fragrâncias e resinas vegetais.</p>
-<p>Uma revisão sobre alergia de contato à própolis, disponibilizada online em dezembro de 2025, descreve reações positivas em testes dermatológicos e discute a dificuldade de interpretar alguns resultados. Isso reforça que a tolerância depende da pessoa e da preparação utilizada.</p>
+<p>A literatura dermatológica descreve que a própolis pode provocar dermatite de contato, irritação nos lábios e reações na mucosa oral em pessoas sensibilizadas. A reação depende da sensibilidade individual e da preparação utilizada.</p>
 <p>Ter usado o produto antes sem problemas não garante que nunca ocorrerá uma reação.</p>
 <p>Interrompa o uso se notar irritação ou sintomas novos e procure orientação. Inchaço da língua ou da garganta, dificuldade para respirar, desmaio ou sinais de reação alérgica generalizada exigem atendimento de emergência. Não tente tratar uma reação grave com mais própolis ou outro produto caseiro.</p>
 <p>Também vale considerar ingredientes adicionais. Mel, álcool, conservantes, óleos essenciais e aromatizantes podem ser relevantes para algumas pessoas. Leia a composição completa e não presuma que um produto natural seja livre de efeitos adversos.</p>
