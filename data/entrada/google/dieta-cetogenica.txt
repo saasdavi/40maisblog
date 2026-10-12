@@ -8,7 +8,7 @@ FOTO2_ALT: Nutricionista conversando com uma pessoa sobre planejamento alimentar
 FOTO2_SECAO: 6
 FONTE: Should you try the keto diet? — Harvard Health Publishing | https://www.health.harvard.edu/healthy-aging-and-longevity/should-you-try-the-keto-diet
 FONTE: Diet Review: Ketogenic Diet for Weight Loss — Harvard T.H. Chan School of Public Health | https://nutritionsource.hsph.harvard.edu/healthy-weight/diet-reviews/ketogenic-diet/
-FONTE: Management of Diabetes in Pregnancy: Standards of Care in Diabetes—2025 — American Diabetes Association | https://diabetesjournals.org/care/article/48/Supplement_1/S306/157565/15-Management-of-Diabetes-in-Pregnancy-Standards
+FONTE: Ketogenic diet: Is the ultimate low-carb diet good for you? — Harvard Health Publishing | https://www.health.harvard.edu/blog/ketogenic-diet-is-the-ultimate-low-carb-diet-good-for-you-2017072712089
 NOTA_CHAT: 9,1
 ---
 <p>A dieta cetogênica reduz bastante os carboidratos e aumenta a participação de gorduras, com proteína moderada. Pode favorecer a perda de peso no curto prazo, mas é restritiva e tem riscos. Antes de começar, avalie sua saúde com um profissional.</p>
