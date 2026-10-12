@@ -14,6 +14,7 @@ const USO_FILE = `${PASTA}/uso-serpapi.json`;
 const UA = 'MenteCuriosaBot/1.0 (+https://www.mentecuriosa.blog)';
 const PAUSA_MS = 2000;
 // fora dos concorrentes: vídeo, rede social, loja, buscador e enciclopédia
+const AUTORIDADE = /(gov\.br|\.gov\b|who\.int|nih\.gov|scielo|sbn\.org|cardiol\.br|endocrino\.org|sbd\.org|febrasgo|sbgg|fiocruz|\.edu\b|\.edu\.br|mayoclinic|medlineplus|hopkinsmedicine|harvard\.edu|bvsalud|\.org\.br)/i;
 const EXCLUIDOS = /(youtube\.com|youtu\.be|instagram\.com|facebook\.com|tiktok\.com|twitter\.com|x\.com|reddit\.com|linkedin\.com|pinterest\.com|wikipedia\.org|amazon\.|mercadolivre\.|shopee\.|google\.)/i;
 
 const slug = (s) => s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -84,11 +85,34 @@ async function main() {
     await esperar(PAUSA_MS);
   }
 
+  // Fontes oficiais: só domínios de autoridade da própria busca, cada uma aberta e verificada
+  const oficiais = (j.organic_results || []).filter((o) => o.link && AUTORIDADE.test(new URL(o.link).hostname)).slice(0, 5);
+  const fontesOficiais = [];
+  for (const o of oficiais) {
+    const leitura = await lerPagina(o.link);
+    fontesOficiais.push({ titulo: o.title || '', link: o.link, ...leitura });
+    await esperar(PAUSA_MS);
+  }
+
+  // Links internos: artigos já publicados com palavras em comum com a palavra-chave
+  const artigosFile = 'data/articles.json';
+  const publicados = (lerJson(artigosFile, { articles: [] }).articles || lerJson(artigosFile, [])).filter((a) => a.status === 'published' && a.slug);
+  const tokens = (t) => new Set(String(t).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().split(/[^a-z0-9]+/).filter((w) => w.length > 3));
+  const base = tokens(PALAVRA);
+  const linksInternos = publicados
+    .map((a) => ({ titulo: a.title || '', url: `/${a.slug}`, comum: [...tokens(`${a.title || ''} ${a.keyword || ''}`)].filter((w) => base.has(w)).length }))
+    .filter((a) => a.comum > 0)
+    .sort((x, y) => y.comum - x.comum)
+    .slice(0, 5)
+    .map(({ titulo, url }) => ({ titulo, url }));
+
   const resultado = {
     palavra: PALAVRA,
     data: hoje,
     fonte: 'SerpAPI (Google Brasil)',
     concorrentes: paginas,
+    fontes_oficiais: fontesOficiais,
+    links_internos_sugeridos: linksInternos,
     perguntas: (j.related_questions || []).map((q) => q.question).filter(Boolean),
     relacionadas: (j.related_searches || []).map((q) => q.query).filter(Boolean),
     ai_overview: !!j.ai_overview,
@@ -99,7 +123,8 @@ async function main() {
   uso.buscas++;
   fs.writeFileSync(USO_FILE, JSON.stringify(uso));
   const lidas = paginas.filter((p) => p.lida).length;
-  console.log(`"${PALAVRA}": ${paginas.length} concorrentes, ${lidas} lidas de verdade, ${resultado.perguntas.length} perguntas. Busca ${uso.buscas}/${LIMITE_MES} no mês. Gravado em ${arquivo}`);
+  const oficiaisLidas = fontesOficiais.filter((f) => f.lida).length;
+  console.log(`"${PALAVRA}": ${paginas.length} concorrentes (${lidas} lidas), ${fontesOficiais.length} fontes oficiais (${oficiaisLidas} lidas), ${linksInternos.length} links internos, ${resultado.perguntas.length} perguntas. Busca ${uso.buscas}/${LIMITE_MES} no mês. Gravado em ${arquivo}`);
 }
 
 main().catch((e) => { console.error('❌', e.message); process.exit(1); });
