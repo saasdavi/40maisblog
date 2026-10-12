@@ -15,8 +15,8 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 5 | ginkgo biloba | `ginkgo-biloba.txt` | 110000 | ginkgo biloba para que serve |  |
 | 6 | própolis | `propolis.txt` | 110000 | própolis para que serve |  |
 | 7 | dieta cetogênica | `dieta-cetogenica.txt` | 90500 | dieta cetogênica cardapio | dieta cetogenica como funciona | dieta cetogênica como fazer | dieta cetogenica alimentos | dieta cetogenica o que é |  |
-| 8 | finasterida | `finasterida.txt` | 90500 | finasterida efeitos colaterais | sensível: só publica com `REVISADO: sim` |
-| 9 | insulínica | `insulinica.txt` | 90500 | — | sensível: só publica com `REVISADO: sim` |
+| 8 | finasterida | `finasterida.txt` | 90500 | finasterida efeitos colaterais | |
+| 9 | insulínica | `insulinica.txt` | 90500 | — | |
 | 10 | triptofano | `triptofano.txt` | 60500 | triptofano para que serve |  |
 | 11 | bursite | `bursite.txt` | 74000 | — |  |
 | 12 | vitamina b6 | `vitamina-b6.txt` | 49500 | vitamina b6 para que serve |  |
@@ -54,7 +54,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 44 | suco detox emagrece | `suco-detox-emagrece.txt` | 9900 | — |  |
 | 45 | okralin | `okralin.txt` | 12100 | okralin para que serve |  |
 | 46 | sopa para emagrecer | `sopa-para-emagrecer.txt` | 8100 | — |  |
-| 47 | ureia no creme | `ureia-no-creme.txt` | 8100 | — | sensível: só publica com `REVISADO: sim` |
+| 47 | ureia no creme | `ureia-no-creme.txt` | 8100 | — | |
 | 48 | silício orgânico | `silicio-organico.txt` | 8100 | silício orgânico para que serve |  |
 | 49 | vitaminas para homens | `vitaminas-para-homens.txt` | 8100 | — |  |
 | 50 | gordura na barriga como perder | `gordura-na-barriga-como-perder.txt` | 3600 | gordura na barriga | gordura da barriga como eliminar |  |
@@ -95,7 +95,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 85 | médico que cuida da coluna | `medico-que-cuida-da-coluna.txt` | 1900 | — |  |
 | 86 | dieta hipocalorica | `dieta-hipocalorica.txt` | 2400 | — |  |
 | 87 | comidas para ganhar massa muscular | `comidas-para-ganhar-massa-muscular.txt` | 1600 | — |  |
-| 88 | finasterida para queda de cabelo | `finasterida-para-queda-de-cabelo.txt` | 1600 | — | sensível: só publica com `REVISADO: sim` |
+| 88 | finasterida para queda de cabelo | `finasterida-para-queda-de-cabelo.txt` | 1600 | — | |
 | 89 | sopa emagrecedora | `sopa-emagrecedora.txt` | 2400 | — |  |
 | 90 | descamação do couro cabeludo | `descamacao-do-couro-cabeludo.txt` | 1600 | — |  |
 | 91 | valores normais de glicemia | `valores-normais-de-glicemia.txt` | 1600 | — |  |
@@ -119,14 +119,14 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 109 | treino para emagrecer na academia | `treino-para-emagrecer-na-academia.txt` | 1000 | — |  |
 | 110 | suplemento para ajudar a emagrecer | `suplemento-para-ajudar-a-emagrecer.txt` | 1000 | — |  |
 | 111 | dieta zero carboidrato | `dieta-zero-carboidrato.txt` | 1000 | — |  |
-| 112 | minoquisidiu | `minoquisidiu.txt` | 450000 | — | sensível: só publica com `REVISADO: sim` |
+| 112 | minoquisidiu | `minoquisidiu.txt` | 450000 | — | |
 | 113 | hipoglicemia | `hipoglicemia.txt` | 201000 | — |  |
 | 114 | ácido tranexâmico | `acido-tranexamico.txt` | 165000 | — |  |
 | 115 | ovos | `ovos.txt` | 110000 | — |  |
 | 116 | termogênicos | `termogenicos.txt` | 90500 | — |  |
 | 117 | pera | `pera.txt` | 74000 | — |  |
 | 118 | caqui | `caqui.txt` | 74000 | — |  |
-| 119 | isotretinoína | `isotretinoina.txt` | 74000 | — | sensível: só publica com `REVISADO: sim` |
+| 119 | isotretinoína | `isotretinoina.txt` | 74000 | — | |
 | 120 | peixes | `peixes.txt` | 60500 | — |  |
 | 121 | sabonete facial | `sabonete-facial.txt` | 60500 | — |  |
 | 122 | chá de gengibre | `cha-de-gengibre.txt` | 49500 | — |  |
@@ -222,7 +222,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 212 | cartigen ii | `cartigen-ii.txt` | 2400 | — |  |
 | 213 | alimentos termogenicos | `alimentos-termogenicos.txt` | 1900 | — |  |
 | 214 | profhilo | `profhilo.txt` | 12100 | — |  |
-| 215 | minoxidil capilar | `minoxidil-capilar.txt` | 1900 | — | sensível: só publica com `REVISADO: sim` |
+| 215 | minoxidil capilar | `minoxidil-capilar.txt` | 1900 | — | |
 | 216 | pele acneica | `pele-acneica.txt` | 1900 | — |  |
 | 217 | licor de chocolate | `licor-de-chocolate.txt` | 6600 | — |  |
 | 218 | nutrição clinica | `nutricao-clinica.txt` | 1900 | — |  |
@@ -247,7 +247,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 237 | vitamina c | `vitamina-c.txt` | 165000 | — |  |
 | 238 | pitaya | `pitaya.txt` | 135000 | — |  |
 | 239 | impetigo | `impetigo.txt` | 135000 | — |  |
-| 240 | câncer de pele | `cancer-de-pele.txt` | 135000 | — | sensível: só publica com `REVISADO: sim` |
+| 240 | câncer de pele | `cancer-de-pele.txt` | 135000 | — | |
 | 241 | sabonete de enxofre | `sabonete-de-enxofre.txt` | 135000 | — |  |
 | 242 | ácido hialurônico | `acido-hialuronico.txt` | 135000 | — |  |
 | 243 | niacinamida | `niacinamida.txt` | 135000 | — |  |
@@ -274,7 +274,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 264 | psyllium para que serve | `psyllium-para-que-serve.txt` | 74000 | — |  |
 | 265 | shampoo anticaspa | `shampoo-anticaspa.txt` | 74000 | — |  |
 | 266 | adesivo para espinha | `adesivo-para-espinha.txt` | 74000 | — |  |
-| 267 | melatonina para que serve | `melatonina-para-que-serve.txt` | 74000 | — | sensível: só publica com `REVISADO: sim` |
+| 267 | melatonina para que serve | `melatonina-para-que-serve.txt` | 74000 | — | |
 | 268 | magnésio treonato | `magnesio-treonato.txt` | 74000 | — |  |
 | 269 | vitamina e | `vitamina-e.txt` | 74000 | — |  |
 | 270 | zinco | `zinco.txt` | 74000 | — |  |
@@ -294,11 +294,11 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 284 | creatina monohidratada | `creatina-monohidratada.txt` | 60500 | — |  |
 | 285 | inibidor de apetite | `inibidor-de-apetite.txt` | 60500 | — |  |
 | 286 | inibidores de apetite | `inibidores-de-apetite.txt` | 60500 | — |  |
-| 287 | minoxidil comprimido | `minoxidil-comprimido.txt` | 60500 | — | sensível: só publica com `REVISADO: sim` |
+| 287 | minoxidil comprimido | `minoxidil-comprimido.txt` | 60500 | — | |
 | 288 | tipos de cabelo | `tipos-de-cabelo.txt` | 60500 | — |  |
 | 289 | tônico capilar | `tonico-capilar.txt` | 60500 | — |  |
 | 290 | vitaminas para cabelo | `vitaminas-para-cabelo.txt` | 60500 | — |  |
-| 291 | cobreiro | `cobreiro.txt` | 60500 | — | sensível: só publica com `REVISADO: sim` |
+| 291 | cobreiro | `cobreiro.txt` | 60500 | — | |
 | 292 | limpeza de pele | `limpeza-de-pele.txt` | 60500 | — |  |
 | 293 | protetor solar com cor | `protetor-solar-com-cor.txt` | 60500 | — |  |
 | 294 | vitamina k2 | `vitamina-k2.txt` | 60500 | — |  |
@@ -312,13 +312,13 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 302 | arginina | `arginina.txt` | 60500 | — |  |
 | 303 | feno grego para que serve | `feno-grego-para-que-serve.txt` | 60500 | — |  |
 | 304 | colina | `colina.txt` | 60500 | — |  |
-| 305 | colesterol alterado | `colesterol-alterado.txt` | 49500 | — | sensível: só publica com `REVISADO: sim` |
+| 305 | colesterol alterado | `colesterol-alterado.txt` | 49500 | — | |
 | 306 | água destilada | `agua-destilada.txt` | 49500 | — |  |
 | 307 | fibras | `fibras.txt` | 49500 | — |  |
 | 308 | constipação | `constipacao.txt` | 49500 | — |  |
 | 309 | cravos | `cravos.txt` | 49500 | — |  |
 | 310 | glicerina | `glicerina.txt` | 49500 | — |  |
-| 311 | hidroquinona | `hidroquinona.txt` | 49500 | — | sensível: só publica com `REVISADO: sim` |
+| 311 | hidroquinona | `hidroquinona.txt` | 49500 | — | |
 | 312 | peeling | `peeling.txt` | 49500 | — |  |
 | 313 | magnésio bisglicinato | `magnesio-bisglicinato.txt` | 49500 | — |  |
 | 314 | magnésio dimalato para que serve | `magnesio-dimalato-para-que-serve.txt` | 49500 | — |  |
@@ -327,7 +327,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 317 | n acetilcisteína | `n-acetilcisteina.txt` | 49500 | — |  |
 | 318 | saw palmetto | `saw-palmetto.txt` | 49500 | — |  |
 | 319 | pycnogenol | `pycnogenol.txt` | 49500 | — |  |
-| 320 | resistência à insulina | `resistencia-a-insulina.txt` | 40500 | — | sensível: só publica com `REVISADO: sim` |
+| 320 | resistência à insulina | `resistencia-a-insulina.txt` | 40500 | — | |
 | 321 | gordura visceral | `gordura-visceral.txt` | 40500 | — |  |
 | 322 | marmitas fitness | `marmitas-fitness.txt` | 40500 | — |  |
 | 323 | marmita fitness | `marmita-fitness.txt` | 40500 | — |  |
@@ -358,7 +358,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 348 | cúrcuma para que serve | `curcuma-para-que-serve.txt` | 40500 | — |  |
 | 349 | vitamina k | `vitamina-k.txt` | 40500 | — |  |
 | 350 | climatério | `climaterio.txt` | 33100 | — |  |
-| 351 | creatinina alta | `creatinina-alta.txt` | 33100 | — | sensível: só publica com `REVISADO: sim` |
+| 351 | creatinina alta | `creatinina-alta.txt` | 33100 | — | |
 | 352 | nutrição | `nutricao.txt` | 33100 | — |  |
 | 353 | laticínios | `laticinios.txt` | 33100 | — |  |
 | 354 | hidromel | `hidromel.txt` | 33100 | — |  |
@@ -391,7 +391,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 381 | cafeína | `cafeina.txt` | 33100 | — |  |
 | 382 | spirulina para que serve | `spirulina-para-que-serve.txt` | 33100 | — |  |
 | 383 | o que é sarcopenia | `o-que-e-sarcopenia.txt` | 27100 | — |  |
-| 384 | colesterol alto sintomas | `colesterol-alto-sintomas.txt` | 27100 | — | sensível: só publica com `REVISADO: sim` |
+| 384 | colesterol alto sintomas | `colesterol-alto-sintomas.txt` | 27100 | — | |
 | 385 | jantar | `jantar.txt` | 27100 | — |  |
 | 386 | carne seca | `carne-seca.txt` | 27100 | — |  |
 | 387 | chá para desinchar | `cha-para-desinchar.txt` | 27100 | — |  |
@@ -402,8 +402,8 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 392 | chás para desinchar | `chas-para-desinchar.txt` | 27100 | — |  |
 | 393 | fiber mais | `fiber-mais.txt` | 27100 | — |  |
 | 394 | proteina de soja | `proteina-de-soja.txt` | 27100 | — |  |
-| 395 | minoxidil oral | `minoxidil-oral.txt` | 27100 | — | sensível: só publica com `REVISADO: sim` |
-| 396 | minoxidil cabelo | `minoxidil-cabelo.txt` | 27100 | — | sensível: só publica com `REVISADO: sim` |
+| 395 | minoxidil oral | `minoxidil-oral.txt` | 27100 | — | |
+| 396 | minoxidil cabelo | `minoxidil-cabelo.txt` | 27100 | — | |
 | 397 | bigode chinês | `bigode-chines.txt` | 27100 | — |  |
 | 398 | esfoliação facial | `esfoliacao-facial.txt` | 27100 | — |  |
 | 399 | gua sha | `gua-sha.txt` | 27100 | — |  |
@@ -418,7 +418,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 408 | glutationa | `glutationa.txt` | 27100 | — |  |
 | 409 | silimarina para que serve | `silimarina-para-que-serve.txt` | 27100 | — |  |
 | 410 | dhea | `dhea.txt` | 27100 | — |  |
-| 411 | reposição hormonal | `reposicao-hormonal.txt` | 22200 | — | sensível: só publica com `REVISADO: sim` |
+| 411 | reposição hormonal | `reposicao-hormonal.txt` | 22200 | — | |
 | 412 | café da manhã saudável | `cafe-da-manha-saudavel.txt` | 22200 | — |  |
 | 413 | alimentação compulsiva | `alimentacao-compulsiva.txt` | 22200 | — |  |
 | 414 | compulsoes alimentares | `compulsoes-alimentares.txt` | 22200 | — |  |
@@ -440,7 +440,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 430 | transplante capilar | `transplante-capilar.txt` | 22200 | — |  |
 | 431 | cabelo grisalho | `cabelo-grisalho.txt` | 22200 | — |  |
 | 432 | biotina para cabelo | `biotina-para-cabelo.txt` | 22200 | — |  |
-| 433 | minoxidil para que serve | `minoxidil-para-que-serve.txt` | 22200 | — | sensível: só publica com `REVISADO: sim` |
+| 433 | minoxidil para que serve | `minoxidil-para-que-serve.txt` | 22200 | — | |
 | 434 | queda de cabelos | `queda-de-cabelos.txt` | 22200 | — |  |
 | 435 | óleo de coco para cabelo | `oleo-de-coco-para-cabelo.txt` | 22200 | — |  |
 | 436 | pé de atleta | `pe-de-atleta.txt` | 22200 | — |  |
@@ -455,7 +455,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 445 | curcumina | `curcumina.txt` | 22200 | — |  |
 | 446 | glicina para que serve | `glicina-para-que-serve.txt` | 22200 | — |  |
 | 447 | citrulina | `citrulina.txt` | 22200 | — |  |
-| 448 | pressão 14 por 9 | `pressao-14-por-9.txt` | 18100 | — | sensível: só publica com `REVISADO: sim` |
+| 448 | pressão 14 por 9 | `pressao-14-por-9.txt` | 18100 | — | |
 | 449 | longevidade | `longevidade.txt` | 18100 | — |  |
 | 450 | marmitas congeladas | `marmitas-congeladas.txt` | 18100 | — |  |
 | 451 | marmita congelada | `marmita-congelada.txt` | 18100 | — |  |
@@ -473,7 +473,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 463 | açucar refinado | `acucar-refinado.txt` | 18100 | — |  |
 | 464 | açucar de confeiteiro | `acucar-de-confeiteiro.txt` | 18100 | — |  |
 | 465 | cabelo poroso | `cabelo-poroso.txt` | 18100 | — |  |
-| 466 | minoxidil barba | `minoxidil-barba.txt` | 18100 | — | sensível: só publica com `REVISADO: sim` |
+| 466 | minoxidil barba | `minoxidil-barba.txt` | 18100 | — | |
 | 467 | calvície | `calvicie.txt` | 18100 | — |  |
 | 468 | massagem facial | `massagem-facial.txt` | 18100 | — |  |
 | 469 | toalha de rosto | `toalha-de-rosto.txt` | 18100 | — |  |
@@ -499,7 +499,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 489 | chá seca barriga | `cha-seca-barriga.txt` | 14800 | — |  |
 | 490 | destilados | `destilados.txt` | 14800 | — |  |
 | 491 | cachaça bananinha | `cachaca-bananinha.txt` | 14800 | — |  |
-| 492 | chá para pressão alta | `cha-para-pressao-alta.txt` | 14800 | — | sensível: só publica com `REVISADO: sim` |
+| 492 | chá para pressão alta | `cha-para-pressao-alta.txt` | 14800 | — | |
 | 493 | bananinha carne | `bananinha-carne.txt` | 14800 | — |  |
 | 494 | chá dente de leão | `cha-dente-de-leao.txt` | 14800 | — |  |
 | 495 | chá para gases | `cha-para-gases.txt` | 14800 | — |  |
@@ -529,10 +529,10 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 519 | alcachofra para que serve | `alcachofra-para-que-serve.txt` | 14800 | — |  |
 | 520 | óleo de prímula | `oleo-de-primula.txt` | 14800 | — |  |
 | 521 | gengibre para que serve | `gengibre-para-que-serve.txt` | 14800 | — |  |
-| 522 | o que é colesterol | `o-que-e-colesterol.txt` | 12100 | — | sensível: só publica com `REVISADO: sim` |
+| 522 | o que é colesterol | `o-que-e-colesterol.txt` | 12100 | — | |
 | 523 | menopausa precoce | `menopausa-precoce.txt` | 12100 | — |  |
 | 524 | caminhada emagrece | `caminhada-emagrece.txt` | 12100 | — |  |
-| 525 | pressão alta o que fazer | `pressao-alta-o-que-fazer.txt` | 12100 | — | sensível: só publica com `REVISADO: sim` |
+| 525 | pressão alta o que fazer | `pressao-alta-o-que-fazer.txt` | 12100 | — | |
 | 526 | caminhada para emagrecer | `caminhada-para-emagrecer.txt` | 12100 | — |  |
 | 527 | psyllium emagrece | `psyllium-emagrece.txt` | 12100 | — |  |
 | 528 | leguminosas | `leguminosas.txt` | 12100 | — |  |
@@ -568,7 +568,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 558 | hidratação caseira para cabelo | `hidratacao-caseira-para-cabelo.txt` | 12100 | — |  |
 | 559 | tônico facial | `tonico-facial.txt` | 12100 | — |  |
 | 560 | skincare coreano | `skincare-coreano.txt` | 12100 | — |  |
-| 561 | tretinoína | `tretinoina.txt` | 12100 | — | sensível: só publica com `REVISADO: sim` |
+| 561 | tretinoína | `tretinoina.txt` | 12100 | — | |
 | 562 | ácido mandélico | `acido-mandelico.txt` | 12100 | — |  |
 | 563 | bioestimulador de colágeno | `bioestimulador-de-colageno.txt` | 12100 | — |  |
 | 564 | dermatilomania | `dermatilomania.txt` | 12100 | — |  |
@@ -629,7 +629,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 619 | protetor solar em pó | `protetor-solar-em-po.txt` | 9900 | — |  |
 | 620 | meditação para dormir | `meditacao-para-dormir.txt` | 9900 | — |  |
 | 621 | vitamina b2 | `vitamina-b2.txt` | 9900 | — |  |
-| 622 | melatonina efeitos colaterais | `melatonina-efeitos-colaterais.txt` | 9900 | — | sensível: só publica com `REVISADO: sim` |
+| 622 | melatonina efeitos colaterais | `melatonina-efeitos-colaterais.txt` | 9900 | — | |
 | 623 | l teanina para que serve | `l-teanina-para-que-serve.txt` | 9900 | — |  |
 | 624 | gaba para que serve | `gaba-para-que-serve.txt` | 9900 | — |  |
 | 625 | colágeno hidrolisado para que serve | `colageno-hidrolisado-para-que-serve.txt` | 9900 | — |  |
@@ -663,10 +663,10 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 653 | lavar o cabelo todo dia faz mal | `lavar-o-cabelo-todo-dia-faz-mal.txt` | 8100 | — |  |
 | 654 | óleo de argan para cabelo | `oleo-de-argan-para-cabelo.txt` | 8100 | — |  |
 | 655 | gelatina para cabelo | `gelatina-para-cabelo.txt` | 8100 | — |  |
-| 656 | finasterida efeitos colaterais | `finasterida-efeitos-colaterais.txt` | 8100 | — | sensível: só publica com `REVISADO: sim` |
+| 656 | finasterida efeitos colaterais | `finasterida-efeitos-colaterais.txt` | 8100 | — | |
 | 657 | foliculite no couro cabeludo | `foliculite-no-couro-cabeludo.txt` | 8100 | — |  |
 | 658 | queda de cabelo o que pode ser | `queda-de-cabelo-o-que-pode-ser.txt` | 8100 | — |  |
-| 659 | minoxidil como usar | `minoxidil-como-usar.txt` | 8100 | — | sensível: só publica com `REVISADO: sim` |
+| 659 | minoxidil como usar | `minoxidil-como-usar.txt` | 8100 | — | |
 | 660 | benefícios da babosa | `beneficios-da-babosa.txt` | 8100 | — |  |
 | 661 | coceira no couro cabeludo | `coceira-no-couro-cabeludo.txt` | 8100 | — |  |
 | 662 | rinofima | `rinofima.txt` | 8100 | — |  |
@@ -731,7 +731,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 721 | alimentos ricos em carboidratos | `alimentos-ricos-em-carboidratos.txt` | 6600 | — |  |
 | 722 | dermatite seborreica tratamento | `dermatite-seborreica-tratamento.txt` | 6600 | — |  |
 | 723 | babosa no cabelo como usar | `babosa-no-cabelo-como-usar.txt` | 6600 | — |  |
-| 724 | efeitos colaterais do minoxidil | `efeitos-colaterais-do-minoxidil.txt` | 6600 | — | sensível: só publica com `REVISADO: sim` |
+| 724 | efeitos colaterais do minoxidil | `efeitos-colaterais-do-minoxidil.txt` | 6600 | — | |
 | 725 | feridas no couro cabeludo | `feridas-no-couro-cabeludo.txt` | 6600 | — |  |
 | 726 | cabelo quebradiço | `cabelo-quebradico.txt` | 6600 | — |  |
 | 727 | microagulhamento capilar | `microagulhamento-capilar.txt` | 6600 | — |  |
@@ -821,7 +821,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 811 | dhea para que serve | `dhea-para-que-serve.txt` | 5400 | — |  |
 | 812 | bromelaína para que serve | `bromelaina-para-que-serve.txt` | 5400 | — |  |
 | 813 | vitamina para queda de cabelo feminino | `vitamina-para-queda-de-cabelo-feminino.txt` | 5400 | — |  |
-| 814 | chá para colesterol | `cha-para-colesterol.txt` | 4400 | — | sensível: só publica com `REVISADO: sim` |
+| 814 | chá para colesterol | `cha-para-colesterol.txt` | 4400 | — | |
 | 815 | perda de massa muscular | `perda-de-massa-muscular.txt` | 4400 | — |  |
 | 816 | saciedade | `saciedade.txt` | 4400 | — |  |
 | 817 | gordura visceral como eliminar | `gordura-visceral-como-eliminar.txt` | 4400 | — |  |
@@ -862,7 +862,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 852 | vida saudável | `vida-saudavel.txt` | 4400 | — |  |
 | 853 | okralin para que serve | `okralin-para-que-serve.txt` | 4400 | — |  |
 | 854 | cabelo ralo | `cabelo-ralo.txt` | 4400 | — |  |
-| 855 | minoxidil tópico | `minoxidil-topico.txt` | 4400 | — | sensível: só publica com `REVISADO: sim` |
+| 855 | minoxidil tópico | `minoxidil-topico.txt` | 4400 | — | |
 | 856 | biotina 5mg | `biotina-5mg.txt` | 4400 | — |  |
 | 857 | cabelo caindo | `cabelo-caindo.txt` | 4400 | — |  |
 | 858 | cabelo caindo muito o que pode ser | `cabelo-caindo-muito-o-que-pode-ser.txt` | 4400 | — |  |
@@ -887,7 +887,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 877 | citrulina para que serve | `citrulina-para-que-serve.txt` | 4400 | — |  |
 | 878 | mio inositol para que serve | `mio-inositol-para-que-serve.txt` | 4400 | — |  |
 | 879 | alopecia feminino | `alopecia-feminino.txt` | 4400 | — |  |
-| 880 | dieta para colesterol alto | `dieta-para-colesterol-alto.txt` | 3600 | — | sensível: só publica com `REVISADO: sim` |
+| 880 | dieta para colesterol alto | `dieta-para-colesterol-alto.txt` | 3600 | — | |
 | 881 | insônia causas | `insonia-causas.txt` | 3600 | — |  |
 | 882 | gordura abdominal | `gordura-abdominal.txt` | 3600 | — |  |
 | 883 | marmita fit congelada | `marmita-fit-congelada.txt` | 3600 | — |  |
@@ -935,10 +935,10 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 925 | caspa o que é | `caspa-o-que-e.txt` | 3600 | — |  |
 | 926 | alopecia por tração | `alopecia-por-tracao.txt` | 3600 | — |  |
 | 927 | couro cabeludo inflamado | `couro-cabeludo-inflamado.txt` | 3600 | — |  |
-| 928 | minoxidil turbinado | `minoxidil-turbinado.txt` | 3600 | — | sensível: só publica com `REVISADO: sim` |
+| 928 | minoxidil turbinado | `minoxidil-turbinado.txt` | 3600 | — | |
 | 929 | hidratação com babosa | `hidratacao-com-babosa.txt` | 3600 | — |  |
 | 930 | cabelo caindo muito o que fazer | `cabelo-caindo-muito-o-que-fazer.txt` | 3600 | — |  |
-| 931 | minoxidil qual o melhor | `minoxidil-qual-o-melhor.txt` | 3600 | — | sensível: só publica com `REVISADO: sim` |
+| 931 | minoxidil qual o melhor | `minoxidil-qual-o-melhor.txt` | 3600 | — | |
 | 932 | cabelo grisalho masculino | `cabelo-grisalho-masculino.txt` | 3600 | — |  |
 | 933 | alta frequência capilar | `alta-frequencia-capilar.txt` | 3600 | — |  |
 | 934 | tônico para queda de cabelo | `tonico-para-queda-de-cabelo.txt` | 3600 | — |  |
@@ -1038,11 +1038,11 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1028 | tribulus para que serve | `tribulus-para-que-serve.txt` | 2900 | — |  |
 | 1029 | espermidina | `espermidina.txt` | 2900 | — |  |
 | 1030 | same para que serve | `same-para-que-serve.txt` | 2900 | — |  |
-| 1031 | colesterol bom como aumentar | `colesterol-bom-como-aumentar.txt` | 2400 | — | sensível: só publica com `REVISADO: sim` |
+| 1031 | colesterol bom como aumentar | `colesterol-bom-como-aumentar.txt` | 2400 | — | |
 | 1032 | efeito sanfona | `efeito-sanfona.txt` | 2400 | — |  |
 | 1033 | perder gordura abdominal | `perder-gordura-abdominal.txt` | 2400 | — |  |
 | 1034 | geografia da fome | `geografia-da-fome.txt` | 2400 | — |  |
-| 1035 | diabetes e emagrecimento | `diabetes-e-emagrecimento.txt` | 2400 | — | sensível: só publica com `REVISADO: sim` |
+| 1035 | diabetes e emagrecimento | `diabetes-e-emagrecimento.txt` | 2400 | — | |
 | 1036 | planejamento alimentar | `planejamento-alimentar.txt` | 2400 | — |  |
 | 1037 | emagrecedor potente | `emagrecedor-potente.txt` | 2400 | — |  |
 | 1038 | marmitas para semana | `marmitas-para-semana.txt` | 2400 | — |  |
@@ -1085,11 +1085,11 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1075 | dieta para desinflamar o corpo | `dieta-para-desinflamar-o-corpo.txt` | 2400 | — |  |
 | 1076 | benefícios do jejum intermitente | `beneficios-do-jejum-intermitente.txt` | 2400 | — |  |
 | 1077 | intolerâncias alimentares | `intolerancias-alimentares.txt` | 2400 | — |  |
-| 1078 | minoxidil manipulado | `minoxidil-manipulado.txt` | 2400 | — | sensível: só publica com `REVISADO: sim` |
-| 1079 | melhor minoxidil | `melhor-minoxidil.txt` | 2400 | — | sensível: só publica com `REVISADO: sim` |
-| 1080 | minoxidil para cabelo feminino | `minoxidil-para-cabelo-feminino.txt` | 2400 | — | sensível: só publica com `REVISADO: sim` |
-| 1081 | melhores minoxidil | `melhores-minoxidil.txt` | 2400 | — | sensível: só publica com `REVISADO: sim` |
-| 1082 | minoxidil e finasterida | `minoxidil-e-finasterida.txt` | 2400 | — | sensível: só publica com `REVISADO: sim` |
+| 1078 | minoxidil manipulado | `minoxidil-manipulado.txt` | 2400 | — | |
+| 1079 | melhor minoxidil | `melhor-minoxidil.txt` | 2400 | — | |
+| 1080 | minoxidil para cabelo feminino | `minoxidil-para-cabelo-feminino.txt` | 2400 | — | |
+| 1081 | melhores minoxidil | `melhores-minoxidil.txt` | 2400 | — | |
+| 1082 | minoxidil e finasterida | `minoxidil-e-finasterida.txt` | 2400 | — | |
 | 1083 | pantogar para queda de cabelo | `pantogar-para-queda-de-cabelo.txt` | 2400 | — |  |
 | 1084 | oq fazer para o cabelo parar de cair | `oq-fazer-para-o-cabelo-parar-de-cair.txt` | 2400 | — |  |
 | 1085 | cabelo fino | `cabelo-fino.txt` | 2400 | — |  |
@@ -1163,16 +1163,16 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1153 | mel para cabelo | `mel-para-cabelo.txt` | 1900 | — |  |
 | 1154 | caroço no couro cabeludo | `caroco-no-couro-cabeludo.txt` | 1900 | — |  |
 | 1155 | prp capilar | `prp-capilar.txt` | 1900 | — |  |
-| 1156 | minoxidil quanto tempo para fazer efeito | `minoxidil-quanto-tempo-para-fazer-efeito.txt` | 1900 | — | sensível: só publica com `REVISADO: sim` |
-| 1157 | minoxidil funciona | `minoxidil-funciona.txt` | 1900 | — | sensível: só publica com `REVISADO: sim` |
+| 1156 | minoxidil quanto tempo para fazer efeito | `minoxidil-quanto-tempo-para-fazer-efeito.txt` | 1900 | — | |
+| 1157 | minoxidil funciona | `minoxidil-funciona.txt` | 1900 | — | |
 | 1158 | tratamento para calvície | `tratamento-para-calvicie.txt` | 1900 | — |  |
 | 1159 | alopecia areata tratamento | `alopecia-areata-tratamento.txt` | 1900 | — |  |
 | 1160 | queda capilar | `queda-capilar.txt` | 1900 | — |  |
 | 1161 | meu cabelo está caindo muito | `meu-cabelo-esta-caindo-muito.txt` | 1900 | — |  |
 | 1162 | antiqueda | `antiqueda.txt` | 1900 | — |  |
-| 1163 | minoxidil loção | `minoxidil-locao.txt` | 1900 | — | sensível: só publica com `REVISADO: sim` |
+| 1163 | minoxidil loção | `minoxidil-locao.txt` | 1900 | — | |
 | 1164 | biotina para queda de cabelo | `biotina-para-queda-de-cabelo.txt` | 1900 | — |  |
-| 1165 | minoxidil para mulheres | `minoxidil-para-mulheres.txt` | 1900 | — | sensível: só publica com `REVISADO: sim` |
+| 1165 | minoxidil para mulheres | `minoxidil-para-mulheres.txt` | 1900 | — | |
 | 1166 | meu cabelo está caindo muito o que pode ser | `meu-cabelo-esta-caindo-muito-o-que-pode-ser.txt` | 1900 | — |  |
 | 1167 | benefícios da biotina | `beneficios-da-biotina.txt` | 1900 | — |  |
 | 1168 | babosa é bom para o cabelo | `babosa-e-bom-para-o-cabelo.txt` | 1900 | — |  |
@@ -1257,20 +1257,20 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1247 | constipação crônica | `constipacao-cronica.txt` | 1600 | — |  |
 | 1248 | intestino preguiçoso sintomas | `intestino-preguicoso-sintomas.txt` | 1600 | — |  |
 | 1249 | alimentos nao contem gluten | `alimentos-nao-contem-gluten.txt` | 1600 | — |  |
-| 1250 | finasterida para cabelo | `finasterida-para-cabelo.txt` | 1600 | — | sensível: só publica com `REVISADO: sim` |
+| 1250 | finasterida para cabelo | `finasterida-para-cabelo.txt` | 1600 | — | |
 | 1251 | aminoácidos para cabelo | `aminoacidos-para-cabelo.txt` | 1600 | — |  |
 | 1252 | quantos fios de cabelo temos | `quantos-fios-de-cabelo-temos.txt` | 1600 | — |  |
 | 1253 | vichy antiqueda | `vichy-antiqueda.txt` | 1600 | — |  |
-| 1254 | minoxidil para queda de cabelo | `minoxidil-para-queda-de-cabelo.txt` | 1600 | — | sensível: só publica com `REVISADO: sim` |
+| 1254 | minoxidil para queda de cabelo | `minoxidil-para-queda-de-cabelo.txt` | 1600 | — | |
 | 1255 | trichosol | `trichosol.txt` | 1600 | — |  |
-| 1256 | minoxidil cresce cabelo | `minoxidil-cresce-cabelo.txt` | 1600 | — | sensível: só publica com `REVISADO: sim` |
-| 1257 | minoxidil funciona mesmo | `minoxidil-funciona-mesmo.txt` | 1600 | — | sensível: só publica com `REVISADO: sim` |
+| 1256 | minoxidil cresce cabelo | `minoxidil-cresce-cabelo.txt` | 1600 | — | |
+| 1257 | minoxidil funciona mesmo | `minoxidil-funciona-mesmo.txt` | 1600 | — | |
 | 1258 | tricofort antiqueda | `tricofort-antiqueda.txt` | 1600 | — |  |
-| 1259 | crescer cabelo minoxidil | `crescer-cabelo-minoxidil.txt` | 1600 | — | sensível: só publica com `REVISADO: sim` |
+| 1259 | crescer cabelo minoxidil | `crescer-cabelo-minoxidil.txt` | 1600 | — | |
 | 1260 | falha no cabelo | `falha-no-cabelo.txt` | 1600 | — |  |
 | 1261 | alopecia universal | `alopecia-universal.txt` | 1600 | — |  |
 | 1262 | óleo essencial de alecrim cabelo | `oleo-essencial-de-alecrim-cabelo.txt` | 1600 | — |  |
-| 1263 | minoxidil o que é | `minoxidil-o-que-e.txt` | 1600 | — | sensível: só publica com `REVISADO: sim` |
+| 1263 | minoxidil o que é | `minoxidil-o-que-e.txt` | 1600 | — | |
 | 1264 | alopecia de tração | `alopecia-de-tracao.txt` | 1600 | — |  |
 | 1265 | como usar óleo de alecrim no cabelo | `como-usar-oleo-de-alecrim-no-cabelo.txt` | 1600 | — |  |
 | 1266 | laser capilar | `laser-capilar.txt` | 1600 | — |  |
@@ -1352,11 +1352,11 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1342 | clear antiqueda | `clear-antiqueda.txt` | 1300 | — |  |
 | 1343 | suplemento biotina | `suplemento-biotina.txt` | 1300 | — |  |
 | 1344 | entradas cabelo | `entradas-cabelo.txt` | 1300 | — |  |
-| 1345 | valor do minoxidil | `valor-do-minoxidil.txt` | 1300 | — | sensível: só publica com `REVISADO: sim` |
+| 1345 | valor do minoxidil | `valor-do-minoxidil.txt` | 1300 | — | |
 | 1346 | cabelo caindo o que pode ser | `cabelo-caindo-o-que-pode-ser.txt` | 1300 | — |  |
 | 1347 | benefícios da babosa no cabelo | `beneficios-da-babosa-no-cabelo.txt` | 1300 | — |  |
 | 1348 | babosa é bom para queda de cabelo | `babosa-e-bom-para-queda-de-cabelo.txt` | 1300 | — |  |
-| 1349 | tônico minoxidil | `tonico-minoxidil.txt` | 1300 | — | sensível: só publica com `REVISADO: sim` |
+| 1349 | tônico minoxidil | `tonico-minoxidil.txt` | 1300 | — | |
 | 1350 | queda de cabelo estresse | `queda-de-cabelo-estresse.txt` | 1300 | — |  |
 | 1351 | alopecia areata causas | `alopecia-areata-causas.txt` | 1300 | — |  |
 | 1352 | como recuperar cabelo quebrado | `como-recuperar-cabelo-quebrado.txt` | 1300 | — |  |
@@ -1428,7 +1428,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1418 | vitamina para cabelo caindo | `vitamina-para-cabelo-caindo.txt` | 1000 | — |  |
 | 1419 | vitamina de cavalo para cabelo | `vitamina-de-cavalo-para-cabelo.txt` | 1000 | — |  |
 | 1420 | alopecia estresse | `alopecia-estresse.txt` | 1000 | — |  |
-| 1421 | manchas de resistencia a insulina | `manchas-de-resistencia-a-insulina.txt` | 880 | — | sensível: só publica com `REVISADO: sim` |
+| 1421 | manchas de resistencia a insulina | `manchas-de-resistencia-a-insulina.txt` | 880 | — | |
 | 1422 | ajuda para emagrecer | `ajuda-para-emagrecer.txt` | 880 | — |  |
 | 1423 | estresse faz cair cabelo | `estresse-faz-cair-cabelo.txt` | 880 | — |  |
 | 1424 | alergia a desodorante | `alergia-a-desodorante.txt` | 880 | — |  |
@@ -1451,7 +1451,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1441 | hidratação para cabelo com babosa | `hidratacao-para-cabelo-com-babosa.txt` | 480 | — |  |
 | 1442 | adeforte serve para queda de cabelo | `adeforte-serve-para-queda-de-cabelo.txt` | 480 | — |  |
 | 1443 | alopecia na sobrancelha | `alopecia-na-sobrancelha.txt` | 480 | — |  |
-| 1444 | intolerância a insulina | `intolerancia-a-insulina.txt` | 390 | — | sensível: só publica com `REVISADO: sim` |
+| 1444 | intolerância a insulina | `intolerancia-a-insulina.txt` | 390 | — | |
 | 1445 | lipomax cromo emagrece quantos quilos por semana | `lipomax-cromo-emagrece-quantos-quilos-por-semana.txt` | 390 | — |  |
 | 1446 | estresse causa cabelo branco | `estresse-causa-cabelo-branco.txt` | 390 | — |  |
 | 1447 | estresse cai cabelo | `estresse-cai-cabelo.txt` | 390 | — |  |
@@ -1462,7 +1462,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1452 | sono não reparador | `sono-nao-reparador.txt` | 390 | — |  |
 | 1453 | bruxismo do sono | `bruxismo-do-sono.txt` | 390 | — |  |
 | 1454 | ferro na gravidez | `ferro-na-gravidez.txt` | 390 | — |  |
-| 1455 | medicamento para resistencia insulina | `medicamento-para-resistencia-insulina.txt` | 320 | — | sensível: só publica com `REVISADO: sim` |
+| 1455 | medicamento para resistencia insulina | `medicamento-para-resistencia-insulina.txt` | 320 | — | |
 | 1456 | composto emagrecedor extra forte | `composto-emagrecedor-extra-forte.txt` | 320 | — |  |
 | 1457 | falhas no couro cabeludo | `falhas-no-couro-cabeludo.txt` | 320 | — |  |
 | 1458 | vermelhidão no couro cabeludo | `vermelhidao-no-couro-cabeludo.txt` | 320 | — |  |
@@ -1478,7 +1478,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1468 | dieta plant based | `dieta-plant-based.txt` | 260 | — |  |
 | 1469 | calvície na adolescência | `calvicie-na-adolescencia.txt` | 260 | — |  |
 | 1470 | calvície feminina frontal | `calvicie-feminina-frontal.txt` | 260 | — |  |
-| 1471 | minoxidil ajuda na calvície | `minoxidil-ajuda-na-calvicie.txt` | 260 | — | sensível: só publica com `REVISADO: sim` |
+| 1471 | minoxidil ajuda na calvície | `minoxidil-ajuda-na-calvicie.txt` | 260 | — | |
 | 1472 | alopecia fibrosante frontal tem cura | `alopecia-fibrosante-frontal-tem-cura.txt` | 260 | — |  |
 | 1473 | babosa serve para queda de cabelo | `babosa-serve-para-queda-de-cabelo.txt` | 260 | — |  |
 | 1474 | pele na menopausa | `pele-na-menopausa.txt` | 260 | — |  |
@@ -1508,7 +1508,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1498 | pele de idoso | `pele-de-idoso.txt` | 170 | — |  |
 | 1499 | ansiedade faz comer muito | `ansiedade-faz-comer-muito.txt` | 140 | — |  |
 | 1500 | diabete emagrece muito | `diabete-emagrece-muito.txt` | 140 | — |  |
-| 1501 | diabetes emagrece muito | `diabetes-emagrece-muito.txt` | 140 | — | sensível: só publica com `REVISADO: sim` |
+| 1501 | diabetes emagrece muito | `diabetes-emagrece-muito.txt` | 140 | — | |
 | 1502 | dificuldade para emagrecer mesmo fazendo dieta | `dificuldade-para-emagrecer-mesmo-fazendo-dieta.txt` | 140 | — |  |
 | 1503 | gordura acumulada na barriga | `gordura-acumulada-na-barriga.txt` | 140 | — |  |
 | 1504 | gordura nas visceras | `gordura-nas-visceras.txt` | 140 | — |  |
@@ -1521,7 +1521,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1511 | perda de peso inexplicável | `perda-de-peso-inexplicavel.txt` | 110 | — |  |
 | 1512 | abdominal emagrece a barriga | `abdominal-emagrece-a-barriga.txt` | 110 | — |  |
 | 1513 | barriga de gordura visceral | `barriga-de-gordura-visceral.txt` | 110 | — |  |
-| 1514 | aplicação de minoxidil no couro cabeludo | `aplicacao-de-minoxidil-no-couro-cabeludo.txt` | 110 | — | sensível: só publica com `REVISADO: sim` |
+| 1514 | aplicação de minoxidil no couro cabeludo | `aplicacao-de-minoxidil-no-couro-cabeludo.txt` | 110 | — | |
 | 1515 | queda brusca de cabelo | `queda-brusca-de-cabelo.txt` | 110 | — |  |
 | 1516 | como identificar alopecia | `como-identificar-alopecia.txt` | 110 | — |  |
 | 1517 | ansiedade e sono | `ansiedade-e-sono.txt` | 110 | — |  |
@@ -1544,14 +1544,14 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1534 | queda de cabelo por emagrecimento rápido | `queda-de-cabelo-por-emagrecimento-rapido.txt` | — | — |  |
 | 1535 | cabelo caindo por emagrecimento rápido | `cabelo-caindo-por-emagrecimento-rapido.txt` | — | — |  |
 | 1536 | queda de cabelo por cirurgia bariátrica | `queda-de-cabelo-por-cirurgia-bariatrica.txt` | — | — |  |
-| 1537 | queda de cabelo por ozempic | `queda-de-cabelo-por-ozempic.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1538 | cabelo caindo por quimioterapia | `cabelo-caindo-por-quimioterapia.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1539 | queda de cabelo por antidepressivo | `queda-de-cabelo-por-antidepressivo.txt` | — | — | sensível: só publica com `REVISADO: sim` |
+| 1537 | queda de cabelo por ozempic | `queda-de-cabelo-por-ozempic.txt` | — | — | |
+| 1538 | cabelo caindo por quimioterapia | `cabelo-caindo-por-quimioterapia.txt` | — | — | |
+| 1539 | queda de cabelo por antidepressivo | `queda-de-cabelo-por-antidepressivo.txt` | — | — | |
 | 1540 | queda de cabelo por falta de proteína | `queda-de-cabelo-por-falta-de-proteina.txt` | — | — |  |
 | 1541 | queda de cabelo por falta de zinco | `queda-de-cabelo-por-falta-de-zinco.txt` | — | — |  |
 | 1542 | queda de cabelo por falta de vitamina b12 | `queda-de-cabelo-por-falta-de-vitamina-b12.txt` | — | — |  |
 | 1543 | queda de cabelo por síndrome dos ovários policísticos | `queda-de-cabelo-por-sindrome-dos-ovarios-policisticos.txt` | — | — |  |
-| 1544 | queda de cabelo por diabetes | `queda-de-cabelo-por-diabetes.txt` | — | — | sensível: só publica com `REVISADO: sim` |
+| 1544 | queda de cabelo por diabetes | `queda-de-cabelo-por-diabetes.txt` | — | — | |
 | 1545 | queda de cabelo por lúpus | `queda-de-cabelo-por-lupus.txt` | — | — |  |
 | 1546 | queda de cabelo por genética | `queda-de-cabelo-por-genetica.txt` | — | — |  |
 | 1547 | cabelo caindo por tração | `cabelo-caindo-por-tracao.txt` | — | — |  |
@@ -1563,7 +1563,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1553 | queda de cabelo por dermatite seborreica | `queda-de-cabelo-por-dermatite-seborreica.txt` | — | — |  |
 | 1554 | queda de cabelo por depressão | `queda-de-cabelo-por-depressao.txt` | — | — |  |
 | 1555 | queda de cabelo por menopausa precoce | `queda-de-cabelo-por-menopausa-precoce.txt` | — | — |  |
-| 1556 | queda de cabelo por reposição hormonal | `queda-de-cabelo-por-reposicao-hormonal.txt` | — | — | sensível: só publica com `REVISADO: sim` |
+| 1556 | queda de cabelo por reposição hormonal | `queda-de-cabelo-por-reposicao-hormonal.txt` | — | — | |
 | 1557 | queda de cabelo por anabolizantes | `queda-de-cabelo-por-anabolizantes.txt` | — | — |  |
 | 1558 | queda de cabelo por insônia | `queda-de-cabelo-por-insonia.txt` | — | — |  |
 | 1559 | queda de cabelo por fumo | `queda-de-cabelo-por-fumo.txt` | — | — |  |
@@ -1598,7 +1598,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1588 | plasma rico em plaquetas para cabelo | `plasma-rico-em-plaquetas-para-cabelo.txt` | — | — |  |
 | 1589 | fenogrego para cabelo | `fenogrego-para-cabelo.txt` | — | — |  |
 | 1590 | vinagre de arroz para cabelo | `vinagre-de-arroz-para-cabelo.txt` | — | — |  |
-| 1591 | tinta de cabelo e câncer | `tinta-de-cabelo-e-cancer.txt` | — | — | sensível: só publica com `REVISADO: sim` |
+| 1591 | tinta de cabelo e câncer | `tinta-de-cabelo-e-cancer.txt` | — | — | |
 | 1592 | descoloração do cabelo danos | `descoloracao-do-cabelo-danos.txt` | — | — |  |
 | 1593 | tinta sem amônia faz mal | `tinta-sem-amonia-faz-mal.txt` | — | — |  |
 | 1594 | tinta de cabelo na amamentação | `tinta-de-cabelo-na-amamentacao.txt` | — | — |  |
@@ -1615,7 +1615,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1605 | exercício e cabelo | `exercicio-e-cabelo.txt` | — | — |  |
 | 1606 | água e cabelo | `agua-e-cabelo.txt` | — | — |  |
 | 1607 | tireoide e cabelo | `tireoide-e-cabelo.txt` | — | — |  |
-| 1608 | diabetes e cabelo | `diabetes-e-cabelo.txt` | — | — | sensível: só publica com `REVISADO: sim` |
+| 1608 | diabetes e cabelo | `diabetes-e-cabelo.txt` | — | — | |
 | 1609 | dermatite seborreica causas | `dermatite-seborreica-causas.txt` | — | — |  |
 | 1610 | psoríase no couro cabeludo tratamento | `psoriase-no-couro-cabeludo-tratamento.txt` | — | — |  |
 | 1611 | psoríase no couro cabeludo sintomas | `psoriase-no-couro-cabeludo-sintomas.txt` | — | — |  |
@@ -1637,12 +1637,12 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1627 | entradas no cabelo causas | `entradas-no-cabelo-causas.txt` | — | — |  |
 | 1628 | coroa rala | `coroa-rala.txt` | — | — |  |
 | 1629 | transplante capilar quanto tempo | `transplante-capilar-quanto-tempo.txt` | — | — |  |
-| 1630 | minoxidil oral quem pode usar | `minoxidil-oral-quem-pode-usar.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1631 | minoxidil causa queda inicial | `minoxidil-causa-queda-inicial.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1632 | minoxidil e pressão | `minoxidil-e-pressao.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1633 | minoxidil e coração | `minoxidil-e-coracao.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1634 | minoxidil crescimento de pelos no rosto | `minoxidil-crescimento-de-pelos-no-rosto.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1635 | minoxidil e álcool | `minoxidil-e-alcool.txt` | — | — | sensível: só publica com `REVISADO: sim` |
+| 1630 | minoxidil oral quem pode usar | `minoxidil-oral-quem-pode-usar.txt` | — | — | |
+| 1631 | minoxidil causa queda inicial | `minoxidil-causa-queda-inicial.txt` | — | — | |
+| 1632 | minoxidil e pressão | `minoxidil-e-pressao.txt` | — | — | |
+| 1633 | minoxidil e coração | `minoxidil-e-coracao.txt` | — | — | |
+| 1634 | minoxidil crescimento de pelos no rosto | `minoxidil-crescimento-de-pelos-no-rosto.txt` | — | — | |
+| 1635 | minoxidil e álcool | `minoxidil-e-alcool.txt` | — | — | |
 | 1636 | ceramidas da pele | `ceramidas-da-pele.txt` | — | — |  |
 | 1637 | peptídeos antimicrobianos da pele | `peptideos-antimicrobianos-da-pele.txt` | — | — |  |
 | 1638 | composição do sebo | `composicao-do-sebo.txt` | — | — |  |
@@ -1688,8 +1688,8 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1678 | psoríase gutata | `psoriase-gutata.txt` | — | — |  |
 | 1679 | vitiligo | `vitiligo.txt` | — | — |  |
 | 1680 | micose de pele | `micose-de-pele.txt` | — | — |  |
-| 1681 | herpes labial | `herpes-labial.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1682 | herpes zoster | `herpes-zoster.txt` | — | — | sensível: só publica com `REVISADO: sim` |
+| 1681 | herpes labial | `herpes-labial.txt` | — | — | |
+| 1682 | herpes zoster | `herpes-zoster.txt` | — | — | |
 | 1683 | carcinoma basocelular | `carcinoma-basocelular.txt` | — | — |  |
 | 1684 | eczema | `eczema.txt` | — | — |  |
 | 1685 | cicatriz de acne | `cicatriz-de-acne.txt` | — | — |  |
@@ -1744,7 +1744,7 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1734 | insônia e ansiedade | `insonia-e-ansiedade.txt` | — | — |  |
 | 1735 | insônia e estresse | `insonia-e-estresse.txt` | — | — |  |
 | 1736 | terapia para insônia | `terapia-para-insonia.txt` | — | — |  |
-| 1737 | ronco e pressão alta | `ronco-e-pressao-alta.txt` | — | — | sensível: só publica com `REVISADO: sim` |
+| 1737 | ronco e pressão alta | `ronco-e-pressao-alta.txt` | — | — | |
 | 1738 | apneia do sono sintomas | `apneia-do-sono-sintomas.txt` | — | — |  |
 | 1739 | exame do sono | `exame-do-sono.txt` | — | — |  |
 | 1740 | boca seca ao acordar | `boca-seca-ao-acordar.txt` | — | — |  |
@@ -1754,15 +1754,15 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1744 | espasmos ao dormir | `espasmos-ao-dormir.txt` | — | — |  |
 | 1745 | jantar pesado | `jantar-pesado.txt` | — | — |  |
 | 1746 | cansaço constante | `cansaco-constante.txt` | — | — |  |
-| 1747 | sono e pressão alta | `sono-e-pressao-alta.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1748 | sono e diabetes | `sono-e-diabetes.txt` | — | — | sensível: só publica com `REVISADO: sim` |
+| 1747 | sono e pressão alta | `sono-e-pressao-alta.txt` | — | — | |
+| 1748 | sono e diabetes | `sono-e-diabetes.txt` | — | — | |
 | 1749 | sono e peso | `sono-e-peso.txt` | — | — |  |
-| 1750 | sono e colesterol | `sono-e-colesterol.txt` | — | — | sensível: só publica com `REVISADO: sim` |
+| 1750 | sono e colesterol | `sono-e-colesterol.txt` | — | — | |
 | 1751 | sono e tireoide | `sono-e-tireoide.txt` | — | — |  |
 | 1752 | sono na menopausa | `sono-na-menopausa.txt` | — | — |  |
 | 1753 | ondas de calor à noite | `ondas-de-calor-a-noite.txt` | — | — |  |
 | 1754 | por que mulheres dormem pior | `por-que-mulheres-dormem-pior.txt` | — | — |  |
-| 1755 | próstata e levantar à noite | `prostata-e-levantar-a-noite.txt` | — | — | sensível: só publica com `REVISADO: sim` |
+| 1755 | próstata e levantar à noite | `prostata-e-levantar-a-noite.txt` | — | — | |
 | 1756 | testosterona baixa e sono | `testosterona-baixa-e-sono.txt` | — | — |  |
 | 1757 | apneia em homens | `apneia-em-homens.txt` | — | — |  |
 | 1758 | pensamentos acelerados ao deitar | `pensamentos-acelerados-ao-deitar.txt` | — | — |  |
@@ -1820,20 +1820,20 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1810 | jejum prolongado | `jejum-prolongado.txt` | — | — |  |
 | 1811 | em jejum | `em-jejum.txt` | — | — |  |
 | 1812 | perda de peso | `perda-de-peso.txt` | — | — |  |
-| 1813 | Ozempic e jejum | `ozempic-e-jejum.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1814 | Wegovy e jejum | `wegovy-e-jejum.txt` | — | — | sensível: só publica com `REVISADO: sim` |
+| 1813 | Ozempic e jejum | `ozempic-e-jejum.txt` | — | — | |
+| 1814 | Wegovy e jejum | `wegovy-e-jejum.txt` | — | — | |
 | 1815 | e café | `e-cafe.txt` | — | — |  |
 | 1816 | e alimentação | `e-alimentacao.txt` | — | — |  |
 | 1817 | e proteína | `e-proteina.txt` | — | — |  |
 | 1818 | e exercícios | `e-exercicios.txt` | — | — |  |
 | 1819 | e manutenção | `e-manutencao.txt` | — | — |  |
-| 1820 | tirzepatida e jejum | `tirzepatida-e-jejum.txt` | — | — | sensível: só publica com `REVISADO: sim` |
+| 1820 | tirzepatida e jejum | `tirzepatida-e-jejum.txt` | — | — | |
 | 1821 | academia | `academia.txt` | — | — |  |
 | 1822 | efeitos gastrointestinais | `efeitos-gastrointestinais.txt` | — | — |  |
-| 1823 | Ozempic x Mounjaro | `ozempic-x-mounjaro.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1824 | Wegovy x Mounjaro | `wegovy-x-mounjaro.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1825 | Ozempic x Wegovy | `ozempic-x-wegovy.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1826 | semaglutida x tirzepatida | `semaglutida-x-tirzepatida.txt` | — | — | sensível: só publica com `REVISADO: sim` |
+| 1823 | Ozempic x Mounjaro | `ozempic-x-mounjaro.txt` | — | — | |
+| 1824 | Wegovy x Mounjaro | `wegovy-x-mounjaro.txt` | — | — | |
+| 1825 | Ozempic x Wegovy | `ozempic-x-wegovy.txt` | — | — | |
+| 1826 | semaglutida x tirzepatida | `semaglutida-x-tirzepatida.txt` | — | — | |
 | 1827 | canetas semanais | `canetas-semanais.txt` | — | — |  |
 | 1828 | canetas e jejum | `canetas-e-jejum.txt` | — | — |  |
 | 1829 | apetite | `apetite.txt` | — | — |  |
@@ -1887,12 +1887,12 @@ Gerado a partir de `data/entrada/pautas-chat_01/PAUTAS.csv` em 2026-10-12. 1888 
 | 1877 | caneta falsificada/manipulada | `caneta-falsificada-manipulada.txt` | — | — |  |
 | 1878 | guia definitivo | `guia-definitivo.txt` | — | — |  |
 | 1879 | caneta emagrecedora | `caneta-emagrecedora.txt` | — | — |  |
-| 1880 | ozempic | `ozempic.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1881 | mounjaro | `mounjaro.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1882 | wegovy | `wegovy.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1883 | semaglutida | `semaglutida.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1884 | tirzepatida | `tirzepatida.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1885 | ozempic ou mounjaro | `ozempic-ou-mounjaro.txt` | — | — | sensível: só publica com `REVISADO: sim` |
-| 1886 | wegovy ou mounjaro | `wegovy-ou-mounjaro.txt` | — | — | sensível: só publica com `REVISADO: sim` |
+| 1880 | ozempic | `ozempic.txt` | — | — | |
+| 1881 | mounjaro | `mounjaro.txt` | — | — | |
+| 1882 | wegovy | `wegovy.txt` | — | — | |
+| 1883 | semaglutida | `semaglutida.txt` | — | — | |
+| 1884 | tirzepatida | `tirzepatida.txt` | — | — | |
+| 1885 | ozempic ou mounjaro | `ozempic-ou-mounjaro.txt` | — | — | |
+| 1886 | wegovy ou mounjaro | `wegovy-ou-mounjaro.txt` | — | — | |
 | 1887 | quanto emagrece com caneta | `quanto-emagrece-com-caneta.txt` | — | — |  |
 | 1888 | caneta emagrecedora efeitos colaterais | `caneta-emagrecedora-efeitos-colaterais.txt` | — | — |  |

@@ -6,8 +6,8 @@
 5;ginkgo biloba;ginkgo-biloba.txt;Saúde geral;110000;143100;ginkgo biloba para que serve;;
 6;própolis;propolis.txt;Saúde geral;110000;124800;própolis para que serve;;
 7;dieta cetogênica;dieta-cetogenica.txt;Alimentação e peso;90500;109600;dieta cetogênica cardapio | dieta cetogenica como funciona | dieta cetogênica como fazer | dieta cetogenica alimentos | dieta cetogenica o que é;;
-8;finasterida;finasterida.txt;sem-categoria;90500;98600;finasterida efeitos colaterais;sim;
-9;insulínica;insulinica.txt;Diabetes e exames;90500;90500;;sim;
+8;finasterida;finasterida.txt;sem-categoria;90500;98600;finasterida efeitos colaterais;;
+9;insulínica;insulinica.txt;Diabetes e exames;90500;90500;;;
 10;triptofano;triptofano.txt;Saúde geral;60500;87600;triptofano para que serve;;
 11;bursite;bursite.txt;ossos-articulacoes;74000;74000;;;
 12;vitamina b6;vitamina-b6.txt;Alimentação e peso;49500;71700;vitamina b6 para que serve;;
@@ -45,7 +45,7 @@
 44;suco detox emagrece;suco-detox-emagrece.txt;geral;9900;9900;;;
 45;okralin;okralin.txt;Saúde geral;12100;16500;okralin para que serve;;
 46;sopa para emagrecer;sopa-para-emagrecer.txt;Alimentação e peso;8100;8100;;;
-47;ureia no creme;ureia-no-creme.txt;Diabetes e exames;8100;8100;;sim;
+47;ureia no creme;ureia-no-creme.txt;Diabetes e exames;8100;8100;;;
 48;silício orgânico;silicio-organico.txt;Saúde geral;8100;12500;silício orgânico para que serve;;
 49;vitaminas para homens;vitaminas-para-homens.txt;sem-categoria;8100;8100;;;
 50;gordura na barriga como perder;gordura-na-barriga-como-perder.txt;Digestão e fígado;3600;7400;gordura na barriga | gordura da barriga como eliminar;;
@@ -86,7 +86,7 @@
 85;médico que cuida da coluna;medico-que-cuida-da-coluna.txt;sem-categoria;1900;1900;;;
 86;dieta hipocalorica;dieta-hipocalorica.txt;Alimentação e peso;2400;2400;;;
 87;comidas para ganhar massa muscular;comidas-para-ganhar-massa-muscular.txt;Saúde geral;1600;1600;;;
-88;finasterida para queda de cabelo;finasterida-para-queda-de-cabelo.txt;Cabelo;1600;1600;;sim;
+88;finasterida para queda de cabelo;finasterida-para-queda-de-cabelo.txt;Cabelo;1600;1600;;;
 89;sopa emagrecedora;sopa-emagrecedora.txt;Alimentação e peso;2400;2400;;;
 90;descamação do couro cabeludo;descamacao-do-couro-cabeludo.txt;Cabelo;1600;1600;;;
 91;valores normais de glicemia;valores-normais-de-glicemia.txt;diabetes-exames;1600;1600;;;
@@ -110,14 +110,14 @@
 109;treino para emagrecer na academia;treino-para-emagrecer-na-academia.txt;Alimentação e peso;1000;1000;;;
 110;suplemento para ajudar a emagrecer;suplemento-para-ajudar-a-emagrecer.txt;Alimentação e peso;1000;1000;;;
 111;dieta zero carboidrato;dieta-zero-carboidrato.txt;Alimentação e peso;1000;1000;;;
-112;minoquisidiu;minoquisidiu.txt;Saúde geral;450000;450000;;sim;sim
+112;minoquisidiu;minoquisidiu.txt;Saúde geral;450000;450000;;;sim
 113;hipoglicemia;hipoglicemia.txt;diabetes-exames;201000;201000;;;sim
 114;ácido tranexâmico;acido-tranexamico.txt;Saúde geral;165000;165000;;;sim
 115;ovos;ovos.txt;Saúde geral;110000;110000;;;sim
 116;termogênicos;termogenicos.txt;Saúde geral;90500;90500;;;sim
 117;pera;pera.txt;Saúde geral;74000;74000;;;sim
 118;caqui;caqui.txt;Saúde geral;74000;74000;;;sim
-119;isotretinoína;isotretinoina.txt;Saúde geral;74000;74000;;sim;sim
+119;isotretinoína;isotretinoina.txt;Saúde geral;74000;74000;;;sim
 120;peixes;peixes.txt;Saúde geral;60500;60500;;;sim
 121;sabonete facial;sabonete-facial.txt;Saúde geral;60500;60500;;;sim
 122;chá de gengibre;cha-de-gengibre.txt;Saúde geral;49500;49500;;;sim
@@ -213,7 +213,7 @@
 212;cartigen ii;cartigen-ii.txt;sem-categoria;2400;2400;;;sim
 213;alimentos termogenicos;alimentos-termogenicos.txt;Alimentação e peso;1900;1900;;;sim
 214;profhilo;profhilo.txt;Saúde geral;12100;12100;;;sim
-215;minoxidil capilar;minoxidil-capilar.txt;Cabelo;1900;1900;;sim;sim
+215;minoxidil capilar;minoxidil-capilar.txt;Cabelo;1900;1900;;;sim
 216;pele acneica;pele-acneica.txt;Pele;1900;1900;;;sim
 217;licor de chocolate;licor-de-chocolate.txt;Saúde geral;6600;6600;;;sim
 218;nutrição clinica;nutricao-clinica.txt;saude-geral;1900;1900;;;sim
@@ -238,7 +238,7 @@
 237;vitamina c;vitamina-c.txt;Alimentação e peso;165000;;;
 238;pitaya;pitaya.txt;Saúde geral;135000;;;
 239;impetigo;impetigo.txt;Saúde geral;135000;;;
-240;câncer de pele;cancer-de-pele.txt;Pele;135000;;;sim
+240;câncer de pele;cancer-de-pele.txt;Pele;135000;;;
 241;sabonete de enxofre;sabonete-de-enxofre.txt;Saúde geral;135000;;;
 242;ácido hialurônico;acido-hialuronico.txt;Pele;135000;;;
 243;niacinamida;niacinamida.txt;Pele;135000;;;
@@ -265,7 +265,7 @@
 264;psyllium para que serve;psyllium-para-que-serve.txt;Saúde geral;74000;;;
 265;shampoo anticaspa;shampoo-anticaspa.txt;Cabelo;74000;;;
 266;adesivo para espinha;adesivo-para-espinha.txt;Saúde geral;74000;;;
-267;melatonina para que serve;melatonina-para-que-serve.txt;Saúde geral;74000;;;sim
+267;melatonina para que serve;melatonina-para-que-serve.txt;Saúde geral;74000;;;
 268;magnésio treonato;magnesio-treonato.txt;Saúde geral;74000;;;
 269;vitamina e;vitamina-e.txt;Alimentação e peso;74000;;;
 270;zinco;zinco.txt;Saúde geral;74000;;;
@@ -285,11 +285,11 @@
 284;creatina monohidratada;creatina-monohidratada.txt;Saúde geral;60500;;;
 285;inibidor de apetite;inibidor-de-apetite.txt;Saúde geral;60500;;;
 286;inibidores de apetite;inibidores-de-apetite.txt;Alimentação e peso;60500;;;
-287;minoxidil comprimido;minoxidil-comprimido.txt;Saúde geral;60500;;;sim
+287;minoxidil comprimido;minoxidil-comprimido.txt;Saúde geral;60500;;;
 288;tipos de cabelo;tipos-de-cabelo.txt;Cabelo;60500;;;
 289;tônico capilar;tonico-capilar.txt;Cabelo;60500;;;
 290;vitaminas para cabelo;vitaminas-para-cabelo.txt;Cabelo;60500;;;
-291;cobreiro;cobreiro.txt;Saúde geral;60500;;;sim
+291;cobreiro;cobreiro.txt;Saúde geral;60500;;;
 292;limpeza de pele;limpeza-de-pele.txt;Pele;60500;;;
 293;protetor solar com cor;protetor-solar-com-cor.txt;Pele;60500;;;
 294;vitamina k2;vitamina-k2.txt;Alimentação e peso;60500;;;
@@ -303,13 +303,13 @@
 302;arginina;arginina.txt;Saúde geral;60500;;;
 303;feno grego para que serve;feno-grego-para-que-serve.txt;Saúde geral;60500;;;
 304;colina;colina.txt;Saúde geral;60500;;;
-305;colesterol alterado;colesterol-alterado.txt;Coração e colesterol;49500;;;sim
+305;colesterol alterado;colesterol-alterado.txt;Coração e colesterol;49500;;;
 306;água destilada;agua-destilada.txt;Saúde geral;49500;;;
 307;fibras;fibras.txt;Alimentação e peso;49500;;;
 308;constipação;constipacao.txt;Digestão e fígado;49500;;;
 309;cravos;cravos.txt;Saúde geral;49500;;;
 310;glicerina;glicerina.txt;Saúde geral;49500;;;
-311;hidroquinona;hidroquinona.txt;Saúde geral;49500;;;sim
+311;hidroquinona;hidroquinona.txt;Saúde geral;49500;;;
 312;peeling;peeling.txt;Saúde geral;49500;;;
 313;magnésio bisglicinato;magnesio-bisglicinato.txt;Saúde geral;49500;;;
 314;magnésio dimalato para que serve;magnesio-dimalato-para-que-serve.txt;Saúde geral;49500;;;
@@ -318,7 +318,7 @@
 317;n acetilcisteína;n-acetilcisteina.txt;Saúde geral;49500;;;
 318;saw palmetto;saw-palmetto.txt;Saúde geral;49500;;;
 319;pycnogenol;pycnogenol.txt;Saúde geral;49500;;;
-320;resistência à insulina;resistencia-a-insulina.txt;Diabetes e exames;40500;;;sim
+320;resistência à insulina;resistencia-a-insulina.txt;Diabetes e exames;40500;;;
 321;gordura visceral;gordura-visceral.txt;Saúde geral;40500;;;
 322;marmitas fitness;marmitas-fitness.txt;Saúde geral;40500;;;
 323;marmita fitness;marmita-fitness.txt;Saúde geral;40500;;;
@@ -349,7 +349,7 @@
 348;cúrcuma para que serve;curcuma-para-que-serve.txt;Saúde geral;40500;;;
 349;vitamina k;vitamina-k.txt;Alimentação e peso;40500;;;
 350;climatério;climaterio.txt;Mulher e menopausa;33100;;;
-351;creatinina alta;creatinina-alta.txt;Diabetes e exames;33100;;;sim
+351;creatinina alta;creatinina-alta.txt;Diabetes e exames;33100;;;
 352;nutrição;nutricao.txt;Saúde geral;33100;;;
 353;laticínios;laticinios.txt;Saúde geral;33100;;;
 354;hidromel;hidromel.txt;Saúde geral;33100;;;
@@ -382,7 +382,7 @@
 381;cafeína;cafeina.txt;Saúde geral;33100;;;
 382;spirulina para que serve;spirulina-para-que-serve.txt;Saúde geral;33100;;;
 383;o que é sarcopenia;o-que-e-sarcopenia.txt;Músculos e movimento;27100;;;
-384;colesterol alto sintomas;colesterol-alto-sintomas.txt;Coração e colesterol;27100;;;sim
+384;colesterol alto sintomas;colesterol-alto-sintomas.txt;Coração e colesterol;27100;;;
 385;jantar;jantar.txt;Alimentação e peso;27100;;;
 386;carne seca;carne-seca.txt;Saúde geral;27100;;;
 387;chá para desinchar;cha-para-desinchar.txt;Saúde geral;27100;;;
@@ -393,8 +393,8 @@
 392;chás para desinchar;chas-para-desinchar.txt;Saúde geral;27100;;;
 393;fiber mais;fiber-mais.txt;Saúde geral;27100;;;
 394;proteina de soja;proteina-de-soja.txt;Alimentação e peso;27100;;;
-395;minoxidil oral;minoxidil-oral.txt;Saúde geral;27100;;;sim
-396;minoxidil cabelo;minoxidil-cabelo.txt;Cabelo;27100;;;sim
+395;minoxidil oral;minoxidil-oral.txt;Saúde geral;27100;;;
+396;minoxidil cabelo;minoxidil-cabelo.txt;Cabelo;27100;;;
 397;bigode chinês;bigode-chines.txt;Saúde geral;27100;;;
 398;esfoliação facial;esfoliacao-facial.txt;Saúde geral;27100;;;
 399;gua sha;gua-sha.txt;Saúde geral;27100;;;
@@ -409,7 +409,7 @@
 408;glutationa;glutationa.txt;Saúde geral;27100;;;
 409;silimarina para que serve;silimarina-para-que-serve.txt;Saúde geral;27100;;;
 410;dhea;dhea.txt;Saúde geral;27100;;;
-411;reposição hormonal;reposicao-hormonal.txt;Hormônios e tireoide;22200;;;sim
+411;reposição hormonal;reposicao-hormonal.txt;Hormônios e tireoide;22200;;;
 412;café da manhã saudável;cafe-da-manha-saudavel.txt;Alimentação e peso;22200;;;
 413;alimentação compulsiva;alimentacao-compulsiva.txt;Saúde geral;22200;;;
 414;compulsoes alimentares;compulsoes-alimentares.txt;Saúde geral;22200;;;
@@ -431,7 +431,7 @@
 430;transplante capilar;transplante-capilar.txt;Cabelo;22200;;;
 431;cabelo grisalho;cabelo-grisalho.txt;Cabelo;22200;;;
 432;biotina para cabelo;biotina-para-cabelo.txt;Cabelo;22200;;;
-433;minoxidil para que serve;minoxidil-para-que-serve.txt;Saúde geral;22200;;;sim
+433;minoxidil para que serve;minoxidil-para-que-serve.txt;Saúde geral;22200;;;
 434;queda de cabelos;queda-de-cabelos.txt;Cabelo;22200;;;
 435;óleo de coco para cabelo;oleo-de-coco-para-cabelo.txt;Cabelo;22200;;;
 436;pé de atleta;pe-de-atleta.txt;Saúde geral;22200;;;
@@ -446,7 +446,7 @@
 445;curcumina;curcumina.txt;Saúde geral;22200;;;
 446;glicina para que serve;glicina-para-que-serve.txt;Saúde geral;22200;;;
 447;citrulina;citrulina.txt;Saúde geral;22200;;;
-448;pressão 14 por 9;pressao-14-por-9.txt;Coração e colesterol;18100;;;sim
+448;pressão 14 por 9;pressao-14-por-9.txt;Coração e colesterol;18100;;;
 449;longevidade;longevidade.txt;Idosos e longevidade;18100;;;
 450;marmitas congeladas;marmitas-congeladas.txt;Saúde geral;18100;;;
 451;marmita congelada;marmita-congelada.txt;Saúde geral;18100;;;
@@ -464,7 +464,7 @@
 463;açucar refinado;acucar-refinado.txt;Saúde geral;18100;;;
 464;açucar de confeiteiro;acucar-de-confeiteiro.txt;Saúde geral;18100;;;
 465;cabelo poroso;cabelo-poroso.txt;Cabelo;18100;;;
-466;minoxidil barba;minoxidil-barba.txt;Saúde geral;18100;;;sim
+466;minoxidil barba;minoxidil-barba.txt;Saúde geral;18100;;;
 467;calvície;calvicie.txt;Cabelo;18100;;;
 468;massagem facial;massagem-facial.txt;Saúde geral;18100;;;
 469;toalha de rosto;toalha-de-rosto.txt;Saúde geral;18100;;;
@@ -490,7 +490,7 @@
 489;chá seca barriga;cha-seca-barriga.txt;Digestão e fígado;14800;;;
 490;destilados;destilados.txt;Saúde geral;14800;;;
 491;cachaça bananinha;cachaca-bananinha.txt;Saúde geral;14800;;;
-492;chá para pressão alta;cha-para-pressao-alta.txt;Coração e colesterol;14800;;;sim
+492;chá para pressão alta;cha-para-pressao-alta.txt;Coração e colesterol;14800;;;
 493;bananinha carne;bananinha-carne.txt;Saúde geral;14800;;;
 494;chá dente de leão;cha-dente-de-leao.txt;Boca e dentes;14800;;;
 495;chá para gases;cha-para-gases.txt;Digestão e fígado;14800;;;
@@ -520,10 +520,10 @@
 519;alcachofra para que serve;alcachofra-para-que-serve.txt;Saúde geral;14800;;;
 520;óleo de prímula;oleo-de-primula.txt;Saúde geral;14800;;;
 521;gengibre para que serve;gengibre-para-que-serve.txt;Saúde geral;14800;;;
-522;o que é colesterol;o-que-e-colesterol.txt;Coração e colesterol;12100;;;sim
+522;o que é colesterol;o-que-e-colesterol.txt;Coração e colesterol;12100;;;
 523;menopausa precoce;menopausa-precoce.txt;Mulher e menopausa;12100;;;
 524;caminhada emagrece;caminhada-emagrece.txt;Alimentação e peso;12100;;;
-525;pressão alta o que fazer;pressao-alta-o-que-fazer.txt;Coração e colesterol;12100;;;sim
+525;pressão alta o que fazer;pressao-alta-o-que-fazer.txt;Coração e colesterol;12100;;;
 526;caminhada para emagrecer;caminhada-para-emagrecer.txt;Alimentação e peso;12100;;;
 527;psyllium emagrece;psyllium-emagrece.txt;Alimentação e peso;12100;;;
 528;leguminosas;leguminosas.txt;Saúde geral;12100;;;
@@ -559,7 +559,7 @@
 558;hidratação caseira para cabelo;hidratacao-caseira-para-cabelo.txt;Cabelo;12100;;;
 559;tônico facial;tonico-facial.txt;Saúde geral;12100;;;
 560;skincare coreano;skincare-coreano.txt;Pele;12100;;;
-561;tretinoína;tretinoina.txt;Saúde geral;12100;;;sim
+561;tretinoína;tretinoina.txt;Saúde geral;12100;;;
 562;ácido mandélico;acido-mandelico.txt;Saúde geral;12100;;;
 563;bioestimulador de colágeno;bioestimulador-de-colageno.txt;Pele;12100;;;
 564;dermatilomania;dermatilomania.txt;Saúde geral;12100;;;
@@ -620,7 +620,7 @@
 619;protetor solar em pó;protetor-solar-em-po.txt;Pele;9900;;;
 620;meditação para dormir;meditacao-para-dormir.txt;Sono;9900;;;
 621;vitamina b2;vitamina-b2.txt;Alimentação e peso;9900;;;
-622;melatonina efeitos colaterais;melatonina-efeitos-colaterais.txt;Saúde geral;9900;;;sim
+622;melatonina efeitos colaterais;melatonina-efeitos-colaterais.txt;Saúde geral;9900;;;
 623;l teanina para que serve;l-teanina-para-que-serve.txt;Saúde geral;9900;;;
 624;gaba para que serve;gaba-para-que-serve.txt;Saúde geral;9900;;;
 625;colágeno hidrolisado para que serve;colageno-hidrolisado-para-que-serve.txt;Pele;9900;;;
@@ -654,10 +654,10 @@
 653;lavar o cabelo todo dia faz mal;lavar-o-cabelo-todo-dia-faz-mal.txt;Cabelo;8100;;;
 654;óleo de argan para cabelo;oleo-de-argan-para-cabelo.txt;Cabelo;8100;;;
 655;gelatina para cabelo;gelatina-para-cabelo.txt;Cabelo;8100;;;
-656;finasterida efeitos colaterais;finasterida-efeitos-colaterais.txt;Saúde geral;8100;;;sim
+656;finasterida efeitos colaterais;finasterida-efeitos-colaterais.txt;Saúde geral;8100;;;
 657;foliculite no couro cabeludo;foliculite-no-couro-cabeludo.txt;Cabelo;8100;;;
 658;queda de cabelo o que pode ser;queda-de-cabelo-o-que-pode-ser.txt;Cabelo;8100;;;
-659;minoxidil como usar;minoxidil-como-usar.txt;Saúde geral;8100;;;sim
+659;minoxidil como usar;minoxidil-como-usar.txt;Saúde geral;8100;;;
 660;benefícios da babosa;beneficios-da-babosa.txt;Saúde geral;8100;;;
 661;coceira no couro cabeludo;coceira-no-couro-cabeludo.txt;Cabelo;8100;;;
 662;rinofima;rinofima.txt;Saúde geral;8100;;;
@@ -722,7 +722,7 @@
 721;alimentos ricos em carboidratos;alimentos-ricos-em-carboidratos.txt;Alimentação e peso;6600;;;
 722;dermatite seborreica tratamento;dermatite-seborreica-tratamento.txt;Pele;6600;;;
 723;babosa no cabelo como usar;babosa-no-cabelo-como-usar.txt;Cabelo;6600;;;
-724;efeitos colaterais do minoxidil;efeitos-colaterais-do-minoxidil.txt;Saúde geral;6600;;;sim
+724;efeitos colaterais do minoxidil;efeitos-colaterais-do-minoxidil.txt;Saúde geral;6600;;;
 725;feridas no couro cabeludo;feridas-no-couro-cabeludo.txt;Cabelo;6600;;;
 726;cabelo quebradiço;cabelo-quebradico.txt;Cabelo;6600;;;
 727;microagulhamento capilar;microagulhamento-capilar.txt;Cabelo;6600;;;
@@ -812,7 +812,7 @@
 811;dhea para que serve;dhea-para-que-serve.txt;Saúde geral;5400;;;
 812;bromelaína para que serve;bromelaina-para-que-serve.txt;Saúde geral;5400;;;
 813;vitamina para queda de cabelo feminino;vitamina-para-queda-de-cabelo-feminino.txt;Cabelo;5400;;;
-814;chá para colesterol;cha-para-colesterol.txt;Coração e colesterol;4400;;;sim
+814;chá para colesterol;cha-para-colesterol.txt;Coração e colesterol;4400;;;
 815;perda de massa muscular;perda-de-massa-muscular.txt;Saúde geral;4400;;;
 816;saciedade;saciedade.txt;Saúde geral;4400;;;
 817;gordura visceral como eliminar;gordura-visceral-como-eliminar.txt;Saúde geral;4400;;;
@@ -853,7 +853,7 @@
 852;vida saudável;vida-saudavel.txt;Saúde geral;4400;;;
 853;okralin para que serve;okralin-para-que-serve.txt;Saúde geral;4400;;;
 854;cabelo ralo;cabelo-ralo.txt;Cabelo;4400;;;
-855;minoxidil tópico;minoxidil-topico.txt;Saúde geral;4400;;;sim
+855;minoxidil tópico;minoxidil-topico.txt;Saúde geral;4400;;;
 856;biotina 5mg;biotina-5mg.txt;Saúde geral;4400;;;
 857;cabelo caindo;cabelo-caindo.txt;Cabelo;4400;;;
 858;cabelo caindo muito o que pode ser;cabelo-caindo-muito-o-que-pode-ser.txt;Cabelo;4400;;;
@@ -878,7 +878,7 @@
 877;citrulina para que serve;citrulina-para-que-serve.txt;Saúde geral;4400;;;
 878;mio inositol para que serve;mio-inositol-para-que-serve.txt;Saúde geral;4400;;;
 879;alopecia feminino;alopecia-feminino.txt;Cabelo;4400;;;
-880;dieta para colesterol alto;dieta-para-colesterol-alto.txt;Alimentação e peso;3600;;;sim
+880;dieta para colesterol alto;dieta-para-colesterol-alto.txt;Alimentação e peso;3600;;;
 881;insônia causas;insonia-causas.txt;Sono;3600;;;
 882;gordura abdominal;gordura-abdominal.txt;Alimentação e peso;3600;;;
 883;marmita fit congelada;marmita-fit-congelada.txt;Saúde geral;3600;;;
@@ -926,10 +926,10 @@
 925;caspa o que é;caspa-o-que-e.txt;Cabelo;3600;;;
 926;alopecia por tração;alopecia-por-tracao.txt;Cabelo;3600;;;
 927;couro cabeludo inflamado;couro-cabeludo-inflamado.txt;Cabelo;3600;;;
-928;minoxidil turbinado;minoxidil-turbinado.txt;Saúde geral;3600;;;sim
+928;minoxidil turbinado;minoxidil-turbinado.txt;Saúde geral;3600;;;
 929;hidratação com babosa;hidratacao-com-babosa.txt;Saúde geral;3600;;;
 930;cabelo caindo muito o que fazer;cabelo-caindo-muito-o-que-fazer.txt;Cabelo;3600;;;
-931;minoxidil qual o melhor;minoxidil-qual-o-melhor.txt;Saúde geral;3600;;;sim
+931;minoxidil qual o melhor;minoxidil-qual-o-melhor.txt;Saúde geral;3600;;;
 932;cabelo grisalho masculino;cabelo-grisalho-masculino.txt;Cabelo;3600;;;
 933;alta frequência capilar;alta-frequencia-capilar.txt;Cabelo;3600;;;
 934;tônico para queda de cabelo;tonico-para-queda-de-cabelo.txt;Cabelo;3600;;;
@@ -1029,11 +1029,11 @@
 1028;tribulus para que serve;tribulus-para-que-serve.txt;Saúde geral;2900;;;
 1029;espermidina;espermidina.txt;Saúde geral;2900;;;
 1030;same para que serve;same-para-que-serve.txt;Saúde geral;2900;;;
-1031;colesterol bom como aumentar;colesterol-bom-como-aumentar.txt;Coração e colesterol;2400;;;sim
+1031;colesterol bom como aumentar;colesterol-bom-como-aumentar.txt;Coração e colesterol;2400;;;
 1032;efeito sanfona;efeito-sanfona.txt;Saúde geral;2400;;;
 1033;perder gordura abdominal;perder-gordura-abdominal.txt;Alimentação e peso;2400;;;
 1034;geografia da fome;geografia-da-fome.txt;Saúde geral;2400;;;
-1035;diabetes e emagrecimento;diabetes-e-emagrecimento.txt;Alimentação e peso;2400;;;sim
+1035;diabetes e emagrecimento;diabetes-e-emagrecimento.txt;Alimentação e peso;2400;;;
 1036;planejamento alimentar;planejamento-alimentar.txt;Saúde geral;2400;;;
 1037;emagrecedor potente;emagrecedor-potente.txt;Alimentação e peso;2400;;;
 1038;marmitas para semana;marmitas-para-semana.txt;Saúde geral;2400;;;
@@ -1076,11 +1076,11 @@
 1075;dieta para desinflamar o corpo;dieta-para-desinflamar-o-corpo.txt;Alimentação e peso;2400;;;
 1076;benefícios do jejum intermitente;beneficios-do-jejum-intermitente.txt;Saúde geral;2400;;;
 1077;intolerâncias alimentares;intolerancias-alimentares.txt;Saúde geral;2400;;;
-1078;minoxidil manipulado;minoxidil-manipulado.txt;Saúde geral;2400;;;sim
-1079;melhor minoxidil;melhor-minoxidil.txt;Saúde geral;2400;;;sim
-1080;minoxidil para cabelo feminino;minoxidil-para-cabelo-feminino.txt;Cabelo;2400;;;sim
-1081;melhores minoxidil;melhores-minoxidil.txt;Saúde geral;2400;;;sim
-1082;minoxidil e finasterida;minoxidil-e-finasterida.txt;Saúde geral;2400;;;sim
+1078;minoxidil manipulado;minoxidil-manipulado.txt;Saúde geral;2400;;;
+1079;melhor minoxidil;melhor-minoxidil.txt;Saúde geral;2400;;;
+1080;minoxidil para cabelo feminino;minoxidil-para-cabelo-feminino.txt;Cabelo;2400;;;
+1081;melhores minoxidil;melhores-minoxidil.txt;Saúde geral;2400;;;
+1082;minoxidil e finasterida;minoxidil-e-finasterida.txt;Saúde geral;2400;;;
 1083;pantogar para queda de cabelo;pantogar-para-queda-de-cabelo.txt;Cabelo;2400;;;
 1084;oq fazer para o cabelo parar de cair;oq-fazer-para-o-cabelo-parar-de-cair.txt;Cabelo;2400;;;
 1085;cabelo fino;cabelo-fino.txt;Cabelo;2400;;;
@@ -1154,16 +1154,16 @@
 1153;mel para cabelo;mel-para-cabelo.txt;Cabelo;1900;;;
 1154;caroço no couro cabeludo;caroco-no-couro-cabeludo.txt;Cabelo;1900;;;
 1155;prp capilar;prp-capilar.txt;Cabelo;1900;;;
-1156;minoxidil quanto tempo para fazer efeito;minoxidil-quanto-tempo-para-fazer-efeito.txt;Saúde geral;1900;;;sim
-1157;minoxidil funciona;minoxidil-funciona.txt;Saúde geral;1900;;;sim
+1156;minoxidil quanto tempo para fazer efeito;minoxidil-quanto-tempo-para-fazer-efeito.txt;Saúde geral;1900;;;
+1157;minoxidil funciona;minoxidil-funciona.txt;Saúde geral;1900;;;
 1158;tratamento para calvície;tratamento-para-calvicie.txt;Cabelo;1900;;;
 1159;alopecia areata tratamento;alopecia-areata-tratamento.txt;Cabelo;1900;;;
 1160;queda capilar;queda-capilar.txt;Cabelo;1900;;;
 1161;meu cabelo está caindo muito;meu-cabelo-esta-caindo-muito.txt;Cabelo;1900;;;
 1162;antiqueda;antiqueda.txt;Cabelo;1900;;;
-1163;minoxidil loção;minoxidil-locao.txt;Saúde geral;1900;;;sim
+1163;minoxidil loção;minoxidil-locao.txt;Saúde geral;1900;;;
 1164;biotina para queda de cabelo;biotina-para-queda-de-cabelo.txt;Cabelo;1900;;;
-1165;minoxidil para mulheres;minoxidil-para-mulheres.txt;Saúde geral;1900;;;sim
+1165;minoxidil para mulheres;minoxidil-para-mulheres.txt;Saúde geral;1900;;;
 1166;meu cabelo está caindo muito o que pode ser;meu-cabelo-esta-caindo-muito-o-que-pode-ser.txt;Cabelo;1900;;;
 1167;benefícios da biotina;beneficios-da-biotina.txt;Saúde geral;1900;;;
 1168;babosa é bom para o cabelo;babosa-e-bom-para-o-cabelo.txt;Cabelo;1900;;;
@@ -1248,20 +1248,20 @@
 1247;constipação crônica;constipacao-cronica.txt;Digestão e fígado;1600;;;
 1248;intestino preguiçoso sintomas;intestino-preguicoso-sintomas.txt;Digestão e fígado;1600;;;
 1249;alimentos nao contem gluten;alimentos-nao-contem-gluten.txt;Alimentação e peso;1600;;;
-1250;finasterida para cabelo;finasterida-para-cabelo.txt;Cabelo;1600;;;sim
+1250;finasterida para cabelo;finasterida-para-cabelo.txt;Cabelo;1600;;;
 1251;aminoácidos para cabelo;aminoacidos-para-cabelo.txt;Cabelo;1600;;;
 1252;quantos fios de cabelo temos;quantos-fios-de-cabelo-temos.txt;Cabelo;1600;;;
 1253;vichy antiqueda;vichy-antiqueda.txt;Cabelo;1600;;;
-1254;minoxidil para queda de cabelo;minoxidil-para-queda-de-cabelo.txt;Cabelo;1600;;;sim
+1254;minoxidil para queda de cabelo;minoxidil-para-queda-de-cabelo.txt;Cabelo;1600;;;
 1255;trichosol;trichosol.txt;Saúde geral;1600;;;
-1256;minoxidil cresce cabelo;minoxidil-cresce-cabelo.txt;Cabelo;1600;;;sim
-1257;minoxidil funciona mesmo;minoxidil-funciona-mesmo.txt;Saúde geral;1600;;;sim
+1256;minoxidil cresce cabelo;minoxidil-cresce-cabelo.txt;Cabelo;1600;;;
+1257;minoxidil funciona mesmo;minoxidil-funciona-mesmo.txt;Saúde geral;1600;;;
 1258;tricofort antiqueda;tricofort-antiqueda.txt;Cabelo;1600;;;
-1259;crescer cabelo minoxidil;crescer-cabelo-minoxidil.txt;Cabelo;1600;;;sim
+1259;crescer cabelo minoxidil;crescer-cabelo-minoxidil.txt;Cabelo;1600;;;
 1260;falha no cabelo;falha-no-cabelo.txt;Cabelo;1600;;;
 1261;alopecia universal;alopecia-universal.txt;Cabelo;1600;;;
 1262;óleo essencial de alecrim cabelo;oleo-essencial-de-alecrim-cabelo.txt;Cabelo;1600;;;
-1263;minoxidil o que é;minoxidil-o-que-e.txt;Saúde geral;1600;;;sim
+1263;minoxidil o que é;minoxidil-o-que-e.txt;Saúde geral;1600;;;
 1264;alopecia de tração;alopecia-de-tracao.txt;Cabelo;1600;;;
 1265;como usar óleo de alecrim no cabelo;como-usar-oleo-de-alecrim-no-cabelo.txt;Cabelo;1600;;;
 1266;laser capilar;laser-capilar.txt;Cabelo;1600;;;
@@ -1343,11 +1343,11 @@
 1342;clear antiqueda;clear-antiqueda.txt;Cabelo;1300;;;
 1343;suplemento biotina;suplemento-biotina.txt;Saúde geral;1300;;;
 1344;entradas cabelo;entradas-cabelo.txt;Cabelo;1300;;;
-1345;valor do minoxidil;valor-do-minoxidil.txt;Saúde geral;1300;;;sim
+1345;valor do minoxidil;valor-do-minoxidil.txt;Saúde geral;1300;;;
 1346;cabelo caindo o que pode ser;cabelo-caindo-o-que-pode-ser.txt;Cabelo;1300;;;
 1347;benefícios da babosa no cabelo;beneficios-da-babosa-no-cabelo.txt;Cabelo;1300;;;
 1348;babosa é bom para queda de cabelo;babosa-e-bom-para-queda-de-cabelo.txt;Cabelo;1300;;;
-1349;tônico minoxidil;tonico-minoxidil.txt;Saúde geral;1300;;;sim
+1349;tônico minoxidil;tonico-minoxidil.txt;Saúde geral;1300;;;
 1350;queda de cabelo estresse;queda-de-cabelo-estresse.txt;Cabelo;1300;;;
 1351;alopecia areata causas;alopecia-areata-causas.txt;Cabelo;1300;;;
 1352;como recuperar cabelo quebrado;como-recuperar-cabelo-quebrado.txt;Cabelo;1300;;;
@@ -1419,7 +1419,7 @@
 1418;vitamina para cabelo caindo;vitamina-para-cabelo-caindo.txt;Cabelo;1000;;;
 1419;vitamina de cavalo para cabelo;vitamina-de-cavalo-para-cabelo.txt;Cabelo;1000;;;
 1420;alopecia estresse;alopecia-estresse.txt;Cabelo;1000;;;
-1421;manchas de resistencia a insulina;manchas-de-resistencia-a-insulina.txt;Pele;880;;;sim
+1421;manchas de resistencia a insulina;manchas-de-resistencia-a-insulina.txt;Pele;880;;;
 1422;ajuda para emagrecer;ajuda-para-emagrecer.txt;Alimentação e peso;880;;;
 1423;estresse faz cair cabelo;estresse-faz-cair-cabelo.txt;Cabelo;880;;;
 1424;alergia a desodorante;alergia-a-desodorante.txt;Saúde geral;880;;;
@@ -1442,7 +1442,7 @@
 1441;hidratação para cabelo com babosa;hidratacao-para-cabelo-com-babosa.txt;Cabelo;480;;;
 1442;adeforte serve para queda de cabelo;adeforte-serve-para-queda-de-cabelo.txt;Cabelo;480;;;
 1443;alopecia na sobrancelha;alopecia-na-sobrancelha.txt;Cabelo;480;;;
-1444;intolerância a insulina;intolerancia-a-insulina.txt;Diabetes e exames;390;;;sim
+1444;intolerância a insulina;intolerancia-a-insulina.txt;Diabetes e exames;390;;;
 1445;lipomax cromo emagrece quantos quilos por semana;lipomax-cromo-emagrece-quantos-quilos-por-semana.txt;Alimentação e peso;390;;;
 1446;estresse causa cabelo branco;estresse-causa-cabelo-branco.txt;Cabelo;390;;;
 1447;estresse cai cabelo;estresse-cai-cabelo.txt;Cabelo;390;;;
@@ -1453,7 +1453,7 @@
 1452;sono não reparador;sono-nao-reparador.txt;Sono;390;;;
 1453;bruxismo do sono;bruxismo-do-sono.txt;Boca e dentes;390;;;
 1454;ferro na gravidez;ferro-na-gravidez.txt;Diabetes e exames;390;;;
-1455;medicamento para resistencia insulina;medicamento-para-resistencia-insulina.txt;Diabetes e exames;320;;;sim
+1455;medicamento para resistencia insulina;medicamento-para-resistencia-insulina.txt;Diabetes e exames;320;;;
 1456;composto emagrecedor extra forte;composto-emagrecedor-extra-forte.txt;Alimentação e peso;320;;;
 1457;falhas no couro cabeludo;falhas-no-couro-cabeludo.txt;Cabelo;320;;;
 1458;vermelhidão no couro cabeludo;vermelhidao-no-couro-cabeludo.txt;Cabelo;320;;;
@@ -1469,7 +1469,7 @@
 1468;dieta plant based;dieta-plant-based.txt;Alimentação e peso;260;;;
 1469;calvície na adolescência;calvicie-na-adolescencia.txt;Cabelo;260;;;
 1470;calvície feminina frontal;calvicie-feminina-frontal.txt;Cabelo;260;;;
-1471;minoxidil ajuda na calvície;minoxidil-ajuda-na-calvicie.txt;Cabelo;260;;;sim
+1471;minoxidil ajuda na calvície;minoxidil-ajuda-na-calvicie.txt;Cabelo;260;;;
 1472;alopecia fibrosante frontal tem cura;alopecia-fibrosante-frontal-tem-cura.txt;Cabelo;260;;;
 1473;babosa serve para queda de cabelo;babosa-serve-para-queda-de-cabelo.txt;Cabelo;260;;;
 1474;pele na menopausa;pele-na-menopausa.txt;Pele;260;;;
@@ -1499,7 +1499,7 @@
 1498;pele de idoso;pele-de-idoso.txt;Pele;170;;;
 1499;ansiedade faz comer muito;ansiedade-faz-comer-muito.txt;Mente e memória;140;;;
 1500;diabete emagrece muito;diabete-emagrece-muito.txt;Alimentação e peso;140;;;
-1501;diabetes emagrece muito;diabetes-emagrece-muito.txt;Alimentação e peso;140;;;sim
+1501;diabetes emagrece muito;diabetes-emagrece-muito.txt;Alimentação e peso;140;;;
 1502;dificuldade para emagrecer mesmo fazendo dieta;dificuldade-para-emagrecer-mesmo-fazendo-dieta.txt;Alimentação e peso;140;;;
 1503;gordura acumulada na barriga;gordura-acumulada-na-barriga.txt;Digestão e fígado;140;;;
 1504;gordura nas visceras;gordura-nas-visceras.txt;Saúde geral;140;;;
@@ -1512,7 +1512,7 @@
 1511;perda de peso inexplicável;perda-de-peso-inexplicavel.txt;Alimentação e peso;110;;;
 1512;abdominal emagrece a barriga;abdominal-emagrece-a-barriga.txt;Alimentação e peso;110;;;
 1513;barriga de gordura visceral;barriga-de-gordura-visceral.txt;Digestão e fígado;110;;;
-1514;aplicação de minoxidil no couro cabeludo;aplicacao-de-minoxidil-no-couro-cabeludo.txt;Cabelo;110;;;sim
+1514;aplicação de minoxidil no couro cabeludo;aplicacao-de-minoxidil-no-couro-cabeludo.txt;Cabelo;110;;;
 1515;queda brusca de cabelo;queda-brusca-de-cabelo.txt;Cabelo;110;;;
 1516;como identificar alopecia;como-identificar-alopecia.txt;Cabelo;110;;;
 1517;ansiedade e sono;ansiedade-e-sono.txt;Sono;110;;;
@@ -1535,14 +1535,14 @@
 1534;queda de cabelo por emagrecimento rápido;queda-de-cabelo-por-emagrecimento-rapido.txt;Cabelo;;;;
 1535;cabelo caindo por emagrecimento rápido;cabelo-caindo-por-emagrecimento-rapido.txt;Cabelo;;;;
 1536;queda de cabelo por cirurgia bariátrica;queda-de-cabelo-por-cirurgia-bariatrica.txt;Cabelo;;;;
-1537;queda de cabelo por ozempic;queda-de-cabelo-por-ozempic.txt;Cabelo;;;;sim
-1538;cabelo caindo por quimioterapia;cabelo-caindo-por-quimioterapia.txt;Cabelo;;;;sim
-1539;queda de cabelo por antidepressivo;queda-de-cabelo-por-antidepressivo.txt;Cabelo;;;;sim
+1537;queda de cabelo por ozempic;queda-de-cabelo-por-ozempic.txt;Cabelo;;;;
+1538;cabelo caindo por quimioterapia;cabelo-caindo-por-quimioterapia.txt;Cabelo;;;;
+1539;queda de cabelo por antidepressivo;queda-de-cabelo-por-antidepressivo.txt;Cabelo;;;;
 1540;queda de cabelo por falta de proteína;queda-de-cabelo-por-falta-de-proteina.txt;Cabelo;;;;
 1541;queda de cabelo por falta de zinco;queda-de-cabelo-por-falta-de-zinco.txt;Cabelo;;;;
 1542;queda de cabelo por falta de vitamina b12;queda-de-cabelo-por-falta-de-vitamina-b12.txt;Cabelo;;;;
 1543;queda de cabelo por síndrome dos ovários policísticos;queda-de-cabelo-por-sindrome-dos-ovarios-policisticos.txt;Cabelo;;;;
-1544;queda de cabelo por diabetes;queda-de-cabelo-por-diabetes.txt;Cabelo;;;;sim
+1544;queda de cabelo por diabetes;queda-de-cabelo-por-diabetes.txt;Cabelo;;;;
 1545;queda de cabelo por lúpus;queda-de-cabelo-por-lupus.txt;Cabelo;;;;
 1546;queda de cabelo por genética;queda-de-cabelo-por-genetica.txt;Cabelo;;;;
 1547;cabelo caindo por tração;cabelo-caindo-por-tracao.txt;Cabelo;;;;
@@ -1554,7 +1554,7 @@
 1553;queda de cabelo por dermatite seborreica;queda-de-cabelo-por-dermatite-seborreica.txt;Cabelo;;;;
 1554;queda de cabelo por depressão;queda-de-cabelo-por-depressao.txt;Cabelo;;;;
 1555;queda de cabelo por menopausa precoce;queda-de-cabelo-por-menopausa-precoce.txt;Cabelo;;;;
-1556;queda de cabelo por reposição hormonal;queda-de-cabelo-por-reposicao-hormonal.txt;Cabelo;;;;sim
+1556;queda de cabelo por reposição hormonal;queda-de-cabelo-por-reposicao-hormonal.txt;Cabelo;;;;
 1557;queda de cabelo por anabolizantes;queda-de-cabelo-por-anabolizantes.txt;Cabelo;;;;
 1558;queda de cabelo por insônia;queda-de-cabelo-por-insonia.txt;Cabelo;;;;
 1559;queda de cabelo por fumo;queda-de-cabelo-por-fumo.txt;Cabelo;;;;
@@ -1589,7 +1589,7 @@
 1588;plasma rico em plaquetas para cabelo;plasma-rico-em-plaquetas-para-cabelo.txt;Cabelo;;;;
 1589;fenogrego para cabelo;fenogrego-para-cabelo.txt;Cabelo;;;;
 1590;vinagre de arroz para cabelo;vinagre-de-arroz-para-cabelo.txt;Cabelo;;;;
-1591;tinta de cabelo e câncer;tinta-de-cabelo-e-cancer.txt;Cabelo;;;;sim
+1591;tinta de cabelo e câncer;tinta-de-cabelo-e-cancer.txt;Cabelo;;;;
 1592;descoloração do cabelo danos;descoloracao-do-cabelo-danos.txt;Cabelo;;;;
 1593;tinta sem amônia faz mal;tinta-sem-amonia-faz-mal.txt;Saúde geral;;;;
 1594;tinta de cabelo na amamentação;tinta-de-cabelo-na-amamentacao.txt;Cabelo;;;;
@@ -1606,7 +1606,7 @@
 1605;exercício e cabelo;exercicio-e-cabelo.txt;Cabelo;;;;
 1606;água e cabelo;agua-e-cabelo.txt;Cabelo;;;;
 1607;tireoide e cabelo;tireoide-e-cabelo.txt;Cabelo;;;;
-1608;diabetes e cabelo;diabetes-e-cabelo.txt;Cabelo;;;;sim
+1608;diabetes e cabelo;diabetes-e-cabelo.txt;Cabelo;;;;
 1609;dermatite seborreica causas;dermatite-seborreica-causas.txt;Pele;;;;
 1610;psoríase no couro cabeludo tratamento;psoriase-no-couro-cabeludo-tratamento.txt;Cabelo;;;;
 1611;psoríase no couro cabeludo sintomas;psoriase-no-couro-cabeludo-sintomas.txt;Cabelo;;;;
@@ -1628,12 +1628,12 @@
 1627;entradas no cabelo causas;entradas-no-cabelo-causas.txt;Cabelo;;;;
 1628;coroa rala;coroa-rala.txt;Saúde geral;;;;
 1629;transplante capilar quanto tempo;transplante-capilar-quanto-tempo.txt;Cabelo;;;;
-1630;minoxidil oral quem pode usar;minoxidil-oral-quem-pode-usar.txt;Saúde geral;;;;sim
-1631;minoxidil causa queda inicial;minoxidil-causa-queda-inicial.txt;Idosos e longevidade;;;;sim
-1632;minoxidil e pressão;minoxidil-e-pressao.txt;Coração e colesterol;;;;sim
-1633;minoxidil e coração;minoxidil-e-coracao.txt;Coração e colesterol;;;;sim
-1634;minoxidil crescimento de pelos no rosto;minoxidil-crescimento-de-pelos-no-rosto.txt;Saúde geral;;;;sim
-1635;minoxidil e álcool;minoxidil-e-alcool.txt;Saúde geral;;;;sim
+1630;minoxidil oral quem pode usar;minoxidil-oral-quem-pode-usar.txt;Saúde geral;;;;
+1631;minoxidil causa queda inicial;minoxidil-causa-queda-inicial.txt;Idosos e longevidade;;;;
+1632;minoxidil e pressão;minoxidil-e-pressao.txt;Coração e colesterol;;;;
+1633;minoxidil e coração;minoxidil-e-coracao.txt;Coração e colesterol;;;;
+1634;minoxidil crescimento de pelos no rosto;minoxidil-crescimento-de-pelos-no-rosto.txt;Saúde geral;;;;
+1635;minoxidil e álcool;minoxidil-e-alcool.txt;Saúde geral;;;;
 1636;ceramidas da pele;ceramidas-da-pele.txt;Pele;;;;
 1637;peptídeos antimicrobianos da pele;peptideos-antimicrobianos-da-pele.txt;Pele;;;;
 1638;composição do sebo;composicao-do-sebo.txt;Saúde geral;;;;
@@ -1679,8 +1679,8 @@
 1678;psoríase gutata;psoriase-gutata.txt;Saúde geral;;;;
 1679;vitiligo;vitiligo.txt;Saúde geral;;;;
 1680;micose de pele;micose-de-pele.txt;Pele;;;;
-1681;herpes labial;herpes-labial.txt;Saúde geral;;;;sim
-1682;herpes zoster;herpes-zoster.txt;Saúde geral;;;;sim
+1681;herpes labial;herpes-labial.txt;Saúde geral;;;;
+1682;herpes zoster;herpes-zoster.txt;Saúde geral;;;;
 1683;carcinoma basocelular;carcinoma-basocelular.txt;Saúde geral;;;;
 1684;eczema;eczema.txt;Saúde geral;;;;
 1685;cicatriz de acne;cicatriz-de-acne.txt;Pele;;;;
@@ -1735,7 +1735,7 @@
 1734;insônia e ansiedade;insonia-e-ansiedade.txt;Sono;;;;
 1735;insônia e estresse;insonia-e-estresse.txt;Sono;;;;
 1736;terapia para insônia;terapia-para-insonia.txt;Sono;;;;
-1737;ronco e pressão alta;ronco-e-pressao-alta.txt;Sono;;;;sim
+1737;ronco e pressão alta;ronco-e-pressao-alta.txt;Sono;;;;
 1738;apneia do sono sintomas;apneia-do-sono-sintomas.txt;Sono;;;;
 1739;exame do sono;exame-do-sono.txt;Sono;;;;
 1740;boca seca ao acordar;boca-seca-ao-acordar.txt;Boca e dentes;;;;
@@ -1745,15 +1745,15 @@
 1744;espasmos ao dormir;espasmos-ao-dormir.txt;Sono;;;;
 1745;jantar pesado;jantar-pesado.txt;Alimentação e peso;;;;
 1746;cansaço constante;cansaco-constante.txt;Saúde geral;;;;
-1747;sono e pressão alta;sono-e-pressao-alta.txt;Sono;;;;sim
-1748;sono e diabetes;sono-e-diabetes.txt;Sono;;;;sim
+1747;sono e pressão alta;sono-e-pressao-alta.txt;Sono;;;;
+1748;sono e diabetes;sono-e-diabetes.txt;Sono;;;;
 1749;sono e peso;sono-e-peso.txt;Sono;;;;
-1750;sono e colesterol;sono-e-colesterol.txt;Sono;;;;sim
+1750;sono e colesterol;sono-e-colesterol.txt;Sono;;;;
 1751;sono e tireoide;sono-e-tireoide.txt;Sono;;;;
 1752;sono na menopausa;sono-na-menopausa.txt;Sono;;;;
 1753;ondas de calor à noite;ondas-de-calor-a-noite.txt;Saúde geral;;;;
 1754;por que mulheres dormem pior;por-que-mulheres-dormem-pior.txt;Sono;;;;
-1755;próstata e levantar à noite;prostata-e-levantar-a-noite.txt;Próstata e vias urinárias;;;;sim
+1755;próstata e levantar à noite;prostata-e-levantar-a-noite.txt;Próstata e vias urinárias;;;;
 1756;testosterona baixa e sono;testosterona-baixa-e-sono.txt;Sono;;;;
 1757;apneia em homens;apneia-em-homens.txt;Sono;;;;
 1758;pensamentos acelerados ao deitar;pensamentos-acelerados-ao-deitar.txt;Saúde geral;;;;
@@ -1811,20 +1811,20 @@
 1810;jejum prolongado;jejum-prolongado.txt;Saúde geral;;;;
 1811;em jejum;em-jejum.txt;Saúde geral;;;;
 1812;perda de peso;perda-de-peso.txt;Alimentação e peso;;;;
-1813;Ozempic e jejum;ozempic-e-jejum.txt;Saúde geral;;;;sim
-1814;Wegovy e jejum;wegovy-e-jejum.txt;Saúde geral;;;;sim
+1813;Ozempic e jejum;ozempic-e-jejum.txt;Saúde geral;;;;
+1814;Wegovy e jejum;wegovy-e-jejum.txt;Saúde geral;;;;
 1815;e café;e-cafe.txt;Saúde geral;;;;
 1816;e alimentação;e-alimentacao.txt;Saúde geral;;;;
 1817;e proteína;e-proteina.txt;Alimentação e peso;;;;
 1818;e exercícios;e-exercicios.txt;Músculos e movimento;;;;
 1819;e manutenção;e-manutencao.txt;Saúde geral;;;;
-1820;tirzepatida e jejum;tirzepatida-e-jejum.txt;Saúde geral;;;;sim
+1820;tirzepatida e jejum;tirzepatida-e-jejum.txt;Saúde geral;;;;
 1821;academia;academia.txt;Músculos e movimento;;;;
 1822;efeitos gastrointestinais;efeitos-gastrointestinais.txt;Digestão e fígado;;;;
-1823;Ozempic x Mounjaro;ozempic-x-mounjaro.txt;Saúde geral;;;;sim
-1824;Wegovy x Mounjaro;wegovy-x-mounjaro.txt;Saúde geral;;;;sim
-1825;Ozempic x Wegovy;ozempic-x-wegovy.txt;Saúde geral;;;;sim
-1826;semaglutida x tirzepatida;semaglutida-x-tirzepatida.txt;Saúde geral;;;;sim
+1823;Ozempic x Mounjaro;ozempic-x-mounjaro.txt;Saúde geral;;;;
+1824;Wegovy x Mounjaro;wegovy-x-mounjaro.txt;Saúde geral;;;;
+1825;Ozempic x Wegovy;ozempic-x-wegovy.txt;Saúde geral;;;;
+1826;semaglutida x tirzepatida;semaglutida-x-tirzepatida.txt;Saúde geral;;;;
 1827;canetas semanais;canetas-semanais.txt;Saúde geral;;;;
 1828;canetas e jejum;canetas-e-jejum.txt;Saúde geral;;;;
 1829;apetite;apetite.txt;Saúde geral;;;;
@@ -1878,12 +1878,12 @@
 1877;caneta falsificada/manipulada;caneta-falsificada-manipulada.txt;Saúde geral;;;;
 1878;guia definitivo;guia-definitivo.txt;Saúde geral;;;;
 1879;caneta emagrecedora;caneta-emagrecedora.txt;Alimentação e peso;;;;
-1880;ozempic;ozempic.txt;Saúde geral;;;;sim
-1881;mounjaro;mounjaro.txt;Saúde geral;;;;sim
-1882;wegovy;wegovy.txt;Saúde geral;;;;sim
-1883;semaglutida;semaglutida.txt;Saúde geral;;;;sim
-1884;tirzepatida;tirzepatida.txt;Saúde geral;;;;sim
-1885;ozempic ou mounjaro;ozempic-ou-mounjaro.txt;Saúde geral;;;;sim
-1886;wegovy ou mounjaro;wegovy-ou-mounjaro.txt;Saúde geral;;;;sim
+1880;ozempic;ozempic.txt;Saúde geral;;;;
+1881;mounjaro;mounjaro.txt;Saúde geral;;;;
+1882;wegovy;wegovy.txt;Saúde geral;;;;
+1883;semaglutida;semaglutida.txt;Saúde geral;;;;
+1884;tirzepatida;tirzepatida.txt;Saúde geral;;;;
+1885;ozempic ou mounjaro;ozempic-ou-mounjaro.txt;Saúde geral;;;;
+1886;wegovy ou mounjaro;wegovy-ou-mounjaro.txt;Saúde geral;;;;
 1887;quanto emagrece com caneta;quanto-emagrece-com-caneta.txt;Alimentação e peso;;;;
 1888;caneta emagrecedora efeitos colaterais;caneta-emagrecedora-efeitos-colaterais.txt;Alimentação e peso;;;;
