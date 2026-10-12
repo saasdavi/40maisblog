@@ -2,7 +2,7 @@ name: Pesquisa SerpAPI (manual)
 
 # Disparo manual, feito por você ou pelo ChatGPT. Faz 1 busca no Google Brasil por palavra-chave
 # (SerpAPI) com o script próprio scripts/pesquisa-serp-manual.js, sem as regras do robô.
-# Respeita o contador mensal (240 de 250) e a validade de 14 dias. Grava em data/pesquisa/manual/.
+# Respeita o contador mensal (240 de 250) e a validade de 14 dias. Grava só em data/entrada/pautas-chat_01/resposta/.
 # Não gera artigo nem publica.
 
 on:
@@ -42,7 +42,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Pesquisa SERP"
-          git add data/pesquisa
+          git add data/entrada/pautas-chat_01/resposta
           if git diff --staged --quiet; then
             echo "Nada novo para gravar"
             exit 0
