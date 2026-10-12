@@ -1,0 +1,78 @@
+{
+ "palavra": "MATO",
+ "data": "2026-10-12",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Veja os confrontos do mata-mata do Campeonato Mato-grossense - CAPITAL NOTÍCIA",
+   "link": "https://capitalnoticia.com.br/esportes/veja-os-confrontos-do-mata-mata-do-campeonato-mato-grossense/",
+   "trecho": "Luverdense e Sport Sinop, sétimo e oitavo, estão eliminados do estadual, mas garantiram permanência na elite do futebol mato-grossense.",
+   "lida": true,
+   "h2": [
+    "PODCAST",
+    "POLÍTICA",
+    "CIDADES",
+    "POLÍCIA",
+    "JUDICIÁRIO",
+    "ECONOMIA",
+    "AGRO",
+    "ESPORTES",
+    "GERAL",
+    "ENTREVISTA",
+    "VARIEDADES",
+    "APURAÇÃO COMPLETA"
+   ],
+   "palavras": 937
+  },
+  {
+   "posicao": 2,
+   "titulo": "DAVERSON MATOS foi eleito em 2026: votos e resultado em MS | Regionalzão",
+   "link": "https://regionalzao.com.br/quanto-faltou/2026/ms/deputado-estadual/daverson-matos-120002536060/",
+   "trecho": "DAVERSON MATOS recebeu 30.604 votos para deputado estadual em MS. Foi eleito na eleição de 2026. Confira a base do TSE.",
+   "lida": true,
+   "h2": [],
+   "palavras": 311
+  },
+  {
+   "posicao": 3,
+   "titulo": "Significado de Mato - O que é, Sinónimos e Conceito no ...",
+   "link": "https://www.lexico.pt/mato/",
+   "trecho": "O significado de Mato no Dicionário Português. Mato, o que é: m. Terreno inculto, em que crescem plantas agrestes. Conjunto de pequenas plantas agrestes.",
+   "lida": false,
+   "motivo": "HTTP 500"
+  },
+  {
+   "posicao": 4,
+   "titulo": "Esporte MT | Mato-grossense tem primeiro rebaixado na penúltima rodada e Mixto segue líder",
+   "link": "https://esportemt.com.br/noticia/mato-grossense-tem-primeiro-rebaixado-na-penultima-rodada-e-mixto-segue-lider-06-02-2026",
+   "trecho": "A oitava e penúltima rodada do Campeonato Mato-grossense de 2026 foi decisiva para a parte de baixo da tabela e deixou a disputa pelas vagas ...",
+   "lida": true,
+   "h2": [
+    "TV ESPORTE MT",
+    "VER + VÍDEOS"
+   ],
+   "palavras": 903
+  },
+  {
+   "posicao": 5,
+   "titulo": "Significado de mato",
+   "link": "https://www.dicionarioinformal.com.br/significado/mato/9082/",
+   "trecho": "Geralmente a expressão mato está associado a abundância, depende da situação. Exemplo de uso da palavra Mato: Felicidade aqui é mato.",
+   "lida": false,
+   "motivo": "HTTP 403"
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "https://www.novomundo.mt.gov.br/Noticias/Itr-2023/...",
+   "link": "https://www.novomundo.mt.gov.br/Noticias/Itr-2023///158/",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [],
+ "relacionadas": [],
+ "ai_overview": true
+}
