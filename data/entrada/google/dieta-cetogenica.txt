@@ -2,14 +2,17 @@ PALAVRA_CHAVE: dieta cetogênica
 TITLE: Dieta cetogênica: como funciona e cuidados
 DESCRIPTION: Entenda como funciona a dieta cetogênica, quais alimentos entram no cardápio, possíveis benefícios, riscos e cuidados antes de começar.
 CAPA_ALT: Refeição com ovos, abacate, folhas verdes e azeite em uma mesa
+CAPA_ID:
 FOTO1_ALT: Alimentos usados em um cardápio com baixo teor de carboidratos
+FOTO1_ID:
 FOTO1_SECAO: 2
 FOTO2_ALT: Nutricionista conversando com uma pessoa sobre planejamento alimentar
+FOTO2_ID:
 FOTO2_SECAO: 6
-FONTE: Should you try the keto diet? | Harvard Health Publishing | https://www.health.harvard.edu/healthy-aging-and-longevity/should-you-try-the-keto-diet
-FONTE: Diet Review: Ketogenic Diet for Weight Loss | Harvard T.H. Chan School of Public Health | https://nutritionsource.hsph.harvard.edu/healthy-weight/diet-reviews/ketogenic-diet/
-FONTE: Ketogenic diet: Is the ultimate low-carb diet good for you? | Harvard Health Publishing | https://www.health.harvard.edu/blog/ketogenic-diet-is-the-ultimate-low-carb-diet-good-for-you-2017072712089
-NOTA_CHAT: 9,1
+FONTE: Effects of ketogenic diet on health outcomes: an umbrella review of meta-analyses of randomized clinical trials | PubMed | https://pubmed.ncbi.nlm.nih.gov/37231411/
+FONTE: Ketogenic diet | Healthdirect Australia | https://www.healthdirect.gov.au/ketogenic-diet
+FONTE: Type 1 Diabetes | National Institute of Diabetes and Digestive and Kidney Diseases | https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/type-1-diabetes
+NOTA_CHAT: 9,4
 ---
 <p>A dieta cetogênica reduz bastante os carboidratos e aumenta a participação de gorduras, com proteína moderada. Pode favorecer a perda de peso no curto prazo, mas é restritiva e tem riscos. Antes de começar, avalie sua saúde com um profissional.</p>
 
@@ -24,7 +27,6 @@ NOTA_CHAT: 9,1
 <p>Em condições habituais, o corpo utiliza glicose proveniente dos carboidratos como uma das principais fontes de energia. Quando a ingestão de carboidratos cai bastante, o fígado passa a produzir corpos cetônicos a partir de gordura.</p>
 <p>O organismo pode utilizar esses compostos como combustível, mas o processo não significa que todo o peso perdido seja gordura corporal.</p>
 <p>Uma redução rápida na balança no início pode incluir água, porque as reservas de glicogênio armazenadas no fígado e nos músculos diminuem junto com a água associada a elas. Essa mudança inicial não deve ser confundida com perda de gordura na mesma proporção.</p>
-<p>A evolução do peso depende do conjunto da alimentação, do gasto energético e da adesão ao plano ao longo do tempo.</p>
 <p>A cetose nutricional não é a mesma coisa que cetoacidose diabética, uma complicação perigosa relacionada ao acúmulo excessivo de ácidos no sangue. A cetoacidose exige atendimento urgente e é especialmente preocupante em pessoas com diabetes tipo 1, embora situações específicas possam ocorrer em outros contextos.</p>
 <p>Pessoas com diabetes não devem iniciar uma dieta muito restritiva sem orientação clínica.</p>
 
@@ -48,7 +50,6 @@ NOTA_CHAT: 9,1
 
 <h2>Dieta cetogênica emagrece?</h2>
 <p>Alguns estudos mostram perda de peso mais rápida no curto prazo em comparação com certos padrões alimentares. No entanto, a diferença pode diminuir com o passar do tempo, especialmente quando a dieta é difícil de manter.</p>
-<p>A restrição intensa também pode dificultar refeições em família, alimentação fora de casa e consumo suficiente de fibras.</p>
 <p>Não existe garantia de que a dieta cetogênica produza melhores resultados para todas as pessoas. O emagrecimento depende de diversos fatores, incluindo ingestão total de energia, sono, atividade física, medicamentos, condições de saúde e capacidade de manter as mudanças. Um plano menos restritivo pode ser mais sustentável para algumas pessoas.</p>
 <p>Evite promessas de perder muitos quilos em poucos dias ou de eliminar gordura de uma região específica do corpo. A perda de peso varia e mudanças rápidas podem refletir água, não apenas gordura.</p>
 <p>Para escolher uma estratégia, considere também o risco de recuperar o peso após abandonar uma dieta difícil de seguir.</p>
@@ -63,19 +64,19 @@ NOTA_CHAT: 9,1
 <h2>Quais são os riscos e efeitos colaterais?</h2>
 <p>Nos primeiros dias, algumas pessoas relatam dor de cabeça, cansaço, tontura, irritabilidade, náusea, mau hálito ou dificuldade de concentração. A constipação também pode ocorrer quando a ingestão de fibras e líquidos cai. Sintomas persistentes ou intensos não devem ser ignorados nem tratados apenas com suplementos por conta própria.</p>
 <p>Uma dieta mal planejada pode reduzir a ingestão de fibras, vitaminas e minerais. O consumo elevado de gorduras saturadas pode aumentar o colesterol LDL em algumas pessoas, e os efeitos de longo prazo variam.</p>
-<p>Como dietas restritivas podem influenciar diferentes marcadores metabólicos, veja também nosso guia sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a>.</p>
+<p>Como dietas restritivas podem influenciar diferentes marcadores metabólicos, veja também nosso guia sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a> e as informações gerais sobre <a href="/sintomas-de-diabetes/">sintomas de diabetes</a>.</p>
 <p>Pessoas com doença renal ou hepática precisam de avaliação individual, pois mudanças na ingestão de gordura, proteína e líquidos podem ser relevantes para seu quadro.</p>
-<p>Outros riscos possíveis incluem desidratação, alterações de eletrólitos, cálculos renais e dificuldade de manter a dieta por longos períodos. Uma alimentação muito restritiva pode ainda piorar a relação com a comida em pessoas vulneráveis a comportamentos alimentares desordenados. Se surgirem sintomas preocupantes, interrompa a tentativa de automanejo e procure orientação.</p>
+<p>Outros riscos incluem desidratação e dificuldade para manter a dieta por longos períodos. Uma alimentação muito restritiva pode ainda piorar a relação com a comida em pessoas vulneráveis a comportamentos alimentares desordenados. Se surgirem sintomas preocupantes, procure orientação em vez de tentar resolver tudo por conta própria.</p>
 
 <h2>Quem não deve começar sem orientação?</h2>
 <p>Gestantes não devem adotar uma dieta cetogênica para emagrecer sem orientação especializada. Durante a gravidez, há necessidades nutricionais específicas, e padrões que restringem severamente carboidratos não são recomendados de forma geral. Pessoas que estão amamentando também precisam de um plano que considere as necessidades de energia e nutrientes.</p>
-<p>Quem tem diabetes, especialmente quem usa insulina ou medicamentos que podem causar hipoglicemia, precisa conversar com a equipe de saúde antes de fazer grandes mudanças alimentares. A redução de carboidratos pode modificar rapidamente a glicemia e exigir ajustes clínicos. Em algumas situações, existe também preocupação com cetoacidose.</p>
+<p>Quem tem diabetes, especialmente quem usa insulina ou medicamentos que podem causar hipoglicemia, precisa conversar com a equipe de saúde antes de fazer grandes mudanças alimentares.</p>
+<p>A redução de carboidratos pode modificar rapidamente a glicemia e exigir ajustes clínicos. Medicamentos da classe dos inibidores de SGLT2 também exigem atenção, pois a combinação pode aumentar o risco de cetoacidose.</p>
 <p>Pessoas com doença renal, doença hepática, pancreatite, alterações do metabolismo de gorduras, histórico de transtornos alimentares ou uso de medicamentos específicos precisam de avaliação antes de considerar o plano. Crianças e adolescentes não devem seguir uma dieta restritiva para emagrecer sem acompanhamento profissional.</p>
 <p>Mesmo quando não existe uma contraindicação absoluta, o plano deve considerar exames, histórico de saúde, preferências alimentares, orçamento e capacidade de acompanhamento. O que funciona para uma pessoa pode ser inadequado para outra.</p>
 
 <h2>Como montar um cardápio com mais segurança?</h2>
 <p>Não é recomendável começar por uma lista genérica de alimentos ou copiar a dieta de um influenciador. O ideal é conversar com médico ou nutricionista para avaliar o objetivo, os medicamentos utilizados, os exames pertinentes e a necessidade de acompanhamento.</p>
-<p>Isso é especialmente importante se a motivação for tratar diabetes, colesterol alto ou outra condição crônica.</p>
 <p>Se a dieta for considerada apropriada, planeje refeições variadas, com vegetais de baixo teor de carboidratos, fontes de proteína adequadas e preferência por gorduras insaturadas. A quantidade de energia, proteína, fibras e micronutrientes deve ser compatível com suas necessidades.</p>
 <p>Um plano bem elaborado também precisa prever hidratação e alternativas práticas para a rotina.</p>
 <p>Acompanhe a resposta do organismo e os indicadores definidos pelo profissional. A balança sozinha não informa se a dieta está melhorando a saúde. Exames, sintomas, pressão arterial, glicemia e perfil lipídico podem ser importantes conforme o caso.</p>
@@ -89,4 +90,4 @@ NOTA_CHAT: 9,1
 
 <h2>Resumindo</h2>
 <p>A dieta cetogênica reduz muito os carboidratos e aumenta a participação das gorduras, levando o corpo a produzir corpos cetônicos. Pode favorecer perda de peso no curto prazo e tem uso médico específico em algumas situações, mas é restritiva e pode causar efeitos adversos, deficiências nutricionais e alterações do colesterol.</p>
-<p>Gestantes, pessoas com diabetes e quem tem doenças crônicas devem procurar orientação antes de começar. O melhor plano é aquele que atende às necessidades individuais e pode ser mantido com segurança.</p>
+<p>Gestantes, pessoas com diabetes e quem tem doenças crônicas devem procurar orientação antes de começar. O melhor plano é aquele que atende às necessidades individuais e pode ser mantido com segurança. Este conteúdo é informativo e não substitui a avaliação de um médico ou profissional de saúde.</p>
