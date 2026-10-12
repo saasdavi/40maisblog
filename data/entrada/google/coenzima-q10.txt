@@ -75,4 +75,4 @@ NOTA_CHAT: 9,0
 
 <h2>Resumindo</h2>
 <p>A coenzima Q10 é uma substância presente naturalmente no organismo e estudada para diferentes condições. As evidências para muitas indicações ainda são limitadas ou inconclusivas, e a popularidade do suplemento não comprova benefício clínico.</p>
-<p>O produto pode causar efeitos indesejados e interagir com medicamentos como varfarina e insulina. Antes de usar, avalie a necessidade, verifique a situação regulatória e converse com um profissional, especialmente se tiver doença crônica ou fizer tratamento contínuo. Este conteúdo é informativo e não substitui a avaliação de um médico ou profissional de saúde.</p>
+<p>A coenzima Q10 pode causar efeitos indesejados e interagir com medicamentos como varfarina e insulina. Antes de usar, avalie a necessidade com um profissional, verifique a regularização do produto e informe seus tratamentos contínuos. Este conteúdo é informativo e não substitui a avaliação de um médico ou profissional de saúde.</p>
