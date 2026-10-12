@@ -3,10 +3,9 @@ name: 📝 Daily Article Production
 on:
   # Sem `schedule`: o GitHub atrasa ou descarta agendamentos. Os 3 horários do dia vêm de um cron externo (cron-job.org) que chama
   # a API do GitHub (workflow_dispatch). Passo a passo em CRON-EXTERNO.md.
-  # Programação do dia: 1 artigo NOVO escrito por IA (Gemini, reserva Claude, pesquisa da SerpAPI antes) + 2 do estoque pronto, sem IA.
-  # Os 3 disparos são iguais (modo = novo): cada um tenta o artigo novo se ainda não saiu um hoje (novoHoje); se já saiu, publica 1 do estoque.
-  # Se o novo falhar, a execução seguinte tenta de novo, e o estoque completa os 3 do dia (teto DAILY_LIMIT=3, dia de Brasília).
-  # Quando o estoque pronto acaba, todas as execuções escrevem artigo novo pela API (Gemini, reserva Claude, SerpAPI antes): 3 por dia.
+  # PAUSADO (sem API): as 3 execuções do dia só publicam do estoque pronto e do que o ChatGPT entregar.
+  # Os disparos continuam iguais; se o estoque acabar, a execução não escreve nada (não gasta API).
+  # Escrita por IA (Gemini/Claude) e SerpAPI ficam nos scripts e workflows manuais, sem apagar nada.
   workflow_dispatch:
     inputs:
       batch:
@@ -63,25 +62,13 @@ jobs:
           FOTO_NA_PUBLICACAO: '1'
         run: node scripts/importar-artigo.js
 
-      - name: 🔎 SerpAPI - pesquisa da pauta (artigo novo, ou qualquer execução quando o estoque acabou)
-        continue-on-error: true
-        env:
-          SERP_API_KEY: ${{ secrets.SERP_API_KEY }}
-        run: node scripts/serp-api.js ${{ env.NOVO == '1' && '--novo' || '--so-se-sem-estoque' }}
-
       - name: 🤖 ARTICLE ROBOT 3/DIA - Fluxo Completo
         continue-on-error: true   # se o artigo novo falhar, o estoque completa os 3 do dia
         env:
           # execução sem NOVO: publica do estoque (sem IA); só escreve com a API quando o estoque pronto acabou
-          # Pausado: sem escrita por IA (Gemini/Claude). Só publica do estoque pronto e do que o ChatGPT entregar.
+          # Pausado: sem API de escrita (Gemini/Claude) nem pesquisa paga. Só publica do estoque pronto e do que o ChatGPT entregar.
           NOVO_COM_IA: ''
           SEM_API: '1'
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GOOGLE_ADS_CLIENT_ID: ${{ secrets.GOOGLE_ADS_CLIENT_ID }}
-          GOOGLE_ADS_CLIENT_SECRET: ${{ secrets.GOOGLE_ADS_CLIENT_SECRET }}
-          GOOGLE_ADS_REFRESH_TOKEN: ${{ secrets.GOOGLE_ADS_REFRESH_TOKEN }}
-          GOOGLE_ADS_CUSTOMER_ID: ${{ secrets.GOOGLE_ADS_CUSTOMER_ID }}
           PEXEL_API_KEY: ${{ secrets.PEXEL_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
