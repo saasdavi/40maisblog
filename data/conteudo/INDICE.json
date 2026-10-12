@@ -1,7 +1,7 @@
 {
  "resumo": {
-  "publicados": 33,
-  "prontosParaUsar": 172,
+  "publicados": 34,
+  "prontosParaUsar": 171,
   "pautasValidadasSemTexto": 17,
   "planejadasAValidar": 886,
   "vagas": 146,
@@ -463,15 +463,15 @@
    "palavraChave": "moscas volantes",
    "cluster": "visao",
    "volume": 22200,
-   "status": "pronto",
+   "status": "publicado",
    "palavras": 1863,
    "h2": 14,
    "imagens": 4,
    "fontes": 4,
    "auditoria": 86,
-   "publicadoEm": null,
+   "publicadoEm": "2026-10-12T21:00:38.083Z",
    "escritoEm": "2026-10-11T19:03:57.751Z",
-   "previstoPara": "2026-10-12",
+   "previstoPara": null,
    "pontesSugeridas": []
   },
   {

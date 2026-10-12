@@ -315,6 +315,17 @@
     </image:image>
   </url>
   <url>
+    <loc>https://health-40-blog.vercel.app/moscas-volantes</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>/images/moscas-volantes/moscas-volantes-capa.jpg</image:loc>
+      <image:title>Moscas Volantes: Quando São Normais</image:title>
+      <image:caption>Moscas volantes são manchas que se movem na visão. Veja causas, quando indicam risco de descolamento de retina e o que fazer.</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://health-40-blog.vercel.app/alimentos-ricos-em-ferro</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>

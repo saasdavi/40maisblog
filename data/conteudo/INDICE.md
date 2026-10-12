@@ -4,20 +4,19 @@ Fonte dos textos: `data/articles.json`. Atualizado por `node scripts/banco-conte
 
 | O que | Quantidade | Dias |
 |---|---|---|
-| **Pronto para usar** (a fila do robô; saem 2 por dia) | **172** | 86 |
+| **Pronto para usar** (a fila do robô; saem 2 por dia) | **171** | 85 |
 | Precisa de revisão (o robô não publica) | 42 | |
-| Publicado (no ar) | 33 | |
+| Publicado (no ar) | 34 | |
 | Pauta validada, falta escrever | 17 | 5 |
 | Planejado, falta validar no Google | 886 | 295 |
 | Vagas (sem tema levantado) | 146 | |
 
-Dias de conteúdo já escrito + pauta validada: **91** (estoque a 2 por dia; pauta validada, 1 por dia).
+Dias de conteúdo já escrito + pauta validada: **90** (estoque a 2 por dia; pauta validada, 1 por dia).
 
 ## Prontos para usar
 
 | Artigo | Palavras | Auditoria | Previsto para |
 |---|---|---|---|
-| Moscas Volantes: Quando São Normais | 1863 | 86 | 2026-10-12 |
 | Lanche Saudável: 12 Ideias Fáceis para Sua Tarde | 1511 | 91 | 2026-10-17 |
 | Cabelos Brancos: Causas, Cuidados e Tudo que Você Precisa Saber | 1820 | 87 | 2026-10-17 |
 | Câimbras nas pernas: causas e alívio rápido | 1372 | 100 | 2026-10-18 |
@@ -219,6 +218,7 @@ Dias de conteúdo já escrito + pauta validada: **91** (estoque a 2 por dia; pau
 | Síndrome do Intestino Irritável: Controle Agora | 1870 | 94 | 2026-10-08 |
 | Glicemia normal: valores por idade e quando procurar ajuda | 1276 | 91 | 2026-10-08 |
 | Inchaço nas Pernas: Causas e Alívio Prático | 1997 | 100 | 2026-10-09 |
+| Moscas Volantes: Quando São Normais | 1863 | 86 | 2026-10-12 |
 | Alimentos Ricos em Ferro: Absorção Prática 40+ | 1591 | 98 | 2026-10-09 |
 | Noctúria: Por Que Acorda à Noite para Urinar | 1378 | 92 | 2026-10-09 |
 | Queda de Cabelo: Saiba Quando é Normal Tratar | 1544 | 96 | 2026-10-10 |

@@ -4130,7 +4130,7 @@
         ]
       },
       "volume": 22200,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T17:00:01.479Z",
       "featuredImage": "/images/moscas-volantes/moscas-volantes-capa.jpg",
       "imageAlt": "Pessoa cobrindo um olho para perceber manchas na visão",
@@ -4179,7 +4179,7 @@
         "pexels:3768146"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-11T19:03:57.751Z",
       "scores": {
         "auditoria": 86,
@@ -4276,7 +4276,9 @@
         },
         "validadoEm": "2026-10-11T19:03:57.751Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "publishedAt": "2026-10-12T21:00:38.083Z",
+      "publicadoDoEstoqueEm": "2026-10-12T21:00:38.083Z"
     },
     {
       "id": "art_1791135736213_jiw3",
@@ -37741,6 +37743,6 @@
   ],
   "stats": {
     "total": 247,
-    "published": 33
+    "published": 34
   }
 }
