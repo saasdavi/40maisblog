@@ -23,7 +23,6 @@ NOTA_CHAT: 9,0
 <h2>Coenzima Q10: para que serve?</h2>
 <p>A coenzima Q10 é pesquisada para diferentes finalidades, incluindo problemas cardiovasculares, enxaqueca e possíveis efeitos relacionados a alguns tratamentos médicos. A evidência não tem a mesma qualidade para todas essas situações, e os resultados de um uso não devem ser generalizados para outro.</p>
 <p>O Centro Nacional de Saúde Complementar e Integrativa dos Estados Unidos informa que os estudos sobre CoQ10 para insuficiência cardíaca e prevenção de doenças cardíacas apresentam resultados inconclusivos. Portanto, não é correto afirmar que o suplemento previne infarto ou trata doenças do coração por conta própria.</p>
-<p>A mesma instituição relata que o conjunto das evidências não sustenta um benefício consistente da CoQ10 para aliviar dores musculares associadas às estatinas. Quem utiliza esses medicamentos não deve interrompê-los nem alterar o tratamento por causa de informações sobre suplementos.</p>
 <p>Também foram investigados outros usos, mas para diversas condições os dados continuam limitados. Quando os estudos são pequenos, apresentam resultados diferentes ou medem desfechos pouco relevantes para a rotina, a conclusão precisa permanecer cautelosa.</p>
 
 <h2>A coenzima Q10 ajuda contra a enxaqueca?</h2>
