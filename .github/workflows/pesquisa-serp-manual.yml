@@ -1,8 +1,9 @@
 name: Pesquisa SerpAPI (manual)
 
 # Disparo manual, feito por você ou pelo ChatGPT. Faz 1 busca no Google Brasil por palavra-chave
-# (SerpAPI), respeitando o contador mensal de data/pesquisa/serpapi-uso.json (240 de 250),
-# e grava o resultado em data/pesquisa/serp-resultados.json. Não gera artigo nem publica.
+# (SerpAPI) com o script próprio scripts/pesquisa-serp-manual.js, sem as regras do robô.
+# Respeita o contador mensal (240 de 250) e a validade de 14 dias. Grava em data/pesquisa/manual/.
+# Não gera artigo nem publica.
 
 on:
   workflow_dispatch:
@@ -21,7 +22,7 @@ concurrency:
 jobs:
   pesquisar:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,22 +31,18 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: 'npm'
-
-      - name: Instalar dependências
-        run: npm ci
 
       - name: Pesquisar na SerpAPI
         env:
           SERP_API_KEY: ${{ secrets.SERP___APIKEY }}
           PALAVRA: ${{ github.event.inputs.palavra_chave }}
-        run: node scripts/serp-api.js --keyword "$PALAVRA"
+        run: node scripts/pesquisa-serp-manual.js
 
       - name: Commit e push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Pesquisa SERP"
-          git add data/pesquisa data/briefings
+          git add data/pesquisa
           if git diff --staged --quiet; then
             echo "Nada novo para gravar"
             exit 0
