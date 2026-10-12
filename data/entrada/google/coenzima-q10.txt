@@ -6,9 +6,9 @@ FOTO1_ALT: Peixes e carnes que podem fornecer pequenas quantidades de coenzima Q
 FOTO1_SECAO: 2
 FOTO2_ALT: Pessoa conversando com profissional de saúde durante uma consulta
 FOTO2_SECAO: 5
-FONTE: Coenzyme Q10 — National Center for Complementary and Integrative Health | https://www.nccih.nih.gov/health/coenzyme-q10?nav=govd
-FONTE: Interações entre suplementos e medicamentos — NIH Office of Dietary Supplements | https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx?ct=39988
-FONTE: Coenzyme Q10 — NCBI Bookshelf | https://www.ncbi.nlm.nih.gov/books/NBK531491/
+FONTE: Coenzyme Q10 | National Center for Complementary and Integrative Health | https://www.nccih.nih.gov/health/coenzyme-q10?nav=govd
+FONTE: Interações entre suplementos e medicamentos | NIH Office of Dietary Supplements | https://ods.od.nih.gov/HealthInformation/ODS_Frequently_Asked_Questions.aspx?ct=39988
+FONTE: Coenzyme Q10 | NCBI Bookshelf | https://www.ncbi.nlm.nih.gov/books/NBK531491/
 NOTA_CHAT: 9,1
 ---
 <p>A coenzima Q10 é uma substância produzida pelo organismo que participa da produção de energia nas células. Ela também atua como antioxidante. O suplemento pode ser estudado para algumas condições, mas não é um tratamento universal nem substitui medicamentos prescritos.</p>
