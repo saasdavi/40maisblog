@@ -2,16 +2,19 @@ PALAVRA_CHAVE: ginkgo biloba
 TITLE: Ginkgo biloba: para que serve e cuidados
 DESCRIPTION: Saiba para que serve o ginkgo biloba, o que as pesquisas mostram sobre memória e circulação, quais são os riscos e quando evitar o suplemento.
 CAPA_ALT: Folhas verdes de ginkgo biloba em uma planta adulta
+CAPA_ID:
 FOTO1_ALT: Folhas em formato de leque características do ginkgo biloba
+FOTO1_ID:
 FOTO1_SECAO: 2
 FOTO2_ALT: Profissional de saúde orientando uma pessoa sobre uso seguro de suplementos
+FOTO2_ID:
 FOTO2_SECAO: 6
 FONTE: Ginkgo: Usefulness and Safety | National Center for Complementary and Integrative Health | https://www.nccih.nih.gov/health/ginkgo
 FONTE: Ginkgo biloba for prevention of dementia: a randomized controlled trial | PubMed | https://pubmed.ncbi.nlm.nih.gov/19017911/
 FONTE: Herb-Drug Interactions: What the Science Says | National Center for Complementary and Integrative Health | https://www.nccih.nih.gov/health/providers/digest/herb-drug-interactions-science
-NOTA_CHAT: 9,1
+NOTA_CHAT: 9,2
 ---
-<p>Ginkgo biloba é uma planta cujo extrato das folhas é vendido como suplemento, principalmente para memória e circulação. Apesar da popularidade, as evidências não confirmam benefícios para todas as promessas comerciais, e o produto pode interagir com medicamentos. Antes de usar, é importante avaliar riscos e objetivos com um profissional de saúde.</p>
+<p>Ginkgo biloba é um suplemento feito principalmente do extrato das folhas, divulgado para memória e circulação. As pesquisas não confirmam muitos benefícios populares, e o produto pode interagir com medicamentos. Avalie riscos e objetivos com um profissional antes de usá-lo.</p>
 
 <h2>O que é ginkgo biloba?</h2>
 <p>O ginkgo é uma árvore antiga, originária da China, conhecida pelas folhas em formato de leque. Na medicina tradicional, diferentes preparações da planta foram usadas para várias queixas. Atualmente, os suplementos são feitos sobretudo com extratos das folhas, cuja composição depende do processo de fabricação.</p>
@@ -21,7 +24,7 @@ NOTA_CHAT: 9,1
 <h2>Ginkgo biloba: para que serve?</h2>
 <p>O suplemento costuma ser anunciado para memória, concentração, zumbido no ouvido, tontura, ansiedade e sintomas associados ao envelhecimento. Essas alegações não têm todas o mesmo nível de evidência.</p>
 <p>O fato de um produto ser tradicional ou muito vendido não significa que sua eficácia tenha sido demonstrada em estudos clínicos de boa qualidade.</p>
-<p>O Centro Nacional de Saúde Complementar e Integrativa dos Estados Unidos informa que não há evidência conclusiva de que o ginkgo seja eficaz para uma condição de saúde específica. Para algumas situações, existem estudos com resultados limitados ou inconsistentes, mas isso não é suficiente para recomendar o suplemento como tratamento geral.</p>
+<p>O Centro Nacional de Saúde Complementar e Integrativa dos Estados Unidos informa que não há evidência conclusiva de benefício do ginkgo para uma condição específica. Alguns estudos mostram resultados limitados ou inconsistentes, insuficientes para recomendá-lo como tratamento geral.</p>
 <p>Também não se deve usar ginkgo para substituir medicamentos prescritos, investigação médica ou medidas comprovadas de prevenção. Se a intenção é melhorar memória, tratar tontura ou aliviar zumbido, o primeiro passo é entender a causa do sintoma, que pode exigir uma avaliação específica.</p>
 
 <h2>Ginkgo biloba melhora a memória?</h2>
@@ -43,8 +46,8 @@ NOTA_CHAT: 9,1
 <p>O ginkgo também não é um tratamento comprovado para insônia. Algumas pessoas podem relatar sensações diferentes durante o uso, mas isso não permite concluir que o suplemento seja sedativo ou melhore a qualidade do sono. Quem tem dificuldade persistente para dormir deve investigar hábitos, medicamentos e possíveis condições associadas.</p>
 <p>Uma alimentação variada ajuda a fornecer nutrientes sem depender de suplementos desnecessários. Veja também nosso guia sobre <a href="/proteina-mulheres-40/">proteína para mulheres depois dos 40</a> e avalie necessidades individuais antes de suplementar.</p>
 
-<h2>Como tomar ginkgo biloba com segurança?</h2>
-<p>Não existe uma dose única que sirva para todos os produtos ou objetivos. Estudos clínicos costumam utilizar extratos específicos e padronizados, que não podem ser comparados diretamente com pós, chás ou cápsulas de composição desconhecida.</p>
+<h2>Como avaliar o ginkgo biloba com segurança?</h2>
+<p>As apresentações comerciais variam, e estudos clínicos costumam utilizar extratos específicos e padronizados. Esses produtos não podem ser comparados diretamente com pós, chás ou cápsulas de composição desconhecida.</p>
 <p>Não copie a dose de outra pessoa nem aumente a quantidade por acreditar que terá um efeito mais rápido.</p>
 <p>Se um profissional considerar o uso apropriado, confira a identificação do fabricante, a composição, a concentração do extrato e as orientações do rótulo. Desconfie de produtos que prometem prevenir Alzheimer, curar zumbido ou garantir melhora da memória.</p>
 <p>Suplementos podem variar em qualidade e não devem ser tratados como medicamentos equivalentes entre marcas.</p>
@@ -69,4 +72,4 @@ NOTA_CHAT: 9,1
 
 <h2>Resumindo</h2>
 <p>Ginkgo biloba é um suplemento popular, mas as pesquisas não confirmam benefícios consistentes para memória em pessoas saudáveis nem para prevenir demência, doenças cardíacas ou AVC. Pode causar efeitos adversos e aumentar o risco de sangramento, principalmente com certos medicamentos. Não use sementes ou preparações caseiras da planta.</p>
-<p>Converse com um profissional de saúde antes de iniciar o produto, especialmente se você toma remédios ou tem uma condição crônica.</p>
+<p>Converse com um profissional de saúde antes de iniciar o produto, especialmente se você toma remédios ou tem uma condição crônica. Este conteúdo é informativo e não substitui a avaliação de um médico ou profissional de saúde.</p>
