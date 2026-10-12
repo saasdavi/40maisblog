@@ -7,8 +7,8 @@ FOTO1_SECAO: 2
 FOTO2_ALT: Dermatologista examinando a pele de uma pessoa em consulta
 FOTO2_SECAO: 5
 FONTE: Folliculitis | MedlinePlus Medical Encyclopedia | https://medlineplus.gov/ency/article/000823.htm
-FONTE: Acne-like breakouts could be folliculitis | American Academy of Dermatology | https://staging.aad.org/public/diseases/a-z/folliculitis
-FONTE: Hot tub folliculitis | MedlinePlus Medical Encyclopedia | https://medlineplus.gov/ency/article/001460.htm
+FONTE: Folliculitis: Diagnosis and treatment | Mayo Clinic | https://www.mayoclinic.org/diseases-conditions/folliculitis/diagnosis-treatment/drc-20361662
+FONTE: Folliculitis: Symptoms and causes | Mayo Clinic | https://www.mayoclinic.org/diseases-conditions/folliculitis/symptoms-causes/syc-20361634
 NOTA_CHAT: 9,1
 ---
 <p>Foliculite é a inflamação de um ou mais folículos pilosos, estruturas de onde nascem os pelos. Pode causar bolinhas vermelhas, coceira ou pequenas pústulas. O tratamento depende da causa, por isso nem toda lesão deve receber a mesma pomada.</p>
@@ -57,7 +57,7 @@ NOTA_CHAT: 9,1
 <p>Na barba, o barbear rente pode irritar os folículos e favorecer pelos encravados. Usar lâmina limpa, evitar esticar a pele e não raspar contra o sentido do crescimento podem ajudar algumas pessoas, embora a melhor técnica dependa do tipo de pelo e da pele.</p>
 <p>Nas axilas e na virilha, suor, depilação, roupas apertadas e atrito podem contribuir. Prefira tecidos confortáveis e evite depilar a área inflamada até que ela melhore.</p>
 <p>Lesões profundas e dolorosas que retornam na virilha ou nas axilas não devem ser consideradas automaticamente foliculite simples. Algumas condições, como hidradenite supurativa, podem produzir nódulos recorrentes e exigem avaliação específica.</p>
-<p>Se você também apresenta dor persistente nas costas ou desconfortos que limitam a rotina, consulte o conteúdo sobre <a href="/dores-lombares/">dores lombares</a>; sintomas diferentes devem ser avaliados conforme suas próprias características.</p>
+<p>A foliculite exige cuidados específicos e não deve ser tratada com suplementos. Para outros temas de saúde geral após os 40, consulte nosso guia sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a>.</p>
 
 <h2>Como prevenir novas crises?</h2>
 <p>A prevenção começa pela identificação dos hábitos ou ambientes que parecem desencadear as lesões. Nem toda medida funciona para todas as causas, mas alguns cuidados podem reduzir irritação e exposição a microrganismos.</p>
@@ -77,7 +77,7 @@ NOTA_CHAT: 9,1
 <p>Se as lesões piorarem, espalharem, voltarem repetidamente ou não melhorarem após alguns dias de cuidados, procure avaliação médica. Não continue testando produtos diferentes por semanas sem esclarecer a causa.</p>
 <p>Febre, vermelhidão que se expande rapidamente, dor intensa, inchaço importante ou acúmulo de pus podem indicar uma infecção mais profunda. Nesses casos, a avaliação deve ser rápida, especialmente em pessoas com imunidade comprometida ou diabetes.</p>
 <p>O diagnóstico pode ser feito pelo exame da pele. Em alguns casos, o profissional solicita coleta de material para identificar bactérias ou fungos e orientar melhor o tratamento.</p>
-<p>Para cuidados gerais com a pele e saúde, vale também conhecer o artigo sobre <a href="/vitamina-d/">vitamina D</a>, sem presumir que suplementos tratem lesões cutâneas: cada problema precisa de avaliação própria.</p>
+<p>Uma alimentação adequada faz parte do cuidado geral, mas não substitui o tratamento da pele. Veja também nosso conteúdo sobre <a href="/proteina-mulheres-40/">proteína para mulheres depois dos 40</a>, lembrando que a foliculite precisa ser avaliada conforme suas causas e gravidade.</p>
 
 <h2>Quando procurar um médico</h2>
 <p>Procure um dermatologista se a foliculite for extensa, recorrente, dolorosa, deixar cicatrizes ou causar queda de cabelo. Também busque atendimento se houver febre, vermelhidão em expansão, aumento do inchaço ou ausência de melhora após alguns dias.</p>
