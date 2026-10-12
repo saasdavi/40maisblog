@@ -61,6 +61,7 @@ NOTA_CHAT: 9,1
 <p>Pessoas que usam anticoagulantes ou antiagregantes, têm distúrbios hemorrágicos, apresentam epilepsia, usam vários medicamentos ou estão prestes a fazer cirurgia precisam de avaliação individual. O cuidado também vale para quem tem doenças crônicas ou pretende combinar o ginkgo com outros suplementos.</p>
 <p>O risco não depende apenas do nome da planta. Ele pode variar com a formulação, a concentração, a procedência e os outros produtos utilizados. Levar a embalagem à consulta ajuda a identificar os ingredientes e possíveis interações.</p>
 
+<p>Acompanhar o colesterol faz parte do cuidado cardiovascular; veja também nosso guia sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a>.</p>
 <h2>Quando procurar um médico</h2>
 <p>Procure atendimento urgente diante de sinais compatíveis com AVC, como fraqueza súbita em um lado do corpo, dificuldade para falar, perda repentina da visão ou desequilíbrio intenso. Sangramento incomum, fezes escuras, reação alérgica importante ou desmaio também precisam de avaliação rápida.</p>
 <p>Marque uma consulta se os esquecimentos aumentarem, se houver tontura recorrente, zumbido persistente ou se você estiver pensando em usar ginkgo junto com medicamentos. A avaliação pode identificar a causa do sintoma e evitar interações que poderiam ser prevenidas.</p>
