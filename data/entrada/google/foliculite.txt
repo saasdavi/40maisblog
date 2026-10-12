@@ -56,7 +56,7 @@ NOTA_CHAT: 9,1
 <p>No couro cabeludo, as lesões podem causar coceira, sensibilidade, crostas ou pequenas pústulas entre os cabelos. Se houver queda de cabelo em áreas inflamadas, dor ou recorrência, é importante procurar um dermatologista para investigar causas que podem deixar cicatrizes.</p>
 <p>Na barba, o barbear rente pode irritar os folículos e favorecer pelos encravados. Usar lâmina limpa, evitar esticar a pele e não raspar contra o sentido do crescimento podem ajudar algumas pessoas, embora a melhor técnica dependa do tipo de pelo e da pele.</p>
 <p>Nas axilas e na virilha, suor, depilação, roupas apertadas e atrito podem contribuir. Prefira tecidos confortáveis e evite depilar a área inflamada até que ela melhore.</p>
-<p>Lesões profundas e dolorosas que retornam na virilha ou nas axilas não devem ser consideradas automaticamente foliculite simples. Algumas condições, como hidradenite supurativa, podem produzir nódulos recorrentes e exigem avaliação específica.</p>
+<p>Lesões profundas e dolorosas que retornam na virilha ou nas axilas não devem ser consideradas automaticamente foliculite simples. Outras condições podem causar nódulos recorrentes e exigem avaliação específica.</p>
 <p>A foliculite exige cuidados específicos e não deve ser tratada com suplementos. Para outros temas de saúde geral após os 40, consulte nosso guia sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a>.</p>
 
 <h2>Como prevenir novas crises?</h2>
@@ -71,6 +71,7 @@ NOTA_CHAT: 9,1
 </ul>
 <p>Se a foliculite reaparece com frequência, registre quando surge, quais regiões são afetadas e quais produtos ou práticas antecederam as lesões. Essas informações ajudam o profissional a identificar padrões e escolher o tratamento.</p>
 <p>Manter a pele limpa não significa esfregar com força ou usar sabonetes agressivos. A limpeza excessiva pode irritar a barreira cutânea e piorar o desconforto.</p>
+<p>Uma alimentação equilibrada faz parte da saúde geral, mas não previne todas as causas de foliculite nem substitui os cuidados com a pele. Veja também nosso guia sobre <a href="/proteina-mulheres-40/">proteína para mulheres depois dos 40</a>.</p>
 
 <h2>Quanto tempo demora para melhorar?</h2>
 <p>O tempo de melhora varia conforme a causa, a extensão e a saúde da pessoa. Algumas lesões leves desaparecem em poucos dias após a retirada do fator irritante. Infecções mais intensas ou recorrentes podem precisar de tratamento específico.</p>
@@ -79,7 +80,7 @@ NOTA_CHAT: 9,1
 <p>O diagnóstico pode ser feito pelo exame da pele. Em alguns casos, o profissional solicita coleta de material para identificar bactérias ou fungos e orientar melhor o tratamento.</p>
 <p>Uma alimentação adequada faz parte do cuidado geral, mas não substitui o tratamento da pele. Veja também nosso conteúdo sobre <a href="/proteina-mulheres-40/">proteína para mulheres depois dos 40</a>, lembrando que a foliculite precisa ser avaliada conforme suas causas e gravidade.</p>
 
-<p>Uma alimentação adequada contribui para a saúde geral, mas não substitui o cuidado específico da pele; veja nosso guia sobre <a href="/proteina-mulheres-40/">proteína para mulheres depois dos 40</a>.</p>
+
 <h2>Quando procurar um médico</h2>
 <p>Procure um dermatologista se a foliculite for extensa, recorrente, dolorosa, deixar cicatrizes ou causar queda de cabelo. Também busque atendimento se houver febre, vermelhidão em expansão, aumento do inchaço ou ausência de melhora após alguns dias.</p>
 <p>Se você tem diabetes, imunidade reduzida ou utiliza medicamentos que afetam as defesas do organismo, não espere que uma infecção aparente ser grave antes de pedir orientação.</p>
