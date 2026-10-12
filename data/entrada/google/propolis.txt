@@ -55,6 +55,7 @@ NOTA_CHAT: 9,1
 <p>Pessoas com alergia conhecida a produtos apícolas ou que já tiveram reação à própolis devem evitar a exposição até receberem orientação profissional. Quem tem asma, alergias importantes ou pele muito sensível pode precisar de uma avaliação mais cuidadosa, especialmente antes de aplicar o produto na pele ou na boca.</p>
 <p>Gestantes, pessoas que amamentam, crianças e indivíduos com doenças crônicas devem conversar com um profissional antes de usar extratos concentrados. A segurança pode não estar bem estabelecida para todas as formulações e grupos. Se você toma medicamentos, informe quais são e peça orientação sobre possíveis interações ou ingredientes incompatíveis.</p>
 <p>Não substitua medicamentos prescritos por própolis e não interrompa antibióticos ou outros tratamentos por conta própria. A escolha do cuidado depende da causa do problema, da gravidade dos sintomas e das características individuais.</p>
+<p>Uma alimentação equilibrada contribui para a saúde geral, mas não previne alergias à própolis nem substitui avaliação médica. Para orientações sobre alimentação, consulte também nosso guia sobre <a href="/proteina-mulheres-40/">proteína para mulheres depois dos 40</a>.</p>
 <p>Quando houver dúvida, o profissional de saúde pode ajudar a decidir se o produto tem algum papel complementar razoável.</p>
 
 <h2>Como escolher um produto de própolis?</h2>
@@ -64,7 +65,7 @@ NOTA_CHAT: 9,1
 
 <p>Para conhecer outro tema de alimentação e saúde, confira nosso guia sobre <a href="/proteina-mulheres-40/">proteína para mulheres depois dos 40</a>. A necessidade de suplementação deve ser avaliada individualmente, e a própolis não substitui tratamentos indicados.</p>
 
-<p>Uma alimentação equilibrada contribui para a saúde geral, mas não substitui a avaliação de alergias ou o cuidado específico com sintomas; veja também nosso guia sobre <a href="/proteina-mulheres-40/">proteína para mulheres depois dos 40</a>.</p>
+
 <h2>Quando procurar um médico</h2>
 <p>Procure atendimento se houver febre persistente, dor forte, piora dos sintomas, dificuldade para engolir, lesões na boca que não cicatrizam ou sinais de infecção que se espalha. Procure emergência diante de falta de ar, inchaço de língua ou garganta, desmaio ou suspeita de reação alérgica grave.</p>
 <p>Se você tem aftas frequentes, irritação persistente ou sintomas que voltam repetidamente, vale investigar a causa. O tratamento pode depender de fatores como trauma local, medicamentos, deficiências nutricionais ou outras condições. A própolis não deve atrasar esse processo.</p>
