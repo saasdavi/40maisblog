@@ -6,9 +6,9 @@ FOTO1_ALT: Abelhas trabalhando em uma colmeia com favos de cera
 FOTO1_SECAO: 2
 FOTO2_ALT: Pessoa conferindo o rótulo de um frasco de extrato de própolis
 FOTO2_SECAO: 6
-FONTE: Produção e beneficiamento da própolis — Epagri | https://docweb.epagri.sc.gov.br/website_epagri/PRODUCAO-BENEFICIAMENTO-PROPOLIS.pdf
-FONTE: Efficacy and Safety of Propolis for Treating Recurrent Aphthous Stomatitis — PubMed | https://pubmed.ncbi.nlm.nih.gov/38248221/
-FONTE: Contact Allergy to Propolis: Update 2013-2025 — PubMed | https://pubmed.ncbi.nlm.nih.gov/41346028/
+FONTE: Produção e beneficiamento da própolis | Epagri | https://docweb.epagri.sc.gov.br/website_epagri/PRODUCAO-BENEFICIAMENTO-PROPOLIS.pdf
+FONTE: Efficacy and Safety of Propolis for Treating Recurrent Aphthous Stomatitis | PubMed | https://pubmed.ncbi.nlm.nih.gov/38248221/
+FONTE: Contact Allergy to Propolis: Update 2013-2025 | PubMed | https://pubmed.ncbi.nlm.nih.gov/41346028/
 NOTA_CHAT: 9,1
 ---
 <p>A própolis é uma substância resinosa que as abelhas produzem a partir de materiais vegetais. Extratos e sprays são vendidos para diferentes finalidades, mas as evidências variam conforme o uso. Ela pode causar alergias e não substitui tratamento médico.</p>
