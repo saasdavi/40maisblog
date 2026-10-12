@@ -1,0 +1,89 @@
+{
+ "palavra": "insulínica",
+ "data": "2026-10-12",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "https://portal.contagem.mg.gov.br/android7982/insu...",
+   "link": "https://portal.contagem.mg.gov.br/android7982/insulina%20alta%20%C3%A9%20diabetes.html",
+   "trecho": "",
+   "lida": false,
+   "motivo": "HTTP 404"
+  },
+  {
+   "posicao": 2,
+   "titulo": "La glucosa (azúcar) en sangre y la insulina en acción | American Diabetes Association",
+   "link": "https://diabetes.org/espanol/la-glucosa-y-la-insulina-en-accion",
+   "trecho": "Luego, la insulina ayuda a trasladar el azúcar (glucosa) de la sangre a las células. Cuando el azúcar (glucosa) ingresa a las células, se usa como combustible ...",
+   "lida": true,
+   "h2": [
+    "Breadcrumb",
+    "Los conceptos básicos de la hiperglucemia",
+    "Tipo 1",
+    "Tipo 2",
+    "Diabetes gestacional",
+    "Entonces, ¿qué afecta mis niveles de azúcar en sangre?",
+    "Sponsors"
+   ],
+   "palavras": 1380
+  },
+  {
+   "posicao": 3,
+   "titulo": "Resistência à insulina não depende só do açúcar e isso muda tudo no seu metabolismo, segundo estudo - UAI Notícias",
+   "link": "https://www.uai.com.br/diversao/2026/04/23/resistencia-a-insulina-nao-depende-so-do-acucar-e-isso-muda-tudo-no-seu-metabolismo-segundo-estudo/",
+   "trecho": "A resistência à insulina acontece quando as células do corpo deixam de responder corretamente ao hormônio responsável por controlar o açúcar no ...",
+   "lida": true,
+   "h2": [
+    "O que a ciência descobriu sobre a resistência à insulina",
+    "Como isso funciona na prática",
+    "Inflamação crônica: o que mais os pesquisadores encontraram",
+    "Por que essa descoberta importa para você",
+    "O que mais a ciência está investigando sobre inflamação e metabolismo",
+    "Anuncie no UAI",
+    "Entretenimento",
+    "Estado de Minas",
+    "No Ataque"
+   ],
+   "palavras": 1116
+  },
+  {
+   "posicao": 4,
+   "titulo": "Resistência à Insulina: O Que É?",
+   "link": "https://www.renatocariani.com.br/blog/saude/resistencia-a-insulina-o-que-e",
+   "trecho": "A resistência à insulina acontece quando as células do corpo começam a não responder mais à insulina da maneira correta. Imagine que antes ...",
+   "lida": true,
+   "h2": [
+    "TORNE-SE UM MEMBRO DO CANAL",
+    "ENTRE EM CONTATO",
+    "ME ACOMPANHE NAS REDES",
+    "O que é insulina e para que ela serve?",
+    "O que é Resistência à Insulina?",
+    "O que causa resistência à insulina?",
+    "Como saber se você tem resistência à insulina?",
+    "Como reverter a resistência à insulina?",
+    "Como saber se você está no caminho certo?",
+    "Se inscreva na newsletter",
+    "Outras postagens"
+   ],
+   "palavras": 1126
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "https://portal.contagem.mg.gov.br/android7982/insu...",
+   "link": "https://portal.contagem.mg.gov.br/android7982/insulina%20alta%20%C3%A9%20diabetes.html",
+   "lida": false,
+   "motivo": "HTTP 404"
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "Qual é o nível normal de insulina no sangue?",
+  "O que a diabetes ataca primeiro?",
+  "Quais são os 4 tipos de insulina?",
+  "O que é insuficiência insulínica?"
+ ],
+ "relacionadas": [],
+ "ai_overview": true
+}
