@@ -56,8 +56,7 @@ NOTA_CHAT: 9,0
 <p>A CoQ10 costuma ser bem tolerada em estudos, mas pode causar efeitos indesejados. Entre os relatados estão desconforto digestivo, náusea, alteração do apetite e dificuldade para dormir. A ausência de efeitos graves em estudos não garante risco zero para todas as pessoas.</p>
 <p>O risco também depende da dose, da qualidade do produto, das condições de saúde e de outros medicamentos. Suplementos podem ter concentrações diferentes, por isso é importante conferir o rótulo e evitar combinações sem orientação.</p>
 <p>Gestantes, pessoas que amamentam, quem fará cirurgia e pessoas em tratamento de doenças crônicas devem conversar com um profissional antes de usar o produto. A segurança em determinadas situações pode não estar suficientemente estabelecida.</p>
-<p>Pessoas com doença renal ou hepática grave também devem buscar orientação médica antes de iniciar a CoQ10 ou outro suplemento concentrado. Isso não significa que a substância seja necessariamente prejudicial nesses casos.</p>
-<p>A condição clínica, os tratamentos em curso e a disponibilidade limitada de dados específicos precisam ser considerados na avaliação individual.</p>
+<p>Pessoas com doenças crônicas devem buscar orientação antes de iniciar a CoQ10 ou outro suplemento concentrado. A decisão deve considerar a condição clínica, os tratamentos em curso e os dados disponíveis para cada situação.</p>
 <p>Quem tem hipertensão, diabetes ou outra condição crônica deve informar ao profissional todos os produtos que utiliza. Não ajuste medicamentos nem substitua o tratamento prescrito por um suplemento.</p>
 <p>Se surgirem sintomas depois do início do suplemento, registre quando começaram e informe o profissional que acompanha você. Em caso de reação intensa, dificuldade para respirar ou inchaço súbito, procure atendimento de emergência.</p>
 
