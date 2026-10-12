@@ -1,7 +1,7 @@
 {
  "resumo": {
-  "publicados": 32,
-  "prontosParaUsar": 173,
+  "publicados": 33,
+  "prontosParaUsar": 172,
   "pautasValidadasSemTexto": 17,
   "planejadasAValidar": 886,
   "vagas": 146,
@@ -395,15 +395,15 @@
    "palavraChave": "prisão de ventre",
    "cluster": "digestao",
    "volume": 33100,
-   "status": "pronto",
+   "status": "publicado",
    "palavras": 1912,
    "h2": 12,
    "imagens": 5,
    "fontes": 7,
    "auditoria": 100,
-   "publicadoEm": null,
+   "publicadoEm": "2026-10-12T15:30:38.349Z",
    "escritoEm": "2026-10-11T19:03:58.918Z",
-   "previstoPara": "2026-10-11",
+   "previstoPara": null,
    "pontesSugeridas": []
   },
   {

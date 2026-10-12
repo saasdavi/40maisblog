@@ -4,9 +4,9 @@ Fonte dos textos: `data/articles.json`. Atualizado por `node scripts/banco-conte
 
 | O que | Quantidade | Dias |
 |---|---|---|
-| **Pronto para usar** (a fila do robô; saem 2 por dia) | **173** | 86 |
+| **Pronto para usar** (a fila do robô; saem 2 por dia) | **172** | 86 |
 | Precisa de revisão (o robô não publica) | 42 | |
-| Publicado (no ar) | 32 | |
+| Publicado (no ar) | 33 | |
 | Pauta validada, falta escrever | 17 | 5 |
 | Planejado, falta validar no Google | 886 | 295 |
 | Vagas (sem tema levantado) | 146 | |
@@ -17,7 +17,6 @@ Dias de conteúdo já escrito + pauta validada: **91** (estoque a 2 por dia; pau
 
 | Artigo | Palavras | Auditoria | Previsto para |
 |---|---|---|---|
-| Prisão de Ventre: O Que Fazer e Causas | 1912 | 100 | 2026-10-11 |
 | Moscas Volantes: Quando São Normais | 1863 | 86 | 2026-10-12 |
 | Lanche Saudável: 12 Ideias Fáceis para Sua Tarde | 1511 | 91 | 2026-10-17 |
 | Cabelos Brancos: Causas, Cuidados e Tudo que Você Precisa Saber | 1820 | 87 | 2026-10-17 |
@@ -216,6 +215,7 @@ Dias de conteúdo já escrito + pauta validada: **91** (estoque a 2 por dia; pau
 | Ritmo Circadiano: Restaure o Sono Após 40 | 1552 | 90 | 2026-10-07 |
 | Andropausa: Sintomas, Idade e Como Lidar | 1268 | 100 | 2026-10-07 |
 | Barriga Inchada: Causas e Como Aliviar | 1192 | 88 | 2026-10-08 |
+| Prisão de Ventre: O Que Fazer e Causas | 1912 | 100 | 2026-10-12 |
 | Síndrome do Intestino Irritável: Controle Agora | 1870 | 94 | 2026-10-08 |
 | Glicemia normal: valores por idade e quando procurar ajuda | 1276 | 91 | 2026-10-08 |
 | Inchaço nas Pernas: Causas e Alívio Prático | 1997 | 100 | 2026-10-09 |

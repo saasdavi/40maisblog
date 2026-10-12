@@ -3375,7 +3375,7 @@
         ]
       },
       "volume": 33100,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T16:54:15.421Z",
       "featuredImage": "/images/prisao-de-ventre/prisao-de-ventre-capa.jpg",
       "imageAlt": "Pessoa apoiando as mãos na barriga com desconforto abdominal",
@@ -3424,7 +3424,7 @@
         "pexels:4220141"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-11T19:03:58.918Z",
       "scores": {
         "auditoria": 100,
@@ -3521,7 +3521,9 @@
         },
         "validadoEm": "2026-10-11T19:03:58.918Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "publishedAt": "2026-10-12T15:30:38.349Z",
+      "publicadoDoEstoqueEm": "2026-10-12T15:30:38.349Z"
     },
     {
       "id": "art_1791132978164_w139",
@@ -37739,6 +37741,6 @@
   ],
   "stats": {
     "total": 247,
-    "published": 32
+    "published": 33
   }
 }
