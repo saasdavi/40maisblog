@@ -5,6 +5,7 @@
 **Atualizado:** 2026-10-11 (bloco "Fluxo atual de artigos" abaixo; o resto do arquivo é de 2026-10-04)
 
 ## Fluxo atual de artigos (2026-10-11)
+- **Feed RSS (2026-10-12):** `src/pages/feed.xml.ts` gera `/feed.xml` (50 artigos publicados mais recentes); `/feed` vai para ele por `vercel.json`; a tag `alternate` está no `<head>` de todas as páginas (`SEO.astro`). Os links usam `SITE.url`, que ainda é `health-40-blog.vercel.app`: ao trocar para `40mais.blog` (`scripts/trocar-dominio.js`), o feed muda junto.
 - **Estoque e calendário:** `data/conteudo/CALENDARIO-ARTIGOS.md` (gerado por `node scripts/calendario-artigos.js`): publicados, prontos com data prevista (3/dia) e em revisão. O robô pula artigo com nota < 90 ou tema sensível sem `REVISADO: sim` (`robot.precisaRevisao`); a lista dos que faltam está em `data/conteudo/ABAIXO-DE-90.md`.
 - **Auditor:** `scripts/article-robot.js` `auditar` + `scripts/pontuacao.js`. A trava de palavras (cura, garantido, milagre) foi trocada por trava de **promessa** (`achaPromessas`).
 - **Artigos escritos pela IA do Google** (prompt unificado em `data/entrada/PROMPT-UNIFICADO.md`): colar a resposta inteira em `data/entrada/google/<nome>.txt` e rodar a Action "Importar artigos (sem API)". O conversor é `scripts/lib/entrada-google.js` (teste: `node scripts/test-entrada-google.mjs`). Reprovado volta com `<nome>.relatorio.md`; o que falhar é corrigido na conversa e reimportado.
