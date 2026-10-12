@@ -48,6 +48,7 @@ NOTA_CHAT: 9,0
 <p>Cansaço persistente pode estar relacionado a sono insuficiente, anemia, alterações da tireoide, efeitos de medicamentos, depressão, doenças crônicas ou outros fatores. Atribuir o sintoma automaticamente à falta de CoQ10 pode atrasar a identificação da causa.</p>
 <p>Se a fadiga interfere na rotina, vale conversar com um profissional de saúde antes de iniciar suplementos. A avaliação considera duração dos sintomas, alimentação, sono, atividade física, doenças conhecidas e medicamentos utilizados.</p>
 <p>O mesmo raciocínio vale para quem toma estatinas e sente dor muscular. A evidência disponível não demonstra benefício consistente da CoQ10 para esse problema. Não interrompa nem reduza o remédio por conta própria.</p>
+<p>Para acompanhar outro fator da saúde cardiovascular, consulte também nosso guia sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a>.</p>
 <p>Manter a força e a autonomia após os 40 também depende de atividade física regular, sono e alimentação adequada. Para acompanhar a saúde cardiovascular, veja nosso guia sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a>.</p>
 <p>Uma alimentação adequada também importa para a manutenção muscular. Confira o conteúdo sobre <a href="/proteina-mulheres-40/">proteína para mulheres depois dos 40</a>, sem presumir que um nutriente isolado resolva todos os problemas de saúde.</p>
 
@@ -74,7 +75,7 @@ NOTA_CHAT: 9,0
 <p>Evite combinar vários suplementos sem conferir os ingredientes repetidos. Essa prática pode dificultar a avaliação de efeitos indesejados e interações. Mais produtos não significam necessariamente mais benefícios, e uma consulta pode ajudar a esclarecer se existe uma indicação real.</p>
 <p>Uma consulta pode ajudar a esclarecer se existe uma indicação real, quais resultados são plausíveis e como avaliar a segurança. O objetivo não é usar o maior número de suplementos, mas tomar decisões que façam sentido para a saúde.</p>
 
-<p>Para acompanhar outro fator da saúde cardiovascular, consulte também nosso guia sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a>.</p>
+
 <h2>Quando procurar um médico</h2>
 <p>Procure avaliação se o cansaço for persistente, vier acompanhado de falta de ar, palpitações, perda de peso inexplicada ou queda importante da capacidade de realizar tarefas. Esses sinais podem ter causas que precisam ser investigadas.</p>
 <p>Converse com o profissional antes de usar CoQ10 se toma anticoagulantes, medicamentos para diabetes ou está em tratamento oncológico. Leve as embalagens ou fotos dos rótulos para facilitar a avaliação.</p>
