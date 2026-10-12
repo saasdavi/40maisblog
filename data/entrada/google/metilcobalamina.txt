@@ -65,7 +65,7 @@ NOTA_CHAT: 9,2
 <p>Uma alimentação variada pode contribuir para atender às necessidades, mas não resolve todas as causas de deficiência. Pessoas com problemas de absorção podem precisar de tratamento mesmo quando consomem alimentos que contêm a vitamina.</p>
 <p>Quem segue alimentação vegana precisa planejar fontes confiáveis de B12, geralmente por meio de alimentos fortificados e/ou suplementação orientada. Algas, fermentados ou produtos vegetais não fortificados não devem ser considerados fontes confiáveis sem evidência de conteúdo biodisponível.</p>
 <p>O objetivo é garantir uma fonte adequada e consistente, não escolher uma forma de suplemento pela promessa de ser mais natural. A decisão deve levar em conta a dieta, o histórico e a necessidade individual.</p>
-<p>Para mais orientações sobre cuidados gerais após os 40, consulte também o conteúdo sobre <a href="/vitamina-d/">vitamina D</a> e converse com um profissional sobre quais exames fazem sentido para você.</p>
+<p>Para mais orientações sobre cuidados gerais após os 40, consulte também o conteúdo sobre <a href="/vitamina-d/">vitamina D</a> e converse com um profissional sobre quais exames fazem sentido para você. Se dores nas costas também limitam sua rotina, leia o guia sobre <a href="/dores-lombares/">dores lombares</a>, sem presumir que todos os sintomas tenham a mesma causa.</p>
 
 <h2>Quando procurar um médico</h2>
 <p>Procure avaliação se houver formigamento persistente, perda de sensibilidade, dificuldade de equilíbrio, fraqueza importante, palidez ou cansaço que não melhora. Esses sintomas podem indicar deficiência de B12 ou outras condições que precisam de investigação.</p>
