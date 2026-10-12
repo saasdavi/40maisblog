@@ -34,11 +34,12 @@ NOTA_CHAT: 9,0
 <p>Quem tem dores de cabeça recorrentes deve conversar com um profissional de saúde para avaliar o diagnóstico e as opções de prevenção. A escolha depende do padrão das crises, de outros problemas de saúde, de medicamentos utilizados e da resposta aos tratamentos anteriores.</p>
 <p>Não comece um suplemento apenas porque uma pesquisa apresentou um resultado promissor. Uma possibilidade observada em estudos não significa que o efeito esteja garantido em cada pessoa nem que o produto seja adequado para todos.</p>
 
-<h2>É possível obter coenzima Q10 pela alimentação?</h2>
-<p>A alimentação fornece diferentes nutrientes, enquanto o próprio organismo produz coenzima Q10. Isso não significa que uma dieta específica ou um suplemento isolado garantam proteção contra doenças. As necessidades alimentares devem ser avaliadas no conjunto da rotina e das condições de saúde.</p>
-<p>Não existe um cardápio que tenha sido demonstrado como forma de prevenir doenças por meio da CoQ10. Para cuidar da saúde a longo prazo, priorize uma alimentação variada e compatível com suas necessidades, além de atividade física, sono adequado e acompanhamento preventivo.</p>
-<p>Se a preocupação for colesterol, a avaliação precisa considerar exames e fatores de risco individuais. Veja também nosso guia sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a>, que explica medidas de cuidado e a importância do acompanhamento.</p>
-<p>Não use cansaço ou queda de disposição como prova de que a alimentação fornece pouca CoQ10. Esses sintomas podem estar relacionados a sono insuficiente, anemia, alterações da tireoide, efeitos de medicamentos ou outras condições que merecem avaliação.</p>
+<h2>A coenzima Q10 previne doenças?</h2>
+<p>Não há base suficiente para afirmar que a CoQ10 previna doenças em pessoas saudáveis ou substitua medidas preventivas recomendadas. O NCCIH informa que há poucos estudos sobre prevenção de doenças cardíacas e que os resultados são inconclusivos.</p>
+<p>A mesma instituição relata que o conjunto das evidências não sustenta benefício consistente para dores musculares associadas às estatinas. Também descreve resultados sem benefício claro para sintomas da doença de Parkinson. Esses achados não devem ser ampliados para indicações que não foram testadas.</p>
+<p>Um resultado observado numa condição não demonstra que o suplemento funcione para outras. Estudos pequenos ou preliminares podem ajudar a formular perguntas, mas não bastam para garantir prevenção ou recomendar uso geral.</p>
+<p>Para cuidar do risco cardiovascular, converse com um profissional sobre exames, histórico familiar, pressão arterial, alimentação, atividade física e tratamentos indicados para o seu caso. Veja também o guia sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a>, que explica medidas de acompanhamento.</p>
+<p>A CoQ10 não deve substituir tratamento prescrito nem medidas preventivas recomendadas para a sua condição de saúde.</p>
 
 <h2>Coenzima Q10 depois dos 40: vale a pena?</h2>
 <p>A idade, sozinha, não é uma indicação para começar a tomar CoQ10. Mesmo quando uma substância participa de processos celulares, isso não permite concluir que toda pessoa mais velha se beneficie de uma quantidade adicional.</p>
