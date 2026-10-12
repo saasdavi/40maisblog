@@ -72,4 +72,4 @@ NOTA_CHAT: 9,1
 
 <h2>Resumindo</h2>
 <p>A própolis é uma substância produzida pelas abelhas a partir de resinas vegetais e vendida em diferentes apresentações. Algumas pesquisas investigam usos específicos, mas a evidência ainda é limitada para muitas alegações populares. A composição varia entre produtos e existe risco de alergia, irritação e reações graves em pessoas sensíveis.</p>
-<p>Siga o rótulo, não substitua tratamentos prescritos e converse com um profissional antes de usar extratos concentrados, sobretudo se tiver alergias, doenças crônicas ou tomar medicamentos.</p>
+<p>Siga o rótulo, não substitua tratamentos prescritos e converse com um profissional antes de usar extratos concentrados, sobretudo se tiver alergias, doenças crônicas ou tomar medicamentos. Este conteúdo é informativo e não substitui a avaliação de um médico ou profissional de saúde.</p>
