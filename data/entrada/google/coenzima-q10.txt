@@ -10,7 +10,7 @@ FOTO2_ID:
 FONTE: Coenzyme Q10 | National Center for Complementary and Integrative Health | https://www.nccih.nih.gov/health/coenzyme-q10
 FONTE: Headaches and Complementary Health Approaches: What the Science Says | National Center for Complementary and Integrative Health | https://www.nccih.nih.gov/health/providers/digest/headaches-and-complementary-health-approaches-science
 FONTE: Como saber se um suplemento alimentar é autorizado? | Anvisa | https://www.gov.br/anvisa/pt-br/assuntos/alimentos/suplementos-alimentares/como-saber-se-um-suplemento-alimentar-e-autorizado
-NOTA_CHAT: 9,0
+NOTA_CHAT: 9,4
 ---
 <p>A coenzima Q10 é uma substância presente naturalmente no organismo e relacionada a funções importantes das células. Ela também é vendida como suplemento. As pesquisas investigam usos específicos, mas não comprovam todos os benefícios divulgados e não justificam substituir tratamentos prescritos.</p>
 
