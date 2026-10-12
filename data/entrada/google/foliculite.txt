@@ -1,0 +1,88 @@
+PALAVRA_CHAVE: foliculite
+TITLE: Foliculite: Causas, Tratamento e Prevenção
+DESCRIPTION: Entenda o que é foliculite, por que surgem bolinhas e pústulas na pele, quais cuidados podem ajudar e quando procurar um dermatologista.
+CAPA_ALT: Pele do braço em close com foco em cuidados dermatológicos
+FOTO1_ALT: Pessoa higienizando suavemente a pele durante a rotina de cuidados
+FOTO1_SECAO: 2
+FOTO2_ALT: Dermatologista examinando a pele de uma pessoa em consulta
+FOTO2_SECAO: 5
+FONTE: Folliculitis — MedlinePlus Medical Encyclopedia | https://medlineplus.gov/ency/article/000823.htm
+FONTE: Acne-like breakouts could be folliculitis — American Academy of Dermatology | https://staging.aad.org/public/diseases/a-z/folliculitis
+FONTE: Hot tub folliculitis — MedlinePlus Medical Encyclopedia | https://medlineplus.gov/ency/article/001460.htm
+NOTA_CHAT: 9,1
+---
+<p>Foliculite é a inflamação de um ou mais folículos pilosos, estruturas de onde nascem os pelos. Pode causar bolinhas vermelhas, coceira ou pequenas pústulas. O tratamento depende da causa, por isso nem toda lesão deve receber a mesma pomada.</p>
+
+<h2>O que é foliculite e como ela aparece?</h2>
+<p>Os folículos pilosos são pequenas estruturas da pele que envolvem a raiz dos pelos. Quando ficam irritados, lesionados ou infectados, podem surgir sinais de foliculite.</p>
+<p>As lesões costumam parecer pequenas espinhas, às vezes com uma ponta branca ou amarelada. Podem causar coceira, sensibilidade ou desconforto, e aparecem em diferentes regiões do corpo, incluindo couro cabeludo, barba, axilas, nádegas, coxas e virilha.</p>
+<p>A aparência varia conforme a causa e a profundidade da inflamação. Algumas situações são leves e melhoram com cuidados simples; outras precisam de avaliação e tratamento específico.</p>
+<p>Foliculite não é sinônimo de acne. As duas condições podem se parecer, mas têm causas e tratamentos diferentes. Também pode ser confundida com pelos encravados, dermatite ou outras infecções da pele.</p>
+
+<h2>Quais são as causas da foliculite?</h2>
+<p>A foliculite pode começar quando o folículo é danificado ou bloqueado. O atrito da roupa, o barbear muito rente, a depilação e a fricção repetida podem irritar a região e facilitar o surgimento das lesões.</p>
+<p>Em alguns casos, há infecção por bactérias, especialmente quando a barreira da pele foi danificada. Outras formas estão relacionadas a fungos ou a microrganismos presentes em ambientes aquáticos mal higienizados.</p>
+<p>Os fatores que podem contribuir incluem:</p>
+<ul>
+<li><strong>Barbear ou depilar:</strong> o pelo pode crescer para dentro da pele ou o folículo pode ficar irritado.</li>
+<li><strong>Suor, calor e atrito:</strong> roupas apertadas e equipamentos que roçam na pele podem favorecer a inflamação.</li>
+<li><strong>Higiene e objetos compartilhados:</strong> toalhas, roupas ou lâminas contaminadas podem contribuir para a transmissão de microrganismos.</li>
+<li><strong>Banheiras e piscinas mal cuidadas:</strong> certos tipos de foliculite estão associados a água contaminada.</li>
+<li><strong>Medicamentos ou condições de saúde:</strong> alguns fatores podem aumentar a probabilidade de lesões ou dificultar a recuperação.</li>
+</ul>
+<p>Identificar o fator desencadeante ajuda a prevenir recorrências. No entanto, a causa não pode ser definida com segurança apenas pela aparência de uma fotografia ou por uma descrição breve.</p>
+
+<h2>Foliculite é contagiosa?</h2>
+<p>Nem toda foliculite é contagiosa. Quando está relacionada principalmente à irritação por atrito, barbear ou pelo encravado, não significa necessariamente que outra pessoa vá desenvolver a condição por contato.</p>
+<p>Algumas formas infecciosas podem envolver bactérias ou outros microrganismos que se espalham por contato com objetos contaminados ou ambientes específicos. O risco depende do agente envolvido e das condições de exposição.</p>
+<p>Enquanto houver lesões, evite compartilhar lâminas, toalhas e roupas que tenham contato direto com a área afetada. Lave os itens usados e mantenha a região limpa, sem esfregar agressivamente.</p>
+<p>Se várias pessoas apresentarem lesões após utilizar a mesma banheira de hidromassagem ou piscina, interrompa a exposição e procure orientação. Pode ser necessário avaliar a qualidade da água e investigar a causa.</p>
+
+<h2>Como tratar a foliculite em casa com segurança?</h2>
+<p>Casos leves podem melhorar quando o fator irritante é interrompido e a pele recebe cuidados suaves. Compressas mornas e úmidas podem aliviar o desconforto e ajudar algumas lesões a drenar naturalmente.</p>
+<p>Use a compressa com um pano limpo, sem apertar ou esfregar as bolinhas. Evite reutilizar o mesmo pano sem lavagem e não compartilhe toalhas com outras pessoas.</p>
+<p>Durante a recuperação, prefira roupas confortáveis e reduza o atrito na região. Se o barbear parece desencadear as lesões, faça uma pausa quando possível ou converse com um profissional sobre alternativas.</p>
+<p>Não esprema as pústulas, não perfure a pele e não tente retirar o pelo com objetos pontiagudos. Essas práticas podem piorar a inflamação, causar feridas e aumentar o risco de infecção ou cicatrizes.</p>
+<p>Evite também aplicar álcool, receitas caseiras irritantes ou vários produtos ao mesmo tempo. Uma rotina simples costuma ser mais segura até que a causa esteja clara.</p>
+
+<h2>Qual pomada é indicada para foliculite?</h2>
+<p>Não existe uma única pomada indicada para todos os casos. O tratamento depende de a inflamação estar relacionada a bactérias, fungos, irritação, pelos encravados ou outra condição com aparência semelhante.</p>
+<p>Quando há infecção bacteriana, um profissional pode indicar medicamento tópico ou, em situações específicas, tratamento por via oral. Se a causa for fúngica, o tratamento pode ser diferente. Usar o produto errado pode não resolver o problema e atrasar o diagnóstico.</p>
+<p>Pomadas antibióticas não devem ser usadas por conta própria ou reaproveitadas de tratamentos anteriores. O uso desnecessário pode provocar irritação, reações alérgicas e contribuir para a resistência aos antimicrobianos.</p>
+<p>Produtos com corticoides também não são adequados para qualquer lesão que pareça uma espinha. Dependendo da causa, podem mascarar sinais ou agravar determinadas infecções. Por isso, a escolha precisa considerar o diagnóstico.</p>
+<p>Se a lesão está na virilha, no rosto ou no couro cabeludo, evite testar medicamentos recomendados para outra região. A pele, os fatores desencadeantes e as possibilidades de tratamento podem ser diferentes.</p>
+
+<h2>Foliculite no couro cabeludo, barba, axila e virilha</h2>
+<p>No couro cabeludo, as lesões podem causar coceira, sensibilidade, crostas ou pequenas pústulas entre os cabelos. Se houver queda de cabelo em áreas inflamadas, dor ou recorrência, é importante procurar um dermatologista para investigar causas que podem deixar cicatrizes.</p>
+<p>Na barba, o barbear rente pode irritar os folículos e favorecer pelos encravados. Usar lâmina limpa, evitar esticar a pele e não raspar contra o sentido do crescimento podem ajudar algumas pessoas, embora a melhor técnica dependa do tipo de pelo e da pele.</p>
+<p>Nas axilas e na virilha, suor, depilação, roupas apertadas e atrito podem contribuir. Prefira tecidos confortáveis e evite depilar a área inflamada até que ela melhore.</p>
+<p>Lesões profundas e dolorosas que retornam na virilha ou nas axilas não devem ser consideradas automaticamente foliculite simples. Algumas condições, como hidradenite supurativa, podem produzir nódulos recorrentes e exigem avaliação específica.</p>
+<p>Se você também apresenta dor persistente nas costas ou desconfortos que limitam a rotina, consulte o conteúdo sobre <a href="/dores-lombares/">dores lombares</a>; sintomas diferentes devem ser avaliados conforme suas próprias características.</p>
+
+<h2>Como prevenir novas crises?</h2>
+<p>A prevenção começa pela identificação dos hábitos ou ambientes que parecem desencadear as lesões. Nem toda medida funciona para todas as causas, mas alguns cuidados podem reduzir irritação e exposição a microrganismos.</p>
+<ul>
+<li>Use lâminas limpas e evite compartilhar aparelhos de barbear ou depilação.</li>
+<li>Reduza roupas muito apertadas e o atrito repetido sobre a região.</li>
+<li>Tome banho após atividades que provoquem suor intenso e troque roupas úmidas.</li>
+<li>Não compartilhe toalhas, roupas ou acessórios que encostem diretamente na pele.</li>
+<li>Limpe e mantenha adequadamente piscinas e banheiras de hidromassagem.</li>
+<li>Evite espremer as lesões ou aplicar produtos agressivos sem orientação.</li>
+</ul>
+<p>Se a foliculite reaparece com frequência, registre quando surge, quais regiões são afetadas e quais produtos ou práticas antecederam as lesões. Essas informações ajudam o profissional a identificar padrões e escolher o tratamento.</p>
+<p>Manter a pele limpa não significa esfregar com força ou usar sabonetes agressivos. A limpeza excessiva pode irritar a barreira cutânea e piorar o desconforto.</p>
+
+<h2>Quanto tempo demora para melhorar?</h2>
+<p>O tempo de melhora varia conforme a causa, a extensão e a saúde da pessoa. Algumas lesões leves desaparecem em poucos dias após a retirada do fator irritante. Infecções mais intensas ou recorrentes podem precisar de tratamento específico.</p>
+<p>Se as lesões piorarem, espalharem, voltarem repetidamente ou não melhorarem após alguns dias de cuidados, procure avaliação médica. Não continue testando produtos diferentes por semanas sem esclarecer a causa.</p>
+<p>Febre, vermelhidão que se expande rapidamente, dor intensa, inchaço importante ou acúmulo de pus podem indicar uma infecção mais profunda. Nesses casos, a avaliação deve ser rápida, especialmente em pessoas com imunidade comprometida ou diabetes.</p>
+<p>O diagnóstico pode ser feito pelo exame da pele. Em alguns casos, o profissional solicita coleta de material para identificar bactérias ou fungos e orientar melhor o tratamento.</p>
+<p>Para cuidados gerais com a pele e saúde, vale também conhecer o artigo sobre <a href="/vitamina-d/">vitamina D</a>, sem presumir que suplementos tratem lesões cutâneas: cada problema precisa de avaliação própria.</p>
+
+<h2>Quando procurar um médico</h2>
+<p>Procure um dermatologista se a foliculite for extensa, recorrente, dolorosa, deixar cicatrizes ou causar queda de cabelo. Também busque atendimento se houver febre, vermelhidão em expansão, aumento do inchaço ou ausência de melhora após alguns dias.</p>
+<p>Se você tem diabetes, imunidade reduzida ou utiliza medicamentos que afetam as defesas do organismo, não espere que uma infecção aparente ser grave antes de pedir orientação.</p>
+
+<h2>Resumindo</h2>
+<p>A foliculite é uma inflamação dos folículos pilosos que pode ser causada por irritação, pelos encravados, bactérias, fungos ou exposição a água contaminada. A aparência das lesões não revela sempre a causa exata.</p>
+<p>Cuidados suaves, compressas mornas e redução do atrito podem ajudar em casos leves, mas pomadas e antibióticos devem ser escolhidos conforme a causa. Lesões persistentes, recorrentes ou acompanhadas de sinais de infecção precisam de avaliação profissional.</p>
