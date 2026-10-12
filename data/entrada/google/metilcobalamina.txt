@@ -6,9 +6,9 @@ FOTO1_ALT: Pessoa realizando exame de sangue para investigar os níveis de vitam
 FOTO1_SECAO: 3
 FOTO2_ALT: Profissional de saúde orientando uma pessoa sobre suplementos
 FOTO2_SECAO: 5
-FONTE: Vitamin B12 — NIH Office of Dietary Supplements, profissionais de saúde | https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/
-FONTE: Vitamin B12 — NIH Office of Dietary Supplements, consumidores | https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/
-FONTE: Metformin and Vitamin B12 Deficiency — NIDDK | https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/metformin-vitamin-b12-deficiency
+FONTE: Vitamin B12 | NIH Office of Dietary Supplements, profissionais de saúde | https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/
+FONTE: Vitamin B12 | NIH Office of Dietary Supplements, consumidores | https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/
+FONTE: Metformin and Vitamin B12 Deficiency | NIDDK | https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/metformin-vitamin-b12-deficiency
 NOTA_CHAT: 9,2
 ---
 <p>A metilcobalamina é uma forma da vitamina B12, nutriente necessário para o funcionamento do sistema nervoso, a formação de células sanguíneas e a produção de DNA. A suplementação pode ser útil em casos específicos, mas nem toda pessoa precisa tomar B12.</p>
