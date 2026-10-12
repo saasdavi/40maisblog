@@ -5,37 +5,37 @@
 
   <url>
     <loc>https://health-40-blog.vercel.app/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://health-40-blog.vercel.app/artigos/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://health-40-blog.vercel.app/sobre</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://health-40-blog.vercel.app/contato</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://health-40-blog.vercel.app/politica-privacidade</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://health-40-blog.vercel.app/termos-uso</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -202,6 +202,17 @@
       <image:loc>/images/varizes/varizes-capa.jpg</image:loc>
       <image:title>Varizes nas Pernas: Guia Completo para Tratar</image:title>
       <image:caption>Varizes nas pernas: saiba diferenciar de vasinhos, sintomas reais, causas e tratamentos modernos. Guia prático para mulheres 40+.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://health-40-blog.vercel.app/dor-nas-costas</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>/images/dor-nas-costas/dor-nas-costas-capa.jpg</image:loc>
+      <image:title>Dor nas Costas: Causas e Sinais de Alerta</image:title>
+      <image:caption>Dor nas costas: veja as causas mais comuns, como diferenciar dor muscular de problema nos rins, os sinais que pedem médico e o que ajuda no alívio.</image:caption>
     </image:image>
   </url>
   <url>

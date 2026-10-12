@@ -4,20 +4,19 @@ Fonte dos textos: `data/articles.json`. Atualizado por `node scripts/banco-conte
 
 | O que | Quantidade | Dias |
 |---|---|---|
-| **Pronto para usar** (a fila do robô; saem 2 por dia) | **171** | 85 |
+| **Pronto para usar** (a fila do robô; saem 2 por dia) | **173** | 86 |
 | Precisa de revisão (o robô não publica) | 42 | |
-| Publicado (no ar) | 31 | |
+| Publicado (no ar) | 32 | |
 | Pauta validada, falta escrever | 17 | 5 |
 | Planejado, falta validar no Google | 886 | 295 |
 | Vagas (sem tema levantado) | 146 | |
 
-Dias de conteúdo já escrito + pauta validada: **90** (estoque a 2 por dia; pauta validada, 1 por dia).
+Dias de conteúdo já escrito + pauta validada: **91** (estoque a 2 por dia; pauta validada, 1 por dia).
 
 ## Prontos para usar
 
 | Artigo | Palavras | Auditoria | Previsto para |
 |---|---|---|---|
-| Dor nas Costas: Causas e Sinais de Alerta | 1608 | 100 | 2026-10-08 |
 | Prisão de Ventre: O Que Fazer e Causas | 1912 | 100 | 2026-10-11 |
 | Moscas Volantes: Quando São Normais | 1863 | 86 | 2026-10-12 |
 | Lanche Saudável: 12 Ideias Fáceis para Sua Tarde | 1511 | 91 | 2026-10-17 |
@@ -188,6 +187,9 @@ Dias de conteúdo já escrito + pauta validada: **90** (estoque a 2 por dia; pau
 | Albumina em pó: como usar e evitar gases | 1734 | 100 | - |
 | Bebidas Ambev: portfólio e tabela nutricional | 1861 | 100 | - |
 | Colágeno Verisol: para que serve e dosagem | 2281 | 100 | - |
+| Foliculite: causas, cuidados e prevenção | 1533 | 100 | - |
+| Ginkgo biloba: para que serve e cuidados | 1441 | 100 | - |
+| Metilcobalamina: para que serve e cuidados | 1590 | 100 | - |
 
 ## Publicados
 
@@ -208,6 +210,7 @@ Dias de conteúdo já escrito + pauta validada: **90** (estoque a 2 por dia; pau
 | Cortisol Alto: Como Controlar o Hormônio do Estresse | 1503 | 93 | 2026-10-05 |
 | Azia: Causas, Alívio e Quando Procurar Médico | 1171 | 88 | 2026-10-06 |
 | Varizes nas Pernas: Guia Completo para Tratar | 1685 | 98 | 2026-10-06 |
+| Dor nas Costas: Causas e Sinais de Alerta | 1608 | 100 | 2026-10-12 |
 | Alimentos Ricos em Fibras: Guia Prático 40+ | 1735 | 92 | 2026-10-06 |
 | Insônia: Causas, Tipos e Como Resolver | 1346 | 92 | 2026-10-07 |
 | Ritmo Circadiano: Restaure o Sono Após 40 | 1552 | 90 | 2026-10-07 |

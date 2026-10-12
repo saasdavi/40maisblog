@@ -2097,7 +2097,7 @@
         ]
       },
       "volume": 49500,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T16:45:09.173Z",
       "featuredImage": "/images/dor-nas-costas/dor-nas-costas-capa.jpg",
       "imageAlt": "Pessoa apoiando as mãos na região lombar sentindo dor nas costas",
@@ -2146,7 +2146,7 @@
         "pexels:8769174"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-11T19:03:54.976Z",
       "scores": {
         "auditoria": 100,
@@ -2276,7 +2276,9 @@
         },
         "validadoEm": "2026-10-11T19:03:54.976Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "publishedAt": "2026-10-12T11:02:57.072Z",
+      "publicadoDoEstoqueEm": "2026-10-12T11:02:57.072Z"
     },
     {
       "id": "art_1791132352234_v6hb",
@@ -37291,10 +37293,452 @@
       "altConferido": false,
       "escritoPor": "claude",
       "publishedAt": "2026-10-11T03:02:29.892Z"
+    },
+    {
+      "id": "art_1791802972408_6tn0",
+      "title": "Foliculite: causas, cuidados e prevenção",
+      "slug": "foliculite",
+      "primaryKeyword": "foliculite",
+      "cluster": null,
+      "pilar": null,
+      "papel": null,
+      "description": "Saiba o que causa foliculite, como reconhecer lesões, quais cuidados podem ajudar, quando pomadas são necessárias e quais sinais exigem avaliação médica.",
+      "excerpt": "Saiba o que causa foliculite, como reconhecer lesões, quais cuidados podem ajudar, quando pomadas são necessárias e quais sinais exigem avaliação médica.",
+      "content": "<p>Foliculite é a inflamação de um ou mais folículos pilosos, estruturas de onde nascem os pelos. Pode causar bolinhas vermelhas, coceira ou pequenas pústulas. O tratamento depende da causa, por isso nem toda lesão deve receber a mesma pomada.</p>\n<h2>O que é foliculite e como ela aparece?</h2>\n<p>Os folículos pilosos são pequenas estruturas da pele que envolvem a raiz dos pelos. Quando ficam irritados, lesionados ou infectados, podem surgir sinais de foliculite.</p>\n<p>As lesões costumam parecer pequenas espinhas, às vezes com uma ponta branca ou amarelada. Podem causar coceira, sensibilidade ou desconforto, e aparecem em diferentes regiões do corpo, incluindo couro cabeludo, barba, axilas, nádegas, coxas e virilha.</p>\n<p>A aparência varia conforme a causa e a profundidade da inflamação. Algumas situações são leves e melhoram com cuidados simples; outras precisam de avaliação e tratamento específico.</p>\n<p>Foliculite não é sinônimo de acne. As duas condições podem se parecer, mas têm causas e tratamentos diferentes. Também pode ser confundida com pelos encravados, dermatite ou outras infecções da pele.</p>\n<h2>Quais são as causas da foliculite?</h2>\n<p>A foliculite pode começar quando o folículo é danificado ou bloqueado. O atrito da roupa, o barbear muito rente, a depilação e a fricção repetida podem irritar a região e facilitar o surgimento das lesões.</p>\n<p>Em alguns casos, há infecção por bactérias, especialmente quando a barreira da pele foi danificada. Outras formas estão relacionadas a fungos ou a microrganismos presentes em ambientes aquáticos mal higienizados.</p>\n<p>Os fatores que podem contribuir incluem:</p>\n<ul>\n<li><strong>Barbear ou depilar:</strong> o pelo pode crescer para dentro da pele ou o folículo pode ficar irritado.</li>\n<li><strong>Suor, calor e atrito:</strong> roupas apertadas e equipamentos que roçam na pele podem favorecer a inflamação.</li>\n<li><strong>Higiene e objetos compartilhados:</strong> toalhas, roupas ou lâminas contaminadas podem contribuir para a transmissão de microrganismos.</li>\n<li><strong>Banheiras e piscinas mal cuidadas:</strong> certos tipos de foliculite estão associados a água contaminada.</li>\n<li><strong>Medicamentos ou condições de saúde:</strong> alguns fatores podem aumentar a probabilidade de lesões ou dificultar a recuperação.</li>\n</ul>\n<p>Identificar o fator desencadeante ajuda a prevenir recorrências. No entanto, a causa não pode ser definida com segurança apenas pela aparência de uma fotografia ou por uma descrição breve.</p>\n<figure class=\"article-figure\"><img src=\"/images/foliculite/pessoa-higienizando-suavemente-a-pele-durante-a-rotina-de-cu.jpg\" alt=\"Pessoa higienizando suavemente a pele durante a rotina de cuidados\" width=\"940\" height=\"627\" loading=\"lazy\" /><figcaption>Pessoa higienizando suavemente a pele durante a rotina de cuidados <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/a-person-s-skin-in-close-up-view-4046562/\" rel=\"noopener nofollow\" target=\"_blank\">https://kaboompics.com/</a> / Pexels</span></figcaption></figure>\n<h2>Foliculite é contagiosa?</h2>\n<p>Nem toda foliculite é contagiosa. Quando está relacionada principalmente à irritação por atrito, barbear ou pelo encravado, não significa necessariamente que outra pessoa vá desenvolver a condição por contato.</p>\n<p>Algumas formas infecciosas podem envolver bactérias ou outros microrganismos que se espalham por contato com objetos contaminados ou ambientes específicos. O risco depende do agente envolvido e das condições de exposição.</p>\n<p>Enquanto houver lesões, evite compartilhar lâminas, toalhas e roupas que tenham contato direto com a área afetada. Lave os itens usados e mantenha a região limpa, sem esfregar agressivamente.</p>\n<p>Se várias pessoas apresentarem lesões após utilizar a mesma banheira de hidromassagem ou piscina, interrompa a exposição e procure orientação. Pode ser necessário avaliar a qualidade da água e investigar a causa.</p>\n<h2>Como tratar a foliculite em casa com segurança?</h2>\n<p>Casos leves podem melhorar quando o fator irritante é interrompido e a pele recebe cuidados suaves. Compressas mornas e úmidas podem aliviar o desconforto e ajudar algumas lesões a drenar naturalmente.</p>\n<p>Use a compressa com um pano limpo, sem apertar ou esfregar as bolinhas. Evite reutilizar o mesmo pano sem lavagem e não compartilhe toalhas com outras pessoas.</p>\n<p>Durante a recuperação, prefira roupas confortáveis e reduza o atrito na região. Se o barbear parece desencadear as lesões, faça uma pausa quando possível ou converse com um profissional sobre alternativas.</p>\n<p>Não esprema as pústulas, não perfure a pele e não tente retirar o pelo com objetos pontiagudos. Essas práticas podem piorar a inflamação, causar feridas e aumentar o risco de infecção ou cicatrizes.</p>\n<p>Evite também aplicar álcool, receitas caseiras irritantes ou vários produtos ao mesmo tempo. Uma rotina simples costuma ser mais segura até que a causa esteja clara.</p>\n<h2>Qual pomada é indicada para foliculite?</h2>\n<p>Não existe uma única pomada indicada para todos os casos. O tratamento depende de a inflamação estar relacionada a bactérias, fungos, irritação, pelos encravados ou outra condição com aparência semelhante.</p>\n<p>Quando há infecção bacteriana, um profissional pode indicar medicamento tópico ou, em situações específicas, tratamento por via oral. Se a causa for fúngica, o tratamento pode ser diferente. Usar o produto errado pode não resolver o problema e atrasar o diagnóstico.</p>\n<p>Pomadas antibióticas não devem ser usadas por conta própria ou reaproveitadas de tratamentos anteriores. O uso desnecessário pode provocar irritação, reações alérgicas e contribuir para a resistência aos antimicrobianos.</p>\n<p>Produtos com corticoides também não são adequados para qualquer lesão que pareça uma espinha. Dependendo da causa, podem mascarar sinais ou agravar determinadas infecções. Por isso, a escolha precisa considerar o diagnóstico.</p>\n<p>Se a lesão está na virilha, no rosto ou no couro cabeludo, evite testar medicamentos recomendados para outra região. A pele, os fatores desencadeantes e as possibilidades de tratamento podem ser diferentes.</p>\n<figure class=\"article-figure\"><img src=\"/images/foliculite/dermatologista-examinando-a-pele-de-uma-pessoa-em-consulta.jpg\" alt=\"Dermatologista examinando a pele de uma pessoa em consulta\" width=\"940\" height=\"627\" loading=\"lazy\" /><figcaption>Dermatologista examinando a pele de uma pessoa em consulta <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/beautician-using-a-tablet-7446674/\" rel=\"noopener nofollow\" target=\"_blank\">Gustavo Fring</a> / Pexels</span></figcaption></figure>\n<h2>Foliculite no couro cabeludo, barba, axila e virilha</h2>\n<p>No couro cabeludo, as lesões podem causar coceira, sensibilidade, crostas ou pequenas pústulas entre os cabelos. Se houver queda de cabelo em áreas inflamadas, dor ou recorrência, é importante procurar um dermatologista para investigar causas que podem deixar cicatrizes.</p>\n<p>Na barba, o barbear rente pode irritar os folículos e favorecer pelos encravados. Usar lâmina limpa, evitar esticar a pele e não raspar contra o sentido do crescimento podem ajudar algumas pessoas, embora a melhor técnica dependa do tipo de pelo e da pele.</p>\n<p>Nas axilas e na virilha, suor, depilação, roupas apertadas e atrito podem contribuir. Prefira tecidos confortáveis e evite depilar a área inflamada até que ela melhore.</p>\n<p>Lesões profundas e dolorosas que retornam na virilha ou nas axilas não devem ser consideradas automaticamente foliculite simples. Outras condições podem causar nódulos recorrentes e exigem avaliação específica.</p>\n<p>Quando a inflamação atinge o couro cabeludo e é recorrente, pode ser importante avaliar também a queda de cabelo. Nosso guia sobre <a href=\"/queda-de-cabelo/\">queda de cabelo</a> explica outras causas possíveis, embora lesões ativas precisem de avaliação própria.</p>\n<h2>Como prevenir novas crises?</h2>\n<p>A prevenção começa pela identificação dos hábitos ou ambientes que parecem desencadear as lesões. Nem toda medida funciona para todas as causas, mas alguns cuidados podem reduzir irritação e exposição a microrganismos.</p>\n<ul>\n<li>Use lâminas limpas e evite compartilhar aparelhos de barbear ou depilação.</li>\n<li>Reduza roupas muito apertadas e o atrito repetido sobre a região.</li>\n<li>Tome banho após atividades que provoquem suor intenso e troque roupas úmidas.</li>\n<li>Não compartilhe toalhas, roupas ou acessórios que encostem diretamente na pele.</li>\n<li>Limpe e mantenha adequadamente piscinas e banheiras de hidromassagem.</li>\n<li>Evite espremer as lesões ou aplicar produtos agressivos sem orientação.</li>\n</ul>\n<p>Se a foliculite reaparece com frequência, registre quando surge, quais regiões são afetadas e quais produtos ou práticas antecederam as lesões. Essas informações ajudam o profissional a identificar padrões e escolher o tratamento.</p>\n<p>Manter a pele limpa não significa esfregar com força ou usar sabonetes agressivos. A limpeza excessiva pode irritar a barreira cutânea e piorar o desconforto.</p>\n<p>Quem tem diabetes ou imunidade reduzida deve dar atenção a lesões persistentes ou que pioram. Nosso guia sobre <a href=\"/sintomas-de-diabetes/\">sintomas de diabetes</a> apresenta sinais gerais, mas não substitui avaliação clínica de alterações da pele.</p>\n<h2>Quanto tempo demora para melhorar?</h2>\n<p>O tempo de melhora varia conforme a causa, a extensão e a saúde da pessoa. Algumas lesões leves desaparecem em poucos dias após a retirada do fator irritante. Infecções mais intensas ou recorrentes podem precisar de tratamento específico.</p>\n<p>Se as lesões piorarem, espalharem, voltarem repetidamente ou não melhorarem após alguns dias de cuidados, procure avaliação médica. Não continue testando produtos diferentes por semanas sem esclarecer a causa.</p>\n<p>Febre, vermelhidão que se expande rapidamente, dor intensa, inchaço importante ou acúmulo de pus podem indicar uma infecção mais profunda. Nesses casos, a avaliação deve ser rápida, especialmente em pessoas com imunidade comprometida ou diabetes.</p>\n<p>O diagnóstico pode ser feito pelo exame da pele. Em alguns casos, o profissional solicita coleta de material para identificar bactérias ou fungos e orientar melhor o tratamento.</p>\n<p>Lesões repetidas no couro cabeludo, sobretudo quando causam crostas ou queda de cabelo, precisam de investigação. Consulte também nosso guia sobre <a href=\"/queda-de-cabelo/\">queda de cabelo</a> para entender por que o diagnóstico depende da causa.</p>\n<h2>Quando procurar um médico</h2>\n<p>Procure um dermatologista se a foliculite for extensa, recorrente, dolorosa, deixar cicatrizes ou causar queda de cabelo. Também busque atendimento se houver febre, vermelhidão em expansão, aumento do inchaço ou ausência de melhora após alguns dias.</p>\n<p>Se você tem diabetes, imunidade reduzida ou utiliza medicamentos que afetam as defesas do organismo, não espere que uma infecção aparente ser grave antes de pedir orientação.</p>\n<h2>Resumindo</h2>\n<p>A foliculite é uma inflamação dos folículos pilosos que pode ser causada por irritação, pelos encravados, bactérias, fungos ou exposição a água contaminada. A aparência das lesões não revela sempre a causa exata.</p>\n<p>Compressas mornas e redução do atrito podem ajudar em casos leves. Pomadas e antibióticos dependem da causa, e lesões persistentes, recorrentes ou com sinais de infecção precisam de avaliação profissional. Este conteúdo é informativo e não substitui a avaliação de um médico ou profissional de saúde.</p>\n<h2>Fontes</h2>\n<ul>\n<li><a href=\"https://www.aad.org/public/diseases/a-z/folliculitis/\" rel=\"noopener nofollow\" target=\"_blank\">Acne-like breakouts could be folliculitis — American Academy of Dermatology Association</a></li>\n<li><a href=\"https://www.cdc.gov/healthy-swimming/prevention/preventing-hot-tub-rash.html\" rel=\"noopener nofollow\" target=\"_blank\">Preventing Hot Tub Rash — Centers for Disease Control and Prevention</a></li>\n<li><a href=\"https://www.mayoclinic.org/diseases-conditions/folliculitis/diagnosis-treatment/drc-20361662\" rel=\"noopener nofollow\" target=\"_blank\">Folliculitis: Diagnosis and treatment — Mayo Clinic</a></li>\n</ul>\n<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>",
+      "wordCount": 1533,
+      "readingTime": 8,
+      "sources": [
+        {
+          "title": "Acne-like breakouts could be folliculitis — American Academy of Dermatology Association",
+          "url": "https://www.aad.org/public/diseases/a-z/folliculitis/"
+        },
+        {
+          "title": "Preventing Hot Tub Rash — Centers for Disease Control and Prevention",
+          "url": "https://www.cdc.gov/healthy-swimming/prevention/preventing-hot-tub-rash.html"
+        },
+        {
+          "title": "Folliculitis: Diagnosis and treatment — Mayo Clinic",
+          "url": "https://www.mayoclinic.org/diseases-conditions/folliculitis/diagnosis-treatment/drc-20361662"
+        }
+      ],
+      "imagePlan": {
+        "capa": {
+          "busca": "skin",
+          "alt": "Pele do braço em close com foco em cuidados dermatológicos"
+        },
+        "fotos": [
+          {
+            "busca": "skin",
+            "alt": "Pessoa higienizando suavemente a pele durante a rotina de cuidados",
+            "legenda": "Pessoa higienizando suavemente a pele durante a rotina de cuidados",
+            "secao": 2
+          },
+          {
+            "busca": "skin consultation",
+            "alt": "Dermatologista examinando a pele de uma pessoa em consulta",
+            "legenda": "Dermatologista examinando a pele de uma pessoa em consulta",
+            "secao": 5
+          }
+        ]
+      },
+      "volume": 165000,
+      "status": "draft",
+      "createdAt": "2026-10-12T11:02:52.408Z",
+      "featuredImage": "/images/foliculite/foliculite-capa.jpg",
+      "imageAlt": "Pele do braço em close com foco em cuidados dermatológicos",
+      "imageCredit": {
+        "author": "https://kaboompics.com/",
+        "source": "Pexels",
+        "url": "https://www.pexels.com/photo/close-up-of-texture-and-veins-on-skin-6643070/",
+        "license": "Licença Pexels",
+        "licenseUrl": "https://www.pexels.com/license/"
+      },
+      "images": [
+        {
+          "src": "/images/foliculite/pessoa-higienizando-suavemente-a-pele-durante-a-rotina-de-cu.jpg",
+          "alt": "Pessoa higienizando suavemente a pele durante a rotina de cuidados",
+          "legenda": "Pessoa higienizando suavemente a pele durante a rotina de cuidados",
+          "secao": 2,
+          "width": 940,
+          "height": 627,
+          "credit": {
+            "author": "https://kaboompics.com/",
+            "source": "Pexels",
+            "url": "https://www.pexels.com/photo/a-person-s-skin-in-close-up-view-4046562/",
+            "license": "Licença Pexels",
+            "licenseUrl": "https://www.pexels.com/license/"
+          }
+        },
+        {
+          "src": "/images/foliculite/dermatologista-examinando-a-pele-de-uma-pessoa-em-consulta.jpg",
+          "alt": "Dermatologista examinando a pele de uma pessoa em consulta",
+          "legenda": "Dermatologista examinando a pele de uma pessoa em consulta",
+          "secao": 5,
+          "width": 940,
+          "height": 627,
+          "credit": {
+            "author": "Gustavo Fring",
+            "source": "Pexels",
+            "url": "https://www.pexels.com/photo/beautician-using-a-tablet-7446674/",
+            "license": "Licença Pexels",
+            "licenseUrl": "https://www.pexels.com/license/"
+          }
+        }
+      ],
+      "imageIds": [
+        "pexels:6643070",
+        "pexels:4046562",
+        "pexels:7446674"
+      ],
+      "altConferido": false,
+      "estoque": true,
+      "estocadoEm": "2026-10-12T11:02:53.941Z",
+      "scores": {
+        "auditoria": 100,
+        "notaChat": 9.2,
+        "demanda": "alta",
+        "total": 100,
+        "decisao": "PUBLICAR",
+        "partes": {
+          "qualidade": 100,
+          "demanda": 100,
+          "fontes": 100,
+          "originalidade": 100,
+          "formato": 100,
+          "seguranca": 100
+        },
+        "atencao": []
+      },
+      "validador": "Auditoria automática (sem API); texto escrito fora do robô",
+      "origem": "importado",
+      "redator": "chat",
+      "validacao": {
+        "palavraChave": "foliculite",
+        "demanda": {
+          "volume": 165000,
+          "classe": "alta",
+          "tendencia": null,
+          "concorrencia": "LOW",
+          "fonte": "pele-volumes.json",
+          "fraseMedida": "foliculite",
+          "porSimilar": false
+        },
+        "volume": 165000,
+        "cluster": null,
+        "apoio": [],
+        "perguntasDoGoogle": [],
+        "concorrentes": "não informado (concorrente não conferido)",
+        "lacunasCobertas": [],
+        "serp": null,
+        "fontesDaPauta": [
+          "https://www.aad.org/public/diseases/a-z/folliculitis/",
+          "https://www.cdc.gov/healthy-swimming/prevention/preventing-hot-tub-rash.html",
+          "https://www.mayoclinic.org/diseases-conditions/folliculitis/diagnosis-treatment/drc-20361662"
+        ],
+        "notas": "",
+        "briefing": null,
+        "validadoEm": "2026-10-12T11:02:53.941Z",
+        "observacao": "originalidade contra o concorrente não conferida automaticamente"
+      }
+    },
+    {
+      "id": "art_1791802973986_96v0",
+      "title": "Ginkgo biloba: para que serve e cuidados",
+      "slug": "ginkgo-biloba",
+      "primaryKeyword": "ginkgo biloba",
+      "cluster": null,
+      "pilar": null,
+      "papel": null,
+      "description": "Saiba para que serve o ginkgo biloba, o que as pesquisas mostram sobre memória e circulação, quais são os riscos e quando evitar o suplemento.",
+      "excerpt": "Saiba para que serve o ginkgo biloba, o que as pesquisas mostram sobre memória e circulação, quais são os riscos e quando evitar o suplemento.",
+      "content": "<p>Ginkgo biloba é um suplemento feito principalmente do extrato das folhas, divulgado para memória e circulação. As pesquisas não confirmam muitos benefícios populares, e o produto pode interagir com medicamentos. Avalie riscos e objetivos com um profissional antes de usá-lo.</p>\n<h2>O que é ginkgo biloba?</h2>\n<p>O ginkgo é uma árvore antiga, originária da China, conhecida pelas folhas em formato de leque. Na medicina tradicional, diferentes preparações da planta foram usadas para várias queixas. Atualmente, os suplementos são feitos sobretudo com extratos das folhas, cuja composição depende do processo de fabricação.</p>\n<p>É importante distinguir o extrato padronizado de folhas das sementes e de preparações caseiras. As sementes frescas ou assadas podem ser tóxicas, e folhas não processadas não equivalem a um suplemento estudado em pesquisas.</p>\n<p>Por isso, não é seguro improvisar chás, triturar partes da planta ou presumir que qualquer produto tenha a mesma composição.</p>\n<h2>Ginkgo biloba: para que serve?</h2>\n<p>O suplemento costuma ser anunciado para memória, concentração, zumbido no ouvido, tontura, ansiedade e sintomas associados ao envelhecimento. Essas alegações não têm todas o mesmo nível de evidência.</p>\n<p>O fato de um produto ser tradicional ou muito vendido não significa que sua eficácia tenha sido demonstrada em estudos clínicos de boa qualidade.</p>\n<p>O Centro Nacional de Saúde Complementar e Integrativa dos Estados Unidos informa que não há evidência conclusiva de benefício do ginkgo para uma condição específica. Alguns estudos mostram resultados limitados ou inconsistentes, insuficientes para recomendá-lo como tratamento geral.</p>\n<p>Também não se deve usar ginkgo para substituir medicamentos prescritos, investigação médica ou medidas comprovadas de prevenção. Se a intenção é melhorar memória, tratar tontura ou aliviar zumbido, o primeiro passo é entender a causa do sintoma, que pode exigir uma avaliação específica.</p>\n<figure class=\"article-figure\"><img src=\"/images/ginkgo-biloba/folhas-em-formato-de-leque-caracteristicas-do-ginkgo-biloba.jpg\" alt=\"Folhas em formato de leque características do ginkgo biloba\" width=\"940\" height=\"627\" loading=\"lazy\" /><figcaption>Folhas em formato de leque características do ginkgo biloba <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/food-healthy-nature-spoon-7615619/\" rel=\"noopener nofollow\" target=\"_blank\">Nataliya Vaitkevich</a> / Pexels</span></figcaption></figure>\n<h2>Ginkgo biloba melhora a memória?</h2>\n<p>A promessa de melhorar a memória é uma das razões mais comuns para procurar o suplemento. Entretanto, pesquisas em pessoas saudáveis não demonstraram de forma consistente melhora relevante da capacidade de lembrar, aprender ou manter a atenção.</p>\n<p>Os resultados podem variar conforme o extrato, a dose, a duração do estudo e as características dos participantes.</p>\n<p>Um grande ensaio clínico conhecido como Ginkgo Evaluation of Memory acompanhou mais de três mil adultos com 75 anos ou mais por vários anos. O estudo não encontrou redução do risco de desenvolver demência ou doença de Alzheimer entre participantes que receberam extrato de ginkgo e aqueles que receberam placebo.</p>\n<p>Algumas pesquisas analisaram o extrato como apoio para sintomas de pessoas que já têm demência. Nesses casos, foram observados resultados inconsistentes e não se demonstrou que o produto previna a doença ou interrompa sua progressão. Isso é diferente de afirmar que o ginkgo melhora a memória de qualquer pessoa.</p>\n<p>Esquecimentos frequentes podem estar relacionados a sono insuficiente, depressão, estresse, efeitos de medicamentos, alterações da tireoide ou outras condições tratáveis. Quando a memória interfere na rotina, piora progressivamente ou vem acompanhada de desorientação, vale procurar avaliação em vez de iniciar um suplemento por conta própria.</p>\n<h2>O ginkgo biloba ajuda na circulação?</h2>\n<p>O ginkgo é associado à circulação porque alguns compostos presentes no extrato podem influenciar processos biológicos relacionados aos vasos sanguíneos e às plaquetas. Porém, uma explicação possível sobre o mecanismo não comprova que o suplemento previna infarto, acidente vascular cerebral (AVC) ou doenças circulatórias.</p>\n<p>As evidências disponíveis não demonstram que o ginkgo previna doenças cardíacas ou reduza a pressão arterial. Também não há comprovação consistente de que alivie zumbido no ouvido.</p>\n<p>Dores nas pernas ao caminhar, dormência, tontura e alterações de equilíbrio precisam ser avaliadas, pois podem ter causas diferentes e algumas exigem atendimento rápido.</p>\n<p>Para cuidar da saúde cardiovascular, medidas com benefício conhecido incluem não fumar, acompanhar pressão e colesterol, praticar atividade física adequada, alimentar-se de forma equilibrada e seguir o tratamento indicado. Veja também nosso guia sobre <a href=\"/colesterol-depois-dos-40/\">colesterol depois dos 40</a>. O suplemento não substitui essas medidas nem a avaliação de sintomas.</p>\n<h2>Ginkgo biloba emagrece ou dá sono?</h2>\n<p>Não há evidência confiável de que o ginkgo provoque perda de peso de forma clinicamente relevante. Ele não deve ser usado como estratégia para emagrecer, reduzir gordura abdominal ou compensar hábitos alimentares.</p>\n<p>Se o objetivo é controlar o peso, um plano sustentável e individualizado costuma ser mais seguro do que apostar em produtos com promessas amplas.</p>\n<p>O ginkgo também não é um tratamento comprovado para insônia. Algumas pessoas podem relatar sensações diferentes durante o uso, mas isso não permite concluir que o suplemento seja sedativo ou melhore a qualidade do sono. Quem tem dificuldade persistente para dormir deve investigar hábitos, medicamentos e possíveis condições associadas.</p>\n<p>Uma alimentação variada ajuda a fornecer nutrientes sem depender de suplementos desnecessários. Veja também nosso guia sobre <a href=\"/proteina-mulheres-40/\">proteína para mulheres depois dos 40</a> e avalie necessidades individuais antes de suplementar.</p>\n<h2>Como avaliar o ginkgo biloba com segurança?</h2>\n<p>As apresentações comerciais variam, e estudos clínicos costumam utilizar extratos específicos e padronizados. Esses produtos não podem ser comparados diretamente com pós, chás ou cápsulas de composição desconhecida.</p>\n<p>Não copie a dose de outra pessoa nem aumente a quantidade por acreditar que terá um efeito mais rápido.</p>\n<p>Se um profissional considerar o uso apropriado, confira a identificação do fabricante, a composição, a concentração do extrato e as orientações do rótulo. Desconfie de produtos que prometem prevenir Alzheimer, curar zumbido ou garantir melhora da memória.</p>\n<p>Suplementos podem variar em qualidade e não devem ser tratados como medicamentos equivalentes entre marcas.</p>\n<p>Informe ao médico ou farmacêutico todos os medicamentos, vitaminas e plantas que utiliza. Essa conversa é especialmente importante antes de uma cirurgia ou procedimento odontológico, durante a gravidez ou amamentação, e quando há doenças crônicas. Não interrompa um tratamento prescrito para substituir por ginkgo.</p>\n<figure class=\"article-figure\"><img src=\"/images/ginkgo-biloba/profissional-de-saude-orientando-uma-pessoa-sobre-uso-seguro.jpg\" alt=\"Profissional de saúde orientando uma pessoa sobre uso seguro de suplementos\" width=\"940\" height=\"627\" loading=\"lazy\" /><figcaption>Profissional de saúde orientando uma pessoa sobre uso seguro de suplementos <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/close-up-of-ginkgo-biloba-leaf-on-blue-sky-37351530/\" rel=\"noopener nofollow\" target=\"_blank\">Bejan  Adrian</a> / Pexels</span></figcaption></figure>\n<h2>Quais são os efeitos colaterais do ginkgo biloba?</h2>\n<p>Os efeitos adversos relatados incluem dor de cabeça, tontura, desconforto gastrointestinal e reações alérgicas na pele. A ausência de sintomas no início não garante que o uso prolongado seja adequado.</p>\n<p>Se surgir uma reação nova depois de começar o produto, suspenda a automedicação e procure orientação para avaliar a relação com o suplemento.</p>\n<p>Um risco importante é o aumento da possibilidade de sangramento, especialmente em pessoas que usam anticoagulantes, como varfarina, ou outros medicamentos que afetam a coagulação. Há relatos e preocupações sobre interações com diferentes fármacos. Por isso, a combinação não deve ser decidida sem avaliação profissional.</p>\n<p>As sementes do ginkgo merecem atenção especial: podem conter substâncias tóxicas e causar efeitos graves. Não consuma sementes cruas ou assadas e não use partes não processadas da planta como se fossem equivalentes a extratos padronizados.</p>\n<h2>Quem deve evitar ou ter cuidado?</h2>\n<p>Gestantes devem evitar o uso sem indicação médica, pois a segurança não está estabelecida e existe preocupação com sangramento e parto prematuro. Também faltam informações suficientes para considerar o uso seguro durante a amamentação. Crianças não devem receber o suplemento sem orientação de um profissional habilitado.</p>\n<p>Pessoas que usam anticoagulantes ou antiagregantes, têm distúrbios hemorrágicos, apresentam epilepsia, usam vários medicamentos ou estão prestes a fazer cirurgia precisam de avaliação individual. O cuidado também vale para quem tem doenças crônicas ou pretende combinar o ginkgo com outros suplementos.</p>\n<p>O risco não depende apenas do nome da planta. Ele pode variar com a formulação, a concentração, a procedência e os outros produtos utilizados. Levar a embalagem à consulta ajuda a identificar os ingredientes e possíveis interações.</p>\n<p>Acompanhar o colesterol faz parte do cuidado cardiovascular; veja também nosso guia sobre <a href=\"/colesterol-depois-dos-40/\">colesterol depois dos 40</a>.</p>\n<h2>Quando procurar um médico</h2>\n<p>Procure atendimento urgente diante de sinais compatíveis com AVC, como fraqueza súbita em um lado do corpo, dificuldade para falar, perda repentina da visão ou desequilíbrio intenso. Sangramento incomum, fezes escuras, reação alérgica importante ou desmaio também precisam de avaliação rápida.</p>\n<p>Marque uma consulta se os esquecimentos aumentarem, se houver tontura recorrente, zumbido persistente ou se você estiver pensando em usar ginkgo junto com medicamentos. A avaliação pode identificar a causa do sintoma e evitar interações que poderiam ser prevenidas.</p>\n<h2>Resumindo</h2>\n<p>Ginkgo biloba é um suplemento popular, mas as pesquisas não confirmam benefícios consistentes para memória em pessoas saudáveis nem para prevenir demência, doenças cardíacas ou AVC. Pode causar efeitos adversos e aumentar o risco de sangramento, principalmente com certos medicamentos. Não use sementes ou preparações caseiras da planta.</p>\n<p>Converse com um profissional de saúde antes de iniciar o produto, especialmente se você toma remédios ou tem uma condição crônica. Este conteúdo é informativo e não substitui a avaliação de um médico ou profissional de saúde.</p>\n<h2>Fontes</h2>\n<ul>\n<li><a href=\"https://www.nccih.nih.gov/health/ginkgo\" rel=\"noopener nofollow\" target=\"_blank\">Ginkgo: Usefulness and Safety — National Center for Complementary and Integrative Health</a></li>\n<li><a href=\"https://pubmed.ncbi.nlm.nih.gov/19017911/\" rel=\"noopener nofollow\" target=\"_blank\">Ginkgo biloba for prevention of dementia: a randomized controlled trial — PubMed</a></li>\n<li><a href=\"https://www.nccih.nih.gov/health/providers/digest/herb-drug-interactions-science\" rel=\"noopener nofollow\" target=\"_blank\">Herb-Drug Interactions: What the Science Says — National Center for Complementary and Integrative Health</a></li>\n</ul>\n<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>",
+      "wordCount": 1441,
+      "readingTime": 7,
+      "sources": [
+        {
+          "title": "Ginkgo: Usefulness and Safety — National Center for Complementary and Integrative Health",
+          "url": "https://www.nccih.nih.gov/health/ginkgo"
+        },
+        {
+          "title": "Ginkgo biloba for prevention of dementia: a randomized controlled trial — PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19017911/"
+        },
+        {
+          "title": "Herb-Drug Interactions: What the Science Says — National Center for Complementary and Integrative Health",
+          "url": "https://www.nccih.nih.gov/health/providers/digest/herb-drug-interactions-science"
+        }
+      ],
+      "imagePlan": {
+        "capa": {
+          "busca": "ginkgo biloba health",
+          "alt": "Folhas verdes de ginkgo biloba em uma planta adulta"
+        },
+        "fotos": [
+          {
+            "busca": "ginkgo biloba health",
+            "alt": "Folhas em formato de leque características do ginkgo biloba",
+            "legenda": "Folhas em formato de leque características do ginkgo biloba",
+            "secao": 2
+          },
+          {
+            "busca": "ginkgo biloba health",
+            "alt": "Profissional de saúde orientando uma pessoa sobre uso seguro de suplementos",
+            "legenda": "Profissional de saúde orientando uma pessoa sobre uso seguro de suplementos",
+            "secao": 6
+          }
+        ]
+      },
+      "volume": 110000,
+      "status": "draft",
+      "createdAt": "2026-10-12T11:02:53.986Z",
+      "featuredImage": "/images/ginkgo-biloba/ginkgo-biloba-capa.jpg",
+      "imageAlt": "Folhas verdes de ginkgo biloba em uma planta adulta",
+      "imageCredit": {
+        "author": "Nataliya Vaitkevich",
+        "source": "Pexels",
+        "url": "https://www.pexels.com/photo/ginkgo-leaf-and-capsules-7615616/",
+        "license": "Licença Pexels",
+        "licenseUrl": "https://www.pexels.com/license/"
+      },
+      "images": [
+        {
+          "src": "/images/ginkgo-biloba/folhas-em-formato-de-leque-caracteristicas-do-ginkgo-biloba.jpg",
+          "alt": "Folhas em formato de leque características do ginkgo biloba",
+          "legenda": "Folhas em formato de leque características do ginkgo biloba",
+          "secao": 2,
+          "width": 940,
+          "height": 627,
+          "credit": {
+            "author": "Nataliya Vaitkevich",
+            "source": "Pexels",
+            "url": "https://www.pexels.com/photo/food-healthy-nature-spoon-7615619/",
+            "license": "Licença Pexels",
+            "licenseUrl": "https://www.pexels.com/license/"
+          }
+        },
+        {
+          "src": "/images/ginkgo-biloba/profissional-de-saude-orientando-uma-pessoa-sobre-uso-seguro.jpg",
+          "alt": "Profissional de saúde orientando uma pessoa sobre uso seguro de suplementos",
+          "legenda": "Profissional de saúde orientando uma pessoa sobre uso seguro de suplementos",
+          "secao": 6,
+          "width": 940,
+          "height": 627,
+          "credit": {
+            "author": "Bejan  Adrian",
+            "source": "Pexels",
+            "url": "https://www.pexels.com/photo/close-up-of-ginkgo-biloba-leaf-on-blue-sky-37351530/",
+            "license": "Licença Pexels",
+            "licenseUrl": "https://www.pexels.com/license/"
+          }
+        }
+      ],
+      "imageIds": [
+        "pexels:7615616",
+        "pexels:7615619",
+        "pexels:37351530"
+      ],
+      "altConferido": false,
+      "estoque": true,
+      "estocadoEm": "2026-10-12T11:02:55.444Z",
+      "scores": {
+        "auditoria": 100,
+        "notaChat": 9.2,
+        "demanda": "alta",
+        "total": 99,
+        "decisao": "PUBLICAR",
+        "partes": {
+          "qualidade": 100,
+          "demanda": 100,
+          "fontes": 100,
+          "originalidade": 100,
+          "formato": 90,
+          "seguranca": 100
+        },
+        "atencao": []
+      },
+      "validador": "Auditoria automática (sem API); texto escrito fora do robô",
+      "origem": "importado",
+      "redator": "chat",
+      "validacao": {
+        "palavraChave": "ginkgo biloba",
+        "demanda": {
+          "volume": 110000,
+          "classe": "alta",
+          "tendencia": null,
+          "concorrencia": "HIGH",
+          "fonte": "suplementos-volumes.json",
+          "fraseMedida": "ginkgo biloba",
+          "porSimilar": false
+        },
+        "volume": 110000,
+        "cluster": null,
+        "apoio": [],
+        "perguntasDoGoogle": [],
+        "concorrentes": "não informado (concorrente não conferido)",
+        "lacunasCobertas": [],
+        "serp": null,
+        "fontesDaPauta": [
+          "https://www.nccih.nih.gov/health/ginkgo",
+          "https://pubmed.ncbi.nlm.nih.gov/19017911/",
+          "https://www.nccih.nih.gov/health/providers/digest/herb-drug-interactions-science"
+        ],
+        "notas": "",
+        "briefing": null,
+        "validadoEm": "2026-10-12T11:02:55.444Z",
+        "observacao": "originalidade contra o concorrente não conferida automaticamente"
+      }
+    },
+    {
+      "id": "art_1791802975482_pp3c",
+      "title": "Metilcobalamina: para que serve e cuidados",
+      "slug": "metilcobalamina",
+      "primaryKeyword": "metilcobalamina",
+      "cluster": null,
+      "pilar": null,
+      "papel": null,
+      "description": "Saiba o que é metilcobalamina, sua relação com a vitamina B12, sinais de deficiência, formas de suplementação e cuidados com medicamentos.",
+      "excerpt": "Saiba o que é metilcobalamina, sua relação com a vitamina B12, sinais de deficiência, formas de suplementação e cuidados com medicamentos.",
+      "content": "<p>A metilcobalamina é uma forma da vitamina B12, nutriente necessário para o funcionamento do sistema nervoso, a formação de células sanguíneas e a produção de DNA. A suplementação pode ser útil em casos específicos, mas nem toda pessoa precisa tomar B12.</p>\n<h2>O que é metilcobalamina?</h2>\n<p>A vitamina B12 pertence ao grupo das cobalaminas. A metilcobalamina é uma das formas biologicamente ativas utilizadas pelo organismo. Outra forma ativa é a adenosilcobalamina, enquanto a cianocobalamina e a hidroxocobalamina podem ser convertidas em formas ativas.</p>\n<p>Por isso, metilcobalamina e vitamina B12 não são conceitos opostos. A metilcobalamina é uma das formas da vitamina. Produtos comercializados como B12 podem conter diferentes formas, e a presença de um nome específico não garante que sejam superiores para todas as pessoas.</p>\n<p>A B12 participa da formação normal dos glóbulos vermelhos, da síntese de DNA e da manutenção do sistema nervoso. Quando há deficiência, podem surgir alterações no sangue e sintomas neurológicos.</p>\n<p>Os sintomas nem sempre aparecem rapidamente. O corpo armazena B12, e a deficiência pode demorar anos para se tornar evidente. Isso torna importante avaliar fatores de risco, e não apenas esperar que apareçam sinais intensos.</p>\n<h2>Para que serve a metilcobalamina?</h2>\n<p>A principal função da metilcobalamina é participar de reações essenciais do metabolismo da vitamina B12. Na prática, isso contribui para o funcionamento neurológico e para processos relacionados à produção de células sanguíneas.</p>\n<p>Quando a pessoa apresenta deficiência de B12, a reposição pode ser necessária para corrigir o problema e reduzir o risco de complicações. A forma e a via de administração dependem da causa, da gravidade e da capacidade de absorção.</p>\n<p>Suplementos de B12 também são usados por pessoas que não conseguem obter quantidade suficiente na alimentação, como algumas pessoas veganas que não consomem alimentos fortificados ou suplementos. A avaliação deve considerar a dieta e outros fatores individuais.</p>\n<p>É importante separar a correção de uma deficiência de promessas genéricas de energia, memória ou concentração. Se os níveis já são adequados, não há garantia de que tomar doses adicionais melhore disposição ou desempenho.</p>\n<p>A metilcobalamina não deve ser anunciada como tratamento universal para formigamento, cansaço ou perda de memória. Esses sintomas têm várias causas e precisam de avaliação quando persistem ou surgem sem explicação.</p>\n<h2>Qual é a diferença entre metilcobalamina e outras formas de B12?</h2>\n<p>A metilcobalamina é uma forma ativa da vitamina, mas não é a única opção utilizada em suplementos ou tratamentos. A cianocobalamina é comum em suplementos, enquanto a hidroxocobalamina é utilizada em algumas apresentações medicamentosas.</p>\n<p>O organismo consegue converter certas formas de B12 nas formas que utiliza. As evidências disponíveis não indicam que a absorção dos suplementos seja necessariamente melhor apenas porque o rótulo diz metilcobalamina.</p>\n<p>Também não há uma resposta única para decidir entre comprimidos, gotas, pastilhas sublinguais ou injeções. A escolha depende da indicação, da causa da deficiência, da absorção intestinal, da adesão ao tratamento e da avaliação clínica.</p>\n<p>A via sublingual é divulgada como se fosse sempre superior. Entretanto, a evidência resumida pelo NIH não demonstra vantagem consistente de eficácia sobre a administração oral em todas as situações.</p>\n<p>Se um profissional recomendou determinada forma, não a troque apenas por causa de anúncios ou comentários nas redes sociais. Pergunte qual é o objetivo do tratamento e como será verificada a resposta.</p>\n<figure class=\"article-figure\"><img src=\"/images/metilcobalamina/pessoa-realizando-exame-de-sangue-para-investigar-os-niveis-.jpg\" alt=\"Pessoa realizando exame de sangue para investigar os níveis de vitamina B12\" width=\"940\" height=\"529\" loading=\"lazy\" /><figcaption>Pessoa realizando exame de sangue para investigar os níveis de vitamina B12 <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/a-person-s-finger-with-blood-6823512/\" rel=\"noopener nofollow\" target=\"_blank\">Artem Podrez</a> / Pexels</span></figcaption></figure>\n<h2>Quais são os sintomas da falta de vitamina B12?</h2>\n<p>A deficiência de B12 pode provocar cansaço, fraqueza, palidez, palpitações e alterações na língua. Também pode causar formigamento ou dormência nas mãos e nos pés, dificuldade de equilíbrio e outras mudanças neurológicas.</p>\n<p>Nem todos apresentam os mesmos sintomas, e alguns sinais podem ocorrer sem anemia. Por isso, um hemograma normal não exclui necessariamente todos os problemas relacionados à vitamina B12.</p>\n<p>Os sintomas são inespecíficos. Cansaço, por exemplo, pode estar associado a anemia por outras causas, alterações hormonais, distúrbios do sono, infecções ou problemas emocionais. O diagnóstico não deve ser feito apenas com base em uma lista de sintomas.</p>\n<p>Quando há suspeita, o profissional pode solicitar exame de sangue e, se necessário, testes complementares. Os resultados precisam ser interpretados considerando o método do laboratório, os sintomas, a alimentação e o histórico clínico.</p>\n<p>Não espere que a dormência ou a dificuldade para caminhar se tornem intensas. Alterações neurológicas associadas à deficiência podem exigir tratamento oportuno para reduzir o risco de danos persistentes.</p>\n<h2>Quem tem maior risco de deficiência de B12?</h2>\n<p>Alguns grupos têm maior probabilidade de apresentar níveis inadequados. Entre eles estão pessoas idosas, quem segue uma alimentação vegana sem fontes fortificadas ou suplementação adequada, pessoas com anemia perniciosa e quem passou por determinadas cirurgias digestivas.</p>\n<p>Quem precisa ajustar a alimentação deve considerar diferentes nutrientes, e não apenas a B12. Veja também nosso guia sobre <a href=\"/proteina-mulheres-40/\">proteína para mulheres depois dos 40</a>.</p>\n<p>Doenças que afetam o estômago ou o intestino também podem reduzir a absorção. Mesmo uma dieta que contenha B12 pode não ser suficiente quando o organismo não consegue absorver o nutriente de forma adequada.</p>\n<p>Alguns medicamentos podem afetar os níveis de B12 ao longo do tempo. A metformina, usada no tratamento do diabetes, e medicamentos que reduzem a acidez do estômago estão entre os exemplos estudados. Para informações gerais, veja também nosso guia sobre <a href=\"/sintomas-de-diabetes/\">sintomas de diabetes</a>, sem substituir a avaliação médica.</p>\n<p>Quem utiliza esses medicamentos não deve interrompê-los por conta própria. O profissional pode avaliar o risco individual e decidir se é necessário monitorar os níveis ou investigar sintomas.</p>\n<p>Após os 40 anos, vale prestar atenção à alimentação, ao uso prolongado de medicamentos e a sintomas persistentes. Isso não significa que toda pessoa nessa faixa etária precise fazer exames repetidos sem indicação clínica.</p>\n<figure class=\"article-figure\"><img src=\"/images/metilcobalamina/profissional-de-saude-orientando-uma-pessoa-sobre-suplemento.jpg\" alt=\"Profissional de saúde orientando uma pessoa sobre suplementos\" width=\"940\" height=\"627\" loading=\"lazy\" /><figcaption>Profissional de saúde orientando uma pessoa sobre suplementos <span class=\"credit\">Foto: <a href=\"https://www.pexels.com/photo/man-taking-supplements-13013774/\" rel=\"noopener nofollow\" target=\"_blank\">Guto Macedo</a> / Pexels</span></figcaption></figure>\n<h2>Como avaliar a suplementação de metilcobalamina?</h2>\n<p>A decisão de suplementar depende da confirmação da deficiência, da causa e da capacidade de absorção. O nome do composto ou a concentração mostrada no rótulo não determina, sozinha, a opção mais adequada.</p>\n<p>Em algumas situações, o tratamento é oral; em outras, o profissional pode considerar outra via. Isso depende de fatores clínicos, como anemia perniciosa, cirurgia digestiva ou dificuldade de absorção. A decisão exige avaliação, não comparação por propaganda.</p>\n<p>Não comece um suplemento apenas para tentar ganhar energia, não combine produtos que repetem vitamina B12 e não mude por conta própria um esquema prescrito. Verifique os ingredientes e leve a embalagem à consulta.</p>\n<p>Quando a reposição é indicada, combine com o profissional como acompanhar a resposta e investigar o motivo da deficiência. Sem tratar a causa, o problema pode continuar ou voltar.</p>\n<h2>Metilcobalamina tem efeitos colaterais ou contraindicações?</h2>\n<p>A vitamina B12 é geralmente considerada segura, inclusive em doses elevadas, e não foi estabelecido um limite máximo tolerável de ingestão para a população geral. Isso não significa que todo suplemento seja necessário ou que qualquer produto seja adequado a qualquer pessoa.</p>\n<p>Algumas pessoas podem apresentar desconforto ou reações individuais ao produto ou a componentes da fórmula. Se ocorrerem sintomas após iniciar um suplemento, informe o profissional de saúde e confira os ingredientes.</p>\n<p>Um risco relevante é atrasar o diagnóstico correto ao tratar sintomas por conta própria. O formigamento persistente, por exemplo, pode ter causas diferentes da deficiência de B12 e precisa de investigação.</p>\n<p>Informe ao profissional todos os suplementos e medicamentos utilizados. Se você tem doença crônica, está grávida, amamenta ou recebe tratamento contínuo, confirme a necessidade e a forma de reposição antes de começar.</p>\n<h2>Como obter vitamina B12 pela alimentação?</h2>\n<p>A vitamina B12 está naturalmente presente principalmente em alimentos de origem animal, como peixes, carnes, ovos, leite e derivados. Alguns alimentos vegetais são fortificados, mas é necessário conferir o rótulo para saber se contêm B12.</p>\n<p>Uma alimentação variada pode contribuir para atender às necessidades, mas não resolve todas as causas de deficiência. Pessoas com problemas de absorção podem precisar de tratamento mesmo quando consomem alimentos que contêm a vitamina.</p>\n<p>Quem segue alimentação vegana precisa planejar fontes confiáveis de B12, geralmente por meio de alimentos fortificados e/ou suplementação orientada. Algas, fermentados ou produtos vegetais não fortificados não devem ser considerados fontes confiáveis sem evidência de conteúdo biodisponível.</p>\n<p>O objetivo é garantir uma fonte adequada e consistente, não escolher uma forma de suplemento pela promessa de ser mais natural. A decisão deve levar em conta a dieta, o histórico e a necessidade individual.</p>\n<p>Para mais orientações sobre alimentação após os 40, consulte nosso guia sobre <a href=\"/proteina-mulheres-40/\">proteína para mulheres depois dos 40</a>. A necessidade de exames e suplementos deve ser avaliada individualmente, conforme a dieta, os sintomas e o histórico de saúde.</p>\n<h2>Quando procurar um médico</h2>\n<p>Procure avaliação se houver formigamento persistente, perda de sensibilidade, dificuldade de equilíbrio, fraqueza importante, palidez ou cansaço que não melhora. Esses sintomas podem indicar deficiência de B12 ou outras condições que precisam de investigação.</p>\n<p>Se você usa metformina ou medicamentos que reduzem a acidez gástrica por longo período, pergunte ao profissional se há necessidade de avaliar a vitamina B12. Não interrompa os medicamentos sem orientação.</p>\n<h2>Resumindo</h2>\n<p>A metilcobalamina é uma das formas da vitamina B12, nutriente importante para o sistema nervoso, a produção de células sanguíneas e a síntese de DNA. Outras formas de B12 também podem ser utilizadas pelo organismo.</p>\n<p>A suplementação pode ser útil quando há necessidade, mas não garante mais energia nem substitui a investigação dos sintomas. A forma de reposição depende da causa e da avaliação profissional. Este conteúdo é informativo e não substitui a avaliação de um médico ou profissional de saúde.</p>\n<h2>Fontes</h2>\n<ul>\n<li><a href=\"https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/\" rel=\"noopener nofollow\" target=\"_blank\">Vitamin B12: Fact Sheet for Health Professionals — NIH Office of Dietary Supplements</a></li>\n<li><a href=\"https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/\" rel=\"noopener nofollow\" target=\"_blank\">Vitamin B12: Fact Sheet for Consumers — NIH Office of Dietary Supplements</a></li>\n<li><a href=\"https://medlineplus.gov/ency/article/000574.htm\" rel=\"noopener nofollow\" target=\"_blank\">Vitamin B12 deficiency anemia — MedlinePlus Medical Encyclopedia</a></li>\n</ul>\n<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>",
+      "wordCount": 1590,
+      "readingTime": 8,
+      "sources": [
+        {
+          "title": "Vitamin B12: Fact Sheet for Health Professionals — NIH Office of Dietary Supplements",
+          "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+        },
+        {
+          "title": "Vitamin B12: Fact Sheet for Consumers — NIH Office of Dietary Supplements",
+          "url": "https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/"
+        },
+        {
+          "title": "Vitamin B12 deficiency anemia — MedlinePlus Medical Encyclopedia",
+          "url": "https://medlineplus.gov/ency/article/000574.htm"
+        }
+      ],
+      "imagePlan": {
+        "capa": {
+          "busca": "food",
+          "alt": "Alimentos variados com ovos, peixe e laticínios sobre uma mesa"
+        },
+        "fotos": [
+          {
+            "busca": "test blood",
+            "alt": "Pessoa realizando exame de sangue para investigar os níveis de vitamina B12",
+            "legenda": "Pessoa realizando exame de sangue para investigar os níveis de vitamina B12",
+            "secao": 3
+          },
+          {
+            "busca": "metilcobalamina health",
+            "alt": "Profissional de saúde orientando uma pessoa sobre suplementos",
+            "legenda": "Profissional de saúde orientando uma pessoa sobre suplementos",
+            "secao": 5
+          }
+        ]
+      },
+      "volume": 165000,
+      "status": "draft",
+      "createdAt": "2026-10-12T11:02:55.482Z",
+      "featuredImage": "/images/metilcobalamina/metilcobalamina-capa.jpg",
+      "imageAlt": "Alimentos variados com ovos, peixe e laticínios sobre uma mesa",
+      "imageCredit": {
+        "author": "Thato Moiketsi",
+        "source": "Pexels",
+        "url": "https://www.pexels.com/photo/vibrant-picnic-platter-with-assorted-snacks-39303847/",
+        "license": "Licença Pexels",
+        "licenseUrl": "https://www.pexels.com/license/"
+      },
+      "images": [
+        {
+          "src": "/images/metilcobalamina/pessoa-realizando-exame-de-sangue-para-investigar-os-niveis-.jpg",
+          "alt": "Pessoa realizando exame de sangue para investigar os níveis de vitamina B12",
+          "legenda": "Pessoa realizando exame de sangue para investigar os níveis de vitamina B12",
+          "secao": 3,
+          "width": 940,
+          "height": 529,
+          "credit": {
+            "author": "Artem Podrez",
+            "source": "Pexels",
+            "url": "https://www.pexels.com/photo/a-person-s-finger-with-blood-6823512/",
+            "license": "Licença Pexels",
+            "licenseUrl": "https://www.pexels.com/license/"
+          }
+        },
+        {
+          "src": "/images/metilcobalamina/profissional-de-saude-orientando-uma-pessoa-sobre-suplemento.jpg",
+          "alt": "Profissional de saúde orientando uma pessoa sobre suplementos",
+          "legenda": "Profissional de saúde orientando uma pessoa sobre suplementos",
+          "secao": 5,
+          "width": 940,
+          "height": 627,
+          "credit": {
+            "author": "Guto Macedo",
+            "source": "Pexels",
+            "url": "https://www.pexels.com/photo/man-taking-supplements-13013774/",
+            "license": "Licença Pexels",
+            "licenseUrl": "https://www.pexels.com/license/"
+          }
+        }
+      ],
+      "imageIds": [
+        "pexels:39303847",
+        "pexels:6823512",
+        "pexels:13013774"
+      ],
+      "altConferido": false,
+      "estoque": true,
+      "estocadoEm": "2026-10-12T11:02:56.931Z",
+      "scores": {
+        "auditoria": 100,
+        "notaChat": 5,
+        "demanda": "alta",
+        "total": 96,
+        "decisao": "PUBLICAR",
+        "partes": {
+          "qualidade": 100,
+          "demanda": 100,
+          "fontes": 100,
+          "originalidade": 70,
+          "formato": 100,
+          "seguranca": 100
+        },
+        "atencao": [
+          "parecido com \"magnésio\" (50%): risco de canibalização"
+        ]
+      },
+      "validador": "Auditoria automática (sem API); texto escrito fora do robô",
+      "origem": "importado",
+      "validacao": {
+        "palavraChave": "metilcobalamina",
+        "demanda": {
+          "volume": 165000,
+          "classe": "alta",
+          "tendencia": null,
+          "concorrencia": "HIGH",
+          "fonte": "suplementos-volumes.json",
+          "fraseMedida": "metilcobalamina",
+          "porSimilar": false
+        },
+        "volume": 165000,
+        "cluster": null,
+        "apoio": [],
+        "perguntasDoGoogle": [],
+        "concorrentes": "não informado (concorrente não conferido)",
+        "lacunasCobertas": [],
+        "serp": null,
+        "fontesDaPauta": [
+          "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+          "https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/",
+          "https://medlineplus.gov/ency/article/000574.htm"
+        ],
+        "notas": "",
+        "briefing": null,
+        "validadoEm": "2026-10-12T11:02:56.931Z",
+        "observacao": "originalidade contra o concorrente não conferida automaticamente"
+      }
     }
   ],
   "stats": {
-    "total": 244,
-    "published": 31
+    "total": 247,
+    "published": 32
   }
 }
