@@ -97,10 +97,10 @@ for (let d = 0; d < DIAS; d++) {
     if (iVal < validadas.length) { const p = validadas[iVal++]; temas.add(p.cluster); sens ||= !!p.sensivel; return { tipo: 'novo (IA)', quem: 'Gemini, reserva Claude, SerpAPI antes', situacao: 'pauta validada', tema: p.cluster || '', frase: p.keyword, vol: p.volume || '', soma: '', sens: p.sensivel ? 'sim' : '', sats: (p.secundarias || []).slice(0, 5).map((x) => x.palavra).join(' | ') }; }
     return poolRow('novo (IA)', 'Gemini, reserva Claude, SerpAPI antes');
   };
-  doDia.push(novo()); // vaga 1
-  for (let j = 0; j < 2; j++) { // vagas 2 e 3: estoque pronto; acabando, também artigo novo pela API
+  // Pausado: sem artigo novo por IA. As 3 vagas são do estoque pronto (ou importado); se acabar, a vaga fica livre.
+  for (let j = 0; j < 3; j++) {
     if (iEst < estoque.length) { const a = estoque[iEst++]; doDia.push({ tipo: 'estoque (pronto)', quem: 'pronto, sem IA', situacao: 'pronto', tema: a.cluster || '', frase: a.primaryKeyword, vol: a.volume || '', soma: '', sens: '', sats: '', slug: a.slug }); }
-    else doDia.push(novo());
+    else doDia.push({ tipo: 'VAGA LIVRE (estoque acabou)', quem: '', situacao: 'sem artigo pronto', tema: '', frase: '', vol: '', soma: '', sens: '', sats: '' });
   }
   doDia.forEach((x, j) => saida.push({ data, mes: data.slice(0, 7), n: j + 1, ...x }));
 }
