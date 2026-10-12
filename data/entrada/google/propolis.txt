@@ -11,7 +11,7 @@ FONTE: Efficacy and Safety of Propolis for Treating Recurrent Aphthous Stomatiti
 FONTE: Contact Allergy to Propolis: Update 2013-2025 — PubMed | https://pubmed.ncbi.nlm.nih.gov/41346028/
 NOTA_CHAT: 9,1
 ---
-<p>A própolis é uma substância resinosa que as abelhas produzem a partir de materiais vegetais e usam na colmeia. Extratos e sprays são vendidos para diferentes finalidades, mas as evidências variam conforme o uso e a formulação. Ela pode causar alergias e não substitui tratamento médico quando há uma infecção ou outro problema de saúde.</p>
+<p>A própolis é uma substância resinosa que as abelhas produzem a partir de materiais vegetais. Extratos e sprays são vendidos para diferentes finalidades, mas as evidências variam conforme o uso. Ela pode causar alergias e não substitui tratamento médico.</p>
 
 <h2>O que é própolis e como é produzida?</h2>
 <p>As abelhas coletam resinas de brotos, cascas e outras partes de plantas, misturando-as com cera e secreções próprias. O material resultante é utilizado na colmeia para vedar pequenas aberturas e contribuir para a proteção do ambiente interno. A composição muda de acordo com a vegetação, a região, a época do ano e as espécies envolvidas.</p>
@@ -54,11 +54,11 @@ NOTA_CHAT: 9,1
 <p>Observe também as condições de conservação e a integridade da embalagem. Não utilize produtos vencidos, sem rótulo legível ou cuja procedência seja desconhecida. Se o produto provocar reação adversa, interrompa o uso e guarde a embalagem para que um profissional possa conferir os ingredientes.</p>
 <p>A própolis pode ser um tema legítimo de pesquisa, mas não deve ser tratada como solução universal. A qualidade do produto, a indicação e o histórico de saúde são mais importantes do que a popularidade de uma variedade ou a promessa de marketing.</p>
 
+<p>Para conhecer outro tema de prevenção, confira nosso guia sobre <a href="/vitamina-d/">vitamina D</a>; a necessidade de suplementação deve ser avaliada individualmente.</p>
+
 <h2>Quando procurar um médico</h2>
 <p>Procure atendimento se houver febre persistente, dor forte, piora dos sintomas, dificuldade para engolir, lesões na boca que não cicatrizam ou sinais de infecção que se espalha. Procure emergência diante de falta de ar, inchaço de língua ou garganta, desmaio ou suspeita de reação alérgica grave.</p>
 <p>Se você tem aftas frequentes, irritação persistente ou sintomas que voltam repetidamente, vale investigar a causa. O tratamento pode depender de fatores como trauma local, medicamentos, deficiências nutricionais ou outras condições. A própolis não deve atrasar esse processo.</p>
 
 <h2>Resumindo</h2>
 <p>A própolis é uma substância produzida pelas abelhas a partir de resinas vegetais e vendida em diferentes apresentações. Algumas pesquisas investigam usos específicos, mas a evidência ainda é limitada para muitas alegações populares. A composição varia entre produtos e existe risco de alergia, irritação e reações graves em pessoas sensíveis. Siga o rótulo, não substitua tratamentos prescritos e converse com um profissional antes de usar extratos concentrados, sobretudo se tiver alergias, doenças crônicas ou tomar medicamentos.</p>
-
-<p>Para entender outra área de prevenção e suplementação, confira também nosso guia sobre <a href="/vitamina-d/">vitamina D</a>, lembrando que a necessidade de suplementos deve ser avaliada individualmente.</p>
