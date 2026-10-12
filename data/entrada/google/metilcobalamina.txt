@@ -6,9 +6,9 @@ FOTO1_ALT: Pessoa realizando exame de sangue para investigar os níveis de vitam
 FOTO1_SECAO: 3
 FOTO2_ALT: Profissional de saúde orientando uma pessoa sobre suplementos
 FOTO2_SECAO: 5
-FONTE: Vitamin B12 | NIH Office of Dietary Supplements, profissionais de saúde | https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/
-FONTE: Vitamin B12 | NIH Office of Dietary Supplements, consumidores | https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/
-FONTE: Metformin and Vitamin B12 Deficiency | NIDDK | https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/metformin-vitamin-b12-deficiency
+FONTE: Vitamin B12: Fact Sheet for Health Professionals | NIH Office of Dietary Supplements | https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/
+FONTE: Vitamin B12: Fact Sheet for Consumers | NIH Office of Dietary Supplements | https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/
+FONTE: Vitamin B12 deficiency anemia | MedlinePlus Medical Encyclopedia | https://medlineplus.gov/ency/article/000574.htm
 NOTA_CHAT: 9,2
 ---
 <p>A metilcobalamina é uma forma da vitamina B12, nutriente necessário para o funcionamento do sistema nervoso, a formação de células sanguíneas e a produção de DNA. A suplementação pode ser útil em casos específicos, mas nem toda pessoa precisa tomar B12.</p>
@@ -65,7 +65,7 @@ NOTA_CHAT: 9,2
 <p>Uma alimentação variada pode contribuir para atender às necessidades, mas não resolve todas as causas de deficiência. Pessoas com problemas de absorção podem precisar de tratamento mesmo quando consomem alimentos que contêm a vitamina.</p>
 <p>Quem segue alimentação vegana precisa planejar fontes confiáveis de B12, geralmente por meio de alimentos fortificados e/ou suplementação orientada. Algas, fermentados ou produtos vegetais não fortificados não devem ser considerados fontes confiáveis sem evidência de conteúdo biodisponível.</p>
 <p>O objetivo é garantir uma fonte adequada e consistente, não escolher uma forma de suplemento pela promessa de ser mais natural. A decisão deve levar em conta a dieta, o histórico e a necessidade individual.</p>
-<p>Para mais orientações sobre cuidados gerais após os 40, consulte também o conteúdo sobre <a href="/vitamina-d/">vitamina D</a> e converse com um profissional sobre quais exames fazem sentido para você. Se dores nas costas também limitam sua rotina, leia o guia sobre <a href="/dores-lombares/">dores lombares</a>, sem presumir que todos os sintomas tenham a mesma causa.</p>
+<p>Para mais orientações sobre alimentação e saúde após os 40, consulte nosso guia sobre <a href="/proteina-mulheres-40/">proteína para mulheres depois dos 40</a>. Também vale acompanhar fatores cardiovasculares com informação confiável: veja o conteúdo sobre <a href="/colesterol-depois-dos-40/">colesterol depois dos 40</a>. A necessidade de exames e suplementos deve ser avaliada individualmente.</p>
 
 <h2>Quando procurar um médico</h2>
 <p>Procure avaliação se houver formigamento persistente, perda de sensibilidade, dificuldade de equilíbrio, fraqueza importante, palidez ou cansaço que não melhora. Esses sintomas podem indicar deficiência de B12 ou outras condições que precisam de investigação.</p>
