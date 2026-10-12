@@ -41,7 +41,7 @@ NOTA_CHAT: 9,1
 <p>Cansaço persistente pode estar relacionado a sono insuficiente, anemia, alterações da tireoide, efeitos de medicamentos, depressão, doenças crônicas ou outros fatores. Atribuir o sintoma automaticamente à falta de CoQ10 pode atrasar a identificação da causa.</p>
 <p>Se a fadiga interfere na rotina, vale conversar com um profissional de saúde antes de iniciar suplementos. A avaliação considera duração dos sintomas, alimentação, sono, atividade física, doenças conhecidas e medicamentos utilizados.</p>
 <p>O mesmo raciocínio vale para quem toma estatinas e sente dor muscular. A evidência disponível não demonstra benefício consistente da CoQ10 para esse problema. Não interrompa nem reduza o remédio por conta própria.</p>
-<p>Manter a força e a autonomia após os 40 também depende de atividade física regular, sono e alimentação adequada. Para entender outro aspecto importante do cuidado com o corpo, veja o guia sobre <a href="/dores-lombares/">dores lombares</a>.</p>
+<p>Manter a força e a autonomia após os 40 também depende de atividade física regular, sono e alimentação adequada. Para entender outro aspecto importante do cuidado com o corpo, veja o guia sobre <a href="/dores-lombares/">dores lombares</a>. Também vale conhecer o conteúdo sobre <a href="/vitamina-d/">vitamina D</a>, lembrando que cada suplemento tem indicações próprias.</p>
 
 <h2>Coenzima Q10: efeitos colaterais e segurança</h2>
 <p>A CoQ10 costuma ser bem tolerada em estudos, mas pode causar efeitos indesejados. Entre os relatados estão desconforto digestivo, náusea, alteração do apetite e dificuldade para dormir. A ausência de efeitos graves em estudos não garante risco zero para todas as pessoas.</p>
