@@ -12,6 +12,17 @@ const ARTICLES_FILE = path.join(__dirname, '../data/articles.json');
 const SITEMAP_FILE = path.join(__dirname, '../public/sitemap.xml');
 const SITE_URL = 'https://health-40-blog.vercel.app';
 
+// Escapa caracteres especiais do XML (&, <, >, aspas) em textos e URLs
+const esc = (s) => String(s ?? '')
+  .replace(/&/g, '&amp;')
+  .replace(/</g, '&lt;')
+  .replace(/>/g, '&gt;')
+  .replace(/"/g, '&quot;')
+  .replace(/'/g, '&apos;');
+
+// Imagem precisa de URL absoluta (o Google rejeita caminho relativo)
+const urlAbsoluta = (u) => (u.startsWith('http') ? u : `${SITE_URL}${u.startsWith('/') ? '' : '/'}${u}`);
+
 function generateSitemap() {
   try {
     const articlesData = JSON.parse(fs.readFileSync(ARTICLES_FILE, 'utf-8'));
@@ -56,7 +67,7 @@ function generateSitemap() {
 
       xml += `
   <url>
-    <loc>${SITE_URL}/${article.slug}</loc>
+    <loc>${esc(`${SITE_URL}/${article.slug}`)}</loc>
     <lastmod>${pubDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>`;
@@ -65,9 +76,9 @@ function generateSitemap() {
       if (article.featuredImage) {
         xml += `
     <image:image>
-      <image:loc>${article.featuredImage}</image:loc>
-      <image:title>${article.title}</image:title>
-      <image:caption>${article.description}</image:caption>
+      <image:loc>${esc(urlAbsoluta(article.featuredImage))}</image:loc>
+      <image:title>${esc(article.title)}</image:title>
+      <image:caption>${esc(article.description)}</image:caption>
     </image:image>`;
       }
 
