@@ -6034,7 +6034,7 @@
         ]
       },
       "volume": 12100,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T17:59:49.517Z",
       "scores": {
         "auditoria": 91,
@@ -6102,7 +6102,7 @@
         "pexels:15010284"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-04T17:59:51.809Z",
       "validacao": {
         "palavraChave": "lanche saudável",
@@ -6184,7 +6184,9 @@
           ]
         },
         "validadoEm": "2026-10-04T17:59:51.809Z"
-      }
+      },
+      "publishedAt": "2026-10-13T11:00:37.756Z",
+      "publicadoDoEstoqueEm": "2026-10-13T11:00:37.756Z"
     },
     {
       "id": "art_1791136872126_fj2s",
@@ -37743,6 +37745,6 @@
   ],
   "stats": {
     "total": 247,
-    "published": 34
+    "published": 35
   }
 }

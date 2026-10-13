@@ -1,7 +1,7 @@
 {
  "resumo": {
-  "publicados": 34,
-  "prontosParaUsar": 171,
+  "publicados": 35,
+  "prontosParaUsar": 170,
   "pautasValidadasSemTexto": 17,
   "planejadasAValidar": 886,
   "vagas": 146,
@@ -629,15 +629,15 @@
    "palavraChave": "lanche saudável",
    "cluster": "nutricao",
    "volume": 12100,
-   "status": "pronto",
+   "status": "publicado",
    "palavras": 1511,
    "h2": 10,
    "imagens": 3,
    "fontes": 8,
    "auditoria": 91,
-   "publicadoEm": null,
+   "publicadoEm": "2026-10-13T11:00:37.756Z",
    "escritoEm": "2026-10-04T17:59:51.809Z",
-   "previstoPara": "2026-10-17",
+   "previstoPara": null,
    "pontesSugeridas": [
     "café da manhã saudável",
     "jantar saudável"
