@@ -4,7 +4,7 @@
 export const SITE = {
   name: 'Saúde 40+',
   // Host canônico
-  url: 'https://health-40-blog.vercel.app',
+  url: 'https://40mais.blog',
   lang: 'pt-BR',
   locale: 'pt_BR',
   tagline: 'Saúde e bem-estar para quem tem 40+',

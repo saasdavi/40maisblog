@@ -266,7 +266,7 @@ async function publishArticle(article) {
       ...articleWithImages,
       status: 'published',
       publishedAt: new Date().toISOString(),
-      url: `https://health-40-blog.vercel.app/${article.slug}`,
+      url: `https://40mais.blog/${article.slug}`,
       committed: committed
     };
   } catch (error) {

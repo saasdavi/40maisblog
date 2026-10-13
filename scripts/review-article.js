@@ -155,10 +155,10 @@ function generateSEOMetadata(article) {
       ...secondaryKeywords,
       ...longTails
     ].slice(0, 10),
-    canonical: `https://health-40-blog.vercel.app/${article.slug}`,
+    canonical: `https://40mais.blog/${article.slug}`,
     ogTitle: article.title,
     ogDescription: article.description,
-    ogUrl: `https://health-40-blog.vercel.app/${article.slug}`,
+    ogUrl: `https://40mais.blog/${article.slug}`,
     twitterCard: 'summary_large_image'
   };
 }
