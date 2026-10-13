@@ -1,0 +1,67 @@
+PALAVRA_CHAVE: bursite
+TITLE: Bursite: Sintomas, Causas e Tratamento
+DESCRIPTION: Bursite causa dor e inchaço perto das articulações. Entenda os sintomas, as causas mais comuns, os tratamentos e quando procurar avaliação médica.
+CAPA_ALT: Pessoa segurando o ombro dolorido após esforço físico
+FOTO1_ALT: Profissional de saúde avaliando a mobilidade do ombro de um paciente
+FOTO2_ALT: Pessoa fazendo alongamento leve para cuidar das articulações
+FONTE: Bursitis: Symptoms and causes | Mayo Clinic | https://www.mayoclinic.org/diseases-conditions/bursitis/symptoms-causes/syc-20353242
+FONTE: Bursitis: Diagnosis and treatment | Mayo Clinic | https://www.mayoclinic.org/diseases-conditions/bursitis/diagnosis-treatment/drc-20353247
+FONTE: Bursitis | NHS | https://www.nhs.uk/conditions/bursitis/
+NOTA_CHAT: 9,0
+---
+<p><strong>Bursite</strong> é a inflamação de uma bursa, pequena bolsa com líquido que reduz o atrito entre ossos, tendões e músculos perto das articulações. Pode provocar dor, sensibilidade, inchaço e dificuldade para movimentar a região afetada. O tratamento depende da causa e da intensidade dos sintomas.</p>
+<h2>O que é bursite e por que ela aparece?</h2>
+<p>As bursas funcionam como pequenas almofadas naturais. Elas ajudam as estruturas próximas às articulações a deslizar durante os movimentos. Quando uma dessas bolsas fica irritada ou inflamada, surge a bursite.</p>
+<p>O problema pode aparecer depois de movimentos repetitivos, pressão prolongada sobre uma articulação, pancada ou lesão. Também pode estar associado a condições como gota, artrite reumatoide e, em alguns casos, infecção.</p>
+<p>Ter dor perto de uma articulação não significa necessariamente ter bursite. Tendinites, artrite, lesões musculares e outros problemas podem causar sintomas parecidos. Por isso, a avaliação clínica é importante quando a dor persiste ou limita as atividades.</p>
+<h2>Bursite: sintomas mais comuns</h2>
+<p>Os sinais variam conforme a bursa afetada e a causa da inflamação. Entre os sintomas mais frequentes estão:</p>
+<ul><li>Dor localizada, que pode piorar ao movimentar ou pressionar a região.</li><li>Sensibilidade ao toque e desconforto ao apoiar o peso do corpo.</li><li>Inchaço próximo à articulação.</li><li>Rigidez ou redução da amplitude dos movimentos.</li><li>Calor e vermelhidão na pele em alguns casos.</li></ul>
+<p>A dor pode ser discreta no início e aumentar com atividades repetidas. Em outras situações, aparece de forma mais rápida após uma lesão. Febre, vermelhidão intensa ou piora rápida exigem atenção porque podem indicar infecção, e não apenas irritação mecânica.</p>
+<p>Não é possível confirmar a causa somente pela aparência ou pelo local da dor. Uma pessoa com ombro dolorido, por exemplo, pode ter bursite, tendinite, lesão do manguito rotador ou outra condição que precisa de abordagem diferente.</p>
+<h2>Onde a bursite costuma aparecer?</h2>
+<p>O ombro, o cotovelo, o quadril, o joelho e o calcanhar estão entre as regiões mais afetadas. A localização costuma estar relacionada às atividades realizadas e à pressão exercida sobre a articulação.</p>
+<h3>Bursite no ombro</h3>
+<p>Pode causar dor ao levantar o braço, alcançar objetos em prateleiras ou dormir sobre o lado afetado. Movimentos acima da cabeça, quando repetidos sem recuperação adequada, podem contribuir para a irritação local.</p>
+<h3>Bursite no quadril</h3>
+<p>O desconforto costuma ser percebido na parte lateral do quadril. Pode piorar ao deitar sobre esse lado, caminhar por muito tempo ou subir escadas. Dor nessa região também pode ter origem em tendões ou na própria articulação.</p>
+<h3>Bursite no joelho</h3>
+<p>Pode surgir após ajoelhar repetidamente, sofrer uma pancada ou manter pressão prolongada sobre a frente do joelho. Inchaço e dor ao apoiar a região merecem avaliação se não melhorarem.</p>
+<h3>Bursite no cotovelo</h3>
+<p>O cotovelo pode ficar inchado, sensível e dolorido, especialmente depois de apoiar a região em superfícies duras por muito tempo. Vermelhidão acentuada, calor e febre levantam a suspeita de infecção.</p>
+<h2>Quais são as causas e os fatores de risco?</h2>
+<p>Uma causa frequente é a repetição de movimentos que sobrecarregam a mesma região. Pintar paredes, jogar certos esportes, trabalhar ajoelhado, carregar cargas ou executar tarefas manuais repetidas pode aumentar o atrito e a pressão sobre as bursas.</p>
+<p>Uma queda ou pancada também pode desencadear a inflamação. Algumas doenças inflamatórias, a gota e infecções podem estar envolvidas. A idade, por si só, não explica todos os casos, mas a bursite torna-se mais comum com o envelhecimento e pode coexistir com outros problemas articulares.</p>
+<p>O excesso de peso pode aumentar a carga sobre algumas articulações, como joelhos e quadris. Isso não significa que toda pessoa com sobrepeso terá bursite, nem que a condição seja resultado de um único fator. Em geral, vários elementos podem contribuir.</p>
+<p>Identificar o que provoca os sintomas ajuda a orientar o cuidado. Se a dor começou após uma mudança no treino, uma tarefa nova ou longos períodos ajoelhado, conte isso ao profissional de saúde.</p>
+<h2>Como é feito o diagnóstico?</h2>
+<p>O diagnóstico costuma começar com perguntas sobre o início da dor, as atividades habituais, lesões anteriores e condições de saúde. Durante o exame físico, o profissional avalia o inchaço, a sensibilidade e os movimentos da articulação.</p>
+<p>Nem todos precisam de exames de imagem. Radiografias podem ajudar a investigar outras causas, enquanto ultrassom ou ressonância magnética podem ser indicados em situações específicas. Se houver suspeita de infecção ou gota, exames de sangue ou análise do líquido da bursa podem ser necessários.</p>
+<p>Não existe um único exame que seja obrigatório para todos os casos. A escolha depende da região afetada, do exame físico e da evolução dos sintomas. Evite concluir que é bursite apenas porque a dor aparece em um local comum.</p>
+<h2>Como tratar bursite com segurança?</h2>
+<p>O tratamento varia conforme a origem do problema. Em muitos casos, a primeira etapa é reduzir temporariamente as atividades que provocam dor e proteger a articulação de novas sobrecargas. Repouso relativo não significa permanecer imóvel por tempo indefinido.</p>
+<p>Aplicar gelo envolto em um pano pode ajudar a aliviar o desconforto e o inchaço, principalmente no início. Não coloque gelo diretamente sobre a pele e interrompa a aplicação se houver dor ou alteração importante de sensibilidade.</p>
+<p>Medicamentos para dor ou inflamação podem ser considerados, mas não são adequados para todas as pessoas. Anti-inflamatórios, por exemplo, podem trazer riscos para quem tem doença renal, problemas gástricos, pressão alta, usa anticoagulantes ou apresenta outras condições. Peça orientação a um profissional ou farmacêutico antes de utilizá-los.</p>
+<p>Quando os sintomas persistem, a fisioterapia pode ajudar a recuperar mobilidade e fortalecer os músculos que dão suporte à articulação. O programa deve ser ajustado à região afetada e à fase de recuperação. Exercícios que aumentam a dor precisam ser revistos, não forçados.</p>
+<p>Em situações selecionadas, o médico pode considerar uma infiltração com corticoide ou outros procedimentos. Se a causa for uma infecção, o tratamento é diferente e pode exigir antibióticos e drenagem. Cirurgia é incomum e reservada a casos específicos.</p>
+<h2>O que fazer em casa e o que evitar?</h2>
+<p>Durante a recuperação, procure manter alguma atividade que não agrave os sintomas, respeitando as orientações recebidas. Faça pausas em tarefas repetitivas e alterne movimentos para não sobrecarregar continuamente a mesma articulação.</p>
+<ul><li>Evite apoiar o cotovelo ou ajoelhar por períodos prolongados; use acolchoamento quando necessário.</li><li>Reduza temporariamente os movimentos que reproduzem a dor.</li><li>Retome exercícios gradualmente, conforme a melhora e a orientação profissional.</li><li>Não perfure, aperte ou tente drenar um inchaço em casa.</li><li>Não use antibióticos ou pomadas por conta própria.</li></ul>
+<p>Massagens fortes sobre uma região muito dolorida ou quente podem piorar o desconforto. Também não é indicado imobilizar uma articulação por conta própria durante longos períodos, pois a falta de movimento pode aumentar a rigidez.</p>
+<p>Se a rotina de trabalho exige esforço repetitivo, vale conversar sobre ajustes ergonômicos, pausas e ferramentas que reduzam a pressão na região. Manter hábitos de movimento adaptados à idade e às condições físicas também é importante; veja orientações gerais em <a href="/lanche-saudavel/">lanche saudável</a> para apoiar a saúde geral, sem considerar a alimentação um tratamento para bursite.</p>
+<h2>Quanto tempo demora para melhorar?</h2>
+<p>Muitos casos melhoram ao longo de algumas semanas com redução da sobrecarga e cuidados apropriados. O prazo depende da causa, da articulação afetada, da intensidade da inflamação e de possíveis doenças associadas.</p>
+<p>Os sintomas podem retornar se a pessoa retomar a atividade desencadeante muito cedo ou mantiver a mesma pressão sobre a bursa. A melhora da dor não significa necessariamente que seja seguro voltar imediatamente à carga habitual.</p>
+<p>Se a dor não melhora, volta com frequência ou limita atividades básicas, é importante reavaliar o diagnóstico e o plano de tratamento. A persistência pode indicar que existe outra condição ou que o cuidado precisa ser ajustado.</p>
+<h2>Como prevenir novas crises?</h2>
+<p>Faça pausas durante tarefas repetitivas, alterne posições e evite apoiar diretamente as articulações em superfícies duras por longos períodos. Use joelheiras ou acolchoamento adequado em atividades que exigem ajoelhar.</p>
+<p>Antes de atividades físicas intensas, faça aquecimento e aumente a carga gradualmente. Fortalecer a musculatura com orientação adequada pode ajudar a proteger as articulações. Se um movimento causa dor recorrente, ajuste a técnica ou procure orientação profissional.</p>
+<p>Manter um peso adequado para sua saúde e controlar condições como artrite ou gota também pode contribuir para o cuidado articular. Uma alimentação variada e hábitos de saúde consistentes apoiam o bem-estar geral, embora não previnam todos os casos de bursite.</p>
+<h2>Quando procurar um médico</h2>
+<p>Procure avaliação se a dor limita atividades diárias, a articulação perde mobilidade, o inchaço é importante ou os sintomas persistem apesar dos cuidados iniciais. Também busque orientação quando a dor aparece repetidamente ou após uma lesão relevante.</p>
+<p>Febre, calor local intenso, vermelhidão que aumenta rapidamente, dor forte ou mal-estar associado ao inchaço exigem atendimento rápido, pois podem sinalizar infecção. Não espere semanas se houver esses sinais.</p>
+<p>Leve à consulta informações sobre quando os sintomas começaram, o que piora ou alivia a dor e os medicamentos que utiliza. Isso ajuda o profissional a decidir se são necessários exames ou tratamentos específicos.</p>
+<h2>Resumindo</h2>
+<p>A bursite é a inflamação de uma bolsa que reduz o atrito perto das articulações. Pode provocar dor, inchaço e dificuldade para movimentar o ombro, cotovelo, quadril, joelho ou outras regiões.</p>
+<p>O tratamento costuma envolver reduzir a sobrecarga, aliviar os sintomas e recuperar os movimentos gradualmente. Fisioterapia e medicamentos podem ser indicados conforme cada caso, enquanto infecções exigem cuidados específicos.</p>
+<p>Não tente diagnosticar nem tratar uma articulação muito inchada por conta própria. Se houver febre, vermelhidão intensa, dor importante ou dificuldade persistente para se movimentar, procure avaliação médica.</p>
