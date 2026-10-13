@@ -6240,7 +6240,7 @@
         ]
       },
       "volume": 12100,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T18:01:12.126Z",
       "scores": {
         "auditoria": 87,
@@ -6308,7 +6308,7 @@
         "pexels:7321230"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-04T18:01:14.635Z",
       "validacao": {
         "palavraChave": "cabelos brancos",
@@ -6402,7 +6402,9 @@
           ]
         },
         "validadoEm": "2026-10-04T18:01:14.635Z"
-      }
+      },
+      "publishedAt": "2026-10-13T15:30:49.537Z",
+      "publicadoDoEstoqueEm": "2026-10-13T15:30:49.537Z"
     },
     {
       "id": "art_1791137017193_f3b4",
@@ -37745,6 +37747,6 @@
   ],
   "stats": {
     "total": 247,
-    "published": 35
+    "published": 36
   }
 }

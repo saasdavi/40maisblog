@@ -1,7 +1,7 @@
 {
  "resumo": {
-  "publicados": 35,
-  "prontosParaUsar": 170,
+  "publicados": 36,
+  "prontosParaUsar": 169,
   "pautasValidadasSemTexto": 17,
   "planejadasAValidar": 886,
   "vagas": 146,
@@ -649,15 +649,15 @@
    "palavraChave": "cabelos brancos",
    "cluster": "pele-cabelo",
    "volume": 12100,
-   "status": "pronto",
+   "status": "publicado",
    "palavras": 1820,
    "h2": 11,
    "imagens": 3,
    "fontes": 4,
    "auditoria": 87,
-   "publicadoEm": null,
+   "publicadoEm": "2026-10-13T15:30:49.537Z",
    "escritoEm": "2026-10-04T18:01:14.635Z",
-   "previstoPara": "2026-10-17",
+   "previstoPara": null,
    "pontesSugeridas": []
   },
   {
