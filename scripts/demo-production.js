@@ -84,7 +84,7 @@ try {
     ...article,
     status: 'published',
     publishedAt: new Date().toISOString(),
-    url: `https://health-40-blog.vercel.app/${article.slug}`,
+    url: `https://40mais.blog/${article.slug}`,
     scores: scores,
     metrics: metrics,
     featuredImage: 'https://images.pexels.com/[image-id]'

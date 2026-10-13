@@ -291,7 +291,7 @@ try {
     console.log(`   🔗 Git: Commit + Push`);
     console.log(`   ✅ Vercel: Auto-deploy\n`);
     console.log(`🌐 LIVE:`);
-    console.log(`   https://health-40-blog.vercel.app/${article.slug}`);
+    console.log(`   https://40mais.blog/${article.slug}`);
     console.log(`   Status: published\n`);
 
     // Add to articles data with all info
@@ -310,7 +310,7 @@ try {
         ].slice(0, 10)
       },
       featuredImage: `https://images.pexels.com/[pexel-image-${i+1}]`,
-      url: `https://health-40-blog.vercel.app/${article.slug}`,
+      url: `https://40mais.blog/${article.slug}`,
       createdAt: new Date().toISOString()
     });
   }
@@ -340,7 +340,7 @@ try {
       console.log(`      Keyword: "${article.keywords.primaryKeyword}"`);
       console.log(`      Words: ${article.wordCount} | Read: ${data.metrics.readTime} min`);
       console.log(`      Score: ${data.scores.overall}/100`);
-      console.log(`      URL: https://health-40-blog.vercel.app/${article.slug}`);
+      console.log(`      URL: https://40mais.blog/${article.slug}`);
       console.log(`      Status: ✅ Ready for Publication`);
     }
   });

@@ -13,7 +13,7 @@ Disallow: /node_modules/
 Disallow: /.git/
 
 # Sitemaps
-Sitemap: https://health-40-blog.vercel.app/sitemap.xml
+Sitemap: https://40mais.blog/sitemap.xml
 
 # Crawl delay para não sobrecarregar servidor
 Crawl-delay: 1

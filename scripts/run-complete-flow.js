@@ -115,7 +115,7 @@ function showSummary() {
     }
 
     console.log(`\n🌐 Blog:`);
-    console.log(`   https://health-40-blog.vercel.app\n`);
+    console.log(`   https://40mais.blog\n`);
 
   } catch (error) {
     console.log(`Erro ao gerar resumo: ${error.message}\n`);

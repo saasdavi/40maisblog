@@ -10,7 +10,7 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ARTICLES_FILE = path.join(__dirname, '../data/articles.json');
 const SITEMAP_FILE = path.join(__dirname, '../public/sitemap.xml');
-const SITE_URL = 'https://health-40-blog.vercel.app';
+const SITE_URL = 'https://40mais.blog';
 
 // Escapa caracteres especiais do XML (&, <, >, aspas) em textos e URLs
 const esc = (s) => String(s ?? '')
