@@ -6466,7 +6466,7 @@
         ]
       },
       "volume": 9900,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T18:03:37.193Z",
       "scores": {
         "auditoria": 100,
@@ -6532,7 +6532,7 @@
         "pexels:5888064"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-04T18:03:39.388Z",
       "validacao": {
         "palavraChave": "câimbras nas pernas",
@@ -6595,7 +6595,9 @@
           ]
         },
         "validadoEm": "2026-10-04T18:03:39.388Z"
-      }
+      },
+      "publishedAt": "2026-10-13T21:00:36.897Z",
+      "publicadoDoEstoqueEm": "2026-10-13T21:00:36.897Z"
     },
     {
       "id": "art_1791137110841_fi19",
@@ -37747,6 +37749,6 @@
   ],
   "stats": {
     "total": 247,
-    "published": 36
+    "published": 37
   }
 }

@@ -1,7 +1,7 @@
 {
  "resumo": {
-  "publicados": 36,
-  "prontosParaUsar": 169,
+  "publicados": 37,
+  "prontosParaUsar": 168,
   "pautasValidadasSemTexto": 17,
   "planejadasAValidar": 886,
   "vagas": 146,
@@ -666,15 +666,15 @@
    "palavraChave": "câimbras nas pernas",
    "cluster": "musculo-e-forca",
    "volume": 9900,
-   "status": "pronto",
+   "status": "publicado",
    "palavras": 1372,
    "h2": 12,
    "imagens": 3,
    "fontes": 6,
    "auditoria": 100,
-   "publicadoEm": null,
+   "publicadoEm": "2026-10-13T21:00:36.897Z",
    "escritoEm": "2026-10-04T18:03:39.388Z",
-   "previstoPara": "2026-10-18",
+   "previstoPara": null,
    "pontesSugeridas": []
   },
   {
