@@ -5,37 +5,37 @@
 
   <url>
     <loc>https://health-40-blog.vercel.app/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://health-40-blog.vercel.app/artigos/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://health-40-blog.vercel.app/sobre</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://health-40-blog.vercel.app/contato</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://health-40-blog.vercel.app/politica-privacidade</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://health-40-blog.vercel.app/termos-uso</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -45,7 +45,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/colesterol-depois-dos-40/colesterol-depois-dos-40-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/colesterol-depois-dos-40/colesterol-depois-dos-40-capa.jpg</image:loc>
       <image:title>Como Baixar Colesterol: Guia Prático 40+</image:title>
       <image:caption>Como baixar colesterol com mudanças reais: reduza gorduras saturadas, aumente fibras e exercícios. Saiba o que comer e evitar.</image:caption>
     </image:image>
@@ -56,7 +56,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/proteina-mulheres-40/proteina-mulheres-40-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/proteina-mulheres-40/proteina-mulheres-40-capa.jpg</image:loc>
       <image:title>Quanto de proteína por dia: guia para mulheres 40+</image:title>
       <image:caption>Descubra quanto de proteína por dia você precisa consumir após os 40 anos. Cálculo simples, fontes práticas e dicas para manter a massa muscular.</image:caption>
     </image:image>
@@ -67,7 +67,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/meditacao-ansiedade-40/meditacao-ansiedade-40-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/meditacao-ansiedade-40/meditacao-ansiedade-40-capa.jpg</image:loc>
       <image:title>Como Meditar: Guia Prático para Mulheres 40+</image:title>
       <image:caption>Aprenda como meditar em casa com técnicas simples. Guia passo a passo, tipos de meditação e dicas para criar o hábito. Comece agora.</image:caption>
     </image:image>
@@ -78,7 +78,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://images.pexels.com/photos/6798542/pexels-photo-6798542.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940</image:loc>
+      <image:loc>https://images.pexels.com/photos/6798542/pexels-photo-6798542.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940</image:loc>
       <image:title>Triglicerídeos altos sintomas: sinais e riscos</image:title>
       <image:caption>Triglicerídeos altos sintomas: na maioria dos casos não há sinais. Veja o que aparece na pele, quais níveis preocupam e quando procurar o médico.</image:caption>
     </image:image>
@@ -89,7 +89,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/o-que-e-gordura-visceral/o-que-e-gordura-visceral-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/o-que-e-gordura-visceral/o-que-e-gordura-visceral-capa.jpg</image:loc>
       <image:title>O que é gordura visceral e por que ela preocupa</image:title>
       <image:caption>O que é gordura visceral, onde ela fica, como difere da gordura abdominal e da subcutânea e o que fazer depois dos 40 para reduzir o risco.</image:caption>
     </image:image>
@@ -100,7 +100,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/o-que-e-perimenopausa/o-que-e-perimenopausa-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/o-que-e-perimenopausa/o-que-e-perimenopausa-capa.jpg</image:loc>
       <image:title>O que é perimenopausa: tudo sobre essa transição</image:title>
       <image:caption>Perimenopausa é a transição antes da menopausa. Conheça os sinais, quando começa e o que fazer para lidar com essa fase da vida.</image:caption>
     </image:image>
@@ -111,7 +111,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/o-que-e-resistencia-a-insulina/o-que-e-resistencia-a-insulina-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/o-que-e-resistencia-a-insulina/o-que-e-resistencia-a-insulina-capa.jpg</image:loc>
       <image:title>O que é Resistência à Insulina: Guia 40+</image:title>
       <image:caption>Resistência à insulina é quando as células não respondem bem à insulina. Conheça sintomas, diferenças do diabetes e como mudar sua alimentação.</image:caption>
     </image:image>
@@ -122,7 +122,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/hemoglobina-glicada/hemoglobina-glicada-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/hemoglobina-glicada/hemoglobina-glicada-capa.jpg</image:loc>
       <image:title>Hemoglobina Glicada: Valores e O Que Significa</image:title>
       <image:caption>Hemoglobina glicada é o exame que mostra seu controle de glicose nos últimos 3 meses. Entenda valores, sintomas e quando se preocupar.</image:caption>
     </image:image>
@@ -133,7 +133,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/labirintite/labirintite-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/labirintite/labirintite-capa.jpg</image:loc>
       <image:title>Labirintite: O Que É, Sintomas e Como Tratar</image:title>
       <image:caption>Labirintite é inflamação do labirinto. Conheça sintomas reais, causas e tratamento seguro para recuperar seu equilíbrio e qualidade de vida.</image:caption>
     </image:image>
@@ -144,7 +144,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/gordura-no-figado/gordura-no-figado-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/gordura-no-figado/gordura-no-figado-capa.jpg</image:loc>
       <image:title>Gordura no Fígado: Causas, Sintomas e Como Reverter</image:title>
       <image:caption>Gordura no fígado afeta milhões. Saiba o que causa, reconheça sintomas e descubra como reverter essa condição silenciosa com mudanças simples.</image:caption>
     </image:image>
@@ -155,7 +155,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/dores-lombares/dores-lombares-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/dores-lombares/dores-lombares-capa.jpg</image:loc>
       <image:title>Dores Lombares: Causas e Alívio Prático</image:title>
       <image:caption>Dores lombares afetam sua rotina? Descubra as principais causas, sinais de alerta e estratégias práticas para aliviar a dor na lombar.</image:caption>
     </image:image>
@@ -166,7 +166,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/sintomas-de-diabetes/sintomas-de-diabetes-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/sintomas-de-diabetes/sintomas-de-diabetes-capa.jpg</image:loc>
       <image:title>Sintomas de Diabetes: 7 Sinais de Alerta para Mulheres 40+</image:title>
       <image:caption>Conheça os 7 sintomas de diabetes mais comuns e os sinais silenciosos que aparecem após os 40. Saiba como desconfiar da doença e quando procurar ajuda.</image:caption>
     </image:image>
@@ -177,7 +177,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/cortisol-alto/cortisol-alto-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/cortisol-alto/cortisol-alto-capa.jpg</image:loc>
       <image:title>Cortisol Alto: Como Controlar o Hormônio do Estresse</image:title>
       <image:caption>Cortisol alto causa ganho de peso, fadiga e alterações de humor. Veja os 7 sinais, o que reduz e quando procurar médico com segurança.</image:caption>
     </image:image>
@@ -188,7 +188,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/azia/azia-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/azia/azia-capa.jpg</image:loc>
       <image:title>Azia: Causas, Alívio e Quando Procurar Médico</image:title>
       <image:caption>Azia é queimação no peito após comer. Descubra as causas reais, como aliviar o desconforto e quando buscar ajuda médica. Guia prático 40+.</image:caption>
     </image:image>
@@ -199,7 +199,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/varizes/varizes-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/varizes/varizes-capa.jpg</image:loc>
       <image:title>Varizes nas Pernas: Guia Completo para Tratar</image:title>
       <image:caption>Varizes nas pernas: saiba diferenciar de vasinhos, sintomas reais, causas e tratamentos modernos. Guia prático para mulheres 40+.</image:caption>
     </image:image>
@@ -210,7 +210,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/dor-nas-costas/dor-nas-costas-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/dor-nas-costas/dor-nas-costas-capa.jpg</image:loc>
       <image:title>Dor nas Costas: Causas e Sinais de Alerta</image:title>
       <image:caption>Dor nas costas: veja as causas mais comuns, como diferenciar dor muscular de problema nos rins, os sinais que pedem médico e o que ajuda no alívio.</image:caption>
     </image:image>
@@ -221,7 +221,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/alimentos-ricos-em-fibras/alimentos-ricos-em-fibras-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/alimentos-ricos-em-fibras/alimentos-ricos-em-fibras-capa.jpg</image:loc>
       <image:title>Alimentos Ricos em Fibras: Guia Prático 40+</image:title>
       <image:caption>Descubra quais alimentos ricos em fibras ajudam seu intestino, controlam diabetes e auxiliam no emagrecimento. Guia completo para mulheres 40+.</image:caption>
     </image:image>
@@ -232,7 +232,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/insonia/insonia-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/insonia/insonia-capa.jpg</image:loc>
       <image:title>Insônia: Causas, Tipos e Como Resolver</image:title>
       <image:caption>Insônia afeta sua qualidade de vida. Saiba o que causa, os 3 tipos principais e estratégias práticas para dormir melhor depois dos 40.</image:caption>
     </image:image>
@@ -243,7 +243,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/ritmo-circadiano/ritmo-circadiano-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/ritmo-circadiano/ritmo-circadiano-capa.jpg</image:loc>
       <image:title>Ritmo Circadiano: Restaure o Sono Após 40</image:title>
       <image:caption>Ritmo circadiano é seu relógio biológico de 24h. Descubra como regulá-lo, sinais de desregulação e técnicas práticas para dormir melhor aos 40+.</image:caption>
     </image:image>
@@ -254,7 +254,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/andropausa/andropausa-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/andropausa/andropausa-capa.jpg</image:loc>
       <image:title>Andropausa: Sintomas, Idade e Como Lidar</image:title>
       <image:caption>Andropausa é a queda de testosterona nos homens após 40 anos. Conheça os 9 sintomas principais, quando investigar e como melhorar a qualidade de vida.</image:caption>
     </image:image>
@@ -265,7 +265,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/barriga-inchada/barriga-inchada-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/barriga-inchada/barriga-inchada-capa.jpg</image:loc>
       <image:title>Barriga Inchada: Causas e Como Aliviar</image:title>
       <image:caption>Barriga inchada afeta muitas mulheres 40+. Descubra as causas reais, sintomas de alerta e ações práticas para aliviar o desconforto.</image:caption>
     </image:image>
@@ -276,7 +276,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/prisao-de-ventre/prisao-de-ventre-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/prisao-de-ventre/prisao-de-ventre-capa.jpg</image:loc>
       <image:title>Prisão de Ventre: O Que Fazer e Causas</image:title>
       <image:caption>Prisão de ventre: veja o que fazer para aliviar com segurança, as causas comuns (e os medicamentos que prendem o intestino) e os sinais que pedem um médico.</image:caption>
     </image:image>
@@ -287,7 +287,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/sindrome-do-intestino-irritavel/sindrome-do-intestino-irritavel-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/sindrome-do-intestino-irritavel/sindrome-do-intestino-irritavel-capa.jpg</image:loc>
       <image:title>Síndrome do Intestino Irritável: Controle Agora</image:title>
       <image:caption>Síndrome do intestino irritável causa desconforto recorrente. Veja sintomas, alimentos a evitar, dieta low FODMAP e como controlar crises no dia a dia.</image:caption>
     </image:image>
@@ -298,7 +298,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/glicemia-normal/glicemia-normal-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/glicemia-normal/glicemia-normal-capa.jpg</image:loc>
       <image:title>Glicemia normal: valores por idade e quando procurar ajuda</image:title>
       <image:caption>Glicemia normal varia conforme a idade. Saiba os valores ideais em jejum, após comer e quando procurar um médico. Guia prático para mulheres 40+.</image:caption>
     </image:image>
@@ -309,7 +309,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/inchaco-nas-pernas/inchaco-nas-pernas-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/inchaco-nas-pernas/inchaco-nas-pernas-capa.jpg</image:loc>
       <image:title>Inchaço nas Pernas: Causas e Alívio Prático</image:title>
       <image:caption>Inchaço nas pernas pode indicar má circulação, retenção de líquido ou doenças sistêmicas. Veja causas, sinais de alerta e o que fazer.</image:caption>
     </image:image>
@@ -320,7 +320,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/moscas-volantes/moscas-volantes-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/moscas-volantes/moscas-volantes-capa.jpg</image:loc>
       <image:title>Moscas Volantes: Quando São Normais</image:title>
       <image:caption>Moscas volantes são manchas que se movem na visão. Veja causas, quando indicam risco de descolamento de retina e o que fazer.</image:caption>
     </image:image>
@@ -331,7 +331,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/alimentos-ricos-em-ferro/alimentos-ricos-em-ferro-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/alimentos-ricos-em-ferro/alimentos-ricos-em-ferro-capa.jpg</image:loc>
       <image:title>Alimentos Ricos em Ferro: Absorção Prática 40+</image:title>
       <image:caption>Alimentos ricos em ferro que seu corpo realmente absorve. Guia prático com frutas, legumes, sucos e estratégias simples para mulheres 40+.</image:caption>
     </image:image>
@@ -342,7 +342,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/nocturia/nocturia-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/nocturia/nocturia-capa.jpg</image:loc>
       <image:title>Noctúria: Por Que Acorda à Noite para Urinar</image:title>
       <image:caption>Noctúria é acordar 2+ vezes à noite para urinar. Descubra causas, como combater e quando procurar médico. Guia completo para dormir melhor.</image:caption>
     </image:image>
@@ -353,7 +353,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/queda-de-cabelo/queda-de-cabelo-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/queda-de-cabelo/queda-de-cabelo-capa.jpg</image:loc>
       <image:title>Queda de Cabelo: Saiba Quando é Normal Tratar</image:title>
       <image:caption>Queda de cabelo normal ou sinal de alerta? Descubra as causas reais, deficiências nutricionais e quando procurar um dermatologista para tratar.</image:caption>
     </image:image>
@@ -364,7 +364,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/presbiopia/presbiopia-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/presbiopia/presbiopia-capa.jpg</image:loc>
       <image:title>Presbiopia: Como Corrigir Sua Visão de Perto</image:title>
       <image:caption>Presbiopia é dificuldade para ler de perto após os 40 anos. Veja as melhores formas de corrigir, diferenças com miopia e quando procurar o médico.</image:caption>
     </image:image>
@@ -375,7 +375,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/manchas-na-pele/manchas-na-pele-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/manchas-na-pele/manchas-na-pele-capa.jpg</image:loc>
       <image:title>Manchas na Pele: Guia Completo para Identificar o Risco</image:title>
       <image:caption>Manchas na pele podem ser inofensivas ou sinais de alerta. Saiba quais tipos merecem atenção médica urgente e como agir.</image:caption>
     </image:image>
@@ -386,7 +386,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/vitamina-d-baixa-sintomas/vitamina-d-baixa-sintomas-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/vitamina-d-baixa-sintomas/vitamina-d-baixa-sintomas-capa.jpg</image:loc>
       <image:title>Vitamina D Baixa Sintomas: Reconheça os Sinais</image:title>
       <image:caption>Vitamina D baixa sintomas podem ser sutis, mas afetam sua saúde. Descubra o que observar e como repor esse nutriente essencial.</image:caption>
     </image:image>
@@ -397,7 +397,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/como-controlar-a-ansiedade/como-controlar-a-ansiedade-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/como-controlar-a-ansiedade/como-controlar-a-ansiedade-capa.jpg</image:loc>
       <image:title>Como Controlar a Ansiedade: Estratégias Práticas 40+</image:title>
       <image:caption>Aprenda como controlar a ansiedade com técnicas comprovadas. Respire melhor, duerma bem e recupere o controle da sua rotina.</image:caption>
     </image:image>
@@ -408,7 +408,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>/images/hemograma-completo/hemograma-completo-capa.jpg</image:loc>
+      <image:loc>https://health-40-blog.vercel.app/images/hemograma-completo/hemograma-completo-capa.jpg</image:loc>
       <image:title>Hemograma Completo: Resultados Claros para Sua Saúde</image:title>
       <image:caption>Hemograma completo explica as três células do sangue. Aprenda valores normais, doenças detectadas e como interpretar seus resultados com segurança.</image:caption>
     </image:image>
