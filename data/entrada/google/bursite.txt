@@ -52,7 +52,7 @@ NOTA_CHAT: 9,0
 <h2>Quanto tempo demora para melhorar?</h2>
 <p>Muitos casos melhoram ao longo de algumas semanas com redução da sobrecarga e cuidados apropriados. O prazo depende da causa, da articulação afetada, da intensidade da inflamação e de possíveis doenças associadas.</p>
 <p>Os sintomas podem retornar se a pessoa retomar a atividade desencadeante muito cedo ou mantiver a mesma pressão sobre a bursa. A melhora da dor não significa necessariamente que seja seguro voltar imediatamente à carga habitual.</p>
-<p>Se a dor não melhora, volta com frequência ou limita atividades básicas, é importante reavaliar o diagnóstico e o plano de tratamento. A persistência pode indicar que existe outra condição ou que o cuidado precisa ser ajustado.</p>
+<p>Se a dor não melhora, volta com frequência ou limita atividades básicas, é importante reavaliar o diagnóstico e o plano de tratamento. A persistência pode indicar que existe outra condição ou que o cuidado precisa ser ajustado. Dor persistente também pode afetar o sono e o bem-estar emocional; se a preocupação passar a interferir na rotina, consulte as orientações sobre <a href="/ansiedade/">ansiedade e busca de apoio</a>.</p>
 <h2>Como prevenir novas crises?</h2>
 <p>Faça pausas durante tarefas repetitivas, alterne posições e evite apoiar diretamente as articulações em superfícies duras por longos períodos. Use joelheiras ou acolchoamento adequado em atividades que exigem ajoelhar.</p>
 <p>Antes de atividades físicas intensas, faça aquecimento e aumente a carga gradualmente. Fortalecer a musculatura com orientação adequada pode ajudar a proteger as articulações. Se um movimento causa dor recorrente, ajuste a técnica ou procure orientação profissional.</p>
