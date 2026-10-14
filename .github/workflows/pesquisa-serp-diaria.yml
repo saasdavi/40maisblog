@@ -1,9 +1,9 @@
 name: Pesquisa SerpAPI (diária)
 
 # Disparada pelo cron-job.org às 01:30 (America/Sao_Paulo), via API do GitHub (workflow_dispatch).
-# Pesquisa até 5 pautas com status_artigo = "a gerar" em data/conteudo/pautas-mestre.csv, por maior volume
+# Pesquisa 1 pauta por execução com status_artigo = "a gerar" em data/conteudo/pautas-mestre.csv, por maior volume
 # (scripts/pesquisa-serp-diaria.js). Cada pauta pesquisada vira "prontas" no CSV.
-# Pula as que já têm resposta válida (14 dias). Para ao acabar as 5, a cota do mês ou a lista.
+# Pula as que já têm resposta válida (14 dias). Para ao bater 1 busca, a cota do mês ou ao acabar a lista.
 # Grava em data/entrada/pautas-chat_01/resposta/ e atualiza o status no CSV. Não gera artigo nem publica.
 
 on:
@@ -29,7 +29,7 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Pesquisar na SerpAPI (até 5 pautas)
+      - name: Pesquisar na SerpAPI (1 pauta)
         env:
           SERP_API_KEY: ${{ secrets.SERP___APIKEY }}
         run: node scripts/pesquisa-serp-diaria.js

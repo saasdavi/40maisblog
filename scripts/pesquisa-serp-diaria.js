@@ -9,7 +9,7 @@ import fs from 'fs';
 import { execFileSync } from 'child_process';
 
 const CHAVE = (process.env.SERP_API_KEY || '').trim();
-const MAX_BUSCAS = Number(process.env.MAX_BUSCAS || 5);
+const MAX_BUSCAS = Number(process.env.MAX_BUSCAS || 1);
 const LIMITE_MES = Number(process.env.SERPAPI_LIMITE_MES || 240);
 const VALIDADE_DIAS = 14;
 const PASTA = 'data/entrada/pautas-chat_01/resposta';
