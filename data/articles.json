@@ -6659,7 +6659,7 @@
         ]
       },
       "volume": 9900,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T18:05:10.841Z",
       "scores": {
         "auditoria": 96,
@@ -6725,7 +6725,7 @@
         "pexels:6345335"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-04T18:05:12.788Z",
       "validacao": {
         "palavraChave": "visão embaçada",
@@ -6792,7 +6792,9 @@
           ]
         },
         "validadoEm": "2026-10-04T18:05:12.788Z"
-      }
+      },
+      "publishedAt": "2026-10-14T11:00:32.823Z",
+      "publicadoDoEstoqueEm": "2026-10-14T11:00:32.823Z"
     },
     {
       "id": "art_1791137198111_fezr",
@@ -37749,6 +37751,6 @@
   ],
   "stats": {
     "total": 247,
-    "published": 37
+    "published": 38
   }
 }

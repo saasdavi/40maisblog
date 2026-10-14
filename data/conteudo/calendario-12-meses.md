@@ -1,16 +1,16 @@
 # Calendário editorial de 12 meses (3 por dia)
 
-Gerado por `scripts/calendario-editorial.js` em 2026-10-13. Início 2026-10-14. Substitui o calendário antigo de 06/10.
+Gerado por `scripts/calendario-editorial.js` em 2026-10-14. Início 2026-10-15. Substitui o calendário antigo de 06/10.
 
-**Programação do dia:** vaga 1 = artigo **novo** escrito por IA (Gemini, reserva Claude, com a pesquisa da SerpAPI antes); vagas 2 e 3 = **estoque pronto**, publicado direto, sem IA. Quando o estoque pronto acaba (168 artigos, ≈ 84 dias), as vagas 2 e 3 também passam a ser artigo novo escrito por IA pela API: 3 por dia. Se o novo falhar num dia, o estoque cobre a vaga (enquanto houver).
+**Programação do dia:** vaga 1 = artigo **novo** escrito por IA (Gemini, reserva Claude, com a pesquisa da SerpAPI antes); vagas 2 e 3 = **estoque pronto**, publicado direto, sem IA. Quando o estoque pronto acaba (167 artigos, ≈ 84 dias), as vagas 2 e 3 também passam a ser artigo novo escrito por IA pela API: 3 por dia. Se o novo falhar num dia, o estoque cobre a vaga (enquanto houver).
 
 Temas: pautas validadas da fila do robô primeiro; depois famílias de `pautas-mestre.csv`, `demanda-validada.json` e `plano-editorial.json` por demanda somada, alternando tema e no máximo 1 tema sensível por dia (tema sensível só publica depois de `REVISADO: sim`). Tema novo = a IA pesquisa o Google (SerpAPI) antes de escrever. O que ficou de fora está em `calendario-excluidos.csv`, com o motivo.
 
 | Mês | Novo (pauta validada) | Novo (tema a validar) | Estoque pronto | Vaga |
 |---|---|---|---|---|
-| 2026-10 | 0 | 0 | 54 | 0 |
+| 2026-10 | 0 | 0 | 51 | 0 |
 | 2026-11 | 0 | 0 | 90 | 0 |
-| 2026-12 | 0 | 0 | 24 | 69 |
+| 2026-12 | 0 | 0 | 26 | 67 |
 | 2027-01 | 0 | 0 | 0 | 93 |
 | 2027-02 | 0 | 0 | 0 | 84 |
 | 2027-03 | 0 | 0 | 0 | 93 |
@@ -20,6 +20,6 @@ Temas: pautas validadas da fila do robô primeiro; depois famílias de `pautas-m
 | 2027-07 | 0 | 0 | 0 | 93 |
 | 2027-08 | 0 | 0 | 0 | 93 |
 | 2027-09 | 0 | 0 | 0 | 90 |
-| 2027-10 | 0 | 0 | 0 | 39 |
+| 2027-10 | 0 | 0 | 0 | 42 |
 
-**Total:** 0 novos de pauta validada + 0 novos de tema a validar + 168 do estoque pronto + 927 vagas = 1095.
+**Total:** 0 novos de pauta validada + 0 novos de tema a validar + 167 do estoque pronto + 928 vagas = 1095.

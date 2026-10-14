@@ -1,7 +1,7 @@
 {
  "resumo": {
-  "publicados": 37,
-  "prontosParaUsar": 168,
+  "publicados": 38,
+  "prontosParaUsar": 167,
   "pautasValidadasSemTexto": 17,
   "planejadasAValidar": 886,
   "vagas": 146,
@@ -683,15 +683,15 @@
    "palavraChave": "visão embaçada",
    "cluster": "olhos",
    "volume": 9900,
-   "status": "pronto",
+   "status": "publicado",
    "palavras": 1594,
    "h2": 11,
    "imagens": 3,
    "fontes": 6,
    "auditoria": 96,
-   "publicadoEm": null,
+   "publicadoEm": "2026-10-14T11:00:32.823Z",
    "escritoEm": "2026-10-04T18:05:12.788Z",
-   "previstoPara": "2026-10-18",
+   "previstoPara": null,
    "pontesSugeridas": []
   },
   {

@@ -4,20 +4,19 @@ Fonte dos textos: `data/articles.json`. Atualizado por `node scripts/banco-conte
 
 | O que | Quantidade | Dias |
 |---|---|---|
-| **Pronto para usar** (a fila do robô; saem 2 por dia) | **168** | 84 |
+| **Pronto para usar** (a fila do robô; saem 2 por dia) | **167** | 83 |
 | Precisa de revisão (o robô não publica) | 42 | |
-| Publicado (no ar) | 37 | |
+| Publicado (no ar) | 38 | |
 | Pauta validada, falta escrever | 17 | 5 |
 | Planejado, falta validar no Google | 886 | 295 |
 | Vagas (sem tema levantado) | 146 | |
 
-Dias de conteúdo já escrito + pauta validada: **89** (estoque a 2 por dia; pauta validada, 1 por dia).
+Dias de conteúdo já escrito + pauta validada: **88** (estoque a 2 por dia; pauta validada, 1 por dia).
 
 ## Prontos para usar
 
 | Artigo | Palavras | Auditoria | Previsto para |
 |---|---|---|---|
-| Visão Embaçada: Causas e Como Melhorar | 1594 | 96 | 2026-10-18 |
 | Tontura ao Levantar: Causas e o Que Fazer | 1523 | 90 | 2026-10-18 |
 | Suor Noturno: Causas, Quando Preocupar e Como Tratar | 1348 | 95 | 2026-10-19 |
 | Névoa Mental: Como Recuperar o Foco aos 40+ | 1633 | 96 | 2026-10-19 |
@@ -226,6 +225,7 @@ Dias de conteúdo já escrito + pauta validada: **89** (estoque a 2 por dia; pau
 | Lanche Saudável: 12 Ideias Fáceis para Sua Tarde | 1511 | 91 | 2026-10-13 |
 | Cabelos Brancos: Causas, Cuidados e Tudo que Você Precisa Saber | 1820 | 87 | 2026-10-13 |
 | Câimbras nas pernas: causas e alívio rápido | 1372 | 100 | 2026-10-13 |
+| Visão Embaçada: Causas e Como Melhorar | 1594 | 96 | 2026-10-14 |
 | Hemograma Completo: Resultados Claros para Sua Saúde | 1691 | 89 | 2026-10-11 |
 
 ## Pautas validadas esperando texto (próximas a escrever)
