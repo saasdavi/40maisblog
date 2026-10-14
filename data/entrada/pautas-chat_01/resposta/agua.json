@@ -1,0 +1,133 @@
+{
+ "palavra": "água",
+ "data": "2026-10-14",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Brasil das Aguas - Revelando o azul do verde e amarelo A Importância da Água",
+   "link": "https://brasildasaguas.com.br/educacional/a-importancia-da-agua/",
+   "trecho": "É um recurso natural essencial, seja como componente bioquímico de seres vivos, como meio de vida de várias espécies vegetais e animais, como elemento ...",
+   "lida": true,
+   "h2": [],
+   "palavras": 1059
+  },
+  {
+   "posicao": 2,
+   "titulo": "Conhecendo mais sobre a água Saaesp",
+   "link": "https://www.saaesp.sp.gov.br/conhecendo-mais-sobre-a-agua/",
+   "trecho": "Na água potável é permitida e até necessárias algumas substâncias químicas dissolvidas (principalmente sais minerais) só que em concentrações limitadas (valores ...",
+   "lida": true,
+   "h2": [
+    "Serviço Autônomo de Água e Esgoto de São Pedro",
+    "Confira as dicas da SAAESP",
+    "Entenda sua conta de água e esgoto",
+    "Projetar considerando a economia de água",
+    "Vazamentos: Quem é o responsável e o que fazer?",
+    "Como verificar vazamentos?",
+    "Denuncie ligações clandestinas",
+    "Conheça o hidrômetro",
+    "Fique ligado",
+    "Fale Conosco",
+    "Localização",
+    "Como chegar"
+   ],
+   "palavras": 1826
+  },
+  {
+   "posicao": 3,
+   "titulo": "Serviço Autônomo de Água e Esgoto de Paraisópolis - SAAE",
+   "link": "https://www.saaeparaisopolis.mg.gov.br/a-importancia-da-agua",
+   "trecho": "A água salgada está presente nos oceanos, que cobrem cerca de 75% da superfície da Terra, e representa 97,4% de toda a água. Do total de água doce existente, 90 ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 4,
+   "titulo": "SAAE Canindé",
+   "link": "https://saae.caninde.ce.gov.br/imprensa/noticias/materia/conheca-os-diferentes-tipos-de-agua/",
+   "trecho": "Água bruta é o conceito que abrange todo tipo de água da forma que é encontrada na natureza. Ou seja, é a água sem qualquer interferência humana ...",
+   "lida": true,
+   "h2": [
+    "Menu",
+    "Conheça os Diferentes Tipos de Água",
+    "Água Potável",
+    "Água Bruta",
+    "Água Servida",
+    "Água Polída e/ou Contaminada"
+   ],
+   "palavras": 184
+  },
+  {
+   "posicao": 5,
+   "titulo": "Água é fundamental para a saúde. Você sabe por quê?",
+   "link": "https://www.aguasdeholambra.com.br/agua-e-fundamental-para-a-saude-voce-sabe-por-que/",
+   "trecho": "Facilitar a digestão – A água facilita a digestão, já que ela é necessária em todo esse processo de produção de saliva, bolo alimentar, suco gástrico etc.",
+   "lida": true,
+   "h2": [
+    "Notícias"
+   ],
+   "palavras": 937
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "Conhecendo mais sobre a água Saaesp",
+   "link": "https://www.saaesp.sp.gov.br/conhecendo-mais-sobre-a-agua/",
+   "lida": true,
+   "h2": [
+    "Serviço Autônomo de Água e Esgoto de São Pedro",
+    "Confira as dicas da SAAESP",
+    "Entenda sua conta de água e esgoto",
+    "Projetar considerando a economia de água",
+    "Vazamentos: Quem é o responsável e o que fazer?",
+    "Como verificar vazamentos?",
+    "Denuncie ligações clandestinas",
+    "Conheça o hidrômetro",
+    "Fique ligado",
+    "Fale Conosco",
+    "Localização",
+    "Como chegar"
+   ],
+   "palavras": 1826
+  },
+  {
+   "titulo": "Serviço Autônomo de Água e Esgoto de Paraisópolis - SAAE",
+   "link": "https://www.saaeparaisopolis.mg.gov.br/a-importancia-da-agua",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "titulo": "SAAE Canindé",
+   "link": "https://saae.caninde.ce.gov.br/imprensa/noticias/materia/conheca-os-diferentes-tipos-de-agua/",
+   "lida": true,
+   "h2": [
+    "Menu",
+    "Conheça os Diferentes Tipos de Água",
+    "Água Potável",
+    "Água Bruta",
+    "Água Servida",
+    "Água Polída e/ou Contaminada"
+   ],
+   "palavras": 184
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "Em que usamos a água?",
+  "Quem tem gastrite pode tomar água com gás?",
+  "Qual é uma frase bonita sobre a água?",
+  "Onde está a água?"
+ ],
+ "relacionadas": [
+  "Um texto sobre a água",
+  "A importância da água",
+  "Um texto sobre a importância da água",
+  "A importância da água para a vida",
+  "A importância da água no planeta",
+  "Texto de 20 linhas sobre a importância da água",
+  "Um texto sobre a importância da água para os seres vivos",
+  "A importância da preservação da água"
+ ],
+ "ai_overview": true
+}
