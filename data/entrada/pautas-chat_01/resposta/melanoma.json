@@ -1,0 +1,136 @@
+{
+ "palavra": "melanoma",
+ "data": "2026-10-14",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "O melanoma - GBM - Grupo Brasileiro de Melanoma",
+   "link": "https://gbm.org.br/o-melanoma/",
+   "trecho": "Fique atento! O melanoma é uma doença caracterizada pela formação de células malignas (câncer) a partir dos melanócitos (células que dão cor à pele).",
+   "lida": true,
+   "h2": [
+    "Compartilhe",
+    "Informações gerais sobre o melanoma",
+    "Nevos comuns, nevos atípicos e risco de melanoma",
+    "Ações do Raio Ultravioleta",
+    "Fotoprotetor na Pele",
+    "Fotoproteção Física",
+    "Fotoproteção Química",
+    "Melanoma",
+    "Leia também:"
+   ],
+   "palavras": 6980
+  },
+  {
+   "posicao": 2,
+   "titulo": "Melanoma: o que é, causas, sintomas e tratamento para a ...",
+   "link": "https://www.h9j.com.br/blog/melanomas-evite-se-expor-ao-sol-em-horarios-de-pico/",
+   "trecho": "O câncer de pele melanoma é uma doença claramente associada à exposição solar excessiva. Quando detectado precocemente, esse tumor maligno ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 3,
+   "titulo": "Pele melanoma: Sintomas, Causas e Tratamentos",
+   "link": "https://www.einstein.br/n/glossario-de-saude/melanoma",
+   "trecho": "O melanoma é um tipo de câncer de pele que tem origem nas células produtoras da substância que determina a cor da pele (melanina).",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 4,
+   "titulo": "Instituto Melanoma Brasil",
+   "link": "https://www.melanomabrasil.org/",
+   "trecho": "O melanoma é um câncer de pele maligno, que se desenvolve nos melanócitos, as células que produzem a melanina, o pigmento que dá cor à nossa pele, cabelo e ...",
+   "lida": true,
+   "h2": [
+    "O Instituto Melanoma Brasil",
+    "MEU DIAGNÓSTICO: MELANOMA. E AGORA?",
+    "Saiba mais",
+    "Alguns Números",
+    "Siga no Instagram",
+    "faça sua parte, doe!",
+    "Receba nossas mensagens",
+    "Siga-nos nas redes sociais",
+    "Inscreva-se no canal",
+    "CNPJ: 26.537.759/0001-00 Identificador: MelanomaBrasil",
+    "Para Instituto Melanoma Brasil",
+    "Faça sua doação!"
+   ],
+   "palavras": 1127
+  },
+  {
+   "posicao": 5,
+   "titulo": "Quando é necessário cirurgia do melanoma maligno?",
+   "link": "https://sbco.org.br/cancer-pele-melanoma-maligno/",
+   "trecho": "O melanoma é considerado o tipo de câncer de pele mais grave e que pode ter consequências mais sérias para a saúde em geral.",
+   "lida": true,
+   "h2": [
+    "Incidência do câncer de pele",
+    "Desafios do melanoma maligno",
+    "Identificando os primeiros sintomas",
+    "Indicação para o tratamento cirúrgico",
+    "Entenda a importância de um/a cirurgião/ã oncológico/a qualificado/a"
+   ],
+   "palavras": 1607
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "O melanoma - GBM - Grupo Brasileiro de Melanoma",
+   "link": "https://gbm.org.br/o-melanoma/",
+   "lida": true,
+   "h2": [
+    "Compartilhe",
+    "Informações gerais sobre o melanoma",
+    "Nevos comuns, nevos atípicos e risco de melanoma",
+    "Ações do Raio Ultravioleta",
+    "Fotoprotetor na Pele",
+    "Fotoproteção Física",
+    "Fotoproteção Química",
+    "Melanoma",
+    "Leia também:"
+   ],
+   "palavras": 6980
+  },
+  {
+   "titulo": "Quando é necessário cirurgia do melanoma maligno?",
+   "link": "https://sbco.org.br/cancer-pele-melanoma-maligno/",
+   "lida": true,
+   "h2": [
+    "Incidência do câncer de pele",
+    "Desafios do melanoma maligno",
+    "Identificando os primeiros sintomas",
+    "Indicação para o tratamento cirúrgico",
+    "Entenda a importância de um/a cirurgião/ã oncológico/a qualificado/a"
+   ],
+   "palavras": 1607
+  },
+  {
+   "titulo": "",
+   "link": "https://accamargo.org.br/sites/default/files/2020-08/cartilha_melanoma.pdf",
+   "lida": true,
+   "h2": [],
+   "palavras": 10092
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "Quais são os primeiros sinais de melanoma?",
+  "Quais são os 4 tipos de melanoma?",
+  "Quando o melanoma é grave?",
+  "Qual é o aspecto do melanoma?"
+ ],
+ "relacionadas": [
+  "Melanoma na unha",
+  "Melanoma fotos",
+  "Melanoma sintomas",
+  "Melanoma benigno",
+  "Melanoma tratamento",
+  "Melanoma tem cura",
+  "O que causa melanoma",
+  "Melanoma é grave"
+ ],
+ "ai_overview": true
+}
