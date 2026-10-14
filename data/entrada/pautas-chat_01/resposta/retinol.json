@@ -1,0 +1,88 @@
+{
+ "palavra": "retinol",
+ "data": "2026-10-14",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Produtos com Retinol para o Rosto e Corpo | Até 6X",
+   "link": "https://www.lojaadcos.com.br/retinol?srsltid=AU7gw4WexDc0-Yd87t6Pll0CFSGvNwZeqaA4TIT1vOuATUp52wUt6J7m",
+   "trecho": "O retinol é um princípio ativo proveniente da vitamina A que estimula a renovação celular e aumenta a produção de colágeno, resultando na diminuição de linhas ...",
+   "lida": false,
+   "motivo": "HTTP 403"
+  },
+  {
+   "posicao": 2,
+   "titulo": "Retinol Noturno Facial 3%: Creme Anti-idade 30g | Hidrabene",
+   "link": "https://hidrabene.com.br/products/retinol?srsltid=AU7gw4WHluw0QUGCyuM1ge-3F8xSvZZhisjtIUTByeYkUXo9w7UKXrlO",
+   "trecho": "Creme facial noturno com 3% de retinol nanotecnológico, ácido hialurônico e vitamina E. Reduz rugas de expressão, firma e deixa a pele mais lisa.",
+   "lida": true,
+   "h2": [
+    "Leve mais e pague menos!",
+    "Enquanto você dorme, ele trata as rugas.",
+    "A pele que amanhece diferente",
+    "Quem usa, conta",
+    "O turno da madrugada da sua pele",
+    "Na pele de quem já usa",
+    "O último passo antes de dormir",
+    "O retinol joga no horário certo",
+    "Monte seu tratamento",
+    "Perguntas frequentes",
+    "Anti-idade no turno da noite.",
+    "Customer Reviews"
+   ],
+   "palavras": 2092
+  },
+  {
+   "posicao": 3,
+   "titulo": "Retinol: com ativos hidratantes, calmantes e antioxidantes - CREAMY",
+   "link": "https://www.creamy.com.br/retinol-1/p",
+   "trecho": "Melhora rugas profundas;; Uniformiza a textura e o tom da pele;; Reduz poros dilatados;; Promove firmeza e elasticidade;; Renova e normaliza a espessura da ...",
+   "lida": true,
+   "h2": [
+    "Avaliações do produto",
+    "Os mais escolhidos",
+    "Rotinas completas"
+   ],
+   "palavras": 742
+  },
+  {
+   "posicao": 4,
+   "titulo": "Retinol: o que é, para que serve e quais seus benefícios ...",
+   "link": "https://www.drogasil.com.br/blog/beleza/queridinhos-das-redes/retinol",
+   "trecho": "O retinol é um dos ativos mais usado em tratamentos de envelhecimento da pele, conhecido especialmente por reduzir as rugas e linhas de expressão do rosto e da ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 5,
+   "titulo": "Conhe a 6 benef cios do retinol para a pele",
+   "link": "https://www.nivea.com.br/dicas/6-beneficios-do-retinol?srsltid=AU7gw4WANkUGGdRzxIBJdbkxx-XCcM9LQzGxHzjJk_UVBbvXDSqDk9Bw",
+   "trecho": "O retinol é um derivado da vitamina A, famoso por acelerar a renovação celular da pele. Ele pode ser encontrado em diversos cosméticos, como cremes, loções e ...",
+   "lida": true,
+   "h2": [
+    "O QUE O RETINOL?",
+    "6 BENEF CIOS DO RETINOL PARA A PELE",
+    "COMO USAR RETINOL?"
+   ],
+   "palavras": 1318
+  }
+ ],
+ "fontes_oficiais": [],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "Qual é a função do retinol?",
+  "Qual o retinol mais indicado?",
+  "O retinol clareia manchas?",
+  "É melhor usar vitamina C ou retinol?"
+ ],
+ "relacionadas": [
+  "Retinol para que serve",
+  "Retinol serum",
+  "Retinol creamy",
+  "Retinol creme",
+  "Retinol la roche",
+  "Retinol celimax"
+ ],
+ "ai_overview": true
+}
