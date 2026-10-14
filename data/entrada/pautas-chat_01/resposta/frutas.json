@@ -1,0 +1,83 @@
+{
+ "palavra": "frutas",
+ "data": "2026-10-14",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Estudo aponta as frutas mais saudáveis do mundo e você mal consome - FEEB-SC",
+   "link": "https://feebsc.org.br/estudo-aponta-as-frutas-mais-saudaveis-do-mundo-e-voce-mal-consome/",
+   "trecho": "Afinal, quais são as frutas mais saudáveis? · Limão, ocupando a 28ª posição e sendo considerada a fruta mais saudável; · Morango, na 30ª posição; · Laranja, na 33ª ...",
+   "lida": true,
+   "h2": [
+    "Conclusões do estudo",
+    "Afinal, quais são as frutas mais saudáveis?"
+   ],
+   "palavras": 641
+  },
+  {
+   "posicao": 2,
+   "titulo": "Loja UICLAP 🕮",
+   "link": "https://loja.uiclap.com/titulo/ua150185?srsltid=AU7gw4UQ5_k6-ypcUzsBLxWmUklKl6TjHeBylXHZPYoC1hXy-SXcMzwx",
+   "trecho": "São várias frutas escritas em inglês para pintar.",
+   "lida": true,
+   "h2": [],
+   "palavras": 3
+  },
+  {
+   "posicao": 3,
+   "titulo": "https://commons.wikimedia.org/w/index.php?title=Li...",
+   "link": "https://commons.wikimedia.org/w/index.php?title=List+of+culinary+fruits&uselang=pt",
+   "trecho": "Não há nenhuma informação disponível para esta página.",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 4,
+   "titulo": "https://patos.pb.gov.br/admin/tinyfinder/file/down...",
+   "link": "https://patos.pb.gov.br/admin/tinyfinder/file/download/?basename=d3itpu2k.pdf",
+   "trecho": "Não há nenhuma informação disponível para esta página.",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 5,
+   "titulo": "Frutas brasileiras estão entre as melhores e mais saudáveis do mundo. Saiba quais! - Portal Leo Dias",
+   "link": "https://portalleodias.com/vida-e-estilo/frutas-brasileiras-estao-entre-as-melhores-e-mais-saudaveis-do-mundo-saiba-quais",
+   "trecho": "Três frutas naturais do Brasil foram avaliadas entre as 100 melhores do mundo.",
+   "lida": true,
+   "h2": [
+    "Veja as fotos",
+    "Leia Também"
+   ],
+   "palavras": 666
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "Estudo aponta as frutas mais saudáveis do mundo e você mal consome - FEEB-SC",
+   "link": "https://feebsc.org.br/estudo-aponta-as-frutas-mais-saudaveis-do-mundo-e-voce-mal-consome/",
+   "lida": true,
+   "h2": [
+    "Conclusões do estudo",
+    "Afinal, quais são as frutas mais saudáveis?"
+   ],
+   "palavras": 641
+  },
+  {
+   "titulo": "https://patos.pb.gov.br/admin/tinyfinder/file/down...",
+   "link": "https://patos.pb.gov.br/admin/tinyfinder/file/download/?basename=d3itpu2k.pdf",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "Quais são 10 árvores frutíferas?",
+  "Como o processamento de frutas pode influenciar a vida de prateleira dos produtos?",
+  "Quais são 3 tipos de frutas?",
+  "Quais frutas começam com a letra \"E\"?"
+ ],
+ "relacionadas": [],
+ "ai_overview": false
+}
