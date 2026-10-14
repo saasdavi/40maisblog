@@ -1,7 +1,7 @@
 {
  "resumo": {
-  "publicados": 39,
-  "prontosParaUsar": 166,
+  "publicados": 40,
+  "prontosParaUsar": 165,
   "pautasValidadasSemTexto": 17,
   "planejadasAValidar": 886,
   "vagas": 146,
@@ -717,15 +717,15 @@
    "palavraChave": "suor noturno",
    "cluster": "sintomas",
    "volume": 9900,
-   "status": "pronto",
+   "status": "publicado",
    "palavras": 1348,
    "h2": 12,
    "imagens": 3,
    "fontes": 7,
    "auditoria": 95,
-   "publicadoEm": null,
+   "publicadoEm": "2026-10-14T21:00:40.711Z",
    "escritoEm": "2026-10-04T18:08:07.968Z",
-   "previstoPara": "2026-10-19",
+   "previstoPara": null,
    "pontesSugeridas": []
   },
   {
