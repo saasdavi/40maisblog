@@ -1,0 +1,105 @@
+{
+ "palavra": "imc",
+ "data": "2026-10-14",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "ABRAN - Associação Brasileira de Nutrologia",
+   "link": "https://abran.org.br/calculadoras/imc",
+   "trecho": "Entre 18,5 e 24,9, Normal, 0 ; Entre 25,0 e 29,9, Sobrepeso, 1 ; Entre 30,0 e 39,9, Obesidade, 2 ; Maior que 40,0, Obesidade Grave, 3 ...",
+   "lida": true,
+   "h2": [
+    "PERGUNTAS E RESPOSTAS"
+   ],
+   "palavras": 9566
+  },
+  {
+   "posicao": 2,
+   "titulo": "IMC | Ethicon",
+   "link": "https://www.jnjmedtech.com/pt-br/obesidade-precisamos-conversar/imc",
+   "trecho": "O IMC é utilizado para avaliar se o peso de uma pessoa esta adequado a sua altura. Ele pode ser um alerta do risco de problemas de saúde relacionados ao ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 3,
+   "titulo": "Calcule Seu IMC",
+   "link": "https://www.plenumsaude.com/mais/calcule-seu-imc",
+   "trecho": "O IMC é calculado dividindo o peso da pessoa em quilogramas pelo quadrado da sua altura em metros. A fórmula matemática é a seguinte: IMC = peso ( ...",
+   "lida": true,
+   "h2": [
+    "Calcule o Seu IMC"
+   ],
+   "palavras": 749
+  },
+  {
+   "posicao": 4,
+   "titulo": "Entenda o que é cálculo IMC e para que serve!",
+   "link": "https://www.unimedcampinas.com.br/blog/cuidado-continuo/entenda-o-que-e-calculo-imc-e-para-que-serve",
+   "trecho": "O cálculo é muito útil para identificar se o indivíduo está com o peso ideal ou se está abaixo ou acima do esperado, levando em conta critérios ...",
+   "lida": true,
+   "h2": [
+    "O que é IMC?",
+    "Como é feito o cálculo IMC?",
+    "O IMC é o mesmo para crianças e adultos?",
+    "O que fazer quando o IMC está abaixo do normal?",
+    "O que fazer quando o IMC está acima do normal?",
+    "Como o IMC deve ser utilizado?",
+    "Leia também",
+    "Bruxismo: Entenda Causas, Sintomas e Impactos",
+    "O Que Hipocondria? Conhe a o Transtorno de Ansiedade de Doen a",
+    "Rumina o Mental: Quando Pensar Demais Vira Um Ciclo Dif cil de Interromper",
+    "Newsletter",
+    "Precisa de ajuda?"
+   ],
+   "palavras": 1596
+  },
+  {
+   "posicao": 5,
+   "titulo": "Calculadora de IMC: veja seu Índice de Massa Corporal | G1",
+   "link": "https://g1.globo.com/saude/bem-estar/noticia/2025/05/20/calculadora-de-imc-veja-seu-indice-de-massa-corporal.ghtml",
+   "trecho": "O índice de massa corporal (IMC) é o peso em quilos dividido pela altura ao quadrado. Entre 25 e 29,9 é considerado sobrepeso.",
+   "lida": true,
+   "h2": [
+    "Contexto e justificativas para bariátrica",
+    "Adolescentes",
+    "Número de bariátricas no Brasil aumentou 42% nos últimos 4 anos",
+    "Novos modelos de cirurgia",
+    "Canal 'Tropa do Flávio' no WhatsApp também não estava registrado no TSE; campanha fez pedido nesta terça",
+    "Senado deve votar nesta quarta PEC que acaba com a escala 6x1",
+    "Aliados de Motta fazem contas para mantê-lo na presidência da Câmara",
+    "Perdão de dívidas, PIX e novo teto: entenda plano do governo para MEIs",
+    "Quem são os brasileiros que não votaram no 1º turno? Conheça perfis",
+    "Primeira pesquisa Quaest do 2º turno será divulgada nesta quarta-feira",
+    "MDB racha no 2º turno: 16 diretórios apoiam Flávio e 10 ficam com Lula",
+    "Master: Fachin pede a PF todas citações a ministros em 'caráter descritivo'"
+   ],
+   "palavras": 3431
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "ABRAN - Associação Brasileira de Nutrologia",
+   "link": "https://abran.org.br/calculadoras/imc",
+   "lida": true,
+   "h2": [
+    "PERGUNTAS E RESPOSTAS"
+   ],
+   "palavras": 9566
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [],
+ "relacionadas": [
+  "Imc calculadora",
+  "Calcular imc feminino",
+  "Imc tabela",
+  "Imc tabela feminina",
+  "Tabela imc masculino",
+  "Imc 29",
+  "Imc 20",
+  "Imc ideal para mulher"
+ ],
+ "ai_overview": true
+}
