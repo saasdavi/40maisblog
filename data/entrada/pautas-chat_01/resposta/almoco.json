@@ -1,0 +1,44 @@
+{
+ "palavra": "almoço",
+ "data": "2026-10-14",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Almoço rápido: 5 receitas deliciosas e práticas - Casa Vogue | Receita",
+   "link": "https://casavogue.globo.com/LazerCultura/Comida-bebida/Receita/noticia/2020/04/almoco-rapido-5-receitas-deliciosas-e-praticas.html",
+   "trecho": "1. Receita de panqueca sem glúten recheada com pupunha e tofu · 2. Saudável e vegano: confira uma deliciosa receita de charuto de couve com grão- ...",
+   "lida": true,
+   "h2": [
+    "Macarrão, opções sem glúten e veganas aparecem entre as pedidas"
+   ],
+   "palavras": 750
+  },
+  {
+   "posicao": 2,
+   "titulo": "Almoço prático e nutritivo",
+   "link": "https://www.saboresajinomoto.com.br/colecao/almoco-pratico-e-nutritivo",
+   "trecho": "Almoço prático e nutritivo · PEIXE AO MOLHO · SALADA COM FRANGO · FRICASSÉ COM SÓDIO REDUZIDO · SALADA COM ATUM E AZEITONA · FILÉ DE TILÁPIA ASSADA COM CENOURA ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 3,
+   "titulo": "Almoço com apenas 'R$ 10 e um sonho': internauta ...",
+   "link": "https://ndmais.com.br/gastronomia/receitas/almoco-com-apenas-r-10-e-um-sonho-internauta-revoluciona-tecnicas-economicas-de-cozinhar/",
+   "trecho": "Com algumas fatias de queijo, pedaços de calabresa e batata, internauta dá aula de cozinha 'baixo-custo' e faz almoço delicioso.",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  }
+ ],
+ "fontes_oficiais": [],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "Quem tem refluxo pode deitar depois do almoço?",
+  "O que significa \"almoço\"?",
+  "O que posso fazer para o almoço?",
+  "Quais são algumas receitas rápidas e fáceis para o jantar?"
+ ],
+ "relacionadas": [],
+ "ai_overview": true
+}
