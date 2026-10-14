@@ -17,8 +17,31 @@ const PAUSA_MS = 2000;
 const AUTORIDADE = /(gov\.br|\.gov\b|who\.int|nih\.gov|scielo|sbn\.org|cardiol\.br|endocrino\.org|sbd\.org|febrasgo|sbgg|fiocruz|\.edu\b|\.edu\.br|mayoclinic|medlineplus|hopkinsmedicine|harvard\.edu|bvsalud|\.org\.br)/i;
 const EXCLUIDOS = /(youtube\.com|youtu\.be|instagram\.com|facebook\.com|tiktok\.com|twitter\.com|x\.com|reddit\.com|linkedin\.com|pinterest\.com|wikipedia\.org|amazon\.|mercadolivre\.|shopee\.|google\.)/i;
 
+const PAUTAS = 'data/conteudo/pautas-mestre.csv';
+
 const slug = (s) => s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const lerJson = (p, fb) => { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return fb; } };
+
+// Marca a pauta como "prontas" na planilha (status_artigo), mexendo só na linha dela.
+// Se a palavra não estiver na planilha, ou já estiver pronta, não faz nada.
+const marcarPronta = () => {
+  if (!fs.existsSync(PAUTAS)) return;
+  const texto = fs.readFileSync(PAUTAS, 'utf8');
+  const bom = texto.startsWith('﻿') ? '﻿' : '';
+  const ls = texto.replace(/^﻿/, '').split('\r\n');
+  const sem = (c) => String(c || '').replace(/^"|"$/g, '').trim();
+  const cab = ls[0].split(';').map(sem);
+  const iP = cab.indexOf('palavra_chave');
+  const iS = cab.indexOf('status_artigo');
+  if (iP < 0 || iS < 0) return;
+  const i = ls.findIndex((l, n) => n > 0 && l && sem(l.split(';')[iP]) === PALAVRA && sem(l.split(';')[iS]) === 'a gerar');
+  if (i < 0) return;
+  const f = ls[i].split(';');
+  f[iS] = '"prontas"';
+  ls[i] = f.join(';');
+  fs.writeFileSync(PAUTAS, bom + ls.join('\r\n'));
+  console.log(`"${PALAVRA}": status_artigo = prontas em ${PAUTAS}`);
+};
 const semTags = (h) => h.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<!--[\s\S]*?-->/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&[a-z#0-9]+;/gi, ' ').replace(/\s+/g, ' ').trim();
 const esperar = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -58,6 +81,7 @@ async function main() {
   const atual = lerJson(arquivo, null);
   if (atual && (Date.now() - Date.parse(atual.data)) / 864e5 < VALIDADE_DIAS) {
     console.log(`"${PALAVRA}": já pesquisada em ${atual.data}; válida por ${VALIDADE_DIAS} dias, sem gastar busca.`);
+    marcarPronta();
     return;
   }
 
@@ -122,6 +146,7 @@ async function main() {
   fs.writeFileSync(arquivo, JSON.stringify(resultado, null, 1));
   uso.buscas++;
   fs.writeFileSync(USO_FILE, JSON.stringify(uso));
+  marcarPronta();
   const lidas = paginas.filter((p) => p.lida).length;
   const oficiaisLidas = fontesOficiais.filter((f) => f.lida).length;
   console.log(`"${PALAVRA}": ${paginas.length} concorrentes (${lidas} lidas), ${fontesOficiais.length} fontes oficiais (${oficiaisLidas} lidas), ${linksInternos.length} links internos, ${resultado.perguntas.length} perguntas. Busca ${uso.buscas}/${LIMITE_MES} no mês. Gravado em ${arquivo}`);

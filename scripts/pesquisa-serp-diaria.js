@@ -48,7 +48,6 @@ const iPalavra = col('palavra_chave');
 const iVolume = col('buscas_mes_exato');
 const iStatus = col('status_artigo');
 const campos = (l) => l.split(';').map((c) => c.replace(/^"|"$/g, '').trim());
-const aQuote = (s) => `"${s}"`;
 
 const candidatas = linhas.slice(1)
   .filter((l) => l)
@@ -61,18 +60,6 @@ if (candidatas.length === 0) {
   console.error(`Nenhuma pauta com status "${STATUS_A_GERAR}" em ${PAUTAS}. Nada para pesquisar.`);
   process.exit(1);
 }
-
-// marca a pauta como pronta no CSV, mexendo só na linha dela
-const marcarPronta = (palavra) => {
-  const atual = fs.readFileSync(PAUTAS, 'utf8').replace(/^﻿/, '');
-  const ls = atual.split('\r\n');
-  const i = ls.findIndex((l, n) => n > 0 && l && campos(l)[iPalavra] === palavra && campos(l)[iStatus] === STATUS_A_GERAR);
-  if (i < 0) return;
-  const f = ls[i].split(';');
-  f[iStatus] = aQuote(STATUS_PRONTA);
-  ls[i] = f.join(';');
-  fs.writeFileSync(PAUTAS, (temBom ? BOM : '') + ls.join('\r\n'));
-};
 
 const palavras = candidatas.filter((p) => !respostaValida(p));
 console.log(`${candidatas.length} pautas "${STATUS_A_GERAR}"; ${candidatas.length - palavras.length} já com resposta válida; ${palavras.length} pendentes.`);
@@ -95,7 +82,6 @@ for (const palavra of palavras) {
   }
   if (buscasNoMes() > antes) {
     feitas++;
-    marcarPronta(palavra);
   }
 }
 
