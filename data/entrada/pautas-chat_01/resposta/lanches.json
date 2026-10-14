@@ -1,0 +1,62 @@
+{
+ "palavra": "lanches",
+ "data": "2026-10-14",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Lanches Já - Jardim Emaus Preço e Cardápio delivery",
+   "link": "https://www.rappi.com.br/restaurantes/900671134-lanches-ja",
+   "trecho": "Somos Lanches Já. Endereço. R. Vera Cruz, 157 - Industrial, Contagem - MG, 32220-230, Brazil. Especialidade do restaurante. Padaria. Quanto custa?",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 2,
+   "titulo": "Melhores lanches e burger de Taubaté em Taubaté, SP |… |… | Conecta Food",
+   "link": "https://www.conectafood.com.br/lista/taubate-sp/lojas/lanches-burger",
+   "trecho": "Melhores lanches e burger de Taubaté para pedir delivery em Taubaté, SP. Confira lojas no Conecta Food — 16 opções.",
+   "lida": true,
+   "h2": [],
+   "palavras": 442
+  },
+  {
+   "posicao": 3,
+   "titulo": "Os melhores: Potim - Lanches",
+   "link": "https://www.tripadvisor.com.br/Restaurants-g5232820-zfd10647-Potim_State_of_Sao_Paulo-Sandwiches.html",
+   "trecho": "Os melhores: Potim, Estado de São Paulo - Lanches: encontre 0 avaliações dos viajantes do Tripadvisor sobre Lanches e busque por preço, localização e muito ...",
+   "lida": false,
+   "motivo": "HTTP 403"
+  },
+  {
+   "posicao": 4,
+   "titulo": "Lanches em Curitibanos - Guia Múltiplo",
+   "link": "https://guiamultiplo.com.br/listagem/lanches/curitibanos",
+   "trecho": "Empresas encontradas · Restaurante e Lanchonete Carpes · Big Tiff Lanches · Boliche Beer House · Brazza Burger Delivery · Brutão Lanches · Café com Pastel.",
+   "lida": true,
+   "h2": [
+    "Empresas encontradas",
+    "Digite sua solicitação"
+   ],
+   "palavras": 161
+  },
+  {
+   "posicao": 5,
+   "titulo": "Os melhores: Coronel Freitas - Lanches",
+   "link": "https://www.tripadvisor.com.br/Restaurants-g3168966-zfd10647-Coronel_Freitas_State_of_Santa_Catarina-Sandwiches.html",
+   "trecho": "Os melhores: Coronel Freitas, Santa Catarina - Lanches: encontre avaliações dos viajantes do Tripadvisor sobre Lanches e busque por preço, localização e muito ...",
+   "lida": false,
+   "motivo": "HTTP 403"
+  }
+ ],
+ "fontes_oficiais": [],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "O que comer de lanches?",
+  "Quais são 3 tipos de delivery?",
+  "Quais são 100 nomes para lanchonete?",
+  "Quais são as empresas de lanches mais famosas?"
+ ],
+ "relacionadas": [],
+ "ai_overview": false
+}
