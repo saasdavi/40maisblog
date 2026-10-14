@@ -1,0 +1,105 @@
+{
+ "palavra": "sarna",
+ "data": "2026-10-14",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Sarna: Sintomas, Causas e Tratamentos",
+   "link": "https://www.einstein.br/n/glossario-de-saude/sarna",
+   "trecho": "A sarna, ou escabiose, é uma doença de pele que provoca muita coceira. Ela é causada por um ácaro minúsculo chamado Sarcoptes scabiei, que passa por contato ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 2,
+   "titulo": "Escabiose (ou Sarna) - SBD",
+   "link": "https://www.sbd.org.br/doencas/escabiose-ou-sarna/",
+   "trecho": "Sarna ou escabiose é uma parasitose humana causada pelo ácaro Sarcoptes scabiei variedade hominis. O contágio se dá somente entre humanos, por contato direto ...",
+   "lida": true,
+   "h2": [],
+   "palavras": 572
+  },
+  {
+   "posicao": 3,
+   "titulo": "Sarna: sintomas, como se pega, tratamento e prevenção: O que é, sintomas, tratamentos e causas.",
+   "link": "https://www.rededorsaoluiz.com.br/doencas/sarna",
+   "trecho": "Sarna é uma infestação causada por ácaros que provoca coceira intensa e lesões na pele, especialmente à noite. O tratamento inclui medicamentos específicos, ...",
+   "lida": true,
+   "h2": [
+    "O que é sarna?",
+    "Quais são os sintomas de sarna?",
+    "Como se pega sarna?",
+    "Qual especialista trata a sarna?",
+    "Como é feito o diagnóstico da sarna?",
+    "Quais são os tratamentos para sarna?",
+    "Sarna tem cura?",
+    "Como prevenir a sarna?",
+    "Perguntas frequentes sobre sarna",
+    "Quais soluções a Rede D’Or oferece?"
+   ],
+   "palavras": 2655
+  },
+  {
+   "posicao": 4,
+   "titulo": "Sarna: causas, sintomas e como tratar",
+   "link": "https://telemedicinamorsch.com.br/blog/sarna?srsltid=AU7gw4WtSMcD9lD71V9CfbbbgCbBjSW8k1fHAxnW04OhqBqoIEmE87Gd",
+   "trecho": "Sarna é uma infecção de pele contagiosa que provoca bastante coceira. Conheça mais sobre os sintomas e formas de tratamento.",
+   "lida": true,
+   "h2": [
+    "O que sarna?",
+    "Quais os sintomas da sarna?",
+    "Tipos de sarna humana",
+    "Como se pega sarna?",
+    "Qual o tratamento para sarna humana?",
+    "Perguntas frequentes sobre sarna",
+    "Conclus o",
+    "Artigos relacionados",
+    "A Morsch",
+    "Serviço de Telemedicina"
+   ],
+   "palavras": 1690
+  },
+  {
+   "posicao": 5,
+   "titulo": "Infestação por sarna - Distúrbios da pele - Manual MSD Versão Saúde para a Família",
+   "link": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-da-pele/infec%C3%A7%C3%B5es-parasit%C3%A1rias-da-pele/infesta%C3%A7%C3%A3o-por-sarna",
+   "trecho": "Para crianças maiores e adultos, a sarna pode ser curada pela aplicação de um creme contendo permetrina ou outro escabicida (medicamento que mata o ácaro da ...",
+   "lida": true,
+   "h2": [
+    "Sintomas de infestação por sarna",
+    "Diagnóstico de infestação por sarna",
+    "Tratamento de infestação por sarna",
+    "Prevenção de infestação por sarna"
+   ],
+   "palavras": 1992
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "Escabiose (ou Sarna) - SBD",
+   "link": "https://www.sbd.org.br/doencas/escabiose-ou-sarna/",
+   "lida": true,
+   "h2": [],
+   "palavras": 572
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "O que leva a pessoa a ter sarna?",
+  "O que é bom para curar sarna?",
+  "Como saber se é sarna?",
+  "Quanto tempo a sarna dura?"
+ ],
+ "relacionadas": [
+  "Sarna humana",
+  "Sintomas de sarna",
+  "Sarna humana fotos",
+  "Como curar sarna humana rápido",
+  "Sarna cachorro",
+  "Sarna tratamento",
+  "Sarna como pega",
+  "Sarna mata"
+ ],
+ "ai_overview": true
+}
