@@ -1,0 +1,83 @@
+{
+ "palavra": "açúcar",
+ "data": "2026-10-14",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Tipos de açúcar: saiba escolher o mais saudável - Santa Casa de Maringá",
+   "link": "https://www.santacasamaringa.com.br/noticia/195/tipos-de-acucar-saiba-escolher-o-mais-saudavel",
+   "trecho": "Açúcar light: Também conhecido como açúcar fit ou açúcar magro, o açúcar light é mistura do açúcar refinado comum e de adoçantes artificiais ...",
+   "lida": true,
+   "h2": [
+    "NOTÍCIAS",
+    "Tipos de açúcar: saiba escolher o mais saudável"
+   ],
+   "palavras": 991
+  },
+  {
+   "posicao": 2,
+   "titulo": "Açúcar: refinado, cristal, mascavo e mais",
+   "link": "https://mercado.carrefour.com.br/categoria/mercearia/acucar-e-adocante/acucar",
+   "trecho": "Descubra os melhores preços e promoções de açúcar no Carrefour. Faça suas compras com economia e qualidade.",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 3,
+   "titulo": "Conheça os diferentes tipos de açúcar - Blog Instituto PENSI",
+   "link": "https://institutopensi.org.br/conheca-os-diferentes-tipos-de-acucar",
+   "trecho": "Conheça os diferentes tipos de açúcar · Açúcar refinado ou branco: É o tipo de açúcar mais comum e amplamente utilizado. · Açúcar demerara:.",
+   "lida": true,
+   "h2": [
+    "Footer"
+   ],
+   "palavras": 757
+  },
+  {
+   "posicao": 4,
+   "titulo": "A química do açúcar - CRQ",
+   "link": "https://crqsp.org.br/a-quimica-do-acucar/",
+   "trecho": "O açúcar bruto é processado com cal – a chamada caleagem; o açúcar branco é processado com enxofre e cal. Este caldo clarificado é concentrado ...",
+   "lida": true,
+   "h2": [],
+   "palavras": 2508
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "Conheça os diferentes tipos de açúcar - Blog Instituto PENSI",
+   "link": "https://institutopensi.org.br/conheca-os-diferentes-tipos-de-acucar",
+   "lida": true,
+   "h2": [
+    "Footer"
+   ],
+   "palavras": 757
+  },
+  {
+   "titulo": "A química do açúcar - CRQ",
+   "link": "https://crqsp.org.br/a-quimica-do-acucar/",
+   "lida": true,
+   "h2": [],
+   "palavras": 2508
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "O que acontece no corpo se parar de comer açúcar?",
+  "Qual é o açúcar que faz bem para a saúde?",
+  "Quanto custa 1 kg de açúcar?",
+  "Qual o maior vilão da diabetes?"
+ ],
+ "relacionadas": [
+  "Açúcar preço",
+  "Açúcar kg",
+  "Açúcar cristal",
+  "Açúcar fórmula",
+  "Açúcar tipos",
+  "Açúcar 5kg",
+  "Açúcar normal",
+  "20 tipos de açúcar"
+ ],
+ "ai_overview": false
+}
