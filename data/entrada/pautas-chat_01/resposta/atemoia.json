@@ -1,0 +1,88 @@
+{
+ "palavra": "atemoia",
+ "data": "2026-10-14",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Tudo se aproveita na atemoia - Jornal da Unicamp",
+   "link": "https://jornal.unicamp.br/edicao/677/tudo-se-aproveita-na-atemoia/",
+   "trecho": "A atemoia, fruta híbrida produzida intencionalmente a partir do cruzamento entre a fruta-do-conde (Annona squamosa, L.) e a cherimoia (Annona cherimola), ...",
+   "lida": true,
+   "h2": [],
+   "palavras": 1411
+  },
+  {
+   "posicao": 2,
+   "titulo": "ATEMÓIA Programa Agricultura Urbana e Meio Ambiente",
+   "link": "https://www.unifal-mg.edu.br/agriculturaurbana/atemoia/",
+   "trecho": "Usos mais comuns: Tem sabor doce delicado. É uma fruta típica para consumo natural, podendo ser utilizada na preparação de sorvetes, polpa e suco. 115.",
+   "lida": true,
+   "h2": [],
+   "palavras": 330
+  },
+  {
+   "posicao": 3,
+   "titulo": "St. Marche | Atemóia",
+   "link": "https://marche.com.br/products/atemoia?srsltid=AU7gw4V94PGC-rQLsQ0-yvm_HN2cdq2zQmGf1JeDVmW4d8YCwZkGeAtV",
+   "trecho": "Além de deliciosa, a Atemóia é muito nutritiva. Rica em vitaminas C, B1, B2 e B3, além de minerais como cálcio, ferro e fósforo, esta fruta é um poderoso aliado ...",
+   "lida": true,
+   "h2": [
+    "Departamentos"
+   ],
+   "palavras": 443
+  },
+  {
+   "posicao": 4,
+   "titulo": "Atemoia | CEASA Campinas",
+   "link": "https://www.ceasacampinas.com.br/dicas/atemoia",
+   "trecho": "A atemoia é uma fruta híbrida obtida por meio do cruzamento da cherimoia (Annona cherimola, Mill) - nativa das regiões tropicais do Peru, Equador e Colômbia - ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 5,
+   "titulo": "Atemoia: 6 benefícios da fruta e como consumir (com receitas) - Tua Saúde",
+   "link": "https://www.tuasaude.com/beneficios-da-atemoia/",
+   "trecho": "Principais benefícios · 1. Evitar doenças cardiovasculares · 2. Combater a prisão de ventre · 3. Prevenir o envelhecimento precoce · 4. Ajudar ...",
+   "lida": true,
+   "h2": [
+    "Principais benefícios",
+    "Diferença entre fruta-do-conde e atemoia",
+    "Tabela de informação nutricional",
+    "Como consumir",
+    "Receitas saudáveis com atemoia",
+    "Bibliografia",
+    "Mais sobre este assunto"
+   ],
+   "palavras": 2084
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "ATEMÓIA Programa Agricultura Urbana e Meio Ambiente",
+   "link": "https://www.unifal-mg.edu.br/agriculturaurbana/atemoia/",
+   "lida": true,
+   "h2": [],
+   "palavras": 330
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "Qual a diferença entre graviola e atemoia?",
+  "Qual a diferença entre atemoia e pinha?",
+  "Qual é o preço do kg de atemoia?",
+  "A atemoia tem muito açúcar?"
+ ],
+ "relacionadas": [
+  "Atemoia graviola",
+  "Atemoia benefícios",
+  "Atemoia nomes",
+  "Atemoia preço",
+  "Pé de atemoia",
+  "Atemoia arvore",
+  "Atemoia como comer",
+  "Atemoia e pinha"
+ ],
+ "ai_overview": false
+}
