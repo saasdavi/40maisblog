@@ -1,7 +1,7 @@
 {
  "resumo": {
-  "publicados": 38,
-  "prontosParaUsar": 167,
+  "publicados": 39,
+  "prontosParaUsar": 166,
   "pautasValidadasSemTexto": 17,
   "planejadasAValidar": 886,
   "vagas": 146,
@@ -700,15 +700,15 @@
    "palavraChave": "tontura ao levantar",
    "cluster": "sintomas",
    "volume": 9900,
-   "status": "pronto",
+   "status": "publicado",
    "palavras": 1523,
    "h2": 12,
    "imagens": 3,
    "fontes": 6,
    "auditoria": 90,
-   "publicadoEm": null,
+   "publicadoEm": "2026-10-14T15:30:34.653Z",
    "escritoEm": "2026-10-04T18:06:40.304Z",
-   "previstoPara": "2026-10-18",
+   "previstoPara": null,
    "pontesSugeridas": []
   },
   {

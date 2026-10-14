@@ -6856,7 +6856,7 @@
         ]
       },
       "volume": 9900,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T18:06:38.111Z",
       "scores": {
         "auditoria": 90,
@@ -6923,7 +6923,7 @@
         "pexels:7579831"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-04T18:06:40.304Z",
       "validacao": {
         "palavraChave": "tontura ao levantar",
@@ -6988,7 +6988,9 @@
           ]
         },
         "validadoEm": "2026-10-04T18:06:40.304Z"
-      }
+      },
+      "publishedAt": "2026-10-14T15:30:34.653Z",
+      "publicadoDoEstoqueEm": "2026-10-14T15:30:34.653Z"
     },
     {
       "id": "art_1791137285404_isbu",
@@ -37751,6 +37753,6 @@
   ],
   "stats": {
     "total": 247,
-    "published": 38
+    "published": 39
   }
 }
