@@ -1,9 +1,10 @@
 name: Pesquisa SerpAPI (diária)
 
 # Disparada pelo cron-job.org às 01:30 (America/Sao_Paulo), via API do GitHub (workflow_dispatch).
-# Percorre PAUTAS.csv na ordem e faz até 5 buscas por execução (scripts/pesquisa-serp-diaria.js),
-# pulando as que já têm resposta válida (14 dias). Para ao acabar as 5, a cota do mês ou a lista.
-# Grava só em data/entrada/pautas-chat_01/resposta/. Não gera artigo nem publica.
+# Pesquisa até 5 pautas com status_artigo = "a gerar" em data/conteudo/pautas-mestre.csv, por maior volume
+# (scripts/pesquisa-serp-diaria.js). Cada pauta pesquisada vira "prontas" no CSV.
+# Pula as que já têm resposta válida (14 dias). Para ao acabar as 5, a cota do mês ou a lista.
+# Grava em data/entrada/pautas-chat_01/resposta/ e atualiza o status no CSV. Não gera artigo nem publica.
 
 on:
   workflow_dispatch:
@@ -37,7 +38,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Pesquisa SERP"
-          git add data/entrada/pautas-chat_01/resposta
+          git add data/entrada/pautas-chat_01/resposta data/conteudo/pautas-mestre.csv
           if git diff --staged --quiet; then
             echo "Nada novo para gravar"
             exit 0

@@ -1,7 +1,9 @@
-// Pesquisa diária na SerpAPI: percorre data/entrada/pautas-chat_01/PAUTAS.csv na ordem e roda
-// scripts/pesquisa-serp-manual.js para cada palavra pendente, até MAX_BUSCAS buscas reais.
-// Pautas com resposta válida (até 14 dias) são puladas pelo script manual, sem gastar busca.
+// Pesquisa diária na SerpAPI: percorre data/conteudo/pautas-mestre.csv e pesquisa só as linhas com
+// status_artigo = "a gerar", por maior volume (buscas_mes_exato), até MAX_BUSCAS buscas reais.
+// Cada pauta pesquisada com sucesso vira "prontas" no próprio CSV.
+// Palavras com resposta válida (até 14 dias) ficam de fora antes de contar tentativa.
 // Para ao bater MAX_BUSCAS, ao esgotar a cota do mês ou ao acabar a lista.
+// Se não houver nenhuma pauta "a gerar", sai com erro para não parecer sucesso.
 //   SERP_API_KEY=... node scripts/pesquisa-serp-diaria.js
 import fs from 'fs';
 import { execFileSync } from 'child_process';
@@ -9,25 +11,71 @@ import { execFileSync } from 'child_process';
 const CHAVE = (process.env.SERP_API_KEY || '').trim();
 const MAX_BUSCAS = Number(process.env.MAX_BUSCAS || 5);
 const LIMITE_MES = Number(process.env.SERPAPI_LIMITE_MES || 240);
+const VALIDADE_DIAS = 14;
 const PASTA = 'data/entrada/pautas-chat_01/resposta';
 const USO_FILE = `${PASTA}/uso-serpapi.json`;
-const PAUTAS = 'data/entrada/pautas-chat_01/PAUTAS.csv';
+const PAUTAS = 'data/conteudo/pautas-mestre.csv';
+const STATUS_A_GERAR = 'a gerar';
+const STATUS_PRONTA = 'prontas';
 const TENTATIVAS_MAX = 40; // limite de segurança contra erros em sequência
 
 if (!CHAVE) throw new Error('SERP_API_KEY ausente: o secret SERP___APIKEY precisa existir no repositório.');
 
+const slug = (s) => String(s || '').normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const lerJson = (p, fb) => { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return fb; } };
 const buscasNoMes = () => {
   const mes = new Date().toISOString().slice(0, 7);
   const uso = lerJson(USO_FILE, { mes, buscas: 0 });
   return uso.mes === mes ? uso.buscas : 0;
 };
+const respostaValida = (palavra) => {
+  const atual = lerJson(`${PASTA}/${slug(palavra)}.json`, null);
+  return Boolean(atual && (Date.now() - Date.parse(atual.data)) / 864e5 < VALIDADE_DIAS);
+};
 
-const linhas = fs.readFileSync(PAUTAS, 'utf8').replace(/^﻿/, '').split(/\r?\n/).filter(Boolean);
-const cabecalho = linhas[0].split(';');
-const iPalavra = cabecalho.indexOf('palavra_chave');
-if (iPalavra < 0) throw new Error('coluna palavra_chave não encontrada em PAUTAS.csv');
-const palavras = linhas.slice(1).map((l) => l.split(';')[iPalavra]?.trim()).filter(Boolean);
+// CSV com ';' e campos entre aspas, BOM no início e fim de linha CRLF. Preserva tudo que não muda.
+const BOM = '﻿';
+const texto = fs.readFileSync(PAUTAS, 'utf8');
+const temBom = texto.startsWith(BOM);
+const linhas = texto.replace(/^﻿/, '').split('\r\n');
+const cabecalho = linhas[0].split(';').map((c) => c.replace(/^"|"$/g, '').trim());
+const col = (nome) => {
+  const i = cabecalho.indexOf(nome);
+  if (i < 0) throw new Error(`coluna ${nome} não encontrada em ${PAUTAS}`);
+  return i;
+};
+const iPalavra = col('palavra_chave');
+const iVolume = col('buscas_mes_exato');
+const iStatus = col('status_artigo');
+const campos = (l) => l.split(';').map((c) => c.replace(/^"|"$/g, '').trim());
+const aQuote = (s) => `"${s}"`;
+
+const candidatas = linhas.slice(1)
+  .filter((l) => l)
+  .map(campos)
+  .filter((c) => c[iStatus] === STATUS_A_GERAR && c[iPalavra])
+  .sort((a, b) => (Number(b[iVolume]) || 0) - (Number(a[iVolume]) || 0))
+  .map((c) => c[iPalavra]);
+
+if (candidatas.length === 0) {
+  console.error(`Nenhuma pauta com status "${STATUS_A_GERAR}" em ${PAUTAS}. Nada para pesquisar.`);
+  process.exit(1);
+}
+
+// marca a pauta como pronta no CSV, mexendo só na linha dela
+const marcarPronta = (palavra) => {
+  const atual = fs.readFileSync(PAUTAS, 'utf8').replace(/^﻿/, '');
+  const ls = atual.split('\r\n');
+  const i = ls.findIndex((l, n) => n > 0 && l && campos(l)[iPalavra] === palavra && campos(l)[iStatus] === STATUS_A_GERAR);
+  if (i < 0) return;
+  const f = ls[i].split(';');
+  f[iStatus] = aQuote(STATUS_PRONTA);
+  ls[i] = f.join(';');
+  fs.writeFileSync(PAUTAS, (temBom ? BOM : '') + ls.join('\r\n'));
+};
+
+const palavras = candidatas.filter((p) => !respostaValida(p));
+console.log(`${candidatas.length} pautas "${STATUS_A_GERAR}"; ${candidatas.length - palavras.length} já com resposta válida; ${palavras.length} pendentes.`);
 
 let feitas = 0;
 let tentativas = 0;
@@ -45,7 +93,10 @@ for (const palavra of palavras) {
     console.log(`"${palavra}": falhou, seguindo para a próxima.`);
     continue;
   }
-  if (buscasNoMes() > antes) feitas++;
+  if (buscasNoMes() > antes) {
+    feitas++;
+    marcarPronta(palavra);
+  }
 }
 
 console.log(`Concluído: ${feitas} busca(s) nova(s) nesta execução (máximo ${MAX_BUSCAS}). Respostas em ${PASTA}/`);
