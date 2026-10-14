@@ -1,0 +1,89 @@
+{
+ "palavra": "beta alanina",
+ "data": "2026-10-14",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "benefícios beta alanina - Aplicativo na Amazon Appstore",
+   "link": "https://sistemas.conab.gov.br/store1234/benef%C3%ADcios-beta-alanina",
+   "trecho": "O principal atrativo do benefícios beta alanina pra mim é como ele lida com várias contas sem atrito. A permissão para ler contatos é solicitada, mas nenhum ...",
+   "lida": false,
+   "motivo": "HTTP 403"
+  },
+  {
+   "posicao": 2,
+   "titulo": "o que é beta alanina - Apps no Google Play",
+   "link": "https://tributario.piracicaba.sp.gov.br/android/o-que-e-beta-alanina.shtml",
+   "trecho": "esses dias isso aqui não esconde o botão depois da atualização",
+   "lida": false,
+   "motivo": "HTTP 404"
+  },
+  {
+   "posicao": 3,
+   "titulo": "Beta-alanina: saiba o que é esse aminoácido e suas ...",
+   "link": "https://www.einstein.br/n/vida-saudavel/beta-alanina-saiba-o-que-e-esse-aminoacido-e-suas-funcoes-no-organismo",
+   "trecho": "A beta-alanina é um aminoácido não essencial, ou seja, é produzida naturalmente pelo corpo humano. Embora não seja incorporada diretamente à ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 4,
+   "titulo": "Verifying your browser. Please wait a few seconds...",
+   "link": "https://www.gsuplementos.com.br/alanina/?srsltid=AU7gw4V6TR7eQqig5GWaxV8ktfsofAP1HlCdgyr_8ERk-Tl-Cw-NmaQf",
+   "trecho": "“A beta-alanina é aquele nutriente capaz de influenciar a função muscular, retardando o aparecimento da fadiga, permitindo treinos de maior volume.” Diogo ...",
+   "lida": true,
+   "h2": [],
+   "palavras": 37
+  },
+  {
+   "posicao": 5,
+   "titulo": "Beta Alanina 120g - Comprar em Dux Human Health",
+   "link": "https://duxhumanhealth.com/produtos/beta-alanina-120g/?srsltid=AU7gw4UrTJJzutrMoJ0YUcUxeI7RJIkJOB6fVrBQY6XWpv9zZd_vi2k8",
+   "trecho": "A beta-alanina, presente no organismo e em proteínas, estimula a produção de carnosina. Essa substância atua controlando a acidez nos músculos gerada por ...",
+   "lida": true,
+   "h2": [
+    "Desempenho e suporte",
+    "Números que entregam",
+    "Sugestão de uso",
+    "Informações Nutricionais",
+    "Composição",
+    "Perguntas Frequentes",
+    "Mais vendidos"
+   ],
+   "palavras": 1755
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "benefícios beta alanina - Aplicativo na Amazon Appstore",
+   "link": "https://sistemas.conab.gov.br/store1234/benef%C3%ADcios-beta-alanina",
+   "lida": false,
+   "motivo": "HTTP 403"
+  },
+  {
+   "titulo": "o que é beta alanina - Apps no Google Play",
+   "link": "https://tributario.piracicaba.sp.gov.br/android/o-que-e-beta-alanina.shtml",
+   "lida": false,
+   "motivo": "HTTP 404"
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "O que e para que serve beta-alanina?",
+  "Quais são os riscos da beta-alanina?",
+  "O que é melhor, beta-alanina ou creatina?",
+  "Posso tomar beta-alanina todos os dias?"
+ ],
+ "relacionadas": [
+  "Beta alanina para que serve",
+  "Beta alanina como tomar",
+  "Beta alanina growth",
+  "Beta alanina efeitos colaterais",
+  "Beta alanina soldiers",
+  "Beta alanina dux",
+  "Beta alanina valor",
+  "Beta alanina dark lab"
+ ],
+ "ai_overview": true
+}
