@@ -1,0 +1,92 @@
+{
+ "palavra": "ovos",
+ "data": "2026-10-14",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Ovo em pó",
+   "link": "https://www.naturovos.com.br/ovo-em-po?srsltid=AU7gw4WXwZvSKS3MOcw_ie_fhjMOjdEqtSDx_lJVZFQ5hxaM5RUZBDFa",
+   "trecho": "A Naturovos é uma empresa gaúcha, consolidada na produção de ovos e alimentos. A empresa é parte de um grupo familiar com sólida atuação desde 1966. Referência ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 2,
+   "titulo": "Naturovos",
+   "link": "https://www.naturovos.com.br/ovos?srsltid=AU7gw4X35WkqQnsmLaSDKLzKjrkVj2fs38XTVEMMil5Sn-QSvINdcLvL",
+   "trecho": "A Naturovos é uma empresa gaúcha, consolidada na produção de ovos e alimentos. A empresa é parte de um grupo familiar com sólida atuação desde 1966. Referência ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 3,
+   "titulo": "Ovo: receitas e tudo sobre o alimento",
+   "link": "https://www1.folha.uol.com.br/folha-topicos/ovo/",
+   "trecho": "Veja receitas com ovo, onde encontrar bons pratos com o ingrediente em São Paulo e o leia notícias sobre o impacto desse alimento na saúde.",
+   "lida": true,
+   "h2": [
+    "Últimas notícias",
+    "No Dia Mundial do Ovo, entenda se exagerar no alimento para bater meta de proteína pode fazer mal",
+    "Brasil tem quase 10% mais gado do que gente em 2025",
+    "Breakfast Weekend oferece menus de café da manhã por a partir de R$ 39,90 em São Paulo",
+    "Mais proteínas não vão fazer você ganhar mais músculos se não se exercitar mais",
+    "Donos da maior produtora de ovos dos EUA lucraram US$ 320 mi com venda após alta de preços",
+    "Tortuga merece ser descoberto por quem gosta de ser surpreendido à mesa",
+    "Quem veio antes, o ovo ou a galinha?",
+    "Ovos, frango e carne suína podem ficar mais caros com a guerra no Irã, diz setor",
+    "Global Eggs, do rei do ovo , recebe aporte de US$ 1 bi de fundo Warburg Pincus",
+    "Governo avança na negociação da carne bovina para a Coreia do Sul, mas não dá prazo",
+    "Mantiqueira e JBS compram produtora de ovos nos EUA"
+   ],
+   "palavras": 7643
+  },
+  {
+   "posicao": 4,
+   "titulo": "Ovo faz mal? Veja 10 mitos e verdades sobre o alimento | CNN Brasil",
+   "link": "https://www.cnnbrasil.com.br/saude/ovo-faz-mal-veja-10-mitos-e-verdades-sobre-o-alimento/",
+   "trecho": "Ovo faz mal? Veja 10 mitos e verdades sobre o alimento · 1. Ovo aumenta o colesterol · 2. Comer a gema do ovo faz mal · 3. Ovo pode ajudar no ...",
+   "lida": true,
+   "h2": [
+    "1. Ovo aumenta o colesterol",
+    "2. Comer a gema do ovo faz mal",
+    "3. Ovo pode ajudar no emagrecimento",
+    "4. Pessoas com diabetes não podem comer ovo",
+    "5. Ovo não pode ser guardado na geladeira",
+    "6. É importante lavar os ovos antes de prepará-los",
+    "7. Comer ovo cru ou gema mole pode fazer mal",
+    "8. Ovo pode ajudar no ganho de massa muscular",
+    "9. Ovo pode ajudar na memória",
+    "10. Comer muitos ovos por dia faz mal",
+    "Mais Lidas",
+    "WebStories"
+   ],
+   "palavras": 1678
+  },
+  {
+   "posicao": 5,
+   "titulo": "Ovos Aves Livres",
+   "link": "https://www.naturovos.com.br/p/ovos-aves-livres?srsltid=AU7gw4VXLCzhDGo5hPRstLw4eg2-ug-CwcRtTtVMs01qXxwlQXcmpl8T",
+   "trecho": "Os Ovos Sítio Naturovos são produzidos em pequenas propriedades no interior do Rio Grande do Sul. São cerca de 30 sítios que dedicam seu dia a dia para cuidar ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  }
+ ],
+ "fontes_oficiais": [],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "Qual é a diferença entre ovo e óvulo?",
+  "Quanto está o ovo?",
+  "Para que serve ovo?",
+  "Quem tem insuficiência cardíaca pode comer ovo?"
+ ],
+ "relacionadas": [
+  "Ovos receita",
+  "Ovos desidratados",
+  "Ovos em pó",
+  "Ovo em pó para que serve",
+  "Ovos em pó onde comprar",
+  "20 benefícios do ovo"
+ ],
+ "ai_overview": true
+}
