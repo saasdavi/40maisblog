@@ -1,0 +1,77 @@
+{
+ "palavra": "pitaya",
+ "data": "2026-10-14",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Pitaya é a fruta exótica que pode transformar seu quintal em uma fonte de saúde - Estado de Minas - Em foco",
+   "link": "https://www.em.com.br/emfoco/2025/06/08/pitaya-e-a-fruta-exotica-que-pode-transformar-seu-quintal-em-uma-fonte-de-saude/",
+   "trecho": "A pitaya, também conhecida como fruta do dragão, é uma fruta exótica que tem ganhado popularidade devido ao seu sabor único e benefícios ...",
+   "lida": true,
+   "h2": [
+    "Quais são os passos para iniciar o cultivo de pitaya?",
+    "Como preparar o solo e plantar a pitaya?",
+    "Quais cuidados são necessários durante o crescimento da pitaya?",
+    "O que esperar da colheita e como aproveitar a pitaya?"
+   ],
+   "palavras": 1305
+  },
+  {
+   "posicao": 2,
+   "titulo": "Saiba tudo sobre pitaya, a fruta do momento",
+   "link": "https://www.expressomt.com.br/noticia/saiba-tudo-sobre-pitaya-a-fruta-do-momento/177630",
+   "trecho": "Além de ser magrinha, a fruta concentra substâncias reconhecidamente benéficas à manutenção da saúde. É o caso dos flavonoides, considerados ...",
+   "lida": true,
+   "h2": [
+    "NOTÍCIAS RELACIONADAS",
+    "ENVIE SEU COMENTÁRIO"
+   ],
+   "palavras": 588
+  },
+  {
+   "posicao": 3,
+   "titulo": "Pitaya: conheça essa fruta exótica e saiba como cultivar - Capitalist",
+   "link": "https://capitalist.com.br/pitaya-conheca-essa-fruta-exotica-e-saiba-como-cultivar/",
+   "trecho": "Assemelha-se ao kiwi, contudo, tem gosto muito mais suave. A pitaya é o fruto das espécies de cactos epífitos, cujo cultivo requer certa atenção ...",
+   "lida": true,
+   "h2": [
+    "Capitalist"
+   ],
+   "palavras": 725
+  },
+  {
+   "posicao": 4,
+   "titulo": "Conheça a Fruta : Pitaya ou Fruta dragão",
+   "link": "http://gustavoinfol.blogspot.com/2012/11/conheca-fruta-pitaia.html",
+   "trecho": "Pitaya é o nome dado ao fruto de várias espécies de cactos epífitos, sobretudo do género Hylocereus mas também Selenicereus, nativas do México e ...",
+   "lida": false,
+   "motivo": "HTTP 429"
+  },
+  {
+   "posicao": 5,
+   "titulo": "https://goiandira.go.gov.br/video.php/tig/uF274d93...",
+   "link": "https://goiandira.go.gov.br/video.php/tig/uF274d9303193z42/frutas+pitaya.html",
+   "trecho": "Não há nenhuma informação disponível para esta página.",
+   "lida": false,
+   "motivo": "HTTP 404"
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "https://goiandira.go.gov.br/video.php/tig/uF274d93...",
+   "link": "https://goiandira.go.gov.br/video.php/tig/uF274d9303193z42/frutas+pitaya.html",
+   "lida": false,
+   "motivo": "HTTP 404"
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "Para que a pitaya é boa para quê?",
+  "Qual é o valor de 1 kg de pitaya?",
+  "Por que a fruta pitaya é tão cara?",
+  "Qual pitaya é melhor, branca ou vermelha?"
+ ],
+ "relacionadas": [],
+ "ai_overview": false
+}
