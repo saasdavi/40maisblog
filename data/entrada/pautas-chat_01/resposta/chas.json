@@ -1,0 +1,86 @@
+{
+ "palavra": "chás",
+ "data": "2026-10-14",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Tea Shop: Loja de Chá Premium e Infusões Naturais",
+   "link": "https://teashop.com.br/?srsltid=AU7gw4VgbvF6n57-1uoHoLFBIz7t6JoCJ1g0SGITR9nP5GG9-nkzk8F_",
+   "trecho": "Chás premium a granel com mais de 30 anos de tradição europeia. Blends exclusivos, infusões naturais e sabores únicos com frete grátis acima de R$299!",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 2,
+   "titulo": "Chás e Infusões Premium para Bem-Estar | Moncloa Moncloa Store - Loja de Chás, Kits e Acessórios Para Chás",
+   "link": "https://moncloa.com.br/collections/chas?srsltid=AU7gw4UCtFseDmNvi02buCms4y7fno8y9u9vN1LTxvQLYAgv9bEz1AR1",
+   "trecho": "Descubra chás verdes, pretos, brancos, rooibos e infusões premium Moncloa. Blends exclusivos com entrega para todo o Brasil. Experimente agora.",
+   "lida": true,
+   "h2": [
+    "Minha Sacola",
+    "Subtotal",
+    "Descontos:",
+    "Total",
+    "Chás Infusões Premium Moncloa",
+    "Filtre por:",
+    "Filtrar por:",
+    "Institucional",
+    "Atendimento",
+    "Formas de pagamento"
+   ],
+   "palavras": 3564
+  },
+  {
+   "posicao": 3,
+   "titulo": "Ch�s: variedade de infus�es naturais, sabores artesanais e benef�cios � sa�de",
+   "link": "https://www.baraoshop.com/chas",
+   "trecho": "Explore uma seleção de chás naturais, com sabores exclusivos e benefícios para o bem-estar, ideais para relaxar, hidratar e promover saúde com qualidade e ...",
+   "lida": true,
+   "h2": [],
+   "palavras": 1324
+  },
+  {
+   "posicao": 4,
+   "titulo": "Veja 3 chás de ervas naturais que podem ser bons para saúde, de acordo com a ciência | National Geographic | National Geographic",
+   "link": "https://www.nationalgeographicbrasil.com/ciencia/2023/07/veja-3-chas-de-ervas-naturais-que-podem-ser-bons-para-saude-de-acordo-com-a-ciencia",
+   "trecho": "Veja 3 chás de ervas naturais que podem ser bons para saúde, de acordo com a ciência · 1. Chá de gengibre · 2. Chá de camomila · 3. Chá de ...",
+   "lida": true,
+   "h2": [
+    "Estas bebidas apresentam benefícios anti-inflamatórios e antioxidantes estudados por especialistas.",
+    "1. Chá de gengibre",
+    "2. Chá de camomila",
+    "3. Chá de hibisco"
+   ],
+   "palavras": 865
+  },
+  {
+   "posicao": 5,
+   "titulo": "Chás Talchá",
+   "link": "https://talcha.com.br/collections/chas?srsltid=AU7gw4UfDTn8uVJdWsgHMkdAcUoE3c7huqVeSe4djNxIM6Z-l5o9mhy-",
+   "trecho": "Compre 4 chás e ganhe 10% off! Comprando 4 chás diferentes você ganha 10% off nos chás do seu pedido! Aproveite a promoção e conheça mais sabores.",
+   "lida": true,
+   "h2": [],
+   "palavras": 662
+  }
+ ],
+ "fontes_oficiais": [],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "Quais são os principais chás?",
+  "Qual chá é bom para tomar todo dia?",
+  "Qual é o chá mais poderoso do mundo?",
+  "Quais são os 100 tipos de chá?"
+ ],
+ "relacionadas": [
+  "Lista de chás",
+  "Chás naturais",
+  "Chá saquinho",
+  "Chás twinings",
+  "Chás importados",
+  "Chás especiais",
+  "Chás gourmet",
+  "50 tipos de chá"
+ ],
+ "ai_overview": false
+}
