@@ -1,0 +1,108 @@
+{
+ "palavra": "bebidas",
+ "data": "2026-10-14",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Casa da Bebida - O melhor site para comprar bebidas online ...",
+   "link": "https://www.casadabebida.com.br/",
+   "trecho": "Sua melhor opção para comprar bebidas, Whisky, Vodka, Tequila e Licores. Grandes marcas de bebidas com o melhor preço e maior prazo, entregas para todo o ...",
+   "lida": false,
+   "motivo": "HTTP 403"
+  },
+  {
+   "posicao": 2,
+   "titulo": "Bebidas: Destilados, Sucos, Xaropes e Tudo do Drink | WebBar",
+   "link": "https://www.webbar.com.br/bebidas/?srsltid=AU7gw4UQ5x7CU7RidFRLmBG02ywrLIJs274VHqlnoZcDmG8LQiQrPR97",
+   "trecho": "Whisky, gin, vodka e cachaça, mais os sucos, xaropes e tônicas que entram no drink. As miniaturas e as garrafas gigantes têm seção própria.",
+   "lida": true,
+   "h2": [
+    "'+v.title+'",
+    "'+v.title+'",
+    "Bebidas: a maior parte desta seção é o que entra no drink",
+    "Perguntas frequentes sobre a seção Bebidas",
+    "Você também pode gostar"
+   ],
+   "palavras": 3097
+  },
+  {
+   "posicao": 3,
+   "titulo": "Imigrantes Bebidas | Tudo para beber. Vinho, vodka, whisky, cacha�a, cerveja, refrigerante",
+   "link": "https://www.imigrantesbebidas.com.br/bebida/vitrine?srsltid=AU7gw4VBlBejf6BAGQIgN-fGRyDKfzA5mVoehfwLTqivUw-6zjv8JBNm",
+   "trecho": "Imigrantes Bebidas | Tudo para beber. Vinho, vodka, whisky, cachaça, cerveja, refrigerante · Cervejas · Ale · Cerveja de Trigo · IPA - India Pale Ale · Lager ...",
+   "lida": true,
+   "h2": [
+    "Cervejas",
+    "Ale",
+    "Cerveja de Trigo",
+    "IPA - India Pale Ale",
+    "Lager",
+    "Pilsen",
+    "Puro Malte",
+    "Ver todas",
+    "Destilados",
+    "Whisky",
+    "Vodka",
+    "Tequila"
+   ],
+   "palavras": 4117
+  },
+  {
+   "posicao": 4,
+   "titulo": "Dose Online Bebidas | Loja Online de Whisky, Vinhos e Destilados",
+   "link": "https://www.doseonline.com.br/?srsltid=AU7gw4Xidx7DEjGtQujru6PiGvb07qa3G3zW2g6I26XZ_JbANbMxifg0",
+   "trecho": "Compre whisky, vinhos, gin, espumantes, licores e destilados com entrega para todo o Brasil. Mais de 2 mil rótulos com segurança e procedência.",
+   "lida": true,
+   "h2": [
+    "Confira as Novidades",
+    "Os Mais Vendidos no Momento",
+    "Ofertas Imperd veis",
+    "Nossas Marcas",
+    "Quem compra recomenda a Dose Online!",
+    "Not cias",
+    "Confira nosso centro de distribui o"
+   ],
+   "palavras": 1723
+  },
+  {
+   "posicao": 5,
+   "titulo": "Todas as Bebidas",
+   "link": "https://br.thebar.com/todas-as-bebidas?srsltid=AU7gw4VlLLol7y4ANTTYAvpfScTwvVE4-xtkgrdn-3_6JIfZVX--xeHQ",
+   "trecho": "Compre whisky, vodka, gin, tequila e muito mais no e-commerce oficial da Diageo. Johnnie Walker, Smirnoff, Tanqueray e outras marcas premium com entrega ...",
+   "lida": true,
+   "h2": [
+    "Filtros",
+    "Combo Cerveja Guinness Draught In Can 440Ml 12 Unidades",
+    "Vodka Ketel One - 1L",
+    "Whisky Johnnie Walker Green Label - 750Ml",
+    "Whisky Johnnie Walker Double Black - 1L",
+    "Combo Whisky Johnnie Walker Black Label 1L - 6 Unidades",
+    "Gin Gilbeys 700 Ml",
+    "Combo Com 2 Whisky Johnnie Walker Double Black 1L",
+    "Whisky Buchanans Deluxe 12 Anos - 1L",
+    "Combo Licor Baileys 750 Ml - 2 Unidades",
+    "Combo Gin Tanqueray London Dry 750Ml 2 Unidades",
+    "Receitas para Brindar"
+   ],
+   "palavras": 1370
+  }
+ ],
+ "fontes_oficiais": [],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "Quais são as 10 bebidas mais consumidas?",
+  "Quais são os nomes de bebidas?",
+  "É permitido vender bebidas alcoólicas?",
+  "Qual é o melhor site para comprar bebidas online?"
+ ],
+ "relacionadas": [
+  "Bebidas alcoólicas",
+  "Bebidas nomes",
+  "Bebidas whisky",
+  "Bebidas drinks",
+  "Bebidas alcoólicas nomes",
+  "Bebidas tipos"
+ ],
+ "ai_overview": true
+}
