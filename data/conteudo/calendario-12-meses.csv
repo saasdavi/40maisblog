@@ -1,7 +1,7 @@
 ﻿data;mes;n_do_dia;tipo;tema;palavra_chave;buscas_mes_cabeca;buscas_soma_familia;sensivel_revisao;satelites_no_mesmo_artigo;quem_escreve;situacao
 "2026-10-16";"2026-10";"1";"estoque (pronto)";"musculo-e-forca";"exercícios para idosos";"4400";"";"";"";"pronto, sem IA";"FALHA EXECUÇÃO"
 "2026-10-16";"2026-10";"2";"estoque (pronto)";"nutricao";"ferro baixo sintomas";"3600";"";"";"";"pronto, sem IA";"FALHA EXECUÇÃO"
-"2026-10-16";"2026-10";"3";"estoque (pronto)";"memoria";"esquecimento";"3600";"";"";"";"pronto, sem IA";"pronto"
+"2026-10-16";"2026-10";"3";"estoque (pronto)";"memoria";"esquecimento";"3600";"";"";"";"pronto, sem IA";"FALHA EXECUÇÃO"
 "2026-10-17";"2026-10";"1";"estoque (pronto)";"emagrecimento";"idade metabólica";"3400";"";"";"";"pronto, sem IA";"pronto"
 "2026-10-17";"2026-10";"2";"estoque (pronto)";"musculo-e-forca";"sarcopenia";"135000";"";"";"";"pronto, sem IA";"pronto"
 "2026-10-17";"2026-10";"3";"estoque (pronto)";"colesterol";"colesterol hdl";"74000";"";"";"";"pronto, sem IA";"pronto"
