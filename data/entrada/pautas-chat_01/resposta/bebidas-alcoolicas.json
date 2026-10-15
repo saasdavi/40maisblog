@@ -1,0 +1,89 @@
+{
+ "palavra": "bebidas alcoólicas",
+ "data": "2026-10-15",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Casa da Bebida - O melhor site para comprar bebidas online ...",
+   "link": "https://www.casadabebida.com.br/",
+   "trecho": "Sua melhor opção para comprar bebidas, Whisky, Vodka, Tequila e Licores. Grandes marcas de bebidas com o melhor preço e maior prazo, entregas para todo o ...",
+   "lida": false,
+   "motivo": "HTTP 403"
+  },
+  {
+   "posicao": 2,
+   "titulo": "Todas as Bebidas",
+   "link": "https://br.thebar.com/todas-as-bebidas?srsltid=AU7gw4UgNCqDxAdR2gBdigddJaaKfu38OC0RDpBxwO3EYfVcxO2F_zDy",
+   "trecho": "Beba com responsabilidade e autoridade. A Diageo oferece o que existe de melhor em Whisky, Vodka, Gin, Tequila, Licor, Rum, Cachaça e muito mais.",
+   "lida": true,
+   "h2": [
+    "Filtros",
+    "Combo Cerveja Guinness Draught In Can 440Ml 12 Unidades",
+    "Vodka Ketel One - 1L",
+    "Whisky Johnnie Walker Green Label - 750Ml",
+    "Whisky Johnnie Walker Double Black - 1L",
+    "Combo Whisky Johnnie Walker Black Label 1L - 6 Unidades",
+    "Gin Gilbeys 700 Ml",
+    "Combo Com 2 Whisky Johnnie Walker Double Black 1L",
+    "Whisky Buchanans Deluxe 12 Anos - 1L",
+    "Combo Licor Baileys 750 Ml - 2 Unidades",
+    "Gin Tanqueray Ten 750 Ml",
+    "Receitas para Brindar"
+   ],
+   "palavras": 1361
+  },
+  {
+   "posicao": 3,
+   "titulo": "Bebidas Alcoólicas | Extra Mercado",
+   "link": "https://www.extramercado.com.br/especial/ofertas_bebidasalcoolicas",
+   "trecho": "Bebida Mista Alcoólica Gaseificada Frutas Vermelhas Beats Red Mix Garrafa 269ml · Bebida Mista Alcoólica Tropical Beats Garrafa 269ml.",
+   "lida": true,
+   "h2": [],
+   "palavras": 342
+  },
+  {
+   "posicao": 4,
+   "titulo": "Tipos de bebidas alcoólicas: qual pedir em cada ocasião",
+   "link": "https://institucional.ifood.com.br/clientes/tipos-de-bebidas-alcoolicas/",
+   "trecho": "Cerveja, vinho, espumante, sidra e saquê nascem desse processo, e a cerveja artesanal é um bom exemplo de como um único método gera estilos ...",
+   "lida": true,
+   "h2": [
+    "Como as bebidas alcoólicas são classificadas?",
+    "Quais são os principais tipos de bebidas alcoólicas?",
+    "Qual bebida combina com cada ocasião?",
+    "Como acertar na harmonização sem complicar?",
+    "Como pedir bebidas no iFood Mercado?",
+    "Quem pode comprar bebida alcoólica pelo app?",
+    "Monte sua seleção de bebidas no iFood Mercado!",
+    "Perguntas frequentes sobre tipos de bebidas alcoólicas"
+   ],
+   "palavras": 1691
+  },
+  {
+   "posicao": 5,
+   "titulo": "Melhores bebidas alcoólicas: receitas, dicas e moderação",
+   "link": "https://www.quetzalli.com.br/blogs/curiosidades/melhores-bebidas-alcoolicas-dicas-receitas-moderacao?srsltid=AU7gw4V4PU1LeNl5S7DM_G2CkHdki6cV0mvXLXgoW-daJaSRO1tXS2vs",
+   "trecho": "Receitas fáceis (clássicos e modernos) · 1) Martini Clássico · 2) Margarita Clássica · 3) Old Fashioned · 4) Espresso Martini (moderno, ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  }
+ ],
+ "fontes_oficiais": [],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "Quais são as 10 bebidas mais consumidas?",
+  "Quais são os tipos de bebidas alcoólicas?",
+  "Quais são as 10 melhores bebidas alcoólicas?",
+  "Quais são 30 nomes de bebidas alcoólicas?"
+ ],
+ "relacionadas": [
+  "20 nomes de bebidas alcoólicas",
+  "Bebidas alcoólicas nomes",
+  "Bebidas alcoólicas whisky",
+  "Bebidas alcoólicas doces",
+  "Bebidas alcoólicas fortes",
+  "Bebidas alcoólicas baratas"
+ ],
+ "ai_overview": true
+}
