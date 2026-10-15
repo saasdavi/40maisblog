@@ -1,6 +1,6 @@
 // Envia a pesquisa SERP recém-gerada para a página dedicada de pesquisas no Notion.
 // Requer NOTION_API_KEY com acesso à página "Pesquisas SerpAPI — Arquivo de pesquisas".
-// Só é chamado quando o JSON da pesquisa foi alterado nesta execução.
+// Idempotente: se já existir uma página com o mesmo título neste arquivo, não cria duplicata.
 import fs from 'node:fs';
 
 const keyword = (process.env.PALAVRA || '').trim();
@@ -14,6 +14,43 @@ function slug(value) {
     .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
+async function notionRequest(url, options = {}) {
+  const response = await fetch(url, {
+    ...options,
+    headers: {
+      Authorization: `Bearer ${notionKey}`,
+      'Notion-Version': '2022-06-28',
+      'Content-Type': 'application/json',
+      ...(options.headers || {})
+    },
+    signal: AbortSignal.timeout(20000)
+  });
+  const result = await response.json();
+  if (!response.ok) {
+    const message = result.message || result.code || `HTTP ${response.status}`;
+    throw new Error(`Notion API recusou a operação (${response.status}): ${message}`);
+  }
+  return result;
+}
+
+async function findExistingPage(title) {
+  let cursor;
+  do {
+    const query = new URLSearchParams({ page_size: '100' });
+    if (cursor) query.set('start_cursor', cursor);
+    const result = await notionRequest(
+      `https://api.notion.com/v1/blocks/${parentPageId}/children?${query.toString()}`
+    );
+    for (const block of result.results || []) {
+      if (block.type === 'child_page' && block.child_page?.title?.trim() === title) {
+        return block;
+      }
+    }
+    cursor = result.has_more ? result.next_cursor : undefined;
+  } while (cursor);
+  return null;
+}
+
 async function main() {
   if (!keyword) throw new Error('PALAVRA vazia; não é possível identificar a pesquisa.');
   if (!notionKey) {
@@ -25,6 +62,13 @@ async function main() {
   const raw = fs.readFileSync(path, 'utf8');
   const data = JSON.parse(raw);
   const title = `Pesquisa SERP — ${data.palavra || keyword} — ${data.data || new Date().toISOString().slice(0, 10)}`;
+
+  // Evita duplicação em reruns, retries e reprocessamentos do mesmo JSON.
+  const existing = await findExistingPage(title);
+  if (existing) {
+    console.log(`Pesquisa já existe no Notion; nenhuma duplicata criada: ${title} — https://www.notion.so/${existing.id.replace(/-/g, '')}`);
+    return;
+  }
 
   // A API do Notion limita cada trecho de texto a 2.000 caracteres.
   const richText = [];
@@ -56,21 +100,10 @@ async function main() {
     ]
   };
 
-  const response = await fetch('https://api.notion.com/v1/pages', {
+  const result = await notionRequest('https://api.notion.com/v1/pages', {
     method: 'POST',
-    headers: {
-      Authorization: `Bearer ${notionKey}`,
-      'Notion-Version': '2022-06-28',
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(body),
-    signal: AbortSignal.timeout(20000)
+    body: JSON.stringify(body)
   });
-  const result = await response.json();
-  if (!response.ok) {
-    const message = result.message || result.code || `HTTP ${response.status}`;
-    throw new Error(`Notion API recusou a pesquisa (${response.status}): ${message}`);
-  }
   console.log(`Pesquisa completa enviada ao Notion: ${title} — ${result.url}`);
 }
 
