@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Pesquisar na SerpAPI (1 pauta)
+      - name: Pesquisar na SerpAPI (até 5 pautas)
         id: pesquisar
         env:
           SERP_API_KEY: ${{ secrets.SERP___APIKEY }}
@@ -56,12 +56,16 @@ jobs:
           git pull --rebase -q origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
 
-      - name: Enviar pesquisa nova ao Notion
-        if: steps.pesquisar.outputs.pesquisa != ''
+      - name: Enviar pesquisas novas ao Notion (sem duplicar)
+        if: steps.pesquisar.outputs.pesquisas != ''
         env:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
-          PALAVRA: ${{ steps.pesquisar.outputs.pesquisa }}
-        run: node scripts/enviar-serp-notion.js
+          PESQUISAS: ${{ steps.pesquisar.outputs.pesquisas }}
+        run: |
+          while IFS= read -r palavra; do
+            [ -n "$palavra" ] || continue
+            PALAVRA="$palavra" node scripts/enviar-serp-notion.js
+          done <<< "$PESQUISAS"
 
   validar:
     if: ${{ github.event_name == 'repository_dispatch' && github.event.action == 'validar_pautas' }}
