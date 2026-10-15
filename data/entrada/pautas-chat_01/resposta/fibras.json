@@ -1,0 +1,137 @@
+{
+ "palavra": "fibras",
+ "data": "2026-10-15",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Fibras Alimentares – O que é importante saber? - Sociedade Brasileira de Diabetes",
+   "link": "https://diabetes.org.br/fibras-alimentares-o-que-e-importante-saber/",
+   "trecho": "As fibras alimentares compreendem as partes comestíveis dos vegetais presentes nas frutas, legumes, verduras e hortaliças e do amido resistente encontrado ...",
+   "lida": true,
+   "h2": [
+    "VOCÊ ESTÁ NO SITE DE NUTRIÇÃO",
+    "NUTRIÇÃO",
+    "FALE CONOSCO",
+    "Complicações Bucais"
+   ],
+   "palavras": 1604
+  },
+  {
+   "posicao": 2,
+   "titulo": "Descubra quais são os alimentos ricos em fibra",
+   "link": "https://www.einstein.br/n/vida-saudavel/descubra-quais-sao-os-alimentos-ricos-em-fibra",
+   "trecho": "Os cereais representam as principais fontes de fibra. Esse grupo inclui alimentos como arroz integral, aveia, trigo, milho e granola (mistura de ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 3,
+   "titulo": "",
+   "link": "https://www.healtheuniversity.ca/pt/CardiacCollege/Documents/17.CAPITULO12-NutricaoFibra-2.pdf",
+   "trecho": "➢ As fibras só são encontradas em alimentos à base de plantas. São a parte da planta que o corpo não consegue digerir (como as cascas), ou seja, passam pelo ...",
+   "lida": true,
+   "h2": [],
+   "palavras": 4259
+  },
+  {
+   "posicao": 4,
+   "titulo": "Brasil - Fibra alimentar: ingestão adequada e efeitos sobre a saúde do metabolismo Fibra alimentar: ingestão adequada e efeitos sobre a saúde do metabolismo",
+   "link": "https://www.scielo.br/j/abem/a/PZdwfM5xZKG8BmB9YH59crf/?format=html&lang=pt&ilang=pt_BR",
+   "trecho": "O aumento na ingestão de fibras reduz os níveis séricos de colesterol, melhora a glicemia em pacientes com diabetes, reduz o peso corporal e foi associado com ...",
+   "lida": true,
+   "h2": [
+    "Dietary fiber: adequate intake and effects on metabolism health",
+    "Resumo",
+    "Abstract",
+    "Referências bibliográficas",
+    "Datas de Publicação",
+    "Histórico",
+    "Ferramentas do artigo",
+    "Versão para download de PDF",
+    "Artigos relacionados",
+    "Versões e tradução automática",
+    "Como citar",
+    "Métricas"
+   ],
+   "palavras": 7098
+  },
+  {
+   "posicao": 5,
+   "titulo": "Fibras para o intestino: por que são essenciais para a saúde?",
+   "link": "https://www.essentialnutrition.com.br/conteudos/fibras-para-o-intestino/",
+   "trecho": "Elas são peças-chave para manter o equilíbrio do intestino, favorecer a imunidade e ajudar na saciedade, na saúde óssea e até cerebral.",
+   "lida": true,
+   "h2": [
+    "O que são fibras alimentares?",
+    "Quais são os benefícios das fibras para o intestino?",
+    "Os efeitos das fibras vão além do intestino",
+    "Exemplos de alimentos ricos em fibras",
+    "Qual a quantidade diária recomendada de fibras?",
+    "O que acontece se consumir fibras em excesso?",
+    "Sinais de deficiência de fibras no organismo",
+    "Quais são as melhores fibras para o intestino?",
+    "Como escolher o suplemento de fibras ideal para você?",
+    "Shop"
+   ],
+   "palavras": 3477
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "Fibras Alimentares – O que é importante saber? - Sociedade Brasileira de Diabetes",
+   "link": "https://diabetes.org.br/fibras-alimentares-o-que-e-importante-saber/",
+   "lida": true,
+   "h2": [
+    "VOCÊ ESTÁ NO SITE DE NUTRIÇÃO",
+    "NUTRIÇÃO",
+    "FALE CONOSCO",
+    "Complicações Bucais"
+   ],
+   "palavras": 1604
+  },
+  {
+   "titulo": "Brasil - Fibra alimentar: ingestão adequada e efeitos sobre a saúde do metabolismo Fibra alimentar: ingestão adequada e efeitos sobre a saúde do metabolismo",
+   "link": "https://www.scielo.br/j/abem/a/PZdwfM5xZKG8BmB9YH59crf/?format=html&lang=pt&ilang=pt_BR",
+   "lida": true,
+   "h2": [
+    "Dietary fiber: adequate intake and effects on metabolism health",
+    "Resumo",
+    "Abstract",
+    "Referências bibliográficas",
+    "Datas de Publicação",
+    "Histórico",
+    "Ferramentas do artigo",
+    "Versão para download de PDF",
+    "Artigos relacionados",
+    "Versões e tradução automática",
+    "Como citar",
+    "Métricas"
+   ],
+   "palavras": 7098
+  }
+ ],
+ "links_internos_sugeridos": [
+  {
+   "titulo": "Alimentos Ricos em Fibras: Guia Prático 40+",
+   "url": "/alimentos-ricos-em-fibras"
+  }
+ ],
+ "perguntas": [
+  "Quais são os alimentos ricos em fibra?",
+  "Qual é a melhor fibra para o intestino?",
+  "Qual é a fruta mais rica em fibras?",
+  "Qual é a dieta rica em fibras?"
+ ],
+ "relacionadas": [
+  "Fibras alimentos",
+  "Alimentos que contém fibras para o intestino",
+  "Fibras alimentares para o intestino",
+  "Fibras suplemento",
+  "Fibras insoluveis",
+  "Fibras soluveis",
+  "Frutas ricos em fibras",
+  "Fibras soluveis e insoluveis"
+ ],
+ "ai_overview": true
+}
