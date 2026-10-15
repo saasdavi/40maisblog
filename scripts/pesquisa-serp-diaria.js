@@ -97,7 +97,13 @@ for (const palavra of palavras) {
     continue;
   }
   if (respostaValida(palavra)) {
-    if (buscasNoMes() > antes) feitas++;
+    if (buscasNoMes() > antes) {
+      feitas++;
+      // Expõe a palavra-chave recém-pesquisada ao próximo step do GitHub Actions.
+      if (process.env.GITHUB_OUTPUT) {
+        fs.appendFileSync(process.env.GITHUB_OUTPUT, `pesquisa=${palavra.replace(/[\\r\\n]/g, ' ')}\\n`);
+      }
+    }
     marcarPronta(palavra);
     console.log(`"${palavra}": JSON confirmado e status atualizado para PESQUISA CONCLUÍDA.`);
   } else {
