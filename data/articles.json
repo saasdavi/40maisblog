@@ -7983,7 +7983,7 @@
         ]
       },
       "volume": 3600,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T18:19:37.147Z",
       "scores": {
         "auditoria": 95,
@@ -8049,7 +8049,7 @@
         "pexels:32040714"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-04T18:19:38.970Z",
       "validacao": {
         "palavraChave": "ferro baixo sintomas",
@@ -8121,7 +8121,9 @@
           ]
         },
         "validadoEm": "2026-10-04T18:19:38.970Z"
-      }
+      },
+      "publishedAt": "2026-10-15T22:42:39.350Z",
+      "publicadoDoEstoqueEm": "2026-10-15T22:42:39.350Z"
     },
     {
       "id": "art_1791138032252_r38r",
@@ -38057,6 +38059,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 43
+    "published": 44
   }
 }
