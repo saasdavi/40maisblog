@@ -9,7 +9,7 @@ import fs from 'fs';
 import { execFileSync } from 'child_process';
 
 const CHAVE = (process.env.SERP_API_KEY || '').trim();
-const MAX_BUSCAS = Number(process.env.MAX_BUSCAS || 1);
+const MAX_BUSCAS = Number(process.env.MAX_BUSCAS || 5);
 const LIMITE_MES = Number(process.env.SERPAPI_LIMITE_MES || 240);
 const VALIDADE_DIAS = 14;
 const PASTA = 'data/entrada/pautas-chat_01/resposta';
@@ -82,6 +82,7 @@ console.log(`${candidatas.length} pautas "${STATUS_A_GERAR}"; ${jaPesquisadas.le
 
 let feitas = 0;
 let tentativas = 0;
+const pesquisasNovas = [];
 for (const palavra of palavras) {
   if (feitas >= MAX_BUSCAS || tentativas >= TENTATIVAS_MAX) break;
   if (buscasNoMes() >= LIMITE_MES) { console.log(`Cota do mês esgotada (${LIMITE_MES}). Parando.`); break; }
@@ -100,9 +101,7 @@ for (const palavra of palavras) {
     if (buscasNoMes() > antes) {
       feitas++;
       // Expõe a palavra-chave recém-pesquisada ao próximo step do GitHub Actions.
-      if (process.env.GITHUB_OUTPUT) {
-        fs.appendFileSync(process.env.GITHUB_OUTPUT, `pesquisa=${palavra.replace(/[\r\n]/g, ' ')}\n`);
-      }
+      pesquisasNovas.push(palavra.replace(/[\\r\\n]/g, ' '));
     }
     marcarPronta(palavra);
     console.log(`"${palavra}": JSON confirmado e status atualizado para PESQUISA CONCLUÍDA.`);
@@ -111,4 +110,7 @@ for (const palavra of palavras) {
   }
 }
 
+if (process.env.GITHUB_OUTPUT && pesquisasNovas.length) {
+  fs.appendFileSync(process.env.GITHUB_OUTPUT, `pesquisas<<SERP_LIST\n${pesquisasNovas.join('\n')}\nSERP_LIST\n`);
+}
 console.log(`Concluído: ${feitas} busca(s) nova(s) nesta execução (máximo ${MAX_BUSCAS}). Respostas em ${PASTA}/`);
