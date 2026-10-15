@@ -9315,7 +9315,7 @@
         ]
       },
       "volume": 33100,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T20:10:40.363Z",
       "featuredImage": "/images/hipotireoidismo-sintomas/hipotireoidismo-sintomas-capa.jpg",
       "imageAlt": "Mulher por volta dos 40 anos encostando a mão na testa expressando cansaço persistente e desânimo",
@@ -9364,7 +9364,7 @@
         "pexels:5699419"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-11T19:03:56.136Z",
       "scores": {
         "auditoria": 100,
@@ -9459,7 +9459,9 @@
         },
         "validadoEm": "2026-10-11T19:03:56.136Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "publishedAt": "2026-10-15T23:45:53.437Z",
+      "publicadoDoEstoqueEm": "2026-10-15T23:45:53.437Z"
     },
     {
       "id": "art_1791148071868_prcw",
@@ -38069,6 +38071,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 49
+    "published": 50
   }
 }
