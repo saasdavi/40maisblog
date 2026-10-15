@@ -122,7 +122,7 @@ async function main() {
   fs.writeFileSync(arquivo, JSON.stringify(resultado, null, 1));
   // Expõe a palavra-chave ao workflow para enviar somente pesquisas realmente novas ao Notion.
   if (process.env.GITHUB_OUTPUT) {
-    fs.appendFileSync(process.env.GITHUB_OUTPUT, `pesquisa=${PALAVRA.replace(/[\\r\\n]/g, ' ')}\\n`);
+    fs.appendFileSync(process.env.GITHUB_OUTPUT, `pesquisa=${PALAVRA.replace(/[\r\n]/g, ' ')}\n`);
   }
   uso.buscas++;
   fs.writeFileSync(USO_FILE, JSON.stringify(uso));
