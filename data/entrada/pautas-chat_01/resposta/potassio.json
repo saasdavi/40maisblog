@@ -1,0 +1,105 @@
+{
+ "palavra": "potássio",
+ "data": "2026-10-15",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Potássio: o que é, para que serve e onde encontrar - Tua Saúde",
+   "link": "https://www.tuasaude.com/para-que-serve-o-potassio/",
+   "trecho": "O potássio é um mineral essencial para o bom funcionamento do corpo, pois ajuda na formação dos músculos, equilibra o pH e participa no ...",
+   "lida": true,
+   "h2": [
+    "Para que serve",
+    "Onde encontrar o potássio",
+    "Valores de referência",
+    "Quando usar o suplemento de potássio",
+    "Possíveis efeitos adversos e contraindicações",
+    "Bibliografia",
+    "Mais sobre este assunto"
+   ],
+   "palavras": 2120
+  },
+  {
+   "posicao": 2,
+   "titulo": "Considerações gerais sobre a função do potássio no organismo - Distúrbios renais - Manual MSD Versão Saúde para a Família",
+   "link": "https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-renais/equil%C3%ADbrio-eletrol%C3%ADtico/considera%C3%A7%C3%B5es-gerais-sobre-a-fun%C3%A7%C3%A3o-do-pot%C3%A1ssio-no-organismo",
+   "trecho": "O potássio é um dos eletrólitos do corpo, que são minerais que carregam uma carga elétrica quando dissolvidos em líquidos corporais, como o sangue.",
+   "lida": true,
+   "h2": [
+    "Mais informações"
+   ],
+   "palavras": 488
+  },
+  {
+   "posicao": 3,
+   "titulo": "Saiba por que o potássio é essencial para a saúde ...",
+   "link": "https://www.einstein.br/n/vida-saudavel/saiba-por-que-o-potassio-e-essencial-para-a-saude-cardiovascular",
+   "trecho": "O potássio é um mineral vital para o funcionamento do coração. Ele ajuda a regular a pressão arterial e a manter o ritmo cardíaco saudável.",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 4,
+   "titulo": "Alimentos fonte de potássio: quais são e qual a importância? - Fundação Cargill",
+   "link": "https://fundacaocargill.org.br/importancia-alimentos-fonte-de-potassio/",
+   "trecho": "O potássio é necessário para o bom funcionamento de todas as células e auxilia diretamente na contração muscular. Sua falta pode causar cãibras ...",
+   "lida": true,
+   "h2": [
+    "Notícias",
+    "Benefícios do potássio",
+    "Alimentos que contém potássio"
+   ],
+   "palavras": 713
+  },
+  {
+   "posicao": 5,
+   "titulo": "Potássio: para que serve, fontes e quando o exame é indicado",
+   "link": "https://nav.dasa.com.br/blog/potassio",
+   "trecho": "O potássio é um mineral e eletrólito envolvido na condução de impulsos elétricos que regulam atividades como o funcionamento dos nervos, dos ...",
+   "lida": true,
+   "h2": [
+    "Potássio: o que é?",
+    "Qual a função do potássio no organismo?",
+    "Alimentos ricos em potássio",
+    "O que o potássio alto no sangue pode indicar?",
+    "O que o potássio baixo no sangue pode indicar?",
+    "Quando o exame de potássio é indicado?",
+    "Preparo para o exame de potássio",
+    "Exame de Potássio: preço e onde fazer?"
+   ],
+   "palavras": 1957
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "Alimentos fonte de potássio: quais são e qual a importância? - Fundação Cargill",
+   "link": "https://fundacaocargill.org.br/importancia-alimentos-fonte-de-potassio/",
+   "lida": true,
+   "h2": [
+    "Notícias",
+    "Benefícios do potássio",
+    "Alimentos que contém potássio"
+   ],
+   "palavras": 713
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "O que o potássio faz no corpo?",
+  "Quando o potássio é preocupante?",
+  "Quais são os alimentos ricos em potássio?",
+  "O que faz aumentar o potássio no sangue?"
+ ],
+ "relacionadas": [
+  "Potássio alto",
+  "Potássio alimentos",
+  "Potássio tabela periodica",
+  "Potássio símbolo",
+  "Potássio para que serve",
+  "Potássio formula",
+  "Potássio valor",
+  "Potássio elemento"
+ ],
+ "ai_overview": true
+}
