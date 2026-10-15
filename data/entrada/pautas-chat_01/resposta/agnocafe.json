@@ -1,0 +1,38 @@
+{
+ "palavra": "agnocafé",
+ "data": "2026-10-15",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "AgnoCafé - O Site do Cafeicultor",
+   "link": "http://www.agnocafe.com.br/",
+   "trecho": "Agnocafé - O site de cafeicultor - Notícias do Café On-Line.",
+   "lida": true,
+   "h2": [],
+   "palavras": 998
+  },
+  {
+   "posicao": 2,
+   "titulo": "Indicador arábica da Agnocafé fica em R$ 445,00",
+   "link": "https://cccmg.com.br/noticias/indicador-arabica-da-agnocafe-fica-em-r-445-00/",
+   "trecho": "O indicador arábica da Agnocafé para café de 20 de janeiro fica em R$ 445,00, estável. No acumulado do mês fica em alta de 4,90%. Em dólar ficou em US$ 271 ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  }
+ ],
+ "fontes_oficiais": [],
+ "links_internos_sugeridos": [],
+ "perguntas": [],
+ "relacionadas": [
+  "Agnocafé hoje",
+  "Agnocafé cotação",
+  "Notícias agrícolas agnocafé",
+  "Cotação do café hoje agnocafé",
+  "Investing café",
+  "Agro café",
+  "Notícias do café em tempo real",
+  "Agno cafe noticias"
+ ],
+ "ai_overview": true
+}
