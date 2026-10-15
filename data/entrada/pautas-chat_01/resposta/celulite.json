@@ -1,0 +1,90 @@
+{
+ "palavra": "celulite",
+ "data": "2026-10-15",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Celulite - SBD",
+   "link": "https://www.sbd.org.br/doencas/celulite/",
+   "trecho": "Celulite é o nome popular da lipodistrofia ginoide, que nada mais é que o depósito de gordura sob a pele. Ela se caracteriza pelo aspecto ondulado da epiderme, ...",
+   "lida": true,
+   "h2": [],
+   "palavras": 1230
+  },
+  {
+   "posicao": 2,
+   "titulo": "Celulite - Infecções - Manual MSD Versão Saúde para a Família",
+   "link": "https://www.msdmanuals.com/pt/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-bacterianas-da-pele/celulite",
+   "trecho": "Os primeiros sintomas de celulite são vermelhidão, dor e sensibilidade em uma área da pele. Esses sintomas são causados tanto pelas bactérias quanto pelas ...",
+   "lida": true,
+   "h2": [
+    "Causas de celulite",
+    "Sintomas de celulite",
+    "Diagnóstico de celulite",
+    "Tratamento de celulite",
+    "Prognóstico de celulite"
+   ],
+   "palavras": 1531
+  },
+  {
+   "posicao": 3,
+   "titulo": "Celulite: por que ela se forma e quais são as possíveis ...",
+   "link": "https://www.einstein.br/n/vida-saudavel/celulite-o-que-e-e-como-tratar",
+   "trecho": "A celulite refere-se a alterações na aparência da pele, especialmente nas áreas das coxas, nádegas, abdômen e braços.",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 4,
+   "titulo": "Celulite | Biblioteca Virtual em Saúde MS",
+   "link": "https://bvsms.saude.gov.br/celulite/",
+   "trecho": "Celulite é o nome popular da lipodistrofia ginoide, que é o acúmulo de gordura embaixo da pele. Caracteriza-se pelo aspecto ondulado da pele, tipo “casca de ...",
+   "lida": true,
+   "h2": [],
+   "palavras": 861
+  },
+  {
+   "posicao": 5,
+   "titulo": "Como acabar com a celulite? Lista de alimentos de ...",
+   "link": "https://www.drogasil.com.br/blog/alimentacao/alimentacao-saudavel/como-acabar-com-a-celulite",
+   "trecho": "Como acabar com a celulite: Alimentos que desinflamam o corpo · Abacate · Abacaxi · Alho · Chia · Chá verde · Frutas ricas em vitamina C (morango, laranja, ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "Celulite - SBD",
+   "link": "https://www.sbd.org.br/doencas/celulite/",
+   "lida": true,
+   "h2": [],
+   "palavras": 1230
+  },
+  {
+   "titulo": "Celulite | Biblioteca Virtual em Saúde MS",
+   "link": "https://bvsms.saude.gov.br/celulite/",
+   "lida": true,
+   "h2": [],
+   "palavras": 861
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "O que é celulite e como eliminar?",
+  "Qual é o maior vilão da celulite?",
+  "O que causa a celulite?",
+  "Qual o melhor exercício para combater a celulite?"
+ ],
+ "relacionadas": [
+  "Celulite infecciosa",
+  "Celulite tratamento",
+  "Celulite infecciosa fotos",
+  "Celulite bacteriana",
+  "Celulite estetica",
+  "Celulite inflamatória",
+  "Tipos de celulite",
+  "Celulite é gordura"
+ ],
+ "ai_overview": true
+}
