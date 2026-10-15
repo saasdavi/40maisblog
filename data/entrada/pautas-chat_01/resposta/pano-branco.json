@@ -1,0 +1,80 @@
+{
+ "palavra": "pano branco",
+ "data": "2026-10-15",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "O que é o pano branco ou onicomicose? - Canesten",
+   "link": "https://www.canesten.com.br/pano-branco",
+   "trecho": "O pano branco é uma infecção fúngica superficial de pele causada por fungo do gênero Malassezia que vive normalmente na pele sem causar problemas. Não é ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 2,
+   "titulo": "Pitiríase Versicolor-(Pano Branco) - SBD",
+   "link": "https://www.sbd.org.br/doencas/pitiriase-versicolor-pano-branco/",
+   "trecho": "Pitiríase Versicolor é uma micose superficial da pele causada por fungos do gênero Malassezia, que são leveduras que habitam o folículo piloso sem causar doença ...",
+   "lida": true,
+   "h2": [],
+   "palavras": 561
+  },
+  {
+   "posicao": 3,
+   "titulo": "Pano branco na pele: causas, sintomas e tratamento",
+   "link": "https://drconsulta.com/conteudo/pano-branco-entenda-o-que-e-e-como-e-feito-o-tratamento/",
+   "trecho": "O pano branco é causado por um fungo chamado Malassezia, que vive normalmente na pele da maioria das pessoas, sem causar nenhum problema, ele faz parte do ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 4,
+   "titulo": "Pano branco na pele: como tratar o problema + dicas para prevenir",
+   "link": "https://www.loreal-paris.com.br/pano-branco-na-pele-como-tratar-o-problema-dicas-para-prevenir-a-micose",
+   "trecho": "O pano branco é provocado pelo fungo Malassezia furfur. Esse tipo de fungo está naturalmente presente na pele, mas ele pode provocar a micose ...",
+   "lida": true,
+   "h2": [
+    "O pano branco provocado pelo fungo Malassezia furfur",
+    "Como o tratamento para acabar com o pano branco na pele?",
+    "Aprenda a prevenir o surgimento do pano branco com filtro solar"
+   ],
+   "palavras": 1453
+  },
+  {
+   "posicao": 5,
+   "titulo": "O que causa o pano branco​: clima e suor em excesso ...",
+   "link": "https://www.saudeamericas.com.br/post/o-que-causa-o-pano-branco/",
+   "trecho": "O pano branco, também conhecido como pitiríase versicolor, é uma micose superficial causada pelo crescimento excessivo de fungos do gênero ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "Pitiríase Versicolor-(Pano Branco) - SBD",
+   "link": "https://www.sbd.org.br/doencas/pitiriase-versicolor-pano-branco/",
+   "lida": true,
+   "h2": [],
+   "palavras": 561
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "O que é bom para curar o pano branco?",
+  "O que acontece se não tratar pano branco?",
+  "Quanto tempo o pano branco some?",
+  "Qual é a pomada que serve para pano branco?"
+ ],
+ "relacionadas": [
+  "Pano branco tratamento",
+  "Pano branco o que causa",
+  "Pano branco no rosto",
+  "Pano branco pomada",
+  "Como tirar pano branco em uma semana",
+  "Pano branco coça",
+  "Pano branco na perna",
+  "Pano branco sintomas"
+ ],
+ "ai_overview": true
+}
