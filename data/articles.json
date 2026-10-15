@@ -8856,7 +8856,7 @@
         ]
       },
       "volume": 74000,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T19:14:05.774Z",
       "featuredImage": "/images/colesterol-hdl/colesterol-hdl-capa.jpg",
       "imageAlt": "Pessoa fazendo exame de sangue para medir colesterol HDL",
@@ -8905,7 +8905,7 @@
         "pexels:39122376"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-11T19:03:54.000Z",
       "scores": {
         "auditoria": 96,
@@ -9041,7 +9041,9 @@
         },
         "validadoEm": "2026-10-11T19:03:54.000Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "publishedAt": "2026-10-15T23:31:06.050Z",
+      "publicadoDoEstoqueEm": "2026-10-15T23:31:06.050Z"
     },
     {
       "id": "art_1791142549306_xz31",
@@ -38065,6 +38067,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 47
+    "published": 48
   }
 }
