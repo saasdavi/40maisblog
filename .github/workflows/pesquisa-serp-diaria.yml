@@ -32,6 +32,7 @@ jobs:
           node-version: '22'
 
       - name: Pesquisar na SerpAPI (1 pauta)
+        id: pesquisar
         env:
           SERP_API_KEY: ${{ secrets.SERP___APIKEY }}
         run: node scripts/pesquisa-serp-diaria.js
@@ -48,3 +49,10 @@ jobs:
           git commit -m "🤖 Pesquisa SerpAPI diária"
           git pull --rebase -q origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
+
+      - name: Enviar pesquisa nova ao Notion
+        if: steps.pesquisar.outputs.pesquisa != ''
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          PALAVRA: ${{ steps.pesquisar.outputs.pesquisa }}
+        run: node scripts/enviar-serp-notion.js
