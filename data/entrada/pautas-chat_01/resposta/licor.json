@@ -1,0 +1,69 @@
+{
+ "palavra": "licor",
+ "data": "2026-10-15",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Licor - Os Melhores Licores como Amarula, Frangélico ...",
+   "link": "https://www.casadabebida.com.br/licor/",
+   "trecho": "Ótima opção em Licor, Amarula, Sheridans, Licor 43, Baileys, Frangelico, Mozart, Cointreau, Drambuie e Amaretto, com o Melhor Preço, Confira!",
+   "lida": false,
+   "motivo": "HTTP 403"
+  },
+  {
+   "posicao": 2,
+   "titulo": "Licor: tipos, sabores, creme e doce de leite | WebBar",
+   "link": "https://www.webbar.com.br/bebidas/licores/?srsltid=AU7gw4WpNowVRZzYVRwmAHehouHwZgjsCczbJjsB4GWhb1UokX-rET8G",
+   "trecho": "O que é licor? É uma bebida alcoólica adoçada e aromatizada (com frutas, ervas, café, creme ou especiarias), normalmente feita sobre uma base destilada. O teor ...",
+   "lida": true,
+   "h2": [
+    "'+v.title+'",
+    "'+v.title+'",
+    "Guia dos licores: como escolher o seu",
+    "Perguntas frequentes sobre licores",
+    "Você também pode gostar"
+   ],
+   "palavras": 1711
+  },
+  {
+   "posicao": 3,
+   "titulo": "Licores Premium Stock - Qualidade e Sofistica��o",
+   "link": "https://www.lojastockdobrasil.com.br/licores?srsltid=AU7gw4WoxH9X_HG-8tR5zBx61asdnV3_tIDWujuzFxN8REuj9iCjh_-m",
+   "trecho": "Explore os licores premium da Stock, produzidos com os melhores ingredientes naturais, garantindo sabores autênticos e sofisticados.",
+   "lida": true,
+   "h2": [
+    "Licor Creme de Caf� Stock Garrafa 720ml",
+    "Licor Fino de Cereja Stock Cherry Brandy 720ml",
+    "Licor Fino de Laranja Stock Cura�au Triple Sec 720ml",
+    "Gin Nacional Seagers Dry Gin Garrafa 1l",
+    "Vodka Tridestilada Starka Stock 980ml",
+    "Gin Silver Seagers London Dry 750ml",
+    "Kit Licor Stock Marula e Doce de Leite 720ml",
+    "Licor Fino de Chocolate Branco Stock Gold 720ml",
+    "Licor Fino de Laranja Stock Cura�au Triple Sec 720ml",
+    "Licor Creme de Cacau Stock Cacao 720ml",
+    "Licor Creme de Caf� Stock Garrafa 720ml",
+    "Licor Fino de Laranja Stock Cura�au Blue Triple Sec 720ml"
+   ],
+   "palavras": 1306
+  }
+ ],
+ "fontes_oficiais": [],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "O que é um licor?",
+  "Quais são os 10 melhores licores?",
+  "Qual é o álcool do licor?",
+  "Quais são os licores?"
+ ],
+ "relacionadas": [
+  "Licores de frutas",
+  "Licor preço",
+  "Licor chocolate",
+  "Licor bebida",
+  "Licor stock",
+  "Licor doce"
+ ],
+ "ai_overview": true
+}
