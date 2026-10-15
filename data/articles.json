@@ -8189,7 +8189,7 @@
         ]
       },
       "volume": 3600,
-      "status": "published",
+      "status": "draft",
       "createdAt": "2026-10-04T18:20:32.252Z",
       "scores": {
         "auditoria": 100,
@@ -8253,7 +8253,7 @@
         "pexels:6598228"
       ],
       "altConferido": false,
-      "estoque": false,
+      "estoque": true,
       "estocadoEm": "2026-10-04T18:20:34.867Z",
       "validacao": {
         "palavraChave": "esquecimento",
@@ -8401,9 +8401,7 @@
           ]
         },
         "validadoEm": "2026-10-04T18:20:34.867Z"
-      },
-      "publishedAt": "2026-10-15T22:55:15.204Z",
-      "publicadoDoEstoqueEm": "2026-10-15T22:55:15.204Z"
+      }
     },
     {
       "id": "art_1791138105054_j2i9",
@@ -38061,6 +38059,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 45
+    "published": 44
   }
 }
