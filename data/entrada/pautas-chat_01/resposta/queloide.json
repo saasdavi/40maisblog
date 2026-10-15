@@ -1,0 +1,123 @@
+{
+ "palavra": "queloide",
+ "data": "2026-10-15",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Queloide - SBD",
+   "link": "https://www.sbd.org.br/doencas/queloide/",
+   "trecho": "Queloide é um crescimento anormal de tecido cicatricial que se forma no local de um traumatismo, corte ou cirurgia de pele. É uma alteração benigna, portanto ...",
+   "lida": true,
+   "h2": [],
+   "palavras": 1300
+  },
+  {
+   "posicao": 2,
+   "titulo": "Queloide: o que é e como tratar?",
+   "link": "https://www.einstein.br/n/vida-saudavel/queloide-o-que-e-e-como-tratar",
+   "trecho": "Queloide é o nome dado às cicatrizes que se tornam maiores do que a lesão que as originou. Elas diminuem bastante com o tratamento, ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 3,
+   "titulo": "Queloide: O que é, sintomas, tratamentos e causas.",
+   "link": "https://www.rededorsaoluiz.com.br/doencas/queloide",
+   "trecho": "Queloide é um tipo de cicatriz elevada e mais visível do que o normal que se forma quando o corpo produz colágeno em excesso durante o processo de cicatrização.",
+   "lida": true,
+   "h2": [
+    "O que é queloide?",
+    "Quais são os sintomas de queloide?",
+    "Como saber se tenho queloide?",
+    "Qual especialista trata o queloide?",
+    "Como é feito o diagnóstico do queloide?",
+    "Quais exames detectam o queloide?",
+    "Onde fazer o exame para queloide?",
+    "O que causa queloide?",
+    "Quais fatores aumentam o risco de queloide?",
+    "Quem pode ter queloide?",
+    "Quais são os tratamentos para queloide?",
+    "Como tirar queloide?"
+   ],
+   "palavras": 2763
+  },
+  {
+   "posicao": 4,
+   "titulo": "Queloide - Sintomas, diagnóstico e tratamento | BMJ Best Practice",
+   "link": "https://bestpractice.bmj.com/topics/pt-br/629",
+   "trecho": "Queloide é uma forma de cicatrização anormal que ocorre em indivíduos suscetíveis. Mais comum em tipos de pele mais escura. O diagnóstico é clínico. As opções ...",
+   "lida": true,
+   "h2": [
+    "Resumo",
+    "Browse",
+    "Services",
+    "Legal",
+    "Help us improve BMJ Best Practice",
+    "Page:",
+    "Thank you"
+   ],
+   "palavras": 1484
+  },
+  {
+   "posicao": 5,
+   "titulo": "Brazil - Tratamento de queloides e cicatrizes hipertróficas: Uma revisão descritiva Tratamento de queloides e cicatrizes hipertróficas: Uma revisão descritiva",
+   "link": "https://www.scielo.br/j/rbcp/a/Gn5VLhKrQt8RWpt78b9y97Q/?lang=pt",
+   "trecho": "RESUMO. Queloides e cicatrizes hipertróficas são lesões formadas a partir da resposta fibroproliferativa anormal ao processo de cicatrização de feridas, ...",
+   "lida": true,
+   "h2": [
+    "■ RESUMO",
+    "■ ABSTRACT",
+    "INTRODUÇÃO",
+    "OBJETIVO",
+    "MÉTODO",
+    "RESULTADOS",
+    "DISCUSSÃO",
+    "CONCLUSÃO",
+    "REFERÊNCIAS",
+    "Conflitos de interesse",
+    "*",
+    "Datas de Publicação"
+   ],
+   "palavras": 6620
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "Queloide - SBD",
+   "link": "https://www.sbd.org.br/doencas/queloide/",
+   "lida": true,
+   "h2": [],
+   "palavras": 1300
+  },
+  {
+   "titulo": "Brazil - Tratamento de queloides e cicatrizes hipertróficas: Uma revisão descritiva Tratamento de queloides e cicatrizes hipertróficas: Uma revisão descritiva",
+   "link": "https://www.scielo.br/j/rbcp/a/Gn5VLhKrQt8RWpt78b9y97Q/?lang=pt",
+   "lida": true,
+   "h2": [
+    "■ RESUMO",
+    "■ ABSTRACT",
+    "INTRODUÇÃO",
+    "OBJETIVO",
+    "MÉTODO",
+    "RESULTADOS",
+    "DISCUSSÃO",
+    "CONCLUSÃO",
+    "REFERÊNCIAS",
+    "Conflitos de interesse",
+    "*",
+    "Datas de Publicação"
+   ],
+   "palavras": 6620
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "Qual é a causa da queloide?",
+  "O que é bom para tirar queloide?",
+  "Qual pomada tira queloide?",
+  "O queloide é perigoso?"
+ ],
+ "relacionadas": [],
+ "ai_overview": true
+}
