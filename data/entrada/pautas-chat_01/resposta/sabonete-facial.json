@@ -1,0 +1,69 @@
+{
+ "palavra": "sabonete facial",
+ "data": "2026-10-15",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Sabonete Facial Dermatológico | Loja ADCOS Oficial",
+   "link": "https://www.lojaadcos.com.br/tratamento-facial/higienizacao?srsltid=AU7gw4UxYeD6yz1sZyItcYb62DPQHCw4-L7y-ie_aXuOS68slbXiX9fO",
+   "trecho": "Sabonetes faciais para cada tipo de pele — limpeza profunda sem agredir a barreira cutânea. PIX com 3% off* + 10% OFF na 1ª compra. Acesse!",
+   "lida": false,
+   "motivo": "HTTP 403"
+  },
+  {
+   "posicao": 2,
+   "titulo": "Sabonete facial com menor preço e em promoção ...",
+   "link": "https://www.drogasil.com.br/search?w=sabonete+facial",
+   "trecho": "Sabonete Facial Bioré Marshmallow Moist 150ml · Needs · La Roche-Posay · Darrow · Dermotivin · Nivea · Bioré · Principia · Avène; Eucerin; Neutrogena; Mostrar ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 3,
+   "titulo": "10 melhores sabonetes faciais",
+   "link": "https://www.belezanaweb.com.br/loucas-por-beleza/10-melhores-sabonetes-faciais/",
+   "trecho": "Os 10 melhores sabonetes faciais · La Roche-Posay Effaclar Concentrado · Payot Detox Vitamina C · Bioderma Sébium · Clinique All About Clean · La ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 4,
+   "titulo": "Sabonetes Faciais em Oferta | Soneda",
+   "link": "https://www.soneda.com.br/rosto-e-skincare/limpeza-facial/sabonetes-faciais?srsltid=AU7gw4UT8jlpRXgN8SOOxszBk5xhkidXkbU01h5x6C8oB9dJJHYR2TOz",
+   "trecho": "Geralmente, o recomendado é utilizar o sabonete facial duas vezes ao dia: de manhã, para remover o sebo produzido durante a noite e os resíduos dos produtos ...",
+   "lida": true,
+   "h2": [
+    "Insira seu CEP para uma melhor navegação.",
+    "Tipos de sabonete facial: encontre a fórmula ideal para sua pele",
+    "Inscreva-se na nossa Newsletter!"
+   ],
+   "palavras": 3000
+  },
+  {
+   "posicao": 5,
+   "titulo": "Sabonete facial | limpeza e cuidado para o rosto",
+   "link": "https://www.natura.com.br/c/rosto-sabonete-facial",
+   "trecho": "nosso sabonete facial oferece limpeza diária para a pele do seu rosto, removendo resíduos de maquiagem, oleosidade e poluição. 14 resultados encontrados.",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  }
+ ],
+ "fontes_oficiais": [],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "Qual é o melhor sabonete para o rosto?",
+  "Qual sabonete tira espinhas?",
+  "Qual o melhor sabonete para o rosto para quem tem 40 anos?",
+  "Qual sabonete devo usar para lavar o rosto diariamente?"
+ ],
+ "relacionadas": [
+  "Sabonete facial la roche",
+  "Sabonete facial actine",
+  "Sabonete facial neutrogena",
+  "Sabonete facial principia",
+  "Sabonete facial pele oleosa",
+  "Sabonete facial nivea"
+ ],
+ "ai_overview": true
+}
