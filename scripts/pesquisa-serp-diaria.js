@@ -1,6 +1,6 @@
 // Pesquisa diária na SerpAPI: percorre data/conteudo/pautas-mestre.csv e pesquisa só as linhas com
-// status_artigo = "a gerar", por maior volume (buscas_mes_exato), até MAX_BUSCAS buscas reais.
-// Cada pauta pesquisada com sucesso vira "prontas" no próprio CSV.
+// status_artigo = "LIVRE PARA SERP", por maior volume (buscas_mes_exato), até MAX_BUSCAS buscas reais.
+// Cada pauta pesquisada com sucesso, ou já coberta por JSON válido, vira "PRONTO" no próprio CSV.
 // Palavras com resposta válida (até 14 dias) ficam de fora antes de contar tentativa.
 // Para ao bater MAX_BUSCAS, ao esgotar a cota do mês ou ao acabar a lista.
 // Se não houver nenhuma pauta "a gerar", sai com erro para não parecer sucesso.
@@ -15,8 +15,8 @@ const VALIDADE_DIAS = 14;
 const PASTA = 'data/entrada/pautas-chat_01/resposta';
 const USO_FILE = `${PASTA}/uso-serpapi.json`;
 const PAUTAS = 'data/conteudo/pautas-mestre.csv';
-const STATUS_A_GERAR = 'a gerar';
-const STATUS_PRONTA = 'prontas';
+const STATUS_A_GERAR = 'LIVRE PARA SERP';
+const STATUS_PRONTA = 'PRONTO';
 const TENTATIVAS_MAX = 40; // limite de segurança contra erros em sequência
 
 if (!CHAVE) throw new Error('SERP_API_KEY ausente: o secret SERP___APIKEY precisa existir no repositório.');
@@ -30,7 +30,8 @@ const buscasNoMes = () => {
 };
 const respostaValida = (palavra) => {
   const atual = lerJson(`${PASTA}/${slug(palavra)}.json`, null);
-  return Boolean(atual && (Date.now() - Date.parse(atual.data)) / 864e5 < VALIDADE_DIAS);
+  const idade = atual?.data ? (Date.now() - Date.parse(atual.data)) / 864e5 : Infinity;
+  return Boolean(atual && atual.palavra && slug(atual.palavra) === slug(palavra) && Array.isArray(atual.concorrentes) && Number.isFinite(idade) && idade >= 0 && idade < VALIDADE_DIAS);
 };
 
 // CSV com ';' e campos entre aspas, BOM no início e fim de linha CRLF. Preserva tudo que não muda.
@@ -58,8 +59,8 @@ const candidatas = linhas.slice(1)
   .map((c) => c[iPalavra]);
 
 if (candidatas.length === 0) {
-  console.error(`Nenhuma pauta com status "${STATUS_A_GERAR}" em ${PAUTAS}. Nada para pesquisar.`);
-  process.exit(1);
+  console.log(`Nenhuma pauta com status "${STATUS_A_GERAR}" em ${PAUTAS}. Nada para pesquisar; execução encerrada sem erro.`);
+  process.exit(0);
 }
 
 // marca a pauta como pronta no CSV, mexendo só na linha dela
@@ -74,8 +75,10 @@ const marcarPronta = (palavra) => {
   fs.writeFileSync(PAUTAS, (temBom ? BOM : '') + ls.join('\r\n'));
 };
 
+const jaPesquisadas = candidatas.filter(respostaValida);
+for (const palavra of jaPesquisadas) marcarPronta(palavra);
 const palavras = candidatas.filter((p) => !respostaValida(p));
-console.log(`${candidatas.length} pautas "${STATUS_A_GERAR}"; ${candidatas.length - palavras.length} já com resposta válida; ${palavras.length} pendentes.`);
+console.log(`${candidatas.length} pautas "${STATUS_A_GERAR}"; ${jaPesquisadas.length} já com JSON válido recente e marcadas PRONTO; ${palavras.length} pendentes de pesquisa.`);
 
 let feitas = 0;
 let tentativas = 0;
@@ -93,9 +96,12 @@ for (const palavra of palavras) {
     console.log(`"${palavra}": falhou, seguindo para a próxima.`);
     continue;
   }
-  if (buscasNoMes() > antes) {
-    feitas++;
+  if (respostaValida(palavra)) {
+    if (buscasNoMes() > antes) feitas++;
     marcarPronta(palavra);
+    console.log(`"${palavra}": JSON confirmado e status atualizado para PRONTO.`);
+  } else {
+    console.log(`"${palavra}": execução terminou sem JSON válido; status preservado como LIVRE PARA SERP.`);
   }
 }
 
