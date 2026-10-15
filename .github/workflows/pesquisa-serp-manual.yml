@@ -1,16 +1,15 @@
-name: Pesquisa SerpAPI e sincronização Notion
+name: Pesquisa SerpAPI (manual)
 
-# Sem palavra-chave: sincroniza uma pesquisa JSON já existente para o Notion, sem chamar a SerpAPI.
-# Com palavra-chave informada manualmente: executa a pesquisa normal e depois envia o JSON ao Notion.
-# Não gera artigos, não publica e não altera o calendário de pautas.
+# Disparo manual, feito por você ou pelo ChatGPT. Faz 1 busca no Google Brasil por palavra-chave.
+# Mantém o JSON no GitHub como cópia de segurança e envia a pesquisa completa ao Notion quando NOTION_API_KEY estiver configurada.
+# Não gera artigo nem publica.
 
 on:
   workflow_dispatch:
     inputs:
       palavra_chave:
-        description: 'Opcional: informe apenas se quiser fazer uma NOVA pesquisa SerpAPI. Deixe vazio para sincronizar pesquisa já salva.'
-        required: false
-        type: string
+        description: 'Palavra-chave a pesquisar no Google Brasil (uma consulta)'
+        required: true
 
 permissions:
   contents: write
@@ -20,9 +19,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  pesquisar-ou-sincronizar:
+  pesquisar:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,54 +31,29 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Escolher modo e pesquisa automaticamente
-        id: escolha
-        env:
-          PALAVRA_INFORMADA: ${{ github.event.inputs.palavra_chave }}
-        run: |
-          if [ -n "$(printf '%s' "$PALAVRA_INFORMADA" | tr -d '[:space:]')" ]; then
-            echo "modo=pesquisar" >> "$GITHUB_OUTPUT"
-            echo "palavra=$PALAVRA_INFORMADA" >> "$GITHUB_OUTPUT"
-            echo "Modo: nova pesquisa solicitada explicitamente."
-            exit 0
-          fi
-
-          ARQUIVO=""
-          for CANDIDATO in $(find data/entrada/pautas-chat_01/resposta -maxdepth 1 -type f -name '*.json' ! -name 'uso-serpapi.json' -printf '%f\n' | sort); do
-            if node -e "const d=require('./data/entrada/pautas-chat_01/resposta/' + process.argv[1]); process.exit(d && d.palavra ? 0 : 1)" "$CANDIDATO" 2>/dev/null; then
-              ARQUIVO="$CANDIDATO"
-              break
-            fi
-          done
-
-          if [ -z "$ARQUIVO" ]; then
-            echo "::error::Nenhuma pesquisa JSON existente foi encontrada. Não foi chamada a SerpAPI e nenhuma palavra-chave foi inventada."
-            exit 1
-          fi
-
-          PALAVRA=$(node -e "const d=require('./data/entrada/pautas-chat_01/resposta/' + process.argv[1]); process.stdout.write(d.palavra)" "$ARQUIVO")
-          echo "modo=sincronizar" >> "$GITHUB_OUTPUT"
-          echo "palavra=$PALAVRA" >> "$GITHUB_OUTPUT"
-          echo "arquivo=$ARQUIVO" >> "$GITHUB_OUTPUT"
-          echo "Modo: sincronizar pesquisa existente '$PALAVRA' ($ARQUIVO). Nenhuma chamada à SerpAPI."
-
       - name: Pesquisar na SerpAPI
-        if: steps.escolha.outputs.modo == 'pesquisar'
         env:
           SERP_API_KEY: ${{ secrets.SERP___APIKEY }}
-          PALAVRA: ${{ steps.escolha.outputs.palavra }}
+          PALAVRA: ${{ github.event.inputs.palavra_chave }}
         run: node scripts/pesquisa-serp-manual.js
 
-      - name: Enviar pesquisa ao Notion (com proteção contra duplicatas)
+      - name: Enviar pesquisa completa ao Notion
         env:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
-          PALAVRA: ${{ steps.escolha.outputs.palavra }}
-        run: node scripts/enviar-serp-notion.js
+          PALAVRA: ${{ github.event.inputs.palavra_chave }}
+        run: |
+          ARQUIVO="data/entrada/pautas-chat_01/resposta/$(node -e "console.log(process.env.PALAVRA.normalize('NFKD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''))").json"
+          if [ -z "$(git status --porcelain -- "$ARQUIVO")" ]; then
+            echo "Pesquisa já válida ou sem alteração; não será criada página duplicada no Notion."
+            exit 0
+          fi
+          if [ -z "$NOTION_API_KEY" ]; then
+            echo "::warning::NOTION_API_KEY não configurada. A pesquisa será mantida no GitHub, mas não enviada ao Notion."
+            exit 0
+          fi
+          node scripts/enviar-serp-notion.js
 
-      - name: Commit e push do JSON (somente se houve alteração)
-        if: steps.escolha.outputs.modo == 'pesquisar'
-        env:
-          PALAVRA: ${{ steps.escolha.outputs.palavra }}
+      - name: Commit e push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Pesquisa SERP"
@@ -88,6 +62,6 @@ jobs:
             echo "Nada novo para gravar"
             exit 0
           fi
-          git commit -m "🤖 Pesquisa SerpAPI: $PALAVRA"
+          git commit -m "🤖 Pesquisa SerpAPI: ${{ github.event.inputs.palavra_chave }}"
           git pull --rebase -q origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
