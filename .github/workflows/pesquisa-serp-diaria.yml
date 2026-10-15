@@ -17,6 +17,14 @@ on:
           - pesquisa_serp
           - validar_pautas
           - comparar_topo
+      limite:
+        description: "Limite de pautas na validação (vazio = todas as livres)"
+        required: false
+        default: ""
+      so:
+        description: "Filtro de palavra para comparação do topo (vazio = todas)"
+        required: false
+        default: ""
   # O agendamento externo (cron-job.org) continua disparando via API workflow_dispatch.
   # Não adicionar schedule aqui para evitar execuções duplicadas.
 
@@ -79,7 +87,12 @@ jobs:
       - name: Validar pautas (regras + fontes online)
         env:
           LIMITE: ${{ inputs.limite || '' }}
-        run: node scripts/validar-pautas.js --online ${{ inputs.limite != '' && format('--limite {0}', inputs.limite) || '' }}
+        run: |
+          if [ -n "$LIMITE" ]; then
+            node scripts/validar-pautas.js --online --limite "$LIMITE"
+          else
+            node scripts/validar-pautas.js --online
+          fi
 
   comparar:
     if: ${{ inputs.tarefa == 'comparar_topo' }}
