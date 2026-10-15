@@ -16,8 +16,7 @@ function slug(value) {
 async function main() {
   if (!keyword) throw new Error('PALAVRA vazia; não é possível identificar a pesquisa.');
   if (!notionKey) {
-    console.log('AVISO: NOTION_API_KEY não configurada; pesquisa ficou salva no GitHub, mas não foi enviada ao Notion.');
-    return;
+    throw new Error('NOTION_API_KEY ausente: a pesquisa não pode ser enviada ao Notion. Configure o secret no repositório.');
   }
 
   const path = `${folder}/${slug(keyword)}.json`;
