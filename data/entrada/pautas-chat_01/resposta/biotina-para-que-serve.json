@@ -1,0 +1,124 @@
+{
+ "palavra": "biotina para que serve",
+ "data": "2026-10-15",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Escola Virtual Gov",
+   "link": "https://www.escolavirtual.gov.br/curso/716",
+   "trecho": "Compreenda a análise ergonômica do trabalho e sua importância para a saúde e a segurança! O curso aborda as noções fundamentais sobre ergonomia, o trabalho ...",
+   "lida": true,
+   "h2": [
+    "Menu",
+    "Para que serve a análise ergonômica do trabalho",
+    "EV.G | Escola Virtual.Gov",
+    "Conversa com a Bel"
+   ],
+   "palavras": 693
+  },
+  {
+   "posicao": 2,
+   "titulo": "Para que serve a pesquisa em educação?",
+   "link": "https://www.scielo.br/j/cp/a/mwFvbKYGDLx3RrmGxrCpGWL/abstract/?lang=pt",
+   "trecho": "O artigo sugere, em lugar da pergunta \"para que serve?\", uma indagação a respeito de como circulam conhecimentos e opiniões entre os dois campos. Conclui ...",
+   "lida": false,
+   "motivo": "HTTP 403"
+  },
+  {
+   "posicao": 3,
+   "titulo": "Me explica, MPF: para que serve a biometria nas eleições? — Ministério Público Federal",
+   "link": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/me-explica-mpf-para-que-serve-a-biometria-nas-eleicoes",
+   "trecho": "Ter a biometria cadastrada na Justiça Eleitoral aumenta a segurança nas eleições e garante votação mais rápida.",
+   "lida": true,
+   "h2": [
+    "Tags",
+    "Compartilhar"
+   ],
+   "palavras": 1965
+  },
+  {
+   "posicao": 4,
+   "titulo": "",
+   "link": "https://wp.ufpel.edu.br/pibidfilosofiasociologia/files/2020/10/Lahire_Pra-que-serve-o-ensino-da-Sociologia_rcs_v45n1a2-1.pdf",
+   "trecho": "Responder a questão: “Para que serve o ensino da Sociologia?” implica, desde já, a questão: “Para que serve a Sociologia?” Os quadros de realidades sociais ...",
+   "lida": true,
+   "h2": [],
+   "palavras": 3178
+  },
+  {
+   "posicao": 5,
+   "titulo": "Avenida Brasil | Nina serve comida dos empregados a Carminha | Globoplay",
+   "link": "https://globoplay.globo.com/v/2062562/",
+   "trecho": "A cozinheira ensina a megera a preparar um sofisticado risoto, mas lhe oferece o mesmo prato que ela serve para os funcionários: macarrão com salsicha.",
+   "lida": true,
+   "h2": [
+    "Detalhes",
+    "Trechos",
+    "Assista às íntegras"
+   ],
+   "palavras": 1108
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "Escola Virtual Gov",
+   "link": "https://www.escolavirtual.gov.br/curso/716",
+   "lida": true,
+   "h2": [
+    "Menu",
+    "Para que serve a análise ergonômica do trabalho",
+    "EV.G | Escola Virtual.Gov",
+    "Conversa com a Bel"
+   ],
+   "palavras": 693
+  },
+  {
+   "titulo": "Para que serve a pesquisa em educação?",
+   "link": "https://www.scielo.br/j/cp/a/mwFvbKYGDLx3RrmGxrCpGWL/abstract/?lang=pt",
+   "lida": false,
+   "motivo": "HTTP 403"
+  },
+  {
+   "titulo": "",
+   "link": "https://wp.ufpel.edu.br/pibidfilosofiasociologia/files/2020/10/Lahire_Pra-que-serve-o-ensino-da-Sociologia_rcs_v45n1a2-1.pdf",
+   "lida": true,
+   "h2": [],
+   "palavras": 3178
+  }
+ ],
+ "links_internos_sugeridos": [
+  {
+   "titulo": "Quanto de proteína por dia: guia para mulheres 40+",
+   "url": "/proteina-mulheres-40"
+  },
+  {
+   "titulo": "Como Meditar: Guia Prático para Mulheres 40+",
+   "url": "/meditacao-ansiedade-40"
+  },
+  {
+   "titulo": "Sintomas de Diabetes: 7 Sinais de Alerta para Mulheres 40+",
+   "url": "/sintomas-de-diabetes"
+  },
+  {
+   "titulo": "Varizes nas Pernas: Guia Completo para Tratar",
+   "url": "/varizes"
+  },
+  {
+   "titulo": "Noctúria: Por Que Acorda à Noite para Urinar",
+   "url": "/nocturia"
+  }
+ ],
+ "perguntas": [],
+ "relacionadas": [
+  "Curso de ergonomista quem pode fazer",
+  "Curso de ergonomia online",
+  "Curso ergonomia para fisioterapeuta",
+  "Curso de ergonomia o que é",
+  "Curso ergonomia senac",
+  "Curso ergonomia fundacentro",
+  "Análise ergonômica do trabalho pdf",
+  "Cursos de ergonomia segurança do trabalho"
+ ],
+ "ai_overview": true
+}
