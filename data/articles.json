@@ -7446,7 +7446,7 @@
         ]
       },
       "volume": 6000,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T18:16:18.435Z",
       "scores": {
         "auditoria": 96,
@@ -7513,7 +7513,7 @@
         "pexels:13849145"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-04T18:16:21.238Z",
       "validacao": {
         "palavraChave": "fogachos",
@@ -7657,7 +7657,9 @@
           ]
         },
         "validadoEm": "2026-10-04T18:16:21.238Z"
-      }
+      },
+      "publishedAt": "2026-10-15T15:30:38.973Z",
+      "publicadoDoEstoqueEm": "2026-10-15T15:30:38.973Z"
     },
     {
       "id": "art_1791137938156_vose",
@@ -38053,6 +38055,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 41
+    "published": 42
   }
 }

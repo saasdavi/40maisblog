@@ -4,20 +4,19 @@ Fonte dos textos: `data/articles.json`. Atualizado por `node scripts/banco-conte
 
 | O que | Quantidade | Dias |
 |---|---|---|
-| **Pronto para usar** (a fila do robô; saem 2 por dia) | **166** | 83 |
+| **Pronto para usar** (a fila do robô; saem 2 por dia) | **165** | 82 |
 | Precisa de revisão (o robô não publica) | 42 | |
-| Publicado (no ar) | 41 | |
+| Publicado (no ar) | 42 | |
 | Pauta validada, falta escrever | 17 | 5 |
 | Planejado, falta validar no Google | 886 | 295 |
 | Vagas (sem tema levantado) | 146 | |
 
-Dias de conteúdo já escrito + pauta validada: **88** (estoque a 2 por dia; pauta validada, 1 por dia).
+Dias de conteúdo já escrito + pauta validada: **87** (estoque a 2 por dia; pauta validada, 1 por dia).
 
 ## Prontos para usar
 
 | Artigo | Palavras | Auditoria | Previsto para |
 |---|---|---|---|
-| Fogachos: O Que São, Causas e Como Aliviar | 1165 | 96 | 2026-10-20 |
 | Exercícios para Idosos: Segurança e Força | 1548 | 100 | 2026-10-21 |
 | Ferro Baixo Sintomas: 8 Sinais que Você Não Deve Ignorar | 1452 | 95 | 2026-10-21 |
 | Esquecimento Frequente: Quando Procurar Médico | 1496 | 100 | 2026-10-22 |
@@ -228,6 +227,7 @@ Dias de conteúdo já escrito + pauta validada: **88** (estoque a 2 por dia; pau
 | Tontura ao Levantar: Causas e o Que Fazer | 1523 | 90 | 2026-10-14 |
 | Suor Noturno: Causas, Quando Preocupar e Como Tratar | 1348 | 95 | 2026-10-14 |
 | Névoa Mental: Como Recuperar o Foco aos 40+ | 1633 | 96 | 2026-10-15 |
+| Fogachos: O Que São, Causas e Como Aliviar | 1165 | 96 | 2026-10-15 |
 | Hemograma Completo: Resultados Claros para Sua Saúde | 1691 | 89 | 2026-10-11 |
 
 ## Pautas validadas esperando texto (próximas a escrever)

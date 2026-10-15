@@ -1,7 +1,7 @@
 {
  "resumo": {
-  "publicados": 41,
-  "prontosParaUsar": 166,
+  "publicados": 42,
+  "prontosParaUsar": 165,
   "pautasValidadasSemTexto": 17,
   "planejadasAValidar": 886,
   "vagas": 146,
@@ -751,15 +751,15 @@
    "palavraChave": "fogachos",
    "cluster": "menopausa",
    "volume": 6000,
-   "status": "pronto",
+   "status": "publicado",
    "palavras": 1165,
    "h2": 13,
    "imagens": 3,
    "fontes": 6,
    "auditoria": 96,
-   "publicadoEm": null,
+   "publicadoEm": "2026-10-15T15:30:38.973Z",
    "escritoEm": "2026-10-04T18:16:21.238Z",
-   "previstoPara": "2026-10-20",
+   "previstoPara": null,
    "pontesSugeridas": []
   },
   {
