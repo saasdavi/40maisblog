@@ -1,0 +1,115 @@
+{
+ "palavra": "alopecia areata",
+ "data": "2026-10-15",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Alopecia Areata - SBD",
+   "link": "https://www.sbd.org.br/doencas/alopecia-areata/",
+   "trecho": "Alopecia areata é uma doença inflamatória que provoca a queda de cabelo. Diversos fatores estão envolvidos no seu desenvolvimento, como a genética e a ...",
+   "lida": true,
+   "h2": [],
+   "palavras": 741
+  },
+  {
+   "posicao": 2,
+   "titulo": "Alopecia areata: Sintomas, Causas e Tratamentos",
+   "link": "https://www.einstein.br/n/glossario-de-saude/alopecia-areata",
+   "trecho": "Doença inflamatória que provoca a queda de cabelo. Pode iniciar em qualquer idade - podendo ocorrer um pico de incidência entre os 20 e 50 anos, sendo que 60% ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 3,
+   "titulo": "Brazil - Alopecia areata: revisão e atualização Alopecia areata: revisão e atualização",
+   "link": "https://www.scielo.br/j/abd/a/vXCLdmVdz8ct6qzkmjBCSyd/?lang=pt",
+   "trecho": "Em geral, os doentes relatam perda importante de cabelos e presença abrupta de área ou áreas alopécicas. A lesão característica da AA é uma placa alopécica lisa ...",
+   "lida": true,
+   "h2": [
+    "Resumo",
+    "Abstract",
+    "Referências bibliográficas",
+    "Datas de Publicação",
+    "Histórico",
+    "Ferramentas do artigo",
+    "PDF version for download",
+    "Related articles",
+    "Versões e tradução automática",
+    "Como citar",
+    "Metrics",
+    "Message"
+   ],
+   "palavras": 7700
+  },
+  {
+   "posicao": 4,
+   "titulo": "O QUE É ALOPECIA AREATA? | Pfizer Brasil",
+   "link": "https://www.pfizer.com.br/arealidadenapele/o-que-e-alopecia-areata",
+   "trecho": "A alopecia areata é uma doença inflamatória que tem como principal característica a queda de cabelo. Não existe um fator definido para o desenvolvimento da ...",
+   "lida": true,
+   "h2": [],
+   "palavras": 380
+  },
+  {
+   "posicao": 5,
+   "titulo": "Alopecia areata | Artigo - Portal Drauzio Varella",
+   "link": "https://drauziovarella.uol.com.br/drauzio/alopecia-areata-artigo/",
+   "trecho": "Geralmente, as áreas em que o cabelo cai são bem delimitadas e esparsas pelo couro cabeludo (alopecia areata), mas podem se tornar confluentes e ...",
+   "lida": true,
+   "h2": [
+    "Em alta",
+    "Veja também",
+    "Newsletter do Portal Drauzio"
+   ],
+   "palavras": 1095
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "Alopecia Areata - SBD",
+   "link": "https://www.sbd.org.br/doencas/alopecia-areata/",
+   "lida": true,
+   "h2": [],
+   "palavras": 741
+  },
+  {
+   "titulo": "Brazil - Alopecia areata: revisão e atualização Alopecia areata: revisão e atualização",
+   "link": "https://www.scielo.br/j/abd/a/vXCLdmVdz8ct6qzkmjBCSyd/?lang=pt",
+   "lida": true,
+   "h2": [
+    "Resumo",
+    "Abstract",
+    "Referências bibliográficas",
+    "Datas de Publicação",
+    "Histórico",
+    "Ferramentas do artigo",
+    "PDF version for download",
+    "Related articles",
+    "Versões e tradução automática",
+    "Como citar",
+    "Metrics",
+    "Message"
+   ],
+   "palavras": 7700
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "O que provoca a alopecia areata?",
+  "O que é bom para curar alopecia areata?",
+  "É possível reverter alopecia areata?",
+  "Quanto tempo dura a alopecia areata?"
+ ],
+ "relacionadas": [
+  "Alopecia areata tratamento",
+  "Alopecia areata feminina",
+  "Alopecia areata é grave",
+  "Alopecia areata causas",
+  "Alopecia areata tem cura",
+  "Alopecia areata sintomas",
+  "Alopecia areata cid",
+  "Como curei minha alopecia areata"
+ ],
+ "ai_overview": true
+}
