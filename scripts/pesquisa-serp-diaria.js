@@ -1,6 +1,6 @@
 // Pesquisa diária na SerpAPI: percorre data/conteudo/pautas-mestre.csv e pesquisa só as linhas com
 // status_artigo = "LIVRE PARA SERP", por maior volume (buscas_mes_exato), até MAX_BUSCAS buscas reais.
-// Cada pauta pesquisada com sucesso, ou já coberta por JSON válido, vira "PRONTO" no próprio CSV.
+// Cada pauta com SERP válida vira "PESQUISA CONCLUÍDA" no CSV; isso não significa artigo pronto ou publicado.
 // Palavras com resposta válida (até 14 dias) ficam de fora antes de contar tentativa.
 // Para ao bater MAX_BUSCAS, ao esgotar a cota do mês ou ao acabar a lista.
 // Se não houver nenhuma pauta "a gerar", sai com erro para não parecer sucesso.
@@ -16,7 +16,7 @@ const PASTA = 'data/entrada/pautas-chat_01/resposta';
 const USO_FILE = `${PASTA}/uso-serpapi.json`;
 const PAUTAS = 'data/conteudo/pautas-mestre.csv';
 const STATUS_A_GERAR = 'LIVRE PARA SERP';
-const STATUS_PRONTA = 'PRONTO';
+const STATUS_PRONTA = 'PESQUISA CONCLUÍDA';
 const TENTATIVAS_MAX = 40; // limite de segurança contra erros em sequência
 
 if (!CHAVE) throw new Error('SERP_API_KEY ausente: o secret SERP___APIKEY precisa existir no repositório.');
@@ -78,7 +78,7 @@ const marcarPronta = (palavra) => {
 const jaPesquisadas = candidatas.filter(respostaValida);
 for (const palavra of jaPesquisadas) marcarPronta(palavra);
 const palavras = candidatas.filter((p) => !respostaValida(p));
-console.log(`${candidatas.length} pautas "${STATUS_A_GERAR}"; ${jaPesquisadas.length} já com JSON válido recente e marcadas PRONTO; ${palavras.length} pendentes de pesquisa.`);
+console.log(`${candidatas.length} pautas "${STATUS_A_GERAR}"; ${jaPesquisadas.length} já com JSON válido recente e marcadas PESQUISA CONCLUÍDA; ${palavras.length} pendentes de pesquisa.`);
 
 let feitas = 0;
 let tentativas = 0;
@@ -99,7 +99,7 @@ for (const palavra of palavras) {
   if (respostaValida(palavra)) {
     if (buscasNoMes() > antes) feitas++;
     marcarPronta(palavra);
-    console.log(`"${palavra}": JSON confirmado e status atualizado para PRONTO.`);
+    console.log(`"${palavra}": JSON confirmado e status atualizado para PESQUISA CONCLUÍDA.`);
   } else {
     console.log(`"${palavra}": execução terminou sem JSON válido; status preservado como LIVRE PARA SERP.`);
   }
