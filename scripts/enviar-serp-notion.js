@@ -10,7 +10,7 @@ const folder = 'data/entrada/pautas-chat_01/resposta';
 
 function slug(value) {
   // Remover marcas Unicode sem faixas ambíguas: preserva todas as letras ASCII.
-  return value.normalize('NFD').replace(/\\p{M}/gu, '').toLowerCase()
+  return value.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase()
     .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
