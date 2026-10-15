@@ -55,10 +55,8 @@ jobs:
           const before = JSON.parse(fs.readFileSync('/tmp/articles-before.json', 'utf8'));
           const after = JSON.parse(fs.readFileSync('data/articles.json', 'utf8'));
           const old = new Map((before.articles || []).map(a => [a.slug, a]));
-          const start = Date.now() - 15 * 60 * 1000;
           const changed = (after.articles || []).filter(a =>
             a.status === 'published' && a.publishedAt &&
-            Date.parse(a.publishedAt) >= start &&
             (old.get(a.slug)?.status !== 'published' || old.get(a.slug)?.publishedAt !== a.publishedAt)
           );
           const slugs = changed.map(a => a.slug);
