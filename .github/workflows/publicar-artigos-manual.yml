@@ -12,8 +12,10 @@ concurrency:
 
 jobs:
   publicar:
+    name: Publicar 1 artigo e confirmar deploy
     runs-on: ubuntu-latest
     timeout-minutes: 25
+
     steps:
       - name: Checkout da main
         uses: actions/checkout@v4
@@ -21,166 +23,290 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Preparar Node
+      - name: Preparar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: "22"
           cache: npm
 
       - name: Instalar dependências
         run: npm ci
 
       - name: Guardar estado anterior
-        run: cp data/articles.json /tmp/articles-before.json
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp data/articles.json /tmp/articles-before.json
 
-      - name: Publicar 1 artigo aprovado do estoque por execução
+      - name: Executar robô para publicar um artigo
         id: robot
         shell: bash
+        env:
+          SEM_API: "1"
+          BATCH_SIZE: "1"
         run: |
-          set +e
-          SEM_API=1 BATCH_SIZE=1 node scripts/article-robot.js
-          code=$?
-          echo "robot_exit=$code" >> "$GITHUB_OUTPUT"
-          set -e
+          set -euo pipefail
+
+          node scripts/article-robot.js
+
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
-          const before = JSON.parse(fs.readFileSync('/tmp/articles-before.json', 'utf8'));
-          const after = JSON.parse(fs.readFileSync('data/articles.json', 'utf8'));
-          const old = new Map((before.articles || []).map(a => [a.slug, a]));
-          const changed = (after.articles || []).filter(a =>
-            a.status === 'published' && a.publishedAt &&
-            (old.get(a.slug)?.status !== 'published' || old.get(a.slug)?.publishedAt !== a.publishedAt)
+
+          const before = JSON.parse(
+            fs.readFileSync('/tmp/articles-before.json', 'utf8')
           );
-          const slugs = changed.map(a => a.slug);
-          fs.writeFileSync('/tmp/new-published-slugs.json', JSON.stringify(slugs));
-          fs.appendFileSync(process.env.GITHUB_OUTPUT, 'slugs=' + slugs.join(',') + '\n');
-          console.log('Artigos novos para verificação: ' + (slugs.join(', ') || '(nenhum)'));
+          const after = JSON.parse(
+            fs.readFileSync('data/articles.json', 'utf8')
+          );
+
+          const anteriores = new Map(
+            (before.articles || []).map(a => [
+              a.slug,
+              { status: a.status, publishedAt: a.publishedAt }
+            ])
+          );
+
+          const novos = (after.articles || []).filter(a => {
+            const anterior = anteriores.get(a.slug);
+
+            return (
+              a.status === 'published' &&
+              a.publishedAt &&
+              (
+                !anterior ||
+                anterior.status !== 'published' ||
+                anterior.publishedAt !== a.publishedAt
+              )
+            );
+          });
+
+          if (novos.length > 1) {
+            console.error(
+              `ERRO: o robô publicou ${novos.length} artigos; o limite por execução é 1.`
+            );
+            process.exit(1);
+          }
+
+          const slugs = novos.map(a => a.slug);
+
+          fs.writeFileSync(
+            '/tmp/new-published-slugs.json',
+            JSON.stringify(slugs)
+          );
+
+          fs.appendFileSync(
+            process.env.GITHUB_OUTPUT,
+            `slugs=${slugs.join(',')}\n`
+          );
+
+          console.log(
+            slugs.length === 1
+              ? `Artigo selecionado para deploy: ${slugs[0]}`
+              : 'Nenhum artigo novo publicado nesta execução.'
+          );
           NODE
 
-      - name: Commit da publicação para iniciar o deploy
-        id: push_content
+      - name: Encerrar se nenhum artigo foi publicado
+        if: steps.robot.outputs.slugs == ''
         shell: bash
         run: |
+          echo "::error::Nenhum artigo novo foi publicado. Verifique o estoque, os requisitos de importação, as imagens e os logs do robô."
+          exit 1
+
+      - name: Registrar conteúdo no GitHub
+        id: push_content
+        if: steps.robot.outputs.slugs != ''
+        shell: bash
+        run: |
+          set -euo pipefail
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add data/articles.json
+
           if git diff --cached --quiet; then
-            echo "content_commit=false" >> "$GITHUB_OUTPUT"
-            echo "Nenhuma alteração no banco de artigos."
-          else
-            git commit -m "Publicação editorial: conteúdo preparado para deploy"
-            git pull --rebase --autostash origin main
-            git push origin HEAD:main
-            echo "content_commit=true" >> "$GITHUB_OUTPUT"
+            echo "::error::O artigo foi identificado, mas data/articles.json não apresenta alterações para registrar."
+            exit 1
           fi
+
+          git commit -m "Publicação editorial: um artigo"
+
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main
+
+          echo "content_commit=true" >> "$GITHUB_OUTPUT"
 
       - name: Acionar deploy da Vercel
         id: vercel_hook
-        if: steps.push_content.outputs.content_commit == 'true' && steps.robot.outputs.slugs != ''
+        if: steps.push_content.outputs.content_commit == 'true'
         env:
           VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
         shell: bash
         run: |
-          set -e
-          if [ -z "$VERCEL_DEPLOY_HOOK" ]; then
-            echo "::error::Secret VERCEL_DEPLOY_HOOK não configurado. O deploy público não pode ser acionado explicitamente."
+          set -euo pipefail
+
+          if [ -z "${VERCEL_DEPLOY_HOOK:-}" ]; then
+            echo "::error::Secret VERCEL_DEPLOY_HOOK não configurado."
             exit 1
           fi
-          echo "Acionando deploy da Vercel após o push do conteúdo."
-          curl --fail --silent --show-error --max-time 30 -X POST "$VERCEL_DEPLOY_HOOK" -o /tmp/vercel-hook-response.json
+
+          curl \
+            --fail \
+            --silent \
+            --show-error \
+            --max-time 30 \
+            --request POST \
+            "$VERCEL_DEPLOY_HOOK" \
+            --output /tmp/vercel-hook-response.json
+
           echo "Solicitação de deploy enviada à Vercel."
+
           if [ -s /tmp/vercel-hook-response.json ]; then
             cat /tmp/vercel-hook-response.json
           fi
 
-      - name: Aguardar e verificar deploy público
+      - name: Aguardar e verificar artigo publicado
         id: deploy
+        if: steps.robot.outputs.slugs != ''
         env:
           SLUGS: ${{ steps.robot.outputs.slugs }}
         shell: bash
         run: |
-          set -e
-          if [ -z "$SLUGS" ]; then
-            echo "ok=false" >> "$GITHUB_OUTPUT"
-            echo "url_check=nenhum artigo novo" >> "$GITHUB_OUTPUT"
-            echo "Nenhum artigo novo; execução será registrada como falha."
-            exit 0
-          fi
-          all_ok=true
-          for slug in $(echo "$SLUGS" | tr ',' ' '); do
-            url="https://40mais.blog/${slug}/"
-            ok=false
-            for attempt in $(seq 1 36); do
-              code=$(curl -L -sS -o /tmp/article-page.html -w '%{http_code}' --max-time 15 "$url" || true)
-              if [ "$code" = "200" ] && grep -Fq "$slug" /tmp/article-page.html; then
-                ok=true
-                echo "Deploy confirmado: $url"
-                break
-              fi
-              echo "Tentativa $attempt/36: $url HTTP ${code:-sem resposta}; aguardando 10s"
-              sleep 10
-            done
-            if [ "$ok" != true ]; then
-              all_ok=false
-              echo "Deploy não confirmado: $url"
+          set -euo pipefail
+
+          slug="$(echo "$SLUGS" | cut -d ',' -f 1)"
+          url="https://40mais.blog/${slug}/"
+          confirmado=false
+
+          for tentativa in $(seq 1 36); do
+            codigo="$(
+              curl \
+                --location \
+                --silent \
+                --show-error \
+                --output /tmp/article-page.html \
+                --write-out '%{http_code}' \
+                --max-time 15 \
+                "$url" 2>/dev/null || true
+            )"
+
+            if [ "$codigo" = "200" ] &&
+               grep -Fq "$slug" /tmp/article-page.html; then
+              confirmado=true
+              echo "Artigo confirmado no site: $url"
+              break
             fi
+
+            echo "Tentativa $tentativa/36: HTTP ${codigo:-sem resposta}; aguardando 10 segundos."
+            sleep 10
           done
-          echo "ok=$all_ok" >> "$GITHUB_OUTPUT"
-          if [ "$all_ok" = true ]; then
-            echo "url_check=HTTP 200 confirmado para todos os artigos" >> "$GITHUB_OUTPUT"
+
+          echo "url_check=$url" >> "$GITHUB_OUTPUT"
+
+          if [ "$confirmado" = true ]; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
           else
-            echo "url_check=um ou mais artigos não retornaram HTTP 200" >> "$GITHUB_OUTPUT"
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+            echo "::error::O deploy do artigo não foi confirmado: $url"
+            exit 1
           fi
 
-      - name: Reverter estado publicado se o deploy falhou
-        if: steps.deploy.outputs.ok != 'true' && steps.robot.outputs.slugs != ''
+      - name: Reverter artigo para rascunho se o deploy falhar
+        if: failure() && steps.robot.outputs.slugs != ''
         env:
           SLUGS: ${{ steps.robot.outputs.slugs }}
+        shell: bash
         run: |
+          set -euo pipefail
+
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
+
           const file = 'data/articles.json';
           const db = JSON.parse(fs.readFileSync(file, 'utf8'));
-          const slugs = (process.env.SLUGS || '').split(',').filter(Boolean);
-          for (const a of db.articles || []) {
-            if (!slugs.includes(a.slug)) continue;
-            a.status = 'draft';
-            a.estoque = true;
-            delete a.publishedAt;
-            delete a.publicadoDoEstoqueEm;
-            console.log('Revertido para estoque: ' + a.slug);
+          const slugs = (process.env.SLUGS || '')
+            .split(',')
+            .filter(Boolean);
+
+          for (const artigo of db.articles || []) {
+            if (!slugs.includes(artigo.slug)) continue;
+
+            artigo.status = 'draft';
+            artigo.estoque = true;
+
+            delete artigo.publishedAt;
+            delete artigo.publicadoDoEstoqueEm;
+
+            console.log(`Artigo devolvido ao estoque: ${artigo.slug}`);
           }
+
           db.stats = db.stats || {};
-          db.stats.published = (db.articles || []).filter(a => a.status === 'published').length;
+          db.stats.published = (db.articles || [])
+            .filter(a => a.status === 'published').length;
+
           fs.writeFileSync(file, JSON.stringify(db, null, 2) + '\n');
           NODE
 
-      - name: Atualizar status do calendário editorial
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/articles.json
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Correção: devolver artigo ao estoque após falha no deploy"
+            git pull --rebase --autostash origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Atualizar calendário editorial
         if: always()
         env:
           ARTIGOS_SLUGS: ${{ steps.robot.outputs.slugs }}
           DEPLOY_STATUS: ${{ steps.deploy.outputs.ok == 'true' && 'PUBLICADO' || 'FALHA EXECUÇÃO' }}
           DEPLOY_URL_CHECK: ${{ steps.deploy.outputs.url_check }}
           GITHUB_RUN_ID: ${{ github.run_id }}
-        run: node scripts/atualizar-status-publicacao.js
+        shell: bash
+        run: |
+          set -euo pipefail
+          node scripts/atualizar-status-publicacao.js
 
-      - name: Commit e push do status editorial
+      - name: Registrar resultado no calendário
         if: always()
         shell: bash
         run: |
+          set -euo pipefail
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/articles.json data/conteudo/calendario-12-meses.csv data/conteudo/calendario-12-meses.json data/conteudo/pautas-mestre.csv data/conteudo/execucoes-publicacao.csv
+
+          git add \
+            data/articles.json \
+            data/conteudo/calendario-12-meses.csv \
+            data/conteudo/calendario-12-meses.json \
+            data/conteudo/pautas-mestre.csv \
+            data/conteudo/execucoes-publicacao.csv
+
           if git diff --cached --quiet; then
-            echo "Nada para registrar no calendário."
+            echo "Nenhuma alteração adicional no calendário."
             exit 0
           fi
+
           git commit -m "Calendário editorial: registrar resultado da execução"
           git pull --rebase --autostash origin main
           git push origin HEAD:main
 
-      - name: Falhar a execução se não houve deploy
-        if: steps.deploy.outputs.ok != 'true'
+      - name: Confirmar resultado final
+        if: always()
+        shell: bash
+        env:
+          DEPLOY_OK: ${{ steps.deploy.outputs.ok }}
+          SLUGS: ${{ steps.robot.outputs.slugs }}
         run: |
-          echo "::error::FALHA EXECUÇÃO: deploy público não confirmado. O calendário foi atualizado."
-          exit 1
+          if [ "$DEPLOY_OK" = "true" ]; then
+            echo "SUCESSO: artigo publicado e verificado no site."
+            echo "Slug: $SLUGS"
+          else
+            echo "::error::A execução não confirmou a publicação do artigo no site."
+            exit 1
+          fi
