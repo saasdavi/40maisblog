@@ -41,12 +41,12 @@ jobs:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: node scripts/importar-artigo.js
 
-      - name: Publicar até 3 artigos aprovados do estoque
+      - name: Publicar 1 artigo aprovado do estoque por execução
         id: robot
         shell: bash
         run: |
           set +e
-          SEM_API=1 BATCH_SIZE=3 DAILY_LIMIT=3 node scripts/article-robot.js
+          SEM_API=1 BATCH_SIZE=1 DAILY_LIMIT=3 node scripts/article-robot.js
           code=$?
           echo "robot_exit=$code" >> "$GITHUB_OUTPUT"
           set -e
