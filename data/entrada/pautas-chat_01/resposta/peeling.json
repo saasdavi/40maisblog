@@ -1,0 +1,87 @@
+{
+ "palavra": "peeling",
+ "data": "2026-10-15",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Peeling Químico: O que é? Quando devo fazer?",
+   "link": "https://drdanielstellin.com.br/dermatologia-estetica/peeling-quimico/",
+   "trecho": "O peeling químico é uma das formas mais efetivas de rejuvenescimento da pele, sendo responsável por uma renovação celular induzida por ácidos.",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 2,
+   "titulo": "Peeling: o que é, para que serve e como fazer",
+   "link": "https://www.natura.com.br/blog/pele/peeling",
+   "trecho": "Consiste na aplicação de agentes que atingem as camadas superficiais da pele para regenerá-la e deixar a textura mais uniforme. Ao contrário do ...",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 3,
+   "titulo": "Peelings Químicos - SBD",
+   "link": "https://www.sbd.org.br/tratamentos/peelings-quimicos/",
+   "trecho": "Peelings químicos consistem na aplicação de agentes que destroem as camadas superficiais da pele, seguindo-se, então, da sua regeneração, ...",
+   "lida": true,
+   "h2": [
+    "Peelings Químicos"
+   ],
+   "palavras": 633
+  },
+  {
+   "posicao": 4,
+   "titulo": "Peelings Químicos | Tratamentos de pele",
+   "link": "https://www.skinceuticals.com.br/skin-expert/o-que-e-peeling-quimico.html?srsltid=AU7gw4Vu9d3_lwBSVhwIqQP3SdgHX0elSwd-yaD62ddkYIA-DbhMtyPD",
+   "trecho": "Os peelings químicos melhoram a textura e a aparência da pele ao remover as camadas mais externas. São tratamentos faciais eficazes para melhorar manchas, ...",
+   "lida": false,
+   "motivo": "HTTP 403"
+  },
+  {
+   "posicao": 5,
+   "titulo": "",
+   "link": "https://docs.bvsalud.org/biblioref/2016/10/2286/2013_58.pdf",
+   "trecho": "Suas principais indicações são o tratamento de manchas, cicatrizes e rugas finas, podendo ser realizados na face e em áreas corporais. O termo peeling se ...",
+   "lida": true,
+   "h2": [],
+   "palavras": 20943
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "Peelings Químicos - SBD",
+   "link": "https://www.sbd.org.br/tratamentos/peelings-quimicos/",
+   "lida": true,
+   "h2": [
+    "Peelings Químicos"
+   ],
+   "palavras": 633
+  },
+  {
+   "titulo": "",
+   "link": "https://docs.bvsalud.org/biblioref/2016/10/2286/2013_58.pdf",
+   "lida": true,
+   "h2": [],
+   "palavras": 20943
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "Qual é a função do peeling?",
+  "Quais são os 3 tipos de peeling?",
+  "Qual o valor de um peeling no rosto?",
+  "Quais são os riscos do peeling?"
+ ],
+ "relacionadas": [
+  "Peeling como é feito",
+  "Peeling químico valor",
+  "Qual o melhor peeling para o rosto",
+  "Peeling quanto custa",
+  "Peeling químico antes e depois",
+  "Tipos de peeling",
+  "Peeling rosto antes e depois",
+  "Peeling quimico facial"
+ ],
+ "ai_overview": true
+}
