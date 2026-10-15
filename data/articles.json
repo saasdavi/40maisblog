@@ -7721,7 +7721,7 @@
         ]
       },
       "volume": 4400,
-      "status": "published",
+      "status": "draft",
       "createdAt": "2026-10-04T18:18:58.156Z",
       "scores": {
         "auditoria": 100,
@@ -7785,7 +7785,7 @@
         "pexels:8417516"
       ],
       "altConferido": false,
-      "estoque": false,
+      "estoque": true,
       "estocadoEm": "2026-10-04T18:19:00.403Z",
       "validacao": {
         "palavraChave": "exercícios para idosos",
@@ -7927,9 +7927,7 @@
           ]
         },
         "validadoEm": "2026-10-04T18:19:00.403Z"
-      },
-      "publishedAt": "2026-10-15T21:21:27.535Z",
-      "publicadoDoEstoqueEm": "2026-10-15T21:21:27.535Z"
+      }
     },
     {
       "id": "art_1791137977147_xaf8",
@@ -38057,6 +38055,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 43
+    "published": 42
   }
 }
