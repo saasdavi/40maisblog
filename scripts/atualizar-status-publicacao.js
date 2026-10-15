@@ -36,9 +36,13 @@ function updateCsv(file, keyHeader, statusHeader, targetKeywords) {
   if (ki < 0 || si < 0) { console.warn('Cabeçalhos ' + keyHeader + '/' + statusHeader + ' ausentes em ' + file); return 0; }
   let changed = 0;
   for (let i = 1; i < rows.length; i++) {
-    if (targetKeywords.some(k => norm(k) === norm(rows[i][ki]))) { rows[i][si] = status; changed++; }
+    if (targetKeywords.some(k => norm(k) === norm(rows[i][ki]))) {
+      rows[i][si] = status;
+      lines[i] = rows[i].map(v => '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"').join(';');
+      changed++;
+    }
   }
-  fs.writeFileSync(file, '\uFEFF' + encodeCsv(rows));
+  fs.writeFileSync(file, '\uFEFF' + lines.join('\n') + '\n');
   console.log(file + ': ' + changed + ' linha(s) atualizada(s) para ' + status);
   return changed;
 }
