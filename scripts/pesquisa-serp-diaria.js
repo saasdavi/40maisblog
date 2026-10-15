@@ -101,7 +101,7 @@ for (const palavra of palavras) {
       feitas++;
       // Expõe a palavra-chave recém-pesquisada ao próximo step do GitHub Actions.
       if (process.env.GITHUB_OUTPUT) {
-        fs.appendFileSync(process.env.GITHUB_OUTPUT, `pesquisa=${palavra.replace(/[\\r\\n]/g, ' ')}\\n`);
+        fs.appendFileSync(process.env.GITHUB_OUTPUT, `pesquisa=${palavra.replace(/[\r\n]/g, ' ')}\n`);
       }
     }
     marcarPronta(palavra);
