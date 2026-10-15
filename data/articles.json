@@ -8658,7 +8658,7 @@
         ]
       },
       "volume": 135000,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T19:02:59.523Z",
       "featuredImage": "/images/sarcopenia/sarcopenia-capa.jpg",
       "imageAlt": "Mulher mais velha faz exercício de força com um halter em casa",
@@ -8707,7 +8707,7 @@
         "pexels:5067735"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-04T19:06:03.556Z",
       "scores": {
         "auditoria": 98,
@@ -8793,7 +8793,9 @@
         },
         "validadoEm": "2026-10-04T19:06:03.556Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "publishedAt": "2026-10-15T23:28:16.797Z",
+      "publicadoDoEstoqueEm": "2026-10-15T23:28:16.797Z"
     },
     {
       "id": "art_1791745432581_dk38",
@@ -38063,6 +38065,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 46
+    "published": 47
   }
 }
