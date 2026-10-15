@@ -1,0 +1,100 @@
+{
+ "palavra": "ferro",
+ "data": "2026-10-15",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Ferro com menor preço",
+   "link": "https://www.drogasil.com.br/search?w=ferro",
+   "trecho": "Encontre ferro com menor preço na Drogasil, sua farmácia online 24 horas. Retire seu pedido na loja ou receba-o em casa!",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  },
+  {
+   "posicao": 2,
+   "titulo": "Ferro Recursos Minerais de Minas Gerais",
+   "link": "http://recursomineralmg.codemge.com.br/substancias-minerais/ferro/",
+   "trecho": "O minério de ferro consiste de óxidos de ferro (Figura 2), cujas formas primárias são a magnetita (Fe3O4) e a hematita (Fe2O3), substâncias que, quando ...",
+   "lida": true,
+   "h2": [
+    "1.1. Mineralogia",
+    "1.2. Aplica es",
+    "2.1. Principais tipos de dep sitos de ferro",
+    "2.2. Forma es ferr feras bandadas",
+    "2.3. Dep sitos de altera o superficial (later ticos)",
+    "2.4. Dep sitos relacionados atividade magm tica (Kiruna e Lahn-Dill)",
+    "2.5. Dep sitos de metamorfismo de contato (tipo Skarn )",
+    "2.6. Forma es ferr feras ool ticas (tipo Clinton-Minette)",
+    "3.1. O Quadril tero Ferr fero",
+    "3.2. Prov ncia Ferr fera Concei o do Mato Dentro",
+    "3.3. Prov ncia Ferr fera Nova Aurora (Porteirinha)",
+    "4.1. Aspectos geometal rgicos"
+   ],
+   "palavras": 15016
+  },
+  {
+   "posicao": 3,
+   "titulo": "Ferro 18Mg 90 un| OficialFarma - Energia e Imunidade",
+   "link": "https://www.oficialfarma.com.br/ferro-18mg-90-capsulas?srsltid=AU7gw4X55lDzFb19UVrD_lkiTzieU0NqHXfRZSHfdExn8dAAGkeI9ClV",
+   "trecho": "Para que serve o Ferro Quelato? Estimulante do sistema imunológico;. Tratamento e prevenção de anemia;. Melhora do desempenho físico;. Diminuição do cansaço e ...",
+   "lida": true,
+   "h2": [
+    "O que Ferro Quelato?",
+    "Para que serve o Ferro Quelato?",
+    "Quem pode se beneficiar do uso de Ferro Quelato?",
+    "Qual a composi o do Ferro Quelato?",
+    "Como tomar o Ferro Quelato?",
+    "Perguntas frequentes sobre o uso de Ferro Quelato:",
+    "Advert ncias:"
+   ],
+   "palavras": 1825
+  },
+  {
+   "posicao": 4,
+   "titulo": "Qual é a função do ferro: entenda como ele combate à anemia",
+   "link": "https://prodietnutrition.com/blog/funcao-do-ferro/",
+   "trecho": "O ferro desempenha um papel vital no organismo, principalmente na formação de hemoglobina, uma proteína que transporta oxigênio dos pulmões para ...",
+   "lida": true,
+   "h2": [
+    "Qual é a função do ferro?",
+    "O que faz o ferro no organismo: como ele age?",
+    "Quais são os benefícios do ferro no organismo?",
+    "Qual é a quantidade necessária de ferro por dia?",
+    "Função do ferro: conheça os produtos da Prodiet",
+    "POSTS RELACIONADOS",
+    "POSTS RELACIONADOS",
+    "Buscar laudos",
+    "Produtos",
+    "Prodiet",
+    "Produtos",
+    "Produtos"
+   ],
+   "palavras": 1929
+  }
+ ],
+ "fontes_oficiais": [],
+ "links_internos_sugeridos": [
+  {
+   "titulo": "Alimentos Ricos em Ferro: Absorção Prática 40+",
+   "url": "/alimentos-ricos-em-ferro"
+  }
+ ],
+ "perguntas": [
+  "Qual é a função do ferro?",
+  "Quais são os sintomas de falta de ferro no corpo?",
+  "O que é bom para aumentar o ferro?",
+  "Qual o melhor ferro para tomar?"
+ ],
+ "relacionadas": [
+  "Vitamina ferro",
+  "Ferro medicamento",
+  "Ferro suplemento",
+  "Ferro mineral",
+  "Ferro tomar",
+  "Ferro exame",
+  "Ferro sangue",
+  "Ferro no corpo"
+ ],
+ "ai_overview": true
+}
