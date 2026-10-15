@@ -25,11 +25,10 @@ const KEYWORDS_FILE = path.join(__dirname, '../data/keywords-validated.json');
 
 const BATCH_SIZE = Number(process.env.BATCH_SIZE || 1);
 // Teto de publicações por dia (dia de Brasília). Padrão 3: cada execução agendada faz 1, e nenhuma execução (manual ou repetida) passa de 3 no dia.
-const DAILY_LIMIT = Number(process.env.DAILY_LIMIT || 3);
 // Originalidade: no máximo este % de sequências de 7 palavras iguais às fontes e aos concorrentes lidos (o artigo é nosso, não cópia).
 const MAX_SEMELHANCA = Number(process.env.MAX_SEMELHANCA || 6);
 // Modo ESTOQUE (ESTOQUE=1): escreve os artigos e guarda no GitHub como rascunho pronto (status 'draft' + estoque:true, o site NÃO mostra).
-// As execuções agendadas (sem ESTOQUE) publicam do estoque primeiro, no máximo DAILY_LIMIT por dia, e só escrevem na hora se o estoque acabar.
+// As execuções agendadas (sem ESTOQUE) publicam do estoque primeiro, no máximo BATCH_SIZE por execução, e só escrevem na hora se o estoque acabar.
 // ESTOQUE_ALVO = quantos artigos prontos manter guardados (padrão 21 = 7 dias).
 const ESTOQUE = process.env.ESTOQUE === '1';
 // SEM_API=1: só publica do estoque (artigos escritos fora); nunca chama a API de escrita nem exige chave.
@@ -154,8 +153,7 @@ class ArticleRobot {
     const saiu = (kw) => publicados.some(a => (a.primaryKeyword || '').toLowerCase() === String(kw || '').toLowerCase());
     const espera = (k) => (k.papel === 'satelite' && k.pilar && !saiu(k.pilar) ? 1 : 0);
     livres.sort((a, b) => espera(a) - espera(b) || (a.cluster === ultima ? 1 : 0) - (b.cluster === ultima ? 1 : 0) || b.volume - a.volume);
-    // o teto diário (DAILY_LIMIT) limita só a PUBLICAÇÃO; escrever para o estoque usa o lote inteiro
-    return livres.slice(0, ESTOQUE ? BATCH_SIZE : Math.min(BATCH_SIZE, this.restanteHoje()));
+    return livres.slice(0, BATCH_SIZE);
   }
 
   lerFalhasPauta() { try { return JSON.parse(fs.readFileSync(PAUTAS_FALHAS, 'utf8')); } catch { return {}; } }
@@ -174,13 +172,6 @@ class ArticleRobot {
     return this.db.articles.some(a => a.status === 'published' && a.escritoPor && Date.parse(a.publishedAt) >= inicio);
   }
 
-  // Quantos artigos ainda cabem hoje (dia de Brasília, UTC-3) pelo teto DAILY_LIMIT
-  restanteHoje() {
-    const dia = (iso) => new Date(new Date(iso).getTime() - 3 * 3600e3).toISOString().slice(0, 10);
-    const hoje = dia(new Date().toISOString());
-    const feitos = this.db.articles.filter(a => a.status === 'published' && a.publishedAt && dia(a.publishedAt) === hoje).length;
-    return Math.max(0, DAILY_LIMIT - feitos);
-  }
 
   // ---------- estoque de artigos prontos ----------
   // Só publica do estoque o que foi aprovado pelo robô ou importado (ChatGPT etc.) E tem auditoria acima de 85; abaixo disso fica retido para correção.
@@ -194,7 +185,7 @@ class ArticleRobot {
   // ainda estiverem no limite, ele fica no estoque e a vez passa para o próximo (nunca vai ao ar sem imagem).
   async publicarDoEstoque(quantos) {
     const agora = new Date().toISOString();
-    const limite = Math.max(0, Math.min(quantos, this.restanteHoje()));
+    const limite = Math.max(0, quantos);
     let publicados = 0;
     for (const a of this.prontosNoEstoque()) {
       if (publicados >= limite) break;
@@ -732,7 +723,6 @@ Responda SOMENTE com um objeto JSON válido (sem texto antes ou depois, sem cerc
     if (!SEM_API && !process.env.ANTHROPIC_API_KEY) throw new Error('ANTHROPIC_API_KEY ausente');
     console.log(`\n🤖 ARTICLE ROBOT — ${new Date().toISOString()}`);
     if (!ESTOQUE) {
-      if (this.restanteHoje() === 0) { console.log(`⏸️  Teto do dia atingido (${DAILY_LIMIT} artigos publicados hoje). Nada a fazer.`); return this.stats; }
       if (NOVO_COM_IA && !this.novoHoje()) {
         console.log(`✍️  NOVO_COM_IA: 1 artigo novo da fila, escrito por ${(process.env.GEMINI_API_KEY || '').trim() ? 'Gemini (Claude de reserva)' : 'Claude (sem GEMINI_API_KEY)'}; o estoque publica nas outras execuções.`);
       } else {
