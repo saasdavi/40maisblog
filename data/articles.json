@@ -8469,7 +8469,7 @@
         ]
       },
       "volume": 3400,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T18:21:45.054Z",
       "scores": {
         "auditoria": 100,
@@ -8533,7 +8533,7 @@
         "pexels:4907447"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-04T18:21:47.349Z",
       "validacao": {
         "palavraChave": "idade metabólica",
@@ -8600,7 +8600,9 @@
           ]
         },
         "validadoEm": "2026-10-04T18:21:47.349Z"
-      }
+      },
+      "publishedAt": "2026-10-15T23:16:26.254Z",
+      "publicadoDoEstoqueEm": "2026-10-15T23:16:26.254Z"
     },
     {
       "id": "art_1791140762344_d7ns",
@@ -38061,6 +38063,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 45
+    "published": 46
   }
 }
