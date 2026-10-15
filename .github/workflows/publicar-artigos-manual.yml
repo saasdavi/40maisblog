@@ -1,312 +1,223 @@
-name: Publicar artigos (manual / cron externo)
+name: Publicar artigo pronto + deploy Vercel
 
+# O único gatilho é workflow_dispatch. O cron externo chama este workflow pela API.
+# Não configurar schedule aqui: os horários são responsabilidade do cron externo.
 on:
   workflow_dispatch:
+    inputs:
+      arquivo:
+        description: "Nome do .md em GPT ARTIGOS PRONTOS (vazio = próximo da fila)"
+        required: false
+        default: ""
+
+concurrency:
+  group: artigos-diarios
+  cancel-in-progress: false
 
 permissions:
   contents: write
 
-concurrency:
-  group: publicar-artigos
-  cancel-in-progress: false
-
 jobs:
   publicar:
-    name: Publicar 1 artigo e confirmar deploy
     runs-on: ubuntu-latest
-    timeout-minutes: 25
-
+    timeout-minutes: 45
     steps:
-      - name: Checkout da main
+      - name: Checkout main
         uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
 
-      - name: Preparar Node.js
+      - name: Validar segredos necessários
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
+        run: |
+          set -euo pipefail
+          for nome in VERCEL_DEPLOY_HOOK VERCEL_TOKEN VERCEL_PROJECT_ID; do
+            if [ -z "${!nome:-}" ]; then
+              echo "::error::Secret obrigatório ausente: $nome"
+              exit 1
+            fi
+          done
+          if [ -z "${PEXELS_API_KEY:-}" ] && [ -z "${PIXABAY_API_KEY:-}" ] && [ -z "${UNSPLASH_API_KEY:-}" ]; then
+            echo "::error::Configure pelo menos uma chave de imagens: PEXELS_API_KEY, PIXABAY_API_KEY ou UNSPLASH_API_KEY."
+            exit 1
+          fi
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: npm
 
-      - name: Instalar dependências
-        run: npm ci
+      - name: Instalar dependências Python
+        run: pip install requests pillow pyyaml
 
-      - name: Guardar estado anterior
-        shell: bash
-        run: |
-          set -euo pipefail
-          cp data/articles.json /tmp/articles-before.json
-
-      - name: Executar robô para publicar um artigo
-        id: robot
-        shell: bash
+      - name: Preparar artigo pronto
+        id: publicar
         env:
-          SEM_API: "1"
-          BATCH_SIZE: "1"
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
+          ARQUIVO: ${{ github.event.inputs.arquivo }}
         run: |
           set -euo pipefail
-
-          node scripts/article-robot.js
-
-          node --input-type=module <<'NODE'
-          import fs from 'node:fs';
-
-          const before = JSON.parse(
-            fs.readFileSync('/tmp/articles-before.json', 'utf8')
-          );
-          const after = JSON.parse(
-            fs.readFileSync('data/articles.json', 'utf8')
-          );
-
-          const anteriores = new Map(
-            (before.articles || []).map(a => [
-              a.slug,
-              { status: a.status, publishedAt: a.publishedAt }
-            ])
-          );
-
-          const novos = (after.articles || []).filter(a => {
-            const anterior = anteriores.get(a.slug);
-
-            return (
-              a.status === 'published' &&
-              a.publishedAt &&
-              (
-                !anterior ||
-                anterior.status !== 'published' ||
-                anterior.publishedAt !== a.publishedAt
-              )
-            );
-          });
-
-          if (novos.length > 1) {
-            console.error(
-              `ERRO: o robô publicou ${novos.length} artigos; o limite por execução é 1.`
-            );
-            process.exit(1);
-          }
-
-          const slugs = novos.map(a => a.slug);
-
-          fs.writeFileSync(
-            '/tmp/new-published-slugs.json',
-            JSON.stringify(slugs)
-          );
-
-          fs.appendFileSync(
-            process.env.GITHUB_OUTPUT,
-            `slugs=${slugs.join(',')}\n`
-          );
-
-          console.log(
-            slugs.length === 1
-              ? `Artigo selecionado para deploy: ${slugs[0]}`
-              : 'Nenhum artigo novo publicado nesta execução.'
-          );
-          NODE
-
-      - name: Encerrar se nenhum artigo foi publicado
-        if: steps.robot.outputs.slugs == ''
-        shell: bash
-        run: |
-          echo "::error::Nenhum artigo novo foi publicado. Verifique o estoque, os requisitos de importação, as imagens e os logs do robô."
-          exit 1
-
-      - name: Registrar conteúdo no GitHub
-        id: push_content
-        if: steps.robot.outputs.slugs != ''
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add data/articles.json
-
-          if git diff --cached --quiet; then
-            echo "::error::O artigo foi identificado, mas data/articles.json não apresenta alterações para registrar."
-            exit 1
-          fi
-
-          git commit -m "Publicação editorial: um artigo"
-
-          git pull --rebase --autostash origin main
-          git push origin HEAD:main
-
-          echo "content_commit=true" >> "$GITHUB_OUTPUT"
-
-      - name: Acionar deploy da Vercel
-        id: vercel_hook
-        if: steps.push_content.outputs.content_commit == 'true'
-        env:
-          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          if [ -z "${VERCEL_DEPLOY_HOOK:-}" ]; then
-            echo "::error::Secret VERCEL_DEPLOY_HOOK não configurado."
-            exit 1
-          fi
-
-          curl \
-            --fail \
-            --silent \
-            --show-error \
-            --max-time 30 \
-            --request POST \
-            "$VERCEL_DEPLOY_HOOK" \
-            --output /tmp/vercel-hook-response.json
-
-          echo "Solicitação de deploy enviada à Vercel."
-
-          if [ -s /tmp/vercel-hook-response.json ]; then
-            cat /tmp/vercel-hook-response.json
-          fi
-
-      - name: Aguardar e verificar artigo publicado
-        id: deploy
-        if: steps.robot.outputs.slugs != ''
-        env:
-          SLUGS: ${{ steps.robot.outputs.slugs }}
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          slug="$(echo "$SLUGS" | cut -d ',' -f 1)"
-          url="https://40mais.blog/${slug}/"
-          confirmado=false
-
-          for tentativa in $(seq 1 36); do
-            codigo="$(
-              curl \
-                --location \
-                --silent \
-                --show-error \
-                --output /tmp/article-page.html \
-                --write-out '%{http_code}' \
-                --max-time 15 \
-                "$url" 2>/dev/null || true
-            )"
-
-            if [ "$codigo" = "200" ] &&
-               grep -Fq "$slug" /tmp/article-page.html; then
-              confirmado=true
-              echo "Artigo confirmado no site: $url"
-              break
-            fi
-
-            echo "Tentativa $tentativa/36: HTTP ${codigo:-sem resposta}; aguardando 10 segundos."
-            sleep 10
-          done
-
-          echo "url_check=$url" >> "$GITHUB_OUTPUT"
-
-          if [ "$confirmado" = true ]; then
-            echo "ok=true" >> "$GITHUB_OUTPUT"
+          if [ -n "${ARQUIVO:-}" ]; then
+            python scripts/publicar_artigo.py --arquivo "$ARQUIVO" --github-output "$GITHUB_OUTPUT"
           else
-            echo "ok=false" >> "$GITHUB_OUTPUT"
-            echo "::error::O deploy do artigo não foi confirmado: $url"
-            exit 1
+            python scripts/publicar_artigo.py --github-output "$GITHUB_OUTPUT"
           fi
 
-      - name: Reverter artigo para rascunho se o deploy falhar
-        if: failure() && steps.robot.outputs.slugs != ''
+      - name: Validar o site (build)
+        if: steps.publicar.outputs.novo == 'true'
         env:
-          SLUGS: ${{ steps.robot.outputs.slugs }}
-        shell: bash
+          AUDIT_STRICT_SLUG: ${{ steps.publicar.outputs.slug }}
         run: |
           set -euo pipefail
+          npm ci
+          npm run build
 
-          node --input-type=module <<'NODE'
-          import fs from 'node:fs';
-
-          const file = 'data/articles.json';
-          const db = JSON.parse(fs.readFileSync(file, 'utf8'));
-          const slugs = (process.env.SLUGS || '')
-            .split(',')
-            .filter(Boolean);
-
-          for (const artigo of db.articles || []) {
-            if (!slugs.includes(artigo.slug)) continue;
-
-            artigo.status = 'draft';
-            artigo.estoque = true;
-
-            delete artigo.publishedAt;
-            delete artigo.publicadoDoEstoqueEm;
-
-            console.log(`Artigo devolvido ao estoque: ${artigo.slug}`);
-          }
-
-          db.stats = db.stats || {};
-          db.stats.published = (db.articles || [])
-            .filter(a => a.status === 'published').length;
-
-          fs.writeFileSync(file, JSON.stringify(db, null, 2) + '\n');
-          NODE
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add data/articles.json
-
-          if ! git diff --cached --quiet; then
-            git commit -m "Correção: devolver artigo ao estoque após falha no deploy"
-            git pull --rebase --autostash origin main
+      # O artigo e as imagens são enviados primeiro; a origem e o calendário ficam intactos.
+      - name: Commit e push do conteúdo
+        if: steps.publicar.outputs.novo == 'true'
+        run: |
+          set -euo pipefail
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Artigos"
+          git add -A -- src/content/artigos/ public/images/
+          if git diff --cached --quiet; then
+            echo "Conteúdo já está no repositório; continuando com nova tentativa de deploy."
+          else
+            git commit -m "Publica conteúdo de artigo pronto"
             git push origin HEAD:main
           fi
 
-      - name: Atualizar calendário editorial
-        if: always()
+      - name: Acionar Vercel e confirmar deploy de produção
+        id: confirmar_deploy
+        if: steps.publicar.outputs.novo == 'true'
         env:
-          ARTIGOS_SLUGS: ${{ steps.robot.outputs.slugs }}
-          DEPLOY_STATUS: ${{ steps.deploy.outputs.ok == 'true' && 'PUBLICADO' || 'FALHA EXECUÇÃO' }}
-          DEPLOY_URL_CHECK: ${{ steps.deploy.outputs.url_check }}
-          GITHUB_RUN_ID: ${{ github.run_id }}
-        shell: bash
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          EXPECTED_COMMIT: ${{ github.sha }}
         run: |
           set -euo pipefail
-          node scripts/atualizar-status-publicacao.js
+          # Usa o commit real de main depois do push (ou o commit atual em caso de retry).
+          EXPECTED_COMMIT="$(git rev-parse HEAD)"
+          START_MS="$(date +%s%3N)"
+          echo "Solicitando deploy à Vercel..."
+          curl --fail --silent --show-error --retry 2 --retry-delay 3 \
+            -X POST "$VERCEL_DEPLOY_HOOK" -o /tmp/vercel-hook-response.json
+          echo "Solicitação aceita. Aguardando estado final do deploy de produção..."
 
-      - name: Registrar resultado no calendário
-        if: always()
-        shell: bash
+          export START_MS EXPECTED_COMMIT
+          python - <<'PY'
+          import json
+          import os
+          import sys
+          import time
+          import requests
+
+          token = os.environ["VERCEL_TOKEN"]
+          project_id = os.environ["VERCEL_PROJECT_ID"]
+          org_id = os.environ["VERCEL_ORG_ID"]
+          start_ms = int(os.environ["START_MS"])
+          expected_sha = os.environ["EXPECTED_COMMIT"]
+          url = "https://api.vercel.com/v6/deployments"
+          params = {"projectId": project_id, "target": "production", "limit": 20}
+          if org_id:
+              params["teamId"] = org_id
+          headers = {"Authorization": f"Bearer {token}"}
+          terminal = {"READY", "ERROR", "CANCELED"}
+          last_seen = None
+
+          for attempt in range(1, 61):
+              response = requests.get(url, params=params, headers=headers, timeout=20)
+              if response.status_code >= 400:
+                  print(f"Erro ao consultar Vercel API ({response.status_code}): {response.text[:1000]}", file=sys.stderr)
+                  response.raise_for_status()
+              deployments = response.json().get("deployments", [])
+              candidates = []
+              for deployment in deployments:
+                  created = int(deployment.get("createdAt") or 0)
+                  if created < start_ms:
+                      continue
+                  meta = deployment.get("meta") or {}
+                  commit_sha = meta.get("githubCommitSha") or meta.get("githubCommitSha1")
+                  if commit_sha and commit_sha != expected_sha:
+                      continue
+                  candidates.append(deployment)
+
+              if candidates:
+                  deployment = max(candidates, key=lambda item: int(item.get("createdAt") or 0))
+                  deployment_id = deployment.get("uid") or deployment.get("id") or "desconhecido"
+                  state = deployment.get("readyState") or deployment.get("state") or "UNKNOWN"
+                  last_seen = (deployment_id, state, deployment.get("url", ""))
+                  print(f"Deploy Vercel: id={deployment_id}; estado={state}; url={deployment.get('url', '')}")
+                  if state == "READY":
+                      with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+                          output.write(f"deployment_id={deployment_id}\n")
+                          output.write(f"deployment_url={deployment.get('url', '')}\n")
+                      print("Deploy de produção confirmado como READY.")
+                      sys.exit(0)
+                  if state in terminal:
+                      print(f"Deploy terminou sem sucesso: {state}", file=sys.stderr)
+                      sys.exit(1)
+
+              print(f"Aguardando Vercel ({attempt}/60)...")
+              time.sleep(10)
+
+          print(f"Tempo esgotado aguardando deploy READY. Último estado observado: {last_seen}", file=sys.stderr)
+          sys.exit(1)
+          PY
+
+      # Esta é a primeira etapa que pode marcar PUBLICADO ou arquivar a origem.
+      - name: Finalizar artigo e atualizar calendário
+        id: finalizar
+        if: steps.confirmar_deploy.outcome == 'success'
+        env:
+          ARQUIVO: ${{ steps.publicar.outputs.arquivo }}
         run: |
           set -euo pipefail
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add \
-            data/articles.json \
-            data/conteudo/calendario-12-meses.csv \
-            data/conteudo/calendario-12-meses.json \
-            data/conteudo/pautas-mestre.csv \
-            data/conteudo/execucoes-publicacao.csv
-
+          python scripts/publicar_artigo.py --finalizar "$ARQUIVO"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Artigos"
+          git add -A -- "dados/entrada/pautas-chat_01/GPT ARTIGOS PRONTOS" "dados/calendario_editorial.md"
           if git diff --cached --quiet; then
-            echo "Nenhuma alteração adicional no calendário."
-            exit 0
+            echo "Calendário e pasta de origem já estavam finalizados."
+          else
+            git commit -m "Marca artigo como publicado após deploy confirmado"
+            git push origin HEAD:main
           fi
 
-          git commit -m "Calendário editorial: registrar resultado da execução"
-          git pull --rebase --autostash origin main
-          git push origin HEAD:main
-
-      - name: Confirmar resultado final
-        if: always()
-        shell: bash
+      # Em qualquer falha anterior à confirmação do deploy, registra FALHA e preserva o .md de origem.
+      - name: Registrar falha sem perder o artigo pronto
+        if: failure() && steps.publicar.outputs.novo == 'true' && steps.confirmar_deploy.outcome != 'success'
         env:
-          DEPLOY_OK: ${{ steps.deploy.outputs.ok }}
-          SLUGS: ${{ steps.robot.outputs.slugs }}
+          ARQUIVO: ${{ steps.publicar.outputs.arquivo }}
         run: |
-          if [ "$DEPLOY_OK" = "true" ]; then
-            echo "SUCESSO: artigo publicado e verificado no site."
-            echo "Slug: $SLUGS"
+          set -euo pipefail
+          # Descarta alterações locais não publicadas; preserva somente o que já está em main.
+          git fetch origin main
+          git reset --hard origin/main
+          python scripts/publicar_artigo.py --falha "$ARQUIVO"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Artigos"
+          git add -- dados/calendario_editorial.md
+          if git diff --cached --quiet; then
+            echo "Calendário já registra FALHA; nenhuma alteração necessária."
           else
-            echo "::error::A execução não confirmou a publicação do artigo no site."
-            exit 1
+            git commit -m "Registra falha ao publicar artigo"
+            git push origin HEAD:main
           fi
