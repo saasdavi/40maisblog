@@ -101,7 +101,7 @@ for (const palavra of palavras) {
     if (buscasNoMes() > antes) {
       feitas++;
       // Expõe a palavra-chave recém-pesquisada ao próximo step do GitHub Actions.
-      pesquisasNovas.push(palavra.replace(/[\\r\\n]/g, ' '));
+      pesquisasNovas.push(palavra.replace(/[\r\n]/g, ' '));
     }
     marcarPronta(palavra);
     console.log(`"${palavra}": JSON confirmado e status atualizado para PESQUISA CONCLUÍDA.`);
