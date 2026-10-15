@@ -84,6 +84,25 @@ jobs:
             echo "content_commit=true" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Acionar deploy da Vercel
+        id: vercel_hook
+        if: steps.push_content.outputs.content_commit == 'true'
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        shell: bash
+        run: |
+          set -e
+          if [ -z "$VERCEL_DEPLOY_HOOK" ]; then
+            echo "::error::Secret VERCEL_DEPLOY_HOOK não configurado. O deploy público não pode ser acionado explicitamente."
+            exit 1
+          fi
+          echo "Acionando deploy da Vercel após o push do conteúdo."
+          curl --fail --silent --show-error --max-time 30 -X POST "$VERCEL_DEPLOY_HOOK" -o /tmp/vercel-hook-response.json
+          echo "Solicitação de deploy enviada à Vercel."
+          if [ -s /tmp/vercel-hook-response.json ]; then
+            cat /tmp/vercel-hook-response.json
+          fi
+
       - name: Aguardar e verificar deploy público
         id: deploy
         env:
