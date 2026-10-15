@@ -1,15 +1,15 @@
-// Envia a pesquisa SERP recém-gerada para a página central do Notion.
-// Requer NOTION_API_KEY com acesso à página central Saúde 40+.
+// Envia a pesquisa SERP recém-gerada para a página dedicada de pesquisas no Notion.
+// Requer NOTION_API_KEY com acesso à página "Pesquisas SerpAPI — Arquivo de pesquisas".
 // Só é chamado quando o JSON da pesquisa foi alterado nesta execução.
 import fs from 'node:fs';
 
 const keyword = (process.env.PALAVRA || '').trim();
 const notionKey = (process.env.NOTION_API_KEY || '').trim();
-const parentPageId = '3fa242e3913c81689b04de1f60ccd99e';
+const parentPageId = '3fa242e3913c81918cd1d38f9d54ecca';
 const folder = 'data/entrada/pautas-chat_01/resposta';
 
 function slug(value) {
-  return value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+  return value.normalize('NFKD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase()
     .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
