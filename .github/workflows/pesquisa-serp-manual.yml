@@ -32,26 +32,11 @@ jobs:
           node-version: '22'
 
       - name: Pesquisar na SerpAPI
+        id: pesquisar
         env:
           SERP_API_KEY: ${{ secrets.SERP___APIKEY }}
           PALAVRA: ${{ github.event.inputs.palavra_chave }}
         run: node scripts/pesquisa-serp-manual.js
-
-      - name: Enviar pesquisa completa ao Notion
-        env:
-          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
-          PALAVRA: ${{ github.event.inputs.palavra_chave }}
-        run: |
-          ARQUIVO="data/entrada/pautas-chat_01/resposta/$(node -e "console.log(process.env.PALAVRA.normalize('NFKD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''))").json"
-          if [ -z "$(git status --porcelain -- "$ARQUIVO")" ]; then
-            echo "Pesquisa já válida ou sem alteração; não será criada página duplicada no Notion."
-            exit 0
-          fi
-          if [ -z "$NOTION_API_KEY" ]; then
-            echo "::warning::NOTION_API_KEY não configurada. A pesquisa será mantida no GitHub, mas não enviada ao Notion."
-            exit 0
-          fi
-          node scripts/enviar-serp-notion.js
 
       - name: Commit e push
         run: |
@@ -65,3 +50,16 @@ jobs:
           git commit -m "🤖 Pesquisa SerpAPI: ${{ github.event.inputs.palavra_chave }}"
           git pull --rebase -q origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
+
+      - name: Enviar pesquisa completa ao Notion
+        if: steps.pesquisar.outcome == 'success'
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          PALAVRA: ${{ github.event.inputs.palavra_chave }}
+        run: |
+          ARQUIVO="data/entrada/pautas-chat_01/resposta/$(node -e "console.log(process.env.PALAVRA.normalize('NFKD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''))").json"
+          if [ -z -f "$ARQUIVO" ]; then
+            echo "Arquivo de pesquisa não encontrado; nada para enviar."
+            exit 1
+          fi
+          node scripts/enviar-serp-notion.js
