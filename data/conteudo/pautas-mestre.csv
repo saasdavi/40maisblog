@@ -118,7 +118,7 @@
 "2 validada sem artigo";"Saúde geral";"queloide";"60500";"LOW";"";"prontas";"";"";"";"SIM";"pele-volumes.json";"";"";"";"";"";"";"";"";"";"";"";"pilar";"1815";"10890";"cabeca";"0";"";""
 "2 validada sem artigo";"Saúde geral";"celulite";"60500";"LOW";"";"prontas";"";"";"";"SIM";"pele-volumes.json";"";"";"";"";"";"";"";"";"";"";"";"pilar";"1815";"10890";"cabeca";"2";"700";"celulite grau 3 (590) | celulite abdominal (110)"
 "2 validada sem artigo";"Saúde geral";"queratose pilar";"60500";"LOW";"";"prontas";"";"";"";"SIM";"pele-volumes.json";"";"";"";"";"";"";"";"";"";"";"";"pilar";"1815";"10890";"media (2 palavras)";"0";"";""
-"2 validada sem artigo";"Pele";"limpeza de pele";"60500";"HIGH";"";"a gerar";"";"";"";"";"pele-volumes.json";"";"";"";"";"";"";"";"";"";"";"";"pilar";"1815";"10890";"media (2 palavras)";"1";"720";"limpeza de pele profissional (720)"
+"2 validada sem artigo";"Pele";"limpeza de pele";"60500";"HIGH";"";"prontas";"";"";"";"";"pele-volumes.json";"";"";"";"";"";"";"";"";"";"";"";"pilar";"1815";"10890";"media (2 palavras)";"1";"720";"limpeza de pele profissional (720)"
 "2 validada sem artigo";"Saúde geral";"sabonete facial";"60500";"HIGH";"";"a gerar";"";"";"";"";"pele-volumes.json";"";"";"";"";"";"";"";"";"";"";"";"pilar";"1815";"10890";"media (2 palavras)";"0";"";""
 "2 validada sem artigo";"Pele";"protetor solar com cor";"60500";"HIGH";"";"a gerar";"";"";"";"";"pele-volumes.json";"";"";"";"";"";"";"";"";"";"";"";"pilar";"1815";"10890";"long tail";"0";"";""
 "2 validada sem artigo";"Saúde geral";"polissonografia";"60500";"LOW";"";"a gerar";"";"";"";"SIM";"sono-volumes.json";"";"";"";"";"";"";"";"";"";"";"";"pilar";"1815";"10890";"cabeca";"0";"";""
