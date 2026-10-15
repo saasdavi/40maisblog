@@ -1,4 +1,4 @@
-name: Publicar artigos (manual / cron externo)
+name: Publicar artigo e acionar deploy
 
 on:
   workflow_dispatch:
@@ -12,9 +12,8 @@ concurrency:
 
 jobs:
   publicar:
-    name: Publicar 1 artigo e confirmar deploy
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 2
 
     steps:
       - name: Checkout da main
@@ -33,17 +32,14 @@ jobs:
         run: npm ci
 
       - name: Guardar estado anterior
-        shell: bash
-        run: |
-          set -euo pipefail
-          cp data/articles.json /tmp/articles-before.json
+        run: cp data/articles.json /tmp/articles-before.json
 
-      - name: Executar robô para publicar um artigo
+      - name: Publicar um artigo
         id: robot
-        shell: bash
         env:
           SEM_API: "1"
           BATCH_SIZE: "1"
+        shell: bash
         run: |
           set -euo pipefail
 
@@ -59,63 +55,32 @@ jobs:
             fs.readFileSync('data/articles.json', 'utf8')
           );
 
-          const anteriores = new Map(
+          const previous = new Map(
             (before.articles || []).map(a => [
               a.slug,
               { status: a.status, publishedAt: a.publishedAt }
             ])
           );
 
-          const novos = (after.articles || []).filter(a => {
-            const anterior = anteriores.get(a.slug);
-
-            return (
-              a.status === 'published' &&
+          const published = (after.articles || []).filter(a => {
+            const old = previous.get(a.slug);
+            return a.status === 'published' &&
               a.publishedAt &&
-              (
-                !anterior ||
-                anterior.status !== 'published' ||
-                anterior.publishedAt !== a.publishedAt
-              )
-            );
+              (!old || old.status !== 'published' ||
+               old.publishedAt !== a.publishedAt);
           });
 
-          if (novos.length > 1) {
+          if (published.length !== 1) {
             console.error(
-              `ERRO: o robô publicou ${novos.length} artigos; o limite por execução é 1.`
+              `Esperado 1 artigo novo; encontrados: ${published.length}.`
             );
             process.exit(1);
           }
 
-          const slugs = novos.map(a => a.slug);
-
-          fs.writeFileSync(
-            '/tmp/new-published-slugs.json',
-            JSON.stringify(slugs)
-          );
-
-          fs.appendFileSync(
-            process.env.GITHUB_OUTPUT,
-            `slugs=${slugs.join(',')}\n`
-          );
-
-          console.log(
-            slugs.length === 1
-              ? `Artigo selecionado para deploy: ${slugs[0]}`
-              : 'Nenhum artigo novo publicado nesta execução.'
-          );
+          console.log(`Artigo publicado no repositório: ${published[0].slug}`);
           NODE
 
-      - name: Encerrar se nenhum artigo foi publicado
-        if: steps.robot.outputs.slugs == ''
-        shell: bash
-        run: |
-          echo "::error::Nenhum artigo novo foi publicado. Verifique o estoque, os requisitos de importação, as imagens e os logs do robô."
-          exit 1
-
-      - name: Registrar conteúdo no GitHub
-        id: push_content
-        if: steps.robot.outputs.slugs != ''
+      - name: Registrar artigo no GitHub
         shell: bash
         run: |
           set -euo pipefail
@@ -126,20 +91,15 @@ jobs:
           git add data/articles.json
 
           if git diff --cached --quiet; then
-            echo "::error::O artigo foi identificado, mas data/articles.json não apresenta alterações para registrar."
+            echo "::error::Nenhuma alteração no banco de artigos."
             exit 1
           fi
 
-          git commit -m "Publicação editorial: um artigo"
-
+          git commit -m "Publicar um artigo"
           git pull --rebase --autostash origin main
           git push origin HEAD:main
 
-          echo "content_commit=true" >> "$GITHUB_OUTPUT"
-
       - name: Acionar deploy da Vercel
-        id: vercel_hook
-        if: steps.push_content.outputs.content_commit == 'true'
         env:
           VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
         shell: bash
@@ -155,158 +115,8 @@ jobs:
             --fail \
             --silent \
             --show-error \
-            --max-time 30 \
+            --max-time 20 \
             --request POST \
-            "$VERCEL_DEPLOY_HOOK" \
-            --output /tmp/vercel-hook-response.json
+            "$VERCEL_DEPLOY_HOOK"
 
-          echo "Solicitação de deploy enviada à Vercel."
-
-          if [ -s /tmp/vercel-hook-response.json ]; then
-            cat /tmp/vercel-hook-response.json
-          fi
-
-      - name: Aguardar e verificar artigo publicado
-        id: deploy
-        if: steps.robot.outputs.slugs != ''
-        env:
-          SLUGS: ${{ steps.robot.outputs.slugs }}
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          slug="$(echo "$SLUGS" | cut -d ',' -f 1)"
-          url="https://40mais.blog/${slug}/"
-          confirmado=false
-
-          for tentativa in $(seq 1 36); do
-            codigo="$(
-              curl \
-                --location \
-                --silent \
-                --show-error \
-                --output /tmp/article-page.html \
-                --write-out '%{http_code}' \
-                --max-time 15 \
-                "$url" 2>/dev/null || true
-            )"
-
-            if [ "$codigo" = "200" ] &&
-               grep -Fq "$slug" /tmp/article-page.html; then
-              confirmado=true
-              echo "Artigo confirmado no site: $url"
-              break
-            fi
-
-            echo "Tentativa $tentativa/36: HTTP ${codigo:-sem resposta}; aguardando 10 segundos."
-            sleep 10
-          done
-
-          echo "url_check=$url" >> "$GITHUB_OUTPUT"
-
-          if [ "$confirmado" = true ]; then
-            echo "ok=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "ok=false" >> "$GITHUB_OUTPUT"
-            echo "::error::O deploy do artigo não foi confirmado: $url"
-            exit 1
-          fi
-
-      - name: Reverter artigo para rascunho se o deploy falhar
-        if: failure() && steps.robot.outputs.slugs != ''
-        env:
-          SLUGS: ${{ steps.robot.outputs.slugs }}
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          node --input-type=module <<'NODE'
-          import fs from 'node:fs';
-
-          const file = 'data/articles.json';
-          const db = JSON.parse(fs.readFileSync(file, 'utf8'));
-          const slugs = (process.env.SLUGS || '')
-            .split(',')
-            .filter(Boolean);
-
-          for (const artigo of db.articles || []) {
-            if (!slugs.includes(artigo.slug)) continue;
-
-            artigo.status = 'draft';
-            artigo.estoque = true;
-
-            delete artigo.publishedAt;
-            delete artigo.publicadoDoEstoqueEm;
-
-            console.log(`Artigo devolvido ao estoque: ${artigo.slug}`);
-          }
-
-          db.stats = db.stats || {};
-          db.stats.published = (db.articles || [])
-            .filter(a => a.status === 'published').length;
-
-          fs.writeFileSync(file, JSON.stringify(db, null, 2) + '\n');
-          NODE
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add data/articles.json
-
-          if ! git diff --cached --quiet; then
-            git commit -m "Correção: devolver artigo ao estoque após falha no deploy"
-            git pull --rebase --autostash origin main
-            git push origin HEAD:main
-          fi
-
-      - name: Atualizar calendário editorial
-        if: always()
-        env:
-          ARTIGOS_SLUGS: ${{ steps.robot.outputs.slugs }}
-          DEPLOY_STATUS: ${{ steps.deploy.outputs.ok == 'true' && 'PUBLICADO' || 'FALHA EXECUÇÃO' }}
-          DEPLOY_URL_CHECK: ${{ steps.deploy.outputs.url_check }}
-          GITHUB_RUN_ID: ${{ github.run_id }}
-        shell: bash
-        run: |
-          set -euo pipefail
-          node scripts/atualizar-status-publicacao.js
-
-      - name: Registrar resultado no calendário
-        if: always()
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add \
-            data/articles.json \
-            data/conteudo/calendario-12-meses.csv \
-            data/conteudo/calendario-12-meses.json \
-            data/conteudo/pautas-mestre.csv \
-            data/conteudo/execucoes-publicacao.csv
-
-          if git diff --cached --quiet; then
-            echo "Nenhuma alteração adicional no calendário."
-            exit 0
-          fi
-
-          git commit -m "Calendário editorial: registrar resultado da execução"
-          git pull --rebase --autostash origin main
-          git push origin HEAD:main
-
-      - name: Confirmar resultado final
-        if: always()
-        shell: bash
-        env:
-          DEPLOY_OK: ${{ steps.deploy.outputs.ok }}
-          SLUGS: ${{ steps.robot.outputs.slugs }}
-        run: |
-          if [ "$DEPLOY_OK" = "true" ]; then
-            echo "SUCESSO: artigo publicado e verificado no site."
-            echo "Slug: $SLUGS"
-          else
-            echo "::error::A execução não confirmou a publicação do artigo no site."
-            exit 1
-          fi
+          echo "Solicitação de deploy aceita pela resposta HTTP do hook."
