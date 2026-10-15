@@ -1,0 +1,169 @@
+name: Publicar artigos (manual / cron externo)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-artigos
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout da main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Preparar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Guardar estado anterior
+        run: cp data/articles.json /tmp/articles-before.json
+
+      - name: Publicar até 3 artigos aprovados do estoque
+        id: robot
+        shell: bash
+        run: |
+          set +e
+          SEM_API=1 BATCH_SIZE=3 DAILY_LIMIT=3 node scripts/article-robot.js
+          code=$?
+          echo "robot_exit=$code" >> "$GITHUB_OUTPUT"
+          set -e
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const before = JSON.parse(fs.readFileSync('/tmp/articles-before.json', 'utf8'));
+          const after = JSON.parse(fs.readFileSync('data/articles.json', 'utf8'));
+          const old = new Map((before.articles || []).map(a => [a.slug, a]));
+          const start = Date.now() - 15 * 60 * 1000;
+          const changed = (after.articles || []).filter(a =>
+            a.status === 'published' && a.publishedAt &&
+            Date.parse(a.publishedAt) >= start &&
+            (old.get(a.slug)?.status !== 'published' || old.get(a.slug)?.publishedAt !== a.publishedAt)
+          );
+          const slugs = changed.map(a => a.slug);
+          fs.writeFileSync('/tmp/new-published-slugs.json', JSON.stringify(slugs));
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, 'slugs=' + slugs.join(',') + '\n');
+          console.log('Artigos novos para verificação: ' + (slugs.join(', ') || '(nenhum)'));
+          NODE
+
+      - name: Commit da publicação para iniciar o deploy
+        id: push_content
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/articles.json
+          if git diff --cached --quiet; then
+            echo "content_commit=false" >> "$GITHUB_OUTPUT"
+            echo "Nenhuma alteração no banco de artigos."
+          else
+            git commit -m "Publicação editorial: conteúdo preparado para deploy"
+            git pull --rebase origin main
+            git push origin HEAD:main
+            echo "content_commit=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Aguardar e verificar deploy público
+        id: deploy
+        env:
+          SLUGS: ${{ steps.robot.outputs.slugs }}
+        shell: bash
+        run: |
+          set -e
+          if [ -z "$SLUGS" ]; then
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+            echo "url_check=nenhum artigo novo" >> "$GITHUB_OUTPUT"
+            echo "Nenhum artigo novo; execução será registrada como falha."
+            exit 0
+          fi
+          all_ok=true
+          for slug in $(echo "$SLUGS" | tr ',' ' '); do
+            url="https://40mais.blog/${slug}/"
+            ok=false
+            for attempt in $(seq 1 36); do
+              code=$(curl -L -sS -o /tmp/article-page.html -w '%{http_code}' --max-time 15 "$url" || true)
+              if [ "$code" = "200" ] && grep -Fq "$slug" /tmp/article-page.html; then
+                ok=true
+                echo "Deploy confirmado: $url"
+                break
+              fi
+              echo "Tentativa $attempt/36: $url HTTP ${code:-sem resposta}; aguardando 10s"
+              sleep 10
+            done
+            if [ "$ok" != true ]; then
+              all_ok=false
+              echo "Deploy não confirmado: $url"
+            fi
+          done
+          echo "ok=$all_ok" >> "$GITHUB_OUTPUT"
+          if [ "$all_ok" = true ]; then
+            echo "url_check=HTTP 200 confirmado para todos os artigos" >> "$GITHUB_OUTPUT"
+          else
+            echo "url_check=um ou mais artigos não retornaram HTTP 200" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Reverter estado publicado se o deploy falhou
+        if: steps.deploy.outputs.ok != 'true' && steps.robot.outputs.slugs != ''
+        env:
+          SLUGS: ${{ steps.robot.outputs.slugs }}
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const file = 'data/articles.json';
+          const db = JSON.parse(fs.readFileSync(file, 'utf8'));
+          const slugs = (process.env.SLUGS || '').split(',').filter(Boolean);
+          for (const a of db.articles || []) {
+            if (!slugs.includes(a.slug)) continue;
+            a.status = 'draft';
+            a.estoque = true;
+            delete a.publishedAt;
+            delete a.publicadoDoEstoqueEm;
+            console.log('Revertido para estoque: ' + a.slug);
+          }
+          db.stats = db.stats || {};
+          db.stats.published = (db.articles || []).filter(a => a.status === 'published').length;
+          fs.writeFileSync(file, JSON.stringify(db, null, 2) + '\n');
+          NODE
+
+      - name: Atualizar status do calendário editorial
+        if: always()
+        env:
+          ARTIGOS_SLUGS: ${{ steps.robot.outputs.slugs }}
+          DEPLOY_STATUS: ${{ steps.deploy.outputs.ok == 'true' && 'PUBLICADO' || 'FALHA EXECUÇÃO' }}
+          DEPLOY_URL_CHECK: ${{ steps.deploy.outputs.url_check }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+        run: node scripts/atualizar-status-publicacao.js
+
+      - name: Commit e push do status editorial
+        if: always()
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/articles.json data/conteudo/calendario-12-meses.csv data/conteudo/calendario-12-meses.json data/conteudo/pautas-mestre.csv data/conteudo/execucoes-publicacao.csv
+          if git diff --cached --quiet; then
+            echo "Nada para registrar no calendário."
+            exit 0
+          fi
+          git commit -m "Calendário editorial: registrar resultado da execução"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Falhar a execução se não houve deploy
+        if: steps.deploy.outputs.ok != 'true'
+        run: |
+          echo "::error::FALHA EXECUÇÃO: deploy público não confirmado. O calendário foi atualizado."
+          exit 1
