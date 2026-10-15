@@ -9095,7 +9095,7 @@
         ]
       },
       "volume": 74000,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T19:35:49.306Z",
       "featuredImage": "/images/colesterol-ldl/colesterol-ldl-capa.jpg",
       "imageAlt": "Mulher conversa com médico durante uma consulta de saúde",
@@ -9144,7 +9144,7 @@
         "pexels:4725751"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-04T19:35:50.569Z",
       "scores": {
         "auditoria": 96,
@@ -9260,7 +9260,9 @@
         },
         "validadoEm": "2026-10-04T19:35:50.569Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "publishedAt": "2026-10-15T23:45:26.316Z",
+      "publicadoDoEstoqueEm": "2026-10-15T23:45:26.316Z"
     },
     {
       "id": "art_1791745435032_l4hl",
@@ -38067,6 +38069,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 48
+    "published": 49
   }
 }
