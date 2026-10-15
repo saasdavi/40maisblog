@@ -33,14 +33,6 @@ jobs:
       - name: Guardar estado anterior
         run: cp data/articles.json /tmp/articles-before.json
 
-      - name: Importar artigos aprovados da pasta de entrada
-        env:
-          FOTO_NA_PUBLICACAO: '1'
-          PEXEL_API_KEY: ${{ secrets.PEXEL_API_KEY }}
-          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
-          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-        run: node scripts/importar-artigo.js
-
       - name: Publicar 1 artigo aprovado do estoque por execução
         id: robot
         shell: bash
@@ -71,7 +63,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/articles.json data/entrada
+          git add data/articles.json
           if git diff --cached --quiet; then
             echo "content_commit=false" >> "$GITHUB_OUTPUT"
             echo "Nenhuma alteração no banco de artigos."
@@ -178,7 +170,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/articles.json data/entrada data/conteudo/calendario-12-meses.csv data/conteudo/calendario-12-meses.json data/conteudo/pautas-mestre.csv data/conteudo/execucoes-publicacao.csv
+          git add data/articles.json data/conteudo/calendario-12-meses.csv data/conteudo/calendario-12-meses.json data/conteudo/pautas-mestre.csv data/conteudo/execucoes-publicacao.csv
           if git diff --cached --quiet; then
             echo "Nada para registrar no calendário."
             exit 0
