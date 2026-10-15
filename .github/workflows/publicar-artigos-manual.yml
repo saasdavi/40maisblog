@@ -86,7 +86,7 @@ jobs:
 
       - name: Acionar deploy da Vercel
         id: vercel_hook
-        if: steps.push_content.outputs.content_commit == 'true'
+        if: steps.push_content.outputs.content_commit == 'true' && steps.robot.outputs.slugs != ''
         env:
           VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
         shell: bash
