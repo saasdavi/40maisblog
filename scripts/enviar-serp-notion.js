@@ -9,7 +9,8 @@ const parentPageId = '3fa242e3913c81918cd1d38f9d54ecca';
 const folder = 'data/entrada/pautas-chat_01/resposta';
 
 function slug(value) {
-  return value.normalize('NFKD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase()
+  // Remover marcas Unicode sem faixas ambíguas: preserva todas as letras ASCII.
+  return value.normalize('NFD').replace(/\\p{M}/gu, '').toLowerCase()
     .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
