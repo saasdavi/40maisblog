@@ -1,0 +1,101 @@
+{
+ "palavra": "urticária",
+ "data": "2026-10-15",
+ "fonte": "SerpAPI (Google Brasil)",
+ "concorrentes": [
+  {
+   "posicao": 1,
+   "titulo": "Urticária: O que é, sintomas, tratamentos e causas.",
+   "link": "https://www.rededorsaoluiz.com.br/doencas/urticaria",
+   "trecho": "Urticária é uma irritação na pele que causa coceira intensa e lesões avermelhadas que surgem como vergões na pele, podendo surgir em diferentes pontos do ...",
+   "lida": true,
+   "h2": [
+    "O que é Urticária?",
+    "Quais são os sintomas de urticária?",
+    "Como saber se tenho urticária?",
+    "Qual médico trata a urticária?",
+    "Como é feito o diagnóstico da urticária?",
+    "O que causa urticária?",
+    "Quais fatores aumentam o risco de urticária?",
+    "Quais são os tipos de urticária?",
+    "Quais são os tratamentos para urticária?",
+    "Urticária tem cura?",
+    "Como prevenir a urticária?",
+    "Quais as complicações da urticária?"
+   ],
+   "palavras": 3179
+  },
+  {
+   "posicao": 2,
+   "titulo": "Urticária: Tipos, sintomas, tratamento e os impactos ...",
+   "link": "https://asbai.org.br/urticaria-tipos-sintomas-tratamento-e-os-impactos-emocionais-que-podem-afetar-a-saude-mental/",
+   "trecho": "Os sinais da doença são lesões na pele chamadas urticas, que têm aspecto avermelhado e elevado, coçam muito e se apresentam de forma isolada ou ...",
+   "lida": false,
+   "motivo": "HTTP 404"
+  },
+  {
+   "posicao": 3,
+   "titulo": "Urticária",
+   "link": "https://www.scielo.br/j/abd/a/LmFprfs6mPR8GjWDHrpCrcj/?lang=pt",
+   "trecho": "A urticária é caracterizada pelo rápido aparecimento de urticas, as quais podem ser acompanhadas pelo angioedema. ... O edema da derme superficial é denominado ...",
+   "lida": false,
+   "motivo": "HTTP 403"
+  },
+  {
+   "posicao": 4,
+   "titulo": "Urticária - SBD",
+   "link": "https://www.sbd.org.br/doencas/urticaria/",
+   "trecho": "A urticária é uma irritação cutânea caracterizada por lesões avermelhadas e levemente inchadas, como vergões, que aparecem na pele e coçam muito. Essas lesões ...",
+   "lida": true,
+   "h2": [],
+   "palavras": 870
+  },
+  {
+   "posicao": 5,
+   "titulo": "Urticária: condição provoca irritação na pele e muita coceira",
+   "link": "https://www.einstein.br/n/vida-saudavel/urticaria-condicao-provoca-irritacao-na-pele-e-muita-coceira",
+   "trecho": "A urticária é uma irritação na pele caracterizada por lesões avermelhadas e levemente inchadas, que causam intensa coceira.",
+   "lida": false,
+   "motivo": "robots.txt não permite ou não foi possível ler"
+  }
+ ],
+ "fontes_oficiais": [
+  {
+   "titulo": "Urticária: Tipos, sintomas, tratamento e os impactos ...",
+   "link": "https://asbai.org.br/urticaria-tipos-sintomas-tratamento-e-os-impactos-emocionais-que-podem-afetar-a-saude-mental/",
+   "lida": false,
+   "motivo": "HTTP 404"
+  },
+  {
+   "titulo": "Urticária",
+   "link": "https://www.scielo.br/j/abd/a/LmFprfs6mPR8GjWDHrpCrcj/?lang=pt",
+   "lida": false,
+   "motivo": "HTTP 403"
+  },
+  {
+   "titulo": "Urticária - SBD",
+   "link": "https://www.sbd.org.br/doencas/urticaria/",
+   "lida": true,
+   "h2": [],
+   "palavras": 870
+  }
+ ],
+ "links_internos_sugeridos": [],
+ "perguntas": [
+  "O que leva a pessoa a ter urticária?",
+  "O que é bom para aliviar a urticária?",
+  "Qual a diferença entre alergia e urticária?",
+  "Qual parte do corpo dá urticária?"
+ ],
+ "relacionadas": [
+  "Urticária fotos",
+  "Urticária tratamento",
+  "Urticária causas",
+  "Urticária emocional",
+  "Urticária é contagioso",
+  "Urticária é perigoso",
+  "Urticária sintomas",
+  "Urticária tem cura"
+ ],
+ "ai_overview": true
+}
