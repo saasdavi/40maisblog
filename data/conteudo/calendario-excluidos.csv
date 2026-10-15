@@ -61,8 +61,6 @@
 "dieta cetogênica";"90500";"Alimentação e peso";"pautas-mestre.csv + demanda-validada.json";"fila de espera: depois dos 12 meses"
 "finasterida";"90500";"sem-categoria";"plano-editorial.json";"fila de espera: depois dos 12 meses"
 "insulínica";"90500";"Diabetes e exames";"pautas-mestre.csv + demanda-validada.json";"fila de espera: depois dos 12 meses"
-"cronograma capilar";"90500";"Cabelo";"pautas-mestre.csv + demanda-validada.json + plano-editorial.json";"fila de espera: depois dos 12 meses"
-"proteínas";"90500";"Alimentação e peso";"pautas-mestre.csv + demanda-validada.json";"fila de espera: depois dos 12 meses"
 "termogênicos";"90500";"Saúde geral";"pautas-mestre.csv + demanda-validada.json";"fila de espera: depois dos 12 meses"
 "ácido glicólico";"90500";"Pele";"pautas-mestre.csv + demanda-validada.json + plano-editorial.json";"fila de espera: depois dos 12 meses"
 "botox";"90500";"Saúde geral";"pautas-mestre.csv + demanda-validada.json";"fila de espera: depois dos 12 meses"

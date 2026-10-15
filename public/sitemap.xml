@@ -5,37 +5,37 @@
 
   <url>
     <loc>https://40mais.blog/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://40mais.blog/artigos/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://40mais.blog/sobre</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://40mais.blog/contato</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://40mais.blog/politica-privacidade</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://40mais.blog/termos-uso</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -466,6 +466,17 @@
       <image:loc>https://40mais.blog/images/suor-noturno/suor-noturno-capa.jpg</image:loc>
       <image:title>Suor Noturno: Causas, Quando Preocupar e Como Tratar</image:title>
       <image:caption>Suor noturno excessivo afeta o sono de muitas mulheres. Descubra as causas, sinais de alerta e tratamentos eficazes neste guia prático.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://40mais.blog/nevoa-mental</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://40mais.blog/images/nevoa-mental/nevoa-mental-capa.jpg</image:loc>
+      <image:title>Névoa Mental: Como Recuperar o Foco aos 40+</image:title>
+      <image:caption>Névoa mental afeta memória e concentração. Entenda as causas reais, sintomas e como melhorar o foco no dia a dia.</image:caption>
     </image:image>
   </url>
   <url>
