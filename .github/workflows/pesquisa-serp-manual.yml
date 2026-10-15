@@ -52,13 +52,13 @@ jobs:
           git push origin "HEAD:$GITHUB_REF_NAME"
 
       - name: Enviar pesquisa completa ao Notion
-        if: steps.pesquisar.outcome == 'success'
+        if: steps.pesquisar.outputs.pesquisa != ''
         env:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
-          PALAVRA: ${{ github.event.inputs.palavra_chave }}
+          PALAVRA: ${{ steps.pesquisar.outputs.pesquisa }}
         run: |
           ARQUIVO="data/entrada/pautas-chat_01/resposta/$(node -e "console.log(process.env.PALAVRA.normalize('NFKD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''))").json"
-          if [ -z -f "$ARQUIVO" ]; then
+          if [ ! -f "$ARQUIVO" ]; then
             echo "Arquivo de pesquisa não encontrado; nada para enviar."
             exit 1
           fi
