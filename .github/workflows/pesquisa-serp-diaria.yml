@@ -1,15 +1,24 @@
-name: Pesquisa SerpAPI (diária)
+name: SERP e atualização de pautas
 
-# Disparada pelo cron-job.org às 01:30 (America/Sao_Paulo), via API do GitHub (workflow_dispatch).
-# Pesquisa 1 pauta por execução com status_artigo = "LIVRE PARA SERP" em data/conteudo/pautas-mestre.csv, por maior volume.
-# Ignora pautas que não estão "LIVRE PARA SERP". Confirma JSON recente antes de marcar "PESQUISA CONCLUÍDA".
-# "PESQUISA CONCLUÍDA" significa somente que a SERP está disponível; não significa artigo pronto ou publicado.
-# Falhas preservam "LIVRE PARA SERP".
-# Pula resultados válidos dos últimos 14 dias. Para ao bater 1 busca ou a cota mensal.
-# Grava em data/entrada/pautas-chat_01/resposta/ e atualiza o status no CSV. Não gera artigo nem publica.
+# Workflow único para pesquisa SERP, validação de pautas e comparação SEO.
+# O disparo sem input executa a pesquisa diária padrão, compatível com cron-job.org via workflow_dispatch.
+# Pesquisa SERP consome cota apenas quando uma busca nova é realmente necessária.
+# "PESQUISA CONCLUÍDA" significa que o JSON da SERP foi confirmado; não significa artigo aprovado ou publicado.
 
 on:
   workflow_dispatch:
+    inputs:
+      tarefa:
+        description: "Escolha a tarefa a executar"
+        required: true
+        type: choice
+        default: pesquisa_serp
+        options:
+          - pesquisa_serp
+          - validar_pautas
+          - comparar_topo
+  # O agendamento externo (cron-job.org) continua disparando via API workflow_dispatch.
+  # Não adicionar schedule aqui para evitar execuções duplicadas.
 
 permissions:
   contents: write
@@ -20,6 +29,7 @@ concurrency:
 
 jobs:
   pesquisar:
+    if: ${{ inputs.tarefa == 'pesquisa_serp' || inputs.tarefa == '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -40,7 +50,7 @@ jobs:
       - name: Commit e push
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action Pesquisa SERP"
+          git config --local user.name "GitHub Action SERP"
           git add data/entrada/pautas-chat_01/resposta data/conteudo/pautas-mestre.csv
           if git diff --staged --quiet; then
             echo "Nada novo para gravar"
@@ -56,3 +66,49 @@ jobs:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           PALAVRA: ${{ steps.pesquisar.outputs.pesquisa }}
         run: node scripts/enviar-serp-notion.js
+
+  validar:
+    if: ${{ inputs.tarefa == 'validar_pautas' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validar pautas (regras + fontes online)
+        env:
+          LIMITE: ${{ inputs.limite || '' }}
+        run: node scripts/validar-pautas.js --online ${{ inputs.limite != '' && format('--limite {0}', inputs.limite) || '' }}
+
+  comparar:
+    if: ${{ inputs.tarefa == 'comparar_topo' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Comparar com o topo do Google
+        env:
+          SO: ${{ inputs.so || '' }}
+        run: |
+          if [ -n "$SO" ]; then
+            node scripts/comparar-topo.js --so "$SO"
+          else
+            node scripts/comparar-topo.js
+          fi
+      - name: Gravar resultados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/pesquisa/comparacao-topo.json data/pesquisa/comparacao-topo.md
+          if git diff --cached --quiet; then echo "Nada novo"; exit 0; fi
+          git commit -m "Comparação com o topo do Google atualizada"
+          ok=0
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then ok=1; break; fi
+            sleep 5
+          done
+          [ "$ok" = 1 ] || exit 1
