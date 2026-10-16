@@ -1,5 +1,5 @@
-// Gera a tabela do calendário de artigos: publicados, prontos para publicação futura e que precisam de revisão.
-// Datas = ordem real da fila do robô (3/dia, a partir do próximo dia sem publicação). Saída: data/conteudo/CALENDARIO-ARTIGOS.md e .csv
+// Gera o relatório Markdown do calendário de artigos: publicados, prontos para publicação futura e que precisam de revisão.
+// Datas = ordem real da fila do robô (3/dia, a partir do próximo dia sem publicação). A programação usa calendario-12-meses.json.
 //   node scripts/calendario-artigos.js
 import fs from 'fs';
 import path from 'path';
@@ -61,10 +61,4 @@ L.push('# Calendário de artigos', '', `Gerado por \`scripts/calendario-artigos.
   ...foraFila.map((a) => `| — | em revisão | ${esc(a.title)} (\`/${a.slug}/\`) | ${esc(a.primaryKeyword)} | ${a.scores?.total ?? a.scores?.auditoria ?? '—'} | ${motivo(a) || 'auditoria ' + a.scores?.auditoria + ' (precisa passar de 85)'} |`), '');
 fs.writeFileSync(path.join(raiz, 'data/conteudo/CALENDARIO-ARTIGOS.md'), L.join('\n'));
 
-const csv = [['situacao', 'n_fila', 'data', 'titulo', 'slug', 'palavra_chave', 'nota', 'motivo']];
-for (const a of publicados) csv.push(['publicado', '', dia(new Date(a.publishedAt)), a.title, a.slug, a.primaryKeyword, a.scores?.total ?? '', '']);
-for (const x of prontos) csv.push(['pronto', x.n, x.dia, x.a.title, x.a.slug, x.a.primaryKeyword, x.a.scores.total, '']);
-for (const x of revisar) csv.push(['revisar', x.n, x.dia, x.a.title, x.a.slug, x.a.primaryKeyword, x.a.scores.total, motivo(x.a)]);
-for (const a of foraFila) csv.push(['revisar', '', '', a.title, a.slug, a.primaryKeyword, a.scores?.total ?? '', `auditoria ${a.scores?.auditoria}`]);
-fs.writeFileSync(path.join(raiz, 'data/conteudo/calendario-artigos.csv'), '﻿' + csv.map((r) => r.map((c) => `"${String(c ?? '').replace(/"/g, '""')}"`).join(';')).join('\n') + '\n');
 console.log(`publicados ${publicados.length} | prontos ${prontos.length} | revisar ${revisar.length + foraFila.length} (fora da fila ${foraFila.length}) | último dia da fila ${plano.at(-1)?.dia}`);
