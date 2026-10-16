@@ -19,7 +19,7 @@ export function pontuar({ art, aud, outros = [], revisado = false, imagensPrevis
   const qualidade = aud?.nota ?? 0;
   // 2 demanda
   const d = !dem ? 25 : dem.volume >= 10000 ? 100 : dem.volume >= 1000 ? 80 : 45;
-  // 3 fontes
+  // 3 fontes: registrar a cobertura como indicador informativo; não interfere na nota nem na aprovação.
   const f = fontes.length >= 3 && ofic >= 2 ? 100 : fontes.length >= 3 && ofic >= 1 ? 80 : fontes.length >= 2 && ofic >= 1 ? 65 : fontes.length >= 2 ? 45 : 15;
   // 4 originalidade / canibalização contra o resto do blog
   const meu = toks(`${art.primaryKeyword} ${art.title}`);
@@ -34,7 +34,7 @@ export function pontuar({ art, aud, outros = [], revisado = false, imagensPrevis
   // 6 segurança editorial
   const sensivel = SENS.test(norm(art.primaryKeyword));
   const seg = aud?.bloqueios?.length ? 0 : sensivel && !revisado ? 40 : 100;
-  const total = Math.round(qualidade * 0.35 + d * 0.2 + f * 0.15 + orig * 0.15 + formato * 0.1 + seg * 0.05);
+  const total = Math.round(qualidade * 0.4 + d * 0.2 + orig * 0.15 + formato * 0.15 + seg * 0.1);
   const motivos = [];
   if (aud?.bloqueios?.length) motivos.push(...aud.bloqueios.map((b) => `BLOQUEIO: ${b}`));
   if (!dem) motivos.push('demanda NÃO medida: palavra-chave fora de demanda-validada.json');
@@ -56,7 +56,7 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.a
   const arts = robot.db.articles;
   const linhas = arts.map((a) => { a._substitui = a.slug; const aud = robot.auditar(a, null); delete a._substitui; const p = pontuar({ art: a, aud, outros: arts, revisado: true }); return { a, p }; }).sort((x, y) => y.p.total - x.p.total);
   const cont = {}; for (const { p } of linhas) cont[p.decisao] = (cont[p.decisao] || 0) + 1;
-  let md = `# Pontuação dos artigos (gerado por scripts/pontuacao.js)\n\nNota final = qualidade técnica 35% + demanda 20% + fontes 15% + originalidade 15% + formato 10% + segurança 5%. PUBLICAR ≥ 85 sem bloqueio; SEGURAR 70–84; DEVOLVER < 70 ou bloqueio. Resumo: ${Object.entries(cont).map(([k, v]) => `${k} ${v}`).join(' | ')}\n\n| Nota | Decisão | Artigo | Qualidade | Demanda | Fontes | Origin. | Formato | Principais pontos |\n|---|---|---|---|---|---|---|---|---|\n`;
+  let md = `# Pontuação dos artigos (gerado por scripts/pontuacao.js)\n\nNota final = qualidade técnica 40% + demanda 20% + originalidade 15% + formato 15% + segurança 10%. Fontes são indicador informativo e não alteram a nota nem a aprovação. PUBLICAR ≥ 85 sem bloqueio; SEGURAR 70–84; DEVOLVER < 70 ou bloqueio. Resumo: ${Object.entries(cont).map(([k, v]) => `${k} ${v}`).join(' | ')}\n\n| Nota | Decisão | Artigo | Qualidade | Demanda | Fontes | Origin. | Formato | Principais pontos |\n|---|---|---|---|---|---|---|---|---|\n`;
   for (const { a, p } of linhas) md += `| ${p.total} | ${p.decisao} | ${a.primaryKeyword} (${a.status === 'published' ? 'no ar' : 'estoque'}) | ${p.partes.qualidade} | ${p.partes.demanda} | ${p.partes.fontes} | ${p.partes.originalidade} | ${p.partes.formato} | ${p.motivos.slice(0, 3).join('; ').replace(/\|/g, '/')} |\n`;
   fs.writeFileSync(path.join(path.dirname(fileURLToPath(import.meta.url)), '../data/conteudo/PONTUACAO.md'), md);
   console.log(Object.entries(cont).map(([k, v]) => `${k}: ${v}`).join(' | '));
