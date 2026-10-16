@@ -2,6 +2,7 @@
 // Um artigo vira tema pela palavra-chave e pelo título; sem regra que case, cai em "Saúde geral".
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
+import { carregarArtigosDiretos } from './artigos-diretos';
 
 export interface Tema { slug: string; nome: string; descricao: string }
 interface Regras { temas: Tema[]; regras: { tema: string; padrao: string }[] }
@@ -24,13 +25,25 @@ export interface ArtigoLista {
 
 // Artigos publicados, do mais novo para o mais antigo.
 export function artigosPublicados(): ArtigoLista[] {
+  let antigos: ArtigoLista[] = [];
   try {
     const dadosArt = JSON.parse(readFileSync(resolve('data/articles.json'), 'utf-8'));
-    return dadosArt.articles
-      .filter((a: any) => a.status === 'published' && a.slug && a.featuredImage)
-      .sort((a: any, b: any) => new Date(b.publishedAt || b.createdAt || 0).getTime() - new Date(a.publishedAt || a.createdAt || 0).getTime())
-      .map((a: any) => ({ slug: a.slug, title: a.title, description: a.description, featuredImage: a.featuredImage, imageAlt: a.imageAlt, wordCount: a.wordCount, publishedAt: a.publishedAt, tema: temaDe(`${a.primaryKeyword || ''} ${a.title}`) }));
-  } catch { return []; }
+    antigos = (dadosArt.articles || [])
+      .filter((a: any) => a.status === 'published' && a.slug)
+      .map((a: any) => ({ slug: a.slug, title: a.title, description: a.description, featuredImage: a.featuredImage || '/images/hero-bg.svg', imageAlt: a.imageAlt, wordCount: a.wordCount, publishedAt: a.publishedAt || a.createdAt, tema: temaDe(`${a.primaryKeyword || ''} ${a.title}`) }));
+  } catch {
+    console.warn('Arquivo legado articles.json indisponível; usando artigos da pasta Google.');
+  }
+
+  const diretos: ArtigoLista[] = carregarArtigosDiretos().map((a) => ({
+    slug: a.slug, title: a.title, description: a.description,
+    featuredImage: a.featuredImage || '/images/hero-bg.svg', imageAlt: a.imageAlt,
+    wordCount: a.wordCount, publishedAt: a.publishedAt,
+    tema: temaDe(`${a.primaryKeyword} ${a.title}`)
+  }));
+  const slugsDiretos = new Set(diretos.map((a) => a.slug));
+  return [...diretos, ...antigos.filter((a) => !slugsDiretos.has(a.slug))]
+    .sort((a, b) => new Date(b.publishedAt || 0).getTime() - new Date(a.publishedAt || 0).getTime());
 }
 
 // Temas que já têm pelo menos um artigo publicado (com contagem), para o menu e as páginas de tema.
