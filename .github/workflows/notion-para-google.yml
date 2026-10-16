@@ -38,7 +38,7 @@ jobs:
 
       - name: Baixar artigos do Notion
         env:
-          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_API_KEY: ${{ ntn_f97121447005ni2jADoa2SKofxGCDf0U6RnH3PGsTuX0Z8 }}
           NOTION_PAGE_ID: '3eb32d888f64491c9e20c13e6f6a6b24'
           MAX_ARTIGOS: ${{ github.event.inputs.max_artigos || '10' }}
           FORCAR: ${{ github.event.inputs.forcar || 'não' }}
