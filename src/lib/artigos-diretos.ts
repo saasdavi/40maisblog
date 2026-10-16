@@ -11,9 +11,9 @@ export type ArtigoDireto = {
   imageAlt?: string;
   imageCredit?: { author: string; url: string; source: string };
   wordCount: number;
-  publishedAt: string;
-  createdAt: string;
-  updatedAt: string;
+  publishedAt?: string;
+  createdAt?: string;
+  updatedAt?: string;
   status: 'published';
   origem: 'pasta-google';
   sources: { title: string; url: string }[];
@@ -59,7 +59,7 @@ export function carregarArtigosDiretos(): ArtigoDireto[] {
         const title = valor(header, 'TITLE', keyword);
         const description = valor(header, 'DESCRIPTION', title);
         const wordCount = content.replace(/<[^>]*>/g, ' ').replace(/&[^;]+;/g, ' ').trim().split(/\s+/).filter(Boolean).length;
-        const now = new Date().toISOString();
+        const publishedAt = valor(header, 'DATA_PUBLICACAO', valor(header, 'PUBLICADO_EM')) || undefined;
         const imageId = valor(header, 'CAPA_ID', valor(header, 'CAPA_PEXELS_ID'));
         const featuredImage = /^\d+$/.test(imageId) ? `https://images.pexels.com/photos/${imageId}/pexels-photo-${imageId}.jpeg?auto=compress&cs=tinysrgb&w=1200` : undefined;
 
@@ -67,7 +67,7 @@ export function carregarArtigosDiretos(): ArtigoDireto[] {
           slug, title, description, content, primaryKeyword: keyword,
           ...(featuredImage ? { featuredImage } : {}),
           imageAlt: valor(header, 'CAPA_ALT', title),
-          wordCount, publishedAt: now, createdAt: now, updatedAt: now,
+          wordCount, ...(publishedAt ? { publishedAt, createdAt: publishedAt, updatedAt: publishedAt } : {}),
           status: 'published' as const, origem: 'pasta-google' as const,
           sources, keywords: { primaryKeyword: keyword, secondaryKeywords: [] }
         }];
@@ -76,5 +76,5 @@ export function carregarArtigosDiretos(): ArtigoDireto[] {
         return [];
       }
     })
-    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+    .sort((a, b) => (b.publishedAt || '').localeCompare(a.publishedAt || ''));
 }
