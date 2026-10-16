@@ -10748,7 +10748,7 @@
         ]
       },
       "volume": 74000,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-10T19:46:00.680Z",
       "featuredImage": "/images/atemoia/atemoia-capa.jpg",
       "imageAlt": "Atemoia madura aberta com polpa branca e sementes escuras",
@@ -10797,7 +10797,7 @@
         "pexels:15660955"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:02.580Z",
       "scores": {
         "auditoria": 100,
@@ -10842,7 +10842,9 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:02.580Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "publishedAt": "2026-10-16T00:30:32.316Z",
+      "publicadoDoEstoqueEm": "2026-10-16T00:30:32.316Z"
     },
     {
       "id": "art_1791661562618_2adq",
@@ -38079,6 +38081,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 54
+    "published": 55
   }
 }
