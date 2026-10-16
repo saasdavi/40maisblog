@@ -40,7 +40,7 @@ Uma linha só com `---` depois do cabeçalho.
 - `NOTA_CHAT` ≥ 9 **e** pontuação técnica do importador ≥ 90 → entra direto na fila de publicação.
 - `NOTA_CHAT` ≥ 9 e pontuação < 90 → entra com `segurar: true` (não publica até o dono liberar).
 - A única trava editorial é nota baixa; tema sensível e promessa não travam (promessa vira aviso).
-- Recusado: o arquivo fica aqui com `<nome>.relatorio.md` explicando o motivo. Aceito: vai para `data/entrada/processados/`.
+- Fontes ausentes ou inválidas geram aviso, não recusa. Recusado: o arquivo fica aqui com `<nome>.relatorio.md` explicando o motivo. Aceito: vai para `data/entrada/processados/`.
 - A importação roda sozinha em cada publicação diária (cron 08:00, 12:30 e 18:00).
 
 ## 6. Modelo
