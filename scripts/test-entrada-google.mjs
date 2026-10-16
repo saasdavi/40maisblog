@@ -25,9 +25,10 @@ assert.match(corpo, /<ul><li>Seu exame de rotina/);
 assert.strictEqual((corpo.match(/href="\/[a-z0-9-]+\/"/g) || []).length, 2, '2 links internos');
 assert.ok(!/FASE 3|NOTA FINAL|Este material possui|Protocolo de Endocrinologia de Adultos \|/.test(corpo), 'sem Fase 3, sem aviso e sem a seção Fontes');
 
-// Fonte sem link direto reprova com o motivo
+// Fonte sem link direto gera aviso, mas não bloqueia a importação
 const f = normalizarEntradaGoogle(ler('google-ferritina-fonte-ruim'), opts);
-assert.ok(f.erros.some((e) => /nih\.gov/.test(e)), 'nih.gov reprova');
+assert.deepStrictEqual(f.erros, [], 'fonte ruim não bloqueia');
+assert.ok(f.avisos.some((e) => /nih\\.gov/.test(e)), 'nih.gov gera aviso');
 
 // Página inicial não é fonte; página do dado é
 assert.ok(ehPaginaInicial('https://nih.gov') && ehPaginaInicial('https://www.gov.br/saude'));
