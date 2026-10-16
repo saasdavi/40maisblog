@@ -13,6 +13,7 @@
     "prebuild": "node scripts/generate-sitemap.js"
   },
   "dependencies": {
+    "@astrojs/vercel": "^7.3.0",
     "astro": "^4.5.0",
     "dotenv": "^18.0.5",
     "google-ads-api": "^25.1.0"
