@@ -10428,7 +10428,7 @@
         ]
       },
       "volume": 12100,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-10T19:45:54.182Z",
       "featuredImage": "/images/lanches-saudaveis/lanches-saudaveis-capa.jpg",
       "imageAlt": "Lanche saudável com frutas e castanhas",
@@ -10461,7 +10461,7 @@
         "pexels:39995174"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:45:55.855Z",
       "scores": {
         "auditoria": 94,
@@ -10509,7 +10509,9 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:45:55.855Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "publishedAt": "2026-10-16T00:15:28.151Z",
+      "publicadoDoEstoqueEm": "2026-10-16T00:15:28.151Z"
     },
     {
       "id": "art_1791661557877_27zi",
@@ -38075,6 +38077,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 52
+    "published": 53
   }
 }
