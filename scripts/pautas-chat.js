@@ -1,5 +1,5 @@
 // Pautas para os ChatGPT (redação fora do robô): divide os temas que ainda faltam entre N agentes, sem repetir tema.
-// Uso: node scripts/pautas-chat.js   (AGENTES=4 por padrão)  → uma pasta por agente: data/entrada/pautas-chat_01/ ... pautas-chat_04/ (PAUTAS.md, PAUTAS.csv, LEIA-ME.md)
+// Uso: node scripts/pautas-chat.js   (AGENTES=4 por padrão)  → uma pasta por agente: data/entrada/pautas-chat_01/ ... pautas-chat_04/ (PAUTAS.md, LEIA-ME.md)
 // Fonte única: data/conteudo/pautas-mestre.csv. Só lista pautas cuja SERP foi concluída.
 // Fora da lista: tema que já é artigo (publicado ou estoque), que está na fila do robô, ou cujo arquivo já foi entregue em data/entrada/.
 import fs from 'fs';
