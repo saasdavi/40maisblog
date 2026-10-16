@@ -11284,7 +11284,7 @@
         ]
       },
       "volume": 165000,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-10T19:46:06.774Z",
       "featuredImage": "/images/ashwagandha/ashwagandha-capa.jpg",
       "imageAlt": "Mulher madura segurando suplemento de ashwagandha em casa",
@@ -11333,7 +11333,7 @@
         "pexels:4046998"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:08.671Z",
       "scores": {
         "auditoria": 92,
@@ -11381,7 +11381,9 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:08.671Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "publishedAt": "2026-10-16T00:45:24.400Z",
+      "publicadoDoEstoqueEm": "2026-10-16T00:45:24.400Z"
     },
     {
       "id": "art_1791661568681_v6sy",
@@ -38083,6 +38085,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 56
+    "published": 57
   }
 }
