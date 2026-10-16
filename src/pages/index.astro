@@ -3,18 +3,21 @@ import { SITE } from '../config/site';
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
 import { artigosPublicados, temasComArtigos } from '../lib/temas';
+import { carregarArtigosDiretos } from '../lib/artigos-diretos';
 
-let articles = [];
+let legacyArticles = [];
 try {
   const articlesPath = resolve('data/articles.json');
   const articlesData = JSON.parse(readFileSync(articlesPath, 'utf-8'));
-  articles = articlesData.articles
+  legacyArticles = (articlesData.articles || [])
     .filter((a: any) => a.status === 'published' && a.featuredImage && (a.validador === 'APROVADO' || a.origem === 'importado'))
-    .sort((a: any, b: any) => new Date(b.publishedAt || b.createdAt || 0).getTime() - new Date(a.publishedAt || a.createdAt || 0).getTime())
-    .slice(0, 6);
+    .sort((a: any, b: any) => new Date(b.publishedAt || b.createdAt || 0).getTime() - new Date(a.publishedAt || a.createdAt || 0).getTime());
 } catch (e) {
-  console.warn('Could not read articles.json');
+  console.warn('Arquivo legado articles.json indisponível; exibindo artigos da pasta Google.');
 }
+const diretos = carregarArtigosDiretos();
+const diretosSlugs = new Set(diretos.map((a) => a.slug));
+const articles = [...diretos, ...legacyArticles.filter((a: any) => !diretosSlugs.has(a.slug))].slice(0, 6);
 const todosPublicados = artigosPublicados();
 const temasMenu = temasComArtigos(todosPublicados);
 // Data de publicação em dd/mm/aaaa (horário de Brasília)
@@ -525,7 +528,7 @@ const formatarData = (iso: string | undefined) =>
         <section class="featured-section">
           {articles[0] && (
             <div class="featured-article">
-              <img src={articles[0].featuredImage} alt={articles[0].imageAlt || articles[0].title} />
+              <img src={articles[0].featuredImage || '/images/hero-bg.svg'} alt={articles[0].imageAlt || articles[0].title} />
               <div class="featured-article-content">
                 <h2>{articles[0].title}</h2>
                 <p>{articles[0].description}</p>
@@ -545,7 +548,7 @@ const formatarData = (iso: string | undefined) =>
               <a href={`/${article.slug || 'artigo'}/`} class="card-link">
                 <div class="article-card">
                   <div class="article-card-image">
-                    <img loading="lazy" src={article.featuredImage} alt={article.imageAlt || article.title} />
+                    <img loading="lazy" src={article.featuredImage || '/images/hero-bg.svg'} alt={article.imageAlt || article.title} />
                   </div>
                   <div class="article-card-content">
                     <h3>{article.title}</h3>
