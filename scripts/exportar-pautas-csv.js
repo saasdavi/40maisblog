@@ -68,7 +68,6 @@ linhas.forEach((l) => {
 });
 fs.mkdirSync(path.join(raiz, 'data/conteudo'), { recursive: true });
 const out = '﻿' + [cab.join(';'), ...linhas.map((r) => r.map(q).join(';'))].join('\r\n') + '\r\n';
-fs.writeFileSync(path.join(raiz, 'data/conteudo/pautas-prontas-55.csv'), '\uFEFF' + [cab.join(';'), ...linhas.filter((l) => l[0].startsWith('1')).map((r) => r.map(q).join(';'))].join('\r\n') + '\r\n');
 const sem55 = '\uFEFF' + [cab.join(';'), ...linhas.filter((l) => !l[0].startsWith('1')).map((r) => r.map(q).join(';'))].join('\r\n') + '\r\n';
 fs.writeFileSync(path.join(raiz, 'data/conteudo/pautas-mestre.csv'), sem55);
 const c = (g) => linhas.filter((l) => l[0].startsWith(g)).length;
