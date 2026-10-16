@@ -49,7 +49,7 @@ export function carregarArtigosDiretos(): ArtigoDireto[] {
           if (!match) continue;
           if (match[1] === 'FONTE') {
             const parts = match[2].split('|').map((part) => part.trim()).filter(Boolean);
-            const url = parts.at(-1) || '';
+            const url = parts.length ? parts[parts.length - 1] : '';
             if (/^https?:\/\//i.test(url)) sources.push({ title: parts.slice(0, -1).join(' — ') || url, url });
           } else header.set(match[1], match[2]);
         }
