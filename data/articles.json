@@ -11843,7 +11843,7 @@
         ]
       },
       "volume": 60500,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-10T19:46:11.953Z",
       "featuredImage": "/images/celulite/celulite-capa.jpg",
       "imageAlt": "Mulher caminhando ao ar livre em um dia de exercício, vista das pernas",
@@ -11892,7 +11892,7 @@
         "pexels:3985305"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:14.925Z",
       "scores": {
         "auditoria": 100,
@@ -11944,7 +11944,9 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:14.925Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "publishedAt": "2026-10-16T01:00:59.403Z",
+      "publicadoDoEstoqueEm": "2026-10-16T01:00:59.403Z"
     },
     {
       "id": "art_1791661577344_aupe",
@@ -38089,6 +38091,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 59
+    "published": 60
   }
 }
