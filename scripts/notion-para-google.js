@@ -1,4 +1,3 @@
-// scripts/notion-para-google.js
 const { Client } = require('@notionhq/client');
 const fs = require('fs');
 const path = require('path');
@@ -14,7 +13,7 @@ async function main() {
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   }
 
-  console.log(`🔍 Buscando até ${MAX_ARTIGOS} artigo(s)...`);
+  console.log(`Buscando ate ${MAX_ARTIGOS} artigo(s)...`);
 
   let response;
   try {
@@ -23,7 +22,7 @@ async function main() {
       page_size: MAX_ARTIGOS,
     });
   } catch (e) {
-    console.error("Erro ao ler blocos. Verifique se o ID é de uma PÁGINA.");
+    console.error("Erro ao ler blocos. Verifique se o ID e de uma PAGINA.");
     throw e;
   }
 
@@ -32,11 +31,11 @@ async function main() {
     if (block.type !== 'child_page') continue;
 
     const pageTitle = block.child_page.title;
-    const safeName = pageTitle.replace(/[^a-z0-9áàâãéèêíïóôõöúçñ\s]/gi, '_').toLowerCase();
+    const safeName = pageTitle.replace(/[^a-z0-9]/gi, '_').toLowerCase();
     const filePath = path.join(OUTPUT_DIR, `${safeName}.txt`);
 
     if (fs.existsSync(filePath) && !FORCAR) {
-      console.log(`⏭️  Pulando "${pageTitle}" (já existe)`);
+      console.log(`Pulando "${pageTitle}" (ja existe)`);
       continue;
     }
 
@@ -53,14 +52,14 @@ async function main() {
 
     if (textContent.trim()) {
         fs.writeFileSync(filePath, textContent.trim(), 'utf-8');
-        console.log(`✅ Salvo: ${filePath}`);
+        console.log(`Salvo: ${filePath}`);
         baixados++;
     }
   }
-  console.log(`🏁 Conclusão: ${baixados} artigo(s) processado(s).`);
+  console.log(`Conclusao: ${baixados} artigo(s) processado(s).`);
 }
 
 main().catch(err => {
-  console.error('❌ Erro fatal:', err.message);
+  console.error('Erro fatal:', err.message);
   process.exit(1);
 });
