@@ -11,7 +11,7 @@ O dono do blog, do domínio e responsável pelo conteúdo decide o que bloquear.
    - `NOTA_CHAT` ≥ 9 **e** pontuação técnica ≥ 90 → entra direto na fila de publicação.
    - `NOTA_CHAT` ≥ 9 **e** pontuação técnica < 90 (divergência) → entra no estoque com `segurar: true` e `segurarMotivo` (as duas notas e os motivos). **Não publica** até o dono liberar (`segurar: false`).
    - Sem `NOTA_CHAT` ou abaixo de 9 → regra antiga: auditoria ≥ 85 e pontuação ≥ 70 para entrar no estoque; fica fora da fila enquanto a pontuação for < 90.
-5. **Recusas técnicas** (não são decisão editorial e não foram ampliadas): formato que quebra a página (`<h1>`, componentes), fonte sem link completo, cabeçalho incompleto e tema duplicado (≥ 80% parecido com outro artigo).
+5. **Recusas técnicas**: formato que quebra a página (`<h1>`, componentes), cabeçalho obrigatório incompleto e tema duplicado (≥ 80% parecido com outro artigo). **Fontes não bloqueiam importação nem aprovação editorial**: URL ausente, inválida ou página inicial gera aviso; fontes válidas continuam registradas e a pontuação de cobertura pode refletir a disponibilidade delas. Nunca inventar nem fabricar URLs.
 6. `segurar: true`, posto à mão pelo dono, segura qualquer artigo. Só o robô publica do estoque (`publicarDoEstoque`), e ele pula todo artigo com `segurar: true`.
 
 ## Pontuação técnica do importador (`scripts/pontuacao.js`)
