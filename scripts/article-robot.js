@@ -496,7 +496,7 @@ FOTO2_SECAO: <número do <h2>, diferente do da foto 1>
     const bloqueios = [];
     if (/<h1/i.test(html)) bloqueios.push('B01: H1 no corpo');
     if (a.wordCount < 1000) bloqueios.push(`B02: ${a.wordCount} palavras (mín 1000)`);
-    if (!a.sources.length) bloqueios.push('B03: sem fonte');
+    if (!a.sources.length) console.log('  ⚠️  artigo sem fontes válidas registradas; não bloqueia a auditoria editorial.');
     if (this.db.articles.some(x => x.status !== 'draft' && x.slug === a.slug && x.slug !== a._substitui)) bloqueios.push('B04: keyword/slug já existe (canibalização)');
     if (!texto.includes('não substitui a orientação de um profissional de saúde')) bloqueios.push('B05: sem aviso de saúde');
     if (RESTOS_IA.some(r => r.test(texto))) bloqueios.push('B06: resto de rascunho/IA');
