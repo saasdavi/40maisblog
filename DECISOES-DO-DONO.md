@@ -20,12 +20,12 @@ O dono do blog, do domínio e responsável pelo conteúdo decide o que bloquear.
 
 | Parte | Peso | O que mede |
 |---|---|---|
-| Qualidade técnica | 35% | Nota da auditoria em código (`auditar` em `scripts/article-robot.js`): tamanho, parágrafos ≤ 50 palavras, palavra-chave no título/descrição/1º parágrafo/H2, densidade da palavra-chave, seções "Quando procurar um médico" e "Resumindo", alt das imagens, links internos. |
+| Qualidade técnica | 40% | Nota da auditoria em código (`auditar` em `scripts/article-robot.js`): tamanho, parágrafos ≤ 50 palavras, palavra-chave no título/descrição/1º parágrafo/H2, densidade da palavra-chave, seções "Quando procurar um médico" e "Resumindo", alt das imagens, links internos. |
 | Demanda | 20% | Buscas/mês da palavra-chave em `data/pesquisa/demanda-validada.json`: 10.000+ = 100; 1.000+ = 80; menos = 45; não medida = 25. |
-| Fontes | 15% | 3+ fontes com 2+ oficiais = 100; 3 com 1 oficial = 80; 2 com 1 oficial = 65; 2 sem oficial = 45; menos = 15. |
+| Fontes | 0% (informativo) | Quantidade e presença de fontes oficiais aparecem como indicador; não alteram a nota final nem bloqueiam a aprovação. |
 | Originalidade | 15% | Semelhança de título/palavra-chave com outros artigos do blog: ≥ 80% = 0 (duplicata); ≥ 65% = 40; ≥ 50% = 70; menos = 100. |
-| Formato | 10% | Palavras (1.500+ = 60; 1.200+ = 50; 1.000+ = 30), imagens (3 = 20; 2 = 10; foto buscada na publicação conta como 3) e links internos (2+ = 20; 1 = 10). |
-| Segurança | 5% | No importador, tema sensível e promessa não descontam (regra 1). |
+| Formato | 15% | Palavras (1.500+ = 60; 1.200+ = 50; 1.000+ = 30), imagens (3 = 20; 2 = 10; foto buscada na publicação conta como 3) e links internos (2+ = 20; 1 = 10). |
+| Segurança | 10% | No importador, tema sensível e promessa não descontam (regra 1). |
 
 ## Testes que guardam estas regras
 - `node scripts/test-decisao-importacao.mjs`: aprovação automática, divergência de notas, `NOTA_CHAT` < 9, falha técnica, duplicata, promessa só como aviso e bloqueio de publicação de artigo segurado.
