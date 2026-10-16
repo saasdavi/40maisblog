@@ -28,7 +28,7 @@ assert.ok(!/FASE 3|NOTA FINAL|Este material possui|Protocolo de Endocrinologia d
 // Fonte sem link direto gera aviso, mas não bloqueia a importação
 const f = normalizarEntradaGoogle(ler('google-ferritina-fonte-ruim'), opts);
 assert.deepStrictEqual(f.erros, [], 'fonte ruim não bloqueia');
-assert.ok(f.avisos.some((e) => /nih\\.gov/.test(e)), 'nih.gov gera aviso');
+assert.ok(f.avisos.some((e) => /nih\.gov/.test(e)), 'nih.gov gera aviso');
 
 // Página inicial não é fonte; página do dado é
 assert.ok(ehPaginaInicial('https://nih.gov') && ehPaginaInicial('https://www.gov.br/saude'));
