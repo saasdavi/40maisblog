@@ -16,7 +16,7 @@ Quem escreve fora do robô entrega aqui. As regras abaixo saem do código (`scri
 | `FOTO1_ALT:` / `FOTO1_ID:` | segunda foto (alt obrigatório para ela entrar) | idem |
 | `FOTO2_ALT:` / `FOTO2_ID:` | terceira foto | idem |
 | `FOTO1_SECAO:` / `FOTO2_SECAO:` | opcional: número do `<h2>` em que a foto entra | padrão 2 e 4 |
-| `FONTE: Título \| https://link-completo-da-página` | **3 linhas**, links que você abriu de verdade, página do dado (não a página inicial); 2 oficiais é o ideal | link incompleto ou página inicial = recusa; menos de 2 = recusa |
+| `FONTE: Título \\| https://link-completo-da-página` | **3 linhas recomendadas**, links específicos que você abriu de verdade; 2 oficiais é o ideal | fonte ausente, incompleta ou página inicial gera aviso e não bloqueia a importação; nunca invente links |
 | `NOTA_CHAT: X,X` | sua avaliação real, 0 a 10; só entregue com **9,0 ou mais** | ver item 5 |
 
 Campos ignorados (sem erro): `CAPA_URL`, `CAPA_CREDITO`, `CAPA_DOWNLOAD` e os equivalentes de `FOTO*` (o crédito vem do Pexels).
