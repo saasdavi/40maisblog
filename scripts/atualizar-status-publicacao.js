@@ -25,56 +25,36 @@ function parseCsvLine(line) {
 function encodeCsv(rows) {
   return rows.map(row => row.map(v => '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"').join(';')).join('\n') + '\n';
 }
-function updateCsv(file, keyHeader, statusHeader, targetKeywords) {
-  if (!fs.existsSync(file)) return 0;
+function updateMaster(targetKeywords) {
+  const file = path.join(root, 'data/conteudo/pautas-mestre.csv');
   const raw = fs.readFileSync(file, 'utf8').replace(/^\uFEFF/, '');
   const lines = raw.split(/\r?\n/).filter((line, i, arr) => line.length || i < arr.length - 1);
-  if (!lines.length) return 0;
   const rows = lines.map(parseCsvLine);
   const header = rows[0];
-  const ki = header.indexOf(keyHeader), si = header.indexOf(statusHeader);
-  if (ki < 0 || si < 0) { console.warn('Cabeçalhos ' + keyHeader + '/' + statusHeader + ' ausentes em ' + file); return 0; }
+  const keyI = header.indexOf('palavra_chave');
+  if (keyI < 0) throw new Error('pautas-mestre.csv sem coluna palavra_chave');
+  let statusI = header.indexOf('status_publicacao');
+  if (statusI < 0) { statusI = header.length; header.push('status_publicacao'); rows[0] = header; for (let i = 1; i < rows.length; i++) rows[i].push(''); }
   let changed = 0;
   for (let i = 1; i < rows.length; i++) {
-    if (targetKeywords.some(k => norm(k) === norm(rows[i][ki]))) {
-      rows[i][si] = status;
-      lines[i] = rows[i].map(v => '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"').join(';');
-      changed++;
-    }
+    if (targetKeywords.some(k => norm(k) === norm(rows[i][keyI]))) { rows[i][statusI] = status; changed++; }
   }
-  fs.writeFileSync(file, '\uFEFF' + lines.join('\n') + '\n');
-  console.log(file + ': ' + changed + ' linha(s) atualizada(s) para ' + status);
+  fs.writeFileSync(file, '\uFEFF' + encodeCsv(rows));
+  console.log(file + ': ' + changed + ' linha(s) atualizada(s) para status_publicacao=' + status);
   return changed;
 }
 
 let targetKeywords = [...keywords];
 if (!targetKeywords.length) {
-  const file = path.join(root, 'data/conteudo/calendario-12-meses.csv');
-  if (fs.existsSync(file)) {
-    const rows = fs.readFileSync(file, 'utf8').replace(/^\uFEFF/, '').split(/\r?\n/).filter(Boolean).map(parseCsvLine);
-    const h = rows[0] || [];
-    const dateI = h.indexOf('data'), keyI = h.indexOf('palavra_chave'), situationI = h.indexOf('situacao');
-    const today = new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10);
-    const pending = rows.slice(1).filter(r => r[keyI] && !['PUBLICADO', 'FALHA EXECUÇÃO'].includes(String(r[situationI] || '').toUpperCase()));
-    const chosen = pending.find(r => r[dateI] === today) || pending[0];
-    if (chosen) targetKeywords = [chosen[keyI]];
-  }
+  const file = path.join(root, 'data/conteudo/pautas-mestre.csv');
+  const rows = fs.readFileSync(file, 'utf8').replace(/^\uFEFF/, '').split(/\r?\n/).filter(Boolean).map(parseCsvLine);
+  const h = rows[0] || [], keyI = h.indexOf('palavra_chave'), pubI = h.indexOf('status_publicacao');
+  const pending = rows.slice(1).filter(r => r[keyI] && (pubI < 0 || !['PUBLICADO', 'FALHA EXECUÇÃO'].includes(String(r[pubI] || '').toUpperCase())));
+  if (pending[0]) targetKeywords = [pending[0][keyI]];
 }
 if (!targetKeywords.length) targetKeywords = ['execução sem pauta selecionada'];
 
-updateCsv(path.join(root, 'data/conteudo/calendario-12-meses.csv'), 'palavra_chave', 'situacao', targetKeywords);
-updateCsv(path.join(root, 'data/conteudo/pautas-mestre.csv'), 'palavra_chave', 'status_artigo', targetKeywords);
-
-const jsonPath = path.join(root, 'data/conteudo/calendario-12-meses.json');
-if (fs.existsSync(jsonPath)) {
-  const cal = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
-  let count = 0;
-  for (const slot of cal.slots || []) {
-    if (targetKeywords.some(k => norm(k) === norm(slot.palavra))) { slot.situacao = status; count++; }
-  }
-  fs.writeFileSync(jsonPath, JSON.stringify(cal, null, 2) + '\n');
-  console.log(jsonPath + ': ' + count + ' vaga(s) atualizada(s)');
-}
+updateMaster(targetKeywords);
 
 const logPath = path.join(root, 'data/conteudo/execucoes-publicacao.csv');
 const first = !fs.existsSync(logPath);
