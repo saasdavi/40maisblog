@@ -1,14 +1,10 @@
 name: Importar artigos do Notion para data/entrada/google
 
-# Workflow MANUAL: clica em "Run workflow" e ele vai na página do Notion,
-# baixa 1 artigo pronto e salva como .txt em data/entrada/google/.
-# Depois o workflow "Publicação de artigos (manual)" publica 3/dia no blog.
-
 on:
   workflow_dispatch:
     inputs:
       forcar:
-        description: 'Rebaixar artigos que já existem na pasta? (sim/não)'
+        description: 'Rebaixar artigos que já existem? (sim/não)'
         required: false
         default: 'não'
 
@@ -32,7 +28,10 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Baixar artigos do Notion
+      - name: Instalar dependências
+        run: npm install @notionhq/client
+
+      - name: Baixar o próximo artigo do Notion
         env:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           NOTION_PAGE_ID: '3eb32d888f64491c9e20c13e6f6a6b24'
@@ -49,6 +48,6 @@ jobs:
             echo "Nenhum artigo novo baixado do Notion."
             exit 0
           fi
-          git commit -m "📥 Notion → data/entrada/google: $(date -u +%Y-%m-%d_%H:%M)"
+          git commit -m " Notion → google: $(date -u +%Y-%m-%d_%H:%M)"
           git pull --rebase -q origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
