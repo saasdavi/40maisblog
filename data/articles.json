@@ -10042,7 +10042,7 @@
         ]
       },
       "volume": 18100,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T22:13:03.245Z",
       "featuredImage": "/images/prostata-aumentada/prostata-aumentada-capa.jpg",
       "imageAlt": "Profissional de saúde examina um paciente em ambiente clínico",
@@ -10091,7 +10091,7 @@
         "pexels:7578797"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-04T22:13:03.890Z",
       "scores": {
         "auditoria": 92,
@@ -10183,7 +10183,9 @@
         },
         "validadoEm": "2026-10-04T22:13:03.890Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "publishedAt": "2026-10-16T00:00:58.520Z",
+      "publicadoDoEstoqueEm": "2026-10-16T00:00:58.520Z"
     },
     {
       "id": "art_1791152640812_6y7z",
@@ -38073,6 +38075,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 51
+    "published": 52
   }
 }
