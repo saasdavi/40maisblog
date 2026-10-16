@@ -34,7 +34,7 @@ jobs:
 
       - name: Baixar o proximo artigo do Notion
         env:
-          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_API_KEY: ${{ ntn_n971214470032IKy2NN5R77Wtrsx4vmgxyEKiEgOwAb9jr }}
           NOTION_PAGE_ID: '3eb32d888f64491c9e20c13e6f6a6b24'
           MAX_ARTIGOS: ${{ github.event.inputs.max_artigos || '1' }}
         run: node scripts/notion-para-google.js
