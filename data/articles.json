@@ -11111,7 +11111,7 @@
         ]
       },
       "volume": 74000,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-10T19:46:04.242Z",
       "featuredImage": "/images/goiaba/goiaba-capa.jpg",
       "imageAlt": "Duas goiabas maduras sobre uma superfície de madeira com luz natural",
@@ -11160,7 +11160,7 @@
         "pexels:34344554"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:39.578Z",
       "scores": {
         "auditoria": 100,
@@ -11236,7 +11236,9 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:39.578Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "publishedAt": "2026-10-16T00:31:02.203Z",
+      "publicadoDoEstoqueEm": "2026-10-16T00:31:02.203Z"
     },
     {
       "id": "art_1791661566774_gk1h",
@@ -38081,6 +38083,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 55
+    "published": 56
   }
 }
