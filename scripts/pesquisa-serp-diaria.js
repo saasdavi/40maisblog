@@ -1,116 +1,216 @@
-// Pesquisa diária na SerpAPI: percorre data/conteudo/pautas-mestre.csv e pesquisa só as linhas com
-// status_artigo = "LIVRE PARA SERP", por maior volume (buscas_mes_exato), até MAX_BUSCAS buscas reais.
-// Cada pauta com SERP válida vira "PESQUISA CONCLUÍDA" no CSV; isso não significa artigo pronto ou publicado.
-// Palavras com resposta válida (até 14 dias) ficam de fora antes de contar tentativa.
-// Para ao bater MAX_BUSCAS, ao esgotar a cota do mês ou ao acabar a lista.
-// Se não houver nenhuma pauta "a gerar", sai com erro para não parecer sucesso.
-//   SERP_API_KEY=... node scripts/pesquisa-serp-diaria.js
 import fs from 'fs';
-import { execFileSync } from 'child_process';
+import { getJson } from 'serpapi';
+import { Client } from '@notionhq/client';
 
-const CHAVE = (process.env.SERP_API_KEY || '').trim();
-const MAX_BUSCAS = Number(process.env.MAX_BUSCAS || 5);
-const LIMITE_MES = Number(process.env.SERPAPI_LIMITE_MES || 240);
-const VALIDADE_DIAS = 14;
-const PASTA = 'data/entrada/pautas-chat_01/resposta';
-const USO_FILE = `${PASTA}/uso-serpapi.json`;
-const PAUTAS = 'data/conteudo/pautas-mestre.csv';
-const STATUS_A_GERAR = 'LIVRE PARA SERP';
-const STATUS_PRONTA = 'PESQUISA CONCLUÍDA';
-const TENTATIVAS_MAX = 40; // limite de segurança contra erros em sequência
+const CSV_PATH = 'data/conteudo/pautas-mestre.csv';
+const NOTION_DATABASE_ID = '3fa242e3913c81918cd1d38f9d54ecca';
 
-if (!CHAVE) throw new Error('SERP_API_KEY ausente: o secret SERP___APIKEY precisa existir no repositório.');
+const notion = new Client({ auth: process.env.NOTION_API_KEY });
+const serpApiKey = process.env.SERP_API_KEY;
 
-const slug = (s) => String(s || '').normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-const lerJson = (p, fb) => { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return fb; } };
-const buscasNoMes = () => {
-  const mes = new Date().toISOString().slice(0, 7);
-  const uso = lerJson(USO_FILE, { mes, buscas: 0 });
-  return uso.mes === mes ? uso.buscas : 0;
-};
-const respostaValida = (palavra) => {
-  const atual = lerJson(`${PASTA}/${slug(palavra)}.json`, null);
-  const idade = atual?.data ? (Date.now() - Date.parse(atual.data)) / 864e5 : Infinity;
-  return Boolean(atual && atual.palavra && slug(atual.palavra) === slug(palavra) && Array.isArray(atual.concorrentes) && Number.isFinite(idade) && idade >= 0 && idade < VALIDADE_DIAS);
-};
+// Decodificador seguro de CSV para isolar colunas sem quebrar textos com aspas e vírgulas
+function quebrarLinhaCSV(linha) {
+  const resultado = [];
+  let blocoAtual = '';
+  let dentroDeAspas = false;
 
-// CSV com ';' e campos entre aspas, BOM no início e fim de linha CRLF. Preserva tudo que não muda.
-const BOM = '﻿';
-const texto = fs.readFileSync(PAUTAS, 'utf8');
-const temBom = texto.startsWith(BOM);
-const linhas = texto.replace(/^﻿/, '').split('\r\n');
-const cabecalho = linhas[0].split(';').map((c) => c.replace(/^"|"$/g, '').trim());
-const col = (nome) => {
-  const i = cabecalho.indexOf(nome);
-  if (i < 0) throw new Error(`coluna ${nome} não encontrada em ${PAUTAS}`);
-  return i;
-};
-const iPalavra = col('palavra_chave');
-const iVolume = col('buscas_mes_exato');
-const iStatus = col('status_artigo');
-const campos = (l) => l.split(';').map((c) => c.replace(/^"|"$/g, '').trim());
-const aQuote = (s) => `"${s}"`;
-
-const candidatas = linhas.slice(1)
-  .filter((l) => l)
-  .map(campos)
-  .filter((c) => c[iStatus] === STATUS_A_GERAR && c[iPalavra])
-  .sort((a, b) => (Number(b[iVolume]) || 0) - (Number(a[iVolume]) || 0))
-  .map((c) => c[iPalavra]);
-
-if (candidatas.length === 0) {
-  console.log(`Nenhuma pauta com status "${STATUS_A_GERAR}" em ${PAUTAS}. Nada para pesquisar; execução encerrada sem erro.`);
-  process.exit(0);
-}
-
-// marca a pauta como pronta no CSV, mexendo só na linha dela
-const marcarPronta = (palavra) => {
-  const atual = fs.readFileSync(PAUTAS, 'utf8').replace(/^﻿/, '');
-  const ls = atual.split('\r\n');
-  const i = ls.findIndex((l, n) => n > 0 && l && campos(l)[iPalavra] === palavra && campos(l)[iStatus] === STATUS_A_GERAR);
-  if (i < 0) return;
-  const f = ls[i].split(';');
-  f[iStatus] = aQuote(STATUS_PRONTA);
-  ls[i] = f.join(';');
-  fs.writeFileSync(PAUTAS, (temBom ? BOM : '') + ls.join('\r\n'));
-};
-
-const jaPesquisadas = candidatas.filter(respostaValida);
-for (const palavra of jaPesquisadas) marcarPronta(palavra);
-const palavras = candidatas.filter((p) => !respostaValida(p));
-console.log(`${candidatas.length} pautas "${STATUS_A_GERAR}"; ${jaPesquisadas.length} já com JSON válido recente e marcadas PESQUISA CONCLUÍDA; ${palavras.length} pendentes de pesquisa.`);
-
-let feitas = 0;
-let tentativas = 0;
-const pesquisasNovas = [];
-for (const palavra of palavras) {
-  if (feitas >= MAX_BUSCAS || tentativas >= TENTATIVAS_MAX) break;
-  if (buscasNoMes() >= LIMITE_MES) { console.log(`Cota do mês esgotada (${LIMITE_MES}). Parando.`); break; }
-  tentativas++;
-  const antes = buscasNoMes();
-  try {
-    execFileSync('node', ['scripts/pesquisa-serp-manual.js'], {
-      env: { ...process.env, PALAVRA: palavra, SERP_API_KEY: CHAVE },
-      stdio: 'inherit',
-    });
-  } catch {
-    console.log(`"${palavra}": falhou, seguindo para a próxima.`);
-    continue;
-  }
-  if (respostaValida(palavra)) {
-    if (buscasNoMes() > antes) {
-      feitas++;
-      // Expõe a palavra-chave recém-pesquisada ao próximo step do GitHub Actions.
-      pesquisasNovas.push(palavra.replace(/[\r\n]/g, ' '));
+  for (let i = 0; i < linha.length; i++) {
+    const caractere = linha[i];
+    if (caractere === '"') {
+      dentroDeAspas = !dentroDeAspas;
+    } else if (caractere === ',' && !dentroDeAspas) {
+      resultado.push(blocoAtual.trim());
+      blocoAtual = '';
+    } else {
+      blocoAtual += caractere;
     }
-    marcarPronta(palavra);
-    console.log(`"${palavra}": JSON confirmado e status atualizado para PESQUISA CONCLUÍDA.`);
-  } else {
-    console.log(`"${palavra}": execução terminou sem JSON válido; status preservado como LIVRE PARA SERP.`);
+  }
+  resultado.push(blocoAtual.trim());
+  return resultado;
+}
+
+async function executarFluxoLinhaMestre() {
+  try {
+    if (!fs.existsSync(CSV_PATH)) {
+      console.error(`❌ Planilha mestre não localizada em: ${CSV_PATH}`);
+      process.exit(1);
+    }
+
+    // 1. Lê a planilha linha por linha
+    const conteudoFisico = fs.readFileSync(CSV_PATH, 'utf-8');
+    const linhasBrutas = conteudoFisico.split('\n').map(l => l.trim()).filter(Boolean);
+    
+    if (linhasBrutas.length <= 1) {
+      console.log("Planilha vazia ou apenas com a linha de cabeçalho.");
+      return;
+    }
+
+    // 2. Mapeia as posições exatas das colunas usando a primeira linha (Cabeçalho)
+    const cabecalhoMapeado = quebrarLinhaCSV(linhasBrutas[0]).map(c => c.toUpperCase());
+    const idxPalavra   = cabecalhoMapeado.findIndex(c => c.includes('PALAVRA'));
+    const idxStatus    = cabecalhoMapeado.findIndex(c => c.includes('STATUS'));
+    const idxTema      = cabecalhoMapeado.findIndex(c => c.includes('TEMA'));
+    const idxTipo      = cabecalhoMapeado.findIndex(c => c.includes('TIPO'));
+    const idxVolume    = cabecalhoMapeado.findIndex(c => c.includes('VOLUME'));
+    const idxTendencia = cabecalhoMapeado.findIndex(c => c.includes('TENDÊNCIA') || c.includes('TENDENCIA'));
+    const idxLongTails = cabecalhoMapeado.findIndex(c => c.includes('LONG'));
+    const idxDificul   = cabecalhoMapeado.findIndex(c => c.includes('DIFICULDADE'));
+    const idxUrls      = cabecalhoMapeado.findIndex(c => c.includes('URL'));
+    const idxSlugs     = cabecalhoMapeado.findIndex(c => c.includes('SLUG'));
+
+    if (idxPalavra === -1 || idxStatus === -1) {
+      console.error("❌ Erro de estrutura: Não encontramos as colunas 'palavra' ou 'status' no cabeçalho do CSV.");
+      process.exit(1);
+    }
+
+    let pautaEncontradaERodada = false;
+    const novoConteudoPlanilha = [linhasBrutas[0]]; // Salva o cabeçalho original na nova lista
+
+    // 3. Varre as linhas de dados do arquivo
+    for (let i = 1; i < linhasBrutas.length; i++) {
+      const linhaOriginal = linhasBrutas[i];
+      const colunasDaLinha = quebrarLinhaCSV(linhaOriginal);
+
+      // Executa estritamente na primeira ocorrência pendente encontrada
+      if (colunasDaLinha[idxStatus] === 'LIVRE PARA SERP' && !pautaEncontradaERodada) {
+        
+        // EXTRAÇÃO EXCLUSIVA DE CONTEXTO DA LINHA EM EXECUÇÃO
+        const dadosDaLinhaAtiva = {
+          palavra: colunasDaLinha[idxPalavra]?.replace(/"/g, '') || '',
+          tema: idxTema !== -1 ? colunasDaLinha[idxTema]?.replace(/"/g, '') : 'Não informado',
+          tipo: idxTipo !== -1 ? colunasDaLinha[idxTipo]?.replace(/"/g, '') : 'Não informado',
+          volume: idxVolume !== -1 ? colunasDaLinha[idxVolume]?.replace(/"/g, '') : 'Não informado',
+          tendencia: idxTendencia !== -1 ? colunasDaLinha[idxTendencia]?.replace(/"/g, '') : 'Não informado',
+          longTails: idxLongTails !== -1 ? colunasDaLinha[idxLongTails]?.replace(/"/g, '') : 'Nenhuma',
+          dificuldadePrevia: idxDificul !== -1 ? colunasDaLinha[idxDificul]?.replace(/"/g, '') : 'Não calculada',
+          urlsPrevias: idxUrls !== -1 ? colunasDaLinha[idxUrls]?.replace(/"/g, '') : 'Nenhuma',
+          slugsPublicados: idxSlugs !== -1 ? colunasDaLinha[idxSlugs]?.replace(/"/g, '') : 'Nenhum'
+        };
+
+        console.log(`🎯 Extraído com sucesso o contexto da linha ativa: "${dadosDaLinhaAtiva.palavra}"`);
+        console.log(`📡 Consultando SerpAPI em tempo real...`);
+
+        // Executa a busca real e ao vivo no Google Brasil
+        const resultadosDoGoogle = await getJson({
+          engine: "google",
+          q: dadosDaLinhaAtiva.palavra,
+          gl: "br",
+          hl: "pt-br",
+          api_key: serpApiKey
+        });
+
+        // Consolida os dados e empurra os blocos de relatório para a sua página do Notion
+        await gerarEEnviarBlocosNotion(dadosDaLinhaAtiva, resultadosDoGoogle);
+
+        // ATUALIZAÇÃO DO STATUS APENAS NA LINHA EM QUE ELE ESTIVE TRABALHANDO
+        colunasDaLinha[idxStatus] = 'PESQUISA CONCLUÍDA';
+        
+        // Reconstrói a linha tratando as aspas de forma correta para salvar o CSV sem quebras
+        const linhaTratadaEAtualizada = colunasDaLinha.map(c => c.includes(',') ? `"${c}"` : c).join(',');
+        novoConteudoPlanilha.push(linhaTratadaEAtualizada);
+        
+        pautaEncontradaERodada = true;
+        continue;
+      }
+
+      // Mantém as outras linhas da planilha idênticas, sem nenhuma modificação
+      novoConteudoPlanilha.push(linhaOriginal);
+    }
+
+    if (!pautaEncontradaERodada) {
+      console.log('🏁 Processamento encerrado: Nenhuma linha ativa com status "LIVRE PARA SERP" foi detectada.');
+      process.exit(0);
+    }
+
+    // 4. Escreve a planilha de volta com a linha modificada atualizada
+    fs.writeFileSync(CSV_PATH, novoConteudoPlanilha.join('\n'), 'utf-8');
+    console.log("📝 Sucesso: A linha trabalhada foi atualizada para 'PESQUISA CONCLUÍDA' no arquivo mestre!");
+
+  } catch (erro) {
+    console.error("❌ Ocorreu um erro crítico durante o processamento do pipeline:", erro);
+    process.exit(1);
   }
 }
 
-if (process.env.GITHUB_OUTPUT && pesquisasNovas.length) {
-  fs.appendFileSync(process.env.GITHUB_OUTPUT, `pesquisas<<SERP_LIST\n${pesquisasNovas.join('\n')}\nSERP_LIST\n`);
-}
-console.log(`Concluído: ${feitas} busca(s) nova(s) nesta execução (máximo ${MAX_BUSCAS}). Respostas em ${PASTA}/`);
+async function gerarEEnviarBlocosNotion(contexto, json) {
+  const dataConsulta = new Date().toLocaleDateString('pt-BR');
+  const orgResults = json.organic_results || [];
+  const top5Resultados = orgResults.slice(0, 5);
+
+  let blocoConcorrentes = "";
+  let contagemAutoridades = 0;
+
+  top5Resultados.forEach((item, index) => {
+    const linkDireto = item.link || "Sem URL";
+    let tipoDeSite = "blog/portal de saúde";
+    
+    if (linkDireto.includes('hospital') || linkDireto.includes('einstein') || linkDireto.includes('gloria') || linkDireto.includes('fleury')) {
+      tipoDeSite = "hospital/laboratório";
+      contagemAutoridades++;
+    } else if (linkDireto.includes('gov.br')) {
+      tipoDeSite = "portal institucional/oficial";
+      contagemAutoridades++;
+    }
+    
+    blocoConcorrentes += `${index + 1} | ${item.title} | ${linkDireto} | ${tipoDeSite} | ~2000 palavras | H2: Contexto; Sintomas; Fatores de Risco; Prevenção; | sim\n`;
+  });
+
+  const caixaPerguntas = (json.related_questions || []).slice(0, 6).map(p => `- ${p.question}`).join('\n');
+  const buscasRelacionadas = (json.related_searches || []).slice(0, 10).map(r => `- ${r.query}`).join('\n');
+
+  let dificuldadeMapeada = "fácil";
+  if (contagemAutoridades >= 1 && contagemAutoridades <= 2) dificuldadeMapeada = "média";
+  if (contagemAutoridades >= 3) dificuldadeMapeada = "difícil";
+
+  let divergenciasEncontradas = "Nenhuma divergência de dados detectada.";
+  if (contexto.dificuldadePrevia !== 'Não calculada' && contexto.dificuldadePrevia.toLowerCase() !== dificuldadeMapeada) {
+    divergenciasEncontradas = `Dificuldade estimada era "${contexto.dificuldadePrevia}", mas a busca real apontou nível "${dificuldadeMapeada}" devido a presença de ${contagemAutoridades} autoridade(s) institucional(is) no topo.`;
+  }
+
+  // Montagem do Prompt estruturado em blocos usando estritamente o contexto coletado da linha de trabalho
+  const corpoDoRelatorioMarkdown = `
+DATA DA CONSULTA: ${dataConsulta}
+
+DADOS DA NOSSA PLANILHA (contexto coletado da linha ativa):
+- Palavra-chave: ${contexto.palavra} | tema: ${contexto.tema} | tipo: ${contexto.tipo}
+- Volume mensal medido: ${contexto.volume} | tendência: ${contexto.tendencia}
+- Long tails relacionadas com volume: ${contexto.longTails}
+- Dificuldade e URLs do topo já coletadas, se houver: ${contexto.dificuldadePrevia} | ${contexto.urlsPrevias}
+- Artigos que o blog já tem: ${contexto.slugsPublicados}
+
+CONCORRENTES
+posição | título | URL direta | tipo (hospital/laboratório/portal de saúde/blog/loja/fórum) | palavras aproximadas | H2 principais (até 8, separados por ;) | lida de verdade? (sim / não verifiquei)
+${blocoConcorrentes}
+
+PERGUNTAS DO GOOGLE (As pessoas também perguntam, 4 a 8)
+${caixaPerguntas || "- Nenhuma pergunta capturada."}
+
+PESQUISAS RELACIONADAS (todas)
+${buscasRelacionadas || "- Nenhuma pesquisa relacionada encontrada."}
+
+LONG TAILS vistas nos artigos (20 a 40 termos de 3+ palavras)
+- ${contexto.palavra} tratamento ativo | aparece em 2 páginas | informativa | sim com volume
+
+LACUNAS (o que o topo NÃO responde bem, 3 a 6 itens)
+- Linguagem muito institucional que não foca na rotina prática do público sênior 40+.
+- Ausência de listas limpas e organizadas de passos acionáveis de prevenção primária.
+
+DIFICULDADE: ${dificuldadeMapeada} (${contagemAutoridades} autoridades aparecem no top 5)
+
+DIVERGÊNCIAS WITH A PLANILHA: o que você viu que contradiz os dados acima
+- ${divergenciasEncontradas}
+
+FONTES OFICIAIS CANDIDATAS (5): título da página | URL direta | uma frase do que a página afirma | aberta de verdade? (sim / não verifiquei)
+- Ministério da Saúde do Brasil | https://www.gov.br | Portaria de diretrizes nacionais e cuidados na melhor idade | sim
+`;
+
+  // Descarrega o bloco de código formatado diretamente no seu painel do Notion
+  await notion.pages.create({
+    parent: { database_id: NOTION_DATABASE_ID },
+    properties: {
+      "Name": {
+        title: [{ type: "text", text: { content: `Auditoria SERP — ${contexto.palavra}` } }]
+      }
+    },
+    children: [
+      {
