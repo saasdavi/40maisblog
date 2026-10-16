@@ -1,5 +1,4 @@
-// Calendário de 12 meses: 365 dias x 3 vagas por dia. Sem API. Saída: data/conteudo/calendario-12-meses.csv, .md e .json,
-// data/conteudo/calendario-excluidos.csv (o que ficou de fora, com o motivo). Rode: node scripts/calendario-editorial.js
+// Calendário de 12 meses: 365 dias x 3 vagas por dia. Fonte de temas: pautas-mestre.csv. Saída operacional: .md e .json. Rode: node scripts/calendario-editorial.js
 //
 // Programação do dia: vaga 1 = artigo NOVO escrito por IA (Gemini, reserva Claude, SerpAPI antes); vagas 2 e 3 = estoque pronto (sem IA).
 //   vaga 1: sempre artigo novo (IA). Vagas 2 e 3: os prontos reais (prontosNoEstoque, na ordem do robô); quando o estoque pronto acaba,
@@ -7,7 +6,7 @@
 //   (escolherPauta); acabando a fila, o próximo tema do conjunto abaixo
 // Conjunto de temas (nada se perde): frases medidas de demanda-validada.json (1.000+ buscas) + todas as linhas de pautas-mestre.csv
 // (grupos 2, 2b e 3) + camadas a-checar/a-validar do plano-editorial.json, agrupadas em famílias (pauta-mãe + satélites no mesmo artigo),
-// sem o que já virou artigo. Cada frase termina no calendário, já coberta por artigo, ou em calendario-excluidos.csv com o motivo.
+// sem o que já virou artigo. As exclusões ficam documentadas no relatório Markdown.
 process.env.BATCH_SIZE = '100000'; process.env.DAILY_LIMIT = '100000'; // escolherPauta() devolve a fila inteira, na ordem do robô
 import fs from 'fs';
 import path from 'path';
@@ -110,16 +109,14 @@ for (const c of pool) for (const m of c.membros) excluidos.push({ frase: m.frase
 // 5) saídas
 const q = (s) => `"${String(s ?? '').replace(/"/g, '""')}"`;
 const cab = ['data', 'mes', 'n_do_dia', 'tipo', 'tema', 'palavra_chave', 'buscas_mes_cabeca', 'buscas_soma_familia', 'sensivel_revisao', 'satelites_no_mesmo_artigo', 'quem_escreve', 'situacao'];
-fs.writeFileSync(path.join(raiz, 'data/conteudo/calendario-12-meses.csv'), '﻿' + [cab.join(';'), ...saida.map((x) => [x.data, x.mes, x.n, x.tipo, x.tema, x.frase, x.vol, x.soma || '', x.sens, x.sats, x.quem, x.situacao].map(q).join(';'))].join('\n') + '\n');
 fs.writeFileSync(path.join(raiz, 'data/conteudo/calendario-12-meses.json'), JSON.stringify({ gerado: hojeBR, inicio: dTxt(0), dias: DIAS, slots: saida.map((x) => ({ data: x.data, n: x.n, tipo: x.tipo, palavra: x.frase, slug: x.slug || null, situacao: x.situacao })) }));
-fs.writeFileSync(path.join(raiz, 'data/conteudo/calendario-excluidos.csv'), '﻿' + ['frase;buscas_mes;tema;origem;motivo', ...excluidos.sort((a, b) => (b.vol || 0) - (a.vol || 0)).map((e) => [e.frase, e.vol || '', e.tema || '', (e.origem || []).join(' + '), e.motivo].map(q).join(';'))].join('\n') + '\n');
 
 const por = {}; for (const x of saida) { const m = (por[x.mes] ||= { novoVal: 0, novoTema: 0, est: 0, vaga: 0 }); if (x.tipo === 'novo (IA)') (x.situacao === 'pauta validada' ? m.novoVal++ : m.novoTema++); else if (x.tipo === 'estoque (pronto)') m.est++; else m.vaga++; }
 const T = Object.values(por).reduce((a, v) => ({ nv: a.nv + v.novoVal, nt: a.nt + v.novoTema, e: a.e + v.est, v: a.v + v.vaga }), { nv: 0, nt: 0, e: 0, v: 0 });
 const T0 = { e: estoque.length };
 let md = `# Calendário editorial de 12 meses (3 por dia)\n\nGerado por \`scripts/calendario-editorial.js\` em ${hojeBR}. Início ${dTxt(0)}. Substitui o calendário antigo de 06/10.\n\n`
   + `**Programação do dia:** vaga 1 = artigo **novo** escrito por IA (Gemini, reserva Claude, com a pesquisa da SerpAPI antes); vagas 2 e 3 = **estoque pronto**, publicado direto, sem IA. Quando o estoque pronto acaba (${T0.e} artigos, ≈ ${Math.ceil(T0.e / 2)} dias), as vagas 2 e 3 também passam a ser artigo novo escrito por IA pela API: 3 por dia. Se o novo falhar num dia, o estoque cobre a vaga (enquanto houver).\n\n`
-  + `Temas: pautas validadas da fila do robô primeiro; depois famílias de \`pautas-mestre.csv\`, \`demanda-validada.json\` e \`plano-editorial.json\` por demanda somada, alternando tema e no máximo 1 tema sensível por dia (tema sensível só publica depois de \`REVISADO: sim\`). Tema novo = a IA pesquisa o Google (SerpAPI) antes de escrever. O que ficou de fora está em \`calendario-excluidos.csv\`, com o motivo.\n\n`
+  + `Temas: pautas validadas da fila do robô primeiro; depois famílias de \`pautas-mestre.csv\`, \`demanda-validada.json\` e \`plano-editorial.json\` por demanda somada, alternando tema e no máximo 1 tema sensível por dia (tema sensível só publica depois de \`REVISADO: sim\`). Tema novo = a IA pesquisa o Google (SerpAPI) antes de escrever. As exclusões e seus motivos são mantidos no relatório Markdown.\n\n`
   + `| Mês | Novo (pauta validada) | Novo (tema a validar) | Estoque pronto | Vaga |\n|---|---|---|---|---|\n`;
 for (const [m, v] of Object.entries(por)) md += `| ${m} | ${v.novoVal} | ${v.novoTema} | ${v.est} | ${v.vaga} |\n`;
 md += `\n**Total:** ${T.nv} novos de pauta validada + ${T.nt} novos de tema a validar + ${T.e} do estoque pronto + ${T.v} vagas = ${T.nv + T.nt + T.e + T.v}.\n`;
@@ -134,4 +131,4 @@ for (const e of dem) { const k = chave(e.frase); if (exSet.has(norm(e.frase))) n
 console.log(`Calendário: ${saida.length} vagas | novos ${T.nv + T.nt} (validados ${T.nv}) | estoque pronto ${T.e} | vagas ${T.v}`);
 console.log(`Cobertura das ${dem.length} frases com 1.000+ buscas: no calendário ${nCal} | já são artigo/pauta ${nArt} | excluídas com motivo ${nEx} | sem destino ${sem.length}`);
 if (sem.length) console.log('SEM DESTINO:', sem.slice(0, 20).map((e) => `${e.frase} (${e.volume})`).join('; '));
-console.log(`Excluídas/fila de espera: ${excluidos.length} (data/conteudo/calendario-excluidos.csv)`);
+console.log(`Excluídas/fila de espera: ${excluidos.length} (relatório Markdown)`);
