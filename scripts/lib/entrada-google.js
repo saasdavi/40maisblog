@@ -130,8 +130,8 @@ export function normalizarEntradaGoogle(raw, { artigos = [], publicados = [], pr
 
   const palavraChave = cab.PALAVRA_CHAVE;
   const { fontes, erros: errosFonte } = lerFontes(fontesBrutas);
-  erros.push(...errosFonte);
-  if (fontes.length + errosFonte.length < 3) avisos.push(`só ${fontes.length + errosFonte.length} linha(s) FONTE (o padrão do blog é 3, com 2 oficiais)`);
+  if (errosFonte.length) avisos.push(...errosFonte.map((e) => `FONTE (aviso, não bloqueia): ${e}`));
+  if (fontes.length < 3) avisos.push(`só ${fontes.length} fonte(s) com URL válida (o padrão editorial é 3, com 2 oficiais); isso não bloqueia a importação`);
 
   const titulo = ajustarTitulo(cab.TITLE || '', palavraChave);
   if (titulo !== (cab.TITLE || '').trim()) avisos.push(`título reduzido de ${cab.TITLE.length} para ${titulo.length} caracteres: "${titulo}"`);
