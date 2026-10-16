@@ -10589,7 +10589,7 @@
         ]
       },
       "volume": 74000,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-10T19:45:55.928Z",
       "featuredImage": "/images/acucar/acucar-capa.jpg",
       "imageAlt": "Cubos de açúcar mascavo e de açúcar branco sobre uma superfície de madeira",
@@ -10638,7 +10638,7 @@
         "pexels:11477544"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:00.455Z",
       "scores": {
         "auditoria": 100,
@@ -10696,7 +10696,9 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:00.455Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "publishedAt": "2026-10-16T00:15:56.701Z",
+      "publicadoDoEstoqueEm": "2026-10-16T00:15:56.701Z"
     },
     {
       "id": "art_1791661560680_0nm3",
@@ -38077,6 +38079,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 53
+    "published": 54
   }
 }
