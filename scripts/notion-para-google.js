@@ -1,53 +1,66 @@
-name: Importar artigos do Notion para data/entrada/google
+// scripts/notion-para-google.js
+const { Client } = require('@notionhq/client');
+const fs = require('fs');
+const path = require('path');
 
-on:
-  workflow_dispatch:
-    inputs:
-      forcar:
-        description: 'Rebaixar artigos que já existem? (sim/não)'
-        required: false
-        default: 'não'
+const notion = new Client({ auth: process.env.NOTION_API_KEY });
+const PAGE_ID = process.env.NOTION_PAGE_ID;
+const MAX_ARTIGOS = parseInt(process.env.MAX_ARTIGOS || '1', 10);
+const FORCAR = process.env.FORCAR === 'sim';
+const OUTPUT_DIR = 'data/entrada/google';
 
-permissions:
-  contents: write
+async function main() {
+  if (!fs.existsSync(OUTPUT_DIR)) {
+    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  }
 
-concurrency:
-  group: notion-import
-  cancel-in-progress: false
+  console.log(`🔍 Buscando até ${MAX_ARTIGOS} artigo(s)...`);
 
-jobs:
-  importar:
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+  let response;
+  try {
+    response = await notion.blocks.children.list({
+      block_id: PAGE_ID,
+      page_size: MAX_ARTIGOS,
+    });
+  } catch (e) {
+    console.error("Erro ao ler blocos. Verifique se o ID é de uma PÁGINA.");
+    throw e;
+  }
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
+  let baixados = 0;
+  for (const block of response.results) {
+    if (block.type !== 'child_page') continue;
 
-      - name: Instalar dependências do Notion
-        run: npm install @notionhq/client
+    const pageTitle = block.child_page.title;
+    const safeName = pageTitle.replace(/[^a-z0-9áàâãéèêíïóôõöúçñ\s]/gi, '_').toLowerCase();
+    const filePath = path.join(OUTPUT_DIR, `${safeName}.txt`);
 
-      - name: Baixar o próximo artigo do Notion
-        env:
-          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
-          NOTION_PAGE_ID: '3eb32d888f64491c9e20c13e6f6a6b24'
-          MAX_ARTIGOS: '1'
-          FORCAR: ${{ github.event.inputs.forcar || 'não' }}
-        run: node scripts/notion-para-google.js
+    if (fs.existsSync(filePath) && !FORCAR) {
+      console.log(`⏭️  Pulando "${pageTitle}" (já existe)`);
+      continue;
+    }
 
-      - name: Commit e push dos novos .txt
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action Notion"
-          git add data/entrada/google 2>/dev/null || true
-          if git diff --staged --quiet; then
-            echo "Nenhum artigo novo baixado do Notion."
-            exit 0
-          fi
-          git commit -m "📥 Notion → google: $(date -u +%Y-%m-%d_%H:%M)"
-          git pull --rebase -q origin "$GITHUB_REF_NAME"
-          git push origin "HEAD:$GITHUB_REF_NAME"
+    const contentResponse = await notion.blocks.children.list({ block_id: block.id });
+    let textContent = '';
+    for (const child of contentResponse.results) {
+      if (child.paragraph?.text) {
+        textContent += child.paragraph.text.map(t => t.plain_text).join('') + '\n\n';
+      } else if (child.heading_1?.text || child.heading_2?.text || child.heading_3?.text) {
+         const h = child.heading_1 || child.heading_2 || child.heading_3;
+         textContent += '# ' + h.text.map(t => t.plain_text).join('') + '\n\n';
+      }
+    }
+
+    if (textContent.trim()) {
+        fs.writeFileSync(filePath, textContent.trim(), 'utf-8');
+        console.log(`✅ Salvo: ${filePath}`);
+        baixados++;
+    }
+  }
+  console.log(`🏁 Conclusão: ${baixados} artigo(s) processado(s).`);
+}
+
+main().catch(err => {
+  console.error('❌ Erro fatal:', err.message);
+  process.exit(1);
+});
