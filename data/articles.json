@@ -11431,7 +11431,7 @@
         ]
       },
       "volume": 1300,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-10T19:46:08.681Z",
       "featuredImage": "/images/bananazinha/bananazinha-capa.jpg",
       "imageAlt": "Frutas e alimentos naturais sobre bananazinha",
@@ -11464,7 +11464,7 @@
         "pexels:32963319"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:09.641Z",
       "scores": {
         "auditoria": 93,
@@ -11514,7 +11514,9 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:09.641Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "publishedAt": "2026-10-16T00:45:53.606Z",
+      "publicadoDoEstoqueEm": "2026-10-16T00:45:53.606Z"
     },
     {
       "id": "art_1791663631161_07nu",
@@ -38085,6 +38087,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 57
+    "published": 58
   }
 }
