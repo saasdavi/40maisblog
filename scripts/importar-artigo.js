@@ -42,9 +42,9 @@ for (const nome of arquivos) {
     const keyword = get('PALAVRA_CHAVE');
     if (!keyword) throw new Error('falta PALAVRA_CHAVE no cabeçalho');
     const lf = lerFontes([...raw.slice(0, raw.indexOf('\n---\n')).matchAll(/^FONTE:\s*(.+)$/gm)].map((m) => m[1]));
-    if (lf.erros.length) throw new Error(lf.erros.join('; '));
+    if (lf.erros.length) lf.erros.forEach((e) => console.log(`  ⚠️  FONTE (não bloqueia importação): ${e}`));
     const fontes = lf.fontes.map((f) => ({ title: f.title, url: f.url, texto: '' }));
-    if (fontes.length < 2) throw new Error(`só ${fontes.length} FONTE(s); mínimo 2 (formato: FONTE: Título | https://...)`);
+    if (fontes.length < 2) console.log(`  ⚠️  Apenas ${fontes.length} fonte(s) com URL válida; importação continua e a pontuação técnica pode refletir isso.`);
     const pauta = robot.kw.find((k) => k.keyword.toLowerCase() === keyword.toLowerCase()) || { keyword, volume: null, cluster: get('CLUSTER') || null };
     if (get('SLUG')) pauta.slug = get('SLUG'); // artigo revisado que substitui um do estoque com outro endereço
     if (/<Article[A-Za-z]*|<hr\b|<h1\b/i.test(d.body)) throw new Error('o HTML tem componentes de código (<Article...>), <hr> ou <h1>: peça à IA HTML simples (veja data/entrada/MODELO-PARA-A-IA.md)');
