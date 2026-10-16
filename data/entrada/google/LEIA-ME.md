@@ -16,8 +16,8 @@ Quem escreve fora do robô entrega aqui. As regras abaixo saem do código (`scri
 | `FOTO1_ALT:` / `FOTO1_ID:` | segunda foto (alt obrigatório para ela entrar) | idem |
 | `FOTO2_ALT:` / `FOTO2_ID:` | terceira foto | idem |
 | `FOTO1_SECAO:` / `FOTO2_SECAO:` | opcional: número do `<h2>` em que a foto entra | padrão 2 e 4 |
-| `FONTE: Título \\| https://link-completo-da-página` | **3 linhas recomendadas**, links específicos que você abriu de verdade; 2 oficiais é o ideal | fonte ausente, incompleta ou página inicial gera aviso e não bloqueia a importação; nunca invente links |
-| `NOTA_CHAT: X,X` | sua avaliação real, 0 a 10; só entregue com **9,0 ou mais** | ver item 5 |
+| `FONTE: Título \\| https://link-completo-da-página` | **3 linhas recomendadas**, links específicos que você abriu de verdade; 2 oficiais é o ideal | informativo: ausência, link incompleto ou página inicial não bloqueia a publicação; nunca invente links |
+| `NOTA_CHAT: X,X` | avaliação editorial recomendada de 0 a 10; objetivo mínimo **9,0** | a publicação direta não depende do importador |
 
 Campos ignorados (sem erro): `CAPA_URL`, `CAPA_CREDITO`, `CAPA_DOWNLOAD` e os equivalentes de `FOTO*` (o crédito vem do Pexels).
 
@@ -36,12 +36,12 @@ Uma linha só com `---` depois do cabeçalho.
 - **Não** escreva a seção "Fontes" no fim (o site monta a lista a partir das linhas `FONTE:`). O aviso de saúde também é colocado pelo site.
 - Texto original: trechos de 7+ palavras iguais às fontes acima do limite = recusa.
 
-## 5. Notas e fila (DECISOES-DO-DONO.md)
-- `NOTA_CHAT` ≥ 9 **e** pontuação técnica do importador ≥ 90 → entra direto na fila de publicação.
-- `NOTA_CHAT` ≥ 9 e pontuação < 90 → entra com `segurar: true` (não publica até o dono liberar).
-- A única trava editorial é nota baixa; tema sensível e promessa não travam (promessa vira aviso).
-- Fontes ausentes ou inválidas geram aviso, não recusa. Recusado: o arquivo fica aqui com `<nome>.relatorio.md` explicando o motivo. Aceito: vai para `data/entrada/processados/`.
-- A importação roda sozinha em cada publicação diária (cron 08:00, 12:30 e 18:00).
+## 5. Publicação direta da pasta Google
+- Os arquivos `.txt` desta pasta são a fonte direta das novas páginas do site; não precisam passar pelo `data/articles.json` nem pelo importador legado.
+- Ao adicionar ou editar um `.txt` nesta pasta e enviar o commit para `main`, o workflow `Publicar diretamente da pasta Google` solicita o deploy.
+- Fontes ausentes, inválidas ou apontando para página inicial não bloqueiam a publicação. Nunca invente URLs; use fontes apenas quando realmente verificadas.
+- Para a página ser gerada, o arquivo precisa ter a linha `---` e corpo em HTML com ao menos um elemento de conteúdo (`<p>`, `<h2>`, `<h3>`, `<ul>` etc.). O importador legado continua disponível manualmente, mas não processa a pasta automaticamente.
+- A nota editorial recomendada continua sendo `NOTA_CHAT` ≥ 9,0. A publicação direta não aguarda fila, pontuação técnica do importador ou liberação manual.
 
 ## 6. Modelo
 ```
