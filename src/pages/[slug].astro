@@ -6,6 +6,7 @@ import SEO from '../components/SEO.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import CTAMounjaxi from '../components/CTAMounjaxi.astro';
 import { articleJsonLd, breadcrumbJsonLd } from '../lib/schema';
+import { carregarArtigosDiretos } from '../lib/artigos-diretos';
 
 let article = null;
 let allArticles = [];
@@ -22,18 +23,20 @@ try {
 }
 
 export async function getStaticPaths() {
-  let articles = [];
+  let legacyArticles = [];
   try {
     const articlesPath = resolve('data/articles.json');
     const articlesData = JSON.parse(readFileSync(articlesPath, 'utf-8'));
-    articles = articlesData.articles || [];
+    legacyArticles = (articlesData.articles || []).filter((a: any) => a.status !== 'draft');
   } catch (e) {
-    console.warn('Could not read articles.json');
+    console.warn('Arquivo legado articles.json indisponível; usando artigos da pasta Google.');
   }
 
+  // Novos artigos vêm diretamente da pasta de entrega; o JSON antigo é apenas compatibilidade.
+  const articles = [...carregarArtigosDiretos(), ...legacyArticles];
   const seen = new Set();
   return articles
-    .filter((a: any) => a.status !== 'draft' && a.slug && /^[a-z0-9-]+$/.test(a.slug) && !seen.has(a.slug) && seen.add(a.slug))
+    .filter((a: any) => a.slug && /^[a-z0-9-]+$/.test(a.slug) && !seen.has(a.slug) && seen.add(a.slug))
     .map((article: any) => ({
       params: { slug: article.slug },
       props: { article }
