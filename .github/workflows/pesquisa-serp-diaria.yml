@@ -30,9 +30,19 @@ jobs:
           node-version: '22'
           cache: 'npm'
 
-      # 3. Instala as duas ferramentas necessárias para a integração rodar
+      # 3. Instala as dependências necessárias (de forma explícita)
       - name: Instalar Dependências
-        run: npm install @notionhq/client serpapi
+        run: |
+          # Instalamos apenas o cliente Notion necessário (o script usa fetch nativo para SerpAPI)
+          npm install @notionhq/client
+
+      # 3.1 Diagnóstico rápido do ambiente para ajudar debugging
+      - name: Diagnóstico ambiente
+        run: |
+          echo "--- Ambiente ---"
+          node -v
+          npm -v
+          echo "node_modules presentes:" && ls -la node_modules || true
 
       # 4. Chama o seu script operário injetando as chaves de acesso salvas nos Secrets
       - name: Executar Auditoria SERP na Linha Ativa
