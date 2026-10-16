@@ -9714,7 +9714,7 @@
         ]
       },
       "volume": 12100,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-04T21:59:50.040Z",
       "featuredImage": "/images/tsh-alto/tsh-alto-capa.jpg",
       "imageAlt": "Profissional de saúde coleta uma amostra de sangue para exame",
@@ -9763,7 +9763,7 @@
         "pexels:7578797"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-04T21:59:50.929Z",
       "scores": {
         "auditoria": 96,
@@ -9847,7 +9847,9 @@
         },
         "validadoEm": "2026-10-04T21:59:50.929Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "publishedAt": "2026-10-16T00:00:33.415Z",
+      "publicadoDoEstoqueEm": "2026-10-16T00:00:33.415Z"
     },
     {
       "id": "art_1791151902653_gf0j",
@@ -38071,6 +38073,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 50
+    "published": 51
   }
 }
