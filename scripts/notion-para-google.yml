@@ -2,15 +2,14 @@ name: Importar artigos do Notion para data/entrada/google
 
 # UM POR VEZ, AUTOMATICO: a cada execucao pega o PROXIMO artigo do Notion
 # que ainda nao foi transferido e salva como .txt em data/entrada/google/.
-# Nao precisa digitar quantidade — roda 1x = 1 artigo.
 
 on:
   workflow_dispatch:
     inputs:
-      max_artigos:
-        description: 'Opcional: deixe vazio para 1 artigo (padrao).'
+      forcar:
+        description: 'Rebaixar artigos que já existem? (sim/não)'
         required: false
-        default: ''
+        default: 'não'
 
 permissions:
   contents: write
@@ -32,11 +31,15 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Baixar o proximo artigo do Notion
+      - name: Instalar dependências do Notion
+        run: npm install @notionhq/client
+
+      - name: Baixar o próximo artigo do Notion
         env:
-          NOTION_API_KEY: ${{ ntn_n971214470032IKy2NN5R77Wtrsx4vmgxyEKiEgOwAb9jr }}
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           NOTION_PAGE_ID: '3eb32d888f64491c9e20c13e6f6a6b24'
-          MAX_ARTIGOS: ${{ github.event.inputs.max_artigos || '1' }}
+          MAX_ARTIGOS: '1'
+          FORCAR: ${{ github.event.inputs.forcar || 'não' }}
         run: node scripts/notion-para-google.js
 
       - name: Commit e push dos novos .txt
@@ -48,6 +51,6 @@ jobs:
             echo "Nenhum artigo novo baixado do Notion."
             exit 0
           fi
-          git commit -m "Notion -> data/entrada/google: $(date -u +%Y-%m-%d_%H:%M)"
+          git commit -m "📥 Notion → google: $(date -u +%Y-%m-%d_%H:%M)"
           git pull --rebase -q origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
