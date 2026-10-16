@@ -11566,7 +11566,7 @@
         ]
       },
       "volume": 135000,
-      "status": "draft",
+      "status": "published",
       "createdAt": "2026-10-10T19:46:09.670Z",
       "featuredImage": "/images/biotina/biotina-capa.jpg",
       "imageAlt": "Cápsulas de biotina dispostas sobre uma mesa clara, ilustrando o tema biotina",
@@ -11615,7 +11615,7 @@
         "pexels:5605634"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:32.374Z",
       "scores": {
         "auditoria": 100,
@@ -11661,7 +11661,9 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:32.374Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "publishedAt": "2026-10-16T01:00:32.173Z",
+      "publicadoDoEstoqueEm": "2026-10-16T01:00:32.173Z"
     },
     {
       "id": "art_1791661570910_1ibs",
@@ -38087,6 +38089,6 @@
   ],
   "stats": {
     "total": 249,
-    "published": 58
+    "published": 59
   }
 }
