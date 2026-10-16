@@ -7,6 +7,10 @@ on:
         description: 'Rebaixar artigos que já existem? (sim/não)'
         required: false
         default: 'não'
+      max_artigos:
+        description: 'Quantos artigos baixar neste run?'
+        required: false
+        default: '1'
 
 permissions:
   contents: write
@@ -28,14 +32,13 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Instalar dependências
-        run: npm install @notionhq/client
+      # O script usa fetch nativo (Node >= 18): nenhuma dependência a instalar.
 
       - name: Baixar o próximo artigo do Notion
         env:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
-          NOTION_PAGE_ID: '3eb32d888f64491c9e20c13e6f6a6b24'
-          MAX_ARTIGOS: '1'
+          NOTION_PAGE_ID: ${{ vars.NOTION_PAGE_ID || '3eb32d888f64491c9e20c13e6f6a6b24' }}
+          MAX_ARTIGOS: ${{ github.event.inputs.max_artigos || '1' }}
           FORCAR: ${{ github.event.inputs.forcar || 'não' }}
         run: node scripts/notion-para-google.js
 
@@ -48,6 +51,6 @@ jobs:
             echo "Nenhum artigo novo baixado do Notion."
             exit 0
           fi
-          git commit -m " Notion → google: $(date -u +%Y-%m-%d_%H:%M)"
+          git commit -m "📥 Notion → google: $(date -u +%Y-%m-%d_%H:%M)"
           git pull --rebase -q origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
