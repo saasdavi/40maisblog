@@ -55,10 +55,28 @@ const PT_EN = {
   caminhada: 'walking', academia: 'gym', dieta: 'diet', água: 'water', agua: 'water', coleta: 'blood draw', computador: 'computer', tela: 'screen',
 };
 // Busca em inglês para o banco de fotos, tirada do texto alternativo (o id do Pexels, quando existe, tem prioridade no importador).
-function buscaDoAlt(alt, palavraChave) {
+export function buscaDoAlt(alt, palavraChave) {
   const achados = [];
   for (const w of String(alt).toLowerCase().replace(/[^\p{L}\s]/gu, ' ').split(/\s+/)) if (PT_EN[w] && !achados.includes(PT_EN[w])) achados.push(PT_EN[w]);
   return (achados.slice(0, 4).join(' ') || `${slugify(palavraChave).replace(/-/g, ' ')} health`).trim();
+}
+
+// O contrato de entrega (data/entrada/google/LEIA-ME.md) pede só CAPA_ALT/FOTO*_ALT, mas o robô precisa das
+// buscas de foto (CAPA_BUSCA/FOTO*_BUSCA). Aqui elas são derivadas do alt quando o arquivo não as traz, para o
+// arquivo entregue no formato documentado não ser recusado por "cabeçalho incompleto".
+export function completarBuscasDeFoto(raw) {
+  const i = raw.indexOf('\n---\n');
+  if (i < 0) return raw;
+  let header = raw.slice(0, i);
+  const resto = raw.slice(i);
+  const palavraChave = (header.match(/^PALAVRA_CHAVE:\s*(.+)$/m) || [])[1]?.trim() || '';
+  for (const [busca, campoAlt] of [['CAPA_BUSCA', 'CAPA_ALT'], ['FOTO1_BUSCA', 'FOTO1_ALT'], ['FOTO2_BUSCA', 'FOTO2_ALT']]) {
+    if (new RegExp(`^${busca}:\\s*\\S`, 'm').test(header)) continue;
+    const alt = (header.match(new RegExp(`^${campoAlt}:\\s*(.+)$`, 'm')) || [])[1]?.trim();
+    if (!alt) continue;
+    header = header.replace(new RegExp(`^${campoAlt}:.*$`, 'm'), (linha) => `${busca}: ${buscaDoAlt(alt, palavraChave)}\n${linha}`);
+  }
+  return header + resto;
 }
 
 const legendaDoAlt = (alt) => (alt.length <= 90 ? alt : alt.slice(0, 90).replace(/\s+\S*$/, ''));

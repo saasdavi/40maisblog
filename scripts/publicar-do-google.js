@@ -2,11 +2,14 @@
 /**
  * publicar-do-google.js — publica os artigos prontos da pasta data/entrada/google/
  *
+ * Publica 1 artigo por acionamento (padrão). Só sai do lugar quando você aciona o workflow manual.
+ *
  * Fluxo (chamado pelo workflow "Publicação de artigos (manual)"):
  *   1. Lê os .txt de data/entrada/google/ (fonte real dos artigos entregues pelo redator),
- *      pula os que já estão publicados no site e seleciona até MAX_POR_DIA novos.
- *   2. Copia os alvos para uma pasta temporária e roda o importador
- *      (scripts/importar-artigo.js) → valida, audita, baixa fotos e guarda no estoque.
+ *      pula os que já estão publicados no site e seleciona até MAX_POR_DIA novos (padrão 1).
+ *   2. Move os alvos para um lote isolado e roda o importador nesse lote
+ *      (scripts/importar-artigo.js com ENTRADA_LOTE) → valida, audita, baixa fotos e guarda no estoque.
+ *      Quem não passa volta para data/entrada/google/ com o .relatorio.md do motivo.
  *   3. Marca como publicado no banco (data/articles.json) → o push faz o deploy na Vercel.
  *   4. Move os .txt publicados para data/entrada/processados/ (evita republicação).
  *   5. Atualiza automaticamente os status:
@@ -14,7 +17,7 @@
  *        - pautas-mestre.csv         → status_publicacao + status_serp das palavras envolvidas
  *
  * Variáveis de ambiente:
- *   MAX_POR_DIA (padrão 3) | FOTO_NA_PUBLICACAO=1 (busca foto só na hora de publicar)
+ *   MAX_POR_DIA (padrão 1) | FOTO_NA_PUBLICACAO=1 (busca foto só na hora de publicar)
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -28,7 +31,7 @@ const CAL_FILE = path.join(ROOT, 'data/entrada/pautas-chat_01/calendario-publica
 const MASTER_FILE = path.join(ROOT, 'data/conteudo/pautas-mestre.csv');
 const ARTICLES_FILE = path.join(ROOT, 'data/articles.json');
 const SITE = 'https://40mais.blog';
-const MAX = Math.max(1, parseInt(process.env.MAX_POR_DIA || '3', 10) || 3);
+const MAX = Math.max(1, parseInt(process.env.MAX_POR_DIA || '1', 10) || 1); // 1 artigo por acionamento (padrão)
 
 const norm = (s) => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 
@@ -115,72 +118,98 @@ const slugify = (s) => String(s).toLowerCase().normalize('NFD').replace(/[\u0300
 const dbInicial = JSON.parse(fs.readFileSync(ARTICLES_FILE, 'utf8'));
 const jaPublicadas = new Set(dbInicial.articles.filter((a) => a.status === 'published').map((a) => a.slug));
 
+// se uma execução anterior caiu no meio, os .txt do lote voltam para a pasta google antes de começar
+const LOTE_ANTERIOR = path.join(ROOT, 'data/entrada/_lote-publicacao');
+if (fs.existsSync(LOTE_ANTERIOR)) {
+  for (const f of fs.readdirSync(LOTE_ANTERIOR)) {
+    const destino = path.join(DIR_GOOGLE, f);
+    if (!fs.existsSync(destino)) { fs.renameSync(path.join(LOTE_ANTERIOR, f), destino); console.log(`♻️  devolvido de um lote interrompido: ${f}`); }
+  }
+  fs.rmSync(LOTE_ANTERIOR, { recursive: true, force: true });
+}
+
 const pasta = keywordsDaPasta();
 if (!pasta.size) { console.log('📥 Nenhum .txt em data/entrada/google/. Nada a publicar.'); process.exit(0); }
 
-// 1) selecionar as publicações do dia: fonte real = data/entrada/google/ (máx. MAX),
+// 1) fila de candidatos: todos os .txt novos de data/entrada/google/, em ordem de nome,
 //    pulando palavras-chave cujo slug já está publicado no site
-const alvos = [];
+const candidatos = [];
 const jaNoAr = [];
 for (const [f, kw] of pasta) {
-  if (alvos.length >= MAX) break;
   const slugKw = slugify(kw);
   const slugArq = slugify(f.replace(/\.txt$/, ''));
   if (jaPublicadas.has(slugKw) || jaPublicadas.has(slugArq)) { jaNoAr.push({ arquivo: f, keyword: kw, slug: slugKw }); continue; }
-  alvos.push({ artigo: kw, arquivo: f, keyword: kw });
+  candidatos.push({ artigo: kw, arquivo: f, keyword: kw });
 }
 // anotar no calendário as linhas dos arquivos que já estão no ar (coerência entre planilhas)
 if (jaNoAr.length) atualizarCalendario(jaNoAr.map((j) => ({ artigo: j.keyword, status: 'PUBLICADO' })));
-if (!alvos.length) { console.log('Nenhum artigo novo pronto para publicar (todos os .txt da pasta já estão no ar).'); process.exit(0); }
-console.log(`🎯 Publicação${alvos.length > 1 ? 's' : ''} do dia (${alvos.length}/${MAX}): ${alvos.map((a) => a.artigo).join(', ')}`);
 if (jaNoAr.length) console.log(`⏭️  Pulados (já publicados): ${jaNoAr.map((j) => j.keyword).join(', ')}`);
+if (!candidatos.length) { console.log('Nenhum artigo novo pronto para publicar (todos os .txt da pasta já estão no ar).'); process.exit(0); }
+console.log(`🎯 Meta desta execução: ${MAX} artigo(s) | fila: ${candidatos.length} candidato(s) (${candidatos.map((c) => c.artigo).join(', ')})`);
 
-// 2) importar apenas os alvos do dia (cópia temporária isolada → validação + auditoria + fotos + estoque)
-const DIR_TMP = path.join(ROOT, 'data/entrada/_publicar-dodia');
-fs.rmSync(DIR_TMP, { recursive: true, force: true });
-fs.mkdirSync(DIR_TMP, { recursive: true });
-for (const alvo of alvos) fs.copyFileSync(path.join(DIR_GOOGLE, alvo.arquivo), path.join(DIR_TMP, alvo.arquivo));
-const r = spawnSync('node', ['scripts/importar-artigo.js'], { cwd: ROOT, encoding: 'utf8', env: { ...process.env } });
-console.log((r.stdout || '') + (r.stderr || ''));
-const saida = (r.stdout || '') + (r.stderr || '');
-const importados = [];
-const falhas = [];
-for (const alvo of alvos) {
-  const ok = saida.includes(`guardado no estoque: /${slugify(alvo.keyword)}/`) || saida.includes(`guardado no estoque: /${slugify(alvo.arquivo.replace(/\.txt$/, ''))}/`);
-  const reprovado = new RegExp(`\\n📥 ${alvo.arquivo}[\\s\\S]*?(recusado|BLOQUEIOS)`).test(saida);
-  if (ok && !reprovado) importados.push(alvo);
-  else { falhas.push(alvo); console.log(`  ❌ ${alvo.artigo}: importação não concluída (ver .relatorio.md na pasta)`); }
-}
-fs.rmSync(DIR_TMP, { recursive: true, force: true });
-
-// 3) marcar como publicados no banco (o commit/push aciona o deploy da Vercel)
-const db = JSON.parse(fs.readFileSync(ARTICLES_FILE, 'utf8'));
-const agora = new Date().toISOString();
-const publicados = [];
-for (const alvo of importados) {
-  const slugEsperado = slugify(alvo.keyword);
-  const art = db.articles.find((a) => a.slug === slugEsperado || norm(a.primaryKeyword || a.validacao?.palavraChave || '') === norm(alvo.keyword));
-  if (!art || art.status === 'published') { if (!art) falhas.push(alvo); continue; }
-  if (art.segurar) { falhas.push({ ...alvo, motivo: 'segurado para revisão humana' }); console.log(`  ✋ /${art.slug}/ está segurado (revisão humana): não publica.`); continue; }
-  art.status = 'published'; art.publishedAt = agora; art.estoque = false; art.publicadoDoEstoqueEm = agora;
-  publicados.push({ ...alvo, slug: art.slug });
-  console.log(`  📤 marcado para publicação: /${art.slug}/`);
-}
-if (publicados.length) {
-  db.stats = db.stats || {};
-  db.stats.published = db.articles.filter((a) => a.status === 'published').length;
-  fs.writeFileSync(ARTICLES_FILE, JSON.stringify(db, null, 2));
-}
-
-// mover os .txt publicados para processados/ (evita republicação)
+// 2 + 3) tentar um candidato por vez até publicar MAX. Cada tentativa vai sozinha para um lote isolado e o
+//        importador recebe só esse lote em ENTRADA_LOTE (sem isso ele varre data/entrada inteira e o limite
+//        acima não vale nada). Quem é recusado volta para data/entrada/google/ com o .relatorio.md do motivo,
+//        e a fila continua: uma recusa não derruba a execução.
+const DIR_LOTE = path.join(ROOT, 'data/entrada/_lote-publicacao');
 const dirProc = path.join(ROOT, 'data/entrada/processados');
 fs.mkdirSync(dirProc, { recursive: true });
-for (const p of publicados) {
-  const origem = path.join(DIR_GOOGLE, p.arquivo);
-  if (fs.existsSync(origem)) fs.renameSync(origem, path.join(dirProc, p.arquivo));
-  const rel = origem.replace(/\.txt$/, '.relatorio.md');
-  if (fs.existsSync(rel)) fs.rmSync(rel);
+const agora = new Date().toISOString();
+const publicados = [];
+const falhas = [];
+
+for (const alvo of candidatos) {
+  if (publicados.length >= MAX) break;
+  console.log(`\n──── tentando: ${alvo.artigo} (${alvo.arquivo})`);
+  fs.rmSync(DIR_LOTE, { recursive: true, force: true });
+  fs.mkdirSync(DIR_LOTE, { recursive: true });
+  fs.renameSync(path.join(DIR_GOOGLE, alvo.arquivo), path.join(DIR_LOTE, alvo.arquivo));
+
+  const r = spawnSync('node', ['scripts/importar-artigo.js'], { cwd: ROOT, encoding: 'utf8', env: { ...process.env, ENTRADA_LOTE: DIR_LOTE } });
+  console.log((r.stdout || '') + (r.stderr || ''));
+
+  // o importador reescreve data/articles.json: o que vale como sucesso é o registro no banco, não o log
+  const db = JSON.parse(fs.readFileSync(ARTICLES_FILE, 'utf8'));
+  const slugEsperado = slugify(alvo.keyword);
+  const slugArquivo = slugify(alvo.arquivo.replace(/\.txt$/, ''));
+  const art = db.articles.find((a) => a.slug === slugEsperado || a.slug === slugArquivo || norm(a.primaryKeyword || a.validacao?.palavraChave || '') === norm(alvo.keyword));
+
+  let publicou = false;
+  if (!art) {
+    falhas.push(alvo);
+    console.log(`  ❌ ${alvo.artigo}: importação não concluída (ver .relatorio.md na pasta google)`);
+  } else if (art.segurar) {
+    falhas.push({ ...alvo, motivo: 'segurado para revisão humana' });
+    console.log(`  ✋ /${art.slug}/ está segurado (revisão humana): não publica.`);
+  } else if (art.status === 'published') {
+    publicou = true; // já estava no ar: só arquiva o .txt para não voltar à fila
+    console.log(`  ⏭️  /${art.slug}/ já estava publicado; arquivando o .txt.`);
+  } else {
+    art.status = 'published'; art.publishedAt = agora; art.estoque = false; art.publicadoDoEstoqueEm = agora;
+    db.stats = db.stats || {};
+    db.stats.published = db.articles.filter((a) => a.status === 'published').length;
+    fs.writeFileSync(ARTICLES_FILE, JSON.stringify(db, null, 2));
+    publicados.push({ ...alvo, slug: art.slug });
+    publicou = true;
+    console.log(`  📤 marcado para publicação: /${art.slug}/`);
+  }
+
+  // o .txt aprovado vai para processados/ (evita republicação); o recusado volta para google/ com o relatório
+  const noLote = path.join(DIR_LOTE, alvo.arquivo);
+  const relLote = noLote.replace(/\.txt$/, '.relatorio.md');
+  const destino = publicou ? dirProc : DIR_GOOGLE;
+  if (fs.existsSync(noLote)) fs.renameSync(noLote, path.join(destino, alvo.arquivo));
+  if (fs.existsSync(relLote)) {
+    if (publicou) fs.rmSync(relLote);
+    else fs.renameSync(relLote, path.join(DIR_GOOGLE, path.basename(relLote)));
+  }
+  // o importador move o .txt aprovado direto para processados/; o relatório antigo na pasta google perde a validade
+  const relGoogle = path.join(DIR_GOOGLE, alvo.arquivo.replace(/\.txt$/, '.relatorio.md'));
+  if (publicou && fs.existsSync(relGoogle)) fs.rmSync(relGoogle);
+  fs.rmSync(DIR_LOTE, { recursive: true, force: true });
 }
+
+if (publicados.length < MAX) console.log(`\n⚠️  Publicados ${publicados.length} de ${MAX}: a fila acabou antes da meta.`);
 
 // 4) status automáticos
 const alteradosCal = [];
@@ -191,7 +220,7 @@ atualizarMestre(publicados.map((p) => p.keyword), 'PUBLICADO', 'PESQUISA CONCLU�
 atualizarMestre(falhas.map((f) => f.keyword), 'ERRO PUBLICAÇÃO', null);
 
 // 5) resumo para o log do workflow
-const resumo = { tentativas: alvos.length, publicados: publicados.map((p) => ({ artigo: p.artigo, slug: p.slug })), erros: falhas.map((f) => ({ artigo: f.artigo, motivo: f.motivo || 'importação/recusa' })) };
+const resumo = { candidatos: candidatos.length, tentativas: publicados.length + falhas.length, meta: MAX, publicados: publicados.map((p) => ({ artigo: p.artigo, slug: p.slug })), erros: falhas.map((f) => ({ artigo: f.artigo, motivo: f.motivo || 'importação/recusa' })) };
 console.log('\n📊 RESUMO: ' + JSON.stringify(resumo));
 try { fs.writeFileSync(path.join(ROOT, 'data/entrada/google/.ultimo-run.json'), JSON.stringify({ em: agora, ...resumo }, null, 2)); } catch {}
 

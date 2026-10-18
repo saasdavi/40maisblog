@@ -1,6 +1,8 @@
 name: Publicação de artigos (manual)
 
 # Workflow SOMENTE MANUAL: roda quando você clica em "Run workflow".
+# Publica 1 artigo por acionamento (padrão). Se o primeiro da fila for recusado pela auditoria,
+# ele tenta o próximo até publicar 1 — o arquivo recusado volta para a pasta com o .relatorio.md do motivo.
 # Pega os artigos prontos da pasta data/entrada/google/ (entregues pelo redator),
 # valida/audita via importador, publica no blog e faz deploy automático na Vercel.
 # Depois atualiza os status automaticamente:
@@ -11,9 +13,9 @@ on:
   workflow_dispatch:
     inputs:
       max_artigos:
-        description: 'Quantos artigos publicar nesta execução (padrão 3/dia)'
+        description: 'Quantos artigos publicar nesta execução (padrão 1)'
         required: false
-        default: '3'
+        default: '1'
       confirmar_no_site:
         description: 'Após o deploy, conferir se as URLs respondem 200 em 40mais.blog? (sim/não)'
         required: false
@@ -42,9 +44,9 @@ jobs:
       - name: Instalar dependências
         run: npm install --no-audit --no-fund
 
-      - name: Publicar artigos da entrada google
+      - name: Publicar artigo(s) da entrada google
         env:
-          MAX_POR_DIA: ${{ github.event.inputs.max_artigos || '3' }}
+          MAX_POR_DIA: ${{ github.event.inputs.max_artigos || '1' }}
           FOTO_NA_PUBLICACAO: '1'
           CHECK_SITE: "0"
           PEXEL_API_KEY: ${{ secrets.PEXEL_API_KEY }}
