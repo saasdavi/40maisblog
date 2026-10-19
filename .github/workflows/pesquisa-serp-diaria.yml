@@ -40,7 +40,7 @@ jobs:
       - name: Instalar dependências
         run: npm install --no-audit --no-fund
 
-      - name: Pesquisar na SerpAPI (até 5 pautas)
+      - name: Pesquisar na SerpAPI (1 pauta por execução)
         id: pesquisar
         env:
           SERP_API_KEY: ${{ secrets.SERP___APIKEY }}
