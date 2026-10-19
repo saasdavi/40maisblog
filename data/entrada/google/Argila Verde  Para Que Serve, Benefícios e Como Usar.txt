@@ -2,6 +2,10 @@ PALAVRA_CHAVE: Argila Verde Para Que Serve, Benefícios e Como Usar
 TITLE: Argila Verde Para Que Serve, Benefícios e Como Usar
 DESCRIPTION: Argila verde é um dos ingredientes naturais mais usados em máscaras faciais para pele oleosa e acneica. Ela promete controlar a oleosidade, reduzir cravos e
 CAPA_ALT: Máscara de argila verde sendo aplicada no rosto com pincel em ambiente de spa
+CAPA_URL: https://images.pexels.com/photos/11757795/pexels-photo-11757795.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 11757795
+CAPA_CREDITO: Yusuf Miah | https://www.pexels.com/photo/woman-riding-a-para-cycling-device-11757795/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T03:45:39.396Z
 ---
 <p><strong>Argila verde</strong> é um dos ingredientes naturais mais usados em máscaras faciais para pele oleosa e acneica. Ela promete controlar a oleosidade, reduzir cravos e melhorar a textura da pele. Mas o uso incorreto pode causar efeito rebote, ressecamento e irritação.</p>
 <p>Entender como a argila age, quais são suas propriedades e como aplicá-la corretamente é essencial para obter benefícios sem prejudicar a barreira cutânea.</p>
