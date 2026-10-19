@@ -1,0 +1,109 @@
+PALAVRA_CHAVE: dermatite de contato
+TITLE: Dermatite de contato: causas e como tratar
+DESCRIPTION: Entenda a dermatite de contato, a diferença entre a forma irritante e a alérgica, as causas mais comuns, o diagnóstico e o que fazer em casa.
+CAPA_ALT: Mãos sendo lavadas com sabão sob água corrente em uma pia moderna
+CAPA_URL: /images/dermatite-de-contato/dermatite-de-contato-capa.jpg
+CAPA_CREDITO: Kampus Production | https://www.pexels.com/photo/person-and-child-washing-their-hands-7414386/ | Pexels
+FONTE: Manual MSD Versão Saúde para a Família, inflamação da pele por contato com substâncias | https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-da-pele/coceira-e-dermatite/dermatite-de-contato
+FONTE: Mayo Clinic, alergia ao níquel: sintomas e causas | https://www.mayoclinic.org/es/diseases-conditions/nickel-allergy/symptoms-causes/syc-20351529
+FONTE: Mayo Clinic, alergia ao níquel: diagnóstico e tratamento | https://mayoclinic.org/es/diseases-conditions/nickel-allergy/diagnosis-treatment/drc-20351534
+---
+<p>A dermatite de contato é uma inflamação da pele causada pelo contato direto com uma substância, e pode ser irritante ou alérgica. Segundo o <a href="https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-da-pele/coceira-e-dermatite/dermatite-de-contato" rel="noopener nofollow" target="_blank">Manual MSD</a>, a erupção fica limitada à área de contato.</p>
+<p>Identificar a substância é a base do cuidado. Os cuidados em casa ajudam, mas casos persistentes pedem avaliação médica.</p>
+
+<h2>O que é a dermatite de contato e quais são os tipos?</h2>
+<p>O Manual MSD descreve a condição como uma inflamação da pele e uma erupção causadas pelo contato direto com uma substância específica. A erupção pode coçar ou doer e costuma ter bordas bem definidas.</p>
+<p>Há dois mecanismos: a irritação e a reação alérgica. A forma irritante corresponde à maioria dos casos e ocorre quando uma substância tóxica ou química causa dano direto à pele. Ela costuma causar mais dor do que coceira.</p>
+<p>A forma alérgica é uma reação do sistema imunológico a uma substância que esteve em contato com a pele. Em geral, causa mais coceira do que dor.</p>
+<p>Tocar no líquido da erupção ou da bolha não transmite a condição para outras pessoas nem para outras partes do corpo, segundo o manual.</p>
+
+<h2>Quais substâncias causam a forma irritante?</h2>
+<p>O manual cita estas substâncias irritantes:</p>
+<ul>
+<li>ácidos;</li>
+<li>álcalis, como os desentupidores de ralo;</li>
+<li>solventes, como a acetona dos removedores de esmalte;</li>
+<li>sabões e detergentes mais agressivos;</li>
+<li>certas plantas, como poinsétias e pimentas;</li>
+<li>umidade constante de líquidos do corpo, como urina e saliva.</li>
+</ul>
+<p>Algumas dessas substâncias provocam alterações na pele em poucos minutos. Outras exigem mais tempo de exposição. Mesmo sabões e detergentes suaves podem irritar depois de contato frequente ou prolongado.</p>
+<p>A sensibilidade varia. A idade, com pessoas muito jovens ou muito idosas, e o ambiente, com baixa umidade do ar ou temperatura alta, influenciam o aparecimento.</p>
+<p>O contato com materiais manipulados no trabalho pode causar a forma ocupacional. Ela pode surgir logo após a exposição ou depois de muitas repetições.</p>
+
+<h2>Quais substâncias causam a forma alérgica?</h2>
+<p>Segundo o manual, milhares de substâncias podem causar a forma alérgica. As mais comuns estão em metais, como o níquel, em conservantes, em plantas, como a hera venenosa, na borracha, incluindo o látex, e em fragrâncias.</p>
+<p>O sulfato de níquel é o alérgeno de contato mais comum na maioria das populações, e é um componente frequente das joias. A <a href="https://www.mayoclinic.org/es/diseases-conditions/nickel-allergy/symptoms-causes/syc-20351529" rel="noopener nofollow" target="_blank">Mayo Clinic</a> descreve a alergia ao níquel como causa comum, que costuma aparecer depois de exposição repetida ou prolongada.</p>
+<p>Cosméticos, perfumes, protetores solares e desodorantes também podem provocar a reação. O manual afirma que até pomadas, cremes e loções usados no tratamento podem causá-la.</p>
+<p>Uma pessoa pode usar uma substância por anos sem problema e, de repente, desenvolver a reação alérgica.</p>
+<p>Depois de sensibilizada, a pessoa reage a uma nova exposição em 4 a 24 horas. Algumas só reagem após 3 ou 4 dias.</p>
+
+<h2>Quais são os sintomas?</h2>
+<p>Em qualquer tipo, há coceira e erupção. Na forma irritante, a dor pesa mais, e os sintomas costumam diminuir em um ou dois dias, se não houver nova exposição.</p>
+<p>Na forma alérgica, os sintomas podem levar um dia ou mais para aparecer e aumentar por dois a três dias depois da exposição.</p>
+<p>A erupção vai de uma vermelhidão leve e passageira a um inchaço acentuado com bolhas grandes. Nas mãos e nos pés, podem surgir bolhas pequenas.</p>
+<p>Ela aparece só nas áreas que tocaram a substância, primeiro nas regiões de pele mais fina, como entre os dedos. Na forma alérgica, o padrão pode indicar a causa. A hera venenosa, por exemplo, forma estrias semelhantes a riscos na pele.</p>
+
+<h2>Como é feito o diagnóstico?</h2>
+<p>O diagnóstico se baseia na avaliação médica e no histórico, segundo o manual. Profissão, passatempos, afazeres domésticos, roupas, cosméticos e produtos usados na pele entram na conversa.</p>
+<p>A localização da erupção ajuda, principalmente quando ela surge sob roupas ou joias. Substâncias tocadas com as mãos podem chegar ao rosto, onde a pele mais sensível reage mesmo que as mãos não reajam.</p>
+<p>Se a causa não for clara, o médico pode fazer o teste de contato. Adesivos com alérgenos padrão ficam na parte superior das costas por 48 horas, e a pele é avaliada em seguida e de novo um ou dois dias depois.</p>
+<p>A <a href="https://mayoclinic.org/es/diseases-conditions/nickel-allergy/diagnosis-treatment/drc-20351534" rel="noopener nofollow" target="_blank">Mayo Clinic</a> também descreve o teste, com adesivos deixados na pele por dois dias. Se houver alergia, a pele sob o adesivo inflama.</p>
+
+<h2>O que fazer em casa e como é o tratamento?</h2>
+<p>O tratamento não funciona enquanto houver contato com a substância causadora, segundo o manual. Depois de eliminá-la, a vermelhidão costuma desaparecer com o tempo.</p>
+<p>As bolhas podem exsudar e formar crostas, mas secam rapidamente. Descamação, coceira e espessamento temporário da pele podem durar dias ou semanas.</p>
+<p>Pequenas áreas podem ser acalmadas com gaze ou pano fino embebido em água fria, aplicado várias vezes ao dia. Um corticoide aplicado na pele costuma ser usado, e um produto de venda livre pode ajudar.</p>
+<p>Se não ajudar, o médico pode receitar outro corticoide. Remédios para a coceira, tomados por via oral, também ajudam. Nos casos particularmente graves, o médico pode indicar um corticoide por via oral.</p>
+<p>Atenção: pomadas, cremes e loções usados no tratamento podem provocar a reação. A Mayo Clinic recomenda evitar certas pomadas antibióticas de venda livre, que podem conter ingredientes capazes de piorar a reação alérgica.</p>
+<p>A escolha do produto, da quantidade e do tempo de uso cabe ao médico ou ao farmacêutico.</p>
+<figure class="article-figure"><img src="/images/dermatite-de-contato/close-de-maos-aplicando-creme-hidratante-para-cuidar-da-pele.jpg" alt="Close de mãos aplicando creme hidratante para cuidar da pele" width="940" height="627" loading="lazy" /><figcaption>Produtos aplicados na pele também podem causar reação; peça orientação antes de usar. <span class="credit">Foto: <a href="https://www.pexels.com/photo/a-woman-in-black-long-sleeves-with-lotion-on-her-hand-4959905/" rel="noopener nofollow" target="_blank">https://kaboompics.com/</a> / Pexels</span></figcaption></figure>
+<h2>Como prevenir a dermatite de contato?</h2>
+<p>Segundo o manual, a prevenção passa por evitar as substâncias causadoras. As medidas incluem:</p>
+<ul>
+<li>lavar a pele com água e sabão imediatamente, se houver contato;</li>
+<li>usar luvas e roupa protetora quando há risco de exposição contínua;</li>
+<li>usar cremes de barreira, que bloqueiam certas substâncias, como o veneno da hera venenosa e resinas epóxi;</li>
+<li>evitar o sol, em quem tem as formas fototóxica ou fotoalérgica.</li>
+</ul>
+<p>O manual afirma que a dessensibilização, com injeções ou comprimidos da substância causadora, não é eficaz para prevenir.</p>
+<p>Para quem trabalha com níquel, a Mayo Clinic sugere criar uma barreira entre o metal e a pele. A clínica também cita kits de teste para detectar níquel em objetos de metal.</p>
+
+<h2>Existe uma forma que depende do sol?</h2>
+<p>Sim. Segundo o manual, a forma fototóxica surge quando a pessoa toca certas substâncias e depois expõe a pele à luz solar. Entre elas estão certos perfumes, anti-inflamatórios aplicados na pele, alcatrão de carvão e algumas plantas.</p>
+<p>Na forma fotoalérgica, a reação pode se espalhar para áreas não expostas ao sol. Causas típicas incluem fragrâncias, antissépticos, anti-inflamatórios e protetores solares.</p>
+<p>Quem tem essas formas deve evitar a exposição ao sol, segundo o manual.</p>
+
+<h2>Quanto tempo dura?</h2>
+<p>A forma alérgica pode levar várias semanas para desaparecer depois que a pessoa deixa de ser exposta ao alérgeno. A forma irritante costuma se resolver mais rápido, de acordo com o manual.</p>
+<p>Depois que uma pessoa reage a uma substância, ela geralmente reage pelo resto da vida. Por isso, evitar o contato é parte do cuidado de longo prazo.</p>
+
+<h2>Perguntas frequentes sobre a dermatite de contato</h2>
+<h3>A dermatite de contato é contagiosa?</h3>
+<p>Não. Tocar no líquido da erupção ou da bolha não transmite a condição a outras pessoas, segundo o Manual MSD.</p>
+<h3>É a mesma coisa que alergia?</h3>
+<p>Só a forma alérgica é uma reação do sistema imunológico. A forma irritante é um dano direto da substância à pele.</p>
+<h3>Pomadas podem piorar a reação?</h3>
+<p>Sim, podem. O manual afirma que até pomadas, cremes e loções do tratamento podem causar a reação, e a Mayo Clinic cita certas pomadas antibióticas de venda livre.</p>
+<h3>Quanto tempo a reação leva para aparecer?</h3>
+<p>Depende do tipo. Na forma alérgica, a pessoa já sensibilizada reage em 4 a 24 horas, e algumas só após 3 ou 4 dias, segundo o manual.</p>
+<h3>Luvas ajudam a prevenir?</h3>
+<p>Sim. O manual recomenda luvas e roupa protetora para quem corre risco de exposição contínua a substâncias que causam a reação.</p>
+<h3>Uma tatuagem temporária pode causar a reação?</h3>
+<p>Pode. O manual traz como exemplo uma criança com a forma alérgica no antebraço, depois de uma tatuagem temporária de henna preta.</p>
+
+<h2>Quando procurar um médico</h2>
+<p>Procure atendimento se os cuidados em casa não ajudarem ou se a erupção piorar, segundo a Mayo Clinic. Em caso de suspeita de infecção, a orientação é consultar o médico imediatamente.</p>
+<p>Quando a causa não é aparente, o médico pode fazer o teste de contato. Nos casos particularmente graves, ele pode indicar corticoide por via oral.</p>
+<p>Nenhum cuidado em casa substitui a avaliação de um profissional de saúde. Para outros guias do blog, veja os textos sobre <a href="/varizes/">varizes</a> e <a href="/dores-lombares/">dores lombares</a>.</p>
+<figure class="article-figure"><img src="/images/dermatite-de-contato/farmaceutico-entregando-uma-amostra-de-pomada-a-um-paciente-.jpg" alt="Farmacêutico entregando uma amostra de pomada a um paciente no consultório" width="940" height="627" loading="lazy" /><figcaption>O médico ou o farmacêutico define qual produto usar e por quanto tempo. <span class="credit">Foto: <a href="https://www.pexels.com/photo/pharmacist-with-medicament-8657301/" rel="noopener nofollow" target="_blank">cottonbro studio</a> / Pexels</span></figcaption></figure>
+<h2>Resumindo</h2>
+<p>A dermatite de contato é uma inflamação da pele por contato com uma substância, e pode ser irritante, com mais dor, ou alérgica, com mais coceira. O níquel é o alérgeno de contato mais comum na maioria das populações.</p>
+<p>O tratamento só funciona se o contato acabar. Pomadas e cremes também podem causar reação, e a escolha do produto cabe ao profissional. Em caso de dúvida, converse com um médico.</p>
+<h2>Fontes</h2>
+<ul>
+<li><a href="https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-da-pele/coceira-e-dermatite/dermatite-de-contato" rel="noopener nofollow" target="_blank">Manual MSD Versão Saúde para a Família, inflamação da pele por contato com substâncias</a></li>
+<li><a href="https://www.mayoclinic.org/es/diseases-conditions/nickel-allergy/symptoms-causes/syc-20351529" rel="noopener nofollow" target="_blank">Mayo Clinic, alergia ao níquel: sintomas e causas</a></li>
+<li><a href="https://mayoclinic.org/es/diseases-conditions/nickel-allergy/diagnosis-treatment/drc-20351534" rel="noopener nofollow" target="_blank">Mayo Clinic, alergia ao níquel: diagnóstico e tratamento</a></li>
+</ul>
+<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>

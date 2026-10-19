@@ -12061,7 +12061,7 @@
         "pexels:8450120"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:19.451Z",
       "scores": {
         "auditoria": 100,
@@ -12124,7 +12124,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:19.451Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.799Z"
     },
     {
       "id": "art_1791661579466_lq73",
@@ -12326,7 +12327,7 @@
         "pexels:35703187"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:23.866Z",
       "scores": {
         "auditoria": 95,
@@ -12374,7 +12375,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:23.866Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.800Z"
     },
     {
       "id": "art_1791661583882_hgv3",
@@ -12459,7 +12461,7 @@
         "pexels:842545"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:24.944Z",
       "scores": {
         "auditoria": 93,
@@ -12509,7 +12511,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:24.944Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.800Z"
     },
     {
       "id": "art_1791661586316_p9kh",
@@ -12608,7 +12611,7 @@
         "pexels:8657301"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:27.704Z",
       "scores": {
         "auditoria": 100,
@@ -12659,7 +12662,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:27.704Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.800Z"
     },
     {
       "id": "art_1791661587729_pms7",
@@ -12744,7 +12748,7 @@
         "pexels:4958946"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:29.099Z",
       "scores": {
         "auditoria": 100,
@@ -12792,7 +12796,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:29.099Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.800Z"
     },
     {
       "id": "art_1791661589122_x21q",
@@ -12869,7 +12874,7 @@
         "pexels:1591226"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:30.204Z",
       "scores": {
         "auditoria": 95,
@@ -12917,7 +12922,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:30.204Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.800Z"
     },
     {
       "id": "art_1791661590223_kvl5",
@@ -13129,7 +13135,7 @@
         "pexels:6065181"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:32.335Z",
       "scores": {
         "auditoria": 100,
@@ -13177,7 +13183,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:32.335Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.801Z"
     },
     {
       "id": "art_1791661592352_blqq",
@@ -13254,7 +13261,7 @@
         "pexels:10961480"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:33.564Z",
       "scores": {
         "auditoria": 94,
@@ -13302,7 +13309,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:33.564Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.801Z"
     },
     {
       "id": "art_1791661593593_3fni",
@@ -13379,7 +13387,7 @@
         "pexels:12955610"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:34.564Z",
       "scores": {
         "auditoria": 95,
@@ -13428,7 +13436,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:34.564Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.801Z"
     },
     {
       "id": "art_1791661594574_1155",
@@ -13509,7 +13518,7 @@
         "pexels:13534594"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:35.820Z",
       "scores": {
         "auditoria": 98,
@@ -13559,7 +13568,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:35.820Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.801Z"
     },
     {
       "id": "art_1791661595860_r2y5",
@@ -13636,7 +13646,7 @@
         "pexels:14631436"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:37.006Z",
       "scores": {
         "auditoria": 98,
@@ -13684,7 +13694,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:37.006Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.802Z"
     },
     {
       "id": "art_1791661599634_31u9",
@@ -13769,7 +13780,7 @@
         "pexels:6653877"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:40.713Z",
       "scores": {
         "auditoria": 97,
@@ -13818,7 +13829,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:40.713Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.804Z"
     },
     {
       "id": "art_1791661600730_p0kr",
@@ -14048,7 +14060,7 @@
         "pexels:17219736"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:43.976Z",
       "scores": {
         "auditoria": 96,
@@ -14095,7 +14107,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:43.976Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.804Z"
     },
     {
       "id": "art_1791661605691_2ae5",
@@ -14194,7 +14207,7 @@
         "pexels:5850907"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:47.482Z",
       "scores": {
         "auditoria": 100,
@@ -14247,7 +14260,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:47.482Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.804Z"
     },
     {
       "id": "art_1791661609263_bdrv",
@@ -14354,7 +14368,7 @@
         "pexels:32260065"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:50.934Z",
       "scores": {
         "auditoria": 100,
@@ -14407,7 +14421,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:50.934Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.804Z"
     },
     {
       "id": "art_1791667757301_j0j2",
@@ -14632,7 +14647,7 @@
         "pexels:7446660"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:46:53.618Z",
       "scores": {
         "auditoria": 100,
@@ -14679,7 +14694,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:46:53.618Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.804Z"
     },
     {
       "id": "art_1791661615725_lv7o",
@@ -14930,7 +14946,7 @@
         "pexels:11125295"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:47:01.319Z",
       "scores": {
         "auditoria": 100,
@@ -14982,7 +14998,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:47:01.319Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.804Z"
     },
     {
       "id": "art_1791661622732_mbjx",
@@ -15081,7 +15098,7 @@
         "pexels:6010873"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:47:04.295Z",
       "scores": {
         "auditoria": 100,
@@ -15132,7 +15149,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:47:04.295Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.805Z"
     },
     {
       "id": "art_1791661627193_xp1l",
@@ -15255,7 +15273,7 @@
         "pexels:6404981"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:47:08.920Z",
       "scores": {
         "auditoria": 100,
@@ -15312,7 +15330,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:47:08.920Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.805Z"
     },
     {
       "id": "art_1791661630636_z1oa",
@@ -15389,7 +15408,7 @@
         "pexels:11348089"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:47:11.815Z",
       "scores": {
         "auditoria": 92,
@@ -15439,7 +15458,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:47:11.815Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.805Z"
     },
     {
       "id": "art_1791661633738_d9uu",
@@ -15546,7 +15566,7 @@
         "pexels:4266931"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:47:14.951Z",
       "scores": {
         "auditoria": 100,
@@ -15599,7 +15619,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:47:14.951Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.805Z"
     },
     {
       "id": "art_1791661636759_j3d4",
@@ -15698,7 +15719,7 @@
         "pexels:8376308"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:47:19.019Z",
       "scores": {
         "auditoria": 100,
@@ -15749,7 +15770,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:47:19.019Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.805Z"
     },
     {
       "id": "art_1791661639028_ttyo",
@@ -15834,7 +15856,7 @@
         "pexels:7788313"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:47:19.860Z",
       "scores": {
         "auditoria": 93,
@@ -15884,7 +15906,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:47:19.860Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.805Z"
     },
     {
       "id": "art_1791661639878_7p79",
@@ -15969,7 +15992,7 @@
         "pexels:2291344"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:47:21.044Z",
       "scores": {
         "auditoria": 95,
@@ -16018,7 +16041,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:47:21.044Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.805Z"
     },
     {
       "id": "art_1791661643194_0d3b",
@@ -16117,7 +16141,7 @@
         "pexels:4371351"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:47:25.384Z",
       "scores": {
         "auditoria": 100,
@@ -16168,7 +16192,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:47:25.384Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.805Z"
     },
     {
       "id": "art_1791661645411_6vsi",
@@ -16271,7 +16296,7 @@
         "pexels:8417431"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:47:27.360Z",
       "scores": {
         "auditoria": 92,
@@ -16321,7 +16346,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:47:27.360Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.808Z"
     },
     {
       "id": "art_1791661647369_rch1",
@@ -16402,7 +16428,7 @@
         "pexels:32260064"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:47:28.452Z",
       "scores": {
         "auditoria": 100,
@@ -16450,7 +16476,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:47:28.452Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.809Z"
     },
     {
       "id": "art_1791661648469_25hp",
@@ -16531,7 +16558,7 @@
         "pexels:5605632"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:47:29.699Z",
       "scores": {
         "auditoria": 96,
@@ -16580,7 +16607,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:47:29.699Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.809Z"
     },
     {
       "id": "art_1791661649720_cj7q",
@@ -16661,7 +16689,7 @@
         "pexels:3026013"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:47:30.630Z",
       "scores": {
         "auditoria": 94,
@@ -16710,7 +16738,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:47:30.630Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.809Z"
     },
     {
       "id": "art_1791661652509_11p8",
@@ -16809,7 +16838,7 @@
         "pexels:165988"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:47:34.632Z",
       "scores": {
         "auditoria": 100,
@@ -16860,7 +16889,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:47:34.632Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.809Z"
     },
     {
       "id": "art_1791661654702_e0j8",
@@ -16937,7 +16967,7 @@
         "pexels:4803707"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T19:47:35.723Z",
       "scores": {
         "auditoria": 96,
@@ -16985,7 +17015,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T19:47:35.723Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.809Z"
     },
     {
       "id": "art_1791663621131_9per",
@@ -17084,7 +17115,7 @@
         "pexels:7320791"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:22.990Z",
       "scores": {
         "auditoria": 100,
@@ -17125,7 +17156,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:22.990Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.809Z"
     },
     {
       "id": "art_1791663624260_6u35",
@@ -17224,7 +17256,7 @@
         "pexels:8657375"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:26.029Z",
       "scores": {
         "auditoria": 100,
@@ -17272,7 +17304,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:26.029Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.809Z"
     },
     {
       "id": "art_1791663629808_vvob",
@@ -17367,7 +17400,7 @@
         "pexels:8667953"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:31.148Z",
       "scores": {
         "auditoria": 100,
@@ -17412,7 +17445,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:31.148Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.809Z"
     },
     {
       "id": "art_1791663632387_6zju",
@@ -17511,7 +17545,7 @@
         "pexels:15319035"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:33.950Z",
       "scores": {
         "auditoria": 100,
@@ -17557,7 +17591,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:33.950Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.810Z"
     },
     {
       "id": "art_1791663633964_jdsf",
@@ -17656,7 +17691,7 @@
         "pexels:8657287"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:35.221Z",
       "scores": {
         "auditoria": 100,
@@ -17702,7 +17737,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:35.221Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.810Z"
     },
     {
       "id": "art_1791663572801_034d",
@@ -17954,7 +17990,7 @@
         "unsplash:byGTytEGjBo"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:59.753Z",
       "scores": {
         "auditoria": 100,
@@ -18002,7 +18038,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:59.753Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.810Z"
     },
     {
       "id": "art_1791663575334_3njf",
@@ -18097,7 +18134,7 @@
         "pexels:8795584"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:19:36.623Z",
       "scores": {
         "auditoria": 100,
@@ -18142,7 +18179,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:19:36.623Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.810Z"
     },
     {
       "id": "art_1791663576670_nrv0",
@@ -18377,7 +18415,7 @@
         "pexels:37321079"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:19:39.696Z",
       "scores": {
         "auditoria": 100,
@@ -18422,7 +18460,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:19:39.696Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.810Z"
     },
     {
       "id": "art_1791663579719_0eue",
@@ -18517,7 +18556,7 @@
         "pexels:6635929"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:19:41.346Z",
       "scores": {
         "auditoria": 100,
@@ -18562,7 +18601,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:19:41.346Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.810Z"
     },
     {
       "id": "art_1791663581358_xfr9",
@@ -18639,7 +18679,7 @@
         "pexels:5178021"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:19:42.348Z",
       "scores": {
         "auditoria": 100,
@@ -18687,7 +18727,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:19:42.348Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.810Z"
     },
     {
       "id": "art_1791663582374_wcqn",
@@ -18764,7 +18805,7 @@
         "pexels:7582555"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:19:43.397Z",
       "scores": {
         "auditoria": 95,
@@ -18813,7 +18854,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:19:43.397Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.810Z"
     },
     {
       "id": "art_1791663583409_tw50",
@@ -18912,7 +18954,7 @@
         "pexels:6541074"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:19:44.572Z",
       "scores": {
         "auditoria": 100,
@@ -18958,7 +19000,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:19:44.572Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.810Z"
     },
     {
       "id": "art_1791663584585_z5l3",
@@ -19057,7 +19100,7 @@
         "pexels:8157159"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:19:46.148Z",
       "scores": {
         "auditoria": 100,
@@ -19104,7 +19147,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:19:46.148Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.810Z"
     },
     {
       "id": "art_1791663586163_3g2j",
@@ -19199,7 +19243,7 @@
         "pexels:13005383"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:19:47.431Z",
       "scores": {
         "auditoria": 100,
@@ -19246,7 +19290,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:19:47.431Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.810Z"
     },
     {
       "id": "art_1791663587443_4jxg",
@@ -19345,7 +19390,7 @@
         "pexels:15319047"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:19:48.551Z",
       "scores": {
         "auditoria": 100,
@@ -19391,7 +19436,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:19:48.551Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.810Z"
     },
     {
       "id": "art_1791663588565_nvu6",
@@ -19486,7 +19532,7 @@
         "pexels:3756519"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:19:49.903Z",
       "scores": {
         "auditoria": 100,
@@ -19531,7 +19577,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:19:49.903Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.811Z"
     },
     {
       "id": "art_1791663589914_2prg",
@@ -20067,7 +20114,7 @@
         "pexels:6970101"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:19:57.308Z",
       "scores": {
         "auditoria": 100,
@@ -20112,7 +20159,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:19:57.308Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.811Z"
     },
     {
       "id": "art_1791663597320_kau1",
@@ -20211,7 +20259,7 @@
         "pexels:8422686"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:19:58.843Z",
       "scores": {
         "auditoria": 100,
@@ -20259,7 +20307,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:19:58.843Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.811Z"
     },
     {
       "id": "art_1791663598855_phwq",
@@ -20354,7 +20403,7 @@
         "pexels:30764146"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:00.116Z",
       "scores": {
         "auditoria": 100,
@@ -20399,7 +20448,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:00.116Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.811Z"
     },
     {
       "id": "art_1791663600147_ucz0",
@@ -20498,7 +20548,7 @@
         "pexels:7321246"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:01.835Z",
       "scores": {
         "auditoria": 100,
@@ -20546,7 +20596,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:01.835Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.811Z"
     },
     {
       "id": "art_1791663601848_a82i",
@@ -20653,7 +20704,7 @@
         "pexels:7446684"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:04.268Z",
       "scores": {
         "auditoria": 100,
@@ -20701,7 +20752,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:04.268Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.811Z"
     },
     {
       "id": "art_1791663604280_fxu9",
@@ -20800,7 +20852,7 @@
         "pexels:8877114"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:06.790Z",
       "scores": {
         "auditoria": 100,
@@ -20848,7 +20900,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:06.790Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.811Z"
     },
     {
       "id": "art_1791663606804_fjdi",
@@ -20947,7 +21000,7 @@
         "pexels:8964948"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:08.757Z",
       "scores": {
         "auditoria": 100,
@@ -20993,7 +21046,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:08.757Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.811Z"
     },
     {
       "id": "art_1791663608779_5tyf",
@@ -21088,7 +21142,7 @@
         "pexels:4148905"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:10.752Z",
       "scores": {
         "auditoria": 100,
@@ -21133,7 +21187,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:10.752Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.811Z"
     },
     {
       "id": "art_1791663610776_5990",
@@ -21232,7 +21287,7 @@
         "pexels:7446680"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:12.550Z",
       "scores": {
         "auditoria": 100,
@@ -21280,7 +21335,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:12.550Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.811Z"
     },
     {
       "id": "art_1791663612564_thfn",
@@ -21375,7 +21431,7 @@
         "pexels:13679554"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:14.244Z",
       "scores": {
         "auditoria": 100,
@@ -21420,7 +21476,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:14.244Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.811Z"
     },
     {
       "id": "art_1791663614257_qgim",
@@ -21515,7 +21572,7 @@
         "pexels:8657373"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:15.449Z",
       "scores": {
         "auditoria": 100,
@@ -21560,7 +21617,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:15.449Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.811Z"
     },
     {
       "id": "art_1791663615462_dlb7",
@@ -21655,7 +21713,7 @@
         "pexels:8533045"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:17.371Z",
       "scores": {
         "auditoria": 100,
@@ -21700,7 +21758,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:17.371Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.812Z"
     },
     {
       "id": "art_1791663617384_oiaf",
@@ -21795,7 +21854,7 @@
         "pexels:6629398"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:19.389Z",
       "scores": {
         "auditoria": 100,
@@ -21840,7 +21899,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:19.389Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.812Z"
     },
     {
       "id": "art_1791663619403_iryp",
@@ -22081,7 +22141,7 @@
         "pexels:5659059"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:27.282Z",
       "scores": {
         "auditoria": 100,
@@ -22127,7 +22187,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:27.282Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.812Z"
     },
     {
       "id": "art_1791663627308_syep",
@@ -22323,7 +22384,7 @@
         "pexels:5038795"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T22:20:34.726Z",
       "scores": {
         "auditoria": 100,
@@ -22371,7 +22432,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T22:20:34.726Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.812Z"
     },
     {
       "id": "art_1791663635236_q904",
@@ -22470,7 +22532,7 @@
         "pexels:7020249"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:36.911Z",
       "scores": {
         "auditoria": 100,
@@ -22516,7 +22578,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:36.911Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.812Z"
     },
     {
       "id": "art_1791663636924_9cgw",
@@ -22611,7 +22674,7 @@
         "pexels:33637448"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:38.499Z",
       "scores": {
         "auditoria": 100,
@@ -22656,7 +22719,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:38.499Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.812Z"
     },
     {
       "id": "art_1791663638513_3m2f",
@@ -22751,7 +22815,7 @@
         "pexels:33448216"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:40.372Z",
       "scores": {
         "auditoria": 100,
@@ -22796,7 +22860,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:40.372Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.812Z"
     },
     {
       "id": "art_1791663640396_nhk2",
@@ -22895,7 +22960,7 @@
         "pexels:8413162"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:20:41.888Z",
       "scores": {
         "auditoria": 100,
@@ -22941,7 +23006,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:20:41.888Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.812Z"
     },
     {
       "id": "art_1791664171224_hgtw",
@@ -23184,7 +23250,7 @@
         "pexels:31613321"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:29:34.715Z",
       "scores": {
         "auditoria": 100,
@@ -23229,7 +23295,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:29:34.715Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.812Z"
     },
     {
       "id": "art_1791664174730_1jcx",
@@ -23332,7 +23399,7 @@
         "pexels:9628850"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:29:36.139Z",
       "scores": {
         "auditoria": 100,
@@ -23380,7 +23447,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:29:36.139Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.812Z"
     },
     {
       "id": "art_1791664176201_rh6i",
@@ -23475,7 +23543,7 @@
         "pexels:15319043"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:29:37.847Z",
       "scores": {
         "auditoria": 95,
@@ -23522,7 +23590,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:29:37.847Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.812Z"
     },
     {
       "id": "art_1791664177917_uryc",
@@ -23617,7 +23686,7 @@
         "pexels:37261964"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:29:39.405Z",
       "scores": {
         "auditoria": 100,
@@ -23664,7 +23733,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:29:39.405Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.812Z"
     },
     {
       "id": "art_1791664179420_pkyu",
@@ -23759,7 +23829,7 @@
         "pexels:36712860"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:29:40.960Z",
       "scores": {
         "auditoria": 100,
@@ -23804,7 +23874,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:29:40.960Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.813Z"
     },
     {
       "id": "art_1791664181037_h33w",
@@ -23899,7 +23970,7 @@
         "pexels:8157148"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:29:42.459Z",
       "scores": {
         "auditoria": 100,
@@ -23946,7 +24017,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:29:42.459Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.813Z"
     },
     {
       "id": "art_1791664182519_qscg",
@@ -24181,7 +24253,7 @@
         "pexels:1680585"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:29:46.186Z",
       "scores": {
         "auditoria": 100,
@@ -24226,7 +24298,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:29:46.186Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.813Z"
     },
     {
       "id": "art_1791664186210_p749",
@@ -24325,7 +24398,7 @@
         "pexels:5693050"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T20:29:47.603Z",
       "scores": {
         "auditoria": 100,
@@ -24365,7 +24438,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T20:29:47.603Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.813Z"
     },
     {
       "id": "art_1791667682303_ngwp",
@@ -24460,7 +24534,7 @@
         "pexels:39192358"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:03.379Z",
       "scores": {
         "auditoria": 100,
@@ -24507,7 +24581,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:03.379Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.813Z"
     },
     {
       "id": "art_1791667683422_gifs",
@@ -24602,7 +24677,7 @@
         "pexels:7593046"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:05.017Z",
       "scores": {
         "auditoria": 100,
@@ -24647,7 +24722,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:05.017Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.813Z"
     },
     {
       "id": "art_1791667685044_9ur4",
@@ -24742,7 +24818,7 @@
         "pexels:34178500"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:06.197Z",
       "scores": {
         "auditoria": 100,
@@ -24787,7 +24863,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:06.197Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.813Z"
     },
     {
       "id": "art_1791667686220_gjjh",
@@ -24886,7 +24963,7 @@
         "pexels:6948129"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:08.789Z",
       "scores": {
         "auditoria": 100,
@@ -24932,7 +25009,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:08.789Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.813Z"
     },
     {
       "id": "art_1791667688828_rvcr",
@@ -25172,7 +25250,7 @@
         "pexels:8406613"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:11.923Z",
       "scores": {
         "auditoria": 100,
@@ -25217,7 +25295,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:11.923Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.813Z"
     },
     {
       "id": "art_1791667691947_qktf",
@@ -25454,7 +25533,7 @@
         "pexels:23496505"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:14.499Z",
       "scores": {
         "auditoria": 100,
@@ -25499,7 +25578,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:14.499Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.813Z"
     },
     {
       "id": "art_1791667694532_gki7",
@@ -25594,7 +25674,7 @@
         "pexels:8844383"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:16.275Z",
       "scores": {
         "auditoria": 100,
@@ -25639,7 +25719,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:16.275Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.813Z"
     },
     {
       "id": "art_1791667696304_z4og",
@@ -25734,7 +25815,7 @@
         "pexels:8076181"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:18.494Z",
       "scores": {
         "auditoria": 100,
@@ -25779,7 +25860,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:18.494Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.813Z"
     },
     {
       "id": "art_1791667698520_tnxv",
@@ -25878,7 +25960,7 @@
         "pexels:4282689"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:19.949Z",
       "scores": {
         "auditoria": 100,
@@ -25925,7 +26007,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:19.949Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.814Z"
     },
     {
       "id": "art_1791667699976_vtnr",
@@ -26020,7 +26103,7 @@
         "pexels:6465183"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:21.650Z",
       "scores": {
         "auditoria": 100,
@@ -26067,7 +26150,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:21.650Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.814Z"
     },
     {
       "id": "art_1791667701678_0rij",
@@ -26162,7 +26246,7 @@
         "pexels:7551616"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:23.342Z",
       "scores": {
         "auditoria": 100,
@@ -26207,7 +26291,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:23.342Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.814Z"
     },
     {
       "id": "art_1791667703371_b93q",
@@ -26458,7 +26543,7 @@
         "pexels:36225588"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:26.905Z",
       "scores": {
         "auditoria": 100,
@@ -26503,7 +26588,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:26.905Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.814Z"
     },
     {
       "id": "art_1791667706939_pf9u",
@@ -26598,7 +26684,7 @@
         "pexels:10141165"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:28.529Z",
       "scores": {
         "auditoria": 100,
@@ -26643,7 +26729,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:28.529Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.814Z"
     },
     {
       "id": "art_1791667708573_uxgj",
@@ -26742,7 +26829,7 @@
         "pexels:15319040"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:29.755Z",
       "scores": {
         "auditoria": 100,
@@ -26788,7 +26875,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:29.755Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.814Z"
     },
     {
       "id": "art_1791667709796_zc60",
@@ -27028,7 +27116,7 @@
         "pexels:29611199"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:32.415Z",
       "scores": {
         "auditoria": 92,
@@ -27076,7 +27164,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:32.415Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.814Z"
     },
     {
       "id": "art_1791667712442_cenr",
@@ -27175,7 +27264,7 @@
         "pexels:6627667"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:34.014Z",
       "scores": {
         "auditoria": 100,
@@ -27221,7 +27310,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:34.014Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.814Z"
     },
     {
       "id": "art_1791667714043_czd5",
@@ -27320,7 +27410,7 @@
         "pexels:8498153"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:36.008Z",
       "scores": {
         "auditoria": 100,
@@ -27366,7 +27456,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:36.008Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.814Z"
     },
     {
       "id": "art_1791667716050_uewz",
@@ -27465,7 +27556,7 @@
         "pexels:8413157"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:37.443Z",
       "scores": {
         "auditoria": 100,
@@ -27513,7 +27604,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:37.443Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.815Z"
     },
     {
       "id": "art_1791667717470_w29u",
@@ -27608,7 +27700,7 @@
         "pexels:18503633"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:39.139Z",
       "scores": {
         "auditoria": 100,
@@ -27653,7 +27745,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:39.139Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.815Z"
     },
     {
       "id": "art_1791667719165_kaox",
@@ -27748,7 +27841,7 @@
         "pexels:7320789"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:40.273Z",
       "scores": {
         "auditoria": 100,
@@ -27795,7 +27888,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:40.273Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.815Z"
     },
     {
       "id": "art_1791667720301_9h62",
@@ -28041,7 +28135,7 @@
         "pexels:6541081"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:44.945Z",
       "scores": {
         "auditoria": 100,
@@ -28146,7 +28240,8 @@
         },
         "validadoEm": "2026-10-10T21:28:44.945Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.815Z"
     },
     {
       "id": "art_1791667724973_pt4d",
@@ -28245,7 +28340,7 @@
         "pexels:6255882"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:46.856Z",
       "scores": {
         "auditoria": 100,
@@ -28291,7 +28386,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:46.856Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.815Z"
     },
     {
       "id": "art_1791667726884_en4v",
@@ -28390,7 +28486,7 @@
         "pexels:35671829"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:48.650Z",
       "scores": {
         "auditoria": 92,
@@ -28437,7 +28533,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:48.650Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.815Z"
     },
     {
       "id": "art_1791667728677_wgda",
@@ -28532,7 +28629,7 @@
         "pexels:1120581"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:50.900Z",
       "scores": {
         "auditoria": 95,
@@ -28580,7 +28677,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:50.900Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.815Z"
     },
     {
       "id": "art_1791667730929_xg40",
@@ -28822,7 +28920,7 @@
         "pexels:7241259"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:54.476Z",
       "scores": {
         "auditoria": 100,
@@ -28869,7 +28967,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:54.476Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.815Z"
     },
     {
       "id": "art_1791667734505_q7as",
@@ -28964,7 +29063,7 @@
         "pexels:3762762"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:56.995Z",
       "scores": {
         "auditoria": 100,
@@ -29009,7 +29108,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:56.995Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.815Z"
     },
     {
       "id": "art_1791667737023_n2ep",
@@ -29104,7 +29204,7 @@
         "pexels:4586726"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:28:59.594Z",
       "scores": {
         "auditoria": 100,
@@ -29149,7 +29249,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:28:59.594Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.815Z"
     },
     {
       "id": "art_1791667739623_rkan",
@@ -29248,7 +29349,7 @@
         "pexels:8899509"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:01.106Z",
       "scores": {
         "auditoria": 95,
@@ -29296,7 +29397,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:01.106Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.815Z"
     },
     {
       "id": "art_1791667741135_y7iz",
@@ -29395,7 +29497,7 @@
         "pexels:7578799"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:02.264Z",
       "scores": {
         "auditoria": 100,
@@ -29441,7 +29543,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:02.264Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.815Z"
     },
     {
       "id": "art_1791667742307_44sf",
@@ -29676,7 +29779,7 @@
         "pexels:566564"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:05.090Z",
       "scores": {
         "auditoria": 100,
@@ -29721,7 +29824,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:05.090Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.815Z"
     },
     {
       "id": "art_1791667745118_tb4o",
@@ -29816,7 +29920,7 @@
         "pexels:11370618"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:06.520Z",
       "scores": {
         "auditoria": 100,
@@ -29863,7 +29967,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:06.520Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.816Z"
     },
     {
       "id": "art_1791667746552_7m52",
@@ -29962,7 +30067,7 @@
         "pexels:8670519"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:07.872Z",
       "scores": {
         "auditoria": 100,
@@ -30008,7 +30113,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:07.872Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.816Z"
     },
     {
       "id": "art_1791667747901_fl0p",
@@ -30103,7 +30209,7 @@
         "pexels:8657366"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:09.486Z",
       "scores": {
         "auditoria": 100,
@@ -30148,7 +30254,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:09.486Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.816Z"
     },
     {
       "id": "art_1791667749515_gp5r",
@@ -30247,7 +30354,7 @@
         "pexels:8157145"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:11.264Z",
       "scores": {
         "auditoria": 98,
@@ -30294,7 +30401,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:11.264Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.816Z"
     },
     {
       "id": "art_1791667751294_6ip6",
@@ -30389,7 +30497,7 @@
         "pexels:6129441"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:12.661Z",
       "scores": {
         "auditoria": 100,
@@ -30434,7 +30542,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:12.661Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.816Z"
     },
     {
       "id": "art_1791667752708_zarf",
@@ -30533,7 +30642,7 @@
         "pexels:36378013"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:14.034Z",
       "scores": {
         "auditoria": 100,
@@ -30578,7 +30687,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:14.034Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.816Z"
     },
     {
       "id": "art_1791667754062_1vzx",
@@ -30673,7 +30783,7 @@
         "pexels:14558556"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:15.414Z",
       "scores": {
         "auditoria": 100,
@@ -30718,7 +30828,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:15.414Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.816Z"
     },
     {
       "id": "art_1791667755446_9jd5",
@@ -30813,7 +30924,7 @@
         "pexels:38915535"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:17.272Z",
       "scores": {
         "auditoria": 100,
@@ -30858,7 +30969,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:17.272Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.816Z"
     },
     {
       "id": "art_1791667758931_1w1w",
@@ -31964,7 +32076,7 @@
         "pexels:18887340"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:30.707Z",
       "scores": {
         "auditoria": 100,
@@ -32010,7 +32122,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:30.707Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.816Z"
     },
     {
       "id": "art_1791667770737_kywb",
@@ -32109,7 +32222,7 @@
         "pexels:6129658"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:33.328Z",
       "scores": {
         "auditoria": 100,
@@ -32156,7 +32269,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:33.328Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.816Z"
     },
     {
       "id": "art_1791667773372_ezmf",
@@ -32538,7 +32652,7 @@
         "pexels:7607298"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:37.794Z",
       "scores": {
         "auditoria": 100,
@@ -32583,7 +32697,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:37.794Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.816Z"
     },
     {
       "id": "art_1791667777824_q63y",
@@ -32682,7 +32797,7 @@
         "pexels:6097883"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:39.287Z",
       "scores": {
         "auditoria": 100,
@@ -32729,7 +32844,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:39.287Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.816Z"
     },
     {
       "id": "art_1791667779317_06bm",
@@ -32828,7 +32944,7 @@
         "pexels:13427911"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:41.189Z",
       "scores": {
         "auditoria": 100,
@@ -32875,7 +32991,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:41.189Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.817Z"
     },
     {
       "id": "art_1791667781219_6yg8",
@@ -32974,7 +33091,7 @@
         "pexels:8844891"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:42.549Z",
       "scores": {
         "auditoria": 100,
@@ -33020,7 +33137,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:42.549Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.817Z"
     },
     {
       "id": "art_1791667782580_pop9",
@@ -33115,7 +33233,7 @@
         "pexels:5864762"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:43.930Z",
       "scores": {
         "auditoria": 100,
@@ -33160,7 +33278,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:43.930Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.817Z"
     },
     {
       "id": "art_1791667783961_bpqm",
@@ -33255,7 +33374,7 @@
         "pexels:37480152"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:45.762Z",
       "scores": {
         "auditoria": 100,
@@ -33300,7 +33419,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:45.762Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.817Z"
     },
     {
       "id": "art_1791667785794_jpuj",
@@ -33395,7 +33515,7 @@
         "pexels:23349904"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:47.080Z",
       "scores": {
         "auditoria": 100,
@@ -33440,7 +33560,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:47.080Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.817Z"
     },
     {
       "id": "art_1791667787111_cr6y",
@@ -33535,7 +33656,7 @@
         "pexels:6976327"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:49.018Z",
       "scores": {
         "auditoria": 100,
@@ -33582,7 +33703,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:49.018Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.817Z"
     },
     {
       "id": "art_1791667789049_s3vc",
@@ -33681,7 +33803,7 @@
         "unsplash:0jE8ynV4mis"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:51.502Z",
       "scores": {
         "auditoria": 100,
@@ -33728,7 +33850,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:51.502Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.817Z"
     },
     {
       "id": "art_1791667793070_wnmt",
@@ -33823,7 +33946,7 @@
         "unsplash:mWVvelLg21Q"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:54.646Z",
       "scores": {
         "auditoria": 100,
@@ -33868,7 +33991,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:54.646Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.817Z"
     },
     {
       "id": "art_1791667794679_76lx",
@@ -34109,7 +34233,7 @@
         "unsplash:S0e53v8k-VA"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:29:58.131Z",
       "scores": {
         "auditoria": 100,
@@ -34155,7 +34279,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:29:58.131Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.817Z"
     },
     {
       "id": "art_1791667799798_zz8d",
@@ -34539,7 +34664,7 @@
         "unsplash:gqP96iagklM"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:30:05.037Z",
       "scores": {
         "auditoria": 100,
@@ -34584,7 +34709,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:30:05.037Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.817Z"
     },
     {
       "id": "art_1791668070859_ysgp",
@@ -34823,7 +34949,7 @@
         "pexels:4586740"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:34:35.424Z",
       "scores": {
         "auditoria": 100,
@@ -34871,7 +34997,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:34:35.424Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.817Z"
     },
     {
       "id": "art_1791668075479_3xql",
@@ -35106,7 +35233,7 @@
         "pexels:12599544"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:34:39.266Z",
       "scores": {
         "auditoria": 100,
@@ -35151,7 +35278,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:34:39.266Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.818Z"
     },
     {
       "id": "art_1791669107396_9elf",
@@ -35250,7 +35378,7 @@
         "pexels:8113527"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:51:49.310Z",
       "scores": {
         "auditoria": 100,
@@ -35296,7 +35424,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:51:49.310Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.818Z"
     },
     {
       "id": "art_1791669109347_0hwx",
@@ -35391,7 +35520,7 @@
         "pexels:8157151"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:51:51.669Z",
       "scores": {
         "auditoria": 100,
@@ -35436,7 +35565,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:51:51.669Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.818Z"
     },
     {
       "id": "art_1791669111704_p1kz",
@@ -35531,7 +35661,7 @@
         "pexels:7089620"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:51:52.822Z",
       "scores": {
         "auditoria": 100,
@@ -35576,7 +35706,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:51:52.822Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.818Z"
     },
     {
       "id": "art_1791669112857_zmal",
@@ -35671,7 +35802,7 @@
         "pexels:39192347"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:51:54.192Z",
       "scores": {
         "auditoria": 100,
@@ -35716,7 +35847,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:51:54.192Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.818Z"
     },
     {
       "id": "art_1791669114231_tsn0",
@@ -35811,7 +35943,7 @@
         "pexels:7188053"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:51:55.792Z",
       "scores": {
         "auditoria": 100,
@@ -35856,7 +35988,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:51:55.792Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.818Z"
     },
     {
       "id": "art_1791669115825_fiyi",
@@ -35955,7 +36088,7 @@
         "pexels:8657368"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:51:57.310Z",
       "scores": {
         "auditoria": 100,
@@ -36002,7 +36135,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:51:57.310Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.818Z"
     },
     {
       "id": "art_1791669117343_0gid",
@@ -36097,7 +36231,7 @@
         "pexels:8157156"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:51:58.558Z",
       "scores": {
         "auditoria": 100,
@@ -36142,7 +36276,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:51:58.558Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.818Z"
     },
     {
       "id": "art_1791669118620_94ro",
@@ -36241,7 +36376,7 @@
         "pexels:9629693"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:51:59.966Z",
       "scores": {
         "auditoria": 100,
@@ -36288,7 +36423,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:51:59.966Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.818Z"
     },
     {
       "id": "art_1791669120006_yxlk",
@@ -36383,7 +36519,7 @@
         "pexels:6661049"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:52:01.559Z",
       "scores": {
         "auditoria": 100,
@@ -36430,7 +36566,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:52:01.559Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.818Z"
     },
     {
       "id": "art_1791669121595_rjb8",
@@ -36529,7 +36666,7 @@
         "pexels:4047146"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:52:02.812Z",
       "scores": {
         "auditoria": 100,
@@ -36576,7 +36713,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:52:02.812Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.818Z"
     },
     {
       "id": "art_1791669124734_wzhl",
@@ -36671,7 +36809,7 @@
         "pexels:5998454"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T21:52:05.817Z",
       "scores": {
         "auditoria": 100,
@@ -36716,7 +36854,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T21:52:05.817Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.818Z"
     },
     {
       "id": "art_1791670829752_xrk8",
@@ -36789,7 +36928,7 @@
         "pexels:1242471"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T22:20:31.776Z",
       "scores": {
         "auditoria": 100,
@@ -36836,7 +36975,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T22:20:31.776Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.818Z"
     },
     {
       "id": "art_1791670831809_e232",
@@ -36921,7 +37061,7 @@
         "pexels:37769505"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T22:20:33.121Z",
       "scores": {
         "auditoria": 100,
@@ -36969,7 +37109,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T22:20:33.121Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.819Z"
     },
     {
       "id": "art_1791670836599_dw6v",
@@ -37042,7 +37183,7 @@
         "pexels:7722648"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-10T22:20:37.770Z",
       "scores": {
         "auditoria": 100,
@@ -37089,7 +37230,8 @@
         "briefing": null,
         "validadoEm": "2026-10-10T22:20:37.770Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.819Z"
     },
     {
       "id": "art_1791670837814_kp4g",
@@ -37741,7 +37883,7 @@
         "pexels:13013774"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-12T11:02:56.931Z",
       "scores": {
         "auditoria": 100,
@@ -37790,7 +37932,8 @@
         "briefing": null,
         "validadoEm": "2026-10-12T11:02:56.931Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.819Z"
     },
     {
       "id": "art_1792099283827_647r",
@@ -37889,7 +38032,7 @@
         "pexels:10224830"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-15T21:21:26.218Z",
       "scores": {
         "auditoria": 100,
@@ -37939,7 +38082,8 @@
         "briefing": null,
         "validadoEm": "2026-10-15T21:21:26.218Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.819Z"
     },
     {
       "id": "art_1792099286263_itpw",
@@ -38038,7 +38182,7 @@
         "pexels:1192031"
       ],
       "altConferido": false,
-      "estoque": true,
+      "estoque": false,
       "estocadoEm": "2026-10-15T21:21:27.392Z",
       "scores": {
         "auditoria": 100,
@@ -38086,7 +38230,8 @@
         "briefing": null,
         "validadoEm": "2026-10-15T21:21:27.392Z",
         "observacao": "originalidade contra o concorrente não conferida automaticamente"
-      }
+      },
+      "movidoParaGoogle": "2026-10-19T01:05:20.819Z"
     }
   ],
   "stats": {

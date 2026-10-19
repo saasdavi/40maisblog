@@ -1,0 +1,126 @@
+PALAVRA_CHAVE: paralisia do sono
+TITLE: Paralisia do sono: causas e o que fazer
+DESCRIPTION: Entenda a paralisia do sono: o que acontece no corpo, os sintomas, as causas associadas, a ligação com a narcolepsia e quando procurar um médico.
+CAPA_ALT: Mulher dormindo em um quarto aconchegante com uma luz de cabeceira acesa
+CAPA_URL: /images/paralisia-do-sono/paralisia-do-sono-capa.jpg
+CAPA_CREDITO: Anastasiya Vragova | https://www.pexels.com/photo/an-alarm-clock-on-bedside-near-a-sleeping-woman-8346006/ | Pexels
+FONTE: nidirect (adaptado do NHS), paralisia do sono | https://www.nidirect.gov.uk/conditions/sleep-paralysis
+FONTE: Harvard Health, causas, sintomas e tratamentos | https://www.health.harvard.edu/diseases-and-conditions/sleep-paralysis-causes-symptoms-and-treatments
+FONTE: Cleveland Clinic, paralisia do sono | https://my.clevelandclinic.org/health/diseases/21974-sleep-paralysis
+FONTE: PubMed Central, guia clínico sobre paralisia do sono isolada recorrente | https://pmc.ncbi.nlm.nih.gov/articles/PMC4958367
+---
+<p>A paralisia do sono é a incapacidade temporária de se mover ou falar ao acordar ou ao adormecer, com a pessoa consciente. Segundo o <a href="https://www.nidirect.gov.uk/conditions/sleep-paralysis" rel="noopener nofollow" target="_blank">nidirect</a>, ela não é prejudicial e costuma passar rápido, embora assuste.</p>
+<p>Na maioria dos casos é um evento isolado. Mas episódios frequentes merecem conversa com um médico.</p>
+
+<h2>O que é a paralisia do sono?</h2>
+<p>O serviço de saúde da Irlanda do Norte, em página adaptada do NHS, descreve a condição como uma incapacidade temporária de se mover ou falar ao acordar ou ao adormecer. Ela pode afetar qualquer pessoa, mas é mais comum em adultos jovens.</p>
+<p>Muita gente tem um ou dois episódios na vida, segundo o <a href="https://www.nidirect.gov.uk/conditions/sleep-paralysis" rel="noopener nofollow" target="_blank">nidirect</a>. Outras pessoas têm algumas vezes por mês, ou com mais frequência.</p>
+<p>A <a href="https://my.clevelandclinic.org/health/diseases/21974-sleep-paralysis" rel="noopener nofollow" target="_blank">Cleveland Clinic</a> informa que os sintomas podem aparecer pela primeira vez na infância ou na adolescência.</p>
+
+<h2>Quais são os sintomas?</h2>
+<p>O principal sintoma é estar completamente ciente do ambiente, mas incapaz de se mover ou falar por um tempo. Isso costuma ocorrer ao acordar, e às vezes ao adormecer, segundo o nidirect.</p>
+<p>Durante o episódio, a pessoa pode:</p>
+<ul>
+<li>ter dificuldade de respirar fundo, como se o peito estivesse sendo apertado;</li>
+<li>conseguir mexer os olhos, e algumas pessoas também conseguem abri-los;</li>
+<li>sentir que há alguém ou algo no quarto, uma alucinação em que muitos sentem que a presença quer lhes fazer mal;</li>
+<li>sentir muito medo.</li>
+</ul>
+<p>Um episódio dura de alguns segundos a vários minutos. Depois, a pessoa volta a se mover e a falar normalmente, embora possa ficar inquieta e ansiosa para voltar a dormir.</p>
+
+<h2>O que acontece no corpo durante o episódio?</h2>
+<p>O nidirect explica que ela ocorre quando partes do sono REM acontecem enquanto a pessoa está acordada. O REM é a fase do sono em que o cérebro fica muito ativo e os sonhos costumam ocorrer.</p>
+<p>Nessa fase, o corpo não consegue se mover, exceto os olhos e os músculos da respiração. Isso pode servir para impedir que a pessoa reproduza os sonhos e se machuque.</p>
+<p>Não está claro por que o REM às vezes ocorre com a pessoa acordada. A página afirma que, em muitos casos, o episódio é único ou raro, em alguém saudável em outros aspectos.</p>
+
+<h2>Quais fatores estão associados?</h2>
+<p>Segundo o nidirect, o fenômeno foi associado a estes fatores:</p>
+<ul>
+<li>sono insuficiente, por privação ou insônia;</li>
+<li>padrões de sono irregulares, por exemplo, por trabalho em turnos ou fuso horário;</li>
+<li>narcolepsia, condição de longa duração em que a pessoa dorme de repente em horários inadequados;</li>
+<li>histórico familiar do problema;</li>
+<li>dormir de costas.</li>
+</ul>
+<p>A <a href="https://www.health.harvard.edu/diseases-and-conditions/sleep-paralysis-causes-symptoms-and-treatments" rel="noopener nofollow" target="_blank">Harvard Health</a> observa que pessoas com episódios recorrentes ou assustadores podem criar maus hábitos de sono para evitar dormir, o que leva à privação de sono.</p>
+<p>Se a preocupação com o sono pesa, veja o guia sobre <a href="/meditacao-ansiedade-40/">como meditar</a>.</p>
+<figure class="article-figure"><img src="/images/paralisia-do-sono/jovem-de-pijama-esticando-o-braco-para-desligar-o-despertado.jpg" alt="Jovem de pijama esticando o braço para desligar o despertador no quarto" width="940" height="625" loading="lazy" /><figcaption>Horários irregulares e pouco sono estão entre os fatores associados aos episódios. <span class="credit">Foto: <a href="https://www.pexels.com/photo/woman-in-bed-switching-alarm-clock-off-8090974/" rel="noopener nofollow" target="_blank">PNW Production</a> / Pexels</span></figcaption></figure>
+<h2>Paralisia do sono e narcolepsia: qual a ligação?</h2>
+<p>A narcolepsia é uma condição de longa duração que faz a pessoa adormecer de repente em horários inadequados, segundo o nidirect. A paralisia do sono pode ser um sintoma dela.</p>
+<p>O nidirect pede atenção se a pessoa sente muito sono durante o dia, tem episódios de sono súbito ou perde o controle dos músculos. Esses são sintomas da narcolepsia.</p>
+<p>A Harvard Health informa que a forma recorrente pode estar associada à narcolepsia. Quando aparece sem outros sinais de narcolepsia ou de outro distúrbio do sono, ela é chamada de isolada.</p>
+
+<h2>Qual a diferença entre a forma isolada e a recorrente?</h2>
+<p>A forma isolada ocorre sem outros sinais de narcolepsia ou de distúrbios do sono, segundo a <a href="https://www.health.harvard.edu/diseases-and-conditions/sleep-paralysis-causes-symptoms-and-treatments" rel="noopener nofollow" target="_blank">Harvard Health</a>. Se ocorre repetidamente, chama-se paralisia do sono isolada recorrente.</p>
+<p>Um <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4958367" rel="noopener nofollow" target="_blank">guia clínico no PubMed Central</a> explica que a forma isolada ocorre fora da narcolepsia e de outras condições médicas.</p>
+<p>Esse guia diz que a forma recorrente é um diagnóstico reconhecido, mas pouco conhecido por médicos que não são especialistas em sono. Ele a descreve como vários episódios associados a sofrimento importante, como medo ligado ao quarto ou ao sono.</p>
+
+<h2>O que fazer durante um episódio?</h2>
+<p>Segundo o <a href="https://www.nidirect.gov.uk/conditions/sleep-paralysis" rel="noopener nofollow" target="_blank">nidirect</a>, o fenômeno não é prejudicial e deve passar rápido, embora possa assustar. Saber disso ajuda a manter a calma.</p>
+<p>A <a href="https://my.clevelandclinic.org/health/diseases/21974-sleep-paralysis" rel="noopener nofollow" target="_blank">Cleveland Clinic</a> afirma que não há tratamento para interromper um episódio em andamento. A <a href="https://www.health.harvard.edu/diseases-and-conditions/sleep-paralysis-causes-symptoms-and-treatments" rel="noopener nofollow" target="_blank">Harvard Health</a> também diz que não existe uma estratégia direta para tratá-lo durante o episódio.</p>
+<p>Como a pessoa consegue mexer os olhos, esse é um movimento que continua disponível durante o quadro, segundo o nidirect.</p>
+<p>Depois do episódio, a pessoa volta a se mover e a falar normalmente. O que ajuda mais é cuidar do sono nos dias seguintes.</p>
+
+<h2>Como é feito o diagnóstico?</h2>
+<p>Segundo a <a href="https://my.clevelandclinic.org/health/diseases/21974-sleep-paralysis" rel="noopener nofollow" target="_blank">Cleveland Clinic</a>, o diagnóstico considera os sintomas: com que frequência ocorrem, como são e quando começaram.</p>
+<p>A clínica afirma que o profissional pode pedir exames se suspeitar de um distúrbio do sono que cause o problema, como a narcolepsia.</p>
+<p>A Harvard Health informa que o médico pergunta sobre sintomas, hábitos de sono e fatores que afetam o sono. Dependendo do caso, ele pode encaminhar a pessoa a um especialista em sono.</p>
+
+<h2>O que fazer para reduzir os episódios?</h2>
+<p>O nidirect afirma que o quadro costuma melhorar com o tempo, e que melhorar os hábitos e o ambiente de sono pode ajudar. As medidas incluem:</p>
+<ul>
+<li>dormir bem; a maioria dos adultos precisa de seis a oito horas de sono de boa qualidade por noite;</li>
+<li>deitar mais ou menos no mesmo horário e acordar no mesmo horário;</li>
+<li>criar um ambiente confortável, silencioso, escuro e sem excesso de calor ou frio;</li>
+<li>evitar refeições pesadas, cigarro, álcool ou cafeína perto de dormir;</li>
+<li>fazer exercício regularmente, mas não nas quatro horas antes de dormir.</li>
+</ul>
+<p>Essas medidas não garantem que os episódios acabem, e os efeitos são modestos. Elas dependem da regularidade e de uma rotina equilibrada.</p>
+<p>Para quem se sente tenso ao deitar, veja também o guia sobre <a href="/cortisol-alto/">cortisol alto</a>.</p>
+<figure class="article-figure"><img src="/images/paralisia-do-sono/maos-segurando-um-despertador-sobre-uma-cama-arrumada-de-man.jpg" alt="Mãos segurando um despertador sobre uma cama arrumada, de manhã" width="940" height="627" loading="lazy" /><figcaption>Dormir e acordar sempre nos mesmos horários ajuda a melhorar os hábitos de sono. <span class="credit">Foto: <a href="https://www.pexels.com/photo/person-holding-round-analog-alarm-clock-11125295/" rel="noopener nofollow" target="_blank">Towfiqu barbhuiya</a> / Pexels</span></figcaption></figure>
+<h2>Existe tratamento com remédios?</h2>
+<p>Segundo o nidirect, se o quadro for particularmente grave, um médico especialista pode sugerir um antidepressivo. Ele age alterando o sono REM e costuma ser prescrito em doses menores do que as usadas na depressão.</p>
+<p>Este guia não traz nomes de remédios nem doses. A decisão cabe ao médico, depois de avaliar cada caso.</p>
+<p>A Cleveland Clinic afirma que não há tratamento para interromper um episódio em andamento. Há tratamento para reduzir a frequência, e ele depende da causa.</p>
+
+<h2>O que levar à consulta?</h2>
+<p>A <a href="https://my.clevelandclinic.org/health/diseases/21974-sleep-paralysis" rel="noopener nofollow" target="_blank">Cleveland Clinic</a> diz que o profissional considera com que frequência os episódios ocorrem, como são e quando começaram. Anotar esses pontos ajuda.</p>
+<p>Estas sugestões se baseiam nas fontes citadas:</p>
+<ul>
+<li>quantas vezes os episódios aconteceram e em que momento, ao dormir ou ao acordar;</li>
+<li>como foi o episódio, incluindo medo, sensação de presença e dificuldade de respirar;</li>
+<li>horários de dormir e acordar, e quantas horas de sono por noite;</li>
+<li>sono excessivo de dia, cochilos súbitos ou perda de controle dos músculos;</li>
+<li>histórico de episódios parecidos na família.</li>
+</ul>
+<p>A clínica sugere ainda perguntar ao profissional o que está causando o problema, se ele recomenda tratamento e se há efeitos colaterais.</p>
+
+<h2>Perguntas frequentes sobre a paralisia do sono</h2>
+<h3>A paralisia do sono é perigosa?</h3>
+<p>Segundo o nidirect, ela não é prejudicial e não costuma ser sinal de um problema de fundo. Pode, porém, assustar bastante.</p>
+<h3>Quanto tempo dura um episódio?</h3>
+<p>De alguns segundos a vários minutos, segundo o nidirect. Depois, a pessoa se move e fala normalmente.</p>
+<h3>Crianças e adolescentes podem ter?</h3>
+<p>Sim. A Cleveland Clinic informa que os sintomas podem aparecer pela primeira vez na infância ou na adolescência.</p>
+<h3>O medo de dormir pode piorar o quadro?</h3>
+<p>Pode. A Harvard Health observa que o medo de novos episódios pode levar a evitar o sono, e isso causa privação de sono.</p>
+<h3>Dormir de costas piora?</h3>
+<p>Dormir de costas está entre os fatores associados ao problema, segundo o nidirect. Os estudos não dizem que mudar a posição elimina os episódios.</p>
+<h3>Ter um episódio quer dizer que há narcolepsia?</h3>
+<p>Não necessariamente. A forma isolada ocorre sem narcolepsia, segundo a Harvard Health. Quem também sente muito sono de dia deve procurar um médico.</p>
+
+<h2>Quando procurar um médico</h2>
+<p>O nidirect recomenda consultar um médico se os episódios forem frequentes, se houver muita ansiedade para dormir ou dificuldade de dormir o suficiente.</p>
+<p>Procure atendimento também se houver muito sono durante o dia, episódios de sono súbito ou perda de controle dos músculos. Nenhum cuidado em casa substitui a avaliação de um profissional de saúde.</p>
+
+<h2>Resumindo</h2>
+<p>A paralisia do sono é um episódio temporário, em que a pessoa fica consciente, mas sem conseguir se mover ou falar, por segundos a minutos. Segundo o nidirect, ela não é prejudicial e costuma ser ocasional.</p>
+<p>Dormir mal, horários irregulares e a narcolepsia estão entre os fatores associados. Hábitos de sono regulares ajudam. Em caso de episódios frequentes ou muito sono de dia, converse com um médico.</p>
+<h2>Fontes</h2>
+<ul>
+<li><a href="https://www.nidirect.gov.uk/conditions/sleep-paralysis" rel="noopener nofollow" target="_blank">nidirect (adaptado do NHS), paralisia do sono</a></li>
+<li><a href="https://www.health.harvard.edu/diseases-and-conditions/sleep-paralysis-causes-symptoms-and-treatments" rel="noopener nofollow" target="_blank">Harvard Health, causas, sintomas e tratamentos</a></li>
+<li><a href="https://my.clevelandclinic.org/health/diseases/21974-sleep-paralysis" rel="noopener nofollow" target="_blank">Cleveland Clinic, paralisia do sono</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4958367" rel="noopener nofollow" target="_blank">PubMed Central, guia clínico sobre paralisia do sono isolada recorrente</a></li>
+</ul>
+<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>

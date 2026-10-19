@@ -1,0 +1,115 @@
+PALAVRA_CHAVE: melasma
+TITLE: Melasma: causas, sintomas e como cuidar
+DESCRIPTION: Entenda o melasma: o que são as manchas escuras no rosto, as causas como o sol e os hormônios, o diagnóstico e por que o protetor solar é a base.
+CAPA_ALT: Mulher aplicando protetor solar no rosto com a ponta dos dedos
+CAPA_URL: /images/melasma/melasma-capa.jpg
+CAPA_CREDITO: Kindel Media | https://www.pexels.com/photo/boy-applying-sunscreen-lotion-on-his-neck-8215122/ | Pexels
+FONTE: Manual MSD Versão Saúde para a Família, placas escuras na pele (cloasma) | https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-da-pele/dist%C3%BArbios-de-pigmenta%C3%A7%C3%A3o/melasma
+FONTE: Harvard Health, manchas escuras no rosto | https://www.health.harvard.edu/blog/dark-patches-on-the-face-may-be-melasma-2018101915058
+FONTE: Primary Care Dermatology Society, folheto de informação sobre manchas faciais | https://www.pcds.org.uk/files/pils/Melasma-PIL-Dec-23-fpr-PDF_2025-01-31-123257_qljp.pdf
+FONTE: British Association of Dermatologists, folheto sobre manchas faciais | https://www.skinhealthinfo.org.uk/?p=784
+FONTE: CUF, saúde de A a Z, manchas no rosto | https://www.cuf.pt/saude-a-z/melasma
+---
+<p>O melasma é uma hiperpigmentação em placas castanho-escuras nas áreas expostas ao sol, geralmente no rosto, ligada ao excesso de melanina. Segundo o <a href="https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-da-pele/dist%C3%BArbios-de-pigmenta%C3%A7%C3%A3o/melasma" rel="noopener nofollow" target="_blank">Manual MSD</a>, a proteção solar é a base do cuidado.</p>
+<p>As manchas não coçam nem doem. Ainda assim, vale conversar com um dermatologista, porque os tratamentos exigem escolhas cuidadosas.</p>
+
+<h2>O que é o melasma?</h2>
+<p>O manual descreve o quadro como placas de pigmentação castanho-escuras que aparecem em áreas expostas ao sol. A causa mais provável é uma superprodução de melanina, o pigmento produzido pelos melanócitos.</p>
+<p>O excesso de pigmento na pele se chama hiperpigmentação. O melasma também é conhecido como cloasma e, na gravidez, como mancha da gravidez.</p>
+<p>A <a href="https://www.health.harvard.edu/blog/dark-patches-on-the-face-may-be-melasma-2018101915058" rel="noopener nofollow" target="_blank">Harvard Health</a> afirma que a condição pode ser difícil de tratar e que há muita desinformação sobre suas causas.</p>
+<p>O <a href="https://www.pcds.org.uk/files/pils/Melasma-PIL-Dec-23-fpr-PDF_2025-01-31-123257_qljp.pdf" rel="noopener nofollow" target="_blank">folheto da Primary Care Dermatology Society</a> descreve o quadro como inofensivo e diz que, na maioria dos casos, o tratamento é desnecessário, a não ser que cause incômodo.</p>
+
+<h2>Quais são os sintomas e onde aparecem?</h2>
+<p>Segundo o manual, aparecem áreas irregulares de cor escura, geralmente dos dois lados do rosto. Elas surgem com mais frequência no centro da face e nas bochechas, na testa, na têmpora, no lábio superior e no nariz.</p>
+<p>Às vezes as placas ficam em apenas um lado. Em casos raros, aparecem nos antebraços.</p>
+<p>As placas não causam coceira nem dor e são apenas incômodas do ponto de vista estético, de acordo com o manual.</p>
+
+<h2>Quais são as causas e os fatores de risco?</h2>
+<p>O manual afirma que o quadro tende a surgir na gravidez e em mulheres que tomam contraceptivos orais, embora possa afetar qualquer pessoa. Ele é mais comum, e persiste por mais tempo, em pessoas de pele mais escura.</p>
+<p>Pessoas que passam muito tempo no sol têm mais risco. Outros fatores citados são distúrbios autoimunes da tireoide, medicamentos que deixam a pele mais sensível à luz solar e medicamentos anticonvulsivantes.</p>
+<p>A Harvard Health lista hormônios, inclusive os de medicamentos hormonais, e a exposição ao sol como causas. Segundo a publicação, a probabilidade é maior em peles mais escuras, possivelmente por terem células produtoras de pigmento mais ativas.</p>
+<p>Para entender melhor as mudanças hormonais, veja o guia sobre <a href="/o-que-e-perimenopausa/">perimenopausa</a>.</p>
+
+<h2>O sol, o calor e a luz visível pioram as manchas?</h2>
+<p>Sim. A Harvard Health diz que o sol é o principal fator agravante, qualquer que seja a causa de base. A condição pode ser causada ou piorada não só pelos raios solares, mas também pelo calor e pela luz visível.</p>
+<p>O <a href="https://www.skinhealthinfo.org.uk/?p=784" rel="noopener nofollow" target="_blank">folheto da British Association of Dermatologists</a> informa que a pele afetada escurece mais do que a pele ao redor quando exposta à luz. Por isso, evitar o sol e se proteger é importante.</p>
+<p>O mesmo folheto recomenda evitar camas de bronzeamento. O manual acrescenta que até algumas horas de sol podem fazer a hiperpigmentação voltar nas áreas tratadas, desfazendo meses de tratamento.</p>
+
+<h2>Como é feito o diagnóstico?</h2>
+<p>Os médicos baseiam o diagnóstico em um exame da pele, segundo o manual. Eles também podem usar uma lâmpada de Wood, que ajuda a diferenciar a hiperpigmentação das camadas superiores da pele de outros distúrbios.</p>
+<p>Segundo a <a href="https://www.cuf.pt/saude-a-z/melasma" rel="noopener nofollow" target="_blank">CUF</a>, na grande maioria dos casos o dermatologista faz o diagnóstico pela observação das lesões. A biópsia pode ser justificada quando o diagnóstico não é claro.</p>
+<p>Por isso, manchas escuras novas ou que mudam de aspecto devem ser avaliadas por um médico, em vez de tratadas por conta própria.</p>
+<figure class="article-figure"><img src="/images/melasma/dermatologista-examinando-a-pele-do-rosto-de-uma-paciente-em.jpg" alt="Dermatologista examinando a pele do rosto de uma paciente em consultório" width="940" height="529" loading="lazy" /><figcaption>O diagnóstico se baseia no exame da pele feito por um médico. <span class="credit">Foto: <a href="https://www.pexels.com/photo/dermatologist-performing-skin-treatment-in-clinic-32260065/" rel="noopener nofollow" target="_blank">Dr. Haror's  Wellness</a> / Pexels</span></figcaption></figure>
+<h2>O melasma desaparece de vez?</h2>
+<p>O folheto da British Association of Dermatologists afirma que, no momento, não há tratamento que elimine o quadro por completo, mas existem opções que podem melhorar a aparência.</p>
+<p>O folheto da Primary Care Dermatology Society diz o mesmo: nenhum tratamento resulta em eliminação completa, e a meta é o controle, com proteção rigorosa contra o sol.</p>
+<p>Se o quadro surge na gravidez, ele pode desaparecer alguns meses depois do parto, e o tratamento pode ser desnecessário. Pode, porém, voltar em outra gestação, segundo o folheto britânico.</p>
+<p>Segundo o manual, com a pele protegida do sol, as manchas muitas vezes diminuem depois da gravidez ou depois de parar o anticoncepcional. Em homens, elas raramente diminuem.</p>
+
+<h2>Como é o tratamento?</h2>
+<p>O manual afirma que os tratamentos aplicados na pele só funcionam se a hiperpigmentação estiver nas camadas superiores. Cremes clareadores podem ser usados, e o médico escolhe a combinação.</p>
+<p>Este guia não traz nomes de remédios nem doses. O manual alerta, porém, que um dos clareadores só deve ser usado com orientação médica, porque o uso prolongado pode causar uma hiperpigmentação permanente.</p>
+<p>Em pessoas cujas manchas não clareiam com cremes, os médicos podem tentar peelings químicos. Também são usados lasers e um medicamento por via oral, segundo o manual.</p>
+<p>Peelings, microagulhamento e laser devem ser feitos por profissionais qualificados, orienta o folheto britânico. A Harvard Health também lista essas opções.</p>
+<p>Durante e depois do tratamento, a pele fica mais propensa à queimadura, e a proteção rigorosa contra o sol é indispensável, segundo o manual.</p>
+
+<h2>Como escolher e usar o protetor solar?</h2>
+<p>O manual recomenda protetor solar com fator de proteção 50 ou mais, roupas com fator de proteção UV 50 ou mais e evitar a exposição ao sol.</p>
+<p>A maioria dos protetores químicos protege contra a luz ultravioleta, mas não contra a luz visível. Por isso, o manual indica um protetor com cor que contenha óxido de zinco ou dióxido de titânio, minerais que bloqueiam a luz visível.</p>
+<p>A Primary Care Dermatology Society também recomenda um protetor mineral que proteja contra UVA, UVB e luz visível. Ela diz que o protetor embutido em cosméticos não basta.</p>
+<p>A Harvard Health afirma que o ponto mais importante para clarear as manchas é um regime rigoroso de protetor, que bloqueie os raios, a luz e o calor.</p>
+<p>O folheto britânico orienta aplicar bastante protetor 15 a 30 minutos antes de sair, reaplicar a cada duas horas e depois de nadar. Ele lembra que nenhum protetor dá 100% de proteção.</p>
+<figure class="article-figure"><img src="/images/melasma/mulher-de-chapeu-de-aba-larga-caminhando-ao-ar-livre-sob-a-l.jpg" alt="Mulher de chapéu de aba larga caminhando ao ar livre sob a luz do sol" width="940" height="627" loading="lazy" /><figcaption>Chapéu, roupas de proteção e protetor solar ajudam a evitar que as manchas piorem. <span class="credit">Foto: <a href="https://www.pexels.com/photo/stylish-woman-in-oversized-hat-poses-outdoors-28669236/" rel="noopener nofollow" target="_blank">Tonatiuh Ontiveros</a> / Pexels</span></figcaption></figure>
+<h2>Quais cuidados valem na gravidez?</h2>
+<p>O manual afirma que alguns tratamentos são seguros na gestação e outros não. Entre os que não são seguros estão cremes e comprimidos usados para clarear as manchas e um tipo de peeling.</p>
+<p>Por isso, quem está grávida ou planeja engravidar deve conversar com o médico antes de usar qualquer produto. A escolha cabe ao profissional, e não deve ser feita por conta própria.</p>
+<p>Para a gestação, a proteção solar continua sendo a medida central, já que as manchas pioram com o sol, segundo as fontes citadas.</p>
+
+<h2>Quais são os erros comuns?</h2>
+<p>Alguns equívocos se repetem. Todos se apoiam nas fontes citadas acima:</p>
+<ul>
+<li>usar só protetor que não cobre a luz visível, quando o manual indica um com cor e minerais;</li>
+<li>achar que um protetor basta, já que nenhum dá 100% de proteção;</li>
+<li>tomar sol "por poucas horas" durante o tratamento, o que pode desfazer meses de resultados;</li>
+<li>usar clareador por tempo prolongado sem orientação, com risco de hiperpigmentação permanente;</li>
+<li>frequentar camas de bronzeamento, desaconselhadas pelo folheto britânico.</li>
+</ul>
+
+<h2>O que levar à consulta?</h2>
+<p>Levar informações ajuda o médico a entender os gatilhos. Estas sugestões se baseiam nos fatores de risco citados pelas fontes:</p>
+<ul>
+<li>quando as manchas apareceram e se pioraram depois de dias de sol;</li>
+<li>se há gravidez, plano de engravidar ou uso de anticoncepcional ou outro hormônio;</li>
+<li>quais medicamentos estão em uso, incluindo anticonvulsivantes e outros que sensibilizam a pele ao sol;</li>
+<li>quais produtos já foram usados na pele e como ela reagiu;</li>
+<li>se há histórico de problemas na tireoide.</li>
+</ul>
+
+<h2>Perguntas frequentes sobre o melasma</h2>
+<h3>O melasma coça ou dói?</h3>
+<p>Não. Segundo o manual, as placas não causam coceira nem dor e são apenas incômodas do ponto de vista estético.</p>
+<h3>É mais comum em mulheres?</h3>
+<p>O manual diz que tende a surgir na gravidez e com anticoncepcionais orais, mas pode afetar qualquer pessoa. A CUF informa que afeta mais as mulheres do que os homens.</p>
+<h3>Precisa de tratamento?</h3>
+<p>Nem sempre. A Primary Care Dermatology Society afirma que, na maioria dos casos, o tratamento é desnecessário, a não ser que a aparência cause sofrimento.</p>
+<h3>Quanto tempo o tratamento leva?</h3>
+<p>Segundo a CUF, podem ser necessários longos meses de tratamento, e depois é preciso manter os resultados com protetor solar e, às vezes, com tratamento de manutenção.</p>
+<h3>O calor também piora?</h3>
+<p>Sim. A Harvard Health afirma que o calor e a luz visível também podem causar ou piorar o quadro, além dos raios do sol.</p>
+
+<h2>Quando procurar um médico</h2>
+<p>Procure um dermatologista para confirmar o diagnóstico, principalmente se as manchas forem novas, mudarem de aspecto ou aparecerem em apenas um lado do rosto.</p>
+<p>Procure também antes de usar clareadores, peelings ou lasers, e se estiver grávida ou em uso de hormônios. Nenhum cuidado em casa substitui a avaliação de um profissional de saúde. Para outros guias do blog, veja o texto sobre <a href="/cortisol-alto/">cortisol alto</a>.</p>
+
+<h2>Resumindo</h2>
+<p>O melasma são placas escuras, geralmente no rosto, ligadas ao excesso de melanina, ao sol, ao calor, à luz visível e aos hormônios. Elas não coçam nem doem, e hoje nenhum tratamento as elimina por completo.</p>
+<p>A base do cuidado é a proteção solar rigorosa, com protetor que cubra também a luz visível. O tratamento deve ser orientado por um médico. Em caso de dúvida, converse com um dermatologista.</p>
+<h2>Fontes</h2>
+<ul>
+<li><a href="https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-da-pele/dist%C3%BArbios-de-pigmenta%C3%A7%C3%A3o/melasma" rel="noopener nofollow" target="_blank">Manual MSD Versão Saúde para a Família, placas escuras na pele (cloasma)</a></li>
+<li><a href="https://www.health.harvard.edu/blog/dark-patches-on-the-face-may-be-melasma-2018101915058" rel="noopener nofollow" target="_blank">Harvard Health, manchas escuras no rosto</a></li>
+<li><a href="https://www.pcds.org.uk/files/pils/Melasma-PIL-Dec-23-fpr-PDF_2025-01-31-123257_qljp.pdf" rel="noopener nofollow" target="_blank">Primary Care Dermatology Society, folheto de informação sobre manchas faciais</a></li>
+<li><a href="https://www.skinhealthinfo.org.uk/?p=784" rel="noopener nofollow" target="_blank">British Association of Dermatologists, folheto sobre manchas faciais</a></li>
+<li><a href="https://www.cuf.pt/saude-a-z/melasma" rel="noopener nofollow" target="_blank">CUF, saúde de A a Z, manchas no rosto</a></li>
+</ul>
+<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>

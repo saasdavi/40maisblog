@@ -1,0 +1,89 @@
+PALAVRA_CHAVE: calculadora de IMC
+TITLE: Calculadora de IMC: entenda o seu índice corporal
+DESCRIPTION: Calculadora de IMC: veja como o índice é calculado, o que ele revela, seus limites após os 40 anos e quando procurar orientação profissional.
+CAPA_ALT: Balança e fita métrica sobre um piso claro, ilustrando a calculadora de IMC
+CAPA_URL: /images/calculadora-de-imc/calculadora-de-imc-capa.jpg
+CAPA_CREDITO: SHVETS production | https://www.pexels.com/photo/measuring-tape-on-a-weighing-scale-6975469/ | Pexels
+FONTE: Ministério da Saúde | https://www.gov.br/saude
+FONTE: National Institutes of Health (NIH) | https://www.nih.gov
+---
+<p>A calculadora de IMC é uma das ferramentas mais usadas para ter uma primeira noção do peso em relação à altura. O cálculo é simples, mas o resultado precisa ser lido com cuidado, sobretudo depois dos 40 anos, quando a composição do corpo muda.</p>
+
+<p>Este texto explica como o índice é calculado, o que ele mostra, quais são os seus limites e quando vale buscar orientação profissional.</p>
+
+<h2>O que é o IMC e como ele é calculado</h2>
+<p>O Índice de Massa Corporal, ou IMC, relaciona o peso com a altura. A conta é feita dividindo o peso, em quilogramas, pela altura, em metros, elevada ao quadrado.</p>
+
+<p>Por exemplo, uma pessoa de 1,70 metro e 70 quilos teria IMC de cerca de 24,2, resultado de 70 dividido por 2,89, que é 1,70 elevado ao quadrado. Esse número é então comparado a faixas de referência.</p>
+<p>A calculadora de IMC faz exatamente essa conta. Basta informar peso e altura com precisão, pois pequenas diferenças nos dados alteram o resultado. Medidas de roupa, de sapato ou estimativas feitas de memória tendem a gerar valores pouco confiáveis.</p>
+<p>O índice foi criado como uma forma prática de comparar populações e acompanhar tendências de saúde coletiva. Por isso, ele serve como ponto de partida, e não como diagnóstico individual.</p>
+
+<h2>Como interpretar as faixas de referência</h2>
+<p>Para adultos, a Organização Mundial da Saúde adota faixas de referência amplamente usadas por órgãos de saúde, inclusive no Brasil. Valores abaixo de 18,5 são classificados como baixo peso.</p>
+
+<p>Entre 18,5 e 24,9, o resultado é considerado dentro da faixa de eutrofia, isto é, peso adequado para a altura. Entre 25 e 29,9, o quadro é de sobrepeso, e a partir de 30, de obesidade.</p>
+<p>Essas faixas funcionam como uma orientação geral. Elas não dizem, sozinhas, se a pessoa está saudável ou doente, e não substituem a avaliação de outros indicadores.</p>
+
+<p>Um resultado no limite de uma faixa pode ter significados diferentes conforme a idade, o sexo, a composição do corpo e o histórico de saúde.</p>
+<p>Também é importante lembrar que o índice não considera fatores como sexo biológico, idade, origem étnica e estrutura óssea, que influenciam a relação entre peso e saúde.</p>
+
+<p>Por isso, a leitura correta envolve comparar o número com o contexto.Uma pessoa que treina força pode ter um IMC mais alto sem ter excesso de gordura, enquanto alguém sedentário com IMC dentro da faixa normal pode ter pouca massa muscular.</p>
+<figure class="article-figure"><img src="/images/calculadora-de-imc/mulher-medindo-a-cintura-com-fita-metrica-complementar-ao-ca.jpg" alt="Mulher medindo a cintura com fita métrica, complementar ao cálculo da calculadora de IMC" width="940" height="629" loading="lazy" /><figcaption>A cintura complementa o índice e ajuda a ler o quadro <span class="credit">Foto: <a href="https://www.pexels.com/photo/woman-in-white-sports-bra-and-black-leggings-measuring-waistline-6629204/" rel="noopener nofollow" target="_blank">Michael Wysmierski</a> / Pexels</span></figcaption></figure>
+<h2>Os limites do IMC depois dos 40 anos</h2>
+<p>O IMC não distingue massa gorda de massa magra, e essa é sua principal limitação. Após os 40 anos, o corpo tende a perder massa muscular de forma gradual, processo conhecido como sarcopenia.</p>
+
+<p>Se o peso se mantém, mas os músculos diminuem e a gordura aumenta, o índice pode parecer estável enquanto a composição corporal piora.</p>
+<p>Além disso, a distribuição da gordura importa. O acúmulo na região abdominal está associado a riscos metabólicos próprios, mesmo quando o IMC está na faixa considerada adequada.</p>
+
+<p>Para entender melhor esse ponto, vale ler sobre <a href="/o-que-e-gordura-visceral/">o que é gordura visceral</a>, que é justamente a gordura mais ligada a essas alterações.</p>
+<p>Por essa razão, a medida da cintura costuma complementar o IMC. Ela ajuda a identificar acúmulo abdominal, e a leitura conjunta das duas medidas dá um panorama mais útil do que qualquer uma isoladamente. Outros exames, como os de glicemia e de colesterol, completam a avaliação.</p>
+
+<h2>Quando a calculadora não serve bem</h2>
+<p>Há situações em que o IMC deve ser interpretado com ainda mais cautela. Gestantes têm mudanças de peso esperadas, e a avaliação segue critérios próprios. Crianças e adolescentes utilizam curvas de crescimento específicas por idade e sexo, e não as mesmas faixas dos adultos.</p>
+<p>Pessoas idosas, com edema, com doenças que alteram a retenção de líquidos ou que passaram por amputações também podem ter um resultado distorcido. Atletas de alto rendimento e pessoas com grande massa muscular costumam apresentar IMC elevado sem excesso de gordura corporal.</p>
+<ul>
+<li>Gestação e pós-parto recente.</li>
+<li>Crianças e adolescentes, que usam curvas próprias.</li>
+<li>Retenção de líquidos ou edema importante.</li>
+<li>Musculatura muito desenvolvida ou perda de massa muscular.</li>
+</ul>
+<p>Nesses casos, o cálculo pode ser feito, mas a interpretação deve ser conduzida por um profissional que considere o quadro completo. Mesmo que o número pareça tranquilizador ou preocupante, a conversa com o médico costuma trazer informações mais úteis do que a comparação com a tabela.</p>
+<p>Outra situação que merece cuidado é o uso da calculadora por quem está em tratamento para perda de peso sem acompanhamento. Nesses casos, o número pode virar uma meta rígida e gerar comportamentos prejudiciais, como restrição alimentar excessiva. Qualquer plano de emagrecimento deve ser conduzido por equipe de saúde.</p>
+<figure class="article-figure"><img src="/images/calculadora-de-imc/profissional-de-saude-aferindo-peso-e-altura-de-paciente-em-.jpg" alt="Profissional de saúde aferindo peso e altura de paciente em consultório" width="940" height="627" loading="lazy" /><figcaption>Medidas feitas com cuidado tornam o resultado mais confiável <span class="credit">Foto: <a href="https://www.pexels.com/photo/dietitian-measuring-waist-15319043/" rel="noopener nofollow" target="_blank">beyzahzah</a> / Pexels</span></figcaption></figure>
+<h2>Como usar a calculadora de forma útil</h2>
+<p>Para aproveitar a ferramenta, meça o peso pela manhã, em jejum e sem roupas pesadas, e use uma balança calibrada. A altura deve ser medida em posição ereta, sem sapatos, encostado em uma parede.</p>
+
+<p>Registrar os valores em um caderno ou aplicativo permite acompanhar a tendência ao longo dos meses, que costuma ser mais informativa do que um único número.</p>
+<p>Quando o objetivo é entender a alimentação, o IMC pode ser comparado com a rotina de refeições e com o gasto de energia. Para isso, é útil consultar o conteúdo sobre <a href="/alimentos-ricos-em-fibras/">alimentos ricos em fibras</a>, que ajuda a montar refeições mais saciantes.</p>
+
+<p>Mesmo assim, a mudança de peso deve ser planejada com um nutricionista, principalmente quando há doenças associadas.</p>
+<p>Vale considerar também que o peso oscila ao longo do dia por causa de líquidos, alimentação recente e intestino. Por isso, uma variação de um ou dois quilos entre medições não indica, por si só, ganho ou perda real de massa corporal.</p>
+
+<p>Comparar médias semanais é uma forma mais segura de acompanhar a tendência, sem tirar conclusões precipitadas.</p>
+<p>Evite interpretar o resultado como um julgamento sobre a aparência ou o valor pessoal. O índice é apenas uma medida, e o foco deve estar na saúde, na disposição e na capacidade funcional do corpo.</p>
+
+<h2>Perguntas frequentes</h2>
+<p><strong>O IMC é suficiente para avaliar a saúde?</strong> Não. Ele é um ponto de partida que deve ser combinado com a medida da cintura, exames e avaliação clínica.</p>
+<p><strong>Um IMC normal garante boa saúde?</strong> Não necessariamente. A composição corporal e os hábitos também contam, e alguns riscos aparecem mesmo com peso dentro da faixa considerada adequada.</p>
+<p><strong>Com que frequência devo calcular?</strong> Uma vez por mês costuma ser suficiente para acompanhar a tendência, sem gerar ansiedade com variações diárias.</p>
+<p><strong>A calculadora funciona para crianças?</strong> Não da mesma forma. Crianças e adolescentes usam curvas de crescimento específicas, avaliadas por profissionais.</p>
+
+<h2>Quando procurar um médico</h2>
+<p>Procure um médico se o IMC estiver fora da faixa normal, se houver ganho ou perda de peso sem explicação, ou se surgirem sintomas como cansaço intenso, falta de ar ao esforço, inchaço ou dor nas articulações.</p>
+
+<p>Essas situações pedem uma avaliação que inclua histórico, exame físico e exames de sangue.</p>
+<p>Quem tem doenças como hipertensão, diabetes ou colesterol alterado deve levar o resultado do IMC à consulta, pois ele ajuda a definir o acompanhamento.</p>
+
+<p>Se o índice indicar sobrepeso ou obesidade, a conversa com o médico deve incluir metas realistas, um plano construído aos poucos e o acompanhamento de outros marcadores de saúde ao longo do tempo.</p>
+
+<h2>Resumindo</h2>
+<p>A calculadora de IMC divide o peso pelo quadrado da altura e gera um valor que é comparado a faixas de referência. Esse número é útil para uma primeira leitura, mas não diferencia massa gorda de massa magra e perde precisão após os 40 anos.</p>
+
+<p>Por isso, a medida da cintura, os exames e a avaliação profissional completam o quadro.</p>
+<p>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde. Use a calculadora como ponto de partida e converse com um médico ou nutricionista antes de tomar qualquer decisão sobre peso, dieta ou atividade física.</p>
+<h2>Fontes</h2>
+<ul>
+<li><a href="https://www.gov.br/saude" rel="noopener nofollow" target="_blank">Ministério da Saúde</a></li>
+<li><a href="https://www.nih.gov" rel="noopener nofollow" target="_blank">National Institutes of Health (NIH)</a></li>
+</ul>
+<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>
