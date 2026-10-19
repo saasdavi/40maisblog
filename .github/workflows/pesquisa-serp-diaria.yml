@@ -44,6 +44,7 @@ jobs:
         id: pesquisar
         env:
           SERP_API_KEY: ${{ secrets.SERP___APIKEY }}
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
         run: node scripts/pesquisa-serp-diaria.js
 
       - name: Commit e push
