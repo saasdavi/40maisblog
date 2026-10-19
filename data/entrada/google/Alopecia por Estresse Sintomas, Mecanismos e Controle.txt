@@ -2,6 +2,10 @@ PALAVRA_CHAVE: Alopecia por Estresse Sintomas, Mecanismos e Controle
 TITLE: Alopecia por Estresse Sintomas, Mecanismos e Controle
 DESCRIPTION: O aparecimento da alopecia por estresse representa uma das manifestações dermatológicas mais frequentes associadas ao desgaste psicológico crônico e a sobrecar
 CAPA_ALT: Alopecia por Estresse Sintomas, Mecanismos e Controle
+CAPA_URL: https://images.pexels.com/photos/9755382/pexels-photo-9755382.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 9755382
+CAPA_CREDITO: Towfiqu barbhuiya | https://www.pexels.com/photo/close-up-photo-of-a-person-holding-hair-9755382/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T03:15:34.456Z
 ---
 <p>O aparecimento da alopecia por estresse representa uma das manifestações dermatológicas mais frequentes associadas ao desgaste psicológico crônico e a sobrecargas metabólicas sistêmicas. Esse fenômeno fisiológico altera a dinâmica natural de renovação dos folículos pilosos, resultando no desprendimento acentuado de hastes capilares.</p>
 <p>É importante registrar que "alopecia por estresse" é uma expressão popular. Nos manuais de dermatologia, o quadro costuma ser classificado como eflúvio telógeno, quando há perda difusa, ou como alopecia areata, quando há placas localizadas. O estresse atua como gatilho, não como diagnóstico formal.</p>
