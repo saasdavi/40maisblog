@@ -2,6 +2,10 @@ PALAVRA_CHAVE: Capilar Benefícios, Como Fazer e Contraindicações
 TITLE: Capilar Benefícios, Como Fazer e Contraindicações
 DESCRIPTION: Massagem capilar é uma prática manual que consiste em aplicar pressão e movimentos circulares no couro cabeludo. Ela pode ser feita com as pontas dos dedos,
 CAPA_ALT: Mulher fazendo massagem capilar com as pontas dos dedos no couro cabeludo durante o banho
+CAPA_URL: https://images.pexels.com/photos/40262534/pexels-photo-40262534.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 40262534
+CAPA_CREDITO: Ashok J Kshetri | https://www.pexels.com/photo/traditional-magar-woman-in-lumbini-nepal-40262534/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T05:15:34.796Z
 ---
 <p><strong>Massagem capilar</strong> é uma prática manual que consiste em aplicar pressão e movimentos circulares no couro cabeludo. Ela pode ser feita com as pontas dos dedos, com escovas massageadoras ou com aparelhos elétricos.</p>
 <p>A prática ganhou popularidade em redes sociais como técnica para estimular o crescimento dos fios. A ciência mostra que a massagem tem efeitos reais, mas eles dependem de regularidade e de um couro cabeludo saudável.</p>
