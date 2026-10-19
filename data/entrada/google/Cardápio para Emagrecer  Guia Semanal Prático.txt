@@ -1,7 +1,11 @@
 PALAVRA_CHAVE: Cardápio para Emagrecer
 TITLE: Cardápio para Emagrecer: Guia Semanal Prático
 DESCRIPTION: Cardápio semanal para emagrecer com opções baratas: substituições de proteínas, pesagem de alimentos e manutenção de massa muscular.
-CAPA_ALT: ${foto.alt || termoBusca}
+CAPA_ALT: Cardápio para Emagrecer: Guia Semanal Prático
+CAPA_URL: https://images.pexels.com/photos/11757795/pexels-photo-11757795.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 11757795
+CAPA_CREDITO: Yusuf Miah | https://www.pexels.com/photo/woman-riding-a-para-cycling-device-11757795/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T05:45:35.162Z
 ---
 <p>Montar um cardápio para emagrecer não precisa ser complicado nem caro. A chave está em priorizar alimentos in natura, controlar as porções e garantir proteína suficiente para preservar a massa muscular. Este guia traz um plano semanal com opções acessíveis, além de resolver duas das maiores dúvidas de quem segue uma dieta: como pesar os alimentos e como substituir proteínas caras por opções baratas.</p>
 <p>O déficit calórico é o mecanismo central do emagrecimento. Sem ele, nenhuma combinação de alimentos promove perda de gordura. A vantagem de um cardápio bem estruturado é que ele facilita a manutenção do déficit sem sacrificar nutrientes ou saciedade.</p>
