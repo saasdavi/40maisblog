@@ -2,6 +2,10 @@ PALAVRA_CHAVE: Câncer de pele
 TITLE: Câncer de pele: sintomas, tipos, causas, tratamento e prevenção
 DESCRIPTION: O câncer de pele é um grupo de tumores que se desenvolvem a partir de células da pele. Ele pode aparecer de diferentes formas e apresentar comportamentos muito
 CAPA_ALT: Câncer de pele: sintomas, tipos, causas, tratamento e prevenção
+CAPA_URL: https://images.pexels.com/photos/6643070/pexels-photo-6643070.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 6643070
+CAPA_CREDITO: https://kaboompics.com/ | https://www.pexels.com/photo/close-up-of-texture-and-veins-on-skin-6643070/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T12:00:36.221Z
 ---
 <p>O <strong>câncer de pele</strong> é um grupo de tumores que se desenvolvem a partir de células da pele. Ele pode aparecer de diferentes formas e apresentar comportamentos muito distintos, desde tumores de evolução geralmente mais lenta até o melanoma, que pode ser mais agressivo e capaz de se espalhar para outros órgãos.</p>
 <p>No Brasil, o <strong>câncer de pele não melanoma é o tipo de câncer mais frequente</strong>, correspondendo a cerca de 30% dos tumores malignos registrados no país. Quando identificado e tratado precocemente, apresenta altas taxas de cura.</p>
