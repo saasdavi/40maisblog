@@ -1,0 +1,108 @@
+PALAVRA_CHAVE: polissonografia
+TITLE: Polissonografia: o que é e como se preparar
+DESCRIPTION: Entenda a polissonografia, o exame do sono: para que serve, como é feita à noite no laboratório, como se preparar, os tipos de exame e os resultados.
+CAPA_ALT: Paciente deitado em uma cama de laboratório do sono com sensores presos ao corpo
+CAPA_URL: /images/polissonografia/polissonografia-capa.jpg
+CAPA_CREDITO: Engin Akyurt | https://www.pexels.com/photo/man-laying-on-a-hospital-bed-with-a-manometer-20897580/ | Pexels
+FONTE: Sociedade Brasileira de Pneumologia e Tisiologia, critérios diagnósticos dos distúrbios respiratórios do sono (SciELO) | http://www.scielo.br/pdf/jbpneu/v36s2/v36s2a08.pdf
+FONTE: American Academy of Sleep Medicine, o que esperar de um estudo do sono | https://sleepeducation.org/what-to-expect-at-your-sleep-study/
+FONTE: Oregon Health & Science University, como se preparar para um estudo do sono | https://www.ohsu.edu/brain-institute/preparing-sleep-study
+---
+<p>A polissonografia é o exame do sono: registra, durante uma noite, a respiração, a frequência do coração, os movimentos do corpo e as ondas cerebrais. Segundo a <a href="https://sleepeducation.org/what-to-expect-at-your-sleep-study/" rel="noopener nofollow" target="_blank">American Academy of Sleep Medicine</a>, ela não dói.</p>
+<p>O médico pede o exame depois de avaliar as queixas de sono. O resultado ajuda a diagnosticar distúrbios como a apneia, e o diagnóstico depende sempre de um profissional de saúde.</p>
+
+<h2>O que é a polissonografia?</h2>
+<p>A American Academy of Sleep Medicine descreve o exame como um estudo do sono que monitora a respiração, os batimentos do coração, os movimentos do corpo e as ondas cerebrais. Ele é feito em um ambiente especializado, com um técnico treinado.</p>
+<p>O técnico acompanha todos esses sinais e cuida da segurança e do conforto de quem faz o exame, segundo a entidade.</p>
+<p>A <a href="https://www.ohsu.edu/brain-institute/preparing-sleep-study" rel="noopener nofollow" target="_blank">Oregon Health & Science University</a> informa que o exame usa sensores para monitorar as ondas cerebrais, a frequência cardíaca, os movimentos das pernas e a respiração.</p>
+
+<h2>Para que serve a polissonografia?</h2>
+<p>Segundo a American Academy of Sleep Medicine, o exame ajuda a diagnosticar corretamente os distúrbios do sono que a pessoa possa ter.</p>
+<p>O consenso brasileiro publicado no <a href="http://www.scielo.br/pdf/jbpneu/v36s2/v36s2a08.pdf" rel="noopener nofollow" target="_blank">Jornal Brasileiro de Pneumologia</a> afirma que a polissonografia completa de noite inteira, feita no laboratório sob supervisão de um técnico habilitado, é o método diagnóstico padrão para os distúrbios respiratórios do sono.</p>
+<p>A confirmação da apneia obstrutiva do sono exige esse exame. Quando a suspeita clínica é alta, o consenso cita que registros simplificados feitos em casa podem ser uma alternativa.</p>
+
+<h2>Quem pede o exame?</h2>
+<p>A American Academy of Sleep Medicine explica que o médico faz uma avaliação completa das queixas de sono. Se julgar que são necessários mais testes, ele pede o estudo do sono.</p>
+<p>O consenso brasileiro acrescenta que o diagnóstico da apneia se baseia em uma história clínica detalhada, no exame físico e nos testes de registro do sono.</p>
+<p>Por isso, ronco alto, pausas na respiração, sono não reparador e sonolência durante o dia merecem uma consulta antes do exame.</p>
+
+<h2>Que queixas levam ao exame de apneia?</h2>
+<p>O <a href="http://www.scielo.br/pdf/jbpneu/v36s2/v36s2a08.pdf" rel="noopener nofollow" target="_blank">consenso brasileiro</a> lista as queixas usadas no diagnóstico da apneia obstrutiva do sono em adultos. A pessoa precisa ter pelo menos uma delas:</p>
+<ul>
+<li>episódios de sono não intencionais durante o dia, sonolência excessiva, sono não reparador, fadiga ou insônia;</li>
+<li>acordar com pausas respiratórias, engasgos ou sensação de asfixia;</li>
+<li>relato do parceiro de ronco alto, de pausas na respiração durante o sono, ou dos dois.</li>
+</ul>
+<p>O consenso explica que o diagnóstico exige também o resultado da polissonografia e que o quadro não seja melhor explicado por outro distúrbio do sono, doença ou uso de medicações.</p>
+
+<h2>Como é feita a polissonografia?</h2>
+<p>A American Academy of Sleep Medicine descreve o processo. Na noite do exame, a pessoa chega ao centro do sono no início da noite, com a intenção de dormir lá.</p>
+<p>Primeiro, o técnico prende fios, com uma cola especial, na cabeça, no queixo, no peito e nas pernas. A pessoa também usa faixas macias no peito e no abdômen e um sensor de oxigênio no dedo.</p>
+<p>Alguns centros usam microfone para medir o ronco, além de equipamentos de áudio e vídeo.</p>
+<p>Depois, a pessoa pode dormir, enquanto o técnico acompanha os sinais em um computador. De madrugada, ele pode acordá-la para mudar de posição ou trocar fios soltos.</p>
+<p>Pela manhã, o técnico ajuda a retirar os fios e os monitores. A entidade informa que o aparelho de monitoração pode demorar de 30 a 60 minutos para ser colocado.</p>
+<figure class="article-figure"><img src="/images/polissonografia/pessoa-dormindo-na-cama-em-um-quarto-escuro-durante-a-noite.jpg" alt="Pessoa dormindo na cama em um quarto escuro durante a noite" width="940" height="627" loading="lazy" /><figcaption>A maioria das pessoas consegue dormir durante o exame, mesmo com os sensores. <span class="credit">Foto: <a href="https://www.pexels.com/photo/woman-sleeping-on-a-bed-6941126/" rel="noopener nofollow" target="_blank">cottonbro studio</a> / Pexels</span></figcaption></figure>
+<h2>Quais são os tipos de exame do sono?</h2>
+<p>O consenso brasileiro descreve estas modalidades:</p>
+<ul>
+<li>polissonografia completa de noite inteira no laboratório, o método padrão;</li>
+<li>polissonografia completa em casa, para quem não consegue ir ao laboratório, sem vantagem comprovada sobre a do laboratório;</li>
+<li>monitoração cardiorrespiratória em casa, restrita a quem tem alta suspeita de apneia e nenhuma outra doença;</li>
+<li>polissonografia do tipo split-night, que, na mesma noite, faz o diagnóstico e depois ajusta a pressão do tratamento.</li>
+</ul>
+<p>O mesmo consenso diz que a oximetria noturna isolada tem baixa especificidade e não é recomendada para diagnosticar apneia. O registro durante o dia, chamado de nap study, subestima a presença e a gravidade da apneia e não é aceitável para o diagnóstico.</p>
+
+<h2>Como se preparar para o exame?</h2>
+<p>A <a href="https://www.ohsu.edu/brain-institute/preparing-sleep-study" rel="noopener nofollow" target="_blank">Oregon Health & Science University</a> orienta lavar bem o cabelo antes de chegar ao laboratório e fazer uma refeição completa.</p>
+<p>A instituição lista o que levar: itens de higiene, os medicamentos de uso regular e um pijama de duas peças. Toalhas e roupa de cama são fornecidas pelo laboratório.</p>
+<p>A American Academy of Sleep Medicine pede que se levem os remédios que se tomam na hora de dormir, e que se avise o técnico antes de tomá-los.</p>
+<p>As orientações exatas variam de serviço para serviço. Por isso, siga o que o laboratório e o médico indicarem.</p>
+
+<h2>Perguntas comuns sobre a noite do exame</h2>
+<h3>O exame dói?</h3>
+<p>Não dói, mas estar ligado aos fios pode ser desconfortável para algumas pessoas, segundo a American Academy of Sleep Medicine. O técnico pode pedir que a pessoa tente dormir de costas.</p>
+<h3>E se eu não conseguir dormir?</h3>
+<p>Segundo a entidade, a maioria das pessoas não tem dificuldade para dormir durante o exame. Se houver, pode-se usar um remédio para ajudar, pois mesmo um sono parcial pode bastar para o diagnóstico.</p>
+<h3>Posso dormir em uma poltrona ou ver televisão?</h3>
+<p>Em geral, é preciso tentar dormir na cama, porque dormir em posição elevada pode afetar o resultado. A televisão e os celulares precisam estar desligados, porque podem interferir nos registros.</p>
+<h3>Quanto tempo dura o exame?</h3>
+<p>É um estudo de uma noite. A pessoa chega ao centro à noite para dormir lá, e os fios e monitores são retirados na manhã seguinte, segundo a American Academy of Sleep Medicine.</p>
+<h3>Um familiar pode ficar comigo?</h3>
+<p>Em geral, a pessoa pode ser acompanhada até o centro, mas não fica durante a noite, segundo a entidade.</p>
+
+<h2>Como são os resultados?</h2>
+<p>As medições são revisadas por um médico do sono certificado, que faz o diagnóstico com base nos dados, segundo a American Academy of Sleep Medicine. A pessoa marca uma consulta de retorno para discutir o resultado.</p>
+<p>A Oregon Health & Science University informa que, no serviço dela, os resultados costumam ficar prontos em até duas semanas. Esse prazo varia de um lugar para outro.</p>
+<p>O consenso brasileiro traz os critérios do diagnóstico de apneia em adultos. Eles combinam queixas de sono com um número mínimo de eventos respiratórios por hora de sono na polissonografia.</p>
+<p>Quem interpreta os números é o médico. O resultado deve ser conversado na consulta de retorno, e não interpretado sozinho.</p>
+<figure class="article-figure"><img src="/images/polissonografia/medico-mostrando-resultados-de-exame-em-um-tablet-para-uma-p.jpg" alt="Médico mostrando resultados de exame em um tablet para uma paciente" width="940" height="627" loading="lazy" /><figcaption>Os resultados são revisados por um médico do sono em uma consulta de retorno. <span class="credit">Foto: <a href="https://www.pexels.com/photo/a-doctor-and-patient-looking-the-digital-tablet-6010873/" rel="noopener nofollow" target="_blank">Tima Miroshnichenko</a> / Pexels</span></figcaption></figure>
+<h2>O que acontece depois do diagnóstico de apneia?</h2>
+<p>O consenso brasileiro afirma que o tratamento exige medidas gerais e o uso de aparelhos de pressão positiva. Nos casos moderados e graves, o CPAP é o mais indicado, e os aparelhos intraorais são indicados nos casos leves.</p>
+<p>O mesmo texto cita medidas simples, como evitar bebida alcoólica, adequar a posição do corpo e perder massa gordurosa. Para entender a gordura que mais preocupa, veja o guia sobre <a href="/o-que-e-gordura-visceral/">gordura visceral</a>.</p>
+<p>A cirurgia é indicada quando há alterações anatômicas evidentes ou como auxílio a outros tratamentos. A escolha cabe ao médico.</p>
+<p>Para quem dorme mal por preocupação, veja também o guia sobre <a href="/meditacao-ansiedade-40/">como meditar</a>.</p>
+
+<h2>Perguntas frequentes sobre a polissonografia</h2>
+<h3>Preciso passar a noite no laboratório?</h3>
+<p>O padrão é a noite inteira no laboratório. Em alguns casos, o consenso brasileiro admite registros feitos em casa.</p>
+<h3>A polissonografia serve só para apneia?</h3>
+<p>Ela ajuda a diagnosticar distúrbios do sono em geral, segundo a American Academy of Sleep Medicine, e é o método padrão para os distúrbios respiratórios do sono.</p>
+<h3>Posso tomar meus remédios da noite?</h3>
+<p>Leve-os e avise o técnico antes de tomar, segundo a entidade. O médico orienta sobre qualquer ajuste.</p>
+<h3>O exame substitui a consulta?</h3>
+<p>Não. O diagnóstico se baseia na história clínica, no exame físico e nos testes de registro do sono.</p>
+
+<h2>Quando procurar um médico</h2>
+<p>Procure um médico se houver ronco alto, pausas na respiração durante o sono, sono não reparador, cansaço ou sonolência durante o dia. Esses são sinais citados no consenso brasileiro entre as queixas da apneia.</p>
+<p>Quem já fez o exame deve marcar a consulta de retorno para entender o resultado. Nenhum cuidado em casa substitui a avaliação de um profissional de saúde.</p>
+
+<h2>Resumindo</h2>
+<p>A polissonografia registra a respiração, o coração, os movimentos e as ondas cerebrais durante a noite. A versão completa de noite inteira, no laboratório, é o método padrão para os distúrbios respiratórios do sono.</p>
+<p>O exame não dói, e a preparação é simples. O resultado é revisado por um médico do sono, em consulta de retorno. Em caso de dúvida, converse com um médico.</p>
+<h2>Fontes</h2>
+<ul>
+<li><a href="http://www.scielo.br/pdf/jbpneu/v36s2/v36s2a08.pdf" rel="noopener nofollow" target="_blank">Sociedade Brasileira de Pneumologia e Tisiologia, critérios diagnósticos dos distúrbios respiratórios do sono (SciELO)</a></li>
+<li><a href="https://sleepeducation.org/what-to-expect-at-your-sleep-study/" rel="noopener nofollow" target="_blank">American Academy of Sleep Medicine, o que esperar de um estudo do sono</a></li>
+<li><a href="https://www.ohsu.edu/brain-institute/preparing-sleep-study" rel="noopener nofollow" target="_blank">Oregon Health & Science University, como se preparar para um estudo do sono</a></li>
+</ul>
+<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>

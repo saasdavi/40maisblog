@@ -1,0 +1,95 @@
+PALAVRA_CHAVE: manchas senis
+TITLE: Manchas Senis: Causas, Tratamentos e Autoexame
+DESCRIPTION: Saiba o que são as manchas senis, por que surgem com a idade, como fazer um autoexame da pele e quando procurar um dermatologista.
+CAPA_ALT: Mãos de uma pessoa madura com manchas senis na pele, em close
+CAPA_URL: /images/manchas-senis/manchas-senis-capa.jpg
+CAPA_CREDITO: Sebastiaan Stam | https://www.pexels.com/photo/left-human-hand-on-grey-surface-1206877/ | Pexels
+FONTE: mdsaude.com | https://mdsaude.com
+FONTE: Sociedade Brasileira de Dermatologia | https://www.sbd.org.br
+FONTE: MedlinePlus (National Library of Medicine) | https://medlineplus.gov
+---
+<p>As manchas senis são pequenas áreas escuras que surgem na pele exposta ao sol, principalmente nas mãos, no rosto, nos ombros e no colo, geralmente depois dos 40 ou 50 anos. Elas são benignas na maioria dos casos, mas a aparência parecida com outras lesões exige atenção.</p>
+<p>Este texto explica causas, opções gerais de cuidado e como fazer um autoexame.</p>
+
+<h2>O que são as manchas senis</h2>
+<p>Também chamadas de lentigos solares ou manchas de idade, essas marcas aparecem quando a pele acumula melanina de forma localizada. Elas são planas, com bordas definidas e cor que varia do bege ao marrom escuro.</p>
+<p>Apesar do nome, a idade não é a única causa. A exposição solar acumulada ao longo da vida é o fator que mais contribui para o surgimento e o escurecimento dessas manchas.</p>
+
+<p>Também é comum que as manchas apareçam em mais de uma região ao mesmo tempo. O padrão de distribuição, com maior número nas áreas que recebem mais sol, ajuda o dermatologista a interpretar o quadro.</p>
+<p>Muitas pessoas notam as primeiras manchas por volta dos 40 anos, mas o surgimento pode acontecer antes em quem se expôs muito ao sol.</p>
+
+<h2>Causas mais frequentes</h2>
+<p>As manchas senis costumam ter origem em uma combinação de fatores, e não em um único motivo:</p>
+<ul>
+<li><strong>Radiação ultravioleta:</strong> o sol é o principal gatilho, sobretudo em quem teve queimaduras solares repetidas.</li>
+<li><strong>Envelhecimento da pele:</strong> com o tempo, a renovação celular fica mais lenta e as alterações de pigmento se tornam mais visíveis.</li>
+<li><strong>Predisposição genética:</strong> pessoas com pele clara e histórico familiar tendem a desenvolver mais manchas.</li>
+<li><strong>Alterações hormonais:</strong> algumas mudanças hormonais podem influenciar a pigmentação, embora esse papel seja menos central.</li>
+</ul>
+
+<p>Algumas características são mais típicas de manchas comuns, como cor uniforme, bordas bem definidas e crescimento lento. Ainda assim, a aparência isolada não garante benignidade, e a avaliação clínica continua indispensável.</p>
+<p>Lesões que coçam, ardem, descamam de forma persistente ou deixam feridas que não cicatrizam devem ser examinadas, mesmo que pareçam pequenas e antigas.</p>
+<figure class="article-figure"><img src="/images/manchas-senis/dermatologista-examinando-a-pele-de-um-paciente-com-lupa-der.jpg" alt="Dermatologista examinando a pele de um paciente com lupa dermatológica" width="940" height="627" loading="lazy" /><figcaption>O exame clínico é a base para diferenciar manchas comuns de lesões suspeitas. <span class="credit">Foto: <a href="https://www.pexels.com/photo/a-woman-in-a-dermatology-clinic-7446683/" rel="noopener nofollow" target="_blank">Gustavo Fring</a> / Pexels</span></figcaption></figure>
+<h2>Como diferenciar manchas senis de outras lesões</h2>
+<p>Nem toda mancha escura é uma mancha senil. Algumas lesões precisam de avaliação, incluindo pintas que mudam, sangram ou coçam.</p>
+<p>A regra mais usada para orientar a observação é o acrônimo ABCDE, que pede atenção a assimetria, bordas irregulares, cor não uniforme, diâmetro maior que alguns milímetros e evolução com o tempo.</p>
+<p>Se uma mancha mudar de forma rápida, tiver cores variadas ou apresentar bordas irregulares, procure um dermatologista. Esse cuidado é importante porque o câncer de pele, como o melanoma, exige diagnóstico precoce. Para outras mudanças visíveis com a idade, como os vasos dilatados nas pernas, veja o texto sobre <a href="/varizes/">varizes</a>.</p>
+
+<p>O autoexame também ajuda a reconhecer o que é novidade. Compare a pele com fotos antigas, quando existirem, e observe se alguma lesão mudou de tamanho, de cor ou de contorno.</p>
+<p>Não é necessário ser especialista para fazer essa observação. O mais importante é a regularidade e a disposição de levar as dúvidas ao médico.</p>
+
+<h2>Autoexame da pele: como fazer</h2>
+<p>O autoexame é uma forma simples de acompanhar a pele. Faça-o uma vez por mês, em frente a um espelho e com boa luz, observando todo o corpo, inclusive costas, couro cabeludo, unhas e áreas entre os dedos.</p>
+<ul>
+<li>Anote a localização e o tamanho das manchas e lesões.</li>
+<li>Fotografe as áreas para comparar com o tempo.</li>
+<li>Observe qualquer mancha nova ou que tenha mudado.</li>
+<li>Leve as anotações ao dermatologista na consulta.</li>
+</ul>
+<p>O autoexame não substitui a consulta. Ele serve para perceber mudanças que merecem avaliação profissional.</p>
+
+<p>Muitas pessoas acreditam que a mancha pode ser apagada com esfoliações caseiras. Na prática, a esfoliação agressiva pode irritar a pele, deixar a área mais sensível ao sol e até piorar a pigmentação.</p>
+<p>Antes de qualquer procedimento, o dermatologista confirma o diagnóstico, avalia o tipo de pele e explica o que é realista esperar, incluindo a possibilidade de a mancha voltar com a exposição solar.</p>
+
+<p>Também é importante desconfiar de produtos que prometem apagar manchas em poucos dias. Clareadores de uso livre costumam levar semanas ou meses para mostrar algum efeito, e aqueles com promessas rápidas merecem cautela.</p>
+<p>Ao aplicar qualquer ativo clareador, use filtro solar todos os dias, porque a exposição ao sol pode anular o avanço do tratamento e favorecer novas manchas.</p>
+<figure class="article-figure"><img src="/images/manchas-senis/aplicacao-de-protetor-solar-no-braco-prevencao-de-manchas-na.jpg" alt="Aplicação de protetor solar no braço, prevenção de manchas na pele" width="940" height="627" loading="lazy" /><figcaption>O filtro solar diário é a medida preventiva mais importante. <span class="credit">Foto: <a href="https://www.pexels.com/photo/a-woman-applying-sunscreen-on-arm-8157145/" rel="noopener nofollow" target="_blank">Mikhail Nilov</a> / Pexels</span></figcaption></figure>
+<h2>Cuidados e opções de tratamento</h2>
+<p>Como as manchas senis são em geral inofensivas, muitas pessoas optam por não tratar. Quando há desejo estético de reduzir a aparência, o dermatologista pode indicar procedimentos, como luz pulsada, laser ou crioterapia, cada um com indicações, riscos e limitações próprias.</p>
+<p>Também existem cremes com ativos clareadores, mas o uso deve ser feito com orientação, porque alguns produtos podem irritar a pele ou causar manchas de contato. Não há como prometer remoção completa, e a escolha depende do tipo de pele e do quadro.</p>
+<p>A prevenção continua sendo o melhor caminho. Use filtro solar de amplo espectro todos os dias, reaplique conforme orientação, use chapéu e roupas de proteção e evite horários de sol mais intenso.</p>
+
+<p>Vale lembrar que o cuidado com o sol começa cedo. Mesmo sem perceber queimaduras, a exposição frequente ao longo dos anos é o que mais contribui para o surgimento de manchas nas áreas expostas.</p>
+<p>Roupas com proteção, sombra nos horários de pico e a rotina de filtro no rosto, nas mãos e no colo formam um conjunto simples e eficaz para desacelerar o aparecimento de novas manchas.</p>
+
+<p>Quem tem histórico de queimaduras solares na infância, pele muito clara ou muitos sinais pelo corpo deve reforçar a rotina de proteção e manter as consultas dermatológicas em dia. Escurecimentos nas dobras da pele podem ter outra origem, como mostra o texto sobre <a href="/o-que-e-resistencia-a-insulina/">resistência à insulina</a>.</p>
+<p>O filtro solar deve ser aplicado também em dias nublados, porque grande parte da radiação ultravioleta atravessa as nuvens.</p>
+
+<p>Quando a mancha está em uma área de atrito, como a mão que segura objetos, ou sofre irritação repetida, vale observar se há descamação ou coceira, pois a inflamação pode alterar a aparência da lesão.</p>
+<p>Nesses casos, uma avaliação dermatológica permite distinguir a mancha benigna de outras alterações que exigem seguimento, sem depender de comparações feitas na internet.</p>
+
+<p>Algumas pessoas recorrem a tratamentos caseiros com vinagre, limão ou bicarbonato, na esperança de clarear a mancha. Essas receitas não têm comprovação e podem causar queimaduras químicas e manchas ainda mais escuras.</p>
+<p>Diante de qualquer dúvida, a melhor conduta é a consulta com o dermatologista, que oferece segurança e alternativas adequadas ao tipo de pele.</p>
+
+<h2>Perguntas frequentes</h2>
+<p><strong>Manchas senis são perigosas?</strong><br>Na maioria dos casos, não. Mesmo assim, qualquer mudança de forma, cor ou tamanho deve ser avaliada.</p>
+<p><strong>Elas podem sumir sozinhas?</strong><br>Em geral não desaparecem por conta própria, mas podem clarear com o tempo se a exposição solar diminuir.</p>
+<p><strong>Passar limão ou outros caseiros resolve?</strong><br>Não há evidência de eficácia, e o ácido pode causar irritação e manchas na pele.</p>
+<p><strong>Tratamento estético é obrigatório?</strong><br>Não. A decisão é pessoal e deve considerar riscos e expectativas com o dermatologista.</p>
+
+<h2>Quando procurar um médico</h2>
+<p>Procure um dermatologista se alguma mancha crescer, mudar de cor, sangrar, coçar, ulcerar ou não cicatrizar. Também vale a consulta se você notar manchas diferentes das habituais ou se tiver histórico de câncer de pele na família.</p>
+<p>O especialista faz a avaliação clínica e, quando necessário, indica exame de imagem ou biópsia. Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</p>
+
+<p>Quando o dermatologista identifica uma mancha benigna, a orientação costuma ser de acompanhamento e de proteção solar. Essa conduta simples evita intervenções desnecessárias e mantém a atenção voltada a sinais de mudança.</p>
+
+<h2>Resumindo</h2>
+<p>As manchas senis são resultado principalmente da exposição solar acumulada e do envelhecimento da pele. Em geral são benignas, mas precisam ser distinguidas de lesões que exigem tratamento precoce.</p>
+<p>O autoexame mensal, a proteção solar diária e a consulta periódica são as melhores medidas de cuidado. Qualquer tratamento estético deve ser discutido com um dermatologista. Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</p>
+<h2>Fontes</h2>
+<ul>
+<li><a href="https://mdsaude.com" rel="noopener nofollow" target="_blank">mdsaude.com</a></li>
+<li><a href="https://www.sbd.org.br" rel="noopener nofollow" target="_blank">Sociedade Brasileira de Dermatologia</a></li>
+<li><a href="https://medlineplus.gov" rel="noopener nofollow" target="_blank">MedlinePlus (National Library of Medicine)</a></li>
+</ul>
+<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>

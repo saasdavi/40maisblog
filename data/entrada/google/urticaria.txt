@@ -1,0 +1,100 @@
+PALAVRA_CHAVE: urticária
+TITLE: Urticária: causas, sintomas e quando procurar
+DESCRIPTION: Entenda o que é a urticária, a diferença entre a forma aguda e a crônica, as causas, os sintomas, o que ajuda a aliviar a coceira e os sinais de alerta.
+CAPA_ALT: Mão aplicando creme hidratante no antebraço, em close
+CAPA_URL: /images/urticaria/urticaria-capa.jpg
+CAPA_CREDITO: https://kaboompics.com/ | https://www.pexels.com/photo/arm-with-white-cream-7281624/ | Pexels
+FONTE: Manual MSD Versão Saúde para a Família, placas vermelhas e coceira | https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-da-pele/coceira-e-dermatite/urtic%C3%A1ria
+FONTE: Manual MSD Versão Saúde para a Família, inchaço sob a pele (angioedema) | https://www.msdmanuals.com/pt/casa/doen%C3%A7as-imunol%C3%B3gicas/rea%C3%A7%C3%B5es-al%C3%A9rgicas-e-outras-doen%C3%A7as-relacionadas-%C3%A0-hipersensibilidade/angioedema
+FONTE: Sociedade Brasileira de Pediatria, placas e inchaço na infância | https://www.sbp.com.br/pediatria-para-familias/doencas/urticaria-e-angioedema/
+---
+<p>A urticária são placas avermelhadas, levemente salientes e que coçam, causadas pela liberação de histamina na pele. Segundo o <a href="https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-da-pele/coceira-e-dermatite/urtic%C3%A1ria" rel="noopener nofollow" target="_blank">Manual MSD</a>, ela costuma sumir sozinha em um ou dois dias, mas exige atenção ao inchaço no rosto e à falta de ar.</p>
+<p>Os cuidados em casa ajudam, mas a causa e o remédio devem ser definidos por um profissional de saúde.</p>
+
+<h2>O que é a urticária?</h2>
+<p>O manual descreve a condição como inchaços avermelhados, levemente salientes, que coçam. O inchaço vem da liberação de substâncias químicas, como a histamina, dos mastócitos na pele. Elas causam um vazamento temporário de líquido dos pequenos vasos.</p>
+<p>As placas têm bordas definidas e podem ter o centro pálido. Os surtos aparecem e desaparecem. Uma placa pode ficar por horas e sumir, e outra surgir em outro local depois.</p>
+<p>Depois que a placa some, a pele geralmente volta ao aspecto normal, segundo o manual.</p>
+
+<h2>O que é angioedema?</h2>
+<p>A urticária pode vir junto com angioedema, que também é um inchaço, mas fica sob a pele e não na superfície, segundo o manual.</p>
+<p>O angioedema também pode afetar o rosto, os lábios, a garganta, a língua e as vias respiratórias. Pode colocar a vida em risco se o inchaço atrapalhar a respiração.</p>
+<p>Uma <a href="https://www.msdmanuals.com/pt/casa/doen%C3%A7as-imunol%C3%B3gicas/rea%C3%A7%C3%B5es-al%C3%A9rgicas-e-outras-doen%C3%A7as-relacionadas-%C3%A0-hipersensibilidade/angioedema" rel="noopener nofollow" target="_blank">página do manual sobre angioedema</a> informa que, se ele dificultar a deglutição ou a respiração, é necessário tratamento de emergência.</p>
+
+<h2>Quais são as causas?</h2>
+<p>O manual afirma que a condição pode ou não ser uma reação alérgica. A maior parte do tempo, ela não faz parte de uma reação alérgica, e não é possível identificar um alérgeno.</p>
+<p>Quando há alergia, as substâncias podem ser inaladas, consumidas, injetadas ou tocadas. Elas podem estar no ambiente, em alimentos, em medicamentos, em insetos e em plantas.</p>
+<p>Entre as causas não alérgicas estão doenças autoimunes, alguns medicamentos e estímulos físicos como calor, frio, pressão, fricção e luz solar.</p>
+
+<h2>Qual a diferença entre a forma aguda e a crônica?</h2>
+<p>Segundo o manual, se dura menos de 6 semanas, a condição é classificada como aguda. Se dura 6 semanas ou mais, é crônica.</p>
+<p>Na forma aguda, as reações alérgicas costumam ser causadas por alimentos, como ovos, peixes, frutos do mar, nozes e frutas, por aditivos, por medicamentos e por picadas de insetos. Em mais da metade dos casos, a causa não é identificada.</p>
+<p>As causas não alérgicas incluem infecções, alguns medicamentos e estímulos físicos, como pressão ou frio.</p>
+<p>Na forma crônica, as causas possíveis são as mesmas, mas, na grande maioria dos casos, a causa não é identificada. Ela pode durar meses ou anos e sumir sem razão aparente.</p>
+<p>Em cerca de metade das pessoas, a forma crônica desaparece sem tratamento em até 2 anos, segundo o manual.</p>
+
+<h2>Quais estímulos físicos podem provocar as placas?</h2>
+<p>O manual cita frio, exercício, pressão sobre a pele, coçar a pele, calor, luz do sol e suor durante um banho quente, um exercício ou uma febre.</p>
+<p>Para a maioria desses estímulos, as placas começam segundos ou minutos depois da exposição. No caso da pressão, elas começam em 4 a 6 horas e não afetam só a área pressionada.</p>
+<p>No caso da luz do sol, as placas aparecem apenas na pele exposta, segundo o manual.</p>
+
+<h2>Alimentos, remédios e picadas de inseto podem causar?</h2>
+<p>Sim. Entre os alimentos que causam reações alérgicas, o manual cita amendoim, nozes, peixes, frutos do mar, trigo, ovos, leite e soja. As placas começam alguns minutos ou algumas horas depois do consumo.</p>
+<p>Com remédios, as placas podem começar minutos depois do uso, e até 48 horas depois. Pode ocorrer com alguns anti-inflamatórios, alguns opioides e meios de contraste, e possivelmente com qualquer remédio, com ou sem receita, ou produto fitoterápico, se a pessoa for alérgica.</p>
+<p>Nas picadas de inseto, as placas começam segundos ou minutos depois da picada, segundo o manual.</p>
+<p>As infecções também podem causar, mas o manual as descreve como causas raras. Nesses casos costumam aparecer outros sinais, como febre, tremores e cansaço.</p>
+
+<h2>Quando a forma crônica pode estar ligada a outra doença?</h2>
+<p>A maioria dos casos crônicos não tem causa identificada. Mas o manual cita causas possíveis, como doenças autoimunes e distúrbios da tireoide, o que justifica exames em quadros persistentes.</p>
+<p>Uma forma rara, a vasculite urticariforme, tem placas que podem doer em vez de coçar, duram mais de 24 horas e não ficam esbranquiçadas quando se aplica pressão.</p>
+<p>Quando os sintomas sugerem uma doença que atinge o corpo inteiro, como febre, perda de peso e gânglios inchados, é necessária uma avaliação completa, segundo o manual.</p>
+
+<h2>Como é feita a avaliação?</h2>
+<p>O médico pergunta sobre os sintomas, o histórico médico e as atividades antes do episódio. Também pergunta sobre exposição a substâncias que causam alergia, incluindo os remédios em uso.</p>
+<p>No exame físico, ele verifica primeiro se lábios, língua, garganta ou vias aéreas estão inchados. Se houver inchaço, o tratamento começa imediatamente, segundo o manual.</p>
+<p>Em um episódio único, geralmente não são necessários exames. Em quadros atípicos, repetidos ou persistentes, o manual cita hemograma e exames de sangue para glicose, hormônio da tireoide e função do fígado e dos rins.</p>
+<p>Para conhecer valores e sinais ligados à glicose, veja os guias sobre <a href="/hemoglobina-glicada/">hemoglobina glicada</a> e <a href="/sintomas-de-diabetes/">sintomas de diabetes</a>.</p>
+<p>O manual orienta que as pessoas não tentem provocar a reação em si mesmas, pois ela pode ser grave.</p>
+
+<h2>O que ajuda a aliviar a coceira em casa?</h2>
+<p>A condição geralmente desaparece sozinha após um dia ou dois, segundo o manual. Se a causa for evidente, deve-se evitá-la, quando possível.</p>
+<p>Banhos apenas com água fria, não coçar e evitar roupas apertadas podem ajudar a aliviar os sintomas.</p>
+<p>Se a causa não for evidente, o manual diz que se deve deixar de tomar os medicamentos não indispensáveis até as placas sumirem. Converse com o médico ou o farmacêutico antes de suspender qualquer remédio.</p>
+<figure class="article-figure"><img src="/images/urticaria/maos-sob-um-jato-de-agua-fria-com-respingos-sobre-a-pia.jpg" alt="Mãos sob um jato de água fria, com respingos sobre a pia" width="940" height="528" loading="lazy" /><figcaption>Banhos só com água fria ajudam a aliviar os sintomas, segundo o Manual MSD. <span class="credit">Foto: <a href="https://www.pexels.com/photo/human-hand-with-water-165988/" rel="noopener nofollow" target="_blank">George Becker</a> / Pexels</span></figcaption></figure>
+<h2>Como é o tratamento com remédios?</h2>
+<p>O manual cita anti-histamínicos tomados por via oral, que aliviam a coceira parcialmente e reduzem o inchaço. A escolha e a forma de usar cabem ao médico ou ao farmacêutico.</p>
+<p>Este guia não traz nomes de remédios nem doses. Cremes e loções anti-histamínicos não são usados, porque podem sensibilizar a pele e piorar a coceira. Cremes com corticoide também não ajudam.</p>
+<p>Corticoides por via oral são usados quando os sintomas são graves e não há resposta a outros tratamentos. O manual diz que se usam pelo menor período possível, porque, depois de 3 ou 4 semanas, causam muitos efeitos colaterais.</p>
+<p>Em reações graves ou com angioedema, é necessário atendimento de emergência. Quem já teve essas reações deve ter um autoinjetor de adrenalina, conforme prescrição, e usá-lo imediatamente.</p>
+<figure class="article-figure"><img src="/images/urticaria/farmaceutico-orientando-uma-cliente-no-balcao-de-uma-farmaci.jpg" alt="Farmacêutico orientando uma cliente no balcão de uma farmácia" width="940" height="627" loading="lazy" /><figcaption>Remédios para a coceira devem ser escolhidos com o médico ou o farmacêutico. <span class="credit">Foto: <a href="https://www.pexels.com/photo/woman-in-a-pharmacy-12332074/" rel="noopener nofollow" target="_blank">Jose Ismael Espinola</a> / Pexels</span></figcaption></figure>
+<h2>Quem precisa de mais cuidado?</h2>
+<p>O manual alerta que adultos mais velhos têm maior risco de efeitos colaterais com os anti-histamínicos mais antigos. Além de sonolência, eles podem causar confusão, delirium e dificuldade para urinar.</p>
+<p>Em geral, adultos mais velhos não devem tomar esses anti-histamínicos para tratar a condição, segundo o manual.</p>
+<p>Em crianças, a <a href="https://www.sbp.com.br/pediatria-para-familias/doencas/urticaria-e-angioedema/" rel="noopener nofollow" target="_blank">Sociedade Brasileira de Pediatria</a> informa que casos leves podem ser tratados com antialérgicos prescritos pelo pediatra. Casos mais graves pedem atendimento no pronto-atendimento.</p>
+<p>Segundo o manual, se a criança tem placas que surgem de repente, somem e não voltam, geralmente não é necessário exame. A causa costuma ser uma infecção viral.</p>
+
+<h2>Perguntas frequentes sobre a urticária</h2>
+<h3>A urticária é sempre alergia?</h3>
+<p>Não. O manual afirma que ela pode ou não ser uma reação alérgica, e que, na maior parte do tempo, não é possível identificar um alérgeno.</p>
+<h3>Quanto tempo dura?</h3>
+<p>Cada placa pode durar horas. A forma aguda dura menos de 6 semanas, e a crônica, 6 semanas ou mais, segundo o manual.</p>
+<h3>Ela é contagiosa?</h3>
+<p>As fontes consultadas não descrevem a condição como contagiosa. A causa pode ser uma infecção, mas as placas em si não passam de uma pessoa para outra.</p>
+<h3>Cremes ajudam?</h3>
+<p>Segundo o manual, cremes com corticoide não ajudam, e cremes anti-histamínicos não são usados porque podem piorar a coceira.</p>
+
+<h2>Quando procurar um médico</h2>
+<p>Segundo o manual, chame uma ambulância se houver dificuldade para respirar, chiado ou sensação de garganta fechando. Procure o pronto-socorro ou o médico assim que possível se os sintomas forem graves, houver fraqueza, vertigem, febre alta, calafrios, vômitos, dor abdominal ou diarreia.</p>
+<p>Consulte um médico se a picada de abelha causar placas ou inchaço, se aparecerem febre, dores nas articulações, perda de peso ou gânglios inchados, ou se os sintomas durarem mais de 2 dias.</p>
+<p>Dê atenção a inchaço do rosto, dos lábios, da garganta ou da língua, a placas de cor profunda que viram ferida aberta ou duram mais de 48 horas. Nenhum cuidado em casa substitui a avaliação de um profissional de saúde.</p>
+
+<h2>Resumindo</h2>
+<p>A urticária são placas que coçam, aparecem e somem, e costumam desaparecer sozinhas em um ou dois dias. Pode ser alérgica ou não, e na maioria dos casos a causa não é identificada.</p>
+<p>Banhos frios, roupas folgadas e evitar a causa ajudam. Cremes não costumam ajudar. Inchaço no rosto, falta de ar ou garganta fechando exigem emergência. Em caso de dúvida, converse com um médico.</p>
+<h2>Fontes</h2>
+<ul>
+<li><a href="https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-da-pele/coceira-e-dermatite/urtic%C3%A1ria" rel="noopener nofollow" target="_blank">Manual MSD Versão Saúde para a Família, placas vermelhas e coceira</a></li>
+<li><a href="https://www.msdmanuals.com/pt/casa/doen%C3%A7as-imunol%C3%B3gicas/rea%C3%A7%C3%B5es-al%C3%A9rgicas-e-outras-doen%C3%A7as-relacionadas-%C3%A0-hipersensibilidade/angioedema" rel="noopener nofollow" target="_blank">Manual MSD Versão Saúde para a Família, inchaço sob a pele (angioedema)</a></li>
+<li><a href="https://www.sbp.com.br/pediatria-para-familias/doencas/urticaria-e-angioedema/" rel="noopener nofollow" target="_blank">Sociedade Brasileira de Pediatria, placas e inchaço na infância</a></li>
+</ul>
+<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>

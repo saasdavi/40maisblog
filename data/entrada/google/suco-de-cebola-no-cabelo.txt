@@ -1,0 +1,169 @@
+PALAVRA_CHAVE: cebola para cabelo
+TITLE: Cebola para Cabelo: Funciona ou Mito?
+DESCRIPTION: Cebola para cabelo funciona? Veja o que a ciência diz sobre o suco de cebola e o crescimento capilar, como usar com segurança e os riscos.
+CAPA_ALT: Cuidados com os cabelos sobre suco de cebola no cabelo
+CAPA_URL: /images/suco-de-cebola-no-cabelo/suco-de-cebola-no-cabelo-capa.jpg
+CAPA_CREDITO: Yan Krukau | https://www.pexels.com/photo/woman-combing-her-hair-while-sitting-on-wicker-pouf-7020324/ | Pexels
+FONTE: Sociedade Brasileira de Dermatologia | https://www.sbd.org.br
+FONTE: anaisdedermatologia.org.br | https://anaisdedermatologia.org.br
+FONTE: onlinelibrary.wiley.com | https://onlinelibrary.wiley.com
+FONTE: MedlinePlus (National Library of Medicine) | https://medlineplus.gov
+---
+<div id="container-imagem-capa" class="loading">Carregando imagem...</div>
+
+<p>Usar cebola para cabelo, como suco no couro cabeludo, é uma receita caseira antiga, popularizada como solução natural contra a queda capilar. A promessa é tentadora: um ingrediente barato, disponível em qualquer cozinha, capaz de estimular o crescimento dos fios. Mas será que a ciência sustenta essa crença?</p>
+
+<p>A resposta exige análise cuidadosa. Existe um estudo clássico que investigou o uso do suco de cebola em um tipo específico de queda de cabelo. Ao mesmo tempo, há riscos concretos associados ao uso indiscriminado dessa substância ácida sobre o couro cabeludo.</p>
+
+<h2>O que a ciência diz sobre o suco de cebola para cabelo?</h2>
+<p>O principal estudo sobre o tema foi publicado em 2002 por pesquisadores do Hospital Universitário de Bagdá, no Iraque [citation:1]. Os resultados chamaram atenção e ainda são citados em praticamente todos os artigos sobre o assunto.</p>
+
+<p>Os pesquisadores dividiram voluntários com alopecia areata em dois grupos. Um grupo aplicou suco de cebola cru na cabeça duas vezes ao dia. O outro recebeu apenas água da torneira como placebo [citation:1].</p>
+
+<p>Após seis semanas, 86,9% dos participantes do grupo da cebola apresentaram crescimento capilar visível. No grupo placebo, apenas 13% observaram o mesmo resultado [citation:1].</p>
+
+<p>É preciso, porém, contextualizar esse achado. A alopecia areata é uma condição autoimune específica, caracterizada por falhas circulares no cabelo. Não se trata de calvície comum ou queda difusa por estresse.</p>
+
+<p>Além disso, o estudo foi pequeno e conduzido em uma única instituição. Não houve acompanhamento de longo prazo nem avaliação histológica dos folículos. A qualidade metodológica é limitada pelos padrões atuais.</p>
+
+<div id="container-imagem-1" class="loading">Carregando imagem...</div>
+
+<h2>Suco de cebola funciona para queda de cabelo?</h2>
+<p>A resposta depende do tipo de queda. Para alopecia areata, o único estudo disponível sugere algum benefício. Para outras formas de queda, não há evidência científica que sustente a indicação.</p>
+
+<p>A alopecia androgenética, a forma mais comum de calvície, não foi objeto do estudo iraquiano. Seu mecanismo envolve sensibilidade hormonal e miniaturização progressiva dos folículos.</p>
+
+<p>O suco de cebola não substitui medicamentos com eficácia comprovada para calvície genética, como minoxidil tópico ou finasterida oral. Essa substituição pode atrasar o tratamento correto e agravar a perda capilar.</p>
+
+<p>Quedas por deficiências nutricionais, disfunções da tireoide ou eflúvio telógeno pós-parto também não respondem ao suco de cebola. Nesses casos, a causa precisa ser identificada e tratada especificamente.</p>
+
+<table>
+<thead>
+<tr>
+<th>Tipo de queda</th>
+<th>Evidência para suco de cebola</th>
+<th>Tratamento com eficácia comprovada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alopecia areata</td>
+<td>Estudo único, qualidade limitada [citation:1]</td>
+<td>Corticosteroides tópicos ou intralesionais</td>
+</tr>
+<tr>
+<td>Alopecia androgenética</td>
+<td>Sem evidência</td>
+<td>Minoxidil, finasterida, terapias a laser</td>
+</tr>
+<tr>
+<td>Eflúvio telógeno</td>
+<td>Sem evidência</td>
+<td>Tratar a causa de base (estresse, nutrição)</td>
+</tr>
+<tr>
+<td>Queda por deficiência nutricional</td>
+<td>Sem evidência</td>
+<td>Reposição de ferro, zinco, vitamina D</td>
+</tr>
+</tbody>
+</table>
+
+<p>Há ainda a questão do enxofre. A cebola contém esse mineral, que participa da formação da queratina, proteína estrutural do cabelo. Porém, a aplicação tópica de enxofre na forma presente na cebola não garante sua incorporação ao fio.</p>
+
+<p>A queratina é produzida dentro do folículo durante o crescimento capilar. O enxofre dietético, obtido pela alimentação, é o que participa desse processo. A aplicação externa tem destino diferente.</p>
+
+<div id="container-imagem-2" class="loading">Carregando imagem...</div>
+<figure class="article-figure"><img src="/images/suco-de-cebola-no-cabelo/avaliacao-do-couro-cabeludo-relacionado-a-suco-de-cebola-no-.jpg" alt="Avaliação do couro cabeludo relacionado a suco de cebola para cabelo" width="940" height="529" loading="lazy" /><figcaption>Ilustração ilustrativa do tema <span class="credit">Foto: <a href="https://www.pexels.com/photo/dermatologist-conducting-treatment-in-clinic-32260064/" rel="noopener nofollow" target="_blank">Dr. Haror's  Wellness</a> / Pexels</span></figcaption></figure>
+<h2>Como usar o suco de cebola para cabelo?</h2>
+<p>Para quem decide testar a receita, algumas medidas de segurança são indispensáveis. O suco de cebola é ácido e contém compostos que podem irritar a pele.</p>
+
+<p>O primeiro passo é o teste de alergia. Aplique uma pequena quantidade de suco diluído na face interna do antebraço e aguarde 24 horas. Se houver vermelhidão, coceira ou inchaço, não use o produto.</p>
+
+<p>O preparo caseiro consiste em bater uma cebola descascada com um pouco de água no liquidificador. Coe para obter apenas o líquido, sem fragmentos sólidos que possam obstruir os folículos.</p>
+
+<p>A aplicação é feita diretamente no couro cabeludo, com algodão ou massagem suave. O tempo de contato descrito no estudo foi de aproximadamente 15 minutos [citation:1].</p>
+
+<p>Após o tempo de ação, enxágue abundantemente e lave o cabelo com xampu de sua preferência. A frequência de uso não é padronizada, mas a recomendação popular costuma citar duas vezes por semana.</p>
+
+<p>O uso de cebola pura, sem diluição, aumenta o risco de queimadura química. A acidez concentrada pode desestabilizar o manto ácido natural do couro cabeludo.</p>
+
+<h3>Como tirar o cheiro de cebola do cabelo?</h3>
+<p>O odor residual é a queixa mais comum de quem testa a receita. O enxofre e os compostos sulfurados da cebola impregnam nos fios e podem persistir por dias.</p>
+
+<p>A lavagem com xampu comum remove parte do cheiro, mas não completamente. O uso de condicionador com fragrância forte ajuda a mascarar o odor, sem eliminá-lo.</p>
+
+<p>Uma solução mais eficaz é enxaguar o cabelo com água e suco de limão antes da lavagem. A acidez do limão neutraliza parte dos compostos voláteis da cebola.</p>
+
+<p>Outra opção é aplicar uma máscara capilar com aroma intenso após a lavagem. Deixe agir por alguns minutos e enxágue. O perfume do produto ajuda a sobrepor o cheiro residual.</p>
+
+<p>Evite usar o suco de cebola antes de compromissos sociais. O cheiro pode ser perceptível mesmo após a lavagem e dura, em média, de um a três dias.</p>
+
+<div id="container-imagem-3" class="loading">Carregando imagem...</div>
+
+<h2>Riscos e contraindicações do suco de cebola</h2>
+<p>A aplicação de suco de cebola no couro cabeludo não é isenta de riscos. As reações adversas mais comuns incluem irritação, vermelhidão e coceira.</p>
+
+<p>A dermatite de contato é uma reação alérgica possível. Os compostos da cebola podem sensibilizar a pele, especialmente em pessoas com histórico de eczema ou pele sensível.</p>
+
+<p>O couro cabeludo já inflamado, como em casos de dermatite seborreica ou psoríase, é particularmente vulnerável. A acidez do suco pode agravar o processo inflamatório pré-existente.</p>
+
+<p>O uso do suco de cebola não deve substituir tratamentos médicos estabelecidos. A automedicação com receitas caseiras pode atrasar o diagnóstico e o tratamento adequados.</p>
+
+<p>Pessoas com alopecia areata extensa, calvície avançada ou queda de causa desconhecida devem procurar um dermatologista antes de testar qualquer solução caseira. O diagnóstico correto é o primeiro passo para qualquer tratamento eficaz.</p>
+
+<p>O suco de cebola não deve ser aplicado em crianças sem orientação pediátrica. A pele infantil é mais sensível e o risco de irritação é maior.</p>
+
+<h2>Perguntas frequentes</h2>
+
+<h3>1. Suco de cebola faz o cabelo crescer mais rápido?</h3>
+<p>Não há evidência de que acelere o crescimento em pessoas sem alopecia. O estudo existente investigou apenas alopecia areata, uma condição específica [citation:1].</p>
+
+<h3>2. Pode passar cebola pura direto no couro cabeludo?</h3>
+<p>Não é recomendado. A cebola pura é ácida e pode causar queimaduras químicas. A diluição em água reduz o risco de irritação.</p>
+
+<h3>3. Quanto tempo devo deixar o suco de cebola agindo?</h3>
+<p>O estudo clássico utilizou aproximadamente 15 minutos de contato. Tempos prolongados aumentam o risco de irritação sem benefício adicional comprovado [citation:1].</p>
+
+<h3>4. Suco de cebola substitui minoxidil?</h3>
+<p>Não. O minoxidil tem eficácia comprovada para alopecia androgenética. O suco de cebola não tem evidência para esse tipo de queda.</p>
+
+<h3>5. Posso usar shampoo de cebola industrializado?</h3>
+<p>O shampoo industrializado contém extrato de cebola purificado e livre de odor. Não há estudos que comprovem sua eficácia, mas o risco de irritação é menor que o da receita caseira.</p>
+
+<h2>Resumindo</h2>
+<p>O suco de cebola para cabelo tem um único estudo clínico que sugere benefício para alopecia areata. Esse estudo, de 2002, foi pequeno e de qualidade metodológica limitada [citation:1].</p>
+
+<p>Para outras formas de queda, incluindo a calvície comum, não há evidência científica que sustente o uso do suco de cebola. A substituição de tratamentos eficazes por receitas caseiras pode agravar a perda capilar.</p>
+
+<p>O uso do suco de cebola envolve riscos. A acidez pode irritar o couro cabeludo, especialmente em pessoas com pele sensível ou condições inflamatórias pré-existentes.</p>
+
+<p>O cheiro residual é um problema prático significativo. Mesmo após a lavagem, o odor pode persistir por dias, o que limita a adesão à receita.</p>
+
+<p>Se você tem queda de cabelo, procure um dermatologista. O diagnóstico correto identifica a causa e permite o tratamento adequado. O suco de cebola não é uma solução universal e não deve ser a primeira linha de abordagem.</p>
+
+<h2>Fontes</h2>
+<ul>
+<li>Onion Juice (Allium cepa L.), A New Topical Treatment for Alopecia Areata - Journal of Dermatology. https://onlinelibrary.wiley.com/doi/10.1111/j.1346-8138.2002.tb00230.x</li>
+<li>Suco de cebola para cabelo acaba com a queda? - Droga Raia. https://www.drogaraia.com.br/blog/beleza/cabelo/suco-de-cebola-no-cabelo</li>
+<li>Queda ou Quebra de Cabelo: Como Diferenciar no Consultório - Sociedade Brasileira de Dermatologia. https://www.sbd.org.br/dermatologia/cabelo/cuidados/queda-ou-quebra-de-cabelo-como-diferenciar-no-consultorio/</li>
+<li>Alopecia Areata - Manual MSD Versão Saúde para a Família. https://www.msdmanuals.com/pt-br/casa/problemas-de-pele/doen%C3%A7as-do-cabelo/alopecia-areata</li>
+<li>Alopecia androgenética: diagnóstico e tratamento - Anais Brasileiros de Dermatologia. https://www.anaisdedermatologia.org.br/en/detail-artigo/alopecia-androgenetica-diagnostico-e-tratamento-34540</li>
+<li>Dermatite de contato - Manual MSD Versão Saúde para a Família. https://www.msdmanuals.com/pt-br/casa/problemas-de-pele/dermatite/dermatite-de-contato</li>
+<li><a href="https://medlineplus.gov" rel="noopener nofollow" target="_blank">MedlinePlus (National Library of Medicine)</a></li>
+</ul>
+
+<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>
+<p>Para ampliar o assunto, veja também <a href="/queda-de-cabelo/">Queda de Cabelo: Saiba Quando é Normal Tratar</a> e <a href="/colesterol-depois-dos-40/">Como Baixar Colesterol: Guia Prático 40+</a>.</p>
+<h2>Quando procurar um médico</h2>
+<p>Procure um médico se os sintomas persistirem, piorarem ou vierem acompanhados de sinais de alerta. Quem usa medicamentos de uso contínuo, está grávida ou tem doença crônica deve conversar com o profissional de saúde antes de começar qualquer tratamento ou suplemento.</p>
+
+<h2>Fontes consultadas</h2>
+<p>As informações deste texto têm como base materiais da <a href="https://www.sbd.org.br" target="_blank" rel="noopener">Sociedade Brasileira de Dermatologia</a>, <a href="https://anaisdedermatologia.org.br" target="_blank" rel="noopener">anaisdedermatologia.org.br</a> e da <a href="https://onlinelibrary.wiley.com" target="_blank" rel="noopener">onlinelibrary.wiley.com</a>. Para conferir os temas, acesse o site oficial de cada instituição.</p>
+<h2>Fontes</h2>
+<ul>
+<li><a href="https://www.sbd.org.br" rel="noopener nofollow" target="_blank">Sociedade Brasileira de Dermatologia</a></li>
+<li><a href="https://anaisdedermatologia.org.br" rel="noopener nofollow" target="_blank">anaisdedermatologia.org.br</a></li>
+<li><a href="https://onlinelibrary.wiley.com" rel="noopener nofollow" target="_blank">onlinelibrary.wiley.com</a></li>
+</ul>
+<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>

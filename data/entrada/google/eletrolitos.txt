@@ -1,0 +1,71 @@
+PALAVRA_CHAVE: eletrólitos
+TITLE: Eletrólitos: o que são, funções e como repor
+DESCRIPTION: Eletrólitos: entenda o que são, para que servem no organismo, quando há risco de desequilíbrio e por que a reposição deve ser orientada.
+CAPA_ALT: Copo de água sobre a mesa, ilustrando hidratação e equilíbrio de eletrólitos
+CAPA_URL: /images/eletrolitos/eletrolitos-capa.jpg
+CAPA_CREDITO: Lisa Fotios | https://www.pexels.com/photo/close-up-photo-of-water-splashing-from-glass-2311854/ | Pexels
+FONTE: Governo Federal | https://www.gov.br
+FONTE: PubMed (National Library of Medicine) | https://pubmed.ncbi.nlm.nih.gov
+FONTE: Manual MSD | https://www.msdmanuals.com
+---
+<p>Eletrólitos são minerais com carga elétrica, como sódio, potássio, cálcio, magnésio, cloreto e fosfato. Eles participam da contração muscular, do ritmo do coração e do equilíbrio da água. Quando as quantidades saem da faixa adequada, surgem sintomas. Veja, em termos gerais, o que são e como são repostos.</p>
+<h2>O que são eletrólitos e por que importam</h2>
+<p>Os eletrólitos são substâncias que se dissolvem em água e conduzem impulsos elétricos. Essa característica é essencial para o funcionamento dos nervos e dos músculos. Sem um equilíbrio adequado, a comunicação entre as células fica prejudicada, e o corpo perde parte de sua eficiência para regular pressão, temperatura e hidratação.</p>
+<p>Na prática, quase todos os eletrólitos vêm da alimentação e são absorvidos pelo intestino. Os rins têm papel central em ajustar as quantidades, eliminando o excesso pela urina quando necessário. Hormônios também participam desse controle, o que faz com que o equilíbrio seja um processo contínuo e bastante sofisticado.</p>
+<p>Por isso, a ideia de que eletrólitos são apenas “bebidas para repor energia” é limitada. Eles são necessários no dia a dia, e a maioria das pessoas consegue mantê-los em faixa adequada com uma alimentação variada e boa hidratação, sem suplementos específicos.</p>
+<h2>Principais funções no organismo</h2>
+<p>O sódio ajuda a manter o volume de líquidos e participa da transmissão de impulsos nervosos. O potássio é importante para o ritmo do coração e para a contração muscular. O cálcio tem papel conhecido na formação dos ossos, mas também atua na contração muscular e na coagulação do sangue.</p>
+<p>O magnésio participa de centenas de reações enzimáticas e ajuda na função muscular e nervosa. Já o fosfato integra a estrutura dos ossos e participa da produção de energia celular. Cada um desses minerais tem funções próprias, e a falta ou o excesso de qualquer um pode produzir sintomas diferentes.</p>
+<ul>
+<li>Sódio: volume dos líquidos e impulsos nervosos;</li>
+<li>Potássio: ritmo cardíaco e contração muscular;</li>
+<li>Cálcio: ossos, músculos e coagulação;</li>
+<li>Magnésio: funções nervosas, musculares e enzimáticas.</li>
+</ul>
+<figure class="article-figure"><img src="/images/eletrolitos/frutas-e-verduras-frescas-fontes-naturais-de-minerais-como-p.jpg" alt="Frutas e verduras frescas, fontes naturais de minerais como potássio e magnésio" width="940" height="627" loading="lazy" /><figcaption>Muitos eletrólitos vêm da alimentação do dia a dia. <span class="credit">Foto: <a href="https://www.pexels.com/photo/wooden-street-stall-with-fruits-and-vegetables-11669641/" rel="noopener nofollow" target="_blank">Quang Nguyen Vinh</a> / Pexels</span></figcaption></figure>
+<h2>Quando pode haver desequilíbrio</h2>
+<p>O desequilíbrio de eletrólitos pode acontecer por diarreia e vômitos intensos, suor excessivo em exercícios prolongados, calor extremo, febre, uso de alguns medicamentos e doenças dos rins, do fígado ou do coração. Pessoas idosas e pessoas que fazem restrições alimentares severas também podem ter maior risco.</p>
+<p>Os sintomas são variados e nem sempre específicos. Podem incluir cansaço, fraqueza, câimbras, tontura, palpitações, náuseas e alterações da consciência em casos mais graves. Como esses sinais se parecem com outras condições, a avaliação correta depende de exames de sangue e de urina quando indicados.</p>
+<p>Vale destacar que a sensação de sede ou de cansaço não é suficiente para afirmar que há falta de algum mineral. O diagnóstico deve ser feito pelo profissional, que considera o quadro completo e a função dos rins.</p>
+<h2>Como repor de forma segura</h2>
+<p>Na maior parte das situações do cotidiano, a reposição acontece pela alimentação. Frutas, verduras, legumes, leguminosas, leite e derivados, ovos, castanhas e alimentos integrais são boas fontes de diferentes minerais. Uma dieta variada costuma cobrir as necessidades de quem está saudável.</p>
+<p>Em casos de perdas importantes, como diarreia prolongada ou desidratação, a reposição deve ser orientada por profissional de saúde.</p>
+<p>Soluções caseiras podem ajudar em situações leves, mas não devem substituir o atendimento quando há sinais de gravidade. Nunca é recomendável tentar corrigir sozinho um quadro com suspeita de alteração em sódio ou potássio.</p>
+<p>Também é importante lembrar que excesso de suplementos pode causar problemas, principalmente em quem tem doença renal ou toma medicamentos que interferem no equilíbrio mineral.</p>
+<p>Para o magnésio, por exemplo, o assunto é tratado com cautela, e ele precisa ser avaliado caso a caso. Já a vontade de urinar várias vezes à noite, tratada no texto sobre <a href="/nocturia/">noctúria</a>, também pode se relacionar ao equilíbrio de líquidos.</p>
+<figure class="article-figure"><img src="/images/eletrolitos/exame-de-sangue-em-laboratorio-usado-para-avaliar-eletrolito.jpg" alt="Exame de sangue em laboratório, usado para avaliar eletrólitos" width="940" height="627" loading="lazy" /><figcaption>Os exames de sangue ajudam a identificar alterações nos minerais. <span class="credit">Foto: <a href="https://www.pexels.com/photo/doctor-using-a-centrifuge-machine-6627667/" rel="noopener nofollow" target="_blank">https://kaboompics.com/</a> / Pexels</span></figcaption></figure>
+<h2>Relação com câimbras e outros sinais</h2>
+<p>Câimbras são uma das queixas mais associadas aos eletrólitos, mas nem toda câimbra tem essa origem. Podem estar ligadas a esforço físico, posição do corpo, circulação, alterações nervosas e outras causas. Quem tem câimbras frequentes deve observar a rotina e procurar avaliação se o problema for repetido.</p>
+<p>Para entender melhor os sinais que costumam acompanhar essas alterações, vale ler sobre o <a href="/inchaco-nas-pernas/">inchaço nas pernas</a>, que pode ter relação com o equilíbrio de sódio e líquidos. Esse conhecimento ajuda a perceber quando o sintoma é simples e quando merece investigação.</p>
+<h2>Grupos e alimentos que merecem atenção</h2>
+<p>Pessoas idosas merecem cuidado especial. Com a idade, a sensação de sede pode diminuir, e a função dos rins muda de forma gradual, o que dificulta o ajuste automático dos minerais.</p>
+<p>Além disso, o uso de diuréticos e de alguns remédios para pressão e para o coração exige acompanhamento para evitar oscilações.</p>
+<p>Quem pratica exercícios prolongados ou trabalha sob calor intenso também perde eletrólitos pelo suor. Para a maioria das pessoas saudáveis, água e uma alimentação equilibrada são suficientes. Em atividades muito longas, a orientação de um profissional de educação física ou de nutrição pode ajudar a planejar a hidratação.</p>
+<p>Crianças com diarreia ou vômitos, gestantes com enjoos intensos e pessoas com doenças crônicas também pedem avaliação mais atenta. Nesses casos, a reposição deve seguir orientação da equipe de saúde, que define o tipo de solução e o ritmo mais adequado.</p>
+<p>Frutas, verduras, legumes, leite e derivados, feijão, ovos e castanhas são fontes importantes de eletrólitos. Um prato com variedade de vegetais e proteínas costuma cobrir boa parte dessas necessidades sem esforço adicional. A variedade é mais importante do que qualquer alimento isolado.</p>
+<p>O sal de cozinha é a principal fonte de sódio na maior parte das dietas, e o consumo excessivo está associado à pressão alta.</p>
+<p>Reduzir alimentos ultraprocessados ajuda a controlar a ingestão. A falta de sódio, por outro lado, é rara em quem come com regularidade, mas pode ocorrer em situações específicas.</p>
+<p>O potássio tem relação direta com o funcionamento do coração e dos músculos. Tanto a falta quanto o excesso podem causar alterações do ritmo cardíaco, por isso a reposição nunca deve ser feita por conta própria, principalmente em quem tem doença renal.</p>
+<p>Existe a ideia de que qualquer cansaço é sinal de falta de eletrólitos. Na prática, o cansaço tem muitas causas, como sono ruim, anemia, infecções e alterações da tireoide. Antes de atribuir o sintoma a um mineral, convém investigar o contexto com um profissional.</p>
+<p>Na rotina de quem trabalha em ambientes quentes, como cozinhas, obras e ruas, a reposição de líquidos deve acompanhar a perda pelo suor.</p>
+<p>Pausas para beber água em intervalos regulares, roupas leves e a busca por sombra nos períodos mais quentes ajudam a evitar a desidratação. Quando o calor vem acompanhado de tontura, confusão ou ausência de suor, a situação exige atendimento imediato.</p>
+<p>Vale lembrar que bebidas muito açucaradas e energéticos não são a melhor escolha para a hidratação do dia a dia, pois o excesso de açúcar e de cafeína pode atrapalhar.</p>
+<p>A água continua sendo a opção mais simples para a maior parte das pessoas, e a alimentação completa cuida do restante.</p>
+<h2>Perguntas frequentes</h2>
+<p><strong>Todo mundo precisa de bebida com eletrólitos?</strong> Não. Quem faz atividade leve e tem alimentação variada geralmente não precisa desse tipo de produto.</p>
+<p><strong>Água pura basta para se hidratar?</strong> Na maior parte do tempo, sim. Em perdas grandes de suor, diarreia ou vômito, a orientação profissional pode indicar outra estratégia.</p>
+<p><strong>Posso repor potássio sozinho?</strong> Não é seguro. O excesso de potássio pode afetar o coração, por isso a reposição deve ser feita com orientação médica.</p>
+<p><strong>Exames mostram se os eletrólitos estão em equilíbrio?</strong> Sim, geralmente por meio de exames de sangue. A interpretação deve ser feita pelo médico.</p>
+<h2>Quando procurar um médico</h2>
+<p>Procure atendimento se houver vômitos ou diarreia persistentes, confusão, fraqueza intensa, batimentos irregulares, desmaio ou sinais de desidratação, como pouca urina e boca muito seca. Em pessoas com doença renal, cardíaca ou em uso de diuréticos, qualquer sintoma novo merece contato rápido com a equipe de saúde.</p>
+<p>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde. Antes de iniciar qualquer reposição ou suplemento, converse com o médico ou com o nutricionista, principalmente se você usa remédios de forma contínua.</p>
+<h2>Resumindo</h2>
+<p>Os eletrólitos são minerais essenciais para nervos, músculos, coração e equilíbrio dos líquidos. Eles são obtidos principalmente pela alimentação, e os rins ajustam sua quantidade no organismo. Desequilíbrios podem ocorrer em situações como diarreia, vômitos, suor intenso e doenças específicas.</p>
+<p>Na dúvida, a melhor conduta é observar sintomas, manter alimentação variada e buscar avaliação profissional. A reposição deve ser segura, individual e orientada, especialmente quando há sinais de gravidade ou condições de saúde associadas.</p>
+<h2>Fontes</h2>
+<ul>
+<li><a href="https://www.gov.br" rel="noopener nofollow" target="_blank">Governo Federal</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov" rel="noopener nofollow" target="_blank">PubMed (National Library of Medicine)</a></li>
+<li><a href="https://www.msdmanuals.com" rel="noopener nofollow" target="_blank">Manual MSD</a></li>
+</ul>
+<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>
