@@ -8,7 +8,10 @@ const NOTION_DATABASE_ID = '3fa242e3913c81918cd1d38f9d54ecca';
 const notion = new Client({ auth: process.env.NOTION_API_KEY });
 const serpApiKey = process.env.SERP_API_KEY;
 
-// Decodificador seguro de CSV para isolar colunas sem quebrar textos com aspas e vírgulas
+// A planilha mestre é separada por ponto e vírgula (;) e começa com BOM.
+const SEPARADOR_CSV = ';';
+
+// Decodificador seguro de CSV para isolar colunas sem quebrar textos com aspas e ponto e vírgula
 function quebrarLinhaCSV(linha) {
   const resultado = [];
   let blocoAtual = '';
@@ -18,7 +21,7 @@ function quebrarLinhaCSV(linha) {
     const caractere = linha[i];
     if (caractere === '"') {
       dentroDeAspas = !dentroDeAspas;
-    } else if (caractere === ',' && !dentroDeAspas) {
+    } else if (caractere === SEPARADOR_CSV && !dentroDeAspas) {
       resultado.push(blocoAtual.trim());
       blocoAtual = '';
     } else {
@@ -106,7 +109,7 @@ async function executarFluxoLinhaMestre() {
         colunasDaLinha[idxStatus] = 'PESQUISA CONCLUÍDA';
         
         // Reconstrói a linha tratando as aspas de forma correta para salvar o CSV sem quebras
-        const linhaTratadaEAtualizada = colunasDaLinha.map(c => c.includes(',') ? `"${c}"` : c).join(',');
+        const linhaTratadaEAtualizada = colunasDaLinha.map(c => c.includes(SEPARADOR_CSV) ? `"${c}"` : c).join(SEPARADOR_CSV);
         novoConteudoPlanilha.push(linhaTratadaEAtualizada);
         
         pautaEncontradaERodada = true;
