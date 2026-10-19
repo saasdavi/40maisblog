@@ -61,11 +61,22 @@ export function carregarArtigosDiretos(): ArtigoDireto[] {
         const wordCount = content.replace(/<[^>]*>/g, ' ').replace(/&[^;]+;/g, ' ').trim().split(/\s+/).filter(Boolean).length;
         const publishedAt = valor(header, 'DATA_PUBLICACAO', valor(header, 'PUBLICADO_EM')) || undefined;
         const imageId = valor(header, 'CAPA_ID', valor(header, 'CAPA_PEXELS_ID'));
-        const featuredImage = /^\d+$/.test(imageId) ? `https://images.pexels.com/photos/${imageId}/pexels-photo-${imageId}.jpeg?auto=compress&cs=tinysrgb&w=1200` : undefined;
+        // CAPA_URL vem carimbada por scripts/publicar-direto.js e vale para qualquer banco de fotos
+        // (Pexels, Pixabay, Unsplash); CAPA_ID continua valendo como atalho do padrão do Pexels.
+        const capaUrl = valor(header, 'CAPA_URL');
+        const featuredImage = /^https?:\/\//i.test(capaUrl) ? capaUrl
+          : /^\d+$/.test(imageId) ? `https://images.pexels.com/photos/${imageId}/pexels-photo-${imageId}.jpeg?auto=compress&cs=tinysrgb&w=1200`
+          : undefined;
+        // CAPA_CREDITO: "Autor | url | Fonte" — a licença dos bancos de fotos pede atribuição.
+        const partesCredito = valor(header, 'CAPA_CREDITO').split('|').map((parte) => parte.trim()).filter(Boolean);
+        const imageCredit = partesCredito.length >= 3
+          ? { author: partesCredito[0], url: partesCredito[1], source: partesCredito[2] }
+          : undefined;
 
         return [{
           slug, title, description, content, primaryKeyword: keyword,
           ...(featuredImage ? { featuredImage } : {}),
+          ...(imageCredit ? { imageCredit } : {}),
           imageAlt: valor(header, 'CAPA_ALT', title),
           wordCount, ...(publishedAt ? { publishedAt, createdAt: publishedAt, updatedAt: publishedAt } : {}),
           status: 'published' as const, origem: 'pasta-google' as const,
