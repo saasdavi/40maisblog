@@ -2,6 +2,10 @@ PALAVRA_CHAVE: Albumina
 TITLE: Albumina: Para Que Serve, Como Tomar e Benefícios
 DESCRIPTION: Albumina: para que serve o suplemento, diferença com whey protein, como tomar para evitar gases, contraindicações e benefícios para idosos.
 CAPA_ALT: ${foto.alt || termoBusca}
+CAPA_URL: https://images.pexels.com/photos/13013774/pexels-photo-13013774.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 13013774
+CAPA_CREDITO: Guto Macedo | https://www.pexels.com/photo/man-taking-supplements-13013774/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T02:45:34.503Z
 ---
 <p>A albumina é um dos suplementos proteicos mais tradicionais do mercado brasileiro. Extraída da clara do ovo, ela oferece uma alternativa ao whey protein para quem busca complementar a ingestão de proteínas. Mas afinal, para que serve a albumina? Qual a diferença real entre ela e o whey? E como lidar com o gosto forte e os gases que muitos relatam? Este guia responde essas e outras dúvidas com base nas informações disponíveis.</p>
 <p>Seja para ganho de massa muscular, recuperação pós-treino ou suporte nutricional em idosos, a albumina tem características próprias que a tornam adequada para situações específicas. Entender essas particularidades ajuda a fazer escolhas mais conscientes.</p>
