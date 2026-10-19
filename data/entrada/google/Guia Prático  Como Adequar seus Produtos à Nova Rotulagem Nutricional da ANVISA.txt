@@ -1,0 +1,27 @@
+PALAVRA_CHAVE: Guia Prático Como Adequar seus Produtos à Nova Rotulagem Nutricional da ANVISA
+TITLE: Guia Prático Como Adequar seus Produtos à Nova Rotulagem Nutricional da ANVISA
+DESCRIPTION: 1. Atenção aos Prazos: O Período de Adaptação Acabou A RDC 429/2020 e a IN 75/2020 estabeleceram as novas regras para a rotulagem nutricional no Brasil.
+CAPA_ALT: Modelos da lupa frontal da ANVISA indicando Alto em Açúcar, Gordura Saturada e Sódio
+---
+<h2>1. Atenção aos Prazos: O Período de Adaptação Acabou</h2>
+ <p>A <strong>RDC 429/2020</strong> e a <strong>IN 75/2020</strong> estabeleceram as novas regras para a rotulagem nutricional no Brasil. Posteriormente, a RDC 819/2023 chegou a conceder um prazo extra para o esgotamento de embalagens antigas e rótulos que já estavam impressos.</p>
+ <p>No entanto, <strong>esses prazos de transição se encerraram por completo</strong>. Hoje, a conformidade com a nova tabela nutricional (que agora exige a coluna de 100g ou 100ml) e a aplicação da lupa frontal indicativa ("Alto em açúcar adicionado", "Alto em sódio", etc.) são <strong>100% mandatórias e imediatas</strong> para qualquer novo lote comercializado, independentemente do porte da sua empresa.</p>
+ <h2>2. Regras Visuais e Tipografia: O Padrão Exigido</h2>
+ <p>A legislação proíbe invenções criativas na tabela nutricional. O padrão exige alto contraste e padronização absoluta: fundo obrigatoriamente branco, com linhas e letras 100% pretas. Confira os esquemas visuais oficiais da ANVISA para planejar o espaço na sua embalagem:</p>
+ <h2>3. Como Calcular o Valor Energético dos Macronutrientes</h2>
+ <p>A base da tabela nutricional começa pelo cálculo de calorias. A regra de conversão oficial da ciência da nutrição (Regra de Atwater) determina os seguintes fatores de conversão:</p>
+ <ul>
+ <li><strong>Carboidratos:</strong> 4 kcal por grama</li>
+ <li><strong>Proteínas:</strong> 4 kcal por grama</li>
+ <li><strong>Gorduras Totais:</strong> 9 kcal por grama</li>
+ </ul>
+ <p>Para não precisar sair desta página para fazer as contas do seu produto, utilize nosso simulador interativo abaixo:</p>
+ <h3>Simulador de Calorias</h3>
+ Carboidratos (g):
+ Proteínas (g):
+ Gorduras Totais (g):
+ <h3>Valor Energético: 0 kcal</h3>
+ <h2>4. Evitando Erros: Ferramentas e Sistemas de Rotulagem</h2>
+ <p>O cálculo manual é importante para entender a teoria, mas fazer isso para dezenas de receitas, considerando as quebras de rendimento e os dados de tabelas nutricionais como TACO e IBGE, abre margem para erros.</p>
+ <p>Para evitar infrações sanitárias e garantir a matemática precisa de conversão (%VD), os produtores podem recorrer a <strong>SaaS (Software as a Service) e sistemas de rotulagem nutricional automática</strong>.</p>
+ <p>Ferramentas de mercado como <em>Rotulagem.com</em>, <em>Nutrifood</em> ou plataformas integradas de engenharia de cardápio calculam os valores automaticamente baseados nas fichas técnicas. A grande vantagem é que esses sistemas já exportam a tabela no layout vetorizado exato exigido pela ANVISA, em alta resolução (PDF ou vetor), pronto para ser enviado à gráfica.</p>

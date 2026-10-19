@@ -1,0 +1,204 @@
+PALAVRA_CHAVE: Câncer de pele
+TITLE: Câncer de pele: sintomas, tipos, causas, tratamento e prevenção
+DESCRIPTION: O câncer de pele é um grupo de tumores que se desenvolvem a partir de células da pele. Ele pode aparecer de diferentes formas e apresentar comportamentos muito
+CAPA_ALT: Câncer de pele: sintomas, tipos, causas, tratamento e prevenção
+---
+<p>O <strong>câncer de pele</strong> é um grupo de tumores que se desenvolvem a partir de células da pele. Ele pode aparecer de diferentes formas e apresentar comportamentos muito distintos, desde tumores de evolução geralmente mais lenta até o melanoma, que pode ser mais agressivo e capaz de se espalhar para outros órgãos.</p>
+<p>No Brasil, o <strong>câncer de pele não melanoma é o tipo de câncer mais frequente</strong>, correspondendo a cerca de 30% dos tumores malignos registrados no país. Quando identificado e tratado precocemente, apresenta altas taxas de cura.</p>
+<p>A exposição excessiva à radiação ultravioleta (UV) é um dos principais fatores de risco. Por isso, conhecer a própria pele, observar mudanças e adotar medidas de fotoproteção são atitudes importantes.</p>
+<h2>O que é câncer de pele?</h2>
+<p>O câncer de pele acontece quando células da pele sofrem alterações que fazem com que cresçam e se multipliquem de maneira anormal.</p>
+<p>A pele é formada por diferentes tipos de células, e o tipo de célula afetada ajuda a determinar o tipo de câncer.</p>
+<p>Entre os principais estão:</p>
+<ul><li><strong>carcinoma basocelular</strong>;</li><li><strong>carcinoma espinocelular</strong>, também chamado de carcinoma epidermoide;</li><li><strong>melanoma</strong>.</li></ul>
+<p>Os dois primeiros fazem parte do grupo chamado <strong>câncer de pele não melanoma</strong>. O melanoma se origina nos melanócitos, células responsáveis pela produção de melanina, o pigmento que contribui para a cor da pele.</p>
+<p>!<a href="https://commons.wikimedia.org/wiki/Special:Redirect/file/Skin_Cancer_Diagram.svg">Camadas da pele e origem dos diferentes tipos de câncer de pele</a></p>
+<p><em>Ilustração da origem do melanoma, carcinoma basocelular e carcinoma espinocelular nas diferentes camadas da pele. Imagem: Wikimedia Commons, licença CC BY-SA 4.0.</em></p>
+<h2>Quais são os primeiros sinais de câncer de pele?</h2>
+<p>Os sinais variam de acordo com o tipo de tumor.</p>
+<p>Entre os principais sinais de alerta estão:</p>
+<ul><li><strong>manchas que coçam, ardem, descamam ou sangram</strong>;</li><li>feridas que não cicatrizam;</li><li>pintas que mudam de tamanho, forma ou cor;</li><li>lesões que passam a apresentar bordas irregulares;</li><li>manchas ou sinais novos que apresentam características diferentes das demais lesões da pele;</li><li>lesões que sangram com facilidade ou voltam a formar feridas.</li></ul>
+<p>O Ministério da Saúde orienta procurar avaliação médica diante de <strong>feridas que não cicatrizam em quatro semanas</strong>, além de manchas pruriginosas, descamativas ou que sangram.</p>
+<p>Esses sinais não significam necessariamente câncer. Muitas doenças benignas podem produzir alterações semelhantes. O objetivo é reconhecer situações que merecem avaliação.</p>
+<h2>Como é o carcinoma basocelular no início?</h2>
+<p>O <strong>carcinoma basocelular</strong> é o tipo mais comum de câncer de pele e, em geral, apresenta comportamento menos agressivo que outros tumores cutâneos.</p>
+<p>Ele costuma aparecer em áreas expostas ao sol, especialmente no rosto, cabeça, pescoço e orelhas.</p>
+<p>Pode se manifestar como:</p>
+<ul><li>uma pequena lesão que cresce lentamente;</li><li>uma ferida que não cicatriza;</li><li>uma área avermelhada ou irritada;</li><li>uma lesão que sangra após pequenos traumas;</li><li>uma alteração semelhante a uma pequena "ferida" que melhora e depois retorna.</li></ul>
+<p>Mesmo quando cresce lentamente, o carcinoma basocelular não deve ser ignorado. Sem tratamento, pode provocar destruição local dos tecidos.</p>
+<p>!<a href="https://commons.wikimedia.org/wiki/Special:Redirect/file/Basal_cell_carcinoma.jpg">Exemplo de carcinoma basocelular</a></p>
+<p><em>Exemplo de carcinoma basocelular. Imagem: Wikimedia Commons, domínio público.</em></p>
+<h2>O que é carcinoma espinocelular?</h2>
+<p>O <strong>carcinoma espinocelular</strong>, também chamado de carcinoma epidermoide, é outro tipo frequente de câncer de pele não melanoma.</p>
+<p>Ele pode surgir em regiões expostas à radiação ultravioleta e pode se apresentar como uma área áspera, descamativa, endurecida ou como uma ferida que não cicatriza.</p>
+<p>Em comparação com o carcinoma basocelular, pode apresentar maior capacidade de invasão e disseminação, especialmente quando não é diagnosticado e tratado adequadamente.</p>
+<p>Por isso, lesões persistentes ou que apresentam crescimento, sangramento ou alterações progressivas devem ser avaliadas por um dermatologista.</p>
+<h2>O que é melanoma?</h2>
+<p>O <strong>melanoma</strong> é um câncer que se origina nos melanócitos.</p>
+<p>É menos frequente que os carcinomas de pele, mas pode ser mais agressivo porque apresenta maior potencial de invasão e disseminação para outros órgãos.</p>
+<p>O melanoma pode surgir sobre uma pinta já existente ou aparecer em uma área da pele anteriormente normal.</p>
+<p>Uma característica importante é a <strong>mudança progressiva de uma lesão</strong>, especialmente em relação à cor, formato, tamanho ou bordas.</p>
+<p>!<a href="https://commons.wikimedia.org/wiki/Special:Redirect/file/Melanoma.jpg">Melanoma na pele</a></p>
+<p><em>Exemplo de melanoma cutâneo. Imagem: Wikimedia Commons.</em></p>
+<h2>Como identificar melanoma pela regra ABCDE?</h2>
+<p>A regra <strong>ABCDE</strong> é uma maneira prática de lembrar algumas características que podem justificar avaliação dermatológica.</p>
+<h3>A — Assimetria</h3>
+<p>Uma metade da lesão apresenta formato diferente da outra.</p>
+<h3>B — Bordas irregulares</h3>
+<p>O contorno pode ser irregular, mal definido ou apresentar recortes.</p>
+<h3>C — Cor variável</h3>
+<p>A lesão pode apresentar diferentes tonalidades, como preto, marrom, castanho, branco, vermelho ou azul.</p>
+<h3>D — Diâmetro</h3>
+<p>Lesões com <strong>mais de 6 milímetros</strong> merecem atenção, embora o tamanho isoladamente não determine se uma pinta é ou não câncer.</p>
+<h3>E — Evolução</h3>
+<p>É a mudança da lesão ao longo do tempo, incluindo alterações de tamanho, formato ou cor.</p>
+<p>O INCA utiliza esses cinco critérios como sinais sugestivos de melanoma.</p>
+<p>!<a href="https://commons.wikimedia.org/wiki/Special:Redirect/file/Melanoma_Color.jpg">Regra ABCDE para reconhecimento de melanoma</a></p>
+<p><em>Exemplo visual dos critérios utilizados na regra ABCDE. Imagem: National Cancer Institute, domínio público.</em></p>
+<h2>Toda pinta irregular é câncer?</h2>
+<p>Não.</p>
+<p>Pintas e outras lesões benignas também podem apresentar formatos ou cores diferentes. Por outro lado, alguns melanomas podem não seguir perfeitamente todos os critérios da regra ABCDE.</p>
+<p>Por isso, a regra não serve para fazer um diagnóstico em casa.</p>
+<p>Uma pinta que mudou recentemente, cresceu, passou a apresentar múltiplas cores, sangrar ou adquirir características diferentes das demais deve ser examinada por um dermatologista.</p>
+<h2>Ferida que não cicatriza pode ser câncer de pele?</h2>
+<p>Sim, pode.</p>
+<p>Uma ferida persistente é um dos sinais que justificam avaliação médica, especialmente quando não apresenta melhora progressiva.</p>
+<p>O Ministério da Saúde orienta procurar atendimento quando uma <strong>ferida não cicatriza em quatro semanas</strong>. O INCA também destaca a importância de investigar lesões persistentes, particularmente em áreas expostas ao sol.</p>
+<p>Isso não significa que toda ferida com mais de quatro semanas seja câncer. Infecções, inflamações, traumas repetidos e outras doenças também podem causar feridas persistentes.</p>
+<p>O ponto principal é que uma lesão que não cicatriza não deve ser simplesmente ignorada.</p>
+<h2>Câncer de pele coça?</h2>
+<p>Pode coçar, mas esse sintoma não é obrigatório.</p>
+<p>O câncer de pele pode apresentar:</p>
+<ul><li>coceira;</li><li>ardência;</li><li>descamação;</li><li>sangramento;</li><li>dor em alguns casos;</li><li>alteração progressiva da aparência.</li></ul>
+<p>Uma mancha que coça pode ter diversas causas que não são câncer, como dermatites, alergias e infecções. A associação com outros sinais é que aumenta a necessidade de avaliação.</p>
+<h2>Quem tem pele negra pode ter câncer de pele?</h2>
+<p>Sim.</p>
+<p><strong>Pessoas com pele negra também podem desenvolver câncer de pele.</strong></p>
+<p>A maior concentração de melanina oferece proteção natural parcial contra a radiação ultravioleta, mas não elimina o risco.</p>
+<p>Além disso, melanomas podem aparecer em áreas menos expostas ao sol, inclusive regiões como palmas das mãos, plantas dos pés e áreas sob as unhas.</p>
+<p>Por isso, observar a pele como um todo é importante independentemente do tom de pele.</p>
+<h2>Onde o câncer de pele costuma aparecer?</h2>
+<p>Os tumores de pele podem surgir em qualquer região do corpo.</p>
+<p>Entretanto, os cânceres de pele não melanoma aparecem com frequência em áreas mais expostas à radiação solar, como:</p>
+<ul><li>rosto;</li><li>orelhas;</li><li>pescoço;</li><li>couro cabeludo;</li><li>braços;</li><li>mãos.</li></ul>
+<p>O melanoma também pode aparecer em regiões menos expostas ao sol. Por isso, o acompanhamento não deve se limitar ao rosto e aos braços.</p>
+<h2>Como fazer um autoexame da pele?</h2>
+<p>Não existe evidência de que uma técnica específica de autoexame reduza a mortalidade por câncer de pele. Ainda assim, o INCA destaca a importância de conhecer a própria pele e observar mudanças, já que muitos melanomas são percebidos pelos próprios pacientes ou familiares.</p>
+<p>Uma observação cuidadosa pode incluir:</p>
+<p>1. examinar o corpo em um ambiente bem iluminado; 2. observar frente, costas e laterais do corpo; 3. conferir braços, mãos e entre os dedos; 4. observar pernas, pés e plantas dos pés; 5. verificar atrás das orelhas; 6. examinar o couro cabeludo, usando um espelho ou pedindo ajuda; 7. observar unhas, principalmente quando houver manchas novas ou alterações persistentes; 8. prestar atenção a pintas ou manchas que estejam mudando.</p>
+<p>Áreas difíceis de visualizar, como couro cabeludo e costas, podem ser examinadas com auxílio de outra pessoa.</p>
+<h2>O que procurar durante a observação da pele?</h2>
+<p>Mais importante do que procurar uma aparência específica é observar <strong>mudanças</strong>.</p>
+<p>Preste atenção a:</p>
+<ul><li>pinta que aumentou;</li><li>lesão que mudou de cor;</li><li>bordas que ficaram irregulares;</li><li>nova mancha com aparência muito diferente das demais;</li><li>ferida persistente;</li><li>sangramento sem explicação;</li><li>lesão que cresce progressivamente;</li><li>área que descama ou forma crostas repetidamente.</li></ul>
+<p>A chamada regra do <strong>"patinho feio"</strong> também pode ser útil como conceito: uma pinta que visualmente se destaca das demais merece atenção, mesmo que não apresente todos os critérios clássicos do ABCDE.</p>
+<h2>Quais são as causas do câncer de pele?</h2>
+<p>O principal fator de risco modificável é a exposição à <strong>radiação ultravioleta</strong>.</p>
+<p>A exposição acumulada ao longo da vida pode contribuir para o desenvolvimento de câncer de pele, especialmente quando ocorre de maneira repetida e sem proteção.</p>
+<p>Outros fatores associados incluem:</p>
+<ul><li>pele clara e maior sensibilidade ao sol;</li><li>olhos claros;</li><li>cabelos loiros ou ruivos;</li><li>albinismo;</li><li>histórico pessoal ou familiar de câncer de pele;</li><li>determinadas doenças genéticas;</li><li>algumas cicatrizes decorrentes de queimaduras;</li><li>exposição ocupacional prolongada ao sol.</li></ul>
+<p>O INCA também destaca a exposição solar ocupacional como fator importante para trabalhadores que passam grande parte do tempo ao ar livre.</p>
+<h2>Bronzeamento artificial aumenta o risco de câncer de pele?</h2>
+<p>Sim.</p>
+<p>A exposição a equipamentos de bronzeamento artificial emite radiação ultravioleta e está associada ao aumento do risco de câncer de pele.</p>
+<p>A Organização Mundial da Saúde recomenda evitar dispositivos de bronzeamento artificial, e destaca que a exposição a essas fontes de radiação aumenta o risco de câncer de pele.</p>
+<p>No Brasil, o uso de câmaras de bronzeamento artificial para fins estéticos é proibido.</p>
+<h2>Hidroclorotiazida aumenta o risco de câncer de pele?</h2>
+<p>A <strong>hidroclorotiazida</strong> é um medicamento que pode aumentar a sensibilidade da pele à radiação ultravioleta.</p>
+<p>Existem evidências epidemiológicas associando seu uso prolongado a um aumento do risco de determinados tipos de câncer de pele.</p>
+<p>Isso não significa que uma pessoa que utiliza o medicamento deva interrompê-lo por conta própria.</p>
+<p>Quem usa hidroclorotiazida regularmente deve conversar com o médico sobre fotoproteção e sobre o acompanhamento adequado da pele.</p>
+<p><strong>Não interrompa um medicamento prescrito sem orientação médica.</strong></p>
+<h2>Pessoas com histórico familiar precisam de mais atenção?</h2>
+<p>Sim.</p>
+<p>O histórico pessoal ou familiar de câncer de pele, especialmente melanoma, pode aumentar a preocupação clínica e justificar acompanhamento individualizado.</p>
+<p>Pessoas consideradas de maior risco podem se beneficiar de acompanhamento periódico com dermatologista, de acordo com sua história clínica.</p>
+<p>Isso é diferente de recomendar exames de rastreamento indiscriminados para toda a população.</p>
+<h2>Como é feito o diagnóstico do câncer de pele?</h2>
+<p>O diagnóstico começa com a avaliação clínica da pele.</p>
+<p>O dermatologista pode utilizar a <strong>dermatoscopia</strong>, exame que permite observar estruturas que não são facilmente visualizadas a olho nu.</p>
+<p>Quando existe suspeita, pode ser realizada uma <strong>biópsia</strong>, na qual uma amostra da lesão é retirada e enviada para análise anatomopatológica.</p>
+<p>A biópsia é utilizada para confirmar o diagnóstico e identificar o tipo de tumor. Outros exames podem ser necessários posteriormente, dependendo do tipo e da extensão da doença.</p>
+<h2>O que é dermatoscopia?</h2>
+<p>A dermatoscopia é um exame realizado com um aparelho que permite ampliar e visualizar estruturas da pele que não são observadas facilmente durante um exame convencional.</p>
+<p>Ela pode ajudar o dermatologista a avaliar pintas e outras lesões e decidir quando uma biópsia é necessária.</p>
+<p>Não é um exame que confirme sozinho todos os casos de câncer. Quando há indicação, a confirmação depende da análise adequada do tecido.</p>
+<h2>O que é biópsia de pele?</h2>
+<p>A biópsia consiste na retirada de uma amostra da lesão para análise microscópica.</p>
+<p>O material é encaminhado para um laboratório de anatomia patológica, onde o patologista avalia as características das células.</p>
+<p>Esse exame é fundamental para confirmar o diagnóstico de câncer de pele e determinar seu tipo.</p>
+<h2>O que significa Breslow no melanoma?</h2>
+<p>O <strong>índice de Breslow</strong> é uma medida utilizada na avaliação anatomopatológica do melanoma.</p>
+<p>Ele está relacionado à espessura do tumor e ajuda a determinar o estágio e o prognóstico da doença.</p>
+<p>É importante não tentar interpretar esse valor isoladamente. O prognóstico do melanoma também depende de outras características encontradas no exame anatomopatológico e da avaliação clínica.</p>
+<p>Por isso, um laudo de melanoma deve ser interpretado pelo médico responsável pelo caso.</p>
+<h2>O que significa nível de Clark?</h2>
+<p>O <strong>nível de Clark</strong> descreve a profundidade de invasão do melanoma em diferentes camadas da pele.</p>
+<p>Embora tenha importância histórica e possa aparecer em determinados laudos, sua interpretação não deve ser feita separadamente de outros dados do exame.</p>
+<p>Quando receber um diagnóstico de melanoma, converse com o dermatologista ou oncologista para compreender o significado de cada informação do laudo.</p>
+<h2>Câncer de pele tem cura?</h2>
+<p>Muitos casos de câncer de pele apresentam <strong>altas taxas de cura quando diagnosticados e tratados precocemente</strong>.</p>
+<p>Isso é especialmente relevante para os cânceres de pele não melanoma, que geralmente apresentam comportamento menos agressivo.</p>
+<p>Entretanto, o prognóstico varia conforme:</p>
+<ul><li>tipo de câncer;</li><li>tamanho da lesão;</li><li>localização;</li><li>profundidade;</li><li>características microscópicas;</li><li>presença ou ausência de disseminação;</li><li>condições gerais do paciente.</li></ul>
+<p>No melanoma, o diagnóstico em estágio inicial também é especialmente importante para aumentar as possibilidades de tratamento efetivo.</p>
+<h2>Como é o tratamento do câncer de pele?</h2>
+<p>O tratamento depende do tipo de tumor, tamanho, localização, profundidade e estágio.</p>
+<p>Pode envolver:</p>
+<ul><li>cirurgia;</li><li>retirada da lesão com margens adequadas;</li><li>cirurgia micrográfica de Mohs em situações específicas;</li><li>tratamentos locais;</li><li>terapia fotodinâmica em determinados casos;</li><li>radioterapia;</li><li>imunoterapia;</li><li>terapias-alvo;</li><li>outras abordagens indicadas pela equipe médica.</li></ul>
+<p>Não existe um tratamento único para todos os cânceres de pele.</p>
+<h2>O que é cirurgia de Mohs?</h2>
+<p>A <strong>cirurgia micrográfica de Mohs</strong> é uma técnica especializada utilizada em situações selecionadas, principalmente para determinados cânceres de pele com maior necessidade de preservação de tecido ou maior risco de recorrência.</p>
+<p>Durante o procedimento, o tecido removido é analisado de maneira controlada para verificar a presença de células tumorais nas margens.</p>
+<p>A indicação depende do tipo de tumor, localização e características da lesão.</p>
+<h2>Como prevenir o câncer de pele?</h2>
+<p>A prevenção está principalmente relacionada à redução da exposição excessiva à radiação ultravioleta.</p>
+<p>Algumas medidas importantes incluem:</p>
+<ul><li>procurar sombra quando a radiação solar estiver mais intensa;</li><li>utilizar roupas que cubram a pele;</li><li>usar chapéu ou boné adequado;</li><li>proteger os olhos com óculos que ofereçam proteção UV;</li><li>aplicar protetor solar nas áreas expostas;</li><li>reaplicar o produto conforme as orientações do fabricante e após situações que removam o produto;</li><li>evitar queimaduras solares;</li><li>não utilizar câmaras de bronzeamento artificial.</li></ul>
+<p>O INCA recomenda evitar a exposição solar sem proteção principalmente entre <strong>10h e 16h</strong>, período em que a radiação tende a ser mais intensa.</p>
+<h2>Protetor solar evita câncer de pele?</h2>
+<p>O protetor solar é uma ferramenta importante de fotoproteção, mas não deve ser usado isoladamente.</p>
+<p>A Organização Mundial da Saúde destaca que a proteção mais efetiva envolve também <strong>sombra e roupas</strong>, enquanto o protetor deve ser aplicado nas áreas que não podem ser adequadamente cobertas.</p>
+<p>Portanto, utilizar protetor solar não significa que seja seguro prolongar a exposição ao sol.</p>
+<h2>FPS 30 ou FPS 50: qual escolher?</h2>
+<p>O fator de proteção solar (FPS) é apenas uma parte da estratégia de fotoproteção.</p>
+<p>Mais importante do que escolher o maior número disponível é utilizar corretamente o produto, aplicar quantidade adequada e reaplicar quando necessário.</p>
+<p>Para pessoas com exposição intensa ao sol, fototipos específicos, histórico de câncer de pele ou outras condições dermatológicas, o dermatologista pode orientar uma estratégia individualizada.</p>
+<h2>Roupa com proteção UV protege contra câncer de pele?</h2>
+<p>Roupas podem formar uma barreira física importante contra a radiação ultravioleta.</p>
+<p>Tecidos com proteção UV são particularmente úteis para quem passa muito tempo ao ar livre, como trabalhadores rurais, pescadores, atletas e pessoas que praticam atividades externas.</p>
+<p>A capacidade de proteção de uma roupa pode variar conforme tecido, construção, cor, ajuste e estado de conservação. Não existe uma regra universal de que toda roupa com FPU 50+ precise ser descartada depois de determinado número de lavagens.</p>
+<p>Por isso, é importante seguir as instruções do fabricante e substituir peças quando apresentarem desgaste, perda de cobertura ou alterações importantes no tecido.</p>
+<h2>Quem deve procurar um dermatologista?</h2>
+<p>A avaliação dermatológica é especialmente importante quando existe:</p>
+<ul><li>pinta nova ou que mudou;</li><li>ferida que não cicatriza;</li><li>lesão que sangra;</li><li>mancha que cresce;</li><li>mudança de cor ou formato;</li><li>lesão que coça ou descama persistentemente;</li><li>histórico pessoal de câncer de pele;</li><li>histórico familiar relevante;</li><li>grande exposição solar ao longo da vida.</li></ul>
+<p>Não espere a lesão doer para procurar ajuda. O câncer de pele pode não provocar dor nas fases iniciais.</p>
+<h2>Câncer de pele em pessoas jovens é possível?</h2>
+<p>Sim.</p>
+<p>Embora alguns tipos sejam mais frequentes com o avanço da idade, pessoas jovens também podem desenvolver câncer de pele.</p>
+<p>O INCA chama atenção para a exposição solar repetida desde a infância e adolescência e observa que a idade média dos pacientes pode diminuir diante da exposição contínua aos raios solares.</p>
+<p>Por isso, proteção solar deve começar desde cedo.</p>
+<h2>Câncer de pele pode aparecer no couro cabeludo?</h2>
+<p>Sim.</p>
+<p>O couro cabeludo também pode desenvolver câncer de pele, principalmente em áreas expostas ao sol.</p>
+<p>Como é uma região difícil de observar, alterações podem passar despercebidas, especialmente em pessoas com cabelos espessos.</p>
+<p>Pessoas com áreas de rarefação ou calvície devem ter atenção especial à proteção solar do couro cabeludo.</p>
+<h2>Câncer de pele pode aparecer na planta do pé?</h2>
+<p>Sim.</p>
+<p>Embora alguns cânceres de pele estejam fortemente relacionados à exposição solar, o melanoma também pode surgir em regiões pouco expostas ao sol.</p>
+<p>Por isso, plantas dos pés, palmas das mãos e região sob as unhas também devem ser observadas quando houver manchas ou alterações persistentes.</p>
+<h2>Quando uma pinta deve preocupar?</h2>
+<p>Uma pinta merece avaliação quando:</p>
+<ul><li>muda de tamanho;</li><li>muda de formato;</li><li>muda de cor;</li><li>passa a ter várias cores;</li><li>apresenta bordas irregulares;</li><li>começa a sangrar;</li><li>coça ou descama persistentemente;</li><li>apresenta evolução perceptível;</li><li>é muito diferente das demais pintas.</li></ul>
+<p>Não é necessário esperar que todos esses sinais apareçam simultaneamente.</p>
+<h2>Câncer de pele é sempre uma pinta?</h2>
+<p>Não.</p>
+<p>Esse é um erro comum.</p>
+<p>O câncer de pele não melanoma pode aparecer como <strong>ferida, crosta, área avermelhada, lesão descamativa ou alteração persistente da pele</strong>, e não necessariamente como uma pinta escura.</p>
+<p>Por isso, limitar a observação apenas às pintas pode fazer com que outras lesões suspeitas sejam ignoradas.</p>
+<h2>Afinal, como reconhecer o câncer de pele?</h2>
+<p>Não é possível diagnosticar câncer de pele apenas olhando uma fotografia ou comparando uma lesão com imagens encontradas na internet.</p>
+<p>Entretanto, alguns sinais justificam avaliação médica:</p>
+<ul><li>ferida que não cicatriza em quatro semanas;</li><li>mancha que coça, arde, descama ou sangra;</li><li>pinta que muda de tamanho, formato ou cor;</li><li>lesão com assimetria, bordas irregulares ou cores variadas;</li><li>aparecimento de uma lesão que se destaca das demais;</li><li>qualquer alteração progressiva e sem explicação.</li></ul>
+<p>A <strong>regra ABCDE</strong> é especialmente útil para lembrar sinais de alerta do melanoma, mas não substitui a avaliação dermatológica.</p>
+<p>A melhor estratégia é combinar <strong>fotoproteção, atenção às mudanças da pele e avaliação profissional quando houver sinais suspeitos</strong>. Quanto mais cedo uma lesão suspeita for investigada, maiores podem ser as possibilidades de tratamento adequado.</p>

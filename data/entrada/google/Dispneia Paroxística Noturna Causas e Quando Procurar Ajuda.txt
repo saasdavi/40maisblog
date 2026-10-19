@@ -1,0 +1,112 @@
+PALAVRA_CHAVE: Dispneia Paroxística Noturna Causas e Quando Procurar Ajuda
+TITLE: Dispneia Paroxística Noturna Causas e Quando Procurar Ajuda
+DESCRIPTION: Dispneia paroxística noturna é o nome técnico para episódios de falta de ar intensa que despertam a pessoa durante o sono. O sintoma costuma surgir uma a trê
+CAPA_ALT: Pessoa sentada na cama à noite com a mão no peito, representando episódio de falta de ar noturna
+---
+<p><strong>Dispneia paroxística noturna</strong> é o nome técnico para episódios de falta de ar intensa que despertam a pessoa durante o sono. O sintoma costuma surgir uma a três horas após adormecer.</p>
+<p>A sensação é de sufocamento, acompanhada de tosse, suor frio e taquicardia. Sentar-se ou levantar-se melhora o quadro em cerca de 10 a 15 minutos.</p>
+<p>Esse sintoma não é uma doença em si, mas um sinal de alerta que exige investigação médica. As causas mais comuns envolvem o coração, os pulmões e as vias aéreas superiores.</p>
+<h2>O Que É Dispneia Paroxística Noturna</h2>
+<p>A dispneia paroxística noturna (DPN) é definida como um ataque súbito de falta de ar grave que desperta o paciente do sono. Ela ocorre tipicamente uma a três horas após o início do sono.</p>
+<p>O termo "paroxística" indica que o sintoma surge de forma abrupta e intensa. "Noturna" refere-se ao período em que ocorre. "Dispneia" é o termo médico para falta de ar.</p>
+<p>Diferente da ortopneia, que é a dificuldade de respirar ao deitar acordado, a DPN ocorre exclusivamente durante o sono. Sentar ou levantar alivia o sintoma em poucos minutos.</p>
+<p>O sintoma é considerado um critério maior para o diagnóstico clínico de insuficiência cardíaca congestiva descompensada. No entanto, outras condições também podem desencadear episódios semelhantes.</p>
+<h2>Quais São as Causas</h2>
+<p>As causas da dispneia paroxística noturna se dividem em cardíacas, respiratórias e neurológicas. A insuficiência cardíaca é a mais associada ao sintoma.</p>
+<p>Na insuficiência cardíaca, o coração não consegue bombear o sangue de forma eficiente. Ao deitar, o sangue das pernas se redistribui para os pulmões, aumentando a pressão nos vasos pulmonares.</p>
+<p>O acúmulo de líquido nos pulmões leva à congestão e ao edema. Esse processo estimula receptores que desencadeiam a sensação de sufocamento e o despertar súbito.</p>
+<p>Condições respiratórias como asma, DPOC e apneia obstrutiva do sono também podem causar episódios noturnos. Alterações neurológicas que afetam o controle da respiração são causas menos comuns.</p>
+<h2>Diferença Entre Apneia do Sono e Insuficiência Cardíaca</h2>
+<p>A apneia do sono e a insuficiência cardíaca podem causar sintomas semelhantes, mas têm mecanismos distintos. A diferenciação é fundamental para o tratamento correto.</p>
+ Característica
+ Apneia obstrutiva do sono
+ Insuficiência cardíaca
+ Mecanismo
+ Obstrução mecânica das vias aéreas superiores
+ Congestão de fluidos nos pulmões por falha cardíaca
+ Sintoma principal
+ Ronco alto, pausas respiratórias, arquejo
+ Falta de ar súbita, tosse, suor frio
+ Fatores de risco
+ Obesidade, pescoço largo, macroglossia
+ Hipertensão, doença coronariana, valvopatias
+ Alívio
+ Mudança de posição, CPAP
+ Sentar-se, diuréticos
+ Exame indicado
+ Polissonografia
+ Ecocardiograma, BNP
+<p>A apneia obstrutiva do sono pode coexistir com a insuficiência cardíaca. Estudos mostram que a apneia do sono é um fator independente associado ao histórico de DPN em pacientes com insuficiência cardíaca descompensada.</p>
+<p>A distinção entre as duas condições exige avaliação médica com exames específicos. O tratamento da apneia com CPAP pode melhorar os sintomas cardíacos em pacientes com ambas as condições.</p>
+<h2>Refluxo Laringofaríngeo e Laringoespasmo Noturno</h2>
+<p>O refluxo laringofaríngeo é uma causa subdiagnosticada de episódios de asfixia noturna. O ácido gástrico reflui para a laringe e faringe durante o sono, desencadeando espasmos das cordas vocais.</p>
+<p>O laringoespasmo relacionado ao sono é definido como o fechamento sustentado das cordas vocais durante o sono. Os episódios duram segundos e podem ser acompanhados de estridor.</p>
+<p>Um estudo retrospectivo com 19 pacientes com laringoespasmo noturno identificou refluxo laringofaríngeo como a causa em 89,5% dos casos após tratamento com inibidor de bomba de prótons e medidas comportamentais.</p>
+<p>O refluxo oculto pode não causar azia ou pirose. Por isso, muitos pacientes não associam os episódios de sufocamento ao sistema digestivo. A avaliação com pHmetria pode confirmar o diagnóstico.</p>
+<h2>Questionário STOP-Bang: Triagem de Risco</h2>
+<p>O questionário STOP-Bang é uma ferramenta validada para triagem de apneia obstrutiva do sono. Ele é composto por oito perguntas de resposta sim ou não.</p>
+<p>Os itens avaliados são: ronco alto, cansaço diurno, apneia observada, pressão alta, índice de massa corporal acima de 35, idade acima de 50 anos, circunferência do pescoço aumentada e sexo masculino.</p>
+<p>Uma versão em português foi traduzida e adaptada culturalmente para uso no Brasil. O instrumento demonstrou clareza e aplicabilidade na população brasileira.</p>
+<p>O escore varia de 0 a 8. Pontuações de 3 ou mais indicam risco intermediário. Pontuações de 5 ou mais indicam risco elevado para apneia obstrutiva do sono moderada a grave.</p>
+<p>O questionário não substitui a polissonografia. Ele serve como ferramenta de triagem para identificar pacientes que devem ser encaminhados para avaliação especializada.</p>
+<h2>Primeiros Socorros no Momento do Despertar</h2>
+<p>O episódio de dispneia paroxística noturna pode ser assustador. Saber como agir no momento do despertar ajuda a controlar o quadro até a avaliação médica.</p>
+<p>A primeira medida é sentar-se na beira da cama e manter as pernas para baixo. Essa posição reduz o retorno venoso para os pulmões e alivia a congestão.</p>
+<p>Se possível, sentar-se em uma cadeira com os pés apoiados no chão. Inclinar o tronco levemente para frente pode facilitar a respiração.</p>
+<p>Manter a calma e respirar de forma lenta e profunda ajuda a reduzir a frequência cardíaca. O pânico aumenta a demanda de oxigênio e piora a sensação de sufocamento.</p>
+<p>Se o episódio estiver associado a laringoespasmo, a manobra de Valsalva pode ajudar. A técnica consiste em fechar a boca, tapar o nariz e tentar expirar suavemente, como se fosse assoar o nariz.</p>
+<h2>Quando Procurar um Médico</h2>
+<p>Procure atendimento médico se a dispneia paroxística noturna:</p>
+<ul>
+<li>Ocorre pela primeira vez</li>
+<li>Piora com o tempo</li>
+<li>Vem acompanhada de dor no peito, palidez ou desmaio</li>
+<li>Está associada a inchaço nas pernas</li>
+<li>Interfere significativamente no sono</li>
+<li>Apresenta cansaço diurno excessivo</li>
+</ul>
+<p>A investigação envolve anamnese detalhada, exame físico com atenção ao sistema cardiovascular e respiratório, e exames complementares. Os mais solicitados incluem hemograma, eletrocardiograma, ecocardiograma, radiografia de tórax e polissonografia.</p>
+<h2>Grupos de Risco e Contraindicações</h2>
+<p>Alguns grupos têm maior risco de apresentar dispneia paroxística noturna ou complicações associadas.</p>
+<ul>
+<li><strong>Pacientes com insuficiência cardíaca:</strong> a DPN é um sintoma clássico de descompensação. A piora do sintoma exige avaliação cardiológica urgente.</li>
+<li><strong>Pacientes com apneia do sono não tratada:</strong> a apneia grave pode agravar o quadro cardíaco e aumentar o risco de arritmias noturnas.</li>
+<li><strong>Idosos com múltiplas comorbidades:</strong> a interação entre doenças cardíacas, pulmonares e neurológicas aumenta a complexidade do diagnóstico.</li>
+<li><strong>Pacientes com DPOC ou asma:</strong> a piora noturna da obstrução brônquica pode mimetizar a DPN de origem cardíaca.</li>
+<li><strong>Usuários de sedativos ou álcool:</strong> essas substâncias reduzem o estímulo respiratório central e podem agravar episódios de apneia e dessaturação.</li>
+</ul>
+<p>Pacientes com esses fatores de risco devem discutir qualquer episódio de dispneia noturna com o médico assistente.</p>
+<h2>Perguntas Frequentes</h2>
+<p><strong>O que pode ser quando a pessoa acorda com falta de ar?</strong></p>
+<p>As causas mais comuns são insuficiência cardíaca, apneia obstrutiva do sono, refluxo laringofaríngeo e doenças pulmonares crônicas. A avaliação médica é essencial para o diagnóstico.</p>
+<p><strong>Qual a diferença entre ansiedade noturna e apneia do sono?</strong></p>
+<p>A ansiedade noturna pode causar despertares com falta de ar, mas não envolve obstrução das vias aéreas ou pausas respiratórias. A apneia do sono tem mecanismo obstrutivo e é confirmada por polissonografia.</p>
+<p><strong>O que é dispneia paroxística noturna?</strong></p>
+<p>É um episódio súbito de falta de ar grave que desperta a pessoa durante o sono, geralmente uma a três horas após adormecer. É um sintoma associado à insuficiência cardíaca e outras condições.</p>
+<p><strong>Dormir de costas piora a falta de ar no meio da noite?</strong></p>
+<p>Sim. A posição supina aumenta o retorno venoso para os pulmões e pode agravar a congestão em pacientes com insuficiência cardíaca. Dormir de lado ou com a cabeceira elevada pode aliviar o sintoma.</p>
+<p><strong>O que fazer durante uma crise de dispneia noturna?</strong></p>
+<p>Sentar-se com as pernas para baixo, manter a calma e respirar lentamente. Se o episódio persistir ou vier acompanhado de dor no peito, procure atendimento de emergência.</p>
+<p><strong>Dispneia paroxística noturna tem cura?</strong></p>
+<p>O sintoma pode ser controlado com o tratamento da causa de base. Na insuficiência cardíaca, o manejo adequado com medicamentos e mudanças no estilo de vida reduz a frequência dos episódios.</p>
+<p><strong>Qual médico devo procurar?</strong></p>
+<p>O cardiologista e o pneumologista são os especialistas mais indicados. Em casos de apneia do sono, o médico do sono conduz a investigação e o tratamento.</p>
+<h2>Resumindo</h2>
+<p>A dispneia paroxística noturna é um sintoma de falta de ar súbita que desperta a pessoa durante o sono. As causas mais comuns são insuficiência cardíaca, apneia do sono e refluxo laringofaríngeo.</p>
+<p>A diferenciação entre apneia e insuficiência cardíaca exige avaliação médica com exames específicos. A apneia obstrutiva do sono pode coexistir com a insuficiência cardíaca e agravar o quadro.</p>
+<p>O questionário STOP-Bang é uma ferramenta validada para triagem de apneia do sono. Pontuações elevadas indicam necessidade de polissonografia.</p>
+<p>O refluxo laringofaríngeo é uma causa subdiagnosticada de laringoespasmo noturno. O tratamento com inibidor de bomba de prótons e medidas comportamentais resolve a maioria dos casos.</p>
+<p>No momento do despertar, sentar-se com as pernas para baixo e manter a calma ajuda a controlar o episódio. A manobra de Valsalva pode interromper o laringoespasmo.</p>
+<p>Procure atendimento médico se os episódios forem frequentes, piorarem com o tempo ou vierem acompanhados de outros sintomas. O diagnóstico precoce faz diferença no tratamento.</p>
+<h2>Fontes</h2>
+<ul>
+<li>MSD Manuals — Parada respiratória e dispneia noturna</li>
+<li>MedlinePlus — Breathing difficulty - lying down</li>
+<li>PubMed — Association between sleep apnea and overnight hemodynamic changes in hospitalized heart failure patients with and without paroxysmal nocturnal dyspnea</li>
+<li>PubMed Central — Laryngopharyngeal reflux induced sleep-related laryngospasm</li>
+<li>SciELO — Fatores associados ao padrão de sono em pacientes com insuficiência cardíaca</li>
+<li>BMJ Best Practice — Apneia obstrutiva do sono em adultos</li>
+<li>Cleveland Clinic — Paroxysmal Nocturnal Dyspnea (PND)</li>
+<li>PubMed — STOP-Bang questionnaire: translation to Portuguese and cross-cultural adaptation for use in Brazil</li>
+</ul>
+<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>

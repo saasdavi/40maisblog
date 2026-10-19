@@ -1,0 +1,40 @@
+PALAVRA_CHAVE: Laranja
+TITLE: Laranja: benefícios, tipos, propriedades nutricionais e cuidados no consumo
+DESCRIPTION: A laranja é uma das frutas cítricas mais consumidas no mundo e faz parte da alimentação de milhões de brasileiros. Rica em vitamina C, fibras, minerais e compos
+CAPA_ALT: Laranja: benefícios, tipos, propriedades nutricionais e cuidados no consumo
+---
+<p>A laranja é uma das frutas cítricas mais consumidas no mundo e faz parte da alimentação de milhões de brasileiros. Rica em vitamina C, fibras, minerais e compostos antioxidantes, ela pode contribuir para uma dieta equilibrada quando consumida de forma adequada.</p>
+<p>Além do sabor refrescante, a fruta apresenta diferentes variedades, como a <strong>laranja-bahia</strong>, a <strong>laranja kinkan</strong> e a laranja comum, cada uma com características próprias de sabor, textura e formas de consumo.</p>
+<h2>Quais são os benefícios da laranja para a saúde?</h2>
+<p>A laranja possui nutrientes importantes para o funcionamento do organismo. Seu consumo frequente, principalmente na forma da fruta inteira, pode contribuir para diferentes aspectos da saúde.</p>
+<h3>Fortalece o sistema imunológico</h3>
+<p>A vitamina C presente na laranja participa do funcionamento adequado das células de defesa do organismo. Esse nutriente auxilia na proteção contra o estresse oxidativo e contribui para a manutenção da resposta imunológica.</p>
+<h3>Ajuda na absorção de ferro</h3>
+<p>A vitamina C da laranja favorece a absorção do ferro não heme, encontrado principalmente em alimentos de origem vegetal, como feijão, lentilha e folhas verde-escuras.</p>
+<h3>Contribui para a saúde intestinal</h3>
+<p>A laranja consumida com o bagaço oferece fibras solúveis e insolúveis, componentes importantes para o funcionamento do intestino.</p>
+<h3>Possui compostos antioxidantes</h3>
+<p>Além da vitamina C, a laranja contém flavonoides e outros compostos fitoquímicos naturais que ajudam a combater a ação dos radicais livres.</p>
+<h2>Laranja-bahia, laranja kinkan e laranja comum: qual a diferença?</h2>
+<p>Tipo de laranja         Características         Melhor forma de consumo ----------------------- ----------------------- ----------------------- Laranja-bahia           Grande, geralmente sem  In natura, sucos e sementes, com polpa     sobremesas doce e casca espessa</p>
+<p>Laranja kinkan          Pequena, com casca fina Consumida inteira, e sabor doce ou azedo   inclusive com a casca</p>
+<p>Laranja comum           Variedades como pera e  Fruta fresca e sucos valência</p>
+<h2>Comer o bagaço da laranja faz bem?</h2>
+<p>Sim. O bagaço concentra parte das fibras da fruta e pode ser uma escolha melhor do que consumir apenas o suco coado.</p>
+<h2>O suco de laranja perde vitamina C depois de pronto?</h2>
+<p>A vitamina C é sensível ao oxigênio, à luz e ao calor. Após o preparo, pode ocorrer redução gradual desse nutriente. Para preservar melhor:</p>
+<ul><li>prepare o suco próximo ao consumo;</li><li>evite exposição prolongada ao ar;</li><li>mantenha refrigerado quando necessário;</li><li>prefira a fruta inteira quando possível.</li></ul>
+<h2>Casca de laranja: pode consumir?</h2>
+<p>A casca contém fibras, flavonoides e óleos essenciais, podendo ser usada em algumas receitas. Porém, deve ser higienizada corretamente antes do consumo.</p>
+<h3>Como higienizar a casca</h3>
+<ul><li>lave em água corrente;</li><li>esfregue a superfície;</li><li>utilize sanitizante adequado para alimentos;</li><li>enxágue antes do uso.</li></ul>
+<p>O contato de compostos concentrados da casca com a pele e exposição solar pode causar irritações e manchas.</p>
+<h2>Quem tem gastrite ou refluxo pode comer laranja?</h2>
+<p>A tolerância varia de pessoa para pessoa. Por ser cítrica, a laranja pode causar desconforto em algumas pessoas com refluxo ou gastrite, principalmente quando consumida em excesso.</p>
+<h2>Laranja engorda ou aumenta a glicose?</h2>
+<p>A laranja inteira, dentro de uma alimentação equilibrada, não causa ganho de peso por si só. As fibras ajudam na saciedade e o impacto na glicose depende da quantidade e da forma de consumo.</p>
+<h2>Formas saudáveis de consumir laranja</h2>
+<ul><li>consumir a fruta inteira;</li><li>usar em saladas;</li><li>utilizar raspas da casca higienizada;</li><li>preparar sucos sem excesso de açúcar;</li><li>combinar com fontes de ferro vegetal.</li></ul>
+<h2>A laranja é uma fruta nutritiva e versátil</h2>
+<p>A laranja reúne vitamina C, fibras, flavonoides e outros compostos naturais importantes. Variedades como a laranja-bahia e a laranja kinkan oferecem diferentes características e possibilidades culinárias.</p>
+<p>Para aproveitar melhor seus benefícios, o ideal é priorizar o consumo da fruta inteira e respeitar cuidados de higiene e tolerância individual.</p>

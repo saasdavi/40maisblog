@@ -50,6 +50,8 @@ function gravarCampo(cab, chave, valor) {
 // Instante real da publicação, em UTC. A página mostra em horário de Brasília
 // (src/lib/formato.ts), então a data e a hora exibidas são as do momento em que o artigo subiu.
 const agoraISO = () => new Date().toISOString();
+// Mesmo slug que src/lib/artigos-diretos.ts gera: o endereço real da página.
+const slugDoArquivo = (arquivo) => arquivo.replace(/\.txt$/i, '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 // ---------- 1. fila ----------
 if (!fs.existsSync(DIR)) { console.log('📥 data/entrada/google/ não existe. Nada a publicar.'); process.exit(0); }
@@ -134,8 +136,8 @@ for (const alvo of fila) {
   cab = gravarCampo(cab, 'DATA_PUBLICACAO', data);
   fs.writeFileSync(alvo.caminho, cab + alvo.raw.slice(alvo.cab.length));
 
-  publicados.push({ arquivo: alvo.arquivo, slug: alvo.arquivo.replace(/\.txt$/, ''), data });
-  console.log(`  📤 publicado: /${alvo.arquivo.replace(/\.txt$/, '')}/ em ${data}`);
+  publicados.push({ arquivo: alvo.arquivo, slug: slugDoArquivo(alvo.arquivo), data });
+  console.log(`  📤 publicado: /${slugDoArquivo(alvo.arquivo)}/ em ${data}`);
 }
 
 if (publicados.length < MAX) console.log(`\n⚠️  Publicados ${publicados.length} de ${MAX}: a fila acabou antes da meta.`);

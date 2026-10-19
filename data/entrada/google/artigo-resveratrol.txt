@@ -1,0 +1,170 @@
+PALAVRA_CHAVE: artigo-resveratrol
+TITLE: 
+DESCRIPTION: title: "Resveratrol: o que é, para que serve, benefícios e como usar" slug: "resveratrol" description: "Entenda o que é o resveratrol, seus possíveis benefícios
+CAPA_ALT: 
+---
+<p>title: "Resveratrol: o que é, para que serve, benefícios e como usar" slug: "resveratrol" description: "Entenda o que é o resveratrol, seus possíveis benefícios para a pele e para a saúde, como funciona a suplementação e quais cuidados considerar." keyword_principal: "resveratrol" intencao: "informacional" data_revisao: "2026-10-06"</p>
+<p>O <strong>resveratrol</strong> é um polifenol da família dos estilbenos encontrado naturalmente em algumas plantas, especialmente em uvas e derivados. Ele ganhou atenção por sua atividade antioxidante e por pesquisas que investigam possíveis efeitos sobre inflamação, metabolismo, envelhecimento e saúde cardiovascular.</p>
+<p>O interesse pelo ingrediente também chegou à dermatologia e aos cosméticos. Em produtos para a pele, o resveratrol é estudado principalmente por seu potencial antioxidante e pela possibilidade de ajudar a proteger a pele contra processos associados ao fotoenvelhecimento.</p>
+<p>Mas existe uma diferença importante entre <strong>o que o resveratrol demonstra em estudos experimentais</strong>, o que foi observado em estudos clínicos com seres humanos e o que pode ser prometido por um suplemento ou cosmético. A evidência clínica ainda não permite tratar o resveratrol como uma solução comprovada para longevidade ou prevenção de doenças.</p>
+<p>> <strong>Importante:</strong> este conteúdo é informativo e não substitui avaliação médica ou nutricional. Suplementos não devem ser usados para substituir alimentação, tratamento prescrito ou acompanhamento profissional.</p>
+<p><strong>Imagem Pexels sugerida — abertura:</strong> uvas vermelhas frescas, associadas à principal fonte alimentar conhecida de resveratrol. URL de requisição: https://www.pexels.com/photo/fresh-red-grapes-on-rustic-metallic-surface-39959325/</p>
+<h2>O que é o resveratrol?</h2>
+<p>O resveratrol é um <strong>polifenol vegetal</strong> pertencente à classe dos estilbenos. Ele pode ser encontrado em plantas como a videira e está presente principalmente na casca das uvas, além de aparecer em outros alimentos em quantidades menores.</p>
+<p>A molécula ganhou destaque porque apresenta atividade antioxidante e pode modular diferentes vias celulares relacionadas ao estresse oxidativo, inflamação e metabolismo.</p>
+<p>Grande parte do interesse inicial veio de estudos laboratoriais e modelos animais. Neles, foram observados efeitos potencialmente relevantes em processos como inflamação, metabolismo da glicose e lipídios, resposta celular ao estresse e envelhecimento.</p>
+<p>Isso, porém, não significa que ingerir resveratrol produza automaticamente os mesmos efeitos em seres humanos. Uma revisão sistemática de ensaios clínicos destaca justamente que ainda não há evidência clínica conclusiva suficiente para recomendar o resveratrol como tratamento para uma condição específica. [1]</p>
+<h2>Para que serve o resveratrol?</h2>
+<p>O resveratrol é estudado principalmente por quatro grupos de possíveis efeitos:</p>
+<ul><li>atividade antioxidante;</li><li>modulação de processos inflamatórios;</li><li>possíveis efeitos sobre metabolismo e saúde cardiovascular;</li><li>potencial ação protetora da pele contra processos relacionados ao fotoenvelhecimento.</li></ul>
+<p>Na prática, é importante separar <strong>uso tópico</strong> e <strong>uso oral</strong>.</p>
+<p>O resveratrol aplicado na pele é estudado em formulações cosméticas e dermatológicas. Já o resveratrol ingerido como suplemento envolve questões farmacocinéticas diferentes, principalmente sua rápida metabolização e baixa disponibilidade sistêmica na forma não modificada.</p>
+<p>Por isso, não é correto assumir que um sérum de resveratrol e uma cápsula de resveratrol tenham exatamente os mesmos efeitos.</p>
+<h2>Quais são os benefícios do resveratrol para a pele?</h2>
+<p>O resveratrol tem sido estudado para aplicações relacionadas ao <strong>fotoenvelhecimento, inflamação, pigmentação, reparação cutânea e proteção contra estresse oxidativo</strong>.</p>
+<p>Revisões da literatura descrevem resultados promissores em modelos celulares, animais e alguns estudos clínicos, mas também destacam que ainda existem limitações importantes para transformar esses achados em recomendações dermatológicas universais. [2][3]</p>
+<h3>Ação antioxidante</h3>
+<p>A exposição à radiação ultravioleta, poluição e outros fatores pode aumentar a formação de espécies reativas na pele. O resveratrol apresenta atividade antioxidante e pode interferir em vias celulares associadas a esse estresse.</p>
+<p>Esse mecanismo ajuda a explicar seu interesse em cosméticos antienvelhecimento, mas não significa que um produto com resveratrol substitua protetor solar.</p>
+<h3>Fotoenvelhecimento</h3>
+<p>Estudos experimentais indicam que o resveratrol pode modular processos relacionados à inflamação e à degradação de componentes da matriz extracelular, incluindo mecanismos associados ao fotoenvelhecimento.</p>
+<p>A evidência é promissora, mas a magnitude do benefício em pessoas pode variar conforme concentração, formulação, estabilidade e frequência de uso.</p>
+<h3>Aparência de linhas finas e elasticidade</h3>
+<p>O resveratrol é investigado por sua possível influência sobre vias envolvidas na produção e degradação de componentes estruturais da pele.</p>
+<p>Isso faz com que seja usado em produtos com proposta antienvelhecimento. Entretanto, não é adequado prometer que qualquer sérum de resveratrol irá estimular colágeno ou eliminar rugas de forma mensurável.</p>
+<h3>Pigmentação</h3>
+<p>O resveratrol e seus derivados também são estudados por sua influência sobre a melanogênese. Isso despertou interesse em produtos destinados à uniformização da aparência da pele.</p>
+<p>Mais uma vez, resultados experimentais não equivalem a comprovação de que o ativo isolado tratará melasma ou outras doenças pigmentares.</p>
+<h2>Como usar resveratrol na rotina de skincare?</h2>
+<p>Quando presente em um cosmético, o resveratrol deve ser usado conforme a orientação do fabricante.</p>
+<p>Uma rotina simples pode ser:</p>
+<p><strong>Manhã</strong> 1. Limpeza suave. 2. Sérum ou outro produto com resveratrol, se indicado para uso diurno. 3. Hidratante. 4. Protetor solar.</p>
+<p><strong>Noite</strong> 1. Limpeza. 2. Produto com resveratrol. 3. Hidratante.</p>
+<p>Não é obrigatório usar resveratrol apenas à noite. A indicação depende da formulação e da estabilidade do produto.</p>
+<h3>Resveratrol pode ser usado com outros ativos?</h3>
+<p>Em geral, a presença de resveratrol em uma rotina não significa que todos os outros ativos devam ser evitados.</p>
+<p>A compatibilidade depende da formulação completa. Se o produto também contiver ácidos, retinoides, vitamina C ou outros ingredientes potencialmente irritantes, a avaliação deve considerar o conjunto da rotina.</p>
+<p>Começar com poucos produtos facilita identificar qualquer irritação.</p>
+<p><strong>Imagem Pexels sugerida — uso tópico:</strong> pessoa aplicando sérum facial com conta-gotas. URL de requisição: https://www.pexels.com/photo/close-up-of-woman-applying-serum-to-face-33794143/</p>
+<h2>O resveratrol é estável em cosméticos?</h2>
+<p>A estabilidade é um ponto importante no desenvolvimento de formulações com resveratrol.</p>
+<p>A molécula apresenta <strong>baixa solubilidade em água e sensibilidade à luz</strong>, características que podem dificultar sua formulação e favorecer degradação quando as condições de armazenamento não são adequadas. Revisões farmacotécnicas destacam a fotostabilidade como uma questão relevante no desenvolvimento de produtos contendo resveratrol. [4]</p>
+<p>Por isso, não é correto concluir que todo produto transparente perde automaticamente a eficácia. A estabilidade depende da formulação, embalagem, concentração, sistema de entrega e condições de armazenamento.</p>
+<p>Para o consumidor, a regra mais segura é seguir as instruções do fabricante, manter o produto fechado e protegê-lo de calor e luz quando isso for recomendado.</p>
+<h2>O que é trans-resveratrol?</h2>
+<p>O resveratrol pode existir em diferentes formas geométricas, principalmente <strong>trans-resveratrol</strong> e <strong>cis-resveratrol</strong>.</p>
+<p>O trans-resveratrol é a forma mais frequentemente estudada na literatura e é geralmente considerado a forma mais estável do ponto de vista estrutural em condições apropriadas. A exposição à luz pode favorecer processos de isomerização e degradação.</p>
+<p>Isso é relevante para suplementos e cosméticos porque “resveratrol” no rótulo não deve ser interpretado automaticamente como uma determinada quantidade de trans-resveratrol puro.</p>
+<p>Ao comparar produtos, é útil observar a <strong>forma química declarada, quantidade por porção, padronização e informações de estabilidade</strong>, em vez de olhar somente para o número de miligramas.</p>
+<h2>Resveratrol em alimentos: onde encontrar?</h2>
+<p>O resveratrol ocorre naturalmente em algumas plantas, principalmente:</p>
+<ul><li>uvas, especialmente nas cascas;</li><li>derivados de uva;</li><li>algumas frutas;</li><li>amendoim e derivados;</li><li>outros alimentos vegetais em quantidades variáveis.</li></ul>
+<p>A quantidade presente nos alimentos pode variar muito conforme variedade, cultivo, processamento e armazenamento.</p>
+<p>O vinho tinto contém resveratrol porque é produzido a partir de uvas, mas isso <strong>não significa que consumir álcool seja uma estratégia recomendada para obter resveratrol</strong>. Os potenciais benefícios de uma molécula não anulam os riscos associados ao consumo de bebidas alcoólicas.</p>
+<p>Uma alimentação variada continua sendo a principal estratégia para obter diferentes polifenóis e outros nutrientes.</p>
+<p><strong>Imagem Pexels sugerida — alimentos:</strong> cacho de uvas vermelhas frescas. URL de requisição: https://www.pexels.com/photo/close-up-of-fresh-red-grapes-on-wooden-surface-39959318/</p>
+<h2>Resveratrol como suplemento: o que se sabe?</h2>
+<p>O resveratrol também é vendido em cápsulas e outras formas de suplemento alimentar.</p>
+<p>Os estudos em humanos investigaram diferentes doses e condições, incluindo marcadores de inflamação, metabolismo, glicemia, pressão arterial e parâmetros cardiovasculares.</p>
+<p>Apesar dos resultados interessantes em algumas áreas, <strong>não existe uma dose universalmente estabelecida de resveratrol para promover longevidade ou prevenir doenças</strong>.</p>
+<p>Uma revisão sistemática de ensaios clínicos publicada na literatura concluiu que ainda são necessários estudos maiores e de melhor qualidade antes que o resveratrol possa ser recomendado de forma ampla em contextos clínicos. [1]</p>
+<p>Portanto, frases como “resveratrol aumenta a longevidade” devem ser tratadas como uma simplificação da pesquisa, e não como um efeito comprovado de cápsulas em seres humanos.</p>
+<h2>O resveratrol tem baixa biodisponibilidade?</h2>
+<p>Sim. Essa é uma das principais limitações estudadas no uso oral do resveratrol.</p>
+<p>O organismo consegue absorver a molécula, mas ela sofre <strong>metabolização rápida no intestino e no fígado</strong>, principalmente por conjugação com glicuronídeos e sulfatos. Como consequência, a quantidade de resveratrol livre que permanece circulando no sangue é pequena.</p>
+<p>Revisões farmacocinéticas descrevem a baixa biodisponibilidade como um dos principais obstáculos à utilização clínica do resveratrol por via oral. [4][5]</p>
+<p>Isso explica uma aparente contradição:</p>
+<p>> O resveratrol pode ser relativamente bem absorvido no intestino, mas ainda assim apresentar <strong>baixa biodisponibilidade sistêmica como molécula livre</strong>, porque é rapidamente metabolizado.</p>
+<p>Essa diferença é importante quando resultados de laboratório são comparados com efeitos de um suplemento.</p>
+<h3>Por que a biodisponibilidade importa?</h3>
+<p>Um estudo de laboratório pode expor células diretamente a uma concentração de resveratrol por determinado período.</p>
+<p>Depois de uma cápsula, entretanto, a molécula precisa passar pelo sistema digestivo, ser absorvida, sofrer metabolismo intestinal e hepático e chegar aos tecidos em uma concentração biologicamente relevante.</p>
+<p>Por isso, um efeito observado em uma placa de cultura não pode ser convertido diretamente em uma recomendação de dose para pessoas.</p>
+<h2>Qual o melhor horário para tomar resveratrol?</h2>
+<p>Não existe um horário universalmente comprovado como “o melhor” para todos os suplementos de resveratrol.</p>
+<p>A orientação deve seguir o rótulo do produto e, quando houver uso regular de suplemento, a recomendação do profissional que acompanha a pessoa.</p>
+<p>Também não é apropriado definir uma dose de 500 mg, 1.000 mg ou outra quantidade como ideal para longevidade apenas com base em pesquisas isoladas. Os ensaios clínicos utilizaram diferentes doses e condições, e não existe consenso terapêutico universal para prevenção do envelhecimento. [1]</p>
+<h2>Resveratrol 500 mg: essa dose é indicada?</h2>
+<p>Não necessariamente.</p>
+<p>O número “500 mg” informa a quantidade declarada na porção do suplemento, mas <strong>não determina sozinho que essa seja a dose adequada para uma pessoa</strong>.</p>
+<p>Dose adequada depende do objetivo, produto, composição, condições de saúde, outros medicamentos e orientação profissional.</p>
+<p>Além disso, aumentar a dose não resolve automaticamente o problema da baixa biodisponibilidade. A farmacocinética do resveratrol continua sendo uma questão importante mesmo em doses maiores. [4]</p>
+<h2>Resveratrol ajuda na saúde cardiovascular?</h2>
+<p>O interesse cardiovascular do resveratrol vem de estudos experimentais e de ensaios clínicos que avaliaram diferentes marcadores.</p>
+<p>A pesquisa investiga possíveis efeitos sobre estresse oxidativo, inflamação, função vascular, metabolismo e pressão arterial.</p>
+<p>Porém, os resultados clínicos não são suficientes para afirmar que suplementos de resveratrol previnam infarto, acidente vascular cerebral ou outras doenças cardiovasculares.</p>
+<p>Uma revisão abrangente dos ensaios clínicos destaca justamente a ausência de evidência clínica conclusiva para recomendar o resveratrol em um contexto específico de assistência à saúde. [1]</p>
+<p>Portanto, resveratrol <strong>não deve substituir medicamentos, atividade física, alimentação adequada ou controle dos fatores de risco cardiovascular</strong>.</p>
+<h2>Resveratrol aumenta a longevidade?</h2>
+<p>Essa é uma das associações mais conhecidas do ingrediente, mas também uma das que mais exige cuidado na interpretação.</p>
+<p>Em modelos experimentais, o resveratrol foi relacionado a vias celulares envolvidas em metabolismo, estresse oxidativo e envelhecimento. Esses resultados ajudaram a popularizar a hipótese de que ele poderia influenciar a longevidade.</p>
+<p>Até o momento, porém, isso não significa que tomar cápsulas de resveratrol comprovadamente faça seres humanos viverem mais.</p>
+<p>A evidência clínica continua limitada e heterogênea. A revisão sistemática de ensaios clínicos não encontrou base suficiente para estabelecer um regime terapêutico consensual para uma finalidade de longevidade. [1]</p>
+<h2>Resveratrol emagrece ou engorda?</h2>
+<p>Não é adequado tratar o resveratrol como um suplemento comprovado para emagrecimento.</p>
+<p>Existem pesquisas experimentais e ensaios em humanos investigando metabolismo, glicemia, inflamação e composição corporal. Alguns resultados são interessantes, mas não sustentam a ideia de que o resveratrol substitua déficit energético, alimentação adequada ou exercício.</p>
+<p>Também não há base para afirmar que o resveratrol, por si só, “engorda”.</p>
+<p>Se o objetivo é perder peso, o mais importante é identificar a estratégia alimentar e comportamental adequada e investigar fatores que possam dificultar o processo.</p>
+<h2>Quais são os efeitos colaterais do resveratrol?</h2>
+<p>Em estudos clínicos, o resveratrol costuma apresentar boa tolerabilidade em várias doses estudadas, mas isso não significa ausência de efeitos adversos.</p>
+<p>Podem ocorrer sintomas gastrointestinais, especialmente com doses mais altas, como:</p>
+<ul><li>náusea;</li><li>desconforto abdominal;</li><li>diarreia;</li><li>alterações intestinais.</li></ul>
+<p>A tolerância depende da dose e das características individuais.</p>
+<p>Além disso, suplementos podem ter interações com medicamentos e não devem ser tratados como produtos completamente isentos de risco.</p>
+<h2>Quem não deve tomar resveratrol?</h2>
+<p>Não existe uma lista simples que permita classificar todas as pessoas em “pode” ou “não pode”.</p>
+<p>É especialmente importante buscar orientação profissional antes de usar suplementos se você:</p>
+<ul><li>usa medicamentos de forma contínua;</li><li>apresenta alguma condição de saúde;</li><li>está grávida ou amamentando;</li><li>vai passar por cirurgia ou procedimento;</li><li>pretende utilizar doses elevadas;</li><li>pretende combinar vários suplementos.</li></ul>
+<p>Gestantes e lactantes não devem iniciar suplementos de resveratrol por conta própria. A ausência de evidência suficiente em determinados grupos não deve ser interpretada como prova de segurança.</p>
+<h2>Resveratrol pode interagir com medicamentos?</h2>
+<p>Sim, existe potencial para interações, e isso é uma das razões para não tratar suplementos de resveratrol como produtos totalmente inofensivos.</p>
+<p>O resveratrol e seus metabólitos podem interferir em vias metabólicas e enzimas envolvidas no processamento de substâncias no organismo. A relevância clínica depende do medicamento, dose e contexto.</p>
+<p>Quem usa medicamentos de forma contínua deve informar médico ou farmacêutico antes de iniciar um suplemento.</p>
+<h2>Resveratrol antes e depois: funciona mesmo?</h2>
+<p>“Antes e depois” pode ser útil para mostrar mudanças em uma condição específica, mas não constitui por si só uma prova científica de eficácia.</p>
+<p>No caso de cosméticos, fotografias podem variar por iluminação, ângulo, maquiagem, hidratação e edição. No caso de suplementos, mudanças corporais também podem ter múltiplas causas.</p>
+<p>Resultados confiáveis devem ser avaliados por estudos controlados, desfechos objetivos e acompanhamento adequado.</p>
+<h2>Resveratrol para a pele ou suplemento: qual escolher?</h2>
+<p>Depende do objetivo.</p>
+<p>Objetivo | Forma mais diretamente relacionada</p>
+<p>Antioxidante e cuidados antienvelhecimento da pele | Uso tópico</p>
+<p>Rotina de skincare | Sérum ou creme formulado com resveratrol</p>
+<p>Investigar possíveis efeitos metabólicos | Suplementação, somente com orientação adequada</p>
+<p>“Longevidade” | Não existe dose comprovada para esse objetivo</p>
+<p>Prevenção de doença cardiovascular | Não substituir tratamento ou prevenção convencional por resveratrol</p>
+<p>É importante não presumir que um produto tópico produzirá benefícios sistêmicos nem que uma cápsula produzirá automaticamente os mesmos efeitos na pele.</p>
+<h2>Como escolher um produto com resveratrol?</h2>
+<p>Para cosméticos, vale observar:</p>
+<ul><li>concentração declarada, quando disponível;</li><li>forma do resveratrol utilizada;</li><li>tipo de embalagem;</li><li>instruções de armazenamento;</li><li>validade;</li><li>composição completa;</li><li>fabricante e regularização aplicável.</li></ul>
+<p>Para suplementos, observe:</p>
+<ul><li>quantidade por porção;</li><li>forma química declarada;</li><li>composição completa;</li><li>fabricante;</li><li>lote e validade;</li><li>orientações de uso;</li><li>regularização conforme a categoria do produto.</li></ul>
+<p>Mais miligramas não significam necessariamente mais benefício.</p>
+<h2>Perguntas frequentes sobre resveratrol</h2>
+<h3>Qual é o principal efeito do resveratrol no corpo?</h3>
+<p>O resveratrol apresenta atividade antioxidante e pode modular vias relacionadas à inflamação e ao metabolismo. Entretanto, não existe um único efeito clínico principal comprovado que permita recomendar o suplemento para a população em geral.</p>
+<h3>Para que serve o resveratrol na pele do rosto?</h3>
+<p>É utilizado em cosméticos principalmente por seu potencial antioxidante e interesse em fotoenvelhecimento, uniformidade e aparência de sinais de idade. A força da evidência varia conforme a formulação e o objetivo.</p>
+<h3>Quem não deve tomar suplemento de resveratrol?</h3>
+<p>Pessoas que usam medicamentos, gestantes, lactantes, pessoas com condições de saúde ou que pretendem utilizar doses elevadas devem buscar orientação profissional antes de suplementar.</p>
+<h3>Qual o melhor horário para tomar resveratrol?</h3>
+<p>Não existe um horário universalmente comprovado como superior. Siga a orientação do fabricante e, quando aplicável, de um profissional de saúde.</p>
+<h3>Resveratrol 500 mg é uma dose boa?</h3>
+<p>Não há uma dose universal que possa ser considerada “boa” para todas as pessoas ou para longevidade. A dose estudada varia entre pesquisas e não deve ser transformada automaticamente em recomendação.</p>
+<h3>Resveratrol é bom para o coração?</h3>
+<p>Há interesse científico em seus efeitos cardiovasculares, mas a evidência clínica ainda não permite afirmar que o suplemento previna doenças cardiovasculares ou substitua medidas e tratamentos comprovados.</p>
+<h3>Resveratrol é bom para a pele?</h3>
+<p>Pode ser um ingrediente interessante em produtos tópicos por seu potencial antioxidante e anti-inflamatório, mas a eficácia depende da formulação e não deve ser apresentada como equivalente a um tratamento dermatológico comprovado.</p>
+<h2>Conclusão</h2>
+<p>O <strong>resveratrol</strong> é um polifenol com uma história extensa de pesquisa e mecanismos biológicos interessantes. Para a pele, seu potencial antioxidante e sua relação com processos de fotoenvelhecimento fazem dele um ingrediente relevante em cosméticos.</p>
+<p>Por via oral, entretanto, a história é mais complexa. O organismo absorve o resveratrol, mas também o metaboliza rapidamente no intestino e no fígado, resultando em baixa disponibilidade da molécula livre no sangue. [4][5]</p>
+<p>Por isso, resultados de estudos celulares ou animais não devem ser apresentados como prova de que suplementos aumentam a longevidade, emagrecem ou previnem doenças cardiovasculares.</p>
+<p>Se a intenção for usar resveratrol na pele, o foco deve ser a qualidade da formulação, estabilidade e rotina adequada. Se a intenção for tomar um suplemento, é mais importante avaliar objetivo, dose, medicamentos e condições individuais do que simplesmente procurar o produto com maior quantidade de miligramas.</p>
+<h2>Fontes</h2>
+<p>1. <em>Resveratrol for the Management of Human Health: How Far Have We Come? A Systematic Review of Resveratrol Clinical Trials to Highlight Gaps and Opportunities</em>. PubMed Central. https://pmc.ncbi.nlm.nih.gov/articles/PMC10815776/</p>
+<p>2. <em>The impact of resveratrol on skin wound healing, scarring, and aging</em>. PubMed Central. https://pmc.ncbi.nlm.nih.gov/articles/PMC8684849/</p>
+<p>3. <em>The bioactivities of resveratrol and its naturally occurring derivatives on skin</em>. PubMed Central. https://pmc.ncbi.nlm.nih.gov/articles/PMC9261849/</p>
+<p>4. <em>Progress to Improve Oral Bioavailability and Beneficial Effects of Resveratrol</em>. PubMed Central. https://pmc.ncbi.nlm.nih.gov/articles/PMC6471659/</p>
+<p>5. <em>Enhancing the Delivery of Resveratrol in Humans: If Low Bioavailability is the Problem, What is the Solution?</em> PubMed Central. https://pmc.ncbi.nlm.nih.gov/articles/PMC6270951/</p>
+<h3>Imagens Pexels sugeridas</h3>
+<ul><li>Abertura / uvas: https://www.pexels.com/photo/fresh-red-grapes-on-rustic-metallic-surface-39959325/</li><li>Skincare / sérum: https://www.pexels.com/photo/close-up-of-woman-applying-serum-to-face-33794143/</li><li>Alimentos / uvas: https://www.pexels.com/photo/close-up-of-fresh-red-grapes-on-wooden-surface-39959318/</li></ul>
+<p>> As imagens devem ser inseridas no CMS conforme a política/licença vigente do Pexels. As URLs acima são referências de requisição/seleção de imagens.</p>
