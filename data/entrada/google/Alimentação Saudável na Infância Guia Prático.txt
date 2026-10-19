@@ -2,6 +2,10 @@ PALAVRA_CHAVE: Alimentação Saudável na Infância
 TITLE: Alimentação Saudável na Infância: Guia Prático
 DESCRIPTION: Como montar um prato equilibrado para crianças: porções por idade, lancheira segura, açúcar antes dos 2 anos e seletividade alimentar.
 CAPA_ALT: ${foto.alt || termoBusca}
+CAPA_URL: https://images.pexels.com/photos/19773932/pexels-photo-19773932.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 19773932
+CAPA_CREDITO: Jonathan Borba | https://www.pexels.com/photo/smiling-mother-cooking-with-son-19773932/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T03:00:43.016Z
 ---
 <p>Montar um prato equilibrado para uma criança vai muito além de garantir que ela coma “de tudo um pouco”. Envolve respeitar sinais de fome e saciedade, conhecer as porções adequadas para cada idade e saber como conservar os alimentos com segurança. Este guia reúne orientações práticas baseadas nas diretrizes oficiais para ajudar famílias a construírem hábitos saudáveis desde os primeiros anos.</p>
 <p>A infância é o período em que as preferências alimentares se formam. O que a criança experimenta nos primeiros anos influencia suas escolhas por toda a vida. Por isso, o ambiente familiar, a rotina e o exemplo dos adultos têm papel central nesse processo.</p>
