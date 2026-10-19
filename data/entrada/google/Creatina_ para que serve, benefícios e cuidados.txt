@@ -2,6 +2,10 @@ PALAVRA_CHAVE: Creatina_ para que serve, benefícios e cuidados
 TITLE: Creatina_ para que serve, benefícios e cuidados
 DESCRIPTION: A creatina é uma substância produzida pelo organismo e armazenada principalmente nos músculos. A suplementação pode aumentar sua disponibilidade para esforços f
 CAPA_ALT: Creatina_ para que serve, benefícios e cuidados
+CAPA_URL: https://images.pexels.com/photos/33921585/pexels-photo-33921585.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 33921585
+CAPA_CREDITO: Gupta Sahil | https://www.pexels.com/photo/creatine-monohydrate-supplement-in-kitchen-33921585/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T06:30:30.982Z
 ---
 PALAVRA_CHAVE: creatina
 TITLE: Creatina: para que serve, benefícios e cuidados
