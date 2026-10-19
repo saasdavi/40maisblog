@@ -58,7 +58,8 @@ jobs:
             exit 0
           fi
           git commit -m "📰 Publicação direta: $(date -u +%Y-%m-%d)"
-          git pull --rebase -q origin "$GITHUB_REF_NAME"
+          # --autostash: o npm install do job mexe no package-lock.json, e o rebase recusa com alteração não commitada
+          git pull --rebase --autostash -q origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
 
       - name: Acionar deploy na Vercel
