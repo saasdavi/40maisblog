@@ -212,5 +212,36 @@ FONTES OFICIAIS CANDIDATAS (5): título da página | URL direta | uma frase do q
         title: [{ type: "text", text: { content: `Auditoria SERP — ${contexto.palavra}` } }]
       }
     },
-    children: [
-      {
+    children: blocosDoRelatorio(corpoDoRelatorioMarkdown)
+  });
+  console.log(`Auditoria SERP enviada ao Notion: ${contexto.palavra}`);
+  salvarPesquisaJson(contexto, json);
+}
+
+// A API do Notion limita cada trecho de texto a 2.000 caracteres e cada chamada a 100 blocos
+function blocosDoRelatorio(texto) {
+  const blocos = [];
+  for (let i = 0; i < texto.length; i += 1800) {
+    blocos.push({
+      object: 'block',
+      type: 'paragraph',
+      paragraph: { rich_text: [{ type: 'text', text: { content: texto.slice(i, i + 1800) } }] }
+    });
+  }
+  return blocos.slice(0, 100);
+}
+
+// Mesmo nome de arquivo que scripts/enviar-serp-notion.js procura: <slug da palavra>.json
+function slugDaPalavra(valor) {
+  return valor.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+function salvarPesquisaJson(contexto, json) {
+  const pasta = 'data/entrada/pautas-chat_01/resposta';
+  fs.mkdirSync(pasta, { recursive: true });
+  const registro = { palavra: contexto.palavra, data: new Date().toISOString().slice(0, 10), serp: json };
+  fs.writeFileSync(`${pasta}/${slugDaPalavra(contexto.palavra)}.json`, JSON.stringify(registro, null, 2), 'utf-8');
+}
+
+executarFluxoLinhaMestre();
