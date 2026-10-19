@@ -1,0 +1,28 @@
+name: Remover duplicadas da base Pautas no Notion
+
+# Manual: arquiva (lixeira do Notion, recuperável por 30 dias) as pautas duplicadas,
+# deixando uma de cada grupo. Não commita nada e não publica.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  remover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Arquivar duplicadas
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+        run: node scripts/remover-duplicadas-pautas-notion.js --gravar
