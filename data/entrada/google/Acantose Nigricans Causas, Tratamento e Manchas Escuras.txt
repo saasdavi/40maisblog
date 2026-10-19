@@ -2,6 +2,10 @@ PALAVRA_CHAVE: Acantose Nigricans Causas, Tratamento e Manchas Escuras
 TITLE: Acantose Nigricans Causas, Tratamento e Manchas Escuras
 DESCRIPTION: Acantose nigricans é uma condição de pele caracterizada por manchas escuras e espessas em áreas de dobra, como pescoço, axilas e virilha. Não é uma doença co
 CAPA_ALT: Região do pescoço com manchas escuras e pele espessada, característica da acantose nigricans
+CAPA_URL: https://images.pexels.com/photos/6643070/pexels-photo-6643070.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 6643070
+CAPA_CREDITO: https://kaboompics.com/ | https://www.pexels.com/photo/close-up-of-texture-and-veins-on-skin-6643070/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T02:30:39.250Z
 ---
 <p><strong>Acantose nigricans</strong> é uma condição de pele caracterizada por manchas escuras e espessas em áreas de dobra, como pescoço, axilas e virilha. Não é uma doença contagiosa nem uma simples questão estética. Na maioria dos casos, funciona como um sinal visível de um problema metabólico subjacente, especialmente a resistência à insulina.</p>
 <h2>O Que Realmente É Acantose Nigricans</h2>
