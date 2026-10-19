@@ -4,6 +4,7 @@ import { readFileSync } from 'fs';
 import { resolve } from 'path';
 import { artigosPublicados, temasComArtigos } from '../lib/temas';
 import { carregarArtigosDiretos } from '../lib/artigos-diretos';
+import { formatarDataHora } from '../lib/formato';
 
 let legacyArticles = [];
 try {
@@ -15,14 +16,16 @@ try {
 } catch (e) {
   console.warn('Arquivo legado articles.json indisponível; exibindo artigos da pasta Google.');
 }
-const diretos = carregarArtigosDiretos();
+// Só entra na home quem tem capa: sem essa regra, um artigo ainda não publicado (sem foto e sem
+// data) ocupava as primeiras vagas com o placeholder e empurrava os artigos completos para fora.
+// A página do artigo continua existindo; isto vale só para a vitrine.
+const diretos = carregarArtigosDiretos().filter((a) => a.featuredImage);
 const diretosSlugs = new Set(diretos.map((a) => a.slug));
-const articles = [...diretos, ...legacyArticles.filter((a: any) => !diretosSlugs.has(a.slug))].slice(0, 6);
+// 7 = 1 destaque + 6 no grid: duas linhas cheias de 3 (e de 2 na faixa até 960px), sem buraco no fim
+const articles = [...diretos, ...legacyArticles.filter((a: any) => !diretosSlugs.has(a.slug))].slice(0, 7);
 const todosPublicados = artigosPublicados();
 const temasMenu = temasComArtigos(todosPublicados);
-// Data de publicação em dd/mm/aaaa (horário de Brasília)
-const formatarData = (iso: string | undefined) =>
-  iso ? new Date(iso).toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' }) : '';
+
 ---
 
 <html lang="pt-BR">
@@ -554,7 +557,7 @@ const formatarData = (iso: string | undefined) =>
                     <h3>{article.title}</h3>
                     <p>{article.description}</p>
                     <div class="article-meta">
-                      {article.publishedAt && <span>📅 {formatarData(article.publishedAt)}</span>}
+                      {article.publishedAt && <span>📅 {formatarDataHora(article.publishedAt)}</span>}
                       <span>⏱️ {Math.ceil((article.wordCount || 0) / 200)} min</span>
                     </div>
                     <span class="btn btn-block">Ler Artigo</span>

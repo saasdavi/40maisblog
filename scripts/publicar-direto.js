@@ -47,11 +47,9 @@ function gravarCampo(cab, chave, valor) {
   return linha.test(cab) ? cab.replace(linha, () => `${chave}: ${valor}`) : `${cab.replace(/\n+$/, '')}\n${chave}: ${valor}`;
 }
 
-// Data de hoje em São Paulo, carimbada ao meio-dia UTC: assim a conversão de fuso na página
-// (toLocaleDateString com America/Sao_Paulo) nunca cai no dia anterior.
-function dataDeHoje() {
-  return `${new Date().toLocaleDateString('en-CA', { timeZone: 'America/Sao_Paulo' })}T12:00:00.000Z`;
-}
+// Instante real da publicação, em UTC. A página mostra em horário de Brasília
+// (src/lib/formato.ts), então a data e a hora exibidas são as do momento em que o artigo subiu.
+const agoraISO = () => new Date().toISOString();
 
 // ---------- 1. fila ----------
 if (!fs.existsSync(DIR)) { console.log('📥 data/entrada/google/ não existe. Nada a publicar.'); process.exit(0); }
@@ -128,12 +126,12 @@ for (const alvo of fila) {
     console.log(`  📷 foto: mantida a do cabeçalho (${urlAtual || `Pexels ${idAtual}`})`);
   }
 
-  const data = dataDeHoje();
+  const data = agoraISO();
   cab = gravarCampo(cab, 'DATA_PUBLICACAO', data);
   fs.writeFileSync(alvo.caminho, cab + alvo.raw.slice(alvo.cab.length));
 
   publicados.push({ arquivo: alvo.arquivo, slug: alvo.arquivo.replace(/\.txt$/, ''), data });
-  console.log(`  📤 publicado: /${alvo.arquivo.replace(/\.txt$/, '')}/ em ${data.slice(0, 10)}`);
+  console.log(`  📤 publicado: /${alvo.arquivo.replace(/\.txt$/, '')}/ em ${data}`);
 }
 
 if (publicados.length < MAX) console.log(`\n⚠️  Publicados ${publicados.length} de ${MAX}: a fila acabou antes da meta.`);

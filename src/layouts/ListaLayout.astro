@@ -11,8 +11,7 @@ const temas = temasComArtigos(artigosPublicados());
 const link = (n: number) => (n === 1 ? `${base}/` : `${base}/${n}/`);
 const year = new Date().getFullYear();
 // Data de publicação em dd/mm/aaaa (horário de Brasília)
-const formatarData = (iso?: string) =>
-  iso ? new Date(iso).toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' }) : '';
+import { formatarDataHora } from '../lib/formato';
 ---
 <BaseLayout title={title} description={description} path={path}>
   <header class="pg-header">
@@ -50,7 +49,7 @@ const formatarData = (iso?: string) =>
             <span class="lista-tema">{a.tema.nome}</span>
             <h2>{a.title}</h2>
             <p>{a.description}</p>
-            <span class="lista-meta">{a.publishedAt && <>📅 {formatarData(a.publishedAt)} · </>}⏱️ {Math.max(1, Math.ceil((a.wordCount || 0) / 200))} min de leitura</span>
+            <span class="lista-meta">{a.publishedAt && <>📅 {formatarDataHora(a.publishedAt)} · </>}⏱️ {Math.max(1, Math.ceil((a.wordCount || 0) / 200))} min de leitura</span>
           </div>
         </a>
       ))}

@@ -9,8 +9,7 @@ interface Props {
 
 const { title, description, primaryKeyword, readingTime = 5, publishedAt } = Astro.props;
 // Data de publicação em dd/mm/aaaa (horário de Brasília)
-const formatarData = (iso?: string) =>
-  iso ? new Date(iso).toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' }) : '';
+import { formatarDataHora } from '../lib/formato';
 ---
 
 <html lang="pt-BR">
@@ -160,7 +159,7 @@ const formatarData = (iso?: string) =>
       <header>
         <h1>{title}</h1>
         <div class="meta">
-          <span>📅 {publishedAt ? formatarData(publishedAt) : 'Em breve'}</span>
+          <span>📅 {publishedAt ? formatarDataHora(publishedAt) : 'Em breve'}</span>
           <span class="separator">•</span>
           <span>⏱️ {readingTime} min de leitura</span>
         </div>
