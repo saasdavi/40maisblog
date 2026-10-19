@@ -1,7 +1,11 @@
 PALAVRA_CHAVE: Cardápio Para Ganhar Massa Muscular
 TITLE: Cardápio Para Ganhar Massa Muscular — Guia Prático
 DESCRIPTION: Aprenda a montar um cardápio para ganhar massa muscular, calcular seu gasto energético, distribuir refeições, adaptar para restrições e comparar peso cru e cozido.
-CAPA_ALT: ${foto.alt || termoBusca}
+CAPA_ALT: Cardápio Para Ganhar Massa Muscular — Guia Prático
+CAPA_URL: https://images.pexels.com/photos/5327555/pexels-photo-5327555.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 5327555
+CAPA_CREDITO: Tima Miroshnichenko | https://www.pexels.com/photo/a-man-drinking-at-the-gym-5327555/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T05:30:37.620Z
 ---
 <p>Montar um cardápio para ganhar massa muscular é mais do que escolher alimentos proteicos. É preciso calcular o gasto energético, definir o superávit calórico, distribuir a proteína ao longo do dia e adaptar as refeições à rotina real.</p>
 <p>Sem esse planejamento, o risco é ganhar gordura em vez de músculo. Este conteúdo reúne o passo a passo para estruturar o cardápio, com cálculo individual, distribuição de refeições, adaptações para restrições alimentares e tabela de equivalência entre peso cru e cozido.</p>
