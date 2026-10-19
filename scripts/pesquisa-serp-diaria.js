@@ -5,7 +5,8 @@ import { Client } from '@notionhq/client';
 const ARQUIVO_PAUTAS = 'data/conteudo/pautas-mestre.json';
 const STATUS_LIVRE = 'LIVRE PARA SERP';
 const STATUS_CONCLUIDO = 'PESQUISA CONCLUÍDA';
-const NOTION_DATABASE_ID = '3fa242e3913c81918cd1d38f9d54ecca';
+// Página pai no Notion ("Pesquisas SerpAPI — Arquivo de pesquisas"); o ID não é uma base de dados.
+const NOTION_PAGE_ID = '3fa242e3913c81918cd1d38f9d54ecca';
 
 const notion = new Client({ auth: process.env.NOTION_API_KEY });
 const serpApiKey = process.env.SERP_API_KEY;
@@ -134,9 +135,9 @@ FONTES OFICIAIS CANDIDATAS (5): título da página | URL direta | uma frase do q
 
   // Descarrega o bloco de código formatado diretamente no seu painel do Notion
   await notion.pages.create({
-    parent: { database_id: NOTION_DATABASE_ID },
+    parent: { type: 'page_id', page_id: NOTION_PAGE_ID },
     properties: {
-      "Name": {
+      title: {
         title: [{ type: "text", text: { content: `Auditoria SERP — ${contexto.palavra}` } }]
       }
     },
