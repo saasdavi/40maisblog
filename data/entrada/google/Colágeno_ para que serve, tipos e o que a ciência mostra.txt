@@ -2,6 +2,10 @@ PALAVRA_CHAVE: colágeno
 TITLE: Colágeno: para que serve e o que a ciência mostra
 DESCRIPTION: Entenda para que serve o colágeno, diferenças entre tipos, efeitos na pele e articulações, alimentos, suplementação e cuidados após os 40.
 CAPA_ALT: Mulher madura com aparência natural e pele saudável
+CAPA_URL: https://images.pexels.com/photos/8727481/pexels-photo-8727481.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 8727481
+CAPA_CREDITO: Tima Miroshnichenko | https://www.pexels.com/photo/close-up-shot-of-a-woman-s-lips-8727481/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T06:00:33.039Z
 ---
 <p>O colágeno é uma proteína estrutural abundante no organismo, presente na pele, ossos, cartilagens e outros tecidos. Depois dos 40, a discussão sobre suplementos cresce, mas os possíveis benefícios dependem do objetivo, do produto e da qualidade das evidências.</p>
 <h2>O que é colágeno e para que serve?</h2>
