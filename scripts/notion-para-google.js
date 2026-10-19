@@ -24,6 +24,7 @@ const NOTION_API_KEY = (process.env.NOTION_API_KEY || '').trim();
 const NOTION_PAGE_ID = (process.env.NOTION_PAGE_ID || '').trim().replace(/-/g, '');
 const MAX_ARTIGOS = Math.max(1, parseInt(process.env.MAX_ARTIGOS || '1', 10) || 1);
 const FORCAR = process.env.FORCAR === 'sim';
+const NOME_BASE = (process.env.NOME_BASE || 'Fila de Artigos').trim();
 
 // ---------- helpers Notion ----------
 async function notionRequest(url, options = {}) {
@@ -248,9 +249,32 @@ async function consultarBase(databaseId) {
   return todas;
 }
 
+// Acha a base pelo nome: primeiro entre os filhos diretos da página mãe; se não estiver lá
+// (ex.: dentro de outra subpágina), procura entre as bases que a integração enxerga.
+async function localizarBases(blocks) {
+  const diretas = blocks.filter((b) => b.type === 'child_database');
+  if (diretas.length) return diretas.map((b) => b.id);
+
+  const busca = await notionRequest('https://api.notion.com/v1/search', {
+    method: 'POST',
+    body: JSON.stringify({ query: NOME_BASE, filter: { property: 'object', value: 'database' }, page_size: 20 }),
+  });
+  const encontradas = (busca.results || []).filter(
+    (db) => textoDaProp(db).trim().toLowerCase() === NOME_BASE.toLowerCase()
+  );
+  for (const db of encontradas) console.log(`[INFO] Base "${NOME_BASE}" encontrada fora dos filhos diretos: ${db.id}`);
+  return encontradas.map((db) => db.id);
+}
+
+const descreverBloco = (b) => (b[b.type]?.title ? `${b.type} "${b[b.type].title}"` : b.type);
+
 async function importarDaBase(databaseId) {
   const linhas = await consultarBase(databaseId);
   console.log(`[INFO] Base com ${linhas.length} registro(s).`);
+  if (!linhas.length) {
+    console.error(`[ERRO] A base "${NOME_BASE}" (${databaseId}) não tem nenhuma linha. Confira se a integração enxerga as linhas.`);
+    process.exit(1);
+  }
   let baixados = 0, pulados = 0, falhas = 0;
   for (const row of linhas) {
     if (baixados >= MAX_ARTIGOS) {
@@ -314,16 +338,19 @@ async function main() {
     process.exit(1);
   }
 
-  const bases = blocks.filter((b) => b.type === 'child_database');
+  const bases = await localizarBases(blocks);
   if (bases.length) {
-    for (const base of bases) await importarDaBase(base.id);
+    for (const baseId of bases) await importarDaBase(baseId);
     return;
   }
 
   const paginas = blocks.filter((b) => b.type === 'child_page' && b.child_page?.title?.trim());
   if (!paginas.length) {
-    console.log('[INFO] Nenhuma subpágina de artigo encontrada nesta página.');
-    return;
+    // Falha de propósito: sem base nem subpágina, o run não pode aparecer verde.
+    console.error(`[ERRO] Nenhuma base "${NOME_BASE}" nem subpágina de artigo encontrada na página ${NOTION_PAGE_ID}.`);
+    console.error(`       Filhos diretos da página: ${blocks.map(descreverBloco).join(', ') || 'nenhum'}`);
+    console.error('       Confira se a base está dentro desta página e se a integração tem acesso a ela (Connections → "Edit access").');
+    process.exit(1);
   }
 
   let baixados = 0, pulados = 0, falhas = 0;
