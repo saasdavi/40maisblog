@@ -9,6 +9,10 @@ FOTO1_LEGENDA: Escolhas de lanche na mesa
 FOTO1_SECAO: 2
 FONTE: Ministério da Saúde | https://www.gov.br/saude
 FONTE: Organização Mundial da Saúde (OMS) | https://www.who.int
+CAPA_URL: https://images.pexels.com/photos/3084068/pexels-photo-3084068.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 3084068
+CAPA_CREDITO: Engin Akyurt | https://www.pexels.com/photo/grapes-apple-and-pineapple-on-brown-wicker-basket-3084068/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T02:19:32.291Z
 ---
 <p>Lanches saudáveis podem ajudar a organizar a alimentação entre refeições. Para adultos 40+, boas escolhas devem considerar qualidade dos alimentos, fome, rotina e praticidade.</p>
 <h2>O que é um lanche saudável?</h2>
