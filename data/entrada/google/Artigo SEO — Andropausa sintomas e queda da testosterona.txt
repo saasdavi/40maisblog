@@ -2,6 +2,10 @@ PALAVRA_CHAVE: Artigo SEO
 TITLE: Artigo SEO — Andropausa sintomas e queda da testosterona
 DESCRIPTION: Andropausa é um termo popular usado para descrever mudanças hormonais masculinas associadas ao envelhecimento. Diferentemente da menopausa, não existe uma inter
 CAPA_ALT: Artigo SEO — Andropausa sintomas e queda da testosterona
+CAPA_URL: https://images.pexels.com/photos/12813050/pexels-photo-12813050.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 12813050
+CAPA_CREDITO: Sarah Blocksidge | https://www.pexels.com/photo/close-up-of-scrabble-tiles-12813050/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T04:00:41.581Z
 ---
 PALAVRA_CHAVE: andropausa
 TITLE: Andropausa: sintomas e queda da testosterona
