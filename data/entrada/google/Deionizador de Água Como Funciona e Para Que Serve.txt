@@ -1,7 +1,11 @@
 PALAVRA_CHAVE: Deionizador de Água
 TITLE: Deionizador de Água: Como Funciona e Para Que Serve
 DESCRIPTION: Entenda o que é um deionizador de água, como funciona a troca iônica, quando trocar a resina e por que não é indicado para consumo humano.
-CAPA_ALT: ${foto.alt || termoBusca}
+CAPA_ALT: Deionizador de Água: Como Funciona e Para Que Serve
+CAPA_URL: https://images.pexels.com/photos/27597007/pexels-photo-27597007.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 27597007
+CAPA_CREDITO: Francesco Ungaro | https://www.pexels.com/photo/a-bird-flies-over-the-water-in-the-desert-27597007/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T15:00:36.062Z
 ---
 <p>Um <strong>deionizador de água</strong> remove íons minerais dissolvidos por meio de resinas de troca iônica. O resultado é uma água com condutividade muito baixa, usada em laboratórios, indústrias e aquários. Apesar do que muitos imaginam, essa água não é destinada ao consumo humano.</p>
 <h2>O que é um deionizador de água e para que serve</h2>
