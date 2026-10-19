@@ -2,6 +2,10 @@ PALAVRA_CHAVE: andropausa
 TITLE: Andropausa: sintomas, diagnóstico e tratamento
 DESCRIPTION: Entenda o que é a andropausa, quais são os sintomas da queda de testosterona, como é feito o diagnóstico e quando procurar um médico.
 CAPA_ALT: Homem de meia-idade sentado no sofá demonstrando cansaço
+CAPA_URL: https://images.pexels.com/photos/40300516/pexels-photo-40300516.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 40300516
+CAPA_CREDITO: Rupam Modak | https://www.pexels.com/photo/close-up-of-elegant-brown-leather-formal-shoes-40300516/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T03:30:41.345Z
 ---
 <p>A andropausa é a queda gradual da testosterona que ocorre em homens a partir dos 40 anos. Ela provoca sintomas como cansaço, redução da libido e perda de massa muscular, mas tem diagnóstico e tratamento.</p>
 <h2>O que é andropausa e por que ela acontece?</h2>
