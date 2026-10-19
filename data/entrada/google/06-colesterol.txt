@@ -2,6 +2,10 @@ PALAVRA_CHAVE: colesterol
 TITLE: Colesterol: O Que É, HDL, LDL, Valores
 DESCRIPTION: Entenda a diferença entre LDL e HDL, por que
 CAPA_ALT: Colesterol: O Que É, HDL, LDL, Valores e Como Cuidar
+CAPA_URL: https://images.pexels.com/photos/19825315/pexels-photo-19825315.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 19825315
+CAPA_CREDITO: Markus Winkler | https://www.pexels.com/photo/the-word-healthy-spelled-out-in-scrabble-letters-19825315/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T01:57:06.657Z
 ---
 <p>
 O colesterol é uma substância necessária ao organismo, mas níveis
