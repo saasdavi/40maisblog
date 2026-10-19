@@ -64,7 +64,11 @@ for (const arquivo of fs.readdirSync(DIR).filter((f) => f.endsWith('.txt') && f.
   // descarta campos que não conhece, o que apagaria a DATA_PUBLICACAO e republicaria o artigo.
   if (/^(?:DATA_PUBLICACAO|PUBLICADO_EM):\s*\S/m.test(raw)) { jaNoAr.push(arquivo); continue; }
   // Saída colada da IA do Google: texto puro vira HTML e ganha o separador, senão o site ignora.
-  if (ehSaidaGoogle(raw) || cabecalhoDe(raw) === null) {
+  // Só converte o que precisa: um arquivo que já tem separador e corpo em HTML passa direto, porque
+  // normalizarEntradaGoogle reconstrói o cabeçalho e descartaria campos como CAPA_URL e CAPA_CREDITO.
+  const precisaConverter = cabecalhoDe(raw) === null
+    || !/<(?:p|h2|h3|ul|ol|blockquote|div)\b/i.test(raw.slice(raw.indexOf('\n---\n') + 5));
+  if (precisaConverter && (ehSaidaGoogle(raw) || cabecalhoDe(raw) === null)) {
     try {
       const g = normalizarEntradaGoogle(raw, { artigos: robot.db.articles, publicados: robot.linksInternos(), precisaRevisao: (a) => robot.precisaRevisao(a) });
       if (g.erros.length) throw new Error(g.erros.join('; '));

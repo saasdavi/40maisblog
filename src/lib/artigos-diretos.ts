@@ -59,12 +59,17 @@ export function carregarArtigosDiretos(): ArtigoDireto[] {
         const title = valor(header, 'TITLE', keyword);
         const description = valor(header, 'DESCRIPTION', title);
         const wordCount = content.replace(/<[^>]*>/g, ' ').replace(/&[^;]+;/g, ' ').trim().split(/\s+/).filter(Boolean).length;
-        const publishedAt = valor(header, 'DATA_PUBLICACAO', valor(header, 'PUBLICADO_EM')) || undefined;
+        // DATA_PUBLICACAO é o que marca o artigo como publicado (scripts/publicar-direto.js a carimba).
+        // Sem ela o arquivo está só na fila: não vira página, para nada ir ao ar sem foto e sem data.
+        const publishedAt = valor(header, 'DATA_PUBLICACAO', valor(header, 'PUBLICADO_EM'));
+        if (!publishedAt) return [];
         const imageId = valor(header, 'CAPA_ID', valor(header, 'CAPA_PEXELS_ID'));
         // CAPA_URL vem carimbada por scripts/publicar-direto.js e vale para qualquer banco de fotos
         // (Pexels, Pixabay, Unsplash); CAPA_ID continua valendo como atalho do padrão do Pexels.
+        // Aceita URL completa (banco de fotos) e caminho local do próprio repositório (/images/...),
+        // que é o caso dos artigos vindos do estoque, com a capa já baixada e otimizada.
         const capaUrl = valor(header, 'CAPA_URL');
-        const featuredImage = /^https?:\/\//i.test(capaUrl) ? capaUrl
+        const featuredImage = /^(?:https?:\/\/|\/)/i.test(capaUrl) ? capaUrl
           : /^\d+$/.test(imageId) ? `https://images.pexels.com/photos/${imageId}/pexels-photo-${imageId}.jpeg?auto=compress&cs=tinysrgb&w=1200`
           : undefined;
         // CAPA_CREDITO: "Autor | url | Fonte" — a licença dos bancos de fotos pede atribuição.
@@ -78,7 +83,7 @@ export function carregarArtigosDiretos(): ArtigoDireto[] {
           ...(featuredImage ? { featuredImage } : {}),
           ...(imageCredit ? { imageCredit } : {}),
           imageAlt: valor(header, 'CAPA_ALT', title),
-          wordCount, ...(publishedAt ? { publishedAt, createdAt: publishedAt, updatedAt: publishedAt } : {}),
+          wordCount, publishedAt, createdAt: publishedAt, updatedAt: publishedAt,
           status: 'published' as const, origem: 'pasta-google' as const,
           sources, keywords: { primaryKeyword: keyword, secondaryKeywords: [] }
         }];
