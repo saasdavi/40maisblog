@@ -2,6 +2,10 @@ PALAVRA_CHAVE: Babosa para Queda de Cabelo
 TITLE: Babosa para Queda de Cabelo: Como Usar e o Que Funciona
 DESCRIPTION: Entenda se a babosa ajuda na queda de cabelo, como retirar a aloína, a diferença entre queda e quebra, e a frequência segura de aplicação.
 CAPA_ALT: ${foto.alt || termoBusca}
+CAPA_URL: https://images.pexels.com/photos/2225905/pexels-photo-2225905.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 2225905
+CAPA_CREDITO: Vitória Santos | https://www.pexels.com/photo/woman-in-white-top-2225905/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T04:30:42.361Z
 ---
 <p>A <strong>babosa para queda de cabelo</strong> é um dos remédios caseiros mais populares no Brasil, mas também um dos mais cercados de expectativas irreais. A planta, também conhecida como Aloe vera, tem propriedades anti-inflamatórias, hidratantes e antifúngicas que podem beneficiar o couro cabeludo e a haste capilar. No entanto, ela não altera condições hormonais ou genéticas profundas, como a alopecia androgenética, e não substitui tratamentos médicos comprovados. O uso incorreto — especialmente da seiva amarelada chamada aloína — pode causar coceira, irritação e até piorar o quadro. Este artigo separa o que a ciência mostra do que é mito, explica a diferença entre queda e quebra, ensina como retirar a aloína com segurança, e apresenta uma tabela com a frequência ideal de aplicação para evitar o enrijecimento dos fios.</p>
 <h2>Babosa Ajuda Mesmo na Queda de Cabelo?</h2>
