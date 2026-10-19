@@ -219,6 +219,77 @@ function validarConteudo(texto, pageTitle) {
   return problemas;
 }
 
+
+// ---------- base de dados (a "Fila de Artigos") ----------
+// Cada linha é um artigo: "Conteúdo TXT completo" traz o .txt pronto, e "Caminho no GitHub" marca
+// o que já foi movido para data/entrada/google/. CAMPO_APROVADO (opcional) é o nome de uma coluna
+// de aprovação: só entra a linha em que ela estiver marcada (checkbox), "sim" ou "aprovado".
+const CAMPO_APROVADO = (process.env.CAMPO_APROVADO || '').trim();
+const textoDaProp = (prop) => (prop?.title || prop?.rich_text || []).map((t) => t.plain_text ?? '').join('');
+const aprovada = (prop) => {
+  if (!prop) return false;
+  if (prop.checkbox === true) return true;
+  if (prop.select?.name) return /aprovad|sim/i.test(prop.select.name);
+  return /^(sim|aprovado)$/i.test(textoDaProp(prop).trim());
+};
+
+async function consultarBase(databaseId) {
+  const todas = [];
+  let cursor;
+  do {
+    const body = { page_size: 100, ...(cursor ? { start_cursor: cursor } : {}) };
+    const result = await notionRequest(`https://api.notion.com/v1/databases/${databaseId}/query`, {
+      method: 'POST',
+      body: JSON.stringify(body),
+    });
+    todas.push(...(result.results || []));
+    cursor = result.has_more ? result.next_cursor : undefined;
+  } while (cursor);
+  return todas;
+}
+
+async function importarDaBase(databaseId) {
+  const linhas = await consultarBase(databaseId);
+  console.log(`[INFO] Base com ${linhas.length} registro(s).`);
+  let baixados = 0, pulados = 0, falhas = 0;
+  for (const row of linhas) {
+    if (baixados >= MAX_ARTIGOS) {
+      console.log(`[INFO] Limite de MAX_ARTIGOS=${MAX_ARTIGOS} atingido.`);
+      break;
+    }
+    const props = row.properties || {};
+    const palavra = textoDaProp(props['PALAVRA_CHAVE']).trim();
+    const conteudo = textoDaProp(props['Conteúdo TXT completo']).trim();
+    if (!palavra || !conteudo) { pulados++; continue; }
+    if (textoDaProp(props['Caminho no GitHub']).trim()) { pulados++; continue; } // já movido
+    if (CAMPO_APROVADO && !aprovada(props[CAMPO_APROVADO])) { pulados++; continue; }
+
+    const slug = slugTitulo(palavra);
+    const jaExiste = fs.readdirSync(OUTPUT_DIR).some((f) => f === `${slug}.txt` || new RegExp(`^${slug}(-\\d+)?\\.txt$`).test(f));
+    if (jaExiste && !FORCAR) { console.log(`[PULO] "${palavra}" já está na pasta (slug "${slug}").`); pulados++; continue; }
+
+    try {
+      const nome = caminhoDisponivel(slug);
+      if (!nome) { console.log(`[AVISO] Muitas duplicatas para "${slug}".`); falhas++; continue; }
+      validarConteudo(conteudo, palavra);
+      const filePath = path.join(OUTPUT_DIR, nome);
+      fs.writeFileSync(filePath, conteudo + '\n', 'utf-8');
+      const caminhoRel = path.relative(ROOT, filePath);
+      await notionRequest(`https://api.notion.com/v1/pages/${row.id}`, {
+        method: 'PATCH',
+        body: JSON.stringify({ properties: { 'Caminho no GitHub': { rich_text: [{ text: { content: caminhoRel } }] } } }),
+      });
+      console.log(`[OK] Movido para ${caminhoRel} e marcado no Notion.`);
+      baixados++;
+    } catch (err) {
+      console.error(`[ERRO] Falha com "${palavra}": ${err.message}`);
+      falhas++;
+    }
+  }
+  console.log(`[FIM] ${baixados} movido(s), ${pulados} pulado(s), ${falhas} falha(s).`);
+  if (falhas && !baixados) process.exit(1);
+}
+
 // ---------- main ----------
 async function main() {
   if (!NOTION_API_KEY) {
@@ -241,6 +312,12 @@ async function main() {
     console.error('[ERRO] Falha ao ler blocos da página. Verifique o ID e se a integração tem acesso (Connections → "Edit access").');
     console.error(`       Detalhe: ${e.message}`);
     process.exit(1);
+  }
+
+  const bases = blocks.filter((b) => b.type === 'child_database');
+  if (bases.length) {
+    for (const base of bases) await importarDaBase(base.id);
+    return;
   }
 
   const paginas = blocks.filter((b) => b.type === 'child_page' && b.child_page?.title?.trim());
