@@ -50,7 +50,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action SERP"
-          git add data/entrada/pautas-chat_01/resposta data/conteudo/pautas-mestre.csv
+          git add data/entrada/pautas-chat_01/resposta data/conteudo/pautas-mestre.json
           if git diff --staged --quiet; then
             echo "Nada novo para gravar"
             exit 0

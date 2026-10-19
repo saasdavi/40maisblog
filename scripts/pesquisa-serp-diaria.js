@@ -2,132 +2,60 @@ import fs from 'fs';
 import { getJson } from 'serpapi';
 import { Client } from '@notionhq/client';
 
-const CSV_PATH = 'data/conteudo/pautas-mestre.csv';
+const ARQUIVO_PAUTAS = 'data/conteudo/pautas-mestre.json';
+const STATUS_LIVRE = 'LIVRE PARA SERP';
+const STATUS_CONCLUIDO = 'PESQUISA CONCLUÍDA';
 const NOTION_DATABASE_ID = '3fa242e3913c81918cd1d38f9d54ecca';
 
 const notion = new Client({ auth: process.env.NOTION_API_KEY });
 const serpApiKey = process.env.SERP_API_KEY;
 
-// Decodificador seguro de CSV para isolar colunas sem quebrar textos com aspas e vírgulas
-function quebrarLinhaCSV(linha) {
-  const resultado = [];
-  let blocoAtual = '';
-  let dentroDeAspas = false;
-
-  for (let i = 0; i < linha.length; i++) {
-    const caractere = linha[i];
-    if (caractere === '"') {
-      dentroDeAspas = !dentroDeAspas;
-    } else if (caractere === ',' && !dentroDeAspas) {
-      resultado.push(blocoAtual.trim());
-      blocoAtual = '';
-    } else {
-      blocoAtual += caractere;
-    }
-  }
-  resultado.push(blocoAtual.trim());
-  return resultado;
-}
-
 async function executarFluxoLinhaMestre() {
   try {
-    if (!fs.existsSync(CSV_PATH)) {
-      console.error(`❌ Planilha mestre não localizada em: ${CSV_PATH}`);
+    if (!fs.existsSync(ARQUIVO_PAUTAS)) {
+      console.error(`❌ Planilha mestre não localizada em: ${ARQUIVO_PAUTAS}`);
       process.exit(1);
     }
 
-    // 1. Lê a planilha linha por linha
-    const conteudoFisico = fs.readFileSync(CSV_PATH, 'utf-8');
-    const linhasBrutas = conteudoFisico.split('\n').map(l => l.trim()).filter(Boolean);
-    
-    if (linhasBrutas.length <= 1) {
-      console.log("Planilha vazia ou apenas com a linha de cabeçalho.");
-      return;
-    }
+    const mestre = JSON.parse(fs.readFileSync(ARQUIVO_PAUTAS, 'utf-8'));
+    const pauta = mestre.pautas.find(p => p.status_artigo === STATUS_LIVRE);
 
-    // 2. Mapeia as posições exatas das colunas usando a primeira linha (Cabeçalho)
-    const cabecalhoMapeado = quebrarLinhaCSV(linhasBrutas[0]).map(c => c.toUpperCase());
-    const idxPalavra   = cabecalhoMapeado.findIndex(c => c.includes('PALAVRA'));
-    const idxStatus    = cabecalhoMapeado.findIndex(c => c.includes('STATUS'));
-    const idxTema      = cabecalhoMapeado.findIndex(c => c.includes('TEMA'));
-    const idxTipo      = cabecalhoMapeado.findIndex(c => c.includes('TIPO'));
-    const idxVolume    = cabecalhoMapeado.findIndex(c => c.includes('VOLUME'));
-    const idxTendencia = cabecalhoMapeado.findIndex(c => c.includes('TENDÊNCIA') || c.includes('TENDENCIA'));
-    const idxLongTails = cabecalhoMapeado.findIndex(c => c.includes('LONG'));
-    const idxDificul   = cabecalhoMapeado.findIndex(c => c.includes('DIFICULDADE'));
-    const idxUrls      = cabecalhoMapeado.findIndex(c => c.includes('URL'));
-    const idxSlugs     = cabecalhoMapeado.findIndex(c => c.includes('SLUG'));
-
-    if (idxPalavra === -1 || idxStatus === -1) {
-      console.error("❌ Erro de estrutura: Não encontramos as colunas 'palavra' ou 'status' no cabeçalho do CSV.");
-      process.exit(1);
-    }
-
-    let pautaEncontradaERodada = false;
-    const novoConteudoPlanilha = [linhasBrutas[0]]; // Salva o cabeçalho original na nova lista
-
-    // 3. Varre as linhas de dados do arquivo
-    for (let i = 1; i < linhasBrutas.length; i++) {
-      const linhaOriginal = linhasBrutas[i];
-      const colunasDaLinha = quebrarLinhaCSV(linhaOriginal);
-
-      // Executa estritamente na primeira ocorrência pendente encontrada
-      if (colunasDaLinha[idxStatus] === 'LIVRE PARA SERP' && !pautaEncontradaERodada) {
-        
-        // EXTRAÇÃO EXCLUSIVA DE CONTEXTO DA LINHA EM EXECUÇÃO
-        const dadosDaLinhaAtiva = {
-          palavra: colunasDaLinha[idxPalavra]?.replace(/"/g, '') || '',
-          tema: idxTema !== -1 ? colunasDaLinha[idxTema]?.replace(/"/g, '') : 'Não informado',
-          tipo: idxTipo !== -1 ? colunasDaLinha[idxTipo]?.replace(/"/g, '') : 'Não informado',
-          volume: idxVolume !== -1 ? colunasDaLinha[idxVolume]?.replace(/"/g, '') : 'Não informado',
-          tendencia: idxTendencia !== -1 ? colunasDaLinha[idxTendencia]?.replace(/"/g, '') : 'Não informado',
-          longTails: idxLongTails !== -1 ? colunasDaLinha[idxLongTails]?.replace(/"/g, '') : 'Nenhuma',
-          dificuldadePrevia: idxDificul !== -1 ? colunasDaLinha[idxDificul]?.replace(/"/g, '') : 'Não calculada',
-          urlsPrevias: idxUrls !== -1 ? colunasDaLinha[idxUrls]?.replace(/"/g, '') : 'Nenhuma',
-          slugsPublicados: idxSlugs !== -1 ? colunasDaLinha[idxSlugs]?.replace(/"/g, '') : 'Nenhum'
-        };
-
-        console.log(`🎯 Extraído com sucesso o contexto da linha ativa: "${dadosDaLinhaAtiva.palavra}"`);
-        console.log(`📡 Consultando SerpAPI in tempo real...`);
-
-        // Executa a busca real e ao vivo no Google Brasil
-        const resultadosDoGoogle = await getJson({
-          engine: "google",
-          q: dadosDaLinhaAtiva.palavra,
-          gl: "br",
-          hl: "pt-br",
-          api_key: serpApiKey
-        });
-
-        // Consolida os dados e empurra os blocos de relatório para a sua página do Notion
-        await gerarEEnviarBlocosNotion(dadosDaLinhaAtiva, resultadosDoGoogle);
-
-        // ATUALIZAÇÃO DO STATUS APENAS NA LINHA EM QUE ELE ESTIVE TRABALHANDO
-        colunasDaLinha[idxStatus] = 'PESQUISA CONCLUÍDA';
-        
-        // Reconstrói a linha tratando as aspas de forma correta para salvar o CSV sem quebras
-        const linhaTratadaEAtualizada = colunasDaLinha.map(c => c.includes(',') ? `"${c}"` : c).join(',');
-        novoConteudoPlanilha.push(linhaTratadaEAtualizada);
-        
-        pautaEncontradaERodada = true;
-        continue;
-      }
-
-      // Mantém as outras linhas da planilha idênticas, sem nenhuma modificação
-      novoConteudoPlanilha.push(linhaOriginal);
-    }
-
-    if (!pautaEncontradaERodada) {
-      console.log('🏁 Processamento encerrado: Nenhuma linha ativa com status "LIVRE PARA SERP" foi detectada.');
+    if (!pauta) {
+      console.log(`🏁 Processamento encerrado: Nenhuma pauta com status "${STATUS_LIVRE}" foi detectada.`);
       process.exit(0);
     }
 
-    // 4. Escreve a planilha de volta com a linha modificada atualizada
-    fs.writeFileSync(CSV_PATH, novoConteudoPlanilha.join('\n'), 'utf-8');
-    console.log("📝 Sucesso: A linha trabalhada foi atualizada para 'PESQUISA CONCLUÍDA' no arquivo mestre!");
+    const dadosDaLinhaAtiva = {
+      palavra: pauta.palavra_chave || '',
+      tema: pauta.tema || 'Não informado',
+      tipo: pauta.tipo || 'Não informado',
+      volume: pauta.buscas_mes_exato || 'Não informado',
+      tendencia: pauta.tendencia || 'Não informado',
+      longTails: pauta.qtd_long_tails || 'Nenhuma',
+      dificuldadePrevia: pauta.dificuldade_google || 'Não calculada',
+      urlsPrevias: pauta.concorrente_1_url || 'Nenhuma',
+      slugsPublicados: 'Nenhum'
+    };
 
+    console.log(`🎯 Pauta ativa: "${dadosDaLinhaAtiva.palavra}"`);
+    console.log(`📡 Consultando SerpAPI in tempo real...`);
+
+    const resultadosDoGoogle = await getJson({
+      engine: 'google',
+      q: dadosDaLinhaAtiva.palavra,
+      gl: 'br',
+      hl: 'pt-br',
+      api_key: serpApiKey
+    });
+
+    await gerarEEnviarBlocosNotion(dadosDaLinhaAtiva, resultadosDoGoogle);
+
+    // Só marca como concluída depois que a página foi criada no Notion
+    pauta.status_artigo = STATUS_CONCLUIDO;
+    fs.writeFileSync(ARQUIVO_PAUTAS, JSON.stringify(mestre, null, 1), 'utf-8');
+    console.log(`📝 Sucesso: "${dadosDaLinhaAtiva.palavra}" marcada como ${STATUS_CONCLUIDO} em ${ARQUIVO_PAUTAS}`);
   } catch (erro) {
-    console.error("❌ Ocorreu um erro crítico durante o processamento do pipeline:", erro);
+    console.error('❌ Ocorreu um erro crítico durante o processamento do pipeline:', erro);
     process.exit(1);
   }
 }
