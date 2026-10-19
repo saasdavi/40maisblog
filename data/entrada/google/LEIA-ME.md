@@ -19,7 +19,7 @@ Quem escreve fora do robô entrega aqui. As regras abaixo saem do código (`scri
 | `FONTE: Título \\| https://link-completo-da-página` | **3 linhas recomendadas**, links específicos que você abriu de verdade; 2 oficiais é o ideal | informativo: ausência, link incompleto ou página inicial não bloqueia a publicação; nunca invente links |
 | `NOTA_CHAT: X,X` | avaliação editorial recomendada de 0 a 10; objetivo mínimo **9,0** | a publicação direta não depende do importador |
 
-Campos ignorados (sem erro): `CAPA_URL`, `CAPA_CREDITO`, `CAPA_DOWNLOAD` e os equivalentes de `FOTO*` (o crédito vem do Pexels).
+Campos preenchidos sozinhos na publicação, não precisa mandar: `CAPA_URL`, `CAPA_CREDITO` e `DATA_PUBLICACAO` (veja a seção 5). Campos ignorados (sem erro): `CAPA_DOWNLOAD` e os equivalentes de `FOTO*`.
 
 ## 3. Separador
 Uma linha só com `---` depois do cabeçalho.
@@ -38,10 +38,13 @@ Uma linha só com `---` depois do cabeçalho.
 
 ## 5. Publicação direta da pasta Google
 - Os arquivos `.txt` desta pasta são a fonte direta das novas páginas do site; não precisam passar pelo `data/articles.json` nem pelo importador legado.
-- Ao adicionar ou editar um `.txt` nesta pasta e enviar o commit para `main`, o workflow `Publicar diretamente da pasta Google` solicita o deploy.
+- Quem publica é `scripts/publicar-direto.js`, pelo workflow manual **Publicação direta (1 artigo)** (ou acionado de fora, ex.: Activepieces). Ele pega **1 artigo por acionamento** (`max_artigos`), carimba no próprio `.txt` a foto de capa (`CAPA_URL`, `CAPA_ID`, `CAPA_CREDITO`) e a data (`DATA_PUBLICACAO`), commita e pede o deploy.
+- **`DATA_PUBLICACAO` é a marca de "já publicado".** Arquivo com esse campo sai da fila: acionar duas vezes publica artigos diferentes e nunca republica o mesmo. Para republicar de propósito, apague a linha.
+- Sem foto não publica: se nenhum banco de fotos devolver imagem e o cabeçalho não trouxer `CAPA_ID` nem `CAPA_URL`, o arquivo fica na fila e o log diz o motivo.
+- Arquivo colado da IA do Google (texto puro, sem a linha `---`) é convertido para HTML na hora da publicação. Sem o separador e sem corpo em HTML, o site ignora o arquivo.
 - Fontes ausentes, inválidas ou apontando para página inicial não bloqueiam a publicação. Nunca invente URLs; use fontes apenas quando realmente verificadas.
 - Para a página ser gerada, o arquivo precisa ter a linha `---` e corpo em HTML com ao menos um elemento de conteúdo (`<p>`, `<h2>`, `<h3>`, `<ul>` etc.). O importador legado continua disponível manualmente, mas não processa a pasta automaticamente.
-- A nota editorial recomendada continua sendo `NOTA_CHAT` ≥ 9,0. A publicação direta não aguarda fila, pontuação técnica do importador ou liberação manual.
+- A nota editorial recomendada continua sendo `NOTA_CHAT` ≥ 9,0. A publicação direta não aguarda pontuação técnica do importador nem liberação manual.
 
 ## 6. Modelo
 ```

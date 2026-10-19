@@ -7,6 +7,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import CTAMounjaxi from '../components/CTAMounjaxi.astro';
 import { articleJsonLd, breadcrumbJsonLd } from '../lib/schema';
 import { carregarArtigosDiretos } from '../lib/artigos-diretos';
+import { formatarDataHora } from '../lib/formato';
 
 let article = null;
 let allArticles = [];
@@ -425,7 +426,7 @@ const breadcrumbItems = [
         <h1>{currentArticle.title}</h1>
         <p>{currentArticle.description}</p>
         <div class="meta">
-          <span>📅 {currentArticle.publishedAt || currentArticle.createdAt ? new Date(currentArticle.publishedAt || currentArticle.createdAt).toLocaleDateString('pt-BR', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'America/Sao_Paulo' }) : 'Data não disponível'}</span>
+          <span>📅 {formatarDataHora(currentArticle.publishedAt || currentArticle.createdAt) || 'Data não disponível'}</span>
           <span>⏱️ {Math.ceil((currentArticle.wordCount || 0) / 200)} min de leitura</span>
           <span>✍️ Saúde 40+</span>
         </div>

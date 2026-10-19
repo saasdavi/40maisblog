@@ -11,7 +11,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIR = path.join(__dirname, '../data/entrada');
 import { demandaDe } from './demanda-lib.js';
 import { pontuar } from './pontuacao.js';
-import { ehSaidaGoogle, normalizarEntradaGoogle, lerFontes } from './lib/entrada-google.js';
+import { ehSaidaGoogle, normalizarEntradaGoogle, lerFontes, completarBuscasDeFoto } from './lib/entrada-google.js';
 import { decidirImportacao } from './lib/decisao-importacao.js';
 // NOTA_CHAT: nota final (0 a 10) que o chat deu ao próprio artigo; ele só entrega com 9,0 ou mais. Aceita 9,2 | 9.2 | 92.
 const lerNotaChat = (v) => { if (!v) return null; const n = parseFloat(String(v).replace(',', '.')); if (!Number.isFinite(n)) return null; return n > 10 ? n / 10 : n; };
@@ -20,13 +20,17 @@ const de10 = (n) => (n / 10).toFixed(1).replace('.', ',');
 const slugify = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 const robot = new ArticleRobot();
-const lista = (sub) => { const d = path.join(DIR, sub); return fs.existsSync(d) ? fs.readdirSync(d).filter((f) => f.endsWith('.txt') && f !== 'LEIA-ME.txt').map((f) => path.join(sub, f)) : []; };
-const arquivos = [...lista(''), ...lista('google')]; // data/entrada/*.txt e data/entrada/google/*.txt (saída colada da IA do Google)
-if (!arquivos.length) { console.log('📥 Nada em data/entrada/.'); process.exit(0); }
+// ENTRADA_LOTE: pasta isolada com os .txt desta execução (o publicador manual manda 1 artigo por vez).
+// Sem ela, o importador varre data/entrada/ e data/entrada/google/ como sempre.
+const LOTE = process.env.ENTRADA_LOTE ? path.resolve(process.cwd(), process.env.ENTRADA_LOTE) : null;
+const BASE = LOTE || DIR;
+const lista = (sub) => { const d = path.join(BASE, sub); return fs.existsSync(d) ? fs.readdirSync(d).filter((f) => f.endsWith('.txt') && f !== 'LEIA-ME.txt').map((f) => path.join(sub, f)) : []; };
+const arquivos = LOTE ? lista('') : [...lista(''), ...lista('google')]; // data/entrada/*.txt e data/entrada/google/*.txt (saída colada da IA do Google)
+if (!arquivos.length) { console.log(`📥 Nada em ${LOTE ? path.relative(process.cwd(), LOTE) : 'data/entrada'}/.`); process.exit(0); }
 
 let guardados = 0;
 for (const nome of arquivos) {
-  const caminho = path.join(DIR, nome);
+  const caminho = path.join(BASE, nome);
   let raw = fs.readFileSync(caminho, 'utf8').replace(/\r\n/g, '\n');
   const relatorio = (linhas) => fs.writeFileSync(caminho.replace(/\.txt$/, '.relatorio.md'), `# ${nome}\n\n${linhas.map((l) => `- ${l}`).join('\n')}\n`);
   console.log(`\n📥 ${nome}`);
@@ -37,6 +41,8 @@ for (const nome of arquivos) {
       if (g.erros.length) throw new Error(g.erros.join('; '));
       raw = g.texto;
     }
+    // O contrato da pasta google (LEIA-ME.md) pede só CAPA_ALT/FOTO*_ALT; as buscas de foto saem do alt.
+    raw = completarBuscasDeFoto(raw);
     const d = robot.parse(raw);
     const get = (k) => (raw.slice(0, raw.indexOf('\n---\n')).match(new RegExp(`^${k}:\\s*(.+)$`, 'm')) || [])[1]?.trim();
     const keyword = get('PALAVRA_CHAVE');
