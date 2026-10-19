@@ -51,7 +51,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Publicação Direta"
-          git add data/entrada/google
+          # só os .txt da fila: o script também grava data/entrada/google/.ultimo-run.json, que não é artigo
+          git add 'data/entrada/google/*.txt'
           if git diff --staged --quiet; then
             echo "Nada para publicar (nenhum arquivo alterado)"
             exit 0
