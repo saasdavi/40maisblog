@@ -13,6 +13,10 @@ FOTO2_BUSCA: scalp care
 FOTO2_ALT: Pessoa massageando o couro cabeludo durante a lavagem do cabelo
 FOTO2_LEGENDA: O couro cabeludo pede cuidado e atenção a sinais de irritação.
 FOTO2_SECAO: 4
+CAPA_URL: https://images.pexels.com/photos/31497506/pexels-photo-31497506.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 31497506
+CAPA_CREDITO: Bastian Riccardi | https://www.pexels.com/photo/dynamic-portrait-of-woman-with-flowing-hair-31497506/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T04:15:37.181Z
 ---
 <p>O azeite de oliva no cabelo é um cuidado caseiro muito citado, sobretudo para pontas ressecadas. Ele pode deixar os fios macios e com aparência de brilho, mas não há evidência robusta de que trate queda ou fortaleça a raiz. Veja o que se sabe e quais cuidados tomar.</p>
 <h2>O que se sabe sobre azeite de oliva no cabelo</h2>
