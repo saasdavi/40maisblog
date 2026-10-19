@@ -1,0 +1,157 @@
+PALAVRA_CHAVE: Entradas no Cabelo Masculino
+TITLE: Entradas no Cabelo Masculino: Causas, Tratamento e Cortes
+DESCRIPTION: Entenda o que são entradas no cabelo, diferença entre linha madura e calvície, escala de Norwood, tratamentos com minoxidil e finasterida, e cortes para disfarçar.
+CAPA_ALT: ${foto.alt || termoBusca}
+---
+<p>As <strong>entradas no cabelo masculino</strong> são uma das primeiras manifestações visíveis da calvície androgenética, a forma mais comum de perda capilar em homens. Elas se caracterizam pelo recuo da linha frontotemporal, criando o formato de "M" na testa. No entanto, nem todo recuo é sinal de calvície: a linha de cabelo madura é uma variação fisiológica normal que afeta quase todos os homens após a adolescência. Diferenciar os dois quadros é essencial para decidir se há necessidade de tratamento e qual abordagem seguir. Este artigo explica o que são as entradas, por que aparecem, como identificar o início da calvície com a escala de Norwood, as opções de tratamento com minoxidil e finasterida, o tempo médio para ver resultados e os melhores cortes para disfarçar as falhas.</p>
+<h2>O Que São as Entradas no Cabelo?</h2>
+<p>As entradas, ou recessão frontotemporal, são o recuo da linha de implantação do cabelo nas regiões laterais da testa. Elas podem ser simétricas ou assimétricas e progridem em direção ao topo da cabeça ao longo dos anos. Nos homens, esse é o padrão mais clássico de perda capilar.</p>
+<p>O recuo começa geralmente no final da adolescência ou início dos 20 anos. Em alguns homens, ele estabiliza após alguns centímetros e permanece assim por décadas. Em outros, continua progredindo até a calvície avançada. A velocidade e a extensão dependem de fatores genéticos e hormonais.</p>
+<p>O principal agente envolvido é o DHT (di-hidrotestosterona), um metabólito da testosterona produzido pela enzima 5-alfa-redutase. O DHT se liga aos receptores dos folículos geneticamente sensíveis e provoca a miniaturização progressiva: os fios ficam mais finos, mais curtos e, eventualmente, param de crescer.</p>
+<h2>Qual a Diferença Entre Linha de Cabelo Madura e Início de Calvície?</h2>
+<p>A linha de cabelo madura é uma mudança fisiológica normal. Após a puberdade, a linha de implantação recua cerca de 1 a 2 centímetros nas têmporas e se estabiliza. Esse recuo não é progressivo e não indica calvície.</p>
+<p>A calvície androgenética, por outro lado, é progressiva. O recuo continua ao longo dos anos, e os fios na região frontal e no topo da cabeça vão ficando mais finos antes de desaparecer. A diferença está na progressão e na miniaturização dos fios.</p>
+<p>Para diferenciar, observe se o recuo está aumentando ao longo de meses, se os fios na região frontal estão mais finos que os da nuca e se há histórico familiar de calvície. A tricoscopia digital, exame de imagem realizado por dermatologista, identifica a miniaturização precoce antes que as falhas se tornem visíveis.</p>
+<h3>Tabela: Linha Madura vs. Calvície Androgenética</h3>
+ Característica
+ Linha de Cabelo Madura
+ Calvície Androgenética
+ Progressão
+ Recuo de 1 a 2 cm e estabiliza
+ Progressiva ao longo dos anos
+ Miniaturização dos fios
+ Ausente
+ Presente (fios mais finos e curtos)
+ Idade de início
+ Final da adolescência
+ Após os 20 anos, variável
+ Histórico familiar
+ Não necessariamente
+ Frequentemente presente
+ Tratamento
+ Não necessário
+ Minoxidil, finasterida, implante
+<h2>Escala de Norwood: Como as Entradas Evoluem</h2>
+<p>A escala de Norwood é a classificação clínica mais utilizada para medir a evolução da calvície masculina. Ela vai do Tipo I ao Tipo VII.</p>
+<h3>Tabela: Escala de Norwood</h3>
+ Tipo
+ Característica
+ Descrição
+ I
+ Sem recessão
+ Linha de cabelo normal, sem entradas visíveis
+ II
+ Recessão leve
+ Entradas discretas nas têmporas
+ III
+ Recessão moderada
+ Entradas profundas, formato de M
+ IV
+ Recessão avançada
+ Entradas profundas + rarefação no topo
+ V
+ Calvície estabelecida
+ Faixa de cabelo separando entradas e coroa
+ VI
+ Calvície extensa
+ Faixa de cabelo estreita entre as áreas calvas
+ VII
+ Calvície avançada
+ Perda capilar generalizada, restando apenas laterais e nuca
+<p>O tratamento é mais eficaz nos estágios iniciais. Por isso, a avaliação precoce com dermatologista é importante para iniciar a terapia antes que os folículos sejam permanentemente comprometidos.</p>
+<h2>O Que Causa o Aparecimento de Entradas no Cabelo Masculino?</h2>
+<p>A causa principal é a combinação de predisposição genética e ação hormonal. Os folículos da região frontotemporal são geneticamente sensíveis ao DHT, que provoca a miniaturização progressiva.</p>
+<p>Além da genética e dos hormônios, outros fatores podem acelerar o processo: estresse crônico, privação de sono, tabagismo, deficiências nutricionais (ferro, zinco, vitamina D) e uso de medicamentos como isotretinoína e esteroides anabolizantes.</p>
+<p>O padrão de herança genética não é simples. A calvície pode vir do lado paterno ou materno, e a combinação de múltiplos genes determina a suscetibilidade. Isso explica por que alguns homens com pai calvo não desenvolvem calvície, enquanto outros com pai sem calvície apresentam entradas avançadas.</p>
+<h2>Como Tratar as Entradas no Cabelo?</h2>
+<p>O tratamento da calvície androgenética tem como objetivo estagnar a perda e estimular o crescimento dos fios. As opções incluem medicamentos tópicos, orais e procedimentos cirúrgicos.</p>
+<h3>Minoxidil Tópico</h3>
+<p>O minoxidil é um vasodilatador tópico que prolonga a fase anágena (de crescimento) e aumenta o calibre dos fios. Ele é aplicado diretamente no couro cabeludo, duas vezes ao dia, e os primeiros resultados aparecem em 3 a 6 meses. O minoxidil não trata a causa hormonal, mas estimula o crescimento.</p>
+<h3>Finasterida</h3>
+<p>A finasterida é um inibidor da enzima 5-alfa-redutase, que bloqueia a conversão de testosterona em DHT. É um medicamento oral, com prescrição médica, e tem eficácia comprovada para estagnar a perda e estimular o crescimento. Os resultados são avaliados após 6 a 12 meses. Efeitos adversos incluem disfunção sexual e alterações de humor, que revertem com a suspensão.</p>
+<h3>Implante Capilar</h3>
+<p>O implante capilar pela técnica FUE é indicado para áreas onde os folículos já foram perdidos. Ele redistribui folículos da nuca para as regiões calvas. O resultado é permanente, mas o tratamento medicamentoso deve ser mantido para preservar os folículos nativos.</p>
+<h3>Tabela Comparativa: Tratamentos para Entradas</h3>
+ Tratamento
+ Mecanismo
+ Tempo de Resposta
+ Indicação
+ Minoxidil tópico
+ Vasodilatação, prolonga fase anágena
+ 3 a 6 meses
+ Fases iniciais, manutenção
+ Finasterida
+ Inibe 5-alfa-redutase, reduz DHT
+ 6 a 12 meses
+ Fases iniciais a moderadas
+ Implante FUE
+ Redistribui folículos da nuca
+ 6 a 12 meses
+ Falhas definitivas
+<h2>Quanto Tempo Leva para Ver Resultados?</h2>
+<p>O tempo de resposta varia conforme o tratamento e a fase da calvície. Com minoxidil tópico, os primeiros sinais de estabilização da queda aparecem em cerca de 8 semanas, e o crescimento de novos fios é visível em 3 a 6 meses. Com finasterida, a avaliação é feita após 6 a 12 meses de uso contínuo.</p>
+<p>Nas áreas das entradas, o crescimento costuma ser mais lento que no topo da cabeça. Isso ocorre porque os folículos da linha frontal são mais sensíveis ao DHT e podem estar mais miniaturizados. Em alguns casos, o tratamento consegue estagnar a perda, mas não reverte completamente o recuo.</p>
+<p>A adesão ao tratamento é essencial. A interrupção leva à perda dos ganhos em 3 a 4 meses. O tratamento deve ser mantido por tempo indeterminado para preservar os resultados.</p>
+<h2>Melhores Cortes para Disfarçar as Entradas</h2>
+<p>Para quem não quer ou não pode tratar clinicamente, ou para quem está no início do tratamento e quer disfarçar as falhas, alguns cortes ajudam a criar ilusão de volume e reduzir o contraste.</p>
+<h3>Textura no Topo</h3>
+<p>Cortes com textura no topo, como o texturized crop ou o messy fringe, criam movimento e distribuem os fios, reduzindo a evidência das entradas. O cabelo mais curto nas laterais e mais longo no topo ajuda a direcionar o olhar para cima.</p>
+<h3>Franja Desfiada</h3>
+<p>A franja desfiada cobre parcialmente a linha frontal e disfarça as entradas. É uma opção para quem tem cabelo liso ou ondulado e não se importa em manter um comprimento maior na frente.</p>
+<h3>Buzz Cut</h3>
+<p>O buzz cut (corte raspado) é uma opção para quem já tem entradas avançadas. Ao raspar o cabelo bem curto, o contraste entre as áreas com e sem cabelo diminui, e o visual fica mais uniforme.</p>
+<h3>Pompadour com Volume</h3>
+<p>O pompadour, com volume no topo e laterais mais curtas, cria uma moldura que desvia a atenção das entradas. Requer produto de fixação e secador para modelar.</p>
+<h3>Tabela: Cortes para Disfarçar Entradas</h3>
+ Corte
+ Melhor Para
+ Como Disfarça
+ Texturized crop
+ Entradas leves a moderadas
+ Movimento e volume no topo
+ Franja desfiada
+ Entradas leves
+ Cobre a linha frontal
+ Buzz cut
+ Entradas avançadas
+ Reduz contraste entre áreas
+ Pompadour
+ Entradas moderadas
+ Volume no topo desvia atenção
+<h2>Grupos de Risco e Quando Buscar Ajuda</h2>
+<p>Alguns homens têm maior risco de calvície androgenética e devem ter atenção redobrada.</p>
+<ul>
+<li><strong>Histórico familiar:</strong> pai, avô ou tios com calvície aumentam a suscetibilidade.</li>
+<li><strong>Idade:</strong> quanto mais cedo as entradas começam, maior a probabilidade de progressão.</li>
+<li><strong>Estresse crônico:</strong> pode acelerar a queda em pessoas predispostas.</li>
+<li><strong>Uso de anabolizantes:</strong> esteroides aumentam os níveis de DHT e aceleram a calvície.</li>
+<li><strong>Tabagismo:</strong> reduz a oxigenação do folículo e agrava a perda.</li>
+</ul>
+<p>A busca por dermatologista é indicada quando as entradas estão progredindo, quando há miniaturização visível dos fios ou quando há dúvida sobre o diagnóstico. O tratamento precoce é mais eficaz.</p>
+<h2>FAQ — Perguntas Frequentes</h2>
+<h3>1. Como acabar com as entradas de cabelo na testa?</h3>
+<p>Não há como reverter completamente as entradas já formadas, mas o tratamento com minoxidil e finasterida pode estagnar a perda e estimular o crescimento de fios miniaturizados. O implante capilar é indicado para falhas definitivas.</p>
+<h3>2. O que causa o aparecimento de entradas no cabelo masculino?</h3>
+<p>A causa principal é a combinação de predisposição genética e ação do DHT nos folículos frontotemporais. Estresse, tabagismo e uso de anabolizantes podem acelerar o processo.</p>
+<h3>3. Qual a diferença entre linha de cabelo madura e início de calvície?</h3>
+<p>A linha madura recua 1 a 2 cm e estabiliza. A calvície androgenética é progressiva e vem acompanhada de miniaturização dos fios. A tricoscopia ajuda a diferenciar.</p>
+<h3>4. Qual o melhor corte de cabelo para quem tem muitas entradas?</h3>
+<p>Cortes com textura no topo, franja desfiada, buzz cut e pompadour ajudam a disfarçar. A escolha depende do formato do rosto e do estilo pessoal.</p>
+<h3>5. Minoxidil 5% funciona para reverter entradas na testa?</h3>
+<p>O minoxidil pode estimular o crescimento de fios miniaturizados nas entradas, mas a resposta é mais lenta que no topo da cabeça. Em casos avançados, pode não reverter completamente o recuo.</p>
+<h2>Resumindo</h2>
+<p>As entradas no cabelo masculino são o recuo da linha frontotemporal, geralmente causado pela calvície androgenética. O DHT miniaturiza os folículos geneticamente sensíveis, fazendo os fios ficarem mais finos e curtos. A linha de cabelo madura é uma variação fisiológica normal que não progride; a calvície é progressiva e exige tratamento.</p>
+<p>A escala de Norwood classifica a evolução da calvície do Tipo I ao Tipo VII. O tratamento é mais eficaz nos estágios iniciais. As opções incluem minoxidil tópico, finasterida oral e implante capilar pela técnica FUE. Os resultados levam de 3 a 12 meses, e a adesão contínua é essencial.</p>
+<p>Para disfarçar as entradas, cortes com textura no topo, franja desfiada, buzz cut e pompadour ajudam a criar ilusão de volume e reduzir o contraste. A escolha depende do formato do rosto e da extensão das entradas.</p>
+<p>Grupos de risco incluem homens com histórico familiar, início precoce das entradas, estresse crônico e uso de anabolizantes. A avaliação dermatológica é indicada quando as entradas estão progredindo ou há dúvida diagnóstica.</p>
+<p>O tratamento precoce é mais eficaz. Antes de iniciar qualquer medicação, consulte um dermatologista para avaliação individualizada. A automedicação com finasterida ou minoxidil sem acompanhamento pode trazer riscos e não substitui o diagnóstico correto.</p>
+<h2>Fontes</h2>
+<ul>
+<li>Droga Raia. Calvície masculina: conheça os estágios da Escala de Norwood. https://www.drogaraia.com.br/blog/beleza/cabelo/calvicie-masculina-escala-de-norwood</li>
+<li>Tua Saúde. Entradas no cabelo: o que causa a calvície e como tratar. https://www.tuasaude.com/entradas-no-cabelo/</li>
+<li>L'Oréal Paris. Como disfarçar as entradas no cabelo: cortes e truques. https://www.loreal-paris.com.br</li>
+<li>Sociedade Brasileira de Dermatologia. Queda ou Quebra de Cabelo: Como Diferenciar no Consultório. https://www.sbd.org.br</li>
+<li>Endotext / PMC. Male Androgenetic Alopecia. https://www.ncbi.nlm.nih.gov/books/NBK278957/</li>
+<li>Manual.com.br. Entradas no cabelo masculino: o que são e como tratar? https://www.manual.com.br</li>
+</ul>
+<p><em>Este conteúdo é informativo e não substitui a orientação de um profissional de saúde.</em></p>

@@ -1,0 +1,150 @@
+PALAVRA_CHAVE: Metilfolato
+TITLE: Metilfolato: o que é, para que serve, como tomar e qual a diferença para o ácido fólico
+DESCRIPTION: ! Pessoa segurando suplemento vitamínico em cápsulas
+CAPA_ALT: Metilfolato: o que é, para que serve, como tomar e qual a diferença para o ácido fólico
+---
+<p>!<a href="https://images.pexels.com/photos/3683074/pexels-photo-3683074.jpeg?auto=compress&cs=tinysrgb&w=1200">Pessoa segurando suplemento vitamínico em cápsulas</a></p>
+<p>O <strong>metilfolato</strong> é uma forma de folato, vitamina B9, encontrada em suplementos e também conhecida como <strong>5-MTHF, L-5-MTHF ou L-metilfolato</strong>. Ele participa de processos essenciais do organismo, como a síntese de DNA e RNA, a divisão celular e o metabolismo de aminoácidos e da homocisteína.</p>
+<p>O interesse pelo ingrediente aumentou principalmente entre pessoas que pesquisam suplementação de vitamina B9, planejamento da gravidez e possíveis diferenças entre metilfolato e ácido fólico. Apesar disso, os dois termos não devem ser tratados como sinônimos em todas as situações.</p>
+<p>Neste guia, você vai entender <strong>para que serve o metilfolato, como ele se relaciona com o ácido fólico, quando a suplementação pode ser indicada, quais cuidados são importantes e o que se sabe sobre MTHFR, gravidez e interações com medicamentos</strong>.</p>
+<h2>O que é metilfolato?</h2>
+<p>O metilfolato é uma forma de folato utilizada pelo organismo em reações metabólicas. O nome geralmente se refere ao <strong>5-metiltetraidrofolato (5-MTHF)</strong>, também chamado de L-metilfolato.</p>
+<p>O folato participa da transferência de unidades de carbono necessárias para a síntese de ácidos nucleicos e para o metabolismo de aminoácidos. Uma dessas funções envolve a conversão da homocisteína em metionina, reação importante para a produção de S-adenosilmetionina, um doador de grupos metil.</p>
+<p>O organismo também utiliza folato na formação adequada das células sanguíneas e na divisão celular. Quando existe deficiência importante de folato, pode ocorrer anemia megaloblástica.</p>
+<p>O <a href="https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/">National Institutes of Health (NIH)</a> diferencia folato, ácido fólico e 5-MTHF: folato é o termo geral para as formas presentes nos alimentos e suplementos; ácido fólico é uma forma oxidada usada em alimentos fortificados e muitos suplementos; e 5-MTHF é uma forma de folato encontrada em alguns suplementos.</p>
+<h2>Para que serve o metilfolato?</h2>
+<p>O metilfolato participa de funções relacionadas ao metabolismo da vitamina B9. Entre elas estão:</p>
+<ul><li><strong>Síntese de DNA e RNA:</strong> o folato é necessário para reações envolvidas na produção de material genético.</li><li><strong>Divisão celular:</strong> células que se multiplicam rapidamente dependem de vias adequadas de folato.</li><li><strong>Formação das células vermelhas do sangue:</strong> a deficiência de folato pode prejudicar a produção normal das células sanguíneas.</li><li><strong>Metabolismo da homocisteína:</strong> o 5-MTHF participa da via que converte homocisteína em metionina.</li><li><strong>Metabolismo de aminoácidos:</strong> o folato participa de reações de transferência de unidades de carbono.</li><li><strong>Desenvolvimento fetal:</strong> o folato é essencial durante a formação e o crescimento do embrião e do feto.</li></ul>
+<p>Essas funções explicam por que a suplementação de folato pode ser recomendada em determinadas situações. Isso não significa, porém, que todo mundo precise tomar metilfolato ou que doses elevadas sejam automaticamente melhores.</p>
+<h2>Qual a diferença entre metilfolato e ácido fólico?</h2>
+<p>A diferença principal está na <strong>forma química</strong>.</p>
+<p>O ácido fólico é uma forma sintética e oxidada da vitamina B9 utilizada amplamente em suplementos e na fortificação de alimentos. Já o metilfolato, ou 5-MTHF, é uma forma de folato que participa diretamente de determinadas reações metabólicas.</p>
+<p>Isso levou à ideia de que o metilfolato seria sempre superior ao ácido fólico. Essa conclusão é simplista.</p>
+<p>Para a prevenção de defeitos do tubo neural, <strong>o ácido fólico continua sendo a forma com evidência clínica estabelecida</strong>. O ACOG informa que o ácido fólico é a única forma de folato comprovadamente eficaz para prevenir defeitos do tubo neural, e o NIH registra que o CDC recomenda ácido fólico, e não 5-MTHF, para pessoas que podem engravidar, inclusive quando existe uma variante MTHFR. <a href="https://www.acog.org/womens-health/faqs/healthy-eating-during-pregnancy">ACOG</a> | <a href="https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/">NIH</a></p>
+<p>Isso não torna o metilfolato inútil. Ele pode ser utilizado em determinados suplementos e situações clínicas, mas a indicação deve considerar o objetivo da suplementação.</p>
+<h3>Comparação rápida</h3>
+<p>Característica | Ácido fólico | Metilfolato</p>
+<p>Forma | Forma sintética oxidada de folato | Forma de folato 5-MTHF</p>
+<p>Também chamado de | Folic acid | 5-MTHF, L-5-MTHF, L-metilfolato</p>
+<p>Presente em suplementos | Sim | Sim</p>
+<p>Participa do metabolismo de folato | Sim | Sim</p>
+<p>Evidência para prevenção de defeitos do tubo neural | Estabelecida | Ainda não equivalente à do ácido fólico</p>
+<p>Pode aparecer em suplementos para planejamento reprodutivo | Sim | Pode aparecer, mas não substitui automaticamente o ácido fólico recomendado</p>
+<h2>Metilfolato é a forma ativa do ácido fólico?</h2>
+<p>É melhor evitar essa afirmação de maneira absoluta.</p>
+<p>O <strong>5-MTHF é uma forma biologicamente ativa de folato</strong> e participa diretamente de determinadas reações do metabolismo de um carbono. Já o ácido fólico precisa passar por etapas metabólicas para ser convertido em formas utilizadas pelo organismo.</p>
+<p>Entretanto, dizer que o metilfolato é simplesmente o “ácido fólico já ativado” pode gerar uma explicação incompleta. Folato é uma família de formas químicas relacionadas, e o metabolismo envolve várias etapas e derivados.</p>
+<p>Também não é correto afirmar que todas as pessoas precisam de 5-MTHF porque não conseguem utilizar ácido fólico.</p>
+<h2>O que é a mutação MTHFR?</h2>
+<p><strong>MTHFR</strong> é o nome de uma enzima envolvida no metabolismo do folato. Variantes genéticas no gene que codifica essa enzima podem alterar sua atividade.</p>
+<p>A variante C677T é uma das mais estudadas. Algumas pessoas que apresentam determinadas combinações dessa variante podem ter menor atividade da enzima e alterações no metabolismo do folato.</p>
+<p>Isso, porém, não significa que um teste genético para MTHFR determine sozinho qual suplemento uma pessoa deve tomar.</p>
+<p>O NIH destaca que as pesquisas sobre os benefícios específicos da suplementação com 5-MTHF em pessoas com variantes MTHFR ainda são inconclusivas e que o CDC recomenda <strong>400 microgramas de ácido fólico por dia</strong> para pessoas que podem engravidar, mesmo quando existe a variante C677T. <a href="https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/">NIH</a></p>
+<h2>Metilfolato ajuda quem tem MTHFR?</h2>
+<p>Pode ser considerado em algumas situações, mas <strong>ter uma variante MTHFR não significa automaticamente que a pessoa precise trocar ácido fólico por metilfolato</strong>.</p>
+<p>A presença de uma variante genética deve ser interpretada no contexto clínico. Exames, alimentação, histórico médico, medicamentos e objetivo da suplementação também podem ser relevantes.</p>
+<p>Especialmente no planejamento da gravidez, não é recomendado substituir por conta própria o ácido fólico comprovadamente eficaz para prevenção de defeitos do tubo neural por um produto de 5-MTHF apenas por causa de um teste genético.</p>
+<h2>Metilfolato na gravidez: para que serve?</h2>
+<p>O folato é essencial durante a gravidez porque participa da divisão celular e do desenvolvimento fetal.</p>
+<p>A deficiência de folato está associada a maior risco de defeitos do tubo neural. No Brasil, o Ministério da Saúde informa que a suplementação de ácido fólico no período pré-concepcional e durante a gestação reduz significativamente a ocorrência de algumas anomalias congênitas, incluindo defeitos de fechamento do tubo neural. <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/anomalias-congenitas/faq/o-acido-folico-pode-prevenir">Ministério da Saúde</a></p>
+<p>A recomendação brasileira para gestantes de baixo risco disponível nas Linhas de Cuidado do Ministério da Saúde é de <strong>400 microgramas de ácido fólico por dia</strong>, iniciados pelo menos 30 dias antes da concepção e mantidos até o final do primeiro trimestre. Para mulheres com risco aumentado de defeitos abertos do tubo neural, a orientação é diferente e envolve doses maiores sob acompanhamento profissional. <a href="https://linhasdecuidado.saude.gov.br/portal/pre-natal-baixo-risco/unidade-de-atencao-primaria/vigilancia-saude/">Ministério da Saúde</a></p>
+<h3>Metilfolato antes de engravidar</h3>
+<p>Quem está planejando uma gravidez deve conversar com o profissional responsável pelo acompanhamento pré-concepcional sobre a suplementação.</p>
+<p>É importante não esperar o teste de gravidez positivo para começar a discutir o folato, porque o tubo neural se desenvolve muito cedo.</p>
+<p>O ACOG recomenda, para a maioria das pessoas que planejam engravidar, <strong>400 microgramas de ácido fólico diariamente pelo menos um mês antes da gravidez e durante as primeiras 12 semanas</strong>. <a href="https://www.acog.org/clinical/clinical-guidance/obstetric-care-consensus/articles/2019/01/interpregnancy-care">ACOG</a></p>
+<h2>Metilfolato pode prevenir malformações fetais?</h2>
+<p>O folato adequado é importante para reduzir o risco de defeitos do tubo neural, mas é necessário diferenciar <strong>folato</strong> de uma afirmação específica sobre metilfolato.</p>
+<p>A evidência clínica que sustenta a prevenção de defeitos do tubo neural é especialmente sólida para o <strong>ácido fólico</strong>. O ACOG afirma que o ácido fólico é a forma de folato comprovada para essa finalidade. Portanto, não é correto prometer que o metilfolato previne malformações fetais simplesmente por ser uma forma de 5-MTHF.</p>
+<p>Além disso, nenhuma suplementação elimina todos os riscos de anomalias congênitas.</p>
+<h2>Qual a dose recomendada de metilfolato?</h2>
+<p>Não existe uma única <strong>dosagem recomendada de metilfolato</strong> que possa ser aplicada a todas as pessoas.</p>
+<p>A necessidade de folato é normalmente expressa como <strong>DFE, ou equivalente dietético de folato</strong>, enquanto a quantidade do ingrediente no suplemento pode aparecer em microgramas ou miligramas.</p>
+<p>A regulamentação brasileira utiliza fatores de conversão para expressar folato em DFE. A Anvisa informa, em documentos regulatórios, que <strong>1 µg de DFE corresponde a 0,6 µg de L-metilfolato de suplemento</strong> para a referência utilizada na rotulagem. <a href="https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/alimentos/manuais-guias-e-orientacoes/alegacoes_plenamente_reconhecidas_nota_tecnica_43.pdf/%40%40download/file">Anvisa</a></p>
+<p>É importante observar que a equivalência usada para fins regulatórios de rotulagem não deve ser confundida com uma prescrição individual.</p>
+<h3>Quanto é 400 mcg de DFE em L-metilfolato?</h3>
+<p>Pela relação regulatória de <strong>1 µg de DFE = 0,6 µg de L-metilfolato de suplemento</strong>, 400 µg de DFE corresponderiam matematicamente a 240 µg de L-metilfolato.</p>
+<p>Isso é uma <strong>conversão de unidade</strong>, não uma recomendação para tomar 240 µg de metilfolato. A dose que uma pessoa deve utilizar depende do produto, da finalidade, da legislação aplicável e da avaliação profissional.</p>
+<p>Além disso, referências internacionais podem usar critérios diferentes. O NIH, por exemplo, observa que fatores de conversão entre microgramas de DFE e 5-MTHF suplementar não foram formalmente estabelecidos para suas recomendações nutricionais. <a href="https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/">NIH</a></p>
+<h2>Qual o melhor horário para tomar metilfolato?</h2>
+<p>Não existe um horário universalmente obrigatório para tomar metilfolato.</p>
+<p>O mais importante é seguir a recomendação do produto e, quando houver prescrição, a orientação do profissional de saúde. Para quem utiliza um suplemento diariamente, manter um horário consistente pode facilitar a adesão.</p>
+<p>Se o produto fizer parte de um polivitamínico ou suplemento pré-natal, também é necessário considerar os demais nutrientes presentes na fórmula.</p>
+<h2>Metilfolato engorda?</h2>
+<p><strong>Não há evidência de que o metilfolato, por si só, cause ganho de peso como efeito esperado.</strong></p>
+<p>O metilfolato é uma forma de vitamina B9 e não é um suplemento destinado a fornecer calorias em quantidade relevante.</p>
+<p>Se houver aumento de peso durante o período em que uma pessoa iniciou um suplemento, é importante considerar outros fatores, como alimentação, alterações hormonais, medicamentos, retenção de líquidos e mudanças de rotina.</p>
+<h2>Quais são os efeitos colaterais do metilfolato?</h2>
+<p>Suplementos de folato costumam ser bem tolerados nas doses recomendadas, mas efeitos indesejados podem ocorrer.</p>
+<p>Dependendo do produto e da quantidade utilizada, podem aparecer sintomas como:</p>
+<ul><li>Náusea;</li><li>Desconforto gastrointestinal;</li><li>Alterações do sono ou agitação em algumas pessoas;</li><li>Dor de cabeça;</li><li>Reações de hipersensibilidade, embora sejam incomuns.</li></ul>
+<p>Doses elevadas sem acompanhamento também podem ser inadequadas. Um cuidado importante é não utilizar altas quantidades de folato para tentar corrigir sintomas sem investigar a causa.</p>
+<h2>Metilfolato pode mascarar deficiência de vitamina B12?</h2>
+<p>Esse é um ponto importante.</p>
+<p>Uma quantidade elevada de folato pode melhorar algumas alterações hematológicas relacionadas à deficiência de vitamina B12 sem corrigir necessariamente o dano neurológico provocado pela deficiência de B12.</p>
+<p>Por isso, quando existe suspeita de anemia megaloblástica ou deficiência nutricional, não é adequado simplesmente aumentar a dose de folato sem investigar a vitamina B12 e outras possíveis causas.</p>
+<p>Pessoas com anemia, formigamentos, alterações de sensibilidade, fraqueza ou sintomas persistentes devem procurar avaliação médica.</p>
+<h2>Metilfolato e anemia megaloblástica</h2>
+<p>O folato é necessário para a formação normal das células sanguíneas. A deficiência pode causar <strong>anemia megaloblástica</strong>, caracterizada pela presença de células sanguíneas anormalmente grandes e alterações na produção de células.</p>
+<p>Entretanto, anemia megaloblástica também pode ocorrer por deficiência de vitamina B12.</p>
+<p>Por isso, usar folato por conta própria para tratar anemia pode atrasar o diagnóstico correto. O tratamento deve considerar a causa identificada nos exames.</p>
+<h2>Metilfolato e homocisteína</h2>
+<p>O 5-MTHF participa do metabolismo da homocisteína.</p>
+<p>Em uma das etapas desse processo, o 5-MTHF fornece um grupo metil para a conversão da homocisteína em metionina. Por isso, alterações no metabolismo do folato podem estar associadas a níveis elevados de homocisteína.</p>
+<p>Mas homocisteína alta não significa automaticamente deficiência de folato. O próprio NIH ressalta que esse marcador também pode ser influenciado por outros fatores, incluindo alterações renais e deficiências de vitamina B12 e outros micronutrientes. <a href="https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/">NIH</a></p>
+<h2>Metilfolato e produção de neurotransmissores</h2>
+<p>O metabolismo do folato está relacionado a reações de metilação que também participam da síntese e do metabolismo de compostos importantes para o sistema nervoso.</p>
+<p>Isso explica por que o folato é estudado em relação ao funcionamento cerebral e à saúde mental.</p>
+<p>No entanto, não é correto concluir que tomar metilfolato melhora a depressão em qualquer pessoa. Existem pesquisas sobre o uso de L-metilfolato como estratégia complementar em determinados quadros, mas isso é diferente de afirmar que o suplemento substitui antidepressivos ou tratamento médico.</p>
+<h2>Metilfolato e depressão: funciona?</h2>
+<p>O L-metilfolato já foi estudado como <strong>adjuvante</strong> em alguns tratamentos de depressão, especialmente em pessoas que não respondem adequadamente a determinados antidepressivos.</p>
+<p>Isso não significa que qualquer suplemento de metilfolato tenha efeito antidepressivo garantido.</p>
+<p>Quem utiliza antidepressivos ou outro tratamento psiquiátrico não deve substituir, reduzir ou interromper a medicação por conta própria para começar metilfolato.</p>
+<h2>Metilfolato e medicamentos: existe interação?</h2>
+<p>Sim. O folato participa de vias bioquímicas que também são afetadas por determinados medicamentos.</p>
+<p>Um exemplo especialmente importante é o <strong>metotrexato</strong>.</p>
+<p>O NIH informa que o metotrexato é um antagonista do folato e que pessoas que utilizam o medicamento para câncer devem conversar com o oncologista antes de usar suplementos de folato, porque a suplementação pode interferir na ação antitumoral. Em outras situações, como algumas doenças autoimunes, o uso de ácido fólico ou folato pode fazer parte do próprio esquema terapêutico e deve ser definido pelo médico. <a href="https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/">NIH</a></p>
+<p>Outros medicamentos também podem interferir no metabolismo ou na absorção do folato, incluindo alguns anticonvulsivantes e a sulfassalazina.</p>
+<p>Por isso, informe médico e farmacêutico sobre todos os suplementos que utiliza.</p>
+<h2>Quem não deve tomar metilfolato por conta própria?</h2>
+<p>A suplementação merece avaliação profissional especialmente em pessoas que:</p>
+<ul><li>Têm anemia sem diagnóstico definido;</li><li>Podem ter deficiência de vitamina B12;</li><li>Utilizam metotrexato ou outros medicamentos que interferem no metabolismo do folato;</li><li>Estão em tratamento oncológico;</li><li>Estão grávidas ou planejando gravidez e desejam alterar a suplementação recomendada;</li><li>Pretendem utilizar doses elevadas;</li><li>Têm doenças crônicas ou utilizam diversos medicamentos;</li><li>Receberam resultado de teste genético para MTHFR e querem escolher uma dose com base apenas no exame.</li></ul>
+<h2>O que significa DFE no rótulo?</h2>
+<p><strong>DFE</strong> significa <strong>Dietary Folate Equivalents</strong>, ou equivalentes dietéticos de folato.</p>
+<p>Essa unidade foi criada porque a absorção e a biodisponibilidade do folato variam conforme sua forma e a fonte.</p>
+<p>Na regulamentação brasileira, a Anvisa utiliza a equivalência de DFE para determinadas informações nutricionais. Por isso, um rótulo pode apresentar uma quantidade em DFE diferente da quantidade física do composto utilizado no suplemento.</p>
+<h3>Exemplo de conversão</h3>
+<p>Considerando a relação regulatória:</p>
+<p><strong>1 µg de DFE = 0,6 µg de L-metilfolato de suplemento</strong></p>
+<p>Temos:</p>
+<ul><li>100 µg de DFE = 60 µg de L-metilfolato;</li><li>400 µg de DFE = 240 µg de L-metilfolato;</li><li>600 µg de DFE = 360 µg de L-metilfolato.</li></ul>
+<p>Esses cálculos servem para compreender unidades de rotulagem. <strong>Não devem ser usados para definir uma dose individual.</strong></p>
+<h2>E os homens que estão planejando ter filhos?</h2>
+<p>O folato também é importante para a saúde celular e para a síntese de DNA nos homens. Porém, isso não significa que exista uma recomendação geral para todos os homens em planejamento pré-concepcional tomarem doses elevadas de metilfolato.</p>
+<p>Não há base para extrapolar automaticamente as recomendações destinadas à prevenção de defeitos do tubo neural materno para uma dose específica de metilfolato para homens.</p>
+<p>Homens que estejam planejando a paternidade e tenham deficiência documentada, alterações laboratoriais, dieta inadequada ou indicação médica devem receber orientação individualizada.</p>
+<h2>Metilfolato é melhor que ácido fólico?</h2>
+<p><strong>Não existe uma resposta universal de “melhor”.</strong></p>
+<p>O metilfolato é uma forma de folato utilizada pelo organismo, enquanto o ácido fólico tem uma base de evidências particularmente sólida para prevenção de defeitos do tubo neural.</p>
+<p>Para quem pode engravidar, o ponto mais importante é não substituir uma recomendação comprovada por uma promessa de marketing relacionada à “forma ativa”.</p>
+<p>Se a indicação for suplementação nutricional geral, a escolha da forma pode depender do produto e da avaliação profissional. Se o objetivo for prevenção de defeitos do tubo neural, as recomendações de saúde pública e entidades médicas continuam destacando o ácido fólico.</p>
+<h2>Perguntas frequentes sobre metilfolato</h2>
+<h3>Qual a diferença de ácido fólico para metilfolato?</h3>
+<p>O ácido fólico é uma forma sintética de folato, enquanto o metilfolato, ou 5-MTHF, é uma forma de folato que participa diretamente de determinadas reações metabólicas. Eles não devem ser tratados como equivalentes em todas as indicações.</p>
+<h3>Quem deve tomar metilfolato?</h3>
+<p>Não existe uma indicação única para todas as pessoas. A suplementação pode ser considerada quando há necessidade de folato e quando a forma utilizada é apropriada para o objetivo. Gestantes e pessoas que planejam engravidar devem seguir orientação específica, priorizando as recomendações comprovadas para prevenção de defeitos do tubo neural.</p>
+<h3>Quais são os efeitos colaterais do metilfolato?</h3>
+<p>Em geral, é bem tolerado nas quantidades recomendadas, mas podem ocorrer sintomas gastrointestinais, dor de cabeça, alterações de sono ou reações de hipersensibilidade. Doses elevadas devem ser usadas somente quando houver indicação adequada.</p>
+<h3>Qual o melhor horário para tomar metilfolato?</h3>
+<p>Não existe um horário universal. Siga as instruções do produto ou a orientação do profissional que indicou o suplemento. Tomá-lo em horário consistente pode ajudar a manter a rotina.</p>
+<h3>Metilfolato 400 mcg é a mesma coisa que ácido fólico 400 mcg?</h3>
+<p>Não necessariamente. Os números podem representar unidades e formas químicas diferentes. A comparação deve considerar se o rótulo informa folato em DFE, ácido fólico ou L-metilfolato.</p>
+<h3>Metilfolato pode ser usado na gravidez?</h3>
+<p>O folato é essencial na gravidez, mas a escolha da forma e da dose deve seguir orientação profissional. Para prevenção de defeitos do tubo neural, o ácido fólico é a forma com evidência clínica estabelecida.</p>
+<h3>Metilfolato engorda?</h3>
+<p>Não há evidência de que o metilfolato cause ganho de peso como efeito esperado.</p>
+<h3>Quem tem MTHFR precisa tomar metilfolato?</h3>
+<p>Não necessariamente. A presença de uma variante MTHFR não determina sozinha a necessidade de metilfolato. Para prevenção de defeitos do tubo neural, o CDC continua recomendando ácido fólico, inclusive para pessoas com variantes MTHFR.</p>
+<h2>Conclusão</h2>
+<p>O <strong>metilfolato</strong> é uma forma de folato, geralmente identificada como 5-MTHF ou L-metilfolato, que participa de processos fundamentais como síntese de DNA, divisão celular e metabolismo da homocisteína.</p>
+<p>A principal diferença em relação ao ácido fólico está na forma química e no caminho metabólico. Isso, porém, não significa que o metilfolato seja automaticamente superior. Para prevenção de defeitos do tubo neural, o <strong>ácido fólico continua sendo a forma com evidência clínica comprovada</strong>.</p>
+<p>A suplementação deve considerar a finalidade, a quantidade total de folato, a forma presente no produto, possíveis interações medicamentosas e as necessidades individuais. Em situações como gravidez, anemia, uso de metotrexato, tratamento oncológico ou investigação de deficiência de vitamina B12, a orientação de um profissional de saúde é especialmente importante.</p>
