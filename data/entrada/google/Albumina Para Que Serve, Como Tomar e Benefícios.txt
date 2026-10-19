@@ -1,7 +1,7 @@
 PALAVRA_CHAVE: Albumina
 TITLE: Albumina: Para Que Serve, Como Tomar e Benefícios
 DESCRIPTION: Albumina: para que serve o suplemento, diferença com whey protein, como tomar para evitar gases, contraindicações e benefícios para idosos.
-CAPA_ALT: ${foto.alt || termoBusca}
+CAPA_ALT: Albumina: Para Que Serve, Como Tomar e Benefícios
 CAPA_URL: https://images.pexels.com/photos/13013774/pexels-photo-13013774.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
 CAPA_ID: 13013774
 CAPA_CREDITO: Guto Macedo | https://www.pexels.com/photo/man-taking-supplements-13013774/ | Pexels
