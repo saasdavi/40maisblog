@@ -2,6 +2,10 @@ PALAVRA_CHAVE: Biotina_ para que serve, benefícios e cuidados
 TITLE: Biotina_ para que serve, benefícios e cuidados
 DESCRIPTION: A biotina é uma vitamina do complexo B envolvida no metabolismo de gorduras, carboidratos e proteínas. Apesar da fama para cabelo e unhas, sua suplementação nem
 CAPA_ALT: Biotina_ para que serve, benefícios e cuidados
+CAPA_URL: https://images.pexels.com/photos/13534601/pexels-photo-13534601.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 13534601
+CAPA_CREDITO: Odin Mcraig | https://www.pexels.com/photo/close-up-shot-of-softgel-capsules-13534601/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T04:45:35.955Z
 ---
 PALAVRA_CHAVE: biotina
 TITLE: Biotina: para que serve, benefícios e cuidados
