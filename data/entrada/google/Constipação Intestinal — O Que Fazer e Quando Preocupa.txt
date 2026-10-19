@@ -2,6 +2,10 @@ PALAVRA_CHAVE: Constipação Intestinal
 TITLE: Constipação Intestinal — O Que Fazer e Quando Preocupa
 DESCRIPTION: { "slug": "constipacao-intestinal-o-que-fazer", "title": "Constipação Intestinal — O Que Fazer e Quando Preocupa", "description": "Entenda o que fazer para s
 CAPA_ALT: Constipação Intestinal — O Que Fazer e Quando Preocupa
+CAPA_URL: https://images.pexels.com/photos/7722921/pexels-photo-7722921.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 7722921
+CAPA_CREDITO: Tara Winstead | https://www.pexels.com/photo/pink-and-white-heart-shaped-candy-7722921/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T06:15:27.088Z
 ---
 {
  "slug": "constipacao-intestinal-o-que-fazer",
