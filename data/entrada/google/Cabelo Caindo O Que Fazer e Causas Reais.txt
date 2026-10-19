@@ -2,6 +2,10 @@ PALAVRA_CHAVE: Cabelo Caindo O Que Fazer e Causas Reais
 TITLE: Cabelo Caindo O Que Fazer e Causas Reais
 DESCRIPTION: Ver fios de cabelo no travesseiro, no ralo do banheiro ou na escova é uma das queixas mais comuns nos consultórios de dermatologia. A queda capilar tem causas
 CAPA_ALT: Cabelo Caindo O Que Fazer e Causas Reais
+CAPA_URL: https://images.pexels.com/photos/31497506/pexels-photo-31497506.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+CAPA_ID: 31497506
+CAPA_CREDITO: Bastian Riccardi | https://www.pexels.com/photo/dynamic-portrait-of-woman-with-flowing-hair-31497506/ | Pexels
+DATA_PUBLICACAO: 2026-10-19T05:00:35.467Z
 ---
 <p>Ver fios de cabelo no travesseiro, no ralo do banheiro ou na escova é uma das queixas mais comuns nos consultórios de dermatologia. A queda capilar tem causas distintas, e tratá-la como um problema único costuma levar a decisões erradas. Produtos vendidos como antiqueda raramente resolvem quando o diagnóstico não foi feito.</p>
 <p>Perder de 50 a 150 fios por dia é considerado normal. O problema começa quando esse número aumenta de forma perceptível, quando os fios caem em blocos ou quando há afinamento progressivo em áreas específicas do couro cabeludo. Identificar o padrão da queda é o primeiro passo para entender o que está acontecendo.</p>
