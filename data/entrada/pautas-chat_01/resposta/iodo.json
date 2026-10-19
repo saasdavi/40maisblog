@@ -1,0 +1,634 @@
+{
+  "palavra": "iodo",
+  "data": "2026-10-19",
+  "serp": {
+    "search_metadata": {
+      "id": "6ad6331e246a1c9de9167281",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/u9IJsRkmi2l13YTWWku9ClTdIZBCiOXTAMWFTi6LFSU/6ad6331e246a1c9de9167281.json",
+      "markdown_endpoint": "https://serpapi.com/searches/u9IJsRkmi2l13YTWWku9ClTdIZBCiOXTAMWFTi6LFSU/6ad6331e246a1c9de9167281.md",
+      "pixel_position_endpoint": "https://serpapi.com/searches/u9IJsRkmi2l13YTWWku9ClTdIZBCiOXTAMWFTi6LFSU/6ad6331e246a1c9de9167281.json_with_pixel_position",
+      "created_at": "2026-10-19 15:11:26 UTC",
+      "processed_at": "2026-10-19 15:11:26 UTC",
+      "google_url": "https://www.google.com/search?q=iodo&oq=iodo&hl=pt-br&gl=br&sourceid=chrome&ie=UTF-8",
+      "raw_html_file": "https://serpapi.com/searches/u9IJsRkmi2l13YTWWku9ClTdIZBCiOXTAMWFTi6LFSU/6ad6331e246a1c9de9167281.html",
+      "total_time_taken": 0.5
+    },
+    "search_parameters": {
+      "engine": "google",
+      "q": "iodo",
+      "google_domain": "google.com",
+      "hl": "pt-br",
+      "gl": "br",
+      "device": "desktop"
+    },
+    "search_information": {
+      "query_displayed": "iodo",
+      "total_results": 144,
+      "time_taken_displayed": 0.22,
+      "organic_results_state": "Results for exact spelling"
+    },
+    "inline_videos": [
+      {
+        "position": 1,
+        "title": "Iodo: Qual é o seu papel no organismo e como obtê-lo?",
+        "link": "https://www.youtube.com/watch?v=QEVz6esj_BQ",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj6G4mylcQkxzxd6nnIdwl68_8b00TfTf8NS0O603rnuIBWv_6uqmnfw&s",
+        "channel": "Dra Claudia Caponi - Ginecologia Integrativa",
+        "duration": "2:39",
+        "platform": "YouTube",
+        "date": "23 de jan. de 2024",
+        "short_clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRjnNozDbxSFTuNUsyzzpyDJz6YchJ6gIKGRw"
+      },
+      {
+        "position": 2,
+        "title": "Iodo: veja benefícios e quais doenças a falta desse mineral ...",
+        "link": "https://www.youtube.com/watch?v=3TdbvL4teu4",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjg5YRvDZU6dVAQycfuJA0osLWtWpp8HnOCI8l_oE_98Lb7UBYTRk7Lg&s",
+        "channel": "Diário do Nordeste",
+        "duration": "2:04",
+        "platform": "YouTube",
+        "date": "1 de ago. de 2024",
+        "short_clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQjWh9GMtLI3RadU5Yk9JQqI-11XOf2_v2lwQ",
+        "key_moments": [
+          {
+            "time": "00:00",
+            "title": "Introdução",
+            "link": "https://www.youtube.com/watch?v=3TdbvL4teu4&t=0"
+          },
+          {
+            "time": "00:23",
+            "title": "Falta de iodo no corpo causa bócio",
+            "link": "https://www.youtube.com/watch?v=3TdbvL4teu4&t=23"
+          },
+          {
+            "time": "00:45",
+            "title": "Consequências da falta do iodo",
+            "link": "https://www.youtube.com/watch?v=3TdbvL4teu4&t=45"
+          },
+          {
+            "time": "00:57",
+            "title": "Principais fontes de iodo",
+            "link": "https://www.youtube.com/watch?v=3TdbvL4teu4&t=57"
+          },
+          {
+            "time": "01:05",
+            "title": "Riscos do excesso de iodo",
+            "link": "https://www.youtube.com/watch?v=3TdbvL4teu4&t=65"
+          }
+        ]
+      },
+      {
+        "position": 3,
+        "title": "Você suplementa IODO por conta própria? Cuidado...",
+        "link": "https://www.youtube.com/watch?v=sCSagS2FlRY",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRc-pujPhD4soBrQmc_U_C7Rk9QNplbk9od7SftGj0REKG4alpXKRnpw&s",
+        "channel": "Dr. Samuel Dalle Laste",
+        "duration": "13:44",
+        "platform": "YouTube",
+        "date": "13 de mai. de 2023"
+      },
+      {
+        "position": 4,
+        "title": "Lugol NÃO É Suplemento de Iodo: Entenda por que Pode Ser ...",
+        "link": "https://www.youtube.com/watch?v=E2ZvQF9dB-s",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7rl46J72QR-B2AJcFPRUsD_nmKAGAof3HvQ8nG925h_FZzXQI7LWRqg&s",
+        "channel": "Dr Jônatas Catunda - Cirurgia de cabeça e pescoço",
+        "duration": "7:25",
+        "platform": "YouTube",
+        "date": "4 de fev. de 2025",
+        "short_clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQ_2BalvPH0OzF5IYCOLjNbkEte6thbewcYXQ"
+      }
+    ],
+    "short_videos": [
+      {
+        "position": 1,
+        "title": "Iodo: Qual é o seu papel no organismo e como obtê-lo?",
+        "source": "YouTube",
+        "profile_name": "Dra Claudia Caponi - Ginecologia Integrativa",
+        "extensions": [
+          "Dra Claudia Caponi - Ginecologia Integrativa"
+        ],
+        "source_logo": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+        "duration": "2:39",
+        "clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQcV_aOCVNcv2YoeuJVbb9mwQX1UY1KnykO_g",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbMpU9__V65MyeuUWhBS6WB8TQKwX-ZfGRjguuWmW0kHTwbMtJO3HX_hs&s=10",
+        "link": "https://www.youtube.com/watch?v=QEVz6esj_BQ"
+      },
+      {
+        "position": 2,
+        "title": "O iodo é um micronutriente essencial porque participa ... enviado por Julio Luchmann em Facebook. Assistir em Facebook. 1:40",
+        "source": "Facebook",
+        "profile_name": "Julio Luchmann",
+        "extensions": [
+          "Julio Luchmann"
+        ],
+        "source_logo": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+        "duration": "1:40",
+        "clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcSqNY0YMK4fAHh7bToK0zBtKy6ZM-i8lCHy3g",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTqmhcBxzSWSSL8yfsQuthCWFr19JF_h-MIRhnz08pgHVhHWaisVNG4ww&s=10",
+        "link": "https://www.facebook.com/julioluchmannoficial/videos/o-iodo-%C3%A9-um-micronutriente-essencial-porque-participa-diretamente-da-produ%C3%A7%C3%A3o-do/1098024056516609/"
+      },
+      {
+        "position": 3,
+        "title": "A IMPORTÂNCIA DO IODO PARA A SUA SAÚDE! 👨‍⚕️ Dr. Lair ... enviado por André Lima | Saúde em primeiro lugar em Instagram. Assistir em Instagram. 1:21",
+        "source": "Instagram",
+        "profile_name": "André Lima | Saúde em primeiro lugar",
+        "extensions": [
+          "André Lima | Saúde em primeiro lugar"
+        ],
+        "source_logo": "https://serpapi.com/images/i/UklGRs4BAABXRUJQVlA4IMIBAACwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHXnqv4q8gZxcYcQlttR3oGAAfrN6ZPsZeUqUy7yrvQBaXZxUNd6xeyZ_zpu3z7vEbG_rI9uLR3JAAD-bPWFChRsYA73DNfFBGB39AY4cc2rgYfPUbTnZSkmPIT9f5LwLGh1tr6GbI8_Wg5YyMLqPP_I5v8_74-PGNsMjg_WUbMOAh-IjBPzRGbszqR7w-L8gERR1HCDCy9n1undGs3qkDheeBATd9L9I-Aoo9FTSOQx_H8nQUHIFM6kvout0x-QCvYDa5PYNlH6Q0wXP9J5qEyzdAEM65Q3dTRjK18i8klikng6N72k76S7vLx-v9Mv8y6H-iwfMsRMuFs27Yye-WnY5LGgqhsZeH8167oiT3hIlNwprV8Gv8bjmAvv3_4d59fmIOOf_PXX3B5Q_PPQprbEq6U97aH_XlCEDWm5v9GJuV7HyOamOUMgseUuj_-piTqcRYQhGxTGIPcM4c15P3Imbj7QTHY5HyOiSVI1eHnj9YtD1bBIugmEKf-KfDkltWl0LUiTqQwVPaxvhDKQ1Wf35o_kqQp7rNwi0ci1WW30iEwAAAA.webp",
+        "duration": "1:21",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxlTg_Nf5NzdCP691s525j-bfKmzsKaxhKV_ct1QgQ9R454rQCrZLqcuc&s=10",
+        "link": "https://www.instagram.com/reel/DUXx1vTDYYG/"
+      },
+      {
+        "position": 4,
+        "title": "O iodo é um mineral essencial para a produção dos hormônios ... enviado por Dr. Ivan Ramos | Médico Clínico em Instagram. Assistir em Instagram. 1:22",
+        "source": "Instagram",
+        "profile_name": "Dr. Ivan Ramos | Médico Clínico",
+        "extensions": [
+          "Dr. Ivan Ramos | Médico Clínico"
+        ],
+        "source_logo": "https://serpapi.com/images/i/UklGRs4BAABXRUJQVlA4IMIBAACwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHXnqv4q8gZxcYcQlttR3oGAAfrN6ZPsZeUqUy7yrvQBaXZxUNd6xeyZ_zpu3z7vEbG_rI9uLR3JAAD-bPWFChRsYA73DNfFBGB39AY4cc2rgYfPUbTnZSkmPIT9f5LwLGh1tr6GbI8_Wg5YyMLqPP_I5v8_74-PGNsMjg_WUbMOAh-IjBPzRGbszqR7w-L8gERR1HCDCy9n1undGs3qkDheeBATd9L9I-Aoo9FTSOQx_H8nQUHIFM6kvout0x-QCvYDa5PYNlH6Q0wXP9J5qEyzdAEM65Q3dTRjK18i8klikng6N72k76S7vLx-v9Mv8y6H-iwfMsRMuFs27Yye-WnY5LGgqhsZeH8167oiT3hIlNwprV8Gv8bjmAvv3_4d59fmIOOf_PXX3B5Q_PPQprbEq6U97aH_XlCEDWm5v9GJuV7HyOamOUMgseUuj_-piTqcRYQhGxTGIPcM4c15P3Imbj7QTHY5HyOiSVI1eHnj9YtD1bBIugmEKf-KfDkltWl0LUiTqQwVPaxvhDKQ1Wf35o_kqQp7rNwi0ci1WW30iEwAAAA.webp",
+        "duration": "1:22",
+        "clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQG9O-dwuMaRYjgohndmyxCVm8Zf6AYaQcbpg",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd7CjzP1sqSsvxovEabH2eY_GrsBvRYwLOwzmmgJopV0-OrtqN-IQvS_o&s=10",
+        "link": "https://www.instagram.com/reel/DU_nmogAZuA/"
+      },
+      {
+        "position": 5,
+        "title": "Iodine: The Secret to a Healthy Thyroid Revealed!",
+        "source": "YouTube",
+        "profile_name": "Tua Saúde",
+        "extensions": [
+          "Tua Saúde"
+        ],
+        "source_logo": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+        "duration": "0:16",
+        "clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRxcL4Xv6epdTApoq_DjhbJ3yYmwJ2yGXjgyg",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRABtYv_eFhy9L1SXDQkfkmLbcFX4yCwoHjxd-9ahEG9myYdM3tFaJQMqc&s=10",
+        "link": "https://www.youtube.com/shorts/dDkCusjosYM"
+      },
+      {
+        "position": 6,
+        "title": "A necessidade do IODO muito além da Tireoide enviado por Dr. Victor Lamônica • 𝖼𝗋𝗆 𝟣𝟥𝟫𝟦𝟦𝟤 | 𝗋𝗊𝖾 𝟦𝟨𝟤𝟥𝟥 em Instagram. Assistir em Instagram. 0:34",
+        "source": "Instagram",
+        "profile_name": "Dr. Victor Lamônica • 𝖼𝗋𝗆 𝟣𝟥𝟫𝟦𝟦𝟤 | 𝗋𝗊𝖾 𝟦𝟨𝟤𝟥𝟥",
+        "extensions": [
+          "Dr. Victor Lamônica • 𝖼𝗋𝗆 𝟣𝟥𝟫𝟦𝟦𝟤 | 𝗋𝗊𝖾 𝟦𝟨𝟤𝟥𝟥"
+        ],
+        "source_logo": "https://serpapi.com/images/i/UklGRs4BAABXRUJQVlA4IMIBAACwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHXnqv4q8gZxcYcQlttR3oGAAfrN6ZPsZeUqUy7yrvQBaXZxUNd6xeyZ_zpu3z7vEbG_rI9uLR3JAAD-bPWFChRsYA73DNfFBGB39AY4cc2rgYfPUbTnZSkmPIT9f5LwLGh1tr6GbI8_Wg5YyMLqPP_I5v8_74-PGNsMjg_WUbMOAh-IjBPzRGbszqR7w-L8gERR1HCDCy9n1undGs3qkDheeBATd9L9I-Aoo9FTSOQx_H8nQUHIFM6kvout0x-QCvYDa5PYNlH6Q0wXP9J5qEyzdAEM65Q3dTRjK18i8klikng6N72k76S7vLx-v9Mv8y6H-iwfMsRMuFs27Yye-WnY5LGgqhsZeH8167oiT3hIlNwprV8Gv8bjmAvv3_4d59fmIOOf_PXX3B5Q_PPQprbEq6U97aH_XlCEDWm5v9GJuV7HyOamOUMgseUuj_-piTqcRYQhGxTGIPcM4c15P3Imbj7QTHY5HyOiSVI1eHnj9YtD1bBIugmEKf-KfDkltWl0LUiTqQwVPaxvhDKQ1Wf35o_kqQp7rNwi0ci1WW30iEwAAAA.webp",
+        "duration": "0:34",
+        "clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcSF7yfsDvs-ybkbfnXw9ssFsgyB18BW9sQLZA",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW-VJFq7NQrQlp_e516EQgN5k9gBdwe1jRhneF7ENN9ywsoqJGgE0nS-4&s=10",
+        "link": "https://www.instagram.com/reel/DVMVSG6kRwc/"
+      },
+      {
+        "position": 7,
+        "title": "Iodo e o Iodeto são extremamente importantes para o nosso ... enviado por Katia Haranaka em Facebook. Assistir em Facebook. 0:25",
+        "source": "Facebook",
+        "profile_name": "Katia Haranaka",
+        "extensions": [
+          "Katia Haranaka"
+        ],
+        "source_logo": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+        "duration": "0:25",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF1K6QtECfvGeT8qzPWaH2x9TH57mA2nJ15OKeWFGSs-kloutMDe-XJPQ&s=10",
+        "link": "https://www.facebook.com/katiaharanaka/videos/iodo-e-o-iodeto-s%C3%A3o-extremamente-importantes-para-o-nosso-corpo-sendo-essenciais/1116393559126393/"
+      },
+      {
+        "position": 8,
+        "title": "IODO E IODETO: você sabe por que são importantes para o ... enviado por Adriana Ribeiro em Facebook. Assistir em Facebook. 1:16",
+        "source": "Facebook",
+        "profile_name": "Adriana Ribeiro",
+        "extensions": [
+          "Adriana Ribeiro"
+        ],
+        "source_logo": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+        "duration": "1:16",
+        "clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcTMUagra-yT1qiUeklfzA-FAu4OgAMOaN9vjA",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLHkxHa4w5pKuOH4OKdyBCkBAurYf2HHSLJrJFSQLLGPo4zUh3aOvCPVM&s=10",
+        "link": "https://www.facebook.com/perfiladrianaassistentesocial/videos/-iodo-e-iodeto-voc%C3%AA-sabe-por-que-s%C3%A3o-importantes-para-o-organismoo-iodo-%C3%A9-um-min/2047910472534889/"
+      }
+    ],
+    "related_questions": [
+      {
+        "question": "Onde pode ser encontrado o iodo?",
+        "type": "featured_snippet",
+        "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSllVSjJNMUowWHpWV2NHMXBZbkJXT1RKYWRVNVBiMFphZEZoeE0wMDBSSE14UmtRdFNESTJXVGhvYlhNMWNEUTFkV053YnpsVU1EaG9VR05rY2pSa2MzbFFOVVJOVlVGSE1tNVhjVzlMTFc1cGFGVjVOMjVwUWtKVmR4SVhTR3BRVjJGMGVrVkRTVU5YTlU5TlVEbHdhbFU0VVdzYUlrRkVjM0k1WmxJd1pIaHpSVlo2TTJKeGRXcHlVMlpZYm1OeVNHbGxWV0Z0TVZFIiwiZmN2IjoiMyIsImVpIjoiSGpQV2F0ekVDSUNXNU9NUDlwalU4UWsiLCJxYyI6IkNnUnBiMlJ2RUZJWUFYMmJGVEVfb2dFQ2NIUSIsInF1ZXN0aW9uIjoiT25kZSBwb2RlIHNlciBlbmNvbnRyYWRvIG8gaW9kbz8iLCJsayI6IkdoOXZibVJsSUhCdlpHVWdjMlZ5SUdWdVkyOXVkSEpoWkc4Z2J5QnBiMlJ2IiwiYnMiOiJjLU55NVZMd3owdEpWU2pJQnhMRnFVVUtxWG5KLVhrbFJZa3AtUXI1Q3BuNUtmbjJSb3BTOHZuNDFYQUJqUWxJTEVwVUtDd0ZxeWhMaFVvbzVDVXFwS1VXWmFZa2dvMHB3Sy1HeTVoTHpoOGlCcllyTVMyMUpMRklJVkdoSkxNb05UOHpKZFhlU0ZDS0h5eWZDaGZqY3VTU3gyNTN6dUcxaGFXWklCX0lTY21naUNpZ09rU0FFUUEiLCJpZCI6ImZjX0hqUFdhdHpFQ0lDVzVPTVA5cGpVOFFrXzcifQ==",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSllVSjJNMUowWHpWV2NHMXBZbkJXT1RKYWRVNVBiMFphZEZoeE0wMDBSSE14UmtRdFNESTJXVGhvYlhNMWNEUTFkV053YnpsVU1EaG9VR05rY2pSa2MzbFFOVVJOVlVGSE1tNVhjVzlMTFc1cGFGVjVOMjVwUWtKVmR4SVhTR3BRVjJGMGVrVkRTVU5YTlU5TlVEbHdhbFU0VVdzYUlrRkVjM0k1WmxJd1pIaHpSVlo2TTJKeGRXcHlVMlpZYm1OeVNHbGxWV0Z0TVZFIiwiZmN2IjoiMyIsImVpIjoiSGpQV2F0ekVDSUNXNU9NUDlwalU4UWsiLCJxYyI6IkNnUnBiMlJ2RUZJWUFYMmJGVEVfb2dFQ2NIUSIsInF1ZXN0aW9uIjoiT25kZSBwb2RlIHNlciBlbmNvbnRyYWRvIG8gaW9kbz8iLCJsayI6IkdoOXZibVJsSUhCdlpHVWdjMlZ5SUdWdVkyOXVkSEpoWkc4Z2J5QnBiMlJ2IiwiYnMiOiJjLU55NVZMd3owdEpWU2pJQnhMRnFVVUtxWG5KLVhrbFJZa3AtUXI1Q3BuNUtmbjJSb3BTOHZuNDFYQUJqUWxJTEVwVUtDd0ZxeWhMaFVvbzVDVXFwS1VXWmFZa2dvMHB3Sy1HeTVoTHpoOGlCcllyTVMyMUpMRklJVkdoSkxNb05UOHpKZFhlU0ZDS0h5eWZDaGZqY3VTU3gyNTN6dUcxaGFXWklCX0lTY21naUNpZ09rU0FFUUEiLCJpZCI6ImZjX0hqUFdhdHpFQ0lDVzVPTVA5cGpVOFFrXzcifQ%3D%3D"
+      },
+      {
+        "question": "Para que serve o iodo na ferida?",
+        "type": "featured_snippet",
+        "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSllVSjJNMUowWHpWV2NHMXBZbkJXT1RKYWRVNVBiMFphZEZoeE0wMDBSSE14UmtRdFNESTJXVGhvYlhNMWNEUTFkV053YnpsVU1EaG9VR05rY2pSa2MzbFFOVVJOVlVGSE1tNVhjVzlMTFc1cGFGVjVOMjVwUWtKVmR4SVhTR3BRVjJGMGVrVkRTVU5YTlU5TlVEbHdhbFU0VVdzYUlrRkVjM0k1WmxJd1pIaHpSVlo2TTJKeGRXcHlVMlpZYm1OeVNHbGxWV0Z0TVZFIiwiZmN2IjoiMyIsImVpIjoiSGpQV2F0ekVDSUNXNU9NUDlwalU4UWsiLCJxYyI6IkNnUnBiMlJ2RUZJWUFYMmJGVEVfb2dFQ2NIUSIsInF1ZXN0aW9uIjoiUGFyYSBxdWUgc2VydmUgbyBpb2RvIG5hIGZlcmlkYT8iLCJsayI6IkdoOXdZWEpoSUhGMVpTQnpaWEoyWlNCdklHbHZaRzhnYm1FZ1ptVnlhV1JoIiwiYnMiOiJjLU55NVZMd3owdEpWU2pJQnhMRnFVVUtxWG5KLVhrbFJZa3AtUXI1Q3BuNUtmbjJSb3BTOHZuNDFYQUJqUWxJTEVwVUtDd0ZxeWhMaFVvbzVDVXFwS1VXWmFZa2dvMHB3Sy1HeTVoTHpoOGlCcllyTVMyMUpMRklJVkdoSkxNb05UOHpKZFhlU0ZDS0h5eWZDaGZqY3VTU3gyNTN6dUcxaGFXWklCX0lTY21naUNpZ09rU0FFUUEiLCJpZCI6ImZjX0hqUFdhdHpFQ0lDVzVPTVA5cGpVOFFrXzcifQ==",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSllVSjJNMUowWHpWV2NHMXBZbkJXT1RKYWRVNVBiMFphZEZoeE0wMDBSSE14UmtRdFNESTJXVGhvYlhNMWNEUTFkV053YnpsVU1EaG9VR05rY2pSa2MzbFFOVVJOVlVGSE1tNVhjVzlMTFc1cGFGVjVOMjVwUWtKVmR4SVhTR3BRVjJGMGVrVkRTVU5YTlU5TlVEbHdhbFU0VVdzYUlrRkVjM0k1WmxJd1pIaHpSVlo2TTJKeGRXcHlVMlpZYm1OeVNHbGxWV0Z0TVZFIiwiZmN2IjoiMyIsImVpIjoiSGpQV2F0ekVDSUNXNU9NUDlwalU4UWsiLCJxYyI6IkNnUnBiMlJ2RUZJWUFYMmJGVEVfb2dFQ2NIUSIsInF1ZXN0aW9uIjoiUGFyYSBxdWUgc2VydmUgbyBpb2RvIG5hIGZlcmlkYT8iLCJsayI6IkdoOXdZWEpoSUhGMVpTQnpaWEoyWlNCdklHbHZaRzhnYm1FZ1ptVnlhV1JoIiwiYnMiOiJjLU55NVZMd3owdEpWU2pJQnhMRnFVVUtxWG5KLVhrbFJZa3AtUXI1Q3BuNUtmbjJSb3BTOHZuNDFYQUJqUWxJTEVwVUtDd0ZxeWhMaFVvbzVDVXFwS1VXWmFZa2dvMHB3Sy1HeTVoTHpoOGlCcllyTVMyMUpMRklJVkdoSkxNb05UOHpKZFhlU0ZDS0h5eWZDaGZqY3VTU3gyNTN6dUcxaGFXWklCX0lTY21naUNpZ09rU0FFUUEiLCJpZCI6ImZjX0hqUFdhdHpFQ0lDVzVPTVA5cGpVOFFrXzcifQ%3D%3D"
+      },
+      {
+        "question": "O iodo pode afetar a tireoide?",
+        "type": "featured_snippet",
+        "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSllVSjJNMUowWHpWV2NHMXBZbkJXT1RKYWRVNVBiMFphZEZoeE0wMDBSSE14UmtRdFNESTJXVGhvYlhNMWNEUTFkV053YnpsVU1EaG9VR05rY2pSa2MzbFFOVVJOVlVGSE1tNVhjVzlMTFc1cGFGVjVOMjVwUWtKVmR4SVhTR3BRVjJGMGVrVkRTVU5YTlU5TlVEbHdhbFU0VVdzYUlrRkVjM0k1WmxJd1pIaHpSVlo2TTJKeGRXcHlVMlpZYm1OeVNHbGxWV0Z0TVZFIiwiZmN2IjoiMyIsImVpIjoiSGpQV2F0ekVDSUNXNU9NUDlwalU4UWsiLCJxYyI6IkNnUnBiMlJ2RUZJWUFYMmJGVEVfb2dFQ2NIUSIsInF1ZXN0aW9uIjoiTyBpb2RvIHBvZGUgYWZldGFyIGEgdGlyZW9pZGU/IiwibGsiOiJHZzlwYjJSdklHVWdkR2x5Wlc5cFpHVSIsImJzIjoiYy1OeTVWTHd6MHRKVlNqSUJ4TEZxVVVLcVhuSi1Ya2xSWWtwLVFyNUNwbjVLZm4yUm9wUzh2bjQxWEFCalFsSUxFcFVLQ3dGcXloTGhVb281Q1VxcEtVV1phWWtnbzBwd0stR3k1aEx6aDhpQnJZck1TMjFKTEZJSVZHaEpMTW9OVDh6SmRYZVNGQ0tIeXlmQ2hmamN1U1N4MjUzenVHMWhhV1pJQl9JU2NtZ2lDaWdPa1NBRVFBIiwiaWQiOiJmY19IalBXYXR6RUNJQ1c1T01QOXBqVThRa183In0=",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSllVSjJNMUowWHpWV2NHMXBZbkJXT1RKYWRVNVBiMFphZEZoeE0wMDBSSE14UmtRdFNESTJXVGhvYlhNMWNEUTFkV053YnpsVU1EaG9VR05rY2pSa2MzbFFOVVJOVlVGSE1tNVhjVzlMTFc1cGFGVjVOMjVwUWtKVmR4SVhTR3BRVjJGMGVrVkRTVU5YTlU5TlVEbHdhbFU0VVdzYUlrRkVjM0k1WmxJd1pIaHpSVlo2TTJKeGRXcHlVMlpZYm1OeVNHbGxWV0Z0TVZFIiwiZmN2IjoiMyIsImVpIjoiSGpQV2F0ekVDSUNXNU9NUDlwalU4UWsiLCJxYyI6IkNnUnBiMlJ2RUZJWUFYMmJGVEVfb2dFQ2NIUSIsInF1ZXN0aW9uIjoiTyBpb2RvIHBvZGUgYWZldGFyIGEgdGlyZW9pZGU%2FIiwibGsiOiJHZzlwYjJSdklHVWdkR2x5Wlc5cFpHVSIsImJzIjoiYy1OeTVWTHd6MHRKVlNqSUJ4TEZxVVVLcVhuSi1Ya2xSWWtwLVFyNUNwbjVLZm4yUm9wUzh2bjQxWEFCalFsSUxFcFVLQ3dGcXloTGhVb281Q1VxcEtVV1phWWtnbzBwd0stR3k1aEx6aDhpQnJZck1TMjFKTEZJSVZHaEpMTW9OVDh6SmRYZVNGQ0tIeXlmQ2hmamN1U1N4MjUzenVHMWhhV1pJQl9JU2NtZ2lDaWdPa1NBRVFBIiwiaWQiOiJmY19IalBXYXR6RUNJQ1c1T01QOXBqVThRa183In0%3D"
+      },
+      {
+        "question": "Para que serve o iodo líquido?",
+        "type": "featured_snippet",
+        "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSllVSjJNMUowWHpWV2NHMXBZbkJXT1RKYWRVNVBiMFphZEZoeE0wMDBSSE14UmtRdFNESTJXVGhvYlhNMWNEUTFkV053YnpsVU1EaG9VR05rY2pSa2MzbFFOVVJOVlVGSE1tNVhjVzlMTFc1cGFGVjVOMjVwUWtKVmR4SVhTR3BRVjJGMGVrVkRTVU5YTlU5TlVEbHdhbFU0VVdzYUlrRkVjM0k1WmxJd1pIaHpSVlo2TTJKeGRXcHlVMlpZYm1OeVNHbGxWV0Z0TVZFIiwiZmN2IjoiMyIsImVpIjoiSGpQV2F0ekVDSUNXNU9NUDlwalU4UWsiLCJxYyI6IkNnUnBiMlJ2RUZJWUFYMmJGVEVfb2dFQ2NIUSIsInF1ZXN0aW9uIjoiUGFyYSBxdWUgc2VydmUgbyBpb2RvIGzDrXF1aWRvPyIsImxrIjoiR2h4cGIyUnZJR3pEclhGMWFXUnZJSEJoY21FZ2NYVmxJSE5sY25abCIsImJzIjoiYy1OeTVWTHd6MHRKVlNqSUJ4TEZxVVVLcVhuSi1Ya2xSWWtwLVFyNUNwbjVLZm4yUm9wUzh2bjQxWEFCalFsSUxFcFVLQ3dGcXloTGhVb281Q1VxcEtVV1phWWtnbzBwd0stR3k1aEx6aDhpQnJZck1TMjFKTEZJSVZHaEpMTW9OVDh6SmRYZVNGQ0tIeXlmQ2hmamN1U1N4MjUzenVHMWhhV1pJQl9JU2NtZ2lDaWdPa1NBRVFBIiwiaWQiOiJmY19IalBXYXR6RUNJQ1c1T01QOXBqVThRa183In0=",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSllVSjJNMUowWHpWV2NHMXBZbkJXT1RKYWRVNVBiMFphZEZoeE0wMDBSSE14UmtRdFNESTJXVGhvYlhNMWNEUTFkV053YnpsVU1EaG9VR05rY2pSa2MzbFFOVVJOVlVGSE1tNVhjVzlMTFc1cGFGVjVOMjVwUWtKVmR4SVhTR3BRVjJGMGVrVkRTVU5YTlU5TlVEbHdhbFU0VVdzYUlrRkVjM0k1WmxJd1pIaHpSVlo2TTJKeGRXcHlVMlpZYm1OeVNHbGxWV0Z0TVZFIiwiZmN2IjoiMyIsImVpIjoiSGpQV2F0ekVDSUNXNU9NUDlwalU4UWsiLCJxYyI6IkNnUnBiMlJ2RUZJWUFYMmJGVEVfb2dFQ2NIUSIsInF1ZXN0aW9uIjoiUGFyYSBxdWUgc2VydmUgbyBpb2RvIGzDrXF1aWRvPyIsImxrIjoiR2h4cGIyUnZJR3pEclhGMWFXUnZJSEJoY21FZ2NYVmxJSE5sY25abCIsImJzIjoiYy1OeTVWTHd6MHRKVlNqSUJ4TEZxVVVLcVhuSi1Ya2xSWWtwLVFyNUNwbjVLZm4yUm9wUzh2bjQxWEFCalFsSUxFcFVLQ3dGcXloTGhVb281Q1VxcEtVV1phWWtnbzBwd0stR3k1aEx6aDhpQnJZck1TMjFKTEZJSVZHaEpMTW9OVDh6SmRYZVNGQ0tIeXlmQ2hmamN1U1N4MjUzenVHMWhhV1pJQl9JU2NtZ2lDaWdPa1NBRVFBIiwiaWQiOiJmY19IalBXYXR6RUNJQ1c1T01QOXBqVThRa183In0%3D"
+      }
+    ],
+    "ai_overview": {
+      "text_blocks": [
+        {
+          "type": "paragraph",
+          "snippet": "O iodo é um elemento químico essencial (símbolo I, número atômico 53) e um micronutriente vital para o funcionamento do organismo humano.",
+          "snippet_links": [
+            {
+              "text": "iodo",
+              "link": "https://pt.wikipedia.org/wiki/Iodo"
+            }
+          ],
+          "snippet_highlighted_words": [
+            "é um elemento químico essencial (símbolo I, número atômico 53) e um micronutriente vital para o funcionamento do organismo humano"
+          ],
+          "reference_indexes": [
+            0,
+            1
+          ]
+        },
+        {
+          "type": "paragraph",
+          "snippet": "Gostaria de saber mais sobre os sintomas de deficiência, as fontes alimentares ou como é feita a suplementação de iodo?"
+        }
+      ],
+      "references": [
+        {
+          "index": 0,
+          "title": "Iodo – Wikipédia, a enciclopédia livre",
+          "link": "https://pt.wikipedia.org/wiki/Iodo",
+          "snippet": "O iodo (do grego iodés, cor violeta) é um elemento químico de símbolo I, de número atómico 53 (53 prótons e 53 elétrons) e de massa atómica 126,9 u. À temperatura ...",
+          "source": "Wikipedia",
+          "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://pt.wikipedia.org&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR898BBVNu5YXH0K5zDWctyLPAUoL3UMonRYioAN0OIPRNht14-NkRDsrF_czlE7y1e4bOOcoCAW5UfbVnUX5lB7Ix5nXHefY3316bV8u6cBvSzFwUAUIiZ8aiNpgh3aDgZBALlpsiQbGHEqNh8nV3kHhY"
+        },
+        {
+          "index": 1,
+          "title": "O iodo é um micronutriente essencial porque participa diretamente da ...",
+          "link": "https://www.facebook.com/julioluchmannoficial/videos/o-iodo-%C3%A9-um-micronutriente-essencial-porque-participa-diretamente-da-produ%C3%A7%C3%A3o-do/1098024056516609/",
+          "snippet": "O iodo é um micronutriente essencial porque participa diretamente da produção dos hormônios da tireoide, principalmente T3 e T4. Esses hormônios ajudam a regular o",
+          "source": "Facebook",
+          "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.facebook.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSlP9auqiCqyG2qzV87mCppHsX9BUTdKOSAg7yirRuumw18H_QaFLNF6oyWrzKya75_4Kvbwp8I2VR3MfQKyCRy5XBPUrzb8NY6n8KRnqG34nmINLrcGIBOY0Vja6zJGzjbmgvD8KjKkEMqVRwr1lU9a9U"
+        },
+        {
+          "index": 2,
+          "title": "Lugol NÃO É Suplemento de Iodo: Entenda por que Pode Ser Perigoso!",
+          "link": "https://www.youtube.com/watch?v=E2ZvQF9dB-s&t=62",
+          "snippet": "Lugol NÃO É Suplemento de Iodo: Entenda por que Pode Ser Perigoso! e não é para você se automedicar pois você não consegue se dar um diagnóstico e você não tem com",
+          "source": "YouTube",
+          "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTDzt0zk6GTPVbhxXk7FZ72wfngtIHxHnHQcvQ73wGtiuDLUAYwHmMSoBkOPse4jRn6X3jkwQZRAC52XoKI_PQ-d-fKfuCndEuANA3VmSi1CaF0uxOhCoiX36GVASjLwdU9W_9S9ZqB5NHSEZpJ3x0ayDg"
+        },
+        {
+          "index": 3,
+          "title": "Iodo: veja benefícios e quais doenças a falta desse mineral causa",
+          "link": "https://www.youtube.com/watch?v=3TdbvL4teu4",
+          "snippet": "Iodo: veja benefícios e quais doenças a falta desse mineral causa você já se perguntou qual o papel do iodo no organismo ele é considerado. um dos minerais. indisp",
+          "source": "YouTube",
+          "source_icon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTpAUcOklbgul4Z5P-ZfF3sHRi_1gyoj72V8CPWFh5ARGukOqsRaPbAgzwVO0WcGflVN1wy1EpT7ggZsP-Em6kIWmu0DQTp8VYMQNA-Lp_qBUcPOT6SLTJOU7xe9F_dQuZI15b0VZWr-kUrcSSdaQSB3hg"
+        },
+        {
+          "index": 4,
+          "title": "Qual a importância do iodo para a saúde? Funções, fontes alimentares e mais!",
+          "link": "https://nutritotal.com.br/pro/qual-a-importancia-do-iodo-para-a-saude-funcoes-fontes-alimentares-e-mais/",
+          "snippet": "Qual a importância do iodo para a saúde? Funções, fontes alimentares e mais! * ir para Nutritotal Para Todos | Qual a importância do iodo para a saúde? Funções, fo...",
+          "source": "Nutritotal PRO",
+          "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://nutritotal.com.br&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTJSYpj1QzD9yHbB9Jq-ZbDe5RbjUxKoeW1AhiXGsVNOUQtuaTQVtUFvTBKvdr22ekWzflYkgAJ9xEedFiQbs8sdnGiswjMrMXFwN2AzZsg4diKQwH7AmXD-9xApbNoxw4WiyJeWHNdS86TFnOndIemVZ4"
+        },
+        {
+          "index": 5,
+          "title": "Iodo com menor preço - Drogasil",
+          "link": "https://www.drogasil.com.br/search?w=iodo",
+          "snippet": "* Prod: Iodo/Iodopovidona/Lugol/Selênio/Polivitamínicos (Tópico, Spray, Cápsulas, Pomada, Sachês) * Marcas: Needs, Farmax, Foliapre, La Kesia, Unilife, Maltta Nutr...",
+          "source": "Drogasil",
+          "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.drogasil.com.br&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRfFkmFYhMK_j60lqn926sq1Ngmukk03_uj_Lz-O6S2a18uRxst7vUWrJ5rZN7FF9q5T-VW_hRw9Ci5_lvoUTWVGjD12H0yjwjKzCAK3wFmv5zU8bE2S03scq0Z4bPKctF4ZpXrKXs-ESw"
+        },
+        {
+          "index": 6,
+          "title": "Iodo: qual o seu papel no organismo e como obtê-lo - Lusíadas Saúde",
+          "link": "https://www.lusiadas.pt/blog/prevencao-estilo-vida/nutricao-dieta/iodo-qual-seu-papel-organismo-como-obte-lo",
+          "snippet": "O iodo é um oligoelemento essencial ao normal funcionamento do organismo. A única forma de o obter é a partir da alimentação, visto que, tal como os restantes mine...",
+          "source": "Lusíadas Saúde",
+          "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.lusiadas.pt&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQByFihk71bWJJBWs3AD2Jzd-SgqYKkWqZOTbJN2n-3n0qAC6YgiWx6MsMnnjS7WXJFhs7ePd-rRh3MHlSbsWwB9nnf6GDn7YPUdaDkHAfG0XYgMLsaw8ghgjMDKvtlK1YGlYIjvLvThvHx0B4QmHSsqZ8"
+        },
+        {
+          "index": 7,
+          "title": "Farmax Tintura de Iodo 2% 30ml",
+          "link": "https://www.google.com/search?ibp=oshop&prds=pvt%3Ahg%2Cpvo%3A29%2Cproductid%3A9809660435461358550%2Ccatalogid%3A15918060635643608241%2Cgpcid%3A7483780156123834196%2Cmid%3A576462849163098141&q=product",
+          "snippet": "Indicacao A Tinta Iodo Farmax 2% 30Ml é indicada para desinfecção e antisepsia de superfícies e equipamentos em ambientes hospitalares, clínicas e outros locais que exigem alta higiene.Composicao e Ativos A composição da Tinta Iodo Farmax inclui iodo como princípio ativo, que é um agente antimicrobiano eficaz contra uma ampla gama de microrganismos.Modo de Uso Aplique a tinta iodo de acordo com as instruções do fabricante. Garanta que a superfície esteja limpa e seca antes da aplicação. Beneficios Desinfecção eficaz de superfícies e equipamentos. Reduz o risco de infecções e contaminações. Precaucoes Use equipamento de proteção individual ao manipular a tinta iodo. Evite o contato com a pele e os olhos.",
+          "source": "Google",
+          "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.google.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRs93QUjiScCH2Xve_yS7v9H4r32CuyrvR3JBnhtcuASBhKLKVCAHbUzQCsavvNyX_4mdc5L4XF6SzLLx8"
+        },
+        {
+          "index": 8,
+          "title": "Iodine and thyroid: what nobody told you | Dr Juliano Teles",
+          "link": "https://www.youtube.com/watch?v=OVFuHTBscZc&t=10",
+          "snippet": "Iodo e tireoide: o que ninguém te contou | Dr Juliano Teles repor então é isso que eu vou falar para vocês aqui hoje bom antigamente pessoal não sei se os mais ant",
+          "source": "YouTube",
+          "source_icon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQfFyi9gqIGWklbXyM6cF9EcV6tN279tY6w9-71fZ0nsJdoYZAT59UmN2Oiw1PKdAyYL4A7U5r70qOjFgMEa3cMaLsW5O8dA9r9vy9CSRpwOyPY2EGNmENQEXj4OWe86Madi9kRhqmZdFk7VvJCY68I6fc"
+        }
+      ]
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "title": "O que é Iodo? Descubra a Importância deste Elemento Vital",
+        "link": "https://www.puravida.com.br/glossario/letra/i/iodo?srsltid=AU7gw4W1F_bgH6QAFq2VcS00Vocnp2uSqhoqL8mtOAS0xTPusuUQ2iQk",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESrgEB6zswFRXAjnp336KXatxZQwLrGn9sVPEDvzcItYIDA3GrnAeoqJdL9K8Xc-1omeTOVHa_zNhUR6bzLYanlOdZm_RakS8cAXdIDNcEbVnULV5Is7yRy_R8WttiHBsCDJvjf28cn8e24_7IJRT6V6zl93SJDlnF5TNAVpFjqcgKKcZDP3zDDgT19xwm9I2P0UqkIYj8Rmf56kva2WkciV9W398xmPaUKxF9IeaPumw&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4QFnoECCEQAQ&uoh=1",
+        "displayed_link": "https://www.puravida.com.br › Glossário",
+        "favicon": "https://serpapi.com/images/i/UklGRvYAAABXRUJQVlA4IOoAAAAQBgCdASocABwAPtE-tFooIigoFAEAGglpAAUQIZV4u_obfq_sAHiW0HKWs1-RGsaPYkhSL_Bxw4AA_vKFODJyq4BVxu5xs4kyPi1HrF9MKNJd2Yral7_Lp8A2D6BrW4I9aOzgVy_Re7vLfnfhOdPeAkjZfBofE85LERr1DPnhoNJhdT6fD3ev0mkdYZPGnlRfUMPJcNiRjdVOt5DrNsy-u69YOxBw9FSFHol4iX71oyrU4HBcYoCfILoCyo_6rx-nAXpvB9xs8qAedVyGUsH4u86CWPXuRdkSaHlmIyByY8F41j7ghLtAAAA.webp",
+        "snippet": "O iodo é um elemento químico fundamental para a saúde humana e animal. É encontrado naturalmente no ambiente, sendo absorvido por organismos marinhos, plantas e ...",
+        "snippet_highlighted_words": [
+          "O iodo é um elemento químico fundamental para a saúde humana e animal"
+        ],
+        "about_this_result": {
+          "source": {
+            "description": "O iodo é um elemento químico fundamental para a saúde humana e animal. É encontrado naturalmente no ambiente, sendo absorvido por organismos marinhos, plantas e ...",
+            "source_info_link": "https://www.puravida.com.br/glossario/letra/i/iodo?srsltid=AU7gw4W1F_bgH6QAFq2VcS00Vocnp2uSqhoqL8mtOAS0xTPusuUQ2iQk",
+            "icon": "https://serpapi.com/images/i/UklGRvYAAABXRUJQVlA4IOoAAAAQBgCdASocABwAPtE-tFooIigoFAEAGglpAAUQIZV4u_obfq_sAHiW0HKWs1-RGsaPYkhSL_Bxw4AA_vKFODJyq4BVxu5xs4kyPi1HrF9MKNJd2Yral7_Lp8A2D6BrW4I9aOzgVy_Re7vLfnfhOdPeAkjZfBofE85LERr1DPnhoNJhdT6fD3ev0mkdYZPGnlRfUMPJcNiRjdVOt5DrNsy-u69YOxBw9FSFHol4iX71oyrU4HBcYoCfILoCyo_6rx-nAXpvB9xs8qAedVyGUsH4u86CWPXuRdkSaHlmIyByY8F41j7ghLtAAAA.webp"
+          },
+          "languages": [
+            "pt"
+          ],
+          "regions": [
+            "BR"
+          ]
+        },
+        "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CvUBL2dvdG8_dXJsPUNBRVNxd0VCNnpzd0Zid0dFQmJYT3VlLUdNeUNNVmdzNEdFenU0cmZTakpCVkJlNFZXek9pVHJzcF9uZE9kQ3BFYUJobVFQZlI0NzBLRDc1bzNvUFZtQVRzMzg4UDZWSzdvTVpXdkJicmtFeTB0VU9iZERzdGdXdGREbXJ3TDNKb1h4aDI2a0FoMEZCZ1hVcDVlVHVNdlY1WERkaWpoOXlSRW9LUW1yUkc1NkMzVWJkaUwtVFNRa0lfY1lHZnFjWEhSTVdDeko5NzhkQzJ2RHVMclFlbmRhalRGQWNpcEVuMERsTEVob1dJclESBBoCCAAa1AMSABoAIgAqADIGCAMSAmJyOgBCBAgBEFJKAFoAcgB6AIJAsAMIDBAAGAAgACoLCgRpb2RvFVRFt0AynQEvZ290bz91cmw9Q0FFU2FnSHJPekFWdVhGeWV5RndKbmdOZlJjSlFFZ25TT3hwS0FfS1NLV2U2VlZEbEZQaWFiUlhDdWpUQkVHeUdEV3JONG9LUXJ0eXBPRXhkZnFwWnYwdER5WnpiWnhhLXNDWVNOVVNVUzV2MzNzX2xsTm9GSW9xVlF6S2REbFlKcHB4dWdsdXA3QlpzZnRxSkh3OkJPIHF1ZSDDqSA8Yj5Jb2RvPC9iPj8gRGVzY3VicmEgYSBJbXBvcnTDom5jaWEgZGVzdGUgRWxlbWVudG8gVml0YWxCtAE8Yj5PIGlvZG8gw6kgdW0gZWxlbWVudG8gcXXDrW1pY28gZnVuZGFtZW50YWwgcGFyYSBhIHNhw7pkZSBodW1hbmEgZSBhbmltYWw8L2I-LiDDiSBlbmNvbnRyYWRvIG5hdHVyYWxtZW50ZSBubyBhbWJpZW50ZSwgc2VuZG8gYWJzb3J2aWRvIHBvciBvcmdhbmlzbW9zIG1hcmluaG9zLCBwbGFudGFzIGUmbmJzcDsuLi4iAhABSABYAGgA",
+        "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CvUBL2dvdG8_dXJsPUNBRVNxd0VCNnpzd0Zid0dFQmJYT3VlLUdNeUNNVmdzNEdFenU0cmZTakpCVkJlNFZXek9pVHJzcF9uZE9kQ3BFYUJobVFQZlI0NzBLRDc1bzNvUFZtQVRzMzg4UDZWSzdvTVpXdkJicmtFeTB0VU9iZERzdGdXdGREbXJ3TDNKb1h4aDI2a0FoMEZCZ1hVcDVlVHVNdlY1WERkaWpoOXlSRW9LUW1yUkc1NkMzVWJkaUwtVFNRa0lfY1lHZnFjWEhSTVdDeko5NzhkQzJ2RHVMclFlbmRhalRGQWNpcEVuMERsTEVob1dJclESBBoCCAAa1AMSABoAIgAqADIGCAMSAmJyOgBCBAgBEFJKAFoAcgB6AIJAsAMIDBAAGAAgACoLCgRpb2RvFVRFt0AynQEvZ290bz91cmw9Q0FFU2FnSHJPekFWdVhGeWV5RndKbmdOZlJjSlFFZ25TT3hwS0FfS1NLV2U2VlZEbEZQaWFiUlhDdWpUQkVHeUdEV3JONG9LUXJ0eXBPRXhkZnFwWnYwdER5WnpiWnhhLXNDWVNOVVNVUzV2MzNzX2xsTm9GSW9xVlF6S2REbFlKcHB4dWdsdXA3QlpzZnRxSkh3OkJPIHF1ZSDDqSA8Yj5Jb2RvPC9iPj8gRGVzY3VicmEgYSBJbXBvcnTDom5jaWEgZGVzdGUgRWxlbWVudG8gVml0YWxCtAE8Yj5PIGlvZG8gw6kgdW0gZWxlbWVudG8gcXXDrW1pY28gZnVuZGFtZW50YWwgcGFyYSBhIHNhw7pkZSBodW1hbmEgZSBhbmltYWw8L2I-LiDDiSBlbmNvbnRyYWRvIG5hdHVyYWxtZW50ZSBubyBhbWJpZW50ZSwgc2VuZG8gYWJzb3J2aWRvIHBvciBvcmdhbmlzbW9zIG1hcmluaG9zLCBwbGFudGFzIGUmbmJzcDsuLi4iAhABSABYAGgA",
+        "source": "puravida.com.br"
+      },
+      {
+        "position": 2,
+        "title": "Iodo – Drogaria Sao Paulo",
+        "link": "https://www.drogariasaopaulo.com.br/iodo",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESYwHrOzAVofofquNNyPso1_dzVM2xRbIMiWsk5WPRhILPmpmuLk4haiI-2p4qAF6gPRpi4Enrcyu_s8aorNF6ExnTG75RmGkx5KqPbS2nkp5UakCUuc-KkxVkyrYoNUu305tS3Q&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4QFnoECCsQAQ&uoh=1",
+        "displayed_link": "https://www.drogariasaopaulo.com.br › iodo",
+        "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd-UAAAAhklEQVR4AWNwL_ChKx4GFo5a-N7LVwmIDYnB2AxYduuFOBAbEonVQRZeAeL_RGInLBY6AfF_IvGVYWrhqIVQsTgsWAlHKg3Hgq-QYuFeSvMb0PC9A2vhqIWgBIKO8RiujobFCVuIiX8hYwLZ4hc6Ht4Zf9TCOIKYcNGWRCQOH21EkYxHLQQAQNS2X0cMFvwAAAAASUVORK5CYII.png",
+        "snippet": "Antibióticos e antimicrobianos vendas apenas em lojas físicas ou televendas. Portaria nº 344 - 01/02/1999 - Ministério da Saúde. Atendimento ao Cliente pelo APP ...",
+        "rich_snippet": {
+          "top": {
+            "detected_extensions": {
+              "rating": 3.9
+            },
+            "extensions": [
+              "3,9",
+              "classificação da loja (201 mil)"
+            ]
+          }
+        },
+        "about_this_result": {
+          "source": {
+            "description": "Antibióticos e antimicrobianos vendas apenas em lojas físicas ou televendas. Portaria nº 344 - 01/02/1999 - Ministério da Saúde. Atendimento ao Cliente pelo APP ...",
+            "source_info_link": "https://www.drogariasaopaulo.com.br/iodo",
+            "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd-UAAAAhklEQVR4AWNwL_ChKx4GFo5a-N7LVwmIDYnB2AxYduuFOBAbEonVQRZeAeL_RGInLBY6AfF_IvGVYWrhqIVQsTgsWAlHKg3Hgq-QYuFeSvMb0PC9A2vhqIWgBIKO8RiujobFCVuIiX8hYwLZ4hc6Ht4Zf9TCOIKYcNGWRCQOH21EkYxHLQQAQNS2X0cMFvwAAAAASUVORK5CYII.png"
+          },
+          "languages": [
+            "pt"
+          ],
+          "regions": [
+            "BR"
+          ]
+        },
+        "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CpABL2dvdG8_dXJsPUNBRVNZQUhyT3pBVnFnWWxTcno4Z2ZuR2U2WjJuNkZFZU1xZGdnZ2JwZWViTFRpNFJiX1laSEhYSWgtNFpMMUdMUWw1WXFUTmJBQjRxaWltR0JKdGFYaUw4N1MtSkxIZ1VCWDFfV05NTGtaOUVRcGlNSnZlMEx0Y0VyeHFyaHFpWUFfRHZnEgQaAggAGqEDEgAaACIAKgAyBggBEgJicjoAQgQIARBSSgBaAHIAegCCQP0CCAwQABgAIAAqCwoEaW9kbxXy33RAMpABL2dvdG8_dXJsPUNBRVNZQUhyT3pBVnFnWWxTcno4Z2ZuR2U2WjJuNkZFZU1xZGdnZ2JwZWViTFRpNFJiX1laSEhYSWgtNFpMMUdMUWw1WXFUTmJBQjRxaWltR0JKdGFYaUw4N1MtSkxIZ1VCWDFfV05NTGtaOUVRcGlNSnZlMEx0Y0VyeHFyaHFpWUFfRHZnOiI8Yj5Jb2RvPC9iPiDigJMgRHJvZ2FyaWEgU2FvIFBhdWxvQq4BQW50aWJpw7N0aWNvcyBlIGFudGltaWNyb2JpYW5vcyB2ZW5kYXMgYXBlbmFzIGVtIGxvamFzIGbDrXNpY2FzIG91IHRlbGV2ZW5kYXMuIFBvcnRhcmlhIG7CuiAzNDQgLSAwMS8wMi8xOTk5IC0gTWluaXN0w6lyaW8gZGEgU2HDumRlLiBBdGVuZGltZW50byBhbyBDbGllbnRlIHBlbG8gQVBQJm5ic3A7Li4uIgIQAUgAWABoAA",
+        "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpABL2dvdG8_dXJsPUNBRVNZQUhyT3pBVnFnWWxTcno4Z2ZuR2U2WjJuNkZFZU1xZGdnZ2JwZWViTFRpNFJiX1laSEhYSWgtNFpMMUdMUWw1WXFUTmJBQjRxaWltR0JKdGFYaUw4N1MtSkxIZ1VCWDFfV05NTGtaOUVRcGlNSnZlMEx0Y0VyeHFyaHFpWUFfRHZnEgQaAggAGqEDEgAaACIAKgAyBggBEgJicjoAQgQIARBSSgBaAHIAegCCQP0CCAwQABgAIAAqCwoEaW9kbxXy33RAMpABL2dvdG8_dXJsPUNBRVNZQUhyT3pBVnFnWWxTcno4Z2ZuR2U2WjJuNkZFZU1xZGdnZ2JwZWViTFRpNFJiX1laSEhYSWgtNFpMMUdMUWw1WXFUTmJBQjRxaWltR0JKdGFYaUw4N1MtSkxIZ1VCWDFfV05NTGtaOUVRcGlNSnZlMEx0Y0VyeHFyaHFpWUFfRHZnOiI8Yj5Jb2RvPC9iPiDigJMgRHJvZ2FyaWEgU2FvIFBhdWxvQq4BQW50aWJpw7N0aWNvcyBlIGFudGltaWNyb2JpYW5vcyB2ZW5kYXMgYXBlbmFzIGVtIGxvamFzIGbDrXNpY2FzIG91IHRlbGV2ZW5kYXMuIFBvcnRhcmlhIG7CuiAzNDQgLSAwMS8wMi8xOTk5IC0gTWluaXN0w6lyaW8gZGEgU2HDumRlLiBBdGVuZGltZW50byBhbyBDbGllbnRlIHBlbG8gQVBQJm5ic3A7Li4uIgIQAUgAWABoAA",
+        "source": "Drogaria Sao Paulo"
+      },
+      {
+        "position": 3,
+        "title": "Deficiência de IODO: Como tratar ? Quais os danos para a Saúde",
+        "link": "https://www.youtube.com/watch?v=Bkh4PXzHjVQ",
+        "displayed_link": "Mais de 53,1 mil visualizações · há 6 anos",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA9oKTGYj1tSecW37PukmOcZ-4nsqZmpJ9iJqniKbEVG9aXZT69U2Tww&s",
+        "favicon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+        "snippet": "O Iodo é um halogêneo que compete para \"entrar\" em nosso organismo com outras substâncias da mesma categoria. Saiba mais assistindo ao vídeo ...",
+        "duration": "3:55",
+        "about_this_result": {
+          "source": {
+            "description": "O Iodo é um halogêneo que compete para \"entrar\" em nosso organismo com outras substâncias da mesma categoria. Saiba mais assistindo ao vídeo ...",
+            "icon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp"
+          }
+        },
+        "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CpQBL2dvdG8_dXJsPUNBRVNZd0hyT3pBVnFKSzItYWk2RldhTVhjWHp1VUQ4NzJCelRJSW5zMXBpN3VwX1ZIbXhzS3pmN3FQV3BKanpWLVJkSDJ4dWU2QmJwc0RFcWhITERFQ01ldzlRcm55cVVTZzNRT2RaVlVCZnF2bkkzMnJKb1pUeFhqQjVZbGVPLW1IbmFWcHNDURIWChAKBAgwSAIKBAhISAIKAgg_GgIIABoWEgAaACIAKgAyADoAQgBKAFoAcgB6ACICEAFIAFgAaAA",
+        "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpQBL2dvdG8_dXJsPUNBRVNZd0hyT3pBVnFKSzItYWk2RldhTVhjWHp1VUQ4NzJCelRJSW5zMXBpN3VwX1ZIbXhzS3pmN3FQV3BKanpWLVJkSDJ4dWU2QmJwc0RFcWhITERFQ01ldzlRcm55cVVTZzNRT2RaVlVCZnF2bkkzMnJKb1pUeFhqQjVZbGVPLW1IbmFWcHNDURIWChAKBAgwSAIKBAhISAIKAgg_GgIIABoWEgAaACIAKgAyADoAQgBKAFoAcgB6ACICEAFIAFgAaAA",
+        "video_link": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcS_TS8Hgy7SfEY0P3Iwli9iqxVhL9977Zr2CA",
+        "source": "YouTube · Dr. Ítalo Rachid"
+      },
+      {
+        "position": 4,
+        "title": "Which foods are rich in iodine?",
+        "link": "https://www.youtube.com/watch?v=LQ2Xg77pg8Q",
+        "displayed_link": "Mais de 5,6 mil visualizações · há 2 anos",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ivMDueLC7qbCXekK6QIWfGE5pZrjdVx9WNEXuOEBYwxU-HkOe2tQ_Q&s",
+        "favicon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+        "snippet": "A tireoide usa iodo para produzir seus hormônios: T4 e T3. A principal fonte alimentar de iodo é o sal de cozinha. Por lei, no Brasil, ...",
+        "duration": "6:19",
+        "about_this_result": {
+          "source": {
+            "description": "A tireoide usa iodo para produzir seus hormônios: T4 e T3. A principal fonte alimentar de iodo é o sal de cozinha. Por lei, no Brasil, ...",
+            "icon": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp"
+          }
+        },
+        "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CpQBL2dvdG8_dXJsPUNBRVNZd0hyT3pBVnpoOGtDcFN1c0lWZVBZX3hYd2tVSnctVFJLNW1kaU55bi0xVWl6MUQ3WEpSSVpjc3lsdm9FOEg4eVo4UllIZGNuSlpEQk5lTURNdEZELVlYdW15SmZqazQwNkZmTVY5dVp3NXNfa0NEUXpoOGpFdTRTNkR5X2d6aHpEMTNudxIWChAKBAgwSAIKBAhISAIKAgg_GgIIABoWEgAaACIAKgAyADoAQgBKAFoAcgB6ACICEAFIAFgAaAA",
+        "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CpQBL2dvdG8_dXJsPUNBRVNZd0hyT3pBVnpoOGtDcFN1c0lWZVBZX3hYd2tVSnctVFJLNW1kaU55bi0xVWl6MUQ3WEpSSVpjc3lsdm9FOEg4eVo4UllIZGNuSlpEQk5lTURNdEZELVlYdW15SmZqazQwNkZmTVY5dVp3NXNfa0NEUXpoOGpFdTRTNkR5X2d6aHpEMTNudxIWChAKBAgwSAIKBAhISAIKAgg_GgIIABoWEgAaACIAKgAyADoAQgBKAFoAcgB6ACICEAFIAFgAaAA",
+        "video_link": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQYAglalxIvfhcO27d5nXWvJF7G_EH-mReJ4Q",
+        "source": "YouTube · Dr. Mateus - Endocrinologista"
+      },
+      {
+        "position": 5,
+        "title": "Iodo em Solução 10% 1000 mL NEON",
+        "link": "https://www.orionprodutoscientificos.com.br/iodo-em-solucao-10-1000-ml-fabricante-neon?srsltid=AU7gw4X-cm9ZVU4--KpPlNoUkeKViTPZ04bcmMC9zFCRCbTewjylNShR",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAES0wEB6zswFUFo8BbgZl7fF_Gg-RoTTiyev4SQyDK9glEcJHf9gqejEi-KcnEO5HHClIhF3FsmobmUsDGuOk65A8FRntgccIboPuMpufDsv19jNz4vjczUTIqYH4AIaHgctUjd4aRDfx7b766NbvsDZ-QiEFQWT-LLDYTAi0ue4ThxOv0aD3FcK7v1trKrJLy4M6XOv8AVt2Hm2tRX9Pn-KiX09batHCxP6InK51v9daafFSUD24hMkZBANvywGLSjdQGi_IySftiPinkxIIIigBtTY5BT&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4QFnoECB4QAQ&uoh=1",
+        "displayed_link": "https://www.orionprodutoscientificos.com.br › iodo-em-s...",
+        "favicon": "https://serpapi.com/images/i/UklGRuQAAABXRUJQVlA4INgAAAAwBgCdASogACAAPtE-tFooIigoFAEAGglnAAvsHaq2wKZV_t_KpThAinX1DIGdYSd4B-t6RUnl0I8AAP792jG_vvnQ54v6_UYmjyidsrCaKnakzxXCtLLR-XPabPMVxQCbprVnXA-M0vtVKmUaiok07JQvf5vmfhF3JKvFGSO0i0driiQ9ifXn8o8TCYeo7Wb4FgVFTrJor-VsAprCqSTxWHt0S0W6YdU-eq-kfkoK8N94Yc5xhiMsYJirplHveg-ZByNYkZTEmrKS9JNtkAo_COzXuAAAAAA.webp",
+        "snippet": "Iodo em Solução 10% 1000 mL NEON · 1x de R$ 556,47 sem juros · 2x de R$ 278,23 sem juros · 3x de R$ 185,49 sem juros · 4x de R$ 153,26 · 5x de R$ 124,96 · 6x de ...",
+        "snippet_highlighted_words": [
+          "Iodo em Solução 10% 1000 mL NEON"
+        ],
+        "rich_snippet": {
+          "bottom": {
+            "detected_extensions": {
+              "price": 55647,
+              "currency": "R$",
+              "devolução_em_até_dia_s": 7
+            },
+            "extensions": [
+              "R$ 556,47",
+              "Frete grátis",
+              "Devolução em até 7 dia(s)"
+            ]
+          }
+        },
+        "about_this_result": {
+          "source": {
+            "description": "Iodo em Solução 10% 1000 mL NEON · 1x de R$ 556,47 sem juros · 2x de R$ 278,23 sem juros · 3x de R$ 185,49 sem juros · 4x de R$ 153,26 · 5x de R$ 124,96 · 6x de ...",
+            "source_info_link": "https://www.orionprodutoscientificos.com.br/iodo-em-solucao-10-1000-ml-fabricante-neon?srsltid=AU7gw4X-cm9ZVU4--KpPlNoUkeKViTPZ04bcmMC9zFCRCbTewjylNShR",
+            "icon": "https://serpapi.com/images/i/UklGRuQAAABXRUJQVlA4INgAAAAwBgCdASogACAAPtE-tFooIigoFAEAGglnAAvsHaq2wKZV_t_KpThAinX1DIGdYSd4B-t6RUnl0I8AAP792jG_vvnQ54v6_UYmjyidsrCaKnakzxXCtLLR-XPabPMVxQCbprVnXA-M0vtVKmUaiok07JQvf5vmfhF3JKvFGSO0i0driiQ9ifXn8o8TCYeo7Wb4FgVFTrJor-VsAprCqSTxWHt0S0W6YdU-eq-kfkoK8N94Yc5xhiMsYJirplHveg-ZByNYkZTEmrKS9JNtkAo_COzXuAAAAAA.webp"
+          },
+          "languages": [
+            "pt"
+          ],
+          "regions": [
+            "BR"
+          ]
+        },
+        "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CqYCL2dvdG8_dXJsPUNBRVMwQUVCNnpzd0ZSMjlpLXg0N2V4dHNpSDJzMTJNSFBsN1BaNE1hTkJXYmZuLUJGRWJwbmtUVW8zVGVFNzlqMUdtNlZyUlN0QmRZUFJiaDJjRVVpcEpOdmtkVk0tQkViRnI2QjEyaEFjUmRlYjlvcTVNb0xEZzFfTno4UHZpSm9KSnJ6dHFiTmJsdE5PWUs5R284S3Z5SVJqdG8yMWZDbkZveEw1WnNOTS1MVzA4LTU2ZFZIemNHeFF0Y3l4ZmtweGdwZzVWeE9OaHlKd1ZYNWUtS04xMFVTVjMyYXRuY040S2ZSVFl6dnBwVDZYbFpKY2lDM3pOa0pZMThxUmFvRy00YlBzQ3dFRkRIX1dEeG0yajE1aXR1dlJjEgQaAggAGqYEEgAaACIAKgAyBggBEgJicjoAQgQIARBSSgBaAHIAegCCQIIECAwQABgAIAAqCwoEaW9kbxUwXItAMs4BL2dvdG8_dXJsPUNBRVNqZ0VCNnpzd0ZZWnctUm1tRTdtM0FCeUw5OGxQZDN4RXpOTk5MZlAwMERlQWN0WFk5OUFyQUdpMjFQRnltRWtyMnlzQlRHTjFjU0wwYm4za2FaX3d3Z0l0MldEeXB0NzFFQ1BZNWNucERfYUVOOFpBZUxnMXhsTDd2VGVWci1nd1FlamJIOWk3Vi1ScXR1R2FtVUtVb2FCRDVpY0RkQldsOGdFMjZqRnM0WmU1SExZZWVTSUFvVEo2MmtrSGx6YmI6OzxiPklvZG88L2I-IGVtIFNvbHXDp8OjbyAxMCUgMTAwMCBtTCBORU9OIC0gT3Jpb24gQ2llbnRpZmljQtwBPGI-SW9kbyBlbSBTb2x1w6fDo28gMTAlIDEwMDAgbUwgTkVPTjwvYj4gJm1pZGRvdDsgMXggZGUgUiQgNTU2LDQ3IHNlbSBqdXJvcyAmbWlkZG90OyAyeCBkZSBSJCAyNzgsMjMgc2VtIGp1cm9zICZtaWRkb3Q7IDN4IGRlIFIkIDE4NSw0OSBzZW0ganVyb3MgJm1pZGRvdDsgNHggZGUgUiQgMTUzLDI2ICZtaWRkb3Q7IDV4IGRlIFIkIDEyNCw5NiAmbWlkZG90OyA2eCBkZSZuYnNwOy4uLiICEAFIAFgAaAA",
+        "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CqYCL2dvdG8_dXJsPUNBRVMwQUVCNnpzd0ZSMjlpLXg0N2V4dHNpSDJzMTJNSFBsN1BaNE1hTkJXYmZuLUJGRWJwbmtUVW8zVGVFNzlqMUdtNlZyUlN0QmRZUFJiaDJjRVVpcEpOdmtkVk0tQkViRnI2QjEyaEFjUmRlYjlvcTVNb0xEZzFfTno4UHZpSm9KSnJ6dHFiTmJsdE5PWUs5R284S3Z5SVJqdG8yMWZDbkZveEw1WnNOTS1MVzA4LTU2ZFZIemNHeFF0Y3l4ZmtweGdwZzVWeE9OaHlKd1ZYNWUtS04xMFVTVjMyYXRuY040S2ZSVFl6dnBwVDZYbFpKY2lDM3pOa0pZMThxUmFvRy00YlBzQ3dFRkRIX1dEeG0yajE1aXR1dlJjEgQaAggAGqYEEgAaACIAKgAyBggBEgJicjoAQgQIARBSSgBaAHIAegCCQIIECAwQABgAIAAqCwoEaW9kbxUwXItAMs4BL2dvdG8_dXJsPUNBRVNqZ0VCNnpzd0ZZWnctUm1tRTdtM0FCeUw5OGxQZDN4RXpOTk5MZlAwMERlQWN0WFk5OUFyQUdpMjFQRnltRWtyMnlzQlRHTjFjU0wwYm4za2FaX3d3Z0l0MldEeXB0NzFFQ1BZNWNucERfYUVOOFpBZUxnMXhsTDd2VGVWci1nd1FlamJIOWk3Vi1ScXR1R2FtVUtVb2FCRDVpY0RkQldsOGdFMjZqRnM0WmU1SExZZWVTSUFvVEo2MmtrSGx6YmI6OzxiPklvZG88L2I-IGVtIFNvbHXDp8OjbyAxMCUgMTAwMCBtTCBORU9OIC0gT3Jpb24gQ2llbnRpZmljQtwBPGI-SW9kbyBlbSBTb2x1w6fDo28gMTAlIDEwMDAgbUwgTkVPTjwvYj4gJm1pZGRvdDsgMXggZGUgUiQgNTU2LDQ3IHNlbSBqdXJvcyAmbWlkZG90OyAyeCBkZSBSJCAyNzgsMjMgc2VtIGp1cm9zICZtaWRkb3Q7IDN4IGRlIFIkIDE4NSw0OSBzZW0ganVyb3MgJm1pZGRvdDsgNHggZGUgUiQgMTUzLDI2ICZtaWRkb3Q7IDV4IGRlIFIkIDEyNCw5NiAmbWlkZG90OyA2eCBkZSZuYnNwOy4uLiICEAFIAFgAaAA",
+        "source": "Orion Cientific"
+      },
+      {
+        "position": 6,
+        "title": "Alimentos ricos em Iodo",
+        "link": "https://www.cuf.pt/mais-saude/alimentos-ricos-em-iodo",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScAHrOzAVGqeRklPuH0S8DH30sOn742onFz1yyjnBWAgk-6L0QLuEpEx9CAhr-DgZQwqBOXz6k4dT_nVtx0VFqslJOoclWWbU5q375PSKyP96st_JmILs3kGxvaOq1TqFvT6YaxAEwbENe_natBC9BzE&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4QFnoECB8QAQ&uoh=1",
+        "displayed_link": "https://www.cuf.pt › + Saúde",
+        "favicon": "https://serpapi.com/images/i/UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQABAAAsBMJagCdLoAAnW7lhRIAPgzXyDvwyRGGjfTr_-bHv2rnKoXrSBza82Ocia1zT9cteLzJKrWwDdefQ5rTAdf9qUQUlqX_xcfcz7cIl12YAA.webp",
+        "date": "19 de ago. de 2019",
+        "snippet": "Laticínios e derivados (uma chávena de leite de vaca contém quase 100 microgramas de iodo, variando, no entanto, consoante o tipo de alimentação ...",
+        "snippet_highlighted_words": [
+          "Laticínios e derivados"
+        ],
+        "about_this_result": {
+          "source": {
+            "description": "Laticínios e derivados (uma chávena de leite de vaca contém quase 100 microgramas de iodo, variando, no entanto, consoante o tipo de alimentação ...",
+            "source_info_link": "https://www.cuf.pt/mais-saude/alimentos-ricos-em-iodo",
+            "icon": "https://serpapi.com/images/i/UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQABAAAsBMJagCdLoAAnW7lhRIAPgzXyDvwyRGGjfTr_-bHv2rnKoXrSBza82Ocia1zT9cteLzJKrWwDdefQ5rTAdf9qUQUlqX_xcfcz7cIl12YAA.webp"
+          },
+          "languages": [
+            "pt"
+          ],
+          "regions": [
+            "BR"
+          ]
+        },
+        "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CqEBL2dvdG8_dXJsPUNBRVNiUUhyT3pBVmcyTW13aEt5ZXBmeTgwY3U4eGtrdkVKYko0REdqS3NaTzhDZHNhS0lsTWJnZzROYUQtdnNXSXF3RTFCbUJDNWZsWF9NbXhCSEtsSXVFeGhYZUg4UDhMZFBCZmd1QlFkSjNyNzJNUk1FNnNpNjVxVk5remtIM1hhQUUyS2xjMGFha1dQMGQ0UnliRU0SBBoCCAAaqwMSABoAIgAqADIGCAISAmJyOgBCBAgBEFJKAFoAcgB6AIJAhwMIDBAAGAAgACoLCgRpb2RvFYDJwEAyoQEvZ290bz91cmw9Q0FFU2JRSHJPekFWZzJNbXdoS3llcGZ5ODBjdTh4a2t2RUpiSjRER2pLc1pPOENkc2FLSWxNYmdnNE5hRC12c1dJcXdFMUJtQkM1ZmxYX01teEJIS2xJdUV4aFhlSDhQOExkUEJmZ3VCUWRKM3I3Mk1STUU2c2k2NXFWTmt6a0gzWGFBRTJLbGMwYWFrV1AwZDRSeWJFTTokQWxpbWVudG9zIHJpY29zIGVtIDxiPklvZG88L2I-IC0gQ1VGQqUBPGI-TGF0aWPDrW5pb3MgZSBkZXJpdmFkb3M8L2I-ICh1bWEgY2jDoXZlbmEgZGUgbGVpdGUgZGUgdmFjYSBjb250w6ltIHF1YXNlIDEwMCBtaWNyb2dyYW1hcyBkZSBpb2RvLCB2YXJpYW5kbywgbm8gZW50YW50bywgY29uc29hbnRlIG8gdGlwbyBkZSBhbGltZW50YcOnw6NvJm5ic3A7Li4uIgIQAUgAWABoAA",
+        "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CqEBL2dvdG8_dXJsPUNBRVNiUUhyT3pBVmcyTW13aEt5ZXBmeTgwY3U4eGtrdkVKYko0REdqS3NaTzhDZHNhS0lsTWJnZzROYUQtdnNXSXF3RTFCbUJDNWZsWF9NbXhCSEtsSXVFeGhYZUg4UDhMZFBCZmd1QlFkSjNyNzJNUk1FNnNpNjVxVk5remtIM1hhQUUyS2xjMGFha1dQMGQ0UnliRU0SBBoCCAAaqwMSABoAIgAqADIGCAISAmJyOgBCBAgBEFJKAFoAcgB6AIJAhwMIDBAAGAAgACoLCgRpb2RvFYDJwEAyoQEvZ290bz91cmw9Q0FFU2JRSHJPekFWZzJNbXdoS3llcGZ5ODBjdTh4a2t2RUpiSjRER2pLc1pPOENkc2FLSWxNYmdnNE5hRC12c1dJcXdFMUJtQkM1ZmxYX01teEJIS2xJdUV4aFhlSDhQOExkUEJmZ3VCUWRKM3I3Mk1STUU2c2k2NXFWTmt6a0gzWGFBRTJLbGMwYWFrV1AwZDRSeWJFTTokQWxpbWVudG9zIHJpY29zIGVtIDxiPklvZG88L2I-IC0gQ1VGQqUBPGI-TGF0aWPDrW5pb3MgZSBkZXJpdmFkb3M8L2I-ICh1bWEgY2jDoXZlbmEgZGUgbGVpdGUgZGUgdmFjYSBjb250w6ltIHF1YXNlIDEwMCBtaWNyb2dyYW1hcyBkZSBpb2RvLCB2YXJpYW5kbywgbm8gZW50YW50bywgY29uc29hbnRlIG8gdGlwbyBkZSBhbGltZW50YcOnw6NvJm5ic3A7Li4uIgIQAUgAWABoAA",
+        "source": "CUF"
+      },
+      {
+        "position": 7,
+        "title": "Em que casos devemos tomar comprimidos de iodo?",
+        "link": "https://www.cuf.pt/mais-saude/em-que-casos-devemos-tomar-comprimidos-de-iodo",
+        "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShwEB6zswFeu_ssbbennlJIVOXSjpgSMURfsEyABj3zC0PYCzVI440q8F0mH2bJ1YV1iedKgnHJ39tbwJYvuw2WFu2hsxMrovH4rhlJl2urpAtvUItGUShBI2TOAZisrku-cIkBXHsPBbRDUo85-cB1hmwVIt-n7Ydv-CUG5ln3QNsqdlIN_e6Ak&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4QFnoECCAQAQ&uoh=1",
+        "displayed_link": "https://www.cuf.pt › + Saúde",
+        "favicon": "https://serpapi.com/images/i/UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQABAAAsBMJagCdLoAAnW7lhRIAPgzXyDvwyRGGjfTr_-bHv2rnKoXrSBza82Ocia1zT9cteLzJKrWwDdefQ5rTAdf9qUQUlqX_xcfcz7cIl12YAA.webp",
+        "date": "28 de abr. de 2022",
+        "snippet": "A grande função da tiroide prende-se com a produção de hormonas, que são libertadas no sangue e chegam a todos os tecidos do nosso corpo.",
+        "about_this_result": {
+          "source": {
+            "description": "A grande função da tiroide prende-se com a produção de hormonas, que são libertadas no sangue e chegam a todos os tecidos do nosso corpo.",
+            "source_info_link": "https://www.cuf.pt/mais-saude/em-que-casos-devemos-tomar-comprimidos-de-iodo",
+            "icon": "https://serpapi.com/images/i/UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQABAAAsBMJagCdLoAAnW7lhRIAPgzXyDvwyRGGjfTr_-bHv2rnKoXrSBza82Ocia1zT9cteLzJKrWwDdefQ5rTAdf9qUQUlqX_xcfcz7cIl12YAA.webp"
+          },
+          "languages": [
+            "pt"
+          ],
+          "regions": [
+            "BR"
+          ]
+        },
+        "about_page_link": "https://www.google.com/search/about-this-result?origin=www.google.com&req=CsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0Zhdk4yUHhRQnBBMWY2QjBtYjBuWUZmUkpUaWk4U3FvaWlfMTRSUE11NnRBZTUxN2FKRmJGb1NWbEozVlByTnV4U0hSaTg3S3ZaZGE0bVRzclphMVB3YklMTkJNeTdMblQ2T1JvbTdyYmM2QnRxWHBQQkZOd3ZxMGV0Y0dQYmR2UjlUZS1zbk50OXNxMkd4MHhZWUY5enhBV0RVZzBoUUFWT09ka3dTLVRZWRIEGgIIABrOAxICCAAaACIAKgAyBggCEgJicjoAQgQIARBSSgBaAHIAegCCQKgDCAwQABgAIAAqCwoEaW9kbxXQNLBAMsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0Zhdk4yUHhRQnBBMWY2QjBtYjBuWUZmUkpUaWk4U3FvaWlfMTRSUE11NnRBZTUxN2FKRmJGb1NWbEozVlByTnV4U0hSaTg3S3ZaZGE0bVRzclphMVB3YklMTkJNeTdMblQ2T1JvbTdyYmM2QnRxWHBQQkZOd3ZxMGV0Y0dQYmR2UjlUZS1zbk50OXNxMkd4MHhZWUY5enhBV0RVZzBoUUFWT09ka3dTLVRZWTo8RW0gcXVlIGNhc29zIGRldmVtb3MgdG9tYXIgY29tcHJpbWlkb3MgZGUgPGI-aW9kbzwvYj4_IC0gQ1VGQo4BQSBncmFuZGUgZnVuw6fDo28gZGEgdGlyb2lkZSBwcmVuZGUtc2UgY29tIGEgcHJvZHXDp8OjbyBkZSBob3Jtb25hcywgcXVlIHPDo28gbGliZXJ0YWRhcyBubyBzYW5ndWUgZSBjaGVnYW0gYSB0b2RvcyBvcyB0ZWNpZG9zIGRvIG5vc3NvIGNvcnBvLiICEAFIAFgAaAA",
+        "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&req_token=CsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0Zhdk4yUHhRQnBBMWY2QjBtYjBuWUZmUkpUaWk4U3FvaWlfMTRSUE11NnRBZTUxN2FKRmJGb1NWbEozVlByTnV4U0hSaTg3S3ZaZGE0bVRzclphMVB3YklMTkJNeTdMblQ2T1JvbTdyYmM2QnRxWHBQQkZOd3ZxMGV0Y0dQYmR2UjlUZS1zbk50OXNxMkd4MHhZWUY5enhBV0RVZzBoUUFWT09ka3dTLVRZWRIEGgIIABrOAxICCAAaACIAKgAyBggCEgJicjoAQgQIARBSSgBaAHIAegCCQKgDCAwQABgAIAAqCwoEaW9kbxXQNLBAMsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0Zhdk4yUHhRQnBBMWY2QjBtYjBuWUZmUkpUaWk4U3FvaWlfMTRSUE11NnRBZTUxN2FKRmJGb1NWbEozVlByTnV4U0hSaTg3S3ZaZGE0bVRzclphMVB3YklMTkJNeTdMblQ2T1JvbTdyYmM2QnRxWHBQQkZOd3ZxMGV0Y0dQYmR2UjlUZS1zbk50OXNxMkd4MHhZWUY5enhBV0RVZzBoUUFWT09ka3dTLVRZWTo8RW0gcXVlIGNhc29zIGRldmVtb3MgdG9tYXIgY29tcHJpbWlkb3MgZGUgPGI-aW9kbzwvYj4_IC0gQ1VGQo4BQSBncmFuZGUgZnVuw6fDo28gZGEgdGlyb2lkZSBwcmVuZGUtc2UgY29tIGEgcHJvZHXDp8OjbyBkZSBob3Jtb25hcywgcXVlIHPDo28gbGliZXJ0YWRhcyBubyBzYW5ndWUgZSBjaGVnYW0gYSB0b2RvcyBvcyB0ZWNpZG9zIGRvIG5vc3NvIGNvcnBvLiICEAFIAFgAaAA",
+        "source": "CUF"
+      }
+    ],
+    "related_searches": [
+      {
+        "block_position": 1,
+        "query": "Para que serve o iodo",
+        "link": "https://www.google.com/search?sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&q=Para+que+serve+o+iodo&sa=X&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q1QJ6BAg9EAE",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=Para+que+serve+o+iodo"
+      },
+      {
+        "block_position": 1,
+        "query": "Iodo remedio",
+        "link": "https://www.google.com/search?sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&q=Iodo+remedio&sa=X&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q1QJ6BAhLEAE",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=Iodo+remedio"
+      },
+      {
+        "block_position": 1,
+        "query": "Iodo para tomar",
+        "link": "https://www.google.com/search?sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&q=Iodo+para+tomar&sa=X&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q1QJ6BAhJEAE",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=Iodo+para+tomar"
+      },
+      {
+        "block_position": 1,
+        "query": "Tintura de iodo serve para que",
+        "link": "https://www.google.com/search?sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&q=Tintura+de+iodo+serve+para+que&sa=X&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q1QJ6BAhGEAE",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=Tintura+de+iodo+serve+para+que"
+      },
+      {
+        "block_position": 1,
+        "query": "Para que serve iodo líquido",
+        "link": "https://www.google.com/search?sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&q=Para+que+serve+iodo+l%C3%ADquido&sa=X&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q1QJ6BAhFEAE",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=Para+que+serve+iodo+l%C3%ADquido"
+      },
+      {
+        "block_position": 1,
+        "query": "Suplemento de iodo",
+        "link": "https://www.google.com/search?sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&q=Suplemento+de+iodo&sa=X&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q1QJ6BAhEEAE",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=Suplemento+de+iodo"
+      },
+      {
+        "block_position": 1,
+        "query": "Iodo preço",
+        "link": "https://www.google.com/search?sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&q=Iodo+pre%C3%A7o&sa=X&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q1QJ6BAhBEAE",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=Iodo+pre%C3%A7o"
+      },
+      {
+        "block_position": 1,
+        "query": "Iodo onde comprar",
+        "link": "https://www.google.com/search?sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&q=Iodo+onde+comprar&sa=X&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q1QJ6BAhAEAE",
+        "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=Iodo+onde+comprar"
+      }
+    ],
+    "pagination": {
+      "current": 1,
+      "next": "https://www.google.com/search?q=iodo&sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&ei=HjPWatzECICW5OMP9pjU8Qk&start=10&sa=N&sstk=AS6-VmK7kEracfeTg0nK23N7LDJRGoNreVCauX_v4xYntj8vcbBxwjPmyvOX95GaTD-fuNlHVEcyCs8B19--O_6CHLPcxpseIn55vA&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q8NMDegQIORAW",
+      "other_pages": {
+        "2": "https://www.google.com/search?q=iodo&sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&ei=HjPWatzECICW5OMP9pjU8Qk&start=10&sa=N&sstk=AS6-VmK7kEracfeTg0nK23N7LDJRGoNreVCauX_v4xYntj8vcbBxwjPmyvOX95GaTD-fuNlHVEcyCs8B19--O_6CHLPcxpseIn55vA&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q8tMDegQIORAE",
+        "3": "https://www.google.com/search?q=iodo&sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&ei=HjPWatzECICW5OMP9pjU8Qk&start=20&sa=N&sstk=AS6-VmK7kEracfeTg0nK23N7LDJRGoNreVCauX_v4xYntj8vcbBxwjPmyvOX95GaTD-fuNlHVEcyCs8B19--O_6CHLPcxpseIn55vA&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q8tMDegQIORAG",
+        "4": "https://www.google.com/search?q=iodo&sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&ei=HjPWatzECICW5OMP9pjU8Qk&start=30&sa=N&sstk=AS6-VmK7kEracfeTg0nK23N7LDJRGoNreVCauX_v4xYntj8vcbBxwjPmyvOX95GaTD-fuNlHVEcyCs8B19--O_6CHLPcxpseIn55vA&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q8tMDegQIORAI",
+        "5": "https://www.google.com/search?q=iodo&sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&ei=HjPWatzECICW5OMP9pjU8Qk&start=40&sa=N&sstk=AS6-VmK7kEracfeTg0nK23N7LDJRGoNreVCauX_v4xYntj8vcbBxwjPmyvOX95GaTD-fuNlHVEcyCs8B19--O_6CHLPcxpseIn55vA&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q8tMDegQIORAK",
+        "6": "https://www.google.com/search?q=iodo&sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&ei=HjPWatzECICW5OMP9pjU8Qk&start=50&sa=N&sstk=AS6-VmK7kEracfeTg0nK23N7LDJRGoNreVCauX_v4xYntj8vcbBxwjPmyvOX95GaTD-fuNlHVEcyCs8B19--O_6CHLPcxpseIn55vA&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q8tMDegQIORAM",
+        "7": "https://www.google.com/search?q=iodo&sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&ei=HjPWatzECICW5OMP9pjU8Qk&start=60&sa=N&sstk=AS6-VmK7kEracfeTg0nK23N7LDJRGoNreVCauX_v4xYntj8vcbBxwjPmyvOX95GaTD-fuNlHVEcyCs8B19--O_6CHLPcxpseIn55vA&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q8tMDegQIORAO",
+        "8": "https://www.google.com/search?q=iodo&sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&ei=HjPWatzECICW5OMP9pjU8Qk&start=70&sa=N&sstk=AS6-VmK7kEracfeTg0nK23N7LDJRGoNreVCauX_v4xYntj8vcbBxwjPmyvOX95GaTD-fuNlHVEcyCs8B19--O_6CHLPcxpseIn55vA&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q8tMDegQIORAQ",
+        "9": "https://www.google.com/search?q=iodo&sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&ei=HjPWatzECICW5OMP9pjU8Qk&start=80&sa=N&sstk=AS6-VmK7kEracfeTg0nK23N7LDJRGoNreVCauX_v4xYntj8vcbBxwjPmyvOX95GaTD-fuNlHVEcyCs8B19--O_6CHLPcxpseIn55vA&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q8tMDegQIORAS",
+        "10": "https://www.google.com/search?q=iodo&sca_esv=a8711fe2d75e193e&gl=br&hl=pt-br&sxsrf=APpeQntucW2WwTDMxQau68qq3oBtfd5GMg:1792422686147&ei=HjPWatzECICW5OMP9pjU8Qk&start=90&sa=N&sstk=AS6-VmK7kEracfeTg0nK23N7LDJRGoNreVCauX_v4xYntj8vcbBxwjPmyvOX95GaTD-fuNlHVEcyCs8B19--O_6CHLPcxpseIn55vA&ved=2ahUKEwjcy_rrrsaXAxUAC3kGHXYMNZ4Q8tMDegQIORAU"
+      }
+    },
+    "serpapi_pagination": {
+      "current": 1,
+      "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=iodo&start=10",
+      "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=iodo&start=10",
+      "other_pages": {
+        "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=iodo&start=10",
+        "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=iodo&start=20",
+        "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=iodo&start=30",
+        "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=iodo&start=40",
+        "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=iodo&start=50",
+        "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=iodo&start=60",
+        "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=iodo&start=70",
+        "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=iodo&start=80",
+        "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=br&google_domain=google.com&hl=pt-br&q=iodo&start=90"
+      }
+    }
+  }
+}
