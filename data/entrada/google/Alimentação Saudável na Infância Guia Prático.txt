@@ -1,7 +1,7 @@
 PALAVRA_CHAVE: Alimentação Saudável na Infância
 TITLE: Alimentação Saudável na Infância: Guia Prático
 DESCRIPTION: Como montar um prato equilibrado para crianças: porções por idade, lancheira segura, açúcar antes dos 2 anos e seletividade alimentar.
-CAPA_ALT: ${foto.alt || termoBusca}
+CAPA_ALT: Alimentação Saudável na Infância: Guia Prático
 CAPA_URL: https://images.pexels.com/photos/19773932/pexels-photo-19773932.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
 CAPA_ID: 19773932
 CAPA_CREDITO: Jonathan Borba | https://www.pexels.com/photo/smiling-mother-cooking-with-son-19773932/ | Pexels

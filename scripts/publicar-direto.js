@@ -50,6 +50,11 @@ function gravarCampo(cab, chave, valor) {
 // Instante real da publicação, em UTC. A página mostra em horário de Brasília
 // (src/lib/formato.ts), então a data e a hora exibidas são as do momento em que o artigo subiu.
 const agoraISO = () => new Date().toISOString();
+// Crédito válido = "Autor | página | Fonte". Autor que é um endereço (ex.: "https://kaboompics.com/") não identifica o fotógrafo.
+const creditoValido = (c) => {
+  const partes = (c || '').split('|').map((p) => p.trim()).filter(Boolean);
+  return partes.length >= 3 && !/^https?:\/\//i.test(partes[0]);
+};
 // Mesmo slug que src/lib/artigos-diretos.ts gera: o endereço real da página.
 const slugDoArquivo = (arquivo) => arquivo.replace(/\.txt$/i, '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -101,19 +106,24 @@ for (const alvo of fila) {
   console.log(`\n──── publicando: ${alvo.arquivo}`);
 
   const kw = campo(alvo.cab, 'PALAVRA_CHAVE') || alvo.arquivo.replace(/\.txt$/, '');
-  const alt = campo(alvo.cab, 'CAPA_ALT') || campo(alvo.cab, 'TITLE') || kw;
+  // CAPA_ALT com ${...} é modelo não preenchido (ex.: "${foto.alt || termoBusca}"): usa o título.
+  const altCab = campo(alvo.cab, 'CAPA_ALT') || '';
+  const altInvalido = /\$\{/.test(altCab);
+  const alt = (!altInvalido && altCab) || campo(alvo.cab, 'TITLE') || kw;
   const idAtual = campo(alvo.cab, 'CAPA_ID') || campo(alvo.cab, 'CAPA_PEXELS_ID') || '';
   const urlAtual = campo(alvo.cab, 'CAPA_URL');
   const creditoAtual = campo(alvo.cab, 'CAPA_CREDITO');
+  const creditoOk = creditoValido(creditoAtual);
 
-  // Busca a foto quando falta imagem ou crédito. Com CAPA_ID já no cabeçalho, a consulta é
-  // pelo próprio id (buscarFoto trata os dois casos) e serve só para trazer o crédito.
+  // Busca a foto quando falta a imagem, ou quando o crédito não tem fotógrafo e há CAPA_ID para
+  // consultar de novo. Com CAPA_ID no cabeçalho, a consulta é pelo próprio id (buscarFoto trata os dois casos).
   let foto = null;
-  if (!urlAtual || !creditoAtual) {
+  if (!urlAtual || (!creditoOk && /^\d+$/.test(idAtual))) {
     try {
       foto = await robot.buscarFoto(buscaDoAlt(alt, kw), null, new Set(), /^\d+$/.test(idAtual) ? idAtual : null);
     } catch (e) { console.log(`  ⚠️  busca de foto: ${e.message}`); }
   }
+  if (urlAtual && !creditoOk && !foto) console.log('  ⚠️  CAPA_CREDITO sem fotógrafo e sem CAPA_ID para consultar: confira o crédito antes do deploy.');
 
   if (!foto && !urlAtual && !/^\d+$/.test(idAtual)) {
     falhas.push({ arquivo: alvo.arquivo, motivo: 'sem foto de capa (nenhum banco de fotos devolveu imagem e o cabeçalho não traz CAPA_ID/CAPA_URL)' });
@@ -122,6 +132,7 @@ for (const alvo of fila) {
   }
 
   let cab = alvo.cab;
+  if (altInvalido) { cab = gravarCampo(cab, 'CAPA_ALT', alt); console.log(`  ✏️  CAPA_ALT tinha modelo sem preencher: usando "${alt}"`); }
   if (foto) {
     cab = gravarCampo(cab, 'CAPA_URL', foto.url);
     const pexels = String(foto.id).match(/^pexels:(\d+)$/);
