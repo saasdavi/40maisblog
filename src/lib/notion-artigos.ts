@@ -113,7 +113,10 @@ async function carregarDoNotion(): Promise<ArtigoDireto[]> {
         const fila = await pedir(`${NOTION}/pages/${id}`, 'GET');
         const conteudo = texto(fila.properties?.['Conteúdo TXT completo']?.rich_text);
         const palavra = texto(props['Palavra-chave']?.rich_text) || id;
-        const data: string | undefined = props['Data']?.date?.start;
+        // Data + Horário com o fuso de Brasília. Só a data viraria meia-noite UTC e apareceria no dia anterior.
+        const dia: string | undefined = props['Data']?.date?.start;
+        const hora: string = props['Horário']?.select?.name || '00:00';
+        const data = dia ? `${dia}T${hora}:00-03:00` : undefined;
         const artigo = parseArtigoTexto(conteudo, `${palavra}.txt`, data, 'notion');
         if (!artigo) continue;
         // Sem CAPA no texto, busca foto pela palavra-chave (Pexels, Pixabay, Unsplash). Sem foto, o artigo não entra.
