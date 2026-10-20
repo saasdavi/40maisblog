@@ -47,6 +47,56 @@ async function linhasDoCalendario() {
   return linhas;
 }
 
+// Foto de capa pela palavra-chave, tentando Pexels, Pixabay e Unsplash nessa ordem.
+// Cada API só é usada se a chave correspondente existir (PEXELS_API_KEY, PIXABAY_API_KEY, UNSPLASH_ACCESS_KEY).
+// Sem nenhuma foto, o artigo não entra no site.
+const CHAVE_PEXELS = (process.env.PEXELS_API_KEY || '').trim();
+const CHAVE_PIXABAY = (process.env.PIXABAY_API_KEY || '').trim();
+const CHAVE_UNSPLASH = (process.env.UNSPLASH_ACCESS_KEY || '').trim();
+
+type Foto = NonNullable<ArtigoDireto['imageCredit']> & { imagem: string };
+
+async function fotoPexels(palavra: string): Promise<Foto | null> {
+  if (!CHAVE_PEXELS) return null;
+  const url = `https://api.pexels.com/v1/search?query=${encodeURIComponent(palavra)}&per_page=1&orientation=landscape&locale=pt-BR`;
+  const foto = (await (await fetch(url, { headers: { Authorization: CHAVE_PEXELS } })).json()).photos?.[0];
+  if (!foto) return null;
+  return { imagem: foto.src?.large2x || foto.src?.large, author: foto.photographer, url: foto.photographer_url, source: 'Pexels' };
+}
+
+async function fotoPixabay(palavra: string): Promise<Foto | null> {
+  if (!CHAVE_PIXABAY) return null;
+  const url = `https://pixabay.com/api/?key=${encodeURIComponent(CHAVE_PIXABAY)}&q=${encodeURIComponent(palavra)}&lang=pt&image_type=photo&orientation=horizontal&per_page=3&safesearch=true`;
+  const foto = (await (await fetch(url)).json()).hits?.[0];
+  if (!foto) return null;
+  return { imagem: foto.largeImageURL, author: foto.user, url: foto.pageURL, source: 'Pixabay' };
+}
+
+async function fotoUnsplash(palavra: string): Promise<Foto | null> {
+  if (!CHAVE_UNSPLASH) return null;
+  const url = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(palavra)}&per_page=1&orientation=landscape`;
+  const foto = (await (await fetch(url, { headers: { Authorization: `Client-ID ${CHAVE_UNSPLASH}` } })).json()).results?.[0];
+  if (!foto) return null;
+  // Regra do Unsplash: avisar o download da foto ao usá-la.
+  await fetch(foto.links.download_location, { headers: { Authorization: `Client-ID ${CHAVE_UNSPLASH}` } });
+  return { imagem: foto.urls.regular, author: foto.user.name, url: foto.user.links.html, source: 'Unsplash' };
+}
+
+async function preencherCapa(artigo: ArtigoDireto, palavra: string) {
+  for (const buscar of [fotoPexels, fotoPixabay, fotoUnsplash]) {
+    try {
+      const foto = await buscar(palavra);
+      if (!foto) continue;
+      artigo.featuredImage = foto.imagem;
+      artigo.imageAlt = artigo.title;
+      artigo.imageCredit = { author: foto.author, url: foto.url, source: foto.source };
+      return;
+    } catch (erro) {
+      console.warn(`Busca de foto falhou para "${palavra}":`, erro);
+    }
+  }
+}
+
 async function carregarDoNotion(): Promise<ArtigoDireto[]> {
   if (!CHAVE) {
     console.warn('NOTION_API_KEY ausente: build sem artigos do Notion.');
@@ -65,8 +115,10 @@ async function carregarDoNotion(): Promise<ArtigoDireto[]> {
         const palavra = texto(props['Palavra-chave']?.rich_text) || id;
         const data: string | undefined = props['Data']?.date?.start;
         const artigo = parseArtigoTexto(conteudo, `${palavra}.txt`, data, 'notion');
-        // Só entra com foto, como combinado.
-        if (artigo && artigo.featuredImage) artigos.push(artigo);
+        if (!artigo) continue;
+        // Sem CAPA no texto, busca foto pela palavra-chave (Pexels, Pixabay, Unsplash). Sem foto, o artigo não entra.
+        if (!artigo.featuredImage) await preencherCapa(artigo, palavra);
+        if (artigo.featuredImage) artigos.push(artigo);
       } catch (erro) {
         console.warn('Artigo do calendário ignorado:', erro);
       }
