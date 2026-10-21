@@ -47,54 +47,20 @@ async function linhasDoCalendario() {
   return linhas;
 }
 
-// Foto de capa pela palavra-chave, tentando Pexels, Pixabay e Unsplash nessa ordem.
-// Cada API só é usada se a chave correspondente existir (PEXELS_API_KEY, PIXABAY_API_KEY, UNSPLASH_ACCESS_KEY).
-// Sem nenhuma foto, o artigo não entra no site.
-const CHAVE_PEXELS = (process.env.PEXELS_API_KEY || '').trim();
-const CHAVE_PIXABAY = (process.env.PIXABAY_API_KEY || '').trim();
-const CHAVE_UNSPLASH = (process.env.UNSPLASH_ACCESS_KEY || '').trim();
-
-type Foto = NonNullable<ArtigoDireto['imageCredit']> & { imagem: string };
-
-async function fotoPexels(palavra: string): Promise<Foto | null> {
-  if (!CHAVE_PEXELS) return null;
-  const url = `https://api.pexels.com/v1/search?query=${encodeURIComponent(palavra)}&per_page=1&orientation=landscape&locale=pt-BR`;
-  const foto = (await (await fetch(url, { headers: { Authorization: CHAVE_PEXELS } })).json()).photos?.[0];
-  if (!foto) return null;
-  return { imagem: foto.src?.large2x || foto.src?.large, author: foto.photographer, url: foto.photographer_url, source: 'Pexels' };
-}
-
-async function fotoPixabay(palavra: string): Promise<Foto | null> {
-  if (!CHAVE_PIXABAY) return null;
-  const url = `https://pixabay.com/api/?key=${encodeURIComponent(CHAVE_PIXABAY)}&q=${encodeURIComponent(palavra)}&lang=pt&image_type=photo&orientation=horizontal&per_page=3&safesearch=true`;
-  const foto = (await (await fetch(url)).json()).hits?.[0];
-  if (!foto) return null;
-  return { imagem: foto.largeImageURL, author: foto.user, url: foto.pageURL, source: 'Pixabay' };
-}
-
-async function fotoUnsplash(palavra: string): Promise<Foto | null> {
-  if (!CHAVE_UNSPLASH) return null;
-  const url = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(palavra)}&per_page=1&orientation=landscape`;
-  const foto = (await (await fetch(url, { headers: { Authorization: `Client-ID ${CHAVE_UNSPLASH}` } })).json()).results?.[0];
-  if (!foto) return null;
-  // Regra do Unsplash: avisar o download da foto ao usá-la.
-  await fetch(foto.links.download_location, { headers: { Authorization: `Client-ID ${CHAVE_UNSPLASH}` } });
-  return { imagem: foto.urls.regular, author: foto.user.name, url: foto.user.links.html, source: 'Unsplash' };
-}
-
-async function preencherCapa(artigo: ArtigoDireto, palavra: string) {
-  for (const buscar of [fotoPexels, fotoPixabay, fotoUnsplash]) {
-    try {
-      const foto = await buscar(palavra);
-      if (!foto) continue;
-      artigo.featuredImage = foto.imagem;
-      artigo.imageAlt = artigo.title;
-      artigo.imageCredit = { author: foto.author, url: foto.url, source: foto.source };
-      return;
-    } catch (erro) {
-      console.warn(`Busca de foto falhou para "${palavra}":`, erro);
-    }
+// Capa vem pronta do Notion: campos "Capa URL" (link https) e "Capa crédito" (JSON com author, url, source).
+// A busca de foto (Pexels, Pixabay, Unsplash) roda no Activepieces, na aprovação, e não aqui.
+// O build só lê os campos: nenhuma chamada de API de imagem, então o deploy não pesa.
+function capaDoCalendario(props: Record<string, any>): Pick<ArtigoDireto, 'featuredImage' | 'imageCredit'> | null {
+  const url: string = props['Capa URL']?.url || '';
+  if (!/^https:\/\//.test(url)) return null;
+  let credito: ArtigoDireto['imageCredit'];
+  try {
+    const c = JSON.parse(texto(props['Capa crédito']?.rich_text));
+    if (c?.author && c?.source) credito = { author: c.author, url: c.url || '', source: c.source };
+  } catch {
+    credito = undefined;
   }
+  return { featuredImage: url, imageCredit: credito };
 }
 
 async function carregarDoNotion(): Promise<ArtigoDireto[]> {
@@ -119,9 +85,16 @@ async function carregarDoNotion(): Promise<ArtigoDireto[]> {
         const data = dia ? `${dia}T${hora}:00-03:00` : undefined;
         const artigo = parseArtigoTexto(conteudo, `${palavra}.txt`, data, 'notion');
         if (!artigo) continue;
-        // Sem CAPA no texto, busca foto pela palavra-chave (Pexels, Pixabay, Unsplash). Sem foto, o artigo não entra.
-        if (!artigo.featuredImage) await preencherCapa(artigo, palavra);
-        if (artigo.featuredImage) artigos.push(artigo);
+        // Sem CAPA no texto, usa a capa já gravada no Notion. Sem capa, o artigo não entra.
+        if (!artigo.featuredImage) {
+          const capa = capaDoCalendario(props);
+          if (!capa) {
+            console.warn(`Artigo "${palavra}" sem capa no Notion (Capa URL vazia): fica de fora até o Activepieces preencher.`);
+            continue;
+          }
+          Object.assign(artigo, capa, { imageAlt: artigo.title });
+        }
+        artigos.push(artigo);
       } catch (erro) {
         console.warn('Artigo do calendário ignorado:', erro);
       }
